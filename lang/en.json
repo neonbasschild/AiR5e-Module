@@ -1,0 +1,409 @@
+{
+  "ROKUGAN": {
+    "Settings": {
+      "UseRokuganTerminology": "Use Rokugan Terminology",
+      "UseRokuganTerminologyHint": "Replace standard D&D 5e terminology with Adventures in Rokugan equivalents (Spells → Invocations/Techniques, Spell Slots → Favor/Focus, etc.).",
+      "HideNonRokuganContent": "Hide Non-Rokugan Content",
+      "HideNonRokuganContentHint": "Hide non-Rokugan content from the system (electrum/platinum coins, etc.).",
+      "AutoSpendResources": "Automatic Resource Spending",
+      "AutoSpendResourcesHint": "Automatically spend Favor/Focus when an Invocation or Technique item is used.",
+      "PromptEmpowerments": "Prompt for Empowerments",
+      "PromptEmpowermentsHint": "After using an Invocation or variable-cost Technique, prompt for additional Favor/Focus to spend on empowerments.",
+      "AutomateCombatFocus": "Automate Focus in Combat",
+      "AutomateCombatFocusHint": "Reset Focus to 0 at combat start/end and grant +1 Focus at the end of each turn (stance bonuses must still be added manually)."
+    },
+    "Class": {
+      "Bushi": "Bushi",
+      "Duelist": "Duelist",
+      "Courtier": "Courtier",
+      "Shinobi": "Shinobi",
+      "Ritualist": "Ritualist",
+      "Pilgrim": "Pilgrim",
+      "Acolyte": "Acolyte"
+    },
+    "Subclass": {
+      "Bushi": {
+        "HidaDefender": "Hida Defender",
+        "HiramaScout": "Hiruma Scout",
+        "KaiuEngineer": "Kaiu Engineer",
+        "DaidojiIronWarrior": "Daidoji Iron Warrior",
+        "MirumotoSwordmaster": "Mirumoto Swordmaster",
+        "AkodoWarCollege": "Akodo War College",
+        "ShibaProtector": "Shiba Protector",
+        "BayushiBully": "Bayushi Bully",
+        "ShinjoOutrider": "Shinjo Outrider"
+      },
+      "Duelist": {
+        "KakitaDuelist": "Kakita Duelist",
+        "IaijutsuMaster": "Iaijutsu Master",
+        "ArcheryMaster": "Archery Master"
+      },
+      "Courtier": {
+        "DojiAmbassador": "Doji Ambassador",
+        "ImperialHerald": "Imperial Herald",
+        "YasukiMerchant": "Yasuki Merchant"
+      },
+      "Shinobi": {
+        "ScorpionShadow": "Scorpion Shadow",
+        "ShadowBrand": "Shadow Brand",
+        "Kunoichi": "Kunoichi"
+      },
+      "Ritualist": {
+        "IsawaShugenja": "Isawa Shugenja",
+        "KuniPurifier": "Kuni Purifier",
+        "AgashaMystic": "Agasha Mystic",
+        "KitsuSodan": "Kitsu Sodan"
+      },
+      "Pilgrim": {
+        "TogashiTattooed": "Togashi Tattooed Order",
+        "FortuneSeekerMonk": "Fortune Seeker",
+        "EnlightenedFist": "Enlightened Fist"
+      },
+      "Acolyte": {
+        "TogashiOrder": "Togashi Tattooed Order",
+        "ShadowBrandAgent": "Shadow Brand Agent",
+        "CelestialMark": "Celestial Mark"
+      }
+    },
+    "Species": {
+      "Human": "Human",
+      "Naga": "Naga",
+      "Nezumi": "Nezumi",
+      "Mazoku": "Mazoku",
+      "Specter": "Specter",
+      "Tengu": "Tengu",
+      "AnimalYokai": "Animal Yōkai",
+      "UniqueExistence": "Unique Existence"
+    },
+    "Background": {
+      "CrabDefender": "Crab Clan – Defender",
+      "CrabEngineer": "Crab Clan – Engineer",
+      "CraneDiplomat": "Crane Clan – Diplomat",
+      "CraneArtisan": "Crane Clan – Artisan",
+      "DragonMonk": "Dragon Clan – Monk",
+      "DragonMystic": "Dragon Clan – Mystic",
+      "LionSoldier": "Lion Clan – Soldier",
+      "LionHistorian": "Lion Clan – Historian",
+      "PhoenixScholar": "Phoenix Clan – Scholar",
+      "PhoenixRitualist": "Phoenix Clan – Ritualist",
+      "ScorpionSpy": "Scorpion Clan – Spy",
+      "ScorpionCourtier": "Scorpion Clan – Courtier",
+      "UnicornRider": "Unicorn Clan – Rider",
+      "UnicornScout": "Unicorn Clan – Scout",
+      "ImperialHerald": "Imperial Court – Herald",
+      "ImperialMagistrate": "Imperial Court – Magistrate",
+      "MinorClanSamurai": "Minor Clan – Samurai",
+      "MonasteryPilgrim": "Monastery – Pilgrim",
+      "Merchant": "Commoner – Merchant",
+      "Farmer": "Commoner – Farmer",
+      "Artisan": "Commoner – Artisan",
+      "IvoryKingdoms": "Non-Rokugani – Ivory Kingdoms",
+      "BurningSands": "Non-Rokugani – Burning Sands",
+      "NagaWanderer": "Naga – Wanderer",
+      "NezumiWarrener": "Nezumi – Warrener",
+      "TenguEmissary": "Tengu – Emissary"
+    },
+    "Currency": {
+      "Zeni": "Zeni",
+      "ZeniAbbr": "zeni",
+      "Bu": "Bu",
+      "BuAbbr": "bu",
+      "Koku": "Koku",
+      "KokuAbbr": "koku"
+    },
+    "Armor": {
+      "ConcealedArmor": "Concealed Armor",
+      "SharkLeatherArmor": "Shark Leather Armor",
+      "SilkArmor": "Silk Armor",
+      "AnimalHideArmor": "Animal-hide Armor",
+      "FieldGear": "Field Gear",
+      "LacqueredArmor": "Lacquered Armor",
+      "SegmentedPlate": "Segmented Plate",
+      "RoundShield": "Round Shield",
+      "WallShield": "Wall Shield",
+      "ResplendentRegalia": "Resplendent Regalia (Outfit)",
+      "SanctifiedVestments": "Sanctified Vestments (Outfit)",
+      "TravelingClothes": "Traveling Clothes (Outfit)",
+      "UnremarkableGarb": "Unremarkable Garb (Outfit)"
+    },
+    "Weapon": {
+      "CarpenterHammer": "Carpenter's Hammer",
+      "Knife": "Knife",
+      "Nunchaku": "Nunchaku",
+      "Quarterstaff": "Quarterstaff",
+      "Sickle": "Sickle",
+      "Spear": "Spear",
+      "Swordbreaker": "Swordbreaker (Jitte)",
+      "ThreeSectionStaff": "Three-Section Staff",
+      "TigerHookSwords": "Tiger Hook Swords",
+      "Bisento": "Bisento",
+      "Katana": "Katana",
+      "Nodachi": "Nodachi",
+      "Naginata": "Naginata",
+      "TridentPolearm": "Trident Polearm",
+      "Wakizashi": "Wakizashi",
+      "Warspear": "Warspear (Yari)",
+      "WhipSword": "Whip Sword (Urumi)",
+      "Tonfa": "Tonfa",
+      "Kusarigama": "Kusarigama",
+      "Ballista": "Ballista",
+      "Blowgun": "Blowgun",
+      "Crossbow": "Crossbow",
+      "Greatbow": "Greatbow (Daikyū)",
+      "HeavyCrossbow": "Heavy Crossbow",
+      "Longbow": "Longbow (Yumi)",
+      "RepeatingCrossbow": "Repeating Crossbow",
+      "ShinjoHorsebow": "Shinjo Horsebow",
+      "Shuriken": "Shuriken",
+      "Kunai": "Kunai",
+      "SmokeBomb": "Smoke Bomb",
+      "Caltrops": "Caltrops"
+    },
+    "WeaponProperty": {
+      "Paired": "Paired",
+      "PairedAbbr": "Paired",
+      "Ceremonial": "Ceremonial",
+      "CeremonialAbbr": "Cerem.",
+      "Awakened": "Awakened",
+      "AwakenedAbbr": "Awake."
+    },
+    "Technique": {
+      "Type": {
+        "Strike": "Strike",
+        "Kata": "Kata",
+        "Kiho": "Kihō",
+        "Ninjutsu": "Ninjutsu"
+      }
+    },
+    "Invocation": {
+      "Element": {
+        "Air": "Air",
+        "Earth": "Earth",
+        "Fire": "Fire",
+        "Water": "Water",
+        "Any": "Any Element"
+      },
+      "Tier": {
+        "0": "Tier 0",
+        "1": "Tier 1",
+        "2": "Tier 2",
+        "3": "Tier 3"
+      },
+      "Type": {
+        "Augmentation": "Augmentation",
+        "Mending": "Mending",
+        "Purification": "Purification",
+        "Scrying": "Scrying",
+        "Smite": "Smite",
+        "Summoning": "Summoning"
+      }
+    },
+    "Condition": {
+      "Disoriented": "Disoriented",
+      "DisorientedDesc": "Cannot make opportunity attacks until the end of the afflicting creature's next turn.",
+      "Compromised": "Compromised",
+      "CompromisedDesc": "Suffers penalties to certain actions due to wounds, exhaustion, or loss of focus.",
+      "Miserable": "Miserable",
+      "MiserableDesc": "Suffering heavy shadow or social failures. Imposes disadvantage on certain Charisma checks.",
+      "Anguished": "Anguished",
+      "AnguishedDesc": "Deep psychological or spiritual crisis. Imposes disadvantage on Wisdom saving throws.",
+      "MarkedForDeath": "Marked for Death",
+      "MarkedForDeathDesc": "The next successful melee attack by the marking creature deals an additional 1d8 force damage.",
+      "Bleeding": "Bleeding",
+      "BleedingDesc": "Takes 1d4 piercing damage at the start of each of its turns; removed after it regains HP."
+    },
+    "Language": {
+      "Rokugani": "Rokugani",
+      "Nezumi": "Nezumi",
+      "Naganese": "Naga",
+      "TenguSpeech": "Tengu Speech",
+      "IvoryKingdoms": "Ivory Kingdoms Trade Tongue",
+      "BurningSands": "Burning Sands",
+      "Celestial": "Celestial (Spirit Speech)",
+      "RokuganiSigned": "Rokugani (Signed)"
+    },
+    "Clan": {
+      "None": "— No Clan —",
+      "Crab": "Crab Clan",
+      "Crane": "Crane Clan",
+      "Dragon": "Dragon Clan",
+      "Lion": "Lion Clan",
+      "Phoenix": "Phoenix Clan",
+      "Scorpion": "Scorpion Clan",
+      "Unicorn": "Unicorn Clan",
+      "Imperial": "Imperial Families",
+      "MinorClans": "Minor Clans",
+      "Ronin": "Rōnin (Clanless)"
+    },
+    "CreatureType": {
+      "Spirit": "Spirit",
+      "Oni": "Oni",
+      "Mazoku": "Mazoku",
+      "Yokai": "Yōkai"
+    },
+    "DamageType": {
+      "Void": "Void"
+    },
+    "Tool": {
+      "Shamisen": "Shamisen",
+      "Biwa": "Biwa",
+      "Shakuhachi": "Shakuhachi",
+      "Taiko": "Taiko Drum",
+      "Koto": "Koto",
+      "Calligrapher": "Calligrapher's Supplies",
+      "Origami": "Origami Supplies",
+      "TeaCeremony": "Tea Ceremony Implements",
+      "Ikebana": "Ikebana Supplies",
+      "Shogi": "Shōgi Set",
+      "Go": "Go Set"
+    },
+    "Tools": {
+      "RokuganTools": "Rokugan Tools & Arts"
+    },
+    "Motivation": {
+      "Bond": "Bond",
+      "BondPlaceholder": "A person, place, or thing you are connected to…",
+      "Desire": "Desire",
+      "DesirePlaceholder": "Something you want or yearn for…",
+      "Duty": "Duty",
+      "DutyPlaceholder": "An obligation you are committed to fulfilling…",
+      "Fear": "Fear",
+      "FearPlaceholder": "A misapprehension or terror that drives your behavior…",
+      "Ideal": "Ideal",
+      "IdealPlaceholder": "A philosophy or principle you uphold…",
+      "Regret": "Regret",
+      "RegretPlaceholder": "A past action or failure that weighs on you…"
+    },
+    "Sheet": {
+      "ClanAffiliation": "Clan Affiliation",
+      "Clan": "Clan",
+      "SocialStanding": "Social Standing",
+      "Honor": "Honor",
+      "Glory": "Glory",
+      "Status": "Status",
+      "ShadowTaint": "Shadow / Taint",
+      "ShadowTaintHint": "Track corruption from the Shadowlands or other dark forces.",
+      "Shadow": "Shadow Points",
+      "Motivations": "Motivations",
+      "MotivationsHint": "Motivations replace Personality Traits, Ideals, Bonds, and Flaws from standard D&D 5e.",
+      "CharacterSheetLabel": "Rokugan Character Sheet"
+    },
+    "Realm": {
+      "NingenDo": "Ningen-dō (Mortal Realm)",
+      "Tengoku": "Tengoku (Celestial Court)",
+      "Yomi": "Yomi (Realm of Blessed Ancestors)",
+      "Senkyo": "Senkyō (Enchanted Country)",
+      "YumeDo": "Yume-dō (Realm of Dreams)",
+      "RealmOfWaiting": "Realm of Waiting",
+      "RealmOfHungryDead": "Realm of the Hungry Dead",
+      "RealmOfSlaughter": "Realm of Slaughter",
+      "RealmOfTorment": "Realm of Torment (Fu Leng's Domain)"
+    },
+    "UI": {
+      "Confirm": "Confirm",
+      "Cancel": "Cancel"
+    },
+    "Focus": {
+      "Focus": "Focus",
+      "Level": "Level",
+      "Techniques": "Techniques Known",
+      "Spend": "Spend 1 Focus",
+      "Gain": "Gain 1 Focus",
+      "Reset": "Reset",
+      "TurnEnd": "Turn End",
+      "EncounterNote": "Focus starts at 0 each encounter, +1 at the end of each of your turns (plus stance bonuses), and unspent Focus is lost when the encounter ends.",
+      "ResetNotif": "Focus reset to 0.",
+      "GainedOnTurnEnd": "Gained 1 Focus at end of turn (now {total}).",
+      "InsufficientFocus": "Not enough Focus points (need {amount})."
+    },
+    "Favor": {
+      "Favor": "Favor",
+      "StandardFavor": "Favor Pool",
+      "BonusFavor": "Bonus Favor",
+      "BonusFavorHint": "from Resonances & features — spent on empowerments first",
+      "InvocationTiers": "Invocations Known",
+      "Spend": "Spend 1 Favor",
+      "Gain": "Gain 1 Favor",
+      "Restore": "Restore All",
+      "SpendBonus": "Spend 1 Bonus Favor",
+      "GainBonus": "Gain 1 Bonus Favor",
+      "RestNote": "Favor is restored on a long rest, or after 4 hours of spiritual alignment at a shrine or other spiritually active place.",
+      "RestoredNotif": "Favor fully restored.",
+      "InsufficientFavor": "Not enough Favor (need {amount})."
+    },
+    "YinYang": {
+      "YinYang": "Yin & Yang",
+      "Yin": "Yin",
+      "Yang": "Yang",
+      "YinApex": "Yin Apex",
+      "YinFlowing": "Yin Flowing",
+      "YinRising": "Yin Rising",
+      "Balanced": "Balanced (Centered)",
+      "YangFlowing": "Yang Flowing",
+      "YangRising": "Yang Rising",
+      "YangApex": "Yang Apex",
+      "YinApexBonus": "Yin energy at its peak.",
+      "YinFlowingBonus": "Yin energy flowing strongly.",
+      "YinRisingBonus": "Yin energy rising.",
+      "BalancedBonus": "Energies in harmony.",
+      "YangFlowingBonus": "Yang energy flowing strongly.",
+      "YangRisingBonus": "Yang energy rising.",
+      "YangApexBonus": "Yang energy at its peak.",
+      "CurrentState": "Current State",
+      "ShiftYin": "Shift Yin",
+      "ShiftYang": "Shift Yang",
+      "BattleMeditation": "Battle Meditation",
+      "BattleMeditationPrompt": "Spend a bonus action to move one step along the Yin-Yang track. Which direction?",
+      "BattleMeditationUsed": "Battle Meditation: shifted one step toward {direction}.",
+      "ResetBalanced": "Rest (Balanced)",
+      "FormsOfEnlightenment": "Forms of Enlightenment (7th+)",
+      "NoFormsAvailable": "No forms available in the current state",
+      "ExitForm": "Exit Form",
+      "EnteredForm": "Entered the {form}.",
+      "ExitedForm": "Exited the {form}.",
+      "BonusHitDice": "Cultivated Potential Hit Dice",
+      "Form": {
+        "Air": "Form of Air",
+        "Earth": "Form of Earth",
+        "Fire": "Form of Fire",
+        "Water": "Form of Water",
+        "Void": "Form of Void"
+      }
+    },
+    "Chat": {
+      "SpentResource": "Spent <strong>{amount} {label}</strong>.",
+      "SpentResourceFor": "Spent <strong>{amount} {label}</strong> on <em>{name}</em>."
+    },
+    "Item": {
+      "RokuganMagic": "Adventures in Rokugan",
+      "Kind": "Rokugan Kind",
+      "KindNone": "— Standard 5e —",
+      "KindInvocation": "Invocation (Ritualist)",
+      "KindTechnique": "Technique (Martial)",
+      "KindExternalization": "Externalization (Pilgrim)",
+      "Element": "Element",
+      "Tier": "Tier",
+      "BaseFavorCost": "Base Favor Cost",
+      "TechniqueType": "Technique Type",
+      "FocusCost": "Minimum Focus Cost",
+      "MandatoryMovement": "Mandatory Movement",
+      "RequiredWeapon": "Weapon Used",
+      "Multitarget": "Multitarget Attack",
+      "ExternalizationHint": "Externalizations spend Hit Dice and shift Yin/Yang energy; adjust the balance track on the character sheet as the externalization directs.",
+      "ExternalizationUsed": "Used externalization <em>{name}</em> — remember to spend Hit Dice and shift Yin/Yang energy as the externalization directs.",
+      "EmpowermentTitle": "Empower Invocation",
+      "EmpowermentPrompt": "Spend additional Favor on empowerments for <em>{name}</em>? Bonus Favor is spent first.",
+      "EmpowermentLabel": "Empowerment",
+      "FocusSpendTitle": "Spend Focus",
+      "FocusSpendPrompt": "How much Focus do you spend on <em>{name}</em>? (minimum {min})"
+    }
+  },
+  "DND5E": {
+    "SpellPlural": "Invocations & Techniques",
+    "Spell": "Invocation / Technique",
+    "SpellSlot": "Favor / Focus",
+    "SpellSlotN": "Favor / Focus {n}",
+    "SpellcastingAbility": "Casting Ability",
+    "Spellcasting": "Invocation Casting"
+  }
+}
