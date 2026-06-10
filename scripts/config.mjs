@@ -431,6 +431,22 @@ export class RokuganConfig {
         abbreviation: "ROKUGAN.WeaponProperty.AwakenedAbbr",
         icon: null
       };
+      cfg.itemProperties.defensive = {
+        label: "ROKUGAN.WeaponProperty.Defensive",
+        abbreviation: "ROKUGAN.WeaponProperty.DefensiveAbbr",
+        icon: null
+      };
+      cfg.itemProperties.snaring = {
+        label: "ROKUGAN.WeaponProperty.Snaring",
+        abbreviation: "ROKUGAN.WeaponProperty.SnaringAbbr",
+        icon: null
+      };
+      // dnd5e 5.x validates item properties per type; register the custom
+      // Rokugan weapon properties so they survive document data cleaning.
+      const wprops = cfg.validProperties?.weapon;
+      if (wprops?.add) {
+        for (const p of ["paired", "ceremonial", "awakened", "defensive", "snaring"]) wprops.add(p);
+      }
     }
 
     // ----- Status Effects / Conditions -----

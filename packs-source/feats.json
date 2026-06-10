@@ -1,0 +1,2188 @@
+{
+  "folders": [],
+  "entries": [
+    {
+      "_id": "rxclarityinsolac",
+      "_key": "!items!rxclarityinsolac",
+      "name": "Clarity in Solace",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Prerequisite: You must be capable of performing invocations</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 223.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "clarityinsolace",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "You must be capable of performing invocations",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rxforbiddensorce",
+      "_key": "!items!rxforbiddensorce",
+      "name": "Forbidden Sorcery",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Prerequisite: You must have a forbidden text or a practitioner of forbidden arts who can train you</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 223.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "forbiddensorcery",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "You must have a forbidden text or a practitioner of forbidden arts who can train you",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rxgracefulcombat",
+      "_key": "!items!rxgracefulcombat",
+      "name": "Graceful Combatant",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Prerequisite: Dexterity 13 or higher</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 224.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "gracefulcombatant",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Dexterity 13 or higher",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rxparagon0000000",
+      "_key": "!items!rxparagon0000000",
+      "name": "Paragon",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Prerequisite: Charisma 13 or higher</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 224.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "paragon",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Charisma 13 or higher",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rxshadowlandsmig",
+      "_key": "!items!rxshadowlandsmig",
+      "name": "Shadowlands Might",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Prerequisite: You can choose this feat only if you have come into contact with a Lost creature, traveled in the Shadowlands, or otherwise been exposed to its</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 224.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "shadowlandsmight",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "You can choose this feat only if you have come into contact with a Lost creature, traveled in the Shadowlands, or otherwise been exposed to its",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rxunusualweaponm",
+      "_key": "!items!rxunusualweaponm",
+      "name": "Unusual Weapon Mastery",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Prerequisite: Dexterity 13 or higher</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 225.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "unusualweaponmastery",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Dexterity 13 or higher",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rxceaselessvigil",
+      "_key": "!items!rxceaselessvigil",
+      "name": "Ceaseless Vigilance",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Prerequisite: Crab Clan background or Wisdom</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 226.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "ceaselessvigilance",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Crab Clan background or Wisdom",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rxendurancetrain",
+      "_key": "!items!rxendurancetrain",
+      "name": "Endurance Training",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Prerequisite: Crab Clan background or Constitution</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 226.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "endurancetraining",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Crab Clan background or Constitution",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rxengineeringexp",
+      "_key": "!items!rxengineeringexp",
+      "name": "Engineering Experience",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Prerequisite: Crab Clan background or Intelligence</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 226.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "engineeringexperience",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Crab Clan background or Intelligence",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rxfellstrikes000",
+      "_key": "!items!rxfellstrikes000",
+      "name": "Fell Strikes",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Prerequisite: Crab Clan background or Strength</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 226.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "fellstrikes",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Crab Clan background or Strength",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rxcautiousrhetor",
+      "_key": "!items!rxcautiousrhetor",
+      "name": "Cautious Rhetorician",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Prerequisite: Crane Clan background or Wisdom</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 227.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "cautiousrhetorician",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Crane Clan background or Wisdom",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rxpoiseandpurpos",
+      "_key": "!items!rxpoiseandpurpos",
+      "name": "Poise and Purpose",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Prerequisite: Crane Clan background or Dexterity</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 227.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "poiseandpurpose",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Crane Clan background or Dexterity",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rxresolveofiron0",
+      "_key": "!items!rxresolveofiron0",
+      "name": "Resolve of Iron",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Prerequisite: Crane Clan background or Wisdom</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 227.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "resolveofiron",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Crane Clan background or Wisdom",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rxwellconnected0",
+      "_key": "!items!rxwellconnected0",
+      "name": "Well-Connected",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Prerequisite: Crane Clan background or Charisma</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 227.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "wellconnected",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Crane Clan background or Charisma",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rxadaptablestrat",
+      "_key": "!items!rxadaptablestrat",
+      "name": "Adaptable Strategy",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Prerequisite: Dragon Clan background or Wisdom</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 229.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "adaptablestrategy",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Dragon Clan background or Wisdom",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rxaltitudetraini",
+      "_key": "!items!rxaltitudetraini",
+      "name": "Altitude Training",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Prerequisite: Dragon Clan background or Constitution</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 229.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "altitudetraining",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Dragon Clan background or Constitution",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rxdisruptivestri",
+      "_key": "!items!rxdisruptivestri",
+      "name": "Disruptive Strikes",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Prerequisite: Dragon Clan background or Wisdom</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 229.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "disruptivestrikes",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Dragon Clan background or Wisdom",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rxkeenstudy00000",
+      "_key": "!items!rxkeenstudy00000",
+      "name": "Keen Study",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Prerequisite: Dragon Clan background or Intelligence</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 229.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "keenstudy",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Dragon Clan background or Intelligence",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rxcombatdrill000",
+      "_key": "!items!rxcombatdrill000",
+      "name": "Combat Drill",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Prerequisite: Lion Clan background or Strength</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 229.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "combatdrill",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Lion Clan background or Strength",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rxfieldmedicine0",
+      "_key": "!items!rxfieldmedicine0",
+      "name": "Field Medicine",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Prerequisite: Lion Clan background or Wisdom</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 229.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "fieldmedicine",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Lion Clan background or Wisdom",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rxmarchingstamin",
+      "_key": "!items!rxmarchingstamin",
+      "name": "Marching Stamina",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Prerequisite: Lion Clan background or Constitution</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 229.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "marchingstamina",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Lion Clan background or Constitution",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rxmotivatingstor",
+      "_key": "!items!rxmotivatingstor",
+      "name": "Motivating Storyteller",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Prerequisite: Lion Clan background or Charisma</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 229.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "motivatingstoryteller",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Lion Clan background or Charisma",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rxapprenticeritu",
+      "_key": "!items!rxapprenticeritu",
+      "name": "Apprentice Ritualist",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Prerequisite: Phoenix Clan background or Wisdom</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 230.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "apprenticeritualist",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Phoenix Clan background or Wisdom",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rxelementalalign",
+      "_key": "!items!rxelementalalign",
+      "name": "Elemental Alignment",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Prerequisite: Phoenix Clan background or Intelligence</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 230.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "elementalalignment",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Phoenix Clan background or Intelligence",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rxloremaster0000",
+      "_key": "!items!rxloremaster0000",
+      "name": "Loremaster",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Prerequisite: Phoenix Clan background or Intelligence</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 230.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "loremaster",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Phoenix Clan background or Intelligence",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rxvalorousbodygu",
+      "_key": "!items!rxvalorousbodygu",
+      "name": "Valorous Bodyguard",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Prerequisite: Phoenix Clan background or Strength</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 230.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "valorousbodyguard",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Phoenix Clan background or Strength",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rxsecretsuponsec",
+      "_key": "!items!rxsecretsuponsec",
+      "name": "Secrets upon Secrets",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Prerequisite: Scorpion Clan background or Charisma</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 231.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "secretsuponsecrets",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Scorpion Clan background or Charisma",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rxtenebrousarts0",
+      "_key": "!items!rxtenebrousarts0",
+      "name": "Tenebrous Arts",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Prerequisite: Scorpion Clan background or Dexterity</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 231.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "tenebrousarts",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Scorpion Clan background or Dexterity",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rxtreadlightly00",
+      "_key": "!items!rxtreadlightly00",
+      "name": "Tread Lightly",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Prerequisite: Scorpion Clan background or Charisma</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 231.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "treadlightly",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Scorpion Clan background or Charisma",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rxweaknessasstre",
+      "_key": "!items!rxweaknessasstre",
+      "name": "Weakness as Strength",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Prerequisite: Scorpion Clan background or Intelligence 15 or higher</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 232.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "weaknessasstrength",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Scorpion Clan background or Intelligence 15 or higher",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rxanimalcompanio",
+      "_key": "!items!rxanimalcompanio",
+      "name": "Animal Companion",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Prerequisite: Unicorn Clan or Charisma 13 or higher</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 232.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "animalcompanion",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Unicorn Clan or Charisma 13 or higher",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rxseasonedrider0",
+      "_key": "!items!rxseasonedrider0",
+      "name": "Seasoned Rider",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Prerequisite: Unicorn Clan background or Dexterity</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 235.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "seasonedrider",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Unicorn Clan background or Dexterity",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rxtradeexpert000",
+      "_key": "!items!rxtradeexpert000",
+      "name": "Trade Expert",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Prerequisite: Unicorn Clan background or Intelligence</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 235.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "tradeexpert",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Unicorn Clan background or Intelligence",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rxunwaveringhear",
+      "_key": "!items!rxunwaveringhear",
+      "name": "Unwavering Heart",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Prerequisite: Unicorn Clan background or Wisdom</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 235.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "unwaveringheart",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Unicorn Clan background or Wisdom",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rxcelestialautho",
+      "_key": "!items!rxcelestialautho",
+      "name": "Celestial Authority",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Prerequisite: Imperial Family background or Charisma</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 235.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "celestialauthority",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Imperial Family background or Charisma",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rxdreamscapejour",
+      "_key": "!items!rxdreamscapejour",
+      "name": "Dreamscape Journey",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Prerequisite: Moth Clan background or proficiency in Religion</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 235.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "dreamscapejourney",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Moth Clan background or proficiency in Religion",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rxexorcistssight",
+      "_key": "!items!rxexorcistssight",
+      "name": "Exorcist’s Sight",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Prerequisite: Falcon Clan background or proficiency in Arcana</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 235.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "exorcistssight",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Falcon Clan background or proficiency in Arcana",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rxfavorofladysun",
+      "_key": "!items!rxfavorofladysun",
+      "name": "Favor of Lady Sun",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Prerequisite: Centipede Clan background or proficiency in Religion, must be able to perform invocations</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 235.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "favorofladysun",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Centipede Clan background or proficiency in Religion, must be able to perform invocations",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rxheartyboast000",
+      "_key": "!items!rxheartyboast000",
+      "name": "Hearty Boast",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Prerequisite: Mantis Clan background or proficiency in</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 235.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "heartyboast",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Mantis Clan background or proficiency in",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rxinnocuousprese",
+      "_key": "!items!rxinnocuousprese",
+      "name": "Innocuous Presence",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Prerequisite: Deer Clan background or proficiency in Stealth</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 235.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "innocuouspresence",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Deer Clan background or proficiency in Stealth",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rxkillinggrip000",
+      "_key": "!items!rxkillinggrip000",
+      "name": "Killing Grip",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Prerequisite: Badger Clan background or proficiency in Athletics</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 235.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "killinggrip",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Badger Clan background or proficiency in Athletics",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rxobfuscatingdem",
+      "_key": "!items!rxobfuscatingdem",
+      "name": "Obfuscating Demeanor",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Prerequisite: Dragonfly Clan background or proficiency in Charisma saving throws</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 235.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "obfuscatingdemeanor",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Dragonfly Clan background or proficiency in Charisma saving throws",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rxphantomthief00",
+      "_key": "!items!rxphantomthief00",
+      "name": "Phantom Thief",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Prerequisite: Cat Clan background or proficiency in sleight of hand</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 236.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "phantomthief",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Cat Clan background or proficiency in sleight of hand",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rxslingspecialis",
+      "_key": "!items!rxslingspecialis",
+      "name": "Sling Specialist",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Prerequisite: Sparrow Clan background or proficiency in Survival</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 236.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "slingspecialist",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Sparrow Clan background or proficiency in Survival",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rxspiritualevasi",
+      "_key": "!items!rxspiritualevasi",
+      "name": "Spiritual Evasion",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Prerequisite: Hare Clan background or proficiency in Religion</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 236.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "spiritualevasion",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Hare Clan background or proficiency in Religion",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rxspiritualmedia",
+      "_key": "!items!rxspiritualmedia",
+      "name": "Spiritual Mediator",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Prerequisite: Fox Clan background or proficiency in Nature</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 236.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "spiritualmediator",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Fox Clan background or proficiency in Nature",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rxstingofagony00",
+      "_key": "!items!rxstingofagony00",
+      "name": "Sting of Agony",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Prerequisite: Wasp Clan background or proficiency in</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 236.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "stingofagony",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Wasp Clan background or proficiency in",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rxartisansingenu",
+      "_key": "!items!rxartisansingenu",
+      "name": "Artisan’s Ingenuity",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Prerequisite: Non-samurai background or Charisma</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 237.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "artisansingenuity",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Non-samurai background or Charisma",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rxbrawlersedge00",
+      "_key": "!items!rxbrawlersedge00",
+      "name": "Brawler’s Edge",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Prerequisite: Non-samurai background or Strength</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 237.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "brawlersedge",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Non-samurai background or Strength",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rxlaborersendura",
+      "_key": "!items!rxlaborersendura",
+      "name": "Laborer’s Endurance",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Prerequisite: Non-samurai background or Constitution</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 237.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "laborersendurance",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Non-samurai background or Constitution",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rxmerchantsstree",
+      "_key": "!items!rxmerchantsstree",
+      "name": "Merchant’s Streetwise",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Prerequisite: Non-samurai background or Dexterity</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 237.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "merchantsstreetwise",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Non-samurai background or Dexterity",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rxsurvivalistsey",
+      "_key": "!items!rxsurvivalistsey",
+      "name": "Survivalist’s Eye",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Prerequisite: Non-samurai background or Wisdom</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 238.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "survivalistseye",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Non-samurai background or Wisdom",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rxtranslatorskno",
+      "_key": "!items!rxtranslatorskno",
+      "name": "Translator’s Knowledge",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Prerequisite: Non-samurai background or Intelligence</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 238.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "translatorsknowledge",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Non-samurai background or Intelligence",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rxconstriction00",
+      "_key": "!items!rxconstriction00",
+      "name": "Constriction",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Prerequisite: Naga species</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 238.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "constriction",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Naga species",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rxtransformation",
+      "_key": "!items!rxtransformation",
+      "name": "Transformation",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Prerequisite: Oni species</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 238.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "transformation",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Oni species",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rxhauntingphenom",
+      "_key": "!items!rxhauntingphenom",
+      "name": "Haunting Phenomena",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Prerequisite: Specter species</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 238.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "hauntingphenomena",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Specter species",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rxnimbleglider00",
+      "_key": "!items!rxnimbleglider00",
+      "name": "Nimble Glider",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Prerequisite: Tengu species</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 243.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "nimbleglider",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Tengu species",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rxpersistence000",
+      "_key": "!items!rxpersistence000",
+      "name": "Persistence",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Prerequisite: Human species</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 243.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "persistence",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Human species",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rxscamper0000000",
+      "_key": "!items!rxscamper0000000",
+      "name": "Scamper",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Prerequisite: Nezumi species</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 243.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "scamper",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Nezumi species",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    }
+  ]
+}

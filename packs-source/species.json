@@ -1,0 +1,870 @@
+{
+  "folders": [],
+  "entries": [
+    {
+      "_id": "rshumanstandard0",
+      "_key": "!items!rshumanstandard0",
+      "name": "Human (Standard)",
+      "type": "race",
+      "img": "systems/dnd5e/icons/svg/items/race.svg",
+      "system": {
+        "description": {
+          "value": "<p>Adaptable and ambitious; the most numerous people of Rokugan. Standard option: every ability score increases by 1.</p><p>Ability Score Increase: each ability score increases by 1.</p><p>Traits: Age, Size, Speed, Language.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 29.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "humanstandard",
+        "advancement": [
+          {
+            "_id": "rkhumanstandards",
+            "type": "Size",
+            "configuration": {
+              "hint": "",
+              "sizes": [
+                "med"
+              ]
+            },
+            "value": {},
+            "title": ""
+          },
+          {
+            "_id": "rkhumanstandarda",
+            "type": "AbilityScoreImprovement",
+            "level": 0,
+            "title": "",
+            "configuration": {
+              "points": 0,
+              "fixed": {
+                "str": 1,
+                "dex": 1,
+                "con": 1,
+                "int": 1,
+                "wis": 1,
+                "cha": 1
+              },
+              "cap": 2
+            },
+            "value": {}
+          }
+        ],
+        "movement": {
+          "burrow": null,
+          "climb": null,
+          "fly": null,
+          "swim": null,
+          "walk": 30,
+          "units": "ft",
+          "hover": false
+        },
+        "senses": {
+          "darkvision": null,
+          "blindsight": null,
+          "tremorsense": null,
+          "truesight": null,
+          "units": "ft",
+          "special": ""
+        },
+        "type": {
+          "value": "humanoid",
+          "subtype": "",
+          "custom": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rshumanversatile",
+      "_key": "!items!rshumanversatile",
+      "name": "Human (Versatile)",
+      "type": "race",
+      "img": "systems/dnd5e/icons/svg/items/race.svg",
+      "system": {
+        "description": {
+          "value": "<p>Adaptable and ambitious; the most numerous people of Rokugan. Versatile option: two different ability scores increase by 1, and you gain one feat.</p><p>Ability Score Increase: increase two different ability scores by 1.</p><p>Traits: Age, Size, Speed, Amphibious, Expanded Senses, Serpentine Charming, Language.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 29.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "humanversatile",
+        "advancement": [
+          {
+            "_id": "rkhumanversatile",
+            "type": "Size",
+            "configuration": {
+              "hint": "",
+              "sizes": [
+                "med"
+              ]
+            },
+            "value": {},
+            "title": ""
+          },
+          {
+            "_id": "rkhumanversatile",
+            "type": "AbilityScoreImprovement",
+            "level": 0,
+            "title": "",
+            "configuration": {
+              "points": 2,
+              "fixed": {},
+              "cap": 1
+            },
+            "value": {}
+          },
+          {
+            "_id": "rkhumanversatile",
+            "type": "ItemChoice",
+            "title": "Bonus Feat",
+            "configuration": {
+              "hint": "Choose one feat (Versatile Human).",
+              "choices": {
+                "0": {
+                  "count": 1,
+                  "replacement": false
+                }
+              },
+              "allowDrops": true,
+              "type": "feat",
+              "pool": [
+                {
+                  "uuid": "Compendium.rokugan5e.feats.Item.rxclarityinsolac"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.feats.Item.rxforbiddensorce"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.feats.Item.rxgracefulcombat"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.feats.Item.rxparagon0000000"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.feats.Item.rxshadowlandsmig"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.feats.Item.rxunusualweaponm"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.feats.Item.rxceaselessvigil"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.feats.Item.rxendurancetrain"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.feats.Item.rxengineeringexp"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.feats.Item.rxfellstrikes000"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.feats.Item.rxcautiousrhetor"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.feats.Item.rxpoiseandpurpos"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.feats.Item.rxresolveofiron0"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.feats.Item.rxwellconnected0"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.feats.Item.rxadaptablestrat"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.feats.Item.rxaltitudetraini"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.feats.Item.rxdisruptivestri"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.feats.Item.rxkeenstudy00000"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.feats.Item.rxcombatdrill000"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.feats.Item.rxfieldmedicine0"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.feats.Item.rxmarchingstamin"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.feats.Item.rxmotivatingstor"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.feats.Item.rxapprenticeritu"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.feats.Item.rxelementalalign"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.feats.Item.rxloremaster0000"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.feats.Item.rxvalorousbodygu"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.feats.Item.rxsecretsuponsec"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.feats.Item.rxtenebrousarts0"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.feats.Item.rxtreadlightly00"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.feats.Item.rxweaknessasstre"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.feats.Item.rxanimalcompanio"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.feats.Item.rxseasonedrider0"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.feats.Item.rxtradeexpert000"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.feats.Item.rxunwaveringhear"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.feats.Item.rxcelestialautho"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.feats.Item.rxdreamscapejour"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.feats.Item.rxexorcistssight"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.feats.Item.rxfavorofladysun"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.feats.Item.rxheartyboast000"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.feats.Item.rxinnocuousprese"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.feats.Item.rxkillinggrip000"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.feats.Item.rxobfuscatingdem"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.feats.Item.rxphantomthief00"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.feats.Item.rxslingspecialis"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.feats.Item.rxspiritualevasi"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.feats.Item.rxspiritualmedia"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.feats.Item.rxstingofagony00"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.feats.Item.rxartisansingenu"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.feats.Item.rxbrawlersedge00"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.feats.Item.rxlaborersendura"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.feats.Item.rxmerchantsstree"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.feats.Item.rxsurvivalistsey"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.feats.Item.rxtranslatorskno"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.feats.Item.rxconstriction00"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.feats.Item.rxtransformation"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.feats.Item.rxhauntingphenom"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.feats.Item.rxnimbleglider00"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.feats.Item.rxpersistence000"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.feats.Item.rxscamper0000000"
+                }
+              ],
+              "restriction": {
+                "type": "feat",
+                "subtype": "",
+                "level": ""
+              }
+            },
+            "value": {}
+          }
+        ],
+        "movement": {
+          "burrow": null,
+          "climb": null,
+          "fly": null,
+          "swim": null,
+          "walk": 30,
+          "units": "ft",
+          "hover": false
+        },
+        "senses": {
+          "darkvision": null,
+          "blindsight": null,
+          "tremorsense": null,
+          "truesight": null,
+          "units": "ft",
+          "special": ""
+        },
+        "type": {
+          "value": "humanoid",
+          "subtype": "",
+          "custom": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rsnaga0000000000",
+      "_key": "!items!rsnaga0000000000",
+      "name": "Naga",
+      "type": "race",
+      "img": "systems/dnd5e/icons/svg/items/race.svg",
+      "system": {
+        "description": {
+          "value": "<p>Ancient serpentfolk, fifteen feet or longer from head to tail.</p><p>Ability Score Increase: 2 points, max +1 to one score.</p><p>Traits: Age, Size, Speed, Sharp Senses, Skitter, Language.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 30.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "naga",
+        "advancement": [
+          {
+            "_id": "rknagasize000000",
+            "type": "Size",
+            "configuration": {
+              "hint": "",
+              "sizes": [
+                "lg"
+              ]
+            },
+            "value": {},
+            "title": ""
+          },
+          {
+            "_id": "rknagaasi0000000",
+            "type": "AbilityScoreImprovement",
+            "level": 0,
+            "title": "",
+            "configuration": {
+              "points": 2,
+              "fixed": {},
+              "cap": 1
+            },
+            "value": {}
+          }
+        ],
+        "movement": {
+          "burrow": null,
+          "climb": null,
+          "fly": null,
+          "swim": null,
+          "walk": 35,
+          "units": "ft",
+          "hover": false
+        },
+        "senses": {
+          "darkvision": null,
+          "blindsight": null,
+          "tremorsense": null,
+          "truesight": null,
+          "units": "ft",
+          "special": ""
+        },
+        "type": {
+          "value": "monstrosity",
+          "subtype": "",
+          "custom": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rsnezumi00000000",
+      "_key": "!items!rsnezumi00000000",
+      "name": "Nezumi",
+      "type": "race",
+      "img": "systems/dnd5e/icons/svg/items/race.svg",
+      "system": {
+        "description": {
+          "value": "<p>Quick, resilient ratfolk of the Shadowlands ruins.</p><p>Ability Score Increase: 3 points, max +2 to one score.</p><p>Traits: Age, Size, Speed, Darkvision, Demonic True Form, Language, Inverted Weight, Spiritual Force, Strange Physiology.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 32.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "nezumi",
+        "advancement": [
+          {
+            "_id": "rknezumisize0000",
+            "type": "Size",
+            "configuration": {
+              "hint": "",
+              "sizes": [
+                "sm"
+              ]
+            },
+            "value": {},
+            "title": ""
+          },
+          {
+            "_id": "rknezumiasi00000",
+            "type": "AbilityScoreImprovement",
+            "level": 0,
+            "title": "",
+            "configuration": {
+              "points": 3,
+              "fixed": {},
+              "cap": 2
+            },
+            "value": {}
+          }
+        ],
+        "movement": {
+          "burrow": null,
+          "climb": null,
+          "fly": null,
+          "swim": null,
+          "walk": 25,
+          "units": "ft",
+          "hover": false
+        },
+        "senses": {
+          "darkvision": null,
+          "blindsight": null,
+          "tremorsense": null,
+          "truesight": null,
+          "units": "ft",
+          "special": ""
+        },
+        "type": {
+          "value": "humanoid",
+          "subtype": "",
+          "custom": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rsmazoku00000000",
+      "_key": "!items!rsmazoku00000000",
+      "name": "Mazoku",
+      "type": "race",
+      "img": "systems/dnd5e/icons/svg/items/race.svg",
+      "system": {
+        "description": {
+          "value": "<p>A reformed denizen of the Realm of Torment in mortal guise.</p><p>Ability Score Increase: 3 points, max +2 to one score.</p><p>Traits: Age, Size, Speed, Ghostly Dispersal, Spiritual Anchor, Watchful Presence, Language.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 34.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "mazoku",
+        "advancement": [
+          {
+            "_id": "rkmazokusize0000",
+            "type": "Size",
+            "configuration": {
+              "hint": "",
+              "sizes": [
+                "med"
+              ]
+            },
+            "value": {},
+            "title": ""
+          },
+          {
+            "_id": "rkmazokuasi00000",
+            "type": "AbilityScoreImprovement",
+            "level": 0,
+            "title": "",
+            "configuration": {
+              "points": 3,
+              "fixed": {},
+              "cap": 2
+            },
+            "value": {}
+          }
+        ],
+        "movement": {
+          "burrow": null,
+          "climb": null,
+          "fly": null,
+          "swim": null,
+          "walk": 30,
+          "units": "ft",
+          "hover": false
+        },
+        "senses": {
+          "darkvision": 60,
+          "blindsight": null,
+          "tremorsense": null,
+          "truesight": null,
+          "units": "ft",
+          "special": ""
+        },
+        "type": {
+          "value": "fiend",
+          "subtype": "",
+          "custom": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rsspecter0000000",
+      "_key": "!items!rsspecter0000000",
+      "name": "Specter",
+      "type": "race",
+      "img": "systems/dnd5e/icons/svg/items/race.svg",
+      "system": {
+        "description": {
+          "value": "<p>A returned spirit, roughly the size they were in life.</p><p>Ability Score Increase: 2 points, max +1 to one score.</p><p>Traits: Age, Size, Speed, Language, Animals.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 36.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "specter",
+        "advancement": [
+          {
+            "_id": "rkspectersize000",
+            "type": "Size",
+            "configuration": {
+              "hint": "",
+              "sizes": [
+                "med"
+              ]
+            },
+            "value": {},
+            "title": ""
+          },
+          {
+            "_id": "rkspecterasi0000",
+            "type": "AbilityScoreImprovement",
+            "level": 0,
+            "title": "",
+            "configuration": {
+              "points": 2,
+              "fixed": {},
+              "cap": 1
+            },
+            "value": {}
+          }
+        ],
+        "movement": {
+          "burrow": null,
+          "climb": null,
+          "fly": null,
+          "swim": null,
+          "walk": 30,
+          "units": "ft",
+          "hover": false
+        },
+        "senses": {
+          "darkvision": null,
+          "blindsight": null,
+          "tremorsense": null,
+          "truesight": null,
+          "units": "ft",
+          "special": ""
+        },
+        "type": {
+          "value": "undead",
+          "subtype": "",
+          "custom": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rstengu000000000",
+      "_key": "!items!rstengu000000000",
+      "name": "Tengu",
+      "type": "race",
+      "img": "systems/dnd5e/icons/svg/items/race.svg",
+      "system": {
+        "description": {
+          "value": "<p>Crow-folk of the high mountains; gliding flight.</p><p>Ability Score Increase: 2 points, max +1 to one score.</p><p>Traits: Age, See Innate Shapeshifting, Speed, Innate Shapeshifting, Language, Dreamwalker, Illusory Tricks.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 38.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "tengu",
+        "advancement": [
+          {
+            "_id": "rktengusize00000",
+            "type": "Size",
+            "configuration": {
+              "hint": "",
+              "sizes": [
+                "med"
+              ]
+            },
+            "value": {},
+            "title": ""
+          },
+          {
+            "_id": "rktenguasi000000",
+            "type": "AbilityScoreImprovement",
+            "level": 0,
+            "title": "",
+            "configuration": {
+              "points": 2,
+              "fixed": {},
+              "cap": 1
+            },
+            "value": {}
+          }
+        ],
+        "movement": {
+          "burrow": null,
+          "climb": null,
+          "fly": null,
+          "swim": null,
+          "walk": 30,
+          "units": "ft",
+          "hover": false
+        },
+        "senses": {
+          "darkvision": null,
+          "blindsight": null,
+          "tremorsense": null,
+          "truesight": null,
+          "units": "ft",
+          "special": ""
+        },
+        "type": {
+          "value": "humanoid",
+          "subtype": "",
+          "custom": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rsanimalyokai000",
+      "_key": "!items!rsanimalyokai000",
+      "name": "Animal Yokai",
+      "type": "race",
+      "img": "systems/dnd5e/icons/svg/items/race.svg",
+      "system": {
+        "description": {
+          "value": "<p>An awakened animal spirit; size varies by form.</p><p>Ability Score Increase: 3 points, max +2 to one score.</p><p>Traits: Age, Size, Speed, Unbound Potential, Unmistakable Presence, Language, Game Content.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 40.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "animalyokai",
+        "advancement": [
+          {
+            "_id": "rkanimalyokaisiz",
+            "type": "Size",
+            "configuration": {
+              "hint": "",
+              "sizes": [
+                "sm"
+              ]
+            },
+            "value": {},
+            "title": ""
+          },
+          {
+            "_id": "rkanimalyokaiasi",
+            "type": "AbilityScoreImprovement",
+            "level": 0,
+            "title": "",
+            "configuration": {
+              "points": 3,
+              "fixed": {},
+              "cap": 2
+            },
+            "value": {}
+          }
+        ],
+        "movement": {
+          "burrow": null,
+          "climb": null,
+          "fly": null,
+          "swim": null,
+          "walk": 30,
+          "units": "ft",
+          "hover": false
+        },
+        "senses": {
+          "darkvision": null,
+          "blindsight": null,
+          "tremorsense": null,
+          "truesight": null,
+          "units": "ft",
+          "special": ""
+        },
+        "type": {
+          "value": "fey",
+          "subtype": "",
+          "custom": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rsuniqueexistenc",
+      "_key": "!items!rsuniqueexistenc",
+      "name": "Unique Existence",
+      "type": "race",
+      "img": "systems/dnd5e/icons/svg/items/race.svg",
+      "system": {
+        "description": {
+          "value": "<p>A one-of-a-kind being; size matches the chosen species.</p><p>Ability Score Increase: 3 points, max +2 to one score.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 42.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "uniqueexistence",
+        "advancement": [
+          {
+            "_id": "rkuniqueexistenc",
+            "type": "Size",
+            "configuration": {
+              "hint": "",
+              "sizes": [
+                "med"
+              ]
+            },
+            "value": {},
+            "title": ""
+          },
+          {
+            "_id": "rkuniqueexistenc",
+            "type": "AbilityScoreImprovement",
+            "level": 0,
+            "title": "",
+            "configuration": {
+              "points": 3,
+              "fixed": {},
+              "cap": 2
+            },
+            "value": {}
+          }
+        ],
+        "movement": {
+          "burrow": null,
+          "climb": null,
+          "fly": null,
+          "swim": null,
+          "walk": 30,
+          "units": "ft",
+          "hover": false
+        },
+        "senses": {
+          "darkvision": null,
+          "blindsight": null,
+          "tremorsense": null,
+          "truesight": null,
+          "units": "ft",
+          "special": ""
+        },
+        "type": {
+          "value": "aberration",
+          "subtype": "",
+          "custom": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    }
+  ]
+}

@@ -10,7 +10,9 @@
       "PromptEmpowerments": "Prompt for Empowerments",
       "PromptEmpowermentsHint": "After using an Invocation or variable-cost Technique, prompt for additional Favor/Focus to spend on empowerments.",
       "AutomateCombatFocus": "Automate Focus in Combat",
-      "AutomateCombatFocusHint": "Reset Focus to 0 at combat start/end and grant +1 Focus at the end of each turn (stance bonuses must still be added manually)."
+      "AutomateCombatFocusHint": "Reset Focus to 0 at combat start/end and grant +1 Focus at the end of each turn (stance bonuses must still be added manually).",
+      "L5RSheetTheme": "Rokugan Sheet Theme",
+      "L5RSheetThemeHint": "Reskin the dnd5e character, NPC, and item sheets with a feudal-Japanese fantasy look (washi paper, sumi ink, vermillion lacquer, and gold). Cosmetic only; all sheet functionality is unchanged. Per-user setting; supports both light and dark modes."
     },
     "Class": {
       "Bushi": "Bushi",
@@ -165,7 +167,11 @@
       "Ceremonial": "Ceremonial",
       "CeremonialAbbr": "Cerem.",
       "Awakened": "Awakened",
-      "AwakenedAbbr": "Awake."
+      "AwakenedAbbr": "Awake.",
+      "Defensive": "Defensive",
+      "DefensiveAbbr": "Def.",
+      "Snaring": "Snaring",
+      "SnaringAbbr": "Snar."
     },
     "Technique": {
       "Type": {
@@ -301,7 +307,9 @@
     },
     "UI": {
       "Confirm": "Confirm",
-      "Cancel": "Cancel"
+      "Cancel": "Cancel",
+      "Expand": "Expand",
+      "Collapse": "Collapse"
     },
     "Focus": {
       "Focus": "Focus",

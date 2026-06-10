@@ -1,0 +1,2740 @@
+{
+  "folders": [
+    {
+      "_id": "rfcbushi00000000",
+      "_key": "!folders!rfcbushi00000000",
+      "name": "Bushi",
+      "type": "Item",
+      "sorting": "a",
+      "color": null,
+      "folder": null,
+      "sort": 0
+    },
+    {
+      "_id": "rfcduelist000000",
+      "_key": "!folders!rfcduelist000000",
+      "name": "Duelist",
+      "type": "Item",
+      "sorting": "a",
+      "color": null,
+      "folder": null,
+      "sort": 0
+    },
+    {
+      "_id": "rfccourtier00000",
+      "_key": "!folders!rfccourtier00000",
+      "name": "Courtier",
+      "type": "Item",
+      "sorting": "a",
+      "color": null,
+      "folder": null,
+      "sort": 0
+    },
+    {
+      "_id": "rfcshinobi000000",
+      "_key": "!folders!rfcshinobi000000",
+      "name": "Shinobi",
+      "type": "Item",
+      "sorting": "a",
+      "color": null,
+      "folder": null,
+      "sort": 0
+    },
+    {
+      "_id": "rfcritualist0000",
+      "_key": "!folders!rfcritualist0000",
+      "name": "Ritualist",
+      "type": "Item",
+      "sorting": "a",
+      "color": null,
+      "folder": null,
+      "sort": 0
+    },
+    {
+      "_id": "rfcpilgrim000000",
+      "_key": "!folders!rfcpilgrim000000",
+      "name": "Pilgrim",
+      "type": "Item",
+      "sorting": "a",
+      "color": null,
+      "folder": null,
+      "sort": 0
+    },
+    {
+      "_id": "rfcacolyte000000",
+      "_key": "!folders!rfcacolyte000000",
+      "name": "Acolyte",
+      "type": "Item",
+      "sorting": "a",
+      "color": null,
+      "folder": null,
+      "sort": 0
+    }
+  ],
+  "entries": [
+    {
+      "_id": "rcfbushifocuspoi",
+      "_key": "!items!rcfbushifocuspoi",
+      "name": "Focus Points",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Bushi class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 44.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "bushifocuspoints",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Bushi 1",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcbushi00000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfbushimartialt",
+      "_key": "!items!rcfbushimartialt",
+      "name": "Martial Techniques",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Bushi class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 44.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "bushimartialtechniques",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Bushi 1",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcbushi00000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfbushicombatst",
+      "_key": "!items!rcfbushicombatst",
+      "name": "Combat Stance",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Bushi class feature (level 2).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 44.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "bushicombatstance",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Bushi 2",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcbushi00000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfbushisuddencl",
+      "_key": "!items!rcfbushisuddencl",
+      "name": "Sudden Clarity",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Bushi class feature (level 2).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 44.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "bushisuddenclarity",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Bushi 2",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcbushi00000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfbushiextraatt",
+      "_key": "!items!rcfbushiextraatt",
+      "name": "Extra Attack",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Bushi class feature (level 5).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 44.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "bushiextraattack",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Bushi 5",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcbushi00000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfbushiveterans",
+      "_key": "!items!rcfbushiveterans",
+      "name": "Veteran's Instincts",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Bushi class feature (level 6).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 44.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "bushiveteransinstincts",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Bushi 6",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcbushi00000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfbushisuddencl",
+      "_key": "!items!rcfbushisuddencl",
+      "name": "Sudden Clarity (Improved)",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Bushi class feature (level 9).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 44.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "bushisuddenclarityimproved",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Bushi 9",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcbushi00000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfbushiaddition",
+      "_key": "!items!rcfbushiaddition",
+      "name": "Additional Combat stance",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Bushi class feature (level 10).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 44.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "bushiadditionalcombatstance",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Bushi 10",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcbushi00000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfbushiextraatt",
+      "_key": "!items!rcfbushiextraatt",
+      "name": "Extra Attack (2)",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Bushi class feature (level 11).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 44.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "bushiextraattack2",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Bushi 11",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcbushi00000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfbushiveterans",
+      "_key": "!items!rcfbushiveterans",
+      "name": "Veteran's Instincts (two uses)",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Bushi class feature (level 15).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 44.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "bushiveteransinstinctstwouses",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Bushi 15",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcbushi00000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfbushiextraatt",
+      "_key": "!items!rcfbushiextraatt",
+      "name": "Extra Attack (3)",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Bushi class feature (level 20).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 44.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "bushiextraattack3",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Bushi 20",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcbushi00000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfduelistmartia",
+      "_key": "!items!rcfduelistmartia",
+      "name": "Martial Techniques",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Duelist class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 54.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "duelistmartialtechniques",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Duelist 1",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcduelist000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfduelistcombat",
+      "_key": "!items!rcfduelistcombat",
+      "name": "Combat Stances",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Duelist class feature (level 2).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 54.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "duelistcombatstances",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Duelist 2",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcduelist000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfduelistlethal",
+      "_key": "!items!rcfduelistlethal",
+      "name": "Lethal Instinct",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Duelist class feature (level 2).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 54.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "duelistlethalinstinct",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Duelist 2",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcduelist000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfduelistchalle",
+      "_key": "!items!rcfduelistchalle",
+      "name": "Challenge of Steel",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Duelist class feature (level 3).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 54.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "duelistchallengeofsteel",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Duelist 3",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcduelist000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfduelistextraa",
+      "_key": "!items!rcfduelistextraa",
+      "name": "Extra Attack",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Duelist class feature (level 5).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 54.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "duelistextraattack",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Duelist 5",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcduelist000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfduelistdecisi",
+      "_key": "!items!rcfduelistdecisi",
+      "name": "Decisive Blade",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Duelist class feature (level 6).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 54.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "duelistdecisiveblade",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Duelist 6",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcduelist000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfduelistswifte",
+      "_key": "!items!rcfduelistswifte",
+      "name": "Swift Evasion",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Duelist class feature (level 9).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 54.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "duelistswiftevasion",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Duelist 9",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcduelist000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfduelistadditi",
+      "_key": "!items!rcfduelistadditi",
+      "name": "Additional Combat Stance",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Duelist class feature (level 10).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 54.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "duelistadditionalcombatstance",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Duelist 10",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcduelist000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfduelistextraa",
+      "_key": "!items!rcfduelistextraa",
+      "name": "Extra Attack (2)",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Duelist class feature (level 13).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 54.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "duelistextraattack2",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Duelist 13",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcduelist000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfduelistdecisi",
+      "_key": "!items!rcfduelistdecisi",
+      "name": "Decisive Blade (Improved)",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Duelist class feature (level 14).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 54.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "duelistdecisivebladeimproved",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Duelist 14",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcduelist000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfduelistlethal",
+      "_key": "!items!rcfduelistlethal",
+      "name": "Lethal Instinct (Improved)",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Duelist class feature (level 15).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 54.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "duelistlethalinstinctimproved",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Duelist 15",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcduelist000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfduelistextraa",
+      "_key": "!items!rcfduelistextraa",
+      "name": "Extra Attack (3)",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Duelist class feature (level 20).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 54.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "duelistextraattack3",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Duelist 20",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcduelist000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfcourtierflour",
+      "_key": "!items!rcfcourtierflour",
+      "name": "Flourishes",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Courtier class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 64.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "courtierflourishes",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Courtier 1",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfccourtier00000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfcourtierstrat",
+      "_key": "!items!rcfcourtierstrat",
+      "name": "Strategic Opening",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Courtier class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 64.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "courtierstrategicopening",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Courtier 1",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfccourtier00000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfcourtieraddit",
+      "_key": "!items!rcfcourtieraddit",
+      "name": "Additional Rhetorical Flourishes",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Courtier class feature (level 2).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 64.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "courtieradditionalrhetoricalflourishes",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Courtier 2",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfccourtier00000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfcourtierintri",
+      "_key": "!items!rcfcourtierintri",
+      "name": "Intrigue Dice (Improved)",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Courtier class feature (level 5).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 64.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "courtierintriguediceimproved",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Courtier 5",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfccourtier00000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfcourtierextra",
+      "_key": "!items!rcfcourtierextra",
+      "name": "Extra Reaction (two reactions)",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Courtier class feature (level 6).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 64.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "courtierextrareactiontworeactions",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Courtier 6",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfccourtier00000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfcourtierrheto",
+      "_key": "!items!rcfcourtierrheto",
+      "name": "Rhetorical Mastery",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Courtier class feature (level 11).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 64.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "courtierrhetoricalmastery",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Courtier 11",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfccourtier00000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfcourtierstrat",
+      "_key": "!items!rcfcourtierstrat",
+      "name": "Strategic Opening (Improved)",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Courtier class feature (level 13).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 64.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "courtierstrategicopeningimproved",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Courtier 13",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfccourtier00000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfcourtierextra",
+      "_key": "!items!rcfcourtierextra",
+      "name": "Extra Reaction (three reactions)",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Courtier class feature (level 15).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 64.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "courtierextrareactionthreereactions",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Courtier 15",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfccourtier00000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfcourtierpract",
+      "_key": "!items!rcfcourtierpract",
+      "name": "Practiced Presence",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Courtier class feature (level 16).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 64.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "courtierpracticedpresence",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Courtier 16",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfccourtier00000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfcourtierrheto",
+      "_key": "!items!rcfcourtierrheto",
+      "name": "Rhetorical Mastery (Improved)",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Courtier class feature (level 18).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 64.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "courtierrhetoricalmasteryimproved",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Courtier 18",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfccourtier00000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfshinobiexpert",
+      "_key": "!items!rcfshinobiexpert",
+      "name": "Expert Prowler",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Shinobi class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 74.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "shinobiexpertprowler",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Shinobi 1",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcshinobi000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfshinobinimble",
+      "_key": "!items!rcfshinobinimble",
+      "name": "Nimble",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Shinobi class feature (level 2).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 74.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "shinobinimble",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Shinobi 2",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcshinobi000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfshinobiquickh",
+      "_key": "!items!rcfshinobiquickh",
+      "name": "Quick Hands",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Shinobi class feature (level 5).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 74.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "shinobiquickhands",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Shinobi 5",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcshinobi000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfshinobiescape",
+      "_key": "!items!rcfshinobiescape",
+      "name": "Escape Artist",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Shinobi class feature (level 6).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 74.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "shinobiescapeartist",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Shinobi 6",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcshinobi000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfshinobicresce",
+      "_key": "!items!rcfshinobicresce",
+      "name": "Crescent Slash",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Shinobi class feature (level 7).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 74.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "shinobicrescentslash",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Shinobi 7",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcshinobi000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfshinobivigila",
+      "_key": "!items!rcfshinobivigila",
+      "name": "Vigilant Mind",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Shinobi class feature (level 11).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 74.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "shinobivigilantmind",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Shinobi 11",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcshinobi000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfshinobivenomt",
+      "_key": "!items!rcfshinobivenomt",
+      "name": "Venom-Tested Constitution",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Shinobi class feature (level 14).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 74.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "shinobivenomtestedconstitution",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Shinobi 14",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcshinobi000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfshinobicresce",
+      "_key": "!items!rcfshinobicresce",
+      "name": "Crescent Slash (two uses)",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Shinobi class feature (level 15).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 74.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "shinobicrescentslashtwouses",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Shinobi 15",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcshinobi000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfshinobideathm",
+      "_key": "!items!rcfshinobideathm",
+      "name": "Deathmark",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Shinobi class feature (level 17).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 74.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "shinobideathmark",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Shinobi 17",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcshinobi000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfshinobidefyde",
+      "_key": "!items!rcfshinobidefyde",
+      "name": "Defy Death",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Shinobi class feature (level 20).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 74.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "shinobidefydeath",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Shinobi 20",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcshinobi000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfritualistinvo",
+      "_key": "!items!rcfritualistinvo",
+      "name": "Invocations and Favor",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Ritualist class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 88.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "ritualistinvocationsandfavor",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Ritualist 1",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcritualist0000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfritualistchan",
+      "_key": "!items!rcfritualistchan",
+      "name": "Channeling",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Ritualist class feature (level 3).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 88.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "ritualistchanneling",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Ritualist 3",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcritualist0000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfritualistinst",
+      "_key": "!items!rcfritualistinst",
+      "name": "Instinctive Invocation",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Ritualist class feature (level 10).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 88.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "ritualistinstinctiveinvocation",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Ritualist 10",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcritualist0000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfritualistprac",
+      "_key": "!items!rcfritualistprac",
+      "name": "Practiced Appeals",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Ritualist class feature (level 18).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 88.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "ritualistpracticedappeals",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Ritualist 18",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcritualist0000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfritualistritu",
+      "_key": "!items!rcfritualistritu",
+      "name": "Ritualist Tradition Feature",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Ritualist class feature (level 20).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 88.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "ritualistritualisttraditionfeature",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Ritualist 20",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcritualist0000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfpilgrimbodymi",
+      "_key": "!items!rcfpilgrimbodymi",
+      "name": "Body, Mind, and Spirit",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Pilgrim class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 99.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "pilgrimbodymindandspirit",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Pilgrim 1",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcpilgrim000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfpilgrimyinand",
+      "_key": "!items!rcfpilgrimyinand",
+      "name": "Yin and Yang",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Pilgrim class feature (level 2).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 99.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "pilgrimyinandyang",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Pilgrim 2",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcpilgrim000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfpilgrimextern",
+      "_key": "!items!rcfpilgrimextern",
+      "name": "Externalizations",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Pilgrim class feature (level 2).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 99.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "pilgrimexternalizations",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Pilgrim 2",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcpilgrim000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfpilgrimbattle",
+      "_key": "!items!rcfpilgrimbattle",
+      "name": "Battle Meditation",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Pilgrim class feature (level 3).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 99.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "pilgrimbattlemeditation",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Pilgrim 3",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcpilgrim000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfpilgrimboundl",
+      "_key": "!items!rcfpilgrimboundl",
+      "name": "Boundless Vitality",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Pilgrim class feature (level 5).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 99.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "pilgrimboundlessvitality",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Pilgrim 5",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcpilgrim000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfpilgrimwellof",
+      "_key": "!items!rcfpilgrimwellof",
+      "name": "Well of Strength",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Pilgrim class feature (level 5).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 99.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "pilgrimwellofstrength",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Pilgrim 5",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcpilgrim000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfpilgrimcosmic",
+      "_key": "!items!rcfpilgrimcosmic",
+      "name": "Cosmic Path Feature",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Pilgrim class feature (level 6).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 99.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "pilgrimcosmicpathfeature",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Pilgrim 6",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcpilgrim000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfpilgrimformso",
+      "_key": "!items!rcfpilgrimformso",
+      "name": "Forms of Enlightenment",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Pilgrim class feature (level 7).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 99.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "pilgrimformsofenlightenment",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Pilgrim 7",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcpilgrim000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfpilgrimadvanc",
+      "_key": "!items!rcfpilgrimadvanc",
+      "name": "Advanced Externalizations",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Pilgrim class feature (level 9).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 99.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "pilgrimadvancedexternalizations",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Pilgrim 9",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcpilgrim000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfpilgrimwellof",
+      "_key": "!items!rcfpilgrimwellof",
+      "name": "Well of Strength Improvement",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Pilgrim class feature (level 10).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 99.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "pilgrimwellofstrengthimprovement",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Pilgrim 10",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcpilgrim000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfpilgrimcosmic",
+      "_key": "!items!rcfpilgrimcosmic",
+      "name": "Cosmic Path Feature (Improved)",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Pilgrim class feature (level 12).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 99.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "pilgrimcosmicpathfeatureimproved",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Pilgrim 12",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcpilgrim000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfpilgrimtechni",
+      "_key": "!items!rcfpilgrimtechni",
+      "name": "Technique Chaining",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Pilgrim class feature (level 13).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 99.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "pilgrimtechniquechaining",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Pilgrim 13",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcpilgrim000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfpilgrimeyesof",
+      "_key": "!items!rcfpilgrimeyesof",
+      "name": "Eyes of Dawn and Dusk",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Pilgrim class feature (level 14).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 99.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "pilgrimeyesofdawnanddusk",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Pilgrim 14",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcpilgrim000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfpilgrimbattle",
+      "_key": "!items!rcfpilgrimbattle",
+      "name": "Battle Meditation Improvement",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Pilgrim class feature (level 20).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 99.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "pilgrimbattlemeditationimprovement",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Pilgrim 20",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcpilgrim000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfpilgrimcosmic",
+      "_key": "!items!rcfpilgrimcosmic",
+      "name": "Cosmic Path Feature Improvement",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Pilgrim class feature (level 20).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 99.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "pilgrimcosmicpathfeatureimprovement",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Pilgrim 20",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcpilgrim000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfacolyteegosyn",
+      "_key": "!items!rcfacolyteegosyn",
+      "name": "Ego Synthesis",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Acolyte class feature (level 2).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 112.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "acolyteegosynthesis",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Acolyte 2",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcacolyte000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfacolyterenewi",
+      "_key": "!items!rcfacolyterenewi",
+      "name": "Renewing Purpose",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Acolyte class feature (level 3).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 112.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "acolyterenewingpurpose",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Acolyte 3",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcacolyte000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfacolyteegosyn",
+      "_key": "!items!rcfacolyteegosyn",
+      "name": "Ego Synthesis (Improved)",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Acolyte class feature (level 5).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 112.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "acolyteegosynthesisimproved",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Acolyte 5",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcacolyte000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfacolyteeterna",
+      "_key": "!items!rcfacolyteeterna",
+      "name": "Eternal Student",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Acolyte class feature (level 5).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 112.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "acolyteeternalstudent",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Acolyte 5",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcacolyte000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfacolytediscip",
+      "_key": "!items!rcfacolytediscip",
+      "name": "Disciplined Approach",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Acolyte class feature (level 7).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 112.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "acolytedisciplinedapproach",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Acolyte 7",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcacolyte000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfacolyteexpand",
+      "_key": "!items!rcfacolyteexpand",
+      "name": "Expanded Mind",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Acolyte class feature (level 10).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 112.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "acolyteexpandedmind",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Acolyte 10",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcacolyte000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfacolyteagreat",
+      "_key": "!items!rcfacolyteagreat",
+      "name": "A Greater Purpose",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Acolyte class feature (level 13).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 112.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "acolyteagreaterpurpose",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Acolyte 13",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcacolyte000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfacolytestreng",
+      "_key": "!items!rcfacolytestreng",
+      "name": "Strength in Clarity",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Acolyte class feature (level 15).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 112.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "acolytestrengthinclarity",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Acolyte 15",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcacolyte000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfacolytetransc",
+      "_key": "!items!rcfacolytetransc",
+      "name": "Transcendent Surge",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Acolyte class feature (level 18).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 112.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "acolytetranscendentsurge",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Acolyte 18",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcacolyte000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    }
+  ]
+}

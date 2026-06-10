@@ -1,29 +1,104 @@
 /* ============================================================
    Adventures in Rokugan 5E - Foundry VTT Module Styles
-   Targets Foundry v13+ with dnd5e 5.x (release-5.3.3).
+   Foundry v13+ / dnd5e 5.x (release-5.3.3)
 
-   Styling matches the dnd5e 5.x sheet design language:
-   - dnd5e CSS custom properties (--dnd5e-color-gold, -maroon, -olive,
-     font stacks) with fallbacks matching the system's values
-   - <filigree-box> custom element for resource panels
-   - Roboto Condensed uppercase labels, Roboto Slab values
-   - Light/dark theme support via .theme-dark scoping
+   THEME ARCHITECTURE
+   Mirrors the dnd5e 5.x approach: every rule references only
+   semantic --rokugan-* tokens. Tokens are defined once with
+   light values on the module's root contexts, then redefined
+   in a single dark-scope block. Foundry v13 applies
+   `themed theme-light` / `theme-dark` classes to application
+   roots (sheets, chat, dialogs), so descendant scoping follows
+   the active theme automatically - including per-window theme
+   overrides and "browser default" mode. Where dnd5e or core
+   exposes a matching variable (--dnd5e-color-*, 
+   --color-text-*), tokens resolve through it with a fallback
+   mirroring the system palette.
    ============================================================ */
 
 /* ----------------------------------------
-   Shared palette (fallbacks mirror dnd5e 5.x variables.less)
+   Semantic tokens - LIGHT (defaults)
    ---------------------------------------- */
 
+.rokugan-resource-dock,
 .rokugan-resource-panel,
 .tab.rokugan,
-.rokugan-magic-config {
+.rokugan-magic-config,
+.rokugan-chat-resource,
+.rokugan-number-prompt {
+  /* Brand anchors (theme-independent) */
   --rokugan-gold: var(--dnd5e-color-gold, #9f9275);
   --rokugan-maroon: var(--dnd5e-color-maroon, #6e0000);
-  --rokugan-olive: var(--dnd5e-color-olive, #4b4a44);
-  --rokugan-groove: var(--dnd5e-color-groove, #eeede0);
+
+  /* Text */
+  --rokugan-heading: var(--dnd5e-color-maroon, #6e0000);
+  --rokugan-label: var(--dnd5e-color-olive, #4b4a44);
+  --rokugan-text: var(--color-text-primary, #1b1d24);
+  --rokugan-text-muted: var(--color-text-secondary, #4b4a44);
+
+  /* Surfaces & borders */
+  --rokugan-surface: rgba(0, 0, 0, 0.03);
+  --rokugan-input-bg: rgba(255, 255, 255, 0.55);
+  --rokugan-border: var(--dnd5e-color-gold, #9f9275);
+  --rokugan-border-subtle: #c9c4b4;
+
+  /* Pips & trackers */
+  --rokugan-pip-border: var(--dnd5e-color-olive, #4b4a44);
+  --rokugan-pip-fill: var(--dnd5e-color-maroon, #6e0000);
+  --rokugan-pip-hover: var(--dnd5e-color-gold, #9f9275);
+  --rokugan-shadow-pip: var(--dnd5e-color-maroon, #6e0000);
+
+  /* Buttons */
+  --rokugan-btn-text: var(--color-text-primary, #4b4a44);
+  --rokugan-btn-hover-bg: var(--dnd5e-color-gold, #9f9275);
+  --rokugan-btn-hover-text: white;
+  --rokugan-btn-active-bg: var(--dnd5e-color-maroon, #6e0000);
+
+  /* Yin/Yang track */
+  --rokugan-yy-border: var(--dnd5e-color-olive, #4b4a44);
+  --rokugan-yy-glow: var(--dnd5e-color-gold, #9f9275);
+  --rokugan-yy-ring: var(--dnd5e-color-maroon, #6e0000);
+
+  /* Fonts (dnd5e stacks with matching fallbacks) */
   --rokugan-font-label: var(--dnd5e-font-roboto-condensed, "Roboto Condensed", sans-serif);
   --rokugan-font-value: var(--dnd5e-font-roboto-slab, "Roboto Slab", serif);
   --rokugan-font-body: var(--dnd5e-font-roboto, "Roboto", sans-serif);
+
+  color-scheme: light;
+}
+
+/* ----------------------------------------
+   Semantic tokens - DARK (single override block)
+   Scoped to any themed ancestor: the sheet root, chat log,
+   dialog, or <body> may carry the theme class.
+   ---------------------------------------- */
+
+.theme-dark .rokugan-resource-dock,
+.theme-dark .rokugan-resource-panel,
+.theme-dark .tab.rokugan,
+.theme-dark .rokugan-magic-config,
+.theme-dark .rokugan-chat-resource,
+.theme-dark .rokugan-number-prompt {
+  --rokugan-heading: var(--dnd5e-color-gold, #9f9275);
+  --rokugan-label: #b5ae97;
+  --rokugan-text: var(--color-text-primary, #cfcdc4);
+  --rokugan-text-muted: var(--color-text-secondary, #9a978c);
+
+  --rokugan-surface: rgba(0, 0, 0, 0.35);
+  --rokugan-input-bg: rgba(0, 0, 0, 0.45);
+  --rokugan-border-subtle: #5d594e;
+
+  --rokugan-pip-border: var(--dnd5e-color-gold, #9f9275);
+  --rokugan-pip-fill: var(--dnd5e-color-gold, #9f9275);
+  --rokugan-pip-hover: #c8bd9b;
+  --rokugan-shadow-pip: #b73b3b;
+
+  --rokugan-btn-text: var(--color-text-primary, #cfcdc4);
+  --rokugan-btn-hover-text: #1b1d24;
+
+  --rokugan-yy-border: #6b675c;
+
+  color-scheme: dark;
 }
 
 /* ----------------------------------------
@@ -34,13 +109,14 @@ filigree-box.rokugan-resource-panel {
   display: block;
   margin: 0.375rem 0.5rem;
   position: relative;
+  color: var(--rokugan-text);
 }
 
 /* Plain-card fallback if the dnd5e custom element is unavailable */
 filigree-box.rokugan-resource-panel:not(:defined) {
-  border: 1px solid var(--rokugan-gold);
+  border: 1px solid var(--rokugan-border);
   border-radius: 5px;
-  background: var(--dnd5e-color-card, white);
+  background: var(--rokugan-surface);
   padding: 0.5rem 0.75rem;
 }
 
@@ -52,14 +128,13 @@ filigree-box.rokugan-resource-panel:not(:defined) {
   font-family: var(--rokugan-font-body);
 }
 
-/* Header: mirrors filigree-box h3.icon headers on the 5.x sheets */
 h3.rokugan-panel-header {
   display: flex;
   align-items: center;
   gap: 0.5rem;
   margin: 0;
   padding: 0 0 0.25rem 0;
-  border-bottom: 1px solid var(--rokugan-gold);
+  border-bottom: 1px solid var(--rokugan-border);
   font-size: 0.8125rem;
 }
 
@@ -73,13 +148,13 @@ h3.rokugan-panel-header .panel-title {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: var(--rokugan-maroon);
+  color: var(--rokugan-heading);
 }
 
 h3.rokugan-panel-header .panel-subtitle {
   font-family: var(--rokugan-font-label);
   font-size: 0.6875rem;
-  color: var(--color-text-secondary, var(--rokugan-olive));
+  color: var(--rokugan-text-muted);
 }
 
 h3.rokugan-panel-header .panel-info {
@@ -88,7 +163,7 @@ h3.rokugan-panel-header .panel-info {
   font-size: 0.625rem;
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  color: var(--color-text-secondary, var(--rokugan-olive));
+  color: var(--rokugan-text-muted);
 }
 
 /* ----------------------------------------
@@ -108,41 +183,33 @@ h3.rokugan-panel-header .panel-info {
   height: 0.875rem;
   margin: 0.125rem;
   transform: rotate(45deg);
-  border: 2px solid var(--rokugan-olive);
+  border: 2px solid var(--rokugan-pip-border);
   border-radius: 2px;
   background: transparent;
   cursor: pointer;
   transition: background 0.12s ease, border-color 0.12s ease;
 }
 
-.focus-pip.filled {
-  background: var(--rokugan-maroon);
-  border-color: var(--rokugan-maroon);
-}
-
-.focus-pip:hover {
-  border-color: var(--rokugan-gold);
-  background: var(--rokugan-gold);
-}
-
 .favor-pip {
   width: 0.9375rem;
   height: 0.9375rem;
   border-radius: 50%;
-  border: 2px solid var(--rokugan-olive);
+  border: 2px solid var(--rokugan-pip-border);
   background: transparent;
   cursor: pointer;
   transition: background 0.12s ease, border-color 0.12s ease;
 }
 
+.focus-pip.filled,
 .favor-pip.filled {
-  background: var(--rokugan-maroon);
-  border-color: var(--rokugan-maroon);
+  background: var(--rokugan-pip-fill);
+  border-color: var(--rokugan-pip-fill);
 }
 
+.focus-pip:hover,
 .favor-pip:hover {
-  border-color: var(--rokugan-gold);
-  background: var(--rokugan-gold);
+  border-color: var(--rokugan-pip-hover);
+  background: var(--rokugan-pip-hover);
 }
 
 .favor-pip.bonus {
@@ -161,12 +228,13 @@ h3.rokugan-panel-header .panel-info {
   font-weight: bold;
   min-width: 1.25rem;
   text-align: center;
+  color: var(--rokugan-text);
 }
 
 .focus-max, .favor-max, .focus-sep, .favor-sep {
   font-family: var(--rokugan-font-value);
   font-size: 0.8125rem;
-  color: var(--color-text-secondary, var(--rokugan-olive));
+  color: var(--rokugan-text-muted);
 }
 
 .focus-controls,
@@ -179,7 +247,6 @@ h3.rokugan-panel-header .panel-info {
   flex-wrap: wrap;
 }
 
-/* Buttons: gold-bordered pill buttons like the 5.x sheet buttons */
 .focus-btn, .favor-btn, .yy-btn {
   flex: 0 0 auto;
   width: auto;
@@ -189,25 +256,25 @@ h3.rokugan-panel-header .panel-info {
   font-size: 0.6875rem;
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  border: 1px solid var(--rokugan-gold);
+  border: 1px solid var(--rokugan-border);
   border-radius: 3px;
   background: transparent;
-  color: var(--color-text-primary, var(--rokugan-olive));
+  color: var(--rokugan-btn-text);
   cursor: pointer;
   transition: background 0.12s ease, color 0.12s ease;
 }
 
 .focus-btn:hover, .favor-btn:hover, .yy-btn:hover {
-  background: var(--rokugan-gold);
-  color: white;
+  background: var(--rokugan-btn-hover-bg);
+  color: var(--rokugan-btn-hover-text);
   box-shadow: none;
-  border-color: var(--rokugan-gold);
+  border-color: var(--rokugan-btn-hover-bg);
 }
 
 .focus-encounter-note,
 .favor-rest-note {
   font-size: 0.625rem;
-  color: var(--color-text-secondary, var(--rokugan-olive));
+  color: var(--rokugan-text-muted);
   font-style: italic;
   line-height: 1.3;
 }
@@ -222,7 +289,7 @@ h3.rokugan-panel-header .panel-info {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  color: var(--rokugan-maroon);
+  color: var(--rokugan-heading);
 }
 
 .favor-section .favor-hint {
@@ -230,7 +297,7 @@ h3.rokugan-panel-header .panel-info {
   text-transform: none;
   letter-spacing: 0;
   font-style: italic;
-  color: var(--color-text-secondary, var(--rokugan-olive));
+  color: var(--rokugan-text-muted);
 }
 
 .bonus-favor-value {
@@ -246,11 +313,14 @@ h3.rokugan-panel-header .panel-info {
   font-family: var(--rokugan-font-label);
   font-size: 0.6875rem;
   text-transform: uppercase;
-  color: var(--rokugan-maroon);
+  color: var(--rokugan-heading);
 }
 
 /* ----------------------------------------
    Yin / Yang track
+   The yin/yang slot gradients are intentionally fixed - they
+   depict ink-dark Yin and parchment-bright Yang and stay
+   readable on both themes; only borders/glows are tokenized.
    ---------------------------------------- */
 
 .yin-yang-track {
@@ -272,7 +342,7 @@ h3.rokugan-panel-header .panel-info {
   flex: 0 0 auto;
 }
 
-.yin-pole { color: var(--rokugan-olive); }
+.yin-pole { color: var(--rokugan-label); }
 .yang-pole { color: var(--rokugan-gold); }
 
 .track-slots {
@@ -288,7 +358,7 @@ h3.rokugan-panel-header .panel-info {
   align-items: center;
   justify-content: center;
   border-radius: 4px;
-  border: 1px solid var(--rokugan-olive);
+  border: 1px solid var(--rokugan-yy-border);
   cursor: pointer;
   text-align: center;
   transition: box-shadow 0.12s ease, transform 0.12s ease;
@@ -306,7 +376,6 @@ h3.rokugan-panel-header .panel-info {
 .yin-yang-slot.yin {
   background: linear-gradient(180deg, #3a3a40, #1b1d24);
   color: #d6d2c4;
-  border-color: var(--dnd5e-color-black, #1b1d24);
 }
 
 .yin-yang-slot.balanced {
@@ -317,26 +386,26 @@ h3.rokugan-panel-header .panel-info {
 }
 
 .yin-yang-slot.yang {
-  background: linear-gradient(180deg, #efe9dc, var(--rokugan-gold));
-  color: var(--rokugan-maroon);
-  border-color: var(--rokugan-gold);
+  background: linear-gradient(180deg, #efe9dc, #c8b27a);
+  color: #6e0000;
 }
 
 .yin-yang-slot.active {
-  box-shadow: 0 0 0 2px var(--rokugan-maroon), 0 0 8px var(--rokugan-gold);
+  box-shadow: 0 0 0 2px var(--rokugan-yy-ring), 0 0 8px var(--rokugan-yy-glow);
   transform: scale(1.06);
 }
 
 .yin-yang-state-display {
   font-size: 0.6875rem;
   font-family: var(--rokugan-font-body);
+  color: var(--rokugan-text);
 }
 
 .yin-yang-state-display strong {
   font-family: var(--rokugan-font-label);
   text-transform: uppercase;
   font-size: 0.625rem;
-  color: var(--rokugan-maroon);
+  color: var(--rokugan-heading);
 }
 
 .yin-yang-forms label {
@@ -344,7 +413,7 @@ h3.rokugan-panel-header .panel-info {
   font-size: 0.625rem;
   font-weight: bold;
   text-transform: uppercase;
-  color: var(--rokugan-maroon);
+  color: var(--rokugan-heading);
 }
 
 .form-buttons {
@@ -354,7 +423,6 @@ h3.rokugan-panel-header .panel-info {
   margin-top: 0.1875rem;
 }
 
-/* Form-of-Enlightenment buttons styled like dnd5e 5.x pills */
 .yin-yang-form-btn {
   flex: 0 0 auto;
   width: auto;
@@ -363,28 +431,28 @@ h3.rokugan-panel-header .panel-info {
   font-size: 0.6875rem;
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  border: 1px solid var(--rokugan-gold);
+  border: 1px solid var(--rokugan-border);
   border-radius: 0.75rem;
   background: transparent;
-  color: var(--color-text-primary, var(--rokugan-olive));
+  color: var(--rokugan-btn-text);
   cursor: pointer;
 }
 
 .yin-yang-form-btn:hover {
-  background: var(--rokugan-gold);
-  color: white;
+  background: var(--rokugan-btn-hover-bg);
+  color: var(--rokugan-btn-hover-text);
 }
 
 .yin-yang-form-btn.active {
-  background: var(--rokugan-maroon);
-  border-color: var(--rokugan-maroon);
+  background: var(--rokugan-btn-active-bg);
+  border-color: var(--rokugan-btn-active-bg);
   color: white;
 }
 
 .no-forms {
   font-size: 0.625rem;
   font-style: italic;
-  color: var(--color-text-secondary, var(--rokugan-olive));
+  color: var(--rokugan-text-muted);
 }
 
 /* ----------------------------------------
@@ -397,6 +465,7 @@ h3.rokugan-panel-header .panel-info {
   flex-direction: column;
   gap: 0.75rem;
   overflow-y: auto;
+  color: var(--rokugan-text);
 }
 
 .tab.rokugan.active {
@@ -404,10 +473,10 @@ h3.rokugan-panel-header .panel-info {
 }
 
 .rokugan-section {
-  border: 1px solid var(--rokugan-gold);
+  border: 1px solid var(--rokugan-border);
   border-radius: 4px;
   padding: 0.5rem 0.625rem;
-  background: var(--dnd5e-color-card, transparent);
+  background: var(--rokugan-surface);
 }
 
 .rokugan-section-title {
@@ -416,8 +485,8 @@ h3.rokugan-panel-header .panel-info {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: var(--rokugan-maroon);
-  border-bottom: 1px solid var(--rokugan-gold);
+  color: var(--rokugan-heading);
+  border-bottom: 1px solid var(--rokugan-border);
   margin: 0 0 0.5rem 0;
   padding-bottom: 0.25rem;
   display: flex;
@@ -435,7 +504,7 @@ h3.rokugan-panel-header .panel-info {
   font-weight: normal;
   text-transform: none;
   letter-spacing: 0;
-  color: var(--color-text-secondary, var(--rokugan-olive));
+  color: var(--rokugan-text-muted);
   font-style: italic;
   margin-left: auto;
 }
@@ -452,7 +521,31 @@ h3.rokugan-panel-header .panel-info {
   font-size: 0.6875rem;
   text-transform: uppercase;
   min-width: 3.75rem;
-  color: var(--rokugan-olive);
+  color: var(--rokugan-label);
+}
+
+/* Form controls: themed surfaces so native widgets follow the mode */
+.tab.rokugan select,
+.tab.rokugan input[type="number"],
+.tab.rokugan input[type="text"],
+.tab.rokugan textarea,
+.rokugan-magic-config select,
+.rokugan-magic-config input[type="number"],
+.rokugan-magic-config input[type="text"] {
+  background: var(--rokugan-input-bg);
+  color: var(--rokugan-text);
+  border: 1px solid var(--rokugan-border-subtle);
+  border-radius: 3px;
+}
+
+.tab.rokugan select:focus,
+.tab.rokugan input:focus,
+.tab.rokugan textarea:focus,
+.rokugan-magic-config select:focus,
+.rokugan-magic-config input:focus {
+  outline: none;
+  border-color: var(--rokugan-gold);
+  box-shadow: 0 0 4px var(--rokugan-gold);
 }
 
 .rokugan-field select {
@@ -478,7 +571,7 @@ h3.rokugan-panel-header .panel-info {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  color: var(--rokugan-maroon);
+  color: var(--rokugan-heading);
 }
 
 .rokugan-stat input[type="number"] {
@@ -500,14 +593,14 @@ h3.rokugan-panel-header .panel-info {
   font-size: 0.6875rem;
   font-weight: bold;
   text-transform: uppercase;
-  color: var(--rokugan-olive);
+  color: var(--rokugan-label);
 }
 
 .rokugan-shadow input[type="number"] {
   width: 3.25rem;
   text-align: center;
   font-family: var(--rokugan-font-value);
-  color: var(--rokugan-maroon);
+  color: var(--rokugan-shadow-pip);
 }
 
 .rokugan-shadow-pips {
@@ -521,19 +614,19 @@ h3.rokugan-panel-header .panel-info {
   width: 0.875rem;
   height: 0.875rem;
   border-radius: 50%;
-  border: 2px solid var(--rokugan-maroon);
+  border: 2px solid var(--rokugan-shadow-pip);
   background: transparent;
   cursor: pointer;
   transition: background 0.15s ease;
 }
 
 .rokugan-shadow-pips .pip.filled {
-  background: var(--rokugan-maroon);
+  background: var(--rokugan-shadow-pip);
 }
 
 .rokugan-shadow-pips .pip:hover {
-  background: var(--rokugan-gold);
-  border-color: var(--rokugan-gold);
+  background: var(--rokugan-pip-hover);
+  border-color: var(--rokugan-pip-hover);
 }
 
 .rokugan-motivations {
@@ -554,7 +647,7 @@ h3.rokugan-panel-header .panel-info {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  color: var(--rokugan-maroon);
+  color: var(--rokugan-heading);
 }
 
 .rokugan-motivation textarea {
@@ -565,25 +658,160 @@ h3.rokugan-panel-header .panel-info {
   min-height: 3rem;
 }
 
-/* Tab nav icon */
-.tabs .item[data-tab="rokugan"] i {
-  color: var(--rokugan-gold);
+.rokugan-motivation textarea::placeholder {
+  color: var(--rokugan-text-muted);
+  font-style: italic;
+}
+
+/* Tab nav icon: gold tint while INACTIVE only. The active tab inherits
+   dnd5e's own styling (gold background + ink icon) so contrast is always
+   the system's responsibility and can't go gold-on-gold. */
+.tabs .item[data-tab="rokugan"]:not(.active) i {
+  color: var(--dnd5e-color-gold, #9f9275);
 }
 
 .tabs .item[data-tab="rokugan"].active i {
-  color: var(--rokugan-maroon);
+  color: inherit;
+}
+
+/* ----------------------------------------
+   Resource Dock (v3.3.3)
+   Absolutely positioned at the bottom of the sheet window: removed
+   from document flow, so it can never disturb the dnd5e sheet grid
+   or stack into the shared tab cells. Bar sits at the bottom; the
+   full panel opens UPWARD above it.
+   ---------------------------------------- */
+
+.rokugan-resource-dock {
+  --rokugan-dock-bg: #f7f1e3;
+  position: absolute;
+  left: 10px;
+  right: 34px;            /* clear the window resize handle */
+  bottom: 8px;
+  z-index: 30;
+  display: flex;
+  flex-direction: column-reverse;
+  pointer-events: none;   /* container is click-through... */
+}
+
+.theme-dark .rokugan-resource-dock {
+  --rokugan-dock-bg: #15161a;
+}
+
+.rokugan-resource-dock .dock-bar,
+.rokugan-resource-dock .dock-full {
+  pointer-events: auto;   /* ...its surfaces are not */
+}
+
+.rokugan-resource-dock .dock-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  width: max-content;
+  max-width: 100%;
+  padding: 0.15rem 0.55rem;
+  border: 1px solid var(--rokugan-border);
+  border-radius: 6px;
+  background: var(--rokugan-dock-bg);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+  font-family: var(--rokugan-font-label);
+  color: var(--rokugan-text);
+}
+
+.dock-icon {
+  color: var(--rokugan-gold);
+  font-size: 0.8rem;
+}
+
+.dock-label {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 0.6875rem;
+  color: var(--rokugan-heading);
+}
+
+.dock-value {
+  font-family: var(--rokugan-font-value);
+  font-weight: bold;
+  font-size: 0.9rem;
+  min-width: 1rem;
+  text-align: center;
+  color: var(--rokugan-text);
+}
+
+.dock-value.dock-state {
+  min-width: auto;
+  font-size: 0.75rem;
+}
+
+.dock-sep,
+.dock-max {
+  font-family: var(--rokugan-font-value);
+  font-size: 0.8rem;
+  color: var(--rokugan-text-muted);
+}
+
+.dock-bonus {
+  color: var(--rokugan-gold);
+  font-weight: bold;
+  font-size: 0.75rem;
+}
+
+.dock-btn {
+  flex: 0 0 auto;
+  width: auto;
+  line-height: 1.2;
+  padding: 0.1rem 0.4rem;
+  font-size: 0.65rem;
+  border: 1px solid var(--rokugan-border);
+  border-radius: 3px;
+  background: transparent;
+  color: var(--rokugan-btn-text);
+  cursor: pointer;
+}
+
+.dock-btn:hover {
+  background: var(--rokugan-btn-hover-bg);
+  color: var(--rokugan-btn-hover-text);
+  box-shadow: none;
+}
+
+.rokugan-resource-dock .dock-full {
+  display: none;
+  margin-bottom: 0.3rem;
+  max-height: 320px;
+  overflow-y: auto;
+  border-radius: 6px;
+  background: var(--rokugan-dock-bg);
+  box-shadow: 0 -3px 14px rgba(0, 0, 0, 0.4);
+}
+
+.rokugan-resource-dock.expanded .dock-full {
+  display: block;
+}
+
+.rokugan-resource-dock .dock-full filigree-box.rokugan-resource-panel {
+  margin: 0;
+  background: var(--rokugan-dock-bg);
+}
+
+/* Never show over a minimized window's title bar */
+.application.minimized .rokugan-resource-dock {
+  display: none;
 }
 
 /* ----------------------------------------
    Item Sheet: Rokugan Magic Config
-   Styled to match the 5.x item sheet fieldsets
    ---------------------------------------- */
 
 .rokugan-magic-config {
-  border: 1px solid var(--rokugan-gold);
+  border: 1px solid var(--rokugan-border);
   border-radius: 5px;
   margin: 0.25rem 0 0.5rem 0;
   padding: 0.375rem 0.5rem;
+  background: var(--rokugan-surface);
+  color: var(--rokugan-text);
 }
 
 .rokugan-magic-config legend {
@@ -592,7 +820,7 @@ h3.rokugan-panel-header .panel-info {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  color: var(--rokugan-maroon);
+  color: var(--rokugan-heading);
   padding: 0 0.375rem;
 }
 
@@ -619,7 +847,7 @@ h3.rokugan-panel-header .panel-info {
   font-size: 0.625rem;
   font-weight: bold;
   text-transform: uppercase;
-  color: var(--rokugan-olive);
+  color: var(--rokugan-label);
 }
 
 .rokugan-magic-row .form-group label.checkbox {
@@ -633,53 +861,35 @@ h3.rokugan-panel-header .panel-info {
 .rokugan-magic-hint {
   font-size: 0.625rem;
   font-style: italic;
-  color: var(--color-text-secondary, var(--rokugan-olive));
+  color: var(--rokugan-text-muted);
   margin: 0.125rem 0;
 }
 
 /* ----------------------------------------
-   Chat cards
+   Chat cards & dialog prompts
    ---------------------------------------- */
 
 .rokugan-chat-resource {
-  border-left: 3px solid var(--dnd5e-color-gold, #9f9275);
+  border-left: 3px solid var(--rokugan-gold);
   padding: 0.1875rem 0.5rem;
   font-size: 0.75rem;
   border-radius: 0 3px 3px 0;
+  background: var(--rokugan-surface);
+  color: var(--rokugan-text);
 }
 
-/* ----------------------------------------
-   Dark theme (dnd5e 5.x .theme-dark scoping)
-   ---------------------------------------- */
-
-.theme-dark .rokugan-panel-header .panel-title,
-.theme-dark .rokugan-section-title,
-.theme-dark .favor-section .favor-label,
-.theme-dark .rokugan-stat label,
-.theme-dark .rokugan-motivation label,
-.theme-dark .yin-yang-forms label,
-.theme-dark .yin-yang-state-display strong,
-.theme-dark .favor-bonus-controls > label,
-.theme-dark .rokugan-magic-config legend {
-  color: var(--dnd5e-color-gold, #9f9275);
+.rokugan-number-prompt label {
+  font-family: var(--rokugan-font-body);
+  color: var(--rokugan-text);
 }
 
-.theme-dark .focus-pip,
-.theme-dark .favor-pip {
-  border-color: var(--dnd5e-color-gold, #9f9275);
-}
-
-.theme-dark .focus-pip.filled,
-.theme-dark .favor-pip.filled {
-  background: var(--dnd5e-color-gold, #9f9275);
-  border-color: var(--dnd5e-color-gold, #9f9275);
-}
-
-.theme-dark .focus-btn,
-.theme-dark .favor-btn,
-.theme-dark .yy-btn,
-.theme-dark .yin-yang-form-btn {
-  color: var(--color-text-primary, #d6d2c4);
+.rokugan-number-prompt input[type="number"] {
+  background: var(--rokugan-input-bg);
+  color: var(--rokugan-text);
+  border: 1px solid var(--rokugan-border-subtle);
+  border-radius: 3px;
+  text-align: center;
+  font-family: var(--rokugan-font-value);
 }
 
 /* ----------------------------------------

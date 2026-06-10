@@ -17,6 +17,9 @@ import { toJQuery, getOpenSheetsFor, promptChoice } from "./compat.mjs";
 
 export class RokuganResourcePanel {
 
+  /** Dock expanded/collapsed state per actor id (session-scoped). */
+  static _dockState = new Map();
+
   // ----------------------------------------
   // Entry point: called from hooks
   // ----------------------------------------
@@ -28,8 +31,8 @@ export class RokuganResourcePanel {
     const type = RokuganResources.getResourceType(actor);
     if (!type) return;
 
-    // Remove any stale panels
-    html.find(".rokugan-resource-panel").remove();
+    // Remove any stale dock/panels (also clears pre-3.3.3 in-flow panels)
+    html.find(".rokugan-resource-dock, .rokugan-resource-panel").remove();
 
     let panelHTML = "";
 
@@ -41,18 +44,118 @@ export class RokuganResourcePanel {
 
     if (!panelHTML) return;
 
-    // Find a good insertion point - after the attributes section or resources
-    const target = html.find(".sheet-body").first();
-    if (!target.length) return;
+    // v3.3.2 injected the panel into the sheet's own columns, but dnd5e
+    // 5.x renders its parts/tab sections stacked in shared grid cells, so
+    // ANY in-flow insertion point risks stacking the panel over (or under)
+    // the active tab on every page - exactly the reported overlap. The
+    // panel is now a self-contained DOCK appended to the application root
+    // and absolutely positioned at the bottom of the sheet window:
+    // position:absolute removes it from layout entirely, so it cannot
+    // disturb the sheet grid or collide with tab content, and its
+    // placement no longer depends on dnd5e's internal DOM at all.
+    // Collapsed by default to a one-line bar with quick controls; expands
+    // upward into the full panel on demand.
+    const expanded = RokuganResourcePanel._dockState.get(actor.id) ?? false;
+    const bar = RokuganResourcePanel._buildDockBar(actor, type, expanded);
+    if (!bar) return;
 
-    // Wrap in dnd5e 5.x's <filigree-box> custom element so the panel matches
-    // the gold-filigree card styling of the new sheets. The element is
-    // registered globally by the dnd5e system; CSS in this module provides a
-    // plain-card fallback in case it is ever unavailable.
-    const wrapper = $(`<filigree-box class="rokugan-resource-panel rokugan-panel-${type}">${panelHTML}</filigree-box>`);
-    target.prepend(wrapper);
+    const dock = $(`
+      <div class="rokugan-resource-dock rokugan-dock-${type}${expanded ? " expanded" : ""}">
+        <div class="dock-bar">${bar}</div>
+        <div class="dock-full">
+          <filigree-box class="rokugan-resource-panel rokugan-panel-${type}">${panelHTML}</filigree-box>
+        </div>
+      </div>`);
+    html.append(dock);
 
+    RokuganResourcePanel._wireDock(html, actor, type);
     RokuganResourcePanel._wireEvents(html, actor, type);
+  }
+
+  // ----------------------------------------
+  // Dock bar (collapsed one-line summary with quick controls)
+  // ----------------------------------------
+
+  static _buildDockBar(actor, type, expanded) {
+    const chevron = expanded ? "fa-chevron-down" : "fa-chevron-up";
+    const toggleLabel = game.i18n.localize(expanded ? "ROKUGAN.UI.Collapse" : "ROKUGAN.UI.Expand");
+    const toggle = `<button type="button" class="dock-btn dock-toggle" aria-label="${toggleLabel}"
+      data-tooltip="${toggleLabel}"><i class="fas ${chevron}"></i></button>`;
+
+    if (type === "focus") {
+      const d = RokuganResources.getFocusData(actor);
+      if (!d) return "";
+      return `${toggle}
+        <i class="fas fa-wind dock-icon"></i>
+        <span class="dock-label">${game.i18n.localize("ROKUGAN.Focus.Focus")}</span>
+        <button type="button" class="dock-btn dock-dec" aria-label="-1"><i class="fas fa-minus"></i></button>
+        <span class="dock-value">${d.current}</span><span class="dock-sep">/</span><span class="dock-max">${d.max}</span>
+        <button type="button" class="dock-btn dock-inc" aria-label="+1"><i class="fas fa-plus"></i></button>`;
+    }
+
+    if (type === "favor") {
+      const d = RokuganResources.getFavorData(actor);
+      if (!d) return "";
+      const bonus = d.bonus > 0 ? `<span class="dock-bonus">+${d.bonus}</span>` : "";
+      return `${toggle}
+        <i class="fas fa-pray dock-icon"></i>
+        <span class="dock-label">${game.i18n.localize("ROKUGAN.Favor.Favor")}</span>
+        <button type="button" class="dock-btn dock-dec" aria-label="-1"><i class="fas fa-minus"></i></button>
+        <span class="dock-value">${d.current}</span><span class="dock-sep">/</span><span class="dock-max">${d.max}</span>${bonus}
+        <button type="button" class="dock-btn dock-inc" aria-label="+1"><i class="fas fa-plus"></i></button>`;
+    }
+
+    const d = RokuganResources.getYinYangData(actor);
+    if (!d) return "";
+    return `${toggle}
+      <i class="fas fa-yin-yang dock-icon"></i>
+      <span class="dock-label">${game.i18n.localize("ROKUGAN.YinYang.YinYang")}</span>
+      <button type="button" class="dock-btn dock-yin" aria-label="${game.i18n.localize("ROKUGAN.YinYang.ShiftYin")}"><i class="fas fa-moon"></i></button>
+      <span class="dock-value dock-state">${game.i18n.localize(d.label)}</span>
+      <button type="button" class="dock-btn dock-yang" aria-label="${game.i18n.localize("ROKUGAN.YinYang.ShiftYang")}"><i class="fas fa-sun"></i></button>`;
+  }
+
+  static _wireDock(html, actor, type) {
+    const dock = html.find(".rokugan-resource-dock");
+
+    dock.find(".dock-toggle").on("click", () => {
+      const cur = RokuganResourcePanel._dockState.get(actor.id) ?? false;
+      RokuganResourcePanel._dockState.set(actor.id, !cur);
+      RokuganResourcePanel._refreshPanel(actor);
+    });
+
+    if (type === "focus") {
+      dock.find(".dock-dec").on("click", async () => {
+        const d = RokuganResources.getFocusData(actor);
+        await RokuganResources.setFocus(actor, d.current - 1);
+        RokuganResourcePanel._refreshPanel(actor);
+      });
+      dock.find(".dock-inc").on("click", async () => {
+        const d = RokuganResources.getFocusData(actor);
+        await RokuganResources.setFocus(actor, d.current + 1);
+        RokuganResourcePanel._refreshPanel(actor);
+      });
+    } else if (type === "favor") {
+      dock.find(".dock-dec").on("click", async () => {
+        const d = RokuganResources.getFavorData(actor);
+        await RokuganResources.setFavor(actor, d.current - 1);
+        RokuganResourcePanel._refreshPanel(actor);
+      });
+      dock.find(".dock-inc").on("click", async () => {
+        const d = RokuganResources.getFavorData(actor);
+        await RokuganResources.setFavor(actor, d.current + 1);
+        RokuganResourcePanel._refreshPanel(actor);
+      });
+    } else if (type === "yinyang") {
+      dock.find(".dock-yin").on("click", async () => {
+        await RokuganResources.shiftYinYang(actor, -1);
+        RokuganResourcePanel._refreshPanel(actor);
+      });
+      dock.find(".dock-yang").on("click", async () => {
+        await RokuganResources.shiftYinYang(actor, +1);
+        RokuganResourcePanel._refreshPanel(actor);
+      });
+    }
   }
 
   // ----------------------------------------

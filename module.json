@@ -2,7 +2,7 @@
   "id": "rokugan5e",
   "title": "Adventures in Rokugan 5E",
   "description": "Adapts the dnd5e system for Adventures in Rokugan: classes, species, backgrounds, weapons, armor, terminology, and the full AiR magic system (Focus, Favor, and Yin/Yang resource tracking with automatic spending). Requires Foundry VTT v13+ and dnd5e 5.x.",
-  "version": "3.0.0",
+  "version": "3.10.0",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
@@ -28,7 +28,8 @@
     "scripts/rokugan5e.mjs"
   ],
   "styles": [
-    "styles/rokugan5e.css"
+    "styles/rokugan5e.css",
+    "styles/l5r-theme.css"
   ],
   "languages": [
     {
@@ -37,5 +38,112 @@
       "path": "lang/en.json"
     }
   ],
-  "flags": {}
+  "flags": {},
+  "packs": [
+    {
+      "name": "classes",
+      "label": "AiR Classes",
+      "path": "packs/classes",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "classfeatures",
+      "label": "AiR Class Features",
+      "path": "packs/classfeatures",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "species",
+      "label": "AiR Species",
+      "path": "packs/species",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "backgrounds",
+      "label": "AiR Backgrounds",
+      "path": "packs/backgrounds",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "feats",
+      "label": "AiR Feats",
+      "path": "packs/feats",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "equipment",
+      "label": "AiR Weapons & Armor",
+      "path": "packs/equipment",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "techniques",
+      "label": "AiR Techniques",
+      "path": "packs/techniques",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "invocations",
+      "label": "AiR Invocations",
+      "path": "packs/invocations",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Adventures in Rokugan",
+      "sorting": "m",
+      "color": "#6e0000",
+      "packs": [
+        "classes",
+        "classfeatures",
+        "species",
+        "backgrounds",
+        "feats",
+        "equipment",
+        "techniques",
+        "invocations"
+      ]
+    }
+  ]
 }

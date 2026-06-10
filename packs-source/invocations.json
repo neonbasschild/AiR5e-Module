@@ -1,0 +1,4718 @@
+{
+  "folders": [
+    {
+      "_id": "rfiair0000000000",
+      "_key": "!folders!rfiair0000000000",
+      "name": "Air",
+      "type": "Item",
+      "sorting": "a",
+      "color": null,
+      "folder": null,
+      "sort": 0
+    },
+    {
+      "_id": "rfiearth00000000",
+      "_key": "!folders!rfiearth00000000",
+      "name": "Earth",
+      "type": "Item",
+      "sorting": "a",
+      "color": null,
+      "folder": null,
+      "sort": 0
+    },
+    {
+      "_id": "rfifire000000000",
+      "_key": "!folders!rfifire000000000",
+      "name": "Fire",
+      "type": "Item",
+      "sorting": "a",
+      "color": null,
+      "folder": null,
+      "sort": 0
+    },
+    {
+      "_id": "rfiwater00000000",
+      "_key": "!folders!rfiwater00000000",
+      "name": "Water",
+      "type": "Item",
+      "sorting": "a",
+      "color": null,
+      "folder": null,
+      "sort": 0
+    },
+    {
+      "_id": "rfiuniversal0000",
+      "_key": "!folders!rfiuniversal0000",
+      "name": "Universal",
+      "type": "Item",
+      "sorting": "a",
+      "color": null,
+      "folder": null,
+      "sort": 0
+    }
+  ],
+  "entries": [
+    {
+      "_id": "riarmorofstone00",
+      "_key": "!items!riarmorofstone00",
+      "name": "Armor of Stone",
+      "type": "spell",
+      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "system": {
+        "description": {
+          "value": "<p>Tier 2 earth summoning · Casting: 1 action · Base Favor: 1 · Range: Self · Duration: Ongoing (1 favor per round)</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 263.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "armorofstone",
+        "level": 2,
+        "school": "earth",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "sourceClass": "ritualist",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "spec",
+          "special": "Ongoing (1 favor per round)"
+        },
+        "range": {
+          "value": null,
+          "units": "spec",
+          "special": "Self"
+        },
+        "target": {
+          "affects": {
+            "type": "",
+            "count": "",
+            "choice": false,
+            "special": ""
+          },
+          "template": {
+            "units": "ft",
+            "contiguous": false,
+            "type": ""
+          }
+        },
+        "activities": {
+          "rkiarmorofstone0": {
+            "_id": "rkiarmorofstone0",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": true,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "duration": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfiearth00000000",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "magic": {
+            "kind": "invocation",
+            "element": "earth",
+            "tier": 2,
+            "favorCost": 1,
+            "invocationType": "summoning"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "ribarricadeofear",
+      "_key": "!items!ribarricadeofear",
+      "name": "Barricade of Earth",
+      "type": "spell",
+      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "system": {
+        "description": {
+          "value": "<p>Tier 2 earth summoning · Casting: 1 minute · Base Favor: 1 · Range: 30 feet · Duration: 1 hour</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 263.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "barricadeofearth",
+        "level": 2,
+        "school": "earth",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "sourceClass": "ritualist",
+        "activation": {
+          "type": "minute",
+          "value": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "spec",
+          "special": "1 hour"
+        },
+        "range": {
+          "value": null,
+          "units": "spec",
+          "special": "30 feet"
+        },
+        "target": {
+          "affects": {
+            "type": "",
+            "count": "",
+            "choice": false,
+            "special": ""
+          },
+          "template": {
+            "units": "ft",
+            "contiguous": false,
+            "type": ""
+          }
+        },
+        "activities": {
+          "rkibarricadeofea": {
+            "_id": "rkibarricadeofea",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "minute",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": true,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "duration": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfiearth00000000",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "magic": {
+            "kind": "invocation",
+            "element": "earth",
+            "tier": 2,
+            "favorCost": 1,
+            "invocationType": "summoning"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "ribindtheshadow0",
+      "_key": "!items!ribindtheshadow0",
+      "name": "Bind the Shadow",
+      "type": "spell",
+      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "system": {
+        "description": {
+          "value": "<p>Tier 3 earth purification · Casting: 1 minute · Base Favor: 2 · Range: 10 feet · Duration: 1 hour</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 264.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "bindtheshadow",
+        "level": 3,
+        "school": "earth",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "sourceClass": "ritualist",
+        "activation": {
+          "type": "minute",
+          "value": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "spec",
+          "special": "1 hour"
+        },
+        "range": {
+          "value": null,
+          "units": "spec",
+          "special": "10 feet"
+        },
+        "target": {
+          "affects": {
+            "type": "",
+            "count": "",
+            "choice": false,
+            "special": ""
+          },
+          "template": {
+            "units": "ft",
+            "contiguous": false,
+            "type": ""
+          }
+        },
+        "activities": {
+          "rkibindtheshadow": {
+            "_id": "rkibindtheshadow",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "minute",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": true,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "duration": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfiearth00000000",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "magic": {
+            "kind": "invocation",
+            "element": "earth",
+            "tier": 3,
+            "favorCost": 2,
+            "invocationType": "purification"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "ribitingsteel000",
+      "_key": "!items!ribitingsteel000",
+      "name": "Biting Steel",
+      "type": "spell",
+      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "system": {
+        "description": {
+          "value": "<p>Tier 1 fire augmentation · Casting: 1 action · Base Favor: 0 · Range: Touch · Duration: 1 minute</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 265.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "bitingsteel",
+        "level": 1,
+        "school": "fire",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "sourceClass": "ritualist",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "spec",
+          "special": "1 minute"
+        },
+        "range": {
+          "value": null,
+          "units": "spec",
+          "special": "Touch"
+        },
+        "target": {
+          "affects": {
+            "type": "",
+            "count": "",
+            "choice": false,
+            "special": ""
+          },
+          "template": {
+            "units": "ft",
+            "contiguous": false,
+            "type": ""
+          }
+        },
+        "activities": {
+          "rkibitingsteel00": {
+            "_id": "rkibitingsteel00",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": true,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "duration": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfifire000000000",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "magic": {
+            "kind": "invocation",
+            "element": "fire",
+            "tier": 1,
+            "favorCost": 0,
+            "invocationType": "augmentation"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "ribladeoftheelem",
+      "_key": "!items!ribladeoftheelem",
+      "name": "Blade of the Elements",
+      "type": "spell",
+      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "system": {
+        "description": {
+          "value": "<p>Tier 1 any element · Casting: 1 action · Base Favor: 0 · Range: Self · Duration: 1 minute, or until the end of any turn in</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 265.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "bladeoftheelements",
+        "level": 1,
+        "school": "evo",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "sourceClass": "ritualist",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "spec",
+          "special": "1 minute, or until the end of any turn in"
+        },
+        "range": {
+          "value": null,
+          "units": "spec",
+          "special": "Self"
+        },
+        "target": {
+          "affects": {
+            "type": "",
+            "count": "",
+            "choice": false,
+            "special": ""
+          },
+          "template": {
+            "units": "ft",
+            "contiguous": false,
+            "type": ""
+          }
+        },
+        "activities": {
+          "rkibladeoftheele": {
+            "_id": "rkibladeoftheele",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": true,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "duration": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfiuniversal0000",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "magic": {
+            "kind": "invocation",
+            "element": "any",
+            "tier": 1,
+            "favorCost": 0,
+            "invocationType": "element"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "ribreathofthefir",
+      "_key": "!items!ribreathofthefir",
+      "name": "Breath of the Fire Dragon",
+      "type": "spell",
+      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "system": {
+        "description": {
+          "value": "<p>Tier 3 fire smite · Casting: 1 action · Base Favor: 2 · Range: Self · Duration: Ongoing (1 favor per round)</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 266.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "breathofthefiredragon",
+        "level": 3,
+        "school": "fire",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "sourceClass": "ritualist",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "spec",
+          "special": "Ongoing (1 favor per round)"
+        },
+        "range": {
+          "value": null,
+          "units": "spec",
+          "special": "Self"
+        },
+        "target": {
+          "affects": {
+            "type": "",
+            "count": "",
+            "choice": false,
+            "special": ""
+          },
+          "template": {
+            "units": "ft",
+            "contiguous": false,
+            "type": ""
+          }
+        },
+        "activities": {
+          "rkibreathofthefi": {
+            "_id": "rkibreathofthefi",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": true,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "duration": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfifire000000000",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "magic": {
+            "kind": "invocation",
+            "element": "fire",
+            "tier": 3,
+            "favorCost": 2,
+            "invocationType": "smite"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "ricallofcinders0",
+      "_key": "!items!ricallofcinders0",
+      "name": "Call of Cinders",
+      "type": "spell",
+      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "system": {
+        "description": {
+          "value": "<p>Tier 1 fire smite · Casting: 1 action · Base Favor: 0 · Range: 30 feet · Duration: Instantaneous</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 268.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "callofcinders",
+        "level": 1,
+        "school": "fire",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "sourceClass": "ritualist",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "spec",
+          "special": "Instantaneous"
+        },
+        "range": {
+          "value": null,
+          "units": "spec",
+          "special": "30 feet"
+        },
+        "target": {
+          "affects": {
+            "type": "",
+            "count": "",
+            "choice": false,
+            "special": ""
+          },
+          "template": {
+            "units": "ft",
+            "contiguous": false,
+            "type": ""
+          }
+        },
+        "activities": {
+          "rkicallofcinders": {
+            "_id": "rkicallofcinders",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": true,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "duration": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfifire000000000",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "magic": {
+            "kind": "invocation",
+            "element": "fire",
+            "tier": 1,
+            "favorCost": 0,
+            "invocationType": "smite"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "ricaressofearth0",
+      "_key": "!items!ricaressofearth0",
+      "name": "Caress of Earth",
+      "type": "spell",
+      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "system": {
+        "description": {
+          "value": "<p>Tier 1 earth mending · Casting: 10 minutes · Base Favor: 0 · Range: Touch · Duration: Instantaneous</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 268.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "caressofearth",
+        "level": 1,
+        "school": "earth",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "sourceClass": "ritualist",
+        "activation": {
+          "type": "minute",
+          "value": 10,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "spec",
+          "special": "Instantaneous"
+        },
+        "range": {
+          "value": null,
+          "units": "spec",
+          "special": "Touch"
+        },
+        "target": {
+          "affects": {
+            "type": "",
+            "count": "",
+            "choice": false,
+            "special": ""
+          },
+          "template": {
+            "units": "ft",
+            "contiguous": false,
+            "type": ""
+          }
+        },
+        "activities": {
+          "rkicaressofearth": {
+            "_id": "rkicaressofearth",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "minute",
+              "value": 10,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": true,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "duration": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfiearth00000000",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "magic": {
+            "kind": "invocation",
+            "element": "earth",
+            "tier": 1,
+            "favorCost": 0,
+            "invocationType": "mending"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "ricleansingrite0",
+      "_key": "!items!ricleansingrite0",
+      "name": "Cleansing Rite",
+      "type": "spell",
+      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "system": {
+        "description": {
+          "value": "<p>Tier 0 any element · Casting: 1 minute · Base Favor: 0 · Range: Touch · Duration: Instantaneous</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 268.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "cleansingrite",
+        "level": 0,
+        "school": "evo",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "sourceClass": "ritualist",
+        "activation": {
+          "type": "minute",
+          "value": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "spec",
+          "special": "Instantaneous"
+        },
+        "range": {
+          "value": null,
+          "units": "spec",
+          "special": "Touch"
+        },
+        "target": {
+          "affects": {
+            "type": "",
+            "count": "",
+            "choice": false,
+            "special": ""
+          },
+          "template": {
+            "units": "ft",
+            "contiguous": false,
+            "type": ""
+          }
+        },
+        "activities": {
+          "rkicleansingrite": {
+            "_id": "rkicleansingrite",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "minute",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": true,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "duration": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfiuniversal0000",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "magic": {
+            "kind": "invocation",
+            "element": "any",
+            "tier": 0,
+            "favorCost": 0,
+            "invocationType": "element"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "ricommunewiththe",
+      "_key": "!items!ricommunewiththe",
+      "name": "Commune with the Spirits",
+      "type": "spell",
+      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "system": {
+        "description": {
+          "value": "<p>Tier 0 any element · Casting: 1 minute · Base Favor: 0 · Range: 30 feet · Duration: Instantaneous</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 268.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "communewiththespirits",
+        "level": 0,
+        "school": "evo",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "sourceClass": "ritualist",
+        "activation": {
+          "type": "minute",
+          "value": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "spec",
+          "special": "Instantaneous"
+        },
+        "range": {
+          "value": null,
+          "units": "spec",
+          "special": "30 feet"
+        },
+        "target": {
+          "affects": {
+            "type": "",
+            "count": "",
+            "choice": false,
+            "special": ""
+          },
+          "template": {
+            "units": "ft",
+            "contiguous": false,
+            "type": ""
+          }
+        },
+        "activities": {
+          "rkicommunewithth": {
+            "_id": "rkicommunewithth",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "minute",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": true,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "duration": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfiuniversal0000",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "magic": {
+            "kind": "invocation",
+            "element": "any",
+            "tier": 0,
+            "favorCost": 0,
+            "invocationType": "element"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "ridanceofseasons",
+      "_key": "!items!ridanceofseasons",
+      "name": "Dance of Seasons",
+      "type": "spell",
+      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "system": {
+        "description": {
+          "value": "<p>Tier 1 water augmentation · Casting: 1 minute · Base Favor: 0 · Range: 30 feet · Duration: Instantaneous</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 269.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "danceofseasons",
+        "level": 1,
+        "school": "water",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "sourceClass": "ritualist",
+        "activation": {
+          "type": "minute",
+          "value": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "spec",
+          "special": "Instantaneous"
+        },
+        "range": {
+          "value": null,
+          "units": "spec",
+          "special": "30 feet"
+        },
+        "target": {
+          "affects": {
+            "type": "",
+            "count": "",
+            "choice": false,
+            "special": ""
+          },
+          "template": {
+            "units": "ft",
+            "contiguous": false,
+            "type": ""
+          }
+        },
+        "activities": {
+          "rkidanceofseason": {
+            "_id": "rkidanceofseason",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "minute",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": true,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "duration": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfiwater00000000",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "magic": {
+            "kind": "invocation",
+            "element": "water",
+            "tier": 1,
+            "favorCost": 0,
+            "invocationType": "augmentation"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "ridivinetheomens",
+      "_key": "!items!ridivinetheomens",
+      "name": "Divine the Omens",
+      "type": "spell",
+      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "system": {
+        "description": {
+          "value": "<p>Tier 0 any element · Casting: 10 minutes · Base Favor: 0 · Range: 5 feet · Duration: Instantaneous</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 269.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "divinetheomens",
+        "level": 0,
+        "school": "evo",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "sourceClass": "ritualist",
+        "activation": {
+          "type": "minute",
+          "value": 10,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "spec",
+          "special": "Instantaneous"
+        },
+        "range": {
+          "value": null,
+          "units": "spec",
+          "special": "5 feet"
+        },
+        "target": {
+          "affects": {
+            "type": "",
+            "count": "",
+            "choice": false,
+            "special": ""
+          },
+          "template": {
+            "units": "ft",
+            "contiguous": false,
+            "type": ""
+          }
+        },
+        "activities": {
+          "rkidivinetheomen": {
+            "_id": "rkidivinetheomen",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "minute",
+              "value": 10,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": true,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "duration": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfiuniversal0000",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "magic": {
+            "kind": "invocation",
+            "element": "any",
+            "tier": 0,
+            "favorCost": 0,
+            "invocationType": "element"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "ridominionofwate",
+      "_key": "!items!ridominionofwate",
+      "name": "Dominion of Water",
+      "type": "spell",
+      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "system": {
+        "description": {
+          "value": "<p>Tier 2 water scrying · Casting: 1 minute · Base Favor: 1 · Range: Touch · Duration: 1 minute</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 270.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "dominionofwater",
+        "level": 2,
+        "school": "water",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "sourceClass": "ritualist",
+        "activation": {
+          "type": "minute",
+          "value": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "spec",
+          "special": "1 minute"
+        },
+        "range": {
+          "value": null,
+          "units": "spec",
+          "special": "Touch"
+        },
+        "target": {
+          "affects": {
+            "type": "",
+            "count": "",
+            "choice": false,
+            "special": ""
+          },
+          "template": {
+            "units": "ft",
+            "contiguous": false,
+            "type": ""
+          }
+        },
+        "activities": {
+          "rkidominionofwat": {
+            "_id": "rkidominionofwat",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "minute",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": true,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "duration": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfiwater00000000",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "magic": {
+            "kind": "invocation",
+            "element": "water",
+            "tier": 2,
+            "favorCost": 1,
+            "invocationType": "scrying"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "riearthbecomessk",
+      "_key": "!items!riearthbecomessk",
+      "name": "Earth Becomes Sky",
+      "type": "spell",
+      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "system": {
+        "description": {
+          "value": "<p>Tier 2 earth smite · Casting: 1 action · Base Favor: 1 · Range: Self (10-foot slam) · Duration: Instantaneous</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 270.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "earthbecomessky",
+        "level": 2,
+        "school": "earth",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "sourceClass": "ritualist",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "spec",
+          "special": "Instantaneous"
+        },
+        "range": {
+          "value": null,
+          "units": "spec",
+          "special": "Self (10-foot slam)"
+        },
+        "target": {
+          "affects": {
+            "type": "",
+            "count": "",
+            "choice": false,
+            "special": ""
+          },
+          "template": {
+            "units": "ft",
+            "contiguous": false,
+            "type": ""
+          }
+        },
+        "activities": {
+          "rkiearthbecomess": {
+            "_id": "rkiearthbecomess",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": true,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "duration": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfiearth00000000",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "magic": {
+            "kind": "invocation",
+            "element": "earth",
+            "tier": 2,
+            "favorCost": 1,
+            "invocationType": "smite"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "riembraceoftheea",
+      "_key": "!items!riembraceoftheea",
+      "name": "Embrace of the Earth Dragon",
+      "type": "spell",
+      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "system": {
+        "description": {
+          "value": "<p>Tier 3 earth augmentation · Casting: 1 action · Base Favor: 1 · Range: 10 feet · Duration: 1 minute</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 272.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "embraceoftheearthdragon",
+        "level": 3,
+        "school": "earth",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "sourceClass": "ritualist",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "spec",
+          "special": "1 minute"
+        },
+        "range": {
+          "value": null,
+          "units": "spec",
+          "special": "10 feet"
+        },
+        "target": {
+          "affects": {
+            "type": "",
+            "count": "",
+            "choice": false,
+            "special": ""
+          },
+          "template": {
+            "units": "ft",
+            "contiguous": false,
+            "type": ""
+          }
+        },
+        "activities": {
+          "rkiembraceofthee": {
+            "_id": "rkiembraceofthee",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": true,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "duration": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfiearth00000000",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "magic": {
+            "kind": "invocation",
+            "element": "earth",
+            "tier": 3,
+            "favorCost": 1,
+            "invocationType": "augmentation"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rieverchangingwa",
+      "_key": "!items!rieverchangingwa",
+      "name": "Ever-Changing Waves",
+      "type": "spell",
+      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "system": {
+        "description": {
+          "value": "<p>Tier 3 water augmentation · Casting: 1 action · Base Favor: 2 · Range: Self · Duration: Ongoing (1 favor per round)</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 272.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "everchangingwaves",
+        "level": 3,
+        "school": "water",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "sourceClass": "ritualist",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "spec",
+          "special": "Ongoing (1 favor per round)"
+        },
+        "range": {
+          "value": null,
+          "units": "spec",
+          "special": "Self"
+        },
+        "target": {
+          "affects": {
+            "type": "",
+            "count": "",
+            "choice": false,
+            "special": ""
+          },
+          "template": {
+            "units": "ft",
+            "contiguous": false,
+            "type": ""
+          }
+        },
+        "activities": {
+          "rkieverchangingw": {
+            "_id": "rkieverchangingw",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": true,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "duration": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfiwater00000000",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "magic": {
+            "kind": "invocation",
+            "element": "water",
+            "tier": 3,
+            "favorCost": 2,
+            "invocationType": "augmentation"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rifuryofosanowo0",
+      "_key": "!items!rifuryofosanowo0",
+      "name": "Fury of Osano-wō",
+      "type": "spell",
+      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "system": {
+        "description": {
+          "value": "<p>Tier 2 fire smite · Casting: 1 action · Base Favor: 1 · Range: 60 feet · Duration: Instantaneous</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 272.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "furyofosanowo",
+        "level": 2,
+        "school": "fire",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "sourceClass": "ritualist",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "spec",
+          "special": "Instantaneous"
+        },
+        "range": {
+          "value": null,
+          "units": "spec",
+          "special": "60 feet"
+        },
+        "target": {
+          "affects": {
+            "type": "",
+            "count": "",
+            "choice": false,
+            "special": ""
+          },
+          "template": {
+            "units": "ft",
+            "contiguous": false,
+            "type": ""
+          }
+        },
+        "activities": {
+          "rkifuryofosanowo": {
+            "_id": "rkifuryofosanowo",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": true,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "duration": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfifire000000000",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "magic": {
+            "kind": "invocation",
+            "element": "fire",
+            "tier": 2,
+            "favorCost": 1,
+            "invocationType": "smite"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rigentlerains000",
+      "_key": "!items!rigentlerains000",
+      "name": "Gentle Rains",
+      "type": "spell",
+      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "system": {
+        "description": {
+          "value": "<p>Tier 2 water mending · Casting: 1 action · Base Favor: 1 · Range: Self (20-foot sweep) · Duration: Ongoing (1 favor per round)</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 273.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "gentlerains",
+        "level": 2,
+        "school": "water",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "sourceClass": "ritualist",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "spec",
+          "special": "Ongoing (1 favor per round)"
+        },
+        "range": {
+          "value": null,
+          "units": "spec",
+          "special": "Self (20-foot sweep)"
+        },
+        "target": {
+          "affects": {
+            "type": "",
+            "count": "",
+            "choice": false,
+            "special": ""
+          },
+          "template": {
+            "units": "ft",
+            "contiguous": false,
+            "type": ""
+          }
+        },
+        "activities": {
+          "rkigentlerains00": {
+            "_id": "rkigentlerains00",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": true,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "duration": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfiwater00000000",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "magic": {
+            "kind": "invocation",
+            "element": "water",
+            "tier": 2,
+            "favorCost": 1,
+            "invocationType": "mending"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rigraceoftheaird",
+      "_key": "!items!rigraceoftheaird",
+      "name": "Grace of the Air Dragon",
+      "type": "spell",
+      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "system": {
+        "description": {
+          "value": "<p>Tier 3 air augmentation · Casting: 1 bonus action · Base Favor: 2 · Range: 10 feet · Duration: 1 minute</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 273.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "graceoftheairdragon",
+        "level": 3,
+        "school": "air",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "sourceClass": "ritualist",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "spec",
+          "special": "1 minute"
+        },
+        "range": {
+          "value": null,
+          "units": "spec",
+          "special": "10 feet"
+        },
+        "target": {
+          "affects": {
+            "type": "",
+            "count": "",
+            "choice": false,
+            "special": ""
+          },
+          "template": {
+            "units": "ft",
+            "contiguous": false,
+            "type": ""
+          }
+        },
+        "activities": {
+          "rkigraceoftheair": {
+            "_id": "rkigraceoftheair",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": true,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "duration": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfiair0000000000",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "magic": {
+            "kind": "invocation",
+            "element": "air",
+            "tier": 3,
+            "favorCost": 2,
+            "invocationType": "augmentation"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "riguardianofthes",
+      "_key": "!items!riguardianofthes",
+      "name": "Guardian of the Sacred Gate",
+      "type": "spell",
+      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "system": {
+        "description": {
+          "value": "<p>Tier 1 earth summoning · Casting: 1 minute · Base Favor: 0 · Range: 10 feet · Duration: Ongoing (1 favor per round)</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 275.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "guardianofthesacredgate",
+        "level": 1,
+        "school": "earth",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "sourceClass": "ritualist",
+        "activation": {
+          "type": "minute",
+          "value": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "spec",
+          "special": "Ongoing (1 favor per round)"
+        },
+        "range": {
+          "value": null,
+          "units": "spec",
+          "special": "10 feet"
+        },
+        "target": {
+          "affects": {
+            "type": "",
+            "count": "",
+            "choice": false,
+            "special": ""
+          },
+          "template": {
+            "units": "ft",
+            "contiguous": false,
+            "type": ""
+          }
+        },
+        "activities": {
+          "rkiguardianofthe": {
+            "_id": "rkiguardianofthe",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "minute",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": true,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "duration": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfiearth00000000",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "magic": {
+            "kind": "invocation",
+            "element": "earth",
+            "tier": 1,
+            "favorCost": 0,
+            "invocationType": "summoning"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rihandsofthetide",
+      "_key": "!items!rihandsofthetide",
+      "name": "Hands of the Tide",
+      "type": "spell",
+      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "system": {
+        "description": {
+          "value": "<p>Tier 2 water augmentation · Casting: 1 action · Base Favor: 1 · Range: 30 feet · Duration: Instantaneous</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 275.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "handsofthetide",
+        "level": 2,
+        "school": "water",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "sourceClass": "ritualist",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "spec",
+          "special": "Instantaneous"
+        },
+        "range": {
+          "value": null,
+          "units": "spec",
+          "special": "30 feet"
+        },
+        "target": {
+          "affects": {
+            "type": "",
+            "count": "",
+            "choice": false,
+            "special": ""
+          },
+          "template": {
+            "units": "ft",
+            "contiguous": false,
+            "type": ""
+          }
+        },
+        "activities": {
+          "rkihandsofthetid": {
+            "_id": "rkihandsofthetid",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": true,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "duration": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfiwater00000000",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "magic": {
+            "kind": "invocation",
+            "element": "water",
+            "tier": 2,
+            "favorCost": 1,
+            "invocationType": "augmentation"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "riheartofthewate",
+      "_key": "!items!riheartofthewate",
+      "name": "Heart of the Water Dragon",
+      "type": "spell",
+      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "system": {
+        "description": {
+          "value": "<p>Tier 3 water augmentation · Casting: 1 action · Base Favor: 2 · Range: 10 feet · Duration: 1 minute</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 275.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "heartofthewaterdragon",
+        "level": 3,
+        "school": "water",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "sourceClass": "ritualist",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "spec",
+          "special": "1 minute"
+        },
+        "range": {
+          "value": null,
+          "units": "spec",
+          "special": "10 feet"
+        },
+        "target": {
+          "affects": {
+            "type": "",
+            "count": "",
+            "choice": false,
+            "special": ""
+          },
+          "template": {
+            "units": "ft",
+            "contiguous": false,
+            "type": ""
+          }
+        },
+        "activities": {
+          "rkiheartofthewat": {
+            "_id": "rkiheartofthewat",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": true,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "duration": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfiwater00000000",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "magic": {
+            "kind": "invocation",
+            "element": "water",
+            "tier": 3,
+            "favorCost": 2,
+            "invocationType": "augmentation"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "riinvigoratinghe",
+      "_key": "!items!riinvigoratinghe",
+      "name": "Invigorating Heat",
+      "type": "spell",
+      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "system": {
+        "description": {
+          "value": "<p>Tier 2 fire mending · Casting: 1 action · Base Favor: 1 · Range: Touch · Duration: 1 minute</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 276.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "invigoratingheat",
+        "level": 2,
+        "school": "fire",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "sourceClass": "ritualist",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "spec",
+          "special": "1 minute"
+        },
+        "range": {
+          "value": null,
+          "units": "spec",
+          "special": "Touch"
+        },
+        "target": {
+          "affects": {
+            "type": "",
+            "count": "",
+            "choice": false,
+            "special": ""
+          },
+          "template": {
+            "units": "ft",
+            "contiguous": false,
+            "type": ""
+          }
+        },
+        "activities": {
+          "rkiinvigoratingh": {
+            "_id": "rkiinvigoratingh",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": true,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "duration": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfifire000000000",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "magic": {
+            "kind": "invocation",
+            "element": "fire",
+            "tier": 2,
+            "favorCost": 1,
+            "invocationType": "mending"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rijadestrike0000",
+      "_key": "!items!rijadestrike0000",
+      "name": "Jade Strike",
+      "type": "spell",
+      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "system": {
+        "description": {
+          "value": "<p>Tier 1 earth purification · Casting: 1 action · Base Favor: 0 · Range: 10 feet · Duration: Instantaneous</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 276.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "jadestrike",
+        "level": 1,
+        "school": "earth",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "sourceClass": "ritualist",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "spec",
+          "special": "Instantaneous"
+        },
+        "range": {
+          "value": null,
+          "units": "spec",
+          "special": "10 feet"
+        },
+        "target": {
+          "affects": {
+            "type": "",
+            "count": "",
+            "choice": false,
+            "special": ""
+          },
+          "template": {
+            "units": "ft",
+            "contiguous": false,
+            "type": ""
+          }
+        },
+        "activities": {
+          "rkijadestrike000": {
+            "_id": "rkijadestrike000",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": true,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "duration": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfiearth00000000",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "magic": {
+            "kind": "invocation",
+            "element": "earth",
+            "tier": 1,
+            "favorCost": 0,
+            "invocationType": "purification"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "riladysunssmile0",
+      "_key": "!items!riladysunssmile0",
+      "name": "Lady Sun's Smile",
+      "type": "spell",
+      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "system": {
+        "description": {
+          "value": "<p>Tier 1 fire purification · Casting: 1 minute · Base Favor: 0 · Range: Self (30-foot line) · Duration: 1 minute</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 277.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "ladysunssmile",
+        "level": 1,
+        "school": "fire",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "sourceClass": "ritualist",
+        "activation": {
+          "type": "minute",
+          "value": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "spec",
+          "special": "1 minute"
+        },
+        "range": {
+          "value": null,
+          "units": "spec",
+          "special": "Self (30-foot line)"
+        },
+        "target": {
+          "affects": {
+            "type": "",
+            "count": "",
+            "choice": false,
+            "special": ""
+          },
+          "template": {
+            "units": "ft",
+            "contiguous": false,
+            "type": ""
+          }
+        },
+        "activities": {
+          "rkiladysunssmile": {
+            "_id": "rkiladysunssmile",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "minute",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": true,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "duration": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfifire000000000",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "magic": {
+            "kind": "invocation",
+            "element": "fire",
+            "tier": 1,
+            "favorCost": 0,
+            "invocationType": "purification"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rilordmoonsgaze0",
+      "_key": "!items!rilordmoonsgaze0",
+      "name": "Lord Moon's Gaze",
+      "type": "spell",
+      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "system": {
+        "description": {
+          "value": "<p>Tier 2 air scrying · Casting: 1 minute · Base Favor: 1 · Range: Self (30-foot line) · Duration: 1 minute</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 277.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "lordmoonsgaze",
+        "level": 2,
+        "school": "air",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "sourceClass": "ritualist",
+        "activation": {
+          "type": "minute",
+          "value": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "spec",
+          "special": "1 minute"
+        },
+        "range": {
+          "value": null,
+          "units": "spec",
+          "special": "Self (30-foot line)"
+        },
+        "target": {
+          "affects": {
+            "type": "",
+            "count": "",
+            "choice": false,
+            "special": ""
+          },
+          "template": {
+            "units": "ft",
+            "contiguous": false,
+            "type": ""
+          }
+        },
+        "activities": {
+          "rkilordmoonsgaze": {
+            "_id": "rkilordmoonsgaze",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "minute",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": true,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "duration": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfiair0000000000",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "magic": {
+            "kind": "invocation",
+            "element": "air",
+            "tier": 2,
+            "favorCost": 1,
+            "invocationType": "scrying"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rimaskofwind0000",
+      "_key": "!items!rimaskofwind0000",
+      "name": "Mask of Wind",
+      "type": "spell",
+      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "system": {
+        "description": {
+          "value": "<p>Tier 1 air illusion · Casting: 10 minutes · Base Favor: 0 · Range: Touch · Duration: Ongoing (1 favor per round)</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 278.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "maskofwind",
+        "level": 1,
+        "school": "air",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "sourceClass": "ritualist",
+        "activation": {
+          "type": "minute",
+          "value": 10,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "spec",
+          "special": "Ongoing (1 favor per round)"
+        },
+        "range": {
+          "value": null,
+          "units": "spec",
+          "special": "Touch"
+        },
+        "target": {
+          "affects": {
+            "type": "",
+            "count": "",
+            "choice": false,
+            "special": ""
+          },
+          "template": {
+            "units": "ft",
+            "contiguous": false,
+            "type": ""
+          }
+        },
+        "activities": {
+          "rkimaskofwind000": {
+            "_id": "rkimaskofwind000",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "minute",
+              "value": 10,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": true,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "duration": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfiair0000000000",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "magic": {
+            "kind": "invocation",
+            "element": "air",
+            "tier": 1,
+            "favorCost": 0,
+            "invocationType": "illusion"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rinaturestouch00",
+      "_key": "!items!rinaturestouch00",
+      "name": "Nature's Touch",
+      "type": "spell",
+      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "system": {
+        "description": {
+          "value": "<p>Tier 1 air augmentation · Casting: 1 action · Base Favor: 0 · Range: Touch · Duration: 1 hour</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 278.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "naturestouch",
+        "level": 1,
+        "school": "air",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "sourceClass": "ritualist",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "spec",
+          "special": "1 hour"
+        },
+        "range": {
+          "value": null,
+          "units": "spec",
+          "special": "Touch"
+        },
+        "target": {
+          "affects": {
+            "type": "",
+            "count": "",
+            "choice": false,
+            "special": ""
+          },
+          "template": {
+            "units": "ft",
+            "contiguous": false,
+            "type": ""
+          }
+        },
+        "activities": {
+          "rkinaturestouch0": {
+            "_id": "rkinaturestouch0",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": true,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "duration": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfiair0000000000",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "magic": {
+            "kind": "invocation",
+            "element": "air",
+            "tier": 1,
+            "favorCost": 0,
+            "invocationType": "augmentation"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "ricastingtime000",
+      "_key": "!items!ricastingtime000",
+      "name": "Casting Time",
+      "type": "spell",
+      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "system": {
+        "description": {
+          "value": "<p>Tier 1 water mending · Casting: — · Base Favor: 1 · Range: — · Duration: —</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 279.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "castingtime",
+        "level": 1,
+        "school": "water",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "sourceClass": "ritualist",
+        "activation": {
+          "type": "special",
+          "value": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "spec",
+          "special": ""
+        },
+        "range": {
+          "value": null,
+          "units": "spec",
+          "special": ""
+        },
+        "target": {
+          "affects": {
+            "type": "",
+            "count": "",
+            "choice": false,
+            "special": ""
+          },
+          "template": {
+            "units": "ft",
+            "contiguous": false,
+            "type": ""
+          }
+        },
+        "activities": {
+          "rkicastingtime00": {
+            "_id": "rkicastingtime00",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "special",
+              "value": null,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": true,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "duration": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfiwater00000000",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "magic": {
+            "kind": "invocation",
+            "element": "water",
+            "tier": 1,
+            "favorCost": 1,
+            "invocationType": "mending"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rirealmofillusio",
+      "_key": "!items!rirealmofillusio",
+      "name": "Realm of Illusion",
+      "type": "spell",
+      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "system": {
+        "description": {
+          "value": "<p>Tier 3 air illusion · Casting: 10 minutes · Base Favor: 2 · Range: Self (30-foot sphere) · Duration: 1 hour, or until you leave the sphere</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 280.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "realmofillusion",
+        "level": 3,
+        "school": "air",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "sourceClass": "ritualist",
+        "activation": {
+          "type": "minute",
+          "value": 10,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "spec",
+          "special": "1 hour, or until you leave the sphere"
+        },
+        "range": {
+          "value": null,
+          "units": "spec",
+          "special": "Self (30-foot sphere)"
+        },
+        "target": {
+          "affects": {
+            "type": "",
+            "count": "",
+            "choice": false,
+            "special": ""
+          },
+          "template": {
+            "units": "ft",
+            "contiguous": false,
+            "type": ""
+          }
+        },
+        "activities": {
+          "rkirealmofillusi": {
+            "_id": "rkirealmofillusi",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "minute",
+              "value": 10,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": true,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "duration": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfiair0000000000",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "magic": {
+            "kind": "invocation",
+            "element": "air",
+            "tier": 3,
+            "favorCost": 2,
+            "invocationType": "illusion"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "risearingbarrica",
+      "_key": "!items!risearingbarrica",
+      "name": "Searing Barricade",
+      "type": "spell",
+      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "system": {
+        "description": {
+          "value": "<p>Tier 2 fire summoning · Casting: 1 action · Base Favor: 1 · Range: 20 feet · Duration: 1 minute</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 281.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "searingbarricade",
+        "level": 2,
+        "school": "fire",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "sourceClass": "ritualist",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "spec",
+          "special": "1 minute"
+        },
+        "range": {
+          "value": null,
+          "units": "spec",
+          "special": "20 feet"
+        },
+        "target": {
+          "affects": {
+            "type": "",
+            "count": "",
+            "choice": false,
+            "special": ""
+          },
+          "template": {
+            "units": "ft",
+            "contiguous": false,
+            "type": ""
+          }
+        },
+        "activities": {
+          "rkisearingbarric": {
+            "_id": "rkisearingbarric",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": true,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "duration": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfifire000000000",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "magic": {
+            "kind": "invocation",
+            "element": "fire",
+            "tier": 2,
+            "favorCost": 1,
+            "invocationType": "summoning"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "risecretsonthewi",
+      "_key": "!items!risecretsonthewi",
+      "name": "Secrets on the Wind",
+      "type": "spell",
+      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "system": {
+        "description": {
+          "value": "<p>Tier 2 air scrying · Casting: 1 minute · Base Favor: 1 · Range: Self (10-foot sphere) · Duration: 10 hours</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 281.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "secretsonthewind",
+        "level": 2,
+        "school": "air",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "sourceClass": "ritualist",
+        "activation": {
+          "type": "minute",
+          "value": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "spec",
+          "special": "10 hours"
+        },
+        "range": {
+          "value": null,
+          "units": "spec",
+          "special": "Self (10-foot sphere)"
+        },
+        "target": {
+          "affects": {
+            "type": "",
+            "count": "",
+            "choice": false,
+            "special": ""
+          },
+          "template": {
+            "units": "ft",
+            "contiguous": false,
+            "type": ""
+          }
+        },
+        "activities": {
+          "rkisecretsonthew": {
+            "_id": "rkisecretsonthew",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "minute",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": true,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "duration": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfiair0000000000",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "magic": {
+            "kind": "invocation",
+            "element": "air",
+            "tier": 2,
+            "favorCost": 1,
+            "invocationType": "scrying"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "risinkholeshunge",
+      "_key": "!items!risinkholeshunge",
+      "name": "Sinkhole’s Hunger",
+      "type": "spell",
+      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "system": {
+        "description": {
+          "value": "<p>Tier 1 earth smite · Casting: 1 action · Base Favor: 0 · Range: Self (10-foot line) · Duration: Instantaneous</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 283.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "sinkholeshunger",
+        "level": 1,
+        "school": "earth",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "sourceClass": "ritualist",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "spec",
+          "special": "Instantaneous"
+        },
+        "range": {
+          "value": null,
+          "units": "spec",
+          "special": "Self (10-foot line)"
+        },
+        "target": {
+          "affects": {
+            "type": "",
+            "count": "",
+            "choice": false,
+            "special": ""
+          },
+          "template": {
+            "units": "ft",
+            "contiguous": false,
+            "type": ""
+          }
+        },
+        "activities": {
+          "rkisinkholeshung": {
+            "_id": "rkisinkholeshung",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": true,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "duration": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfiearth00000000",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "magic": {
+            "kind": "invocation",
+            "element": "earth",
+            "tier": 1,
+            "favorCost": 0,
+            "invocationType": "smite"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "risparkingswarms",
+      "_key": "!items!risparkingswarms",
+      "name": "Sparking Swarms",
+      "type": "spell",
+      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "system": {
+        "description": {
+          "value": "<p>Tier 1 fire summoning · Casting: 1 action · Base Favor: 0 · Range: Self · Duration: 1 minute</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 283.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "sparkingswarms",
+        "level": 1,
+        "school": "fire",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "sourceClass": "ritualist",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "spec",
+          "special": "1 minute"
+        },
+        "range": {
+          "value": null,
+          "units": "spec",
+          "special": "Self"
+        },
+        "target": {
+          "affects": {
+            "type": "",
+            "count": "",
+            "choice": false,
+            "special": ""
+          },
+          "template": {
+            "units": "ft",
+            "contiguous": false,
+            "type": ""
+          }
+        },
+        "activities": {
+          "rkisparkingswarm": {
+            "_id": "rkisparkingswarm",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": true,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "duration": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfifire000000000",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "magic": {
+            "kind": "invocation",
+            "element": "fire",
+            "tier": 1,
+            "favorCost": 0,
+            "invocationType": "summoning"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "ristrikeofthetsu",
+      "_key": "!items!ristrikeofthetsu",
+      "name": "Strike of the Tsunami",
+      "type": "spell",
+      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "system": {
+        "description": {
+          "value": "<p>Tier 1 water smite · Casting: 1 action · Base Favor: 0 · Range: Self (5-foot sweep) · Duration: Instantaneous</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 283.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "strikeofthetsunami",
+        "level": 1,
+        "school": "water",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "sourceClass": "ritualist",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "spec",
+          "special": "Instantaneous"
+        },
+        "range": {
+          "value": null,
+          "units": "spec",
+          "special": "Self (5-foot sweep)"
+        },
+        "target": {
+          "affects": {
+            "type": "",
+            "count": "",
+            "choice": false,
+            "special": ""
+          },
+          "template": {
+            "units": "ft",
+            "contiguous": false,
+            "type": ""
+          }
+        },
+        "activities": {
+          "rkistrikeofthets": {
+            "_id": "rkistrikeofthets",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": true,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "duration": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfiwater00000000",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "magic": {
+            "kind": "invocation",
+            "element": "water",
+            "tier": 1,
+            "favorCost": 0,
+            "invocationType": "smite"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "risummonfog00000",
+      "_key": "!items!risummonfog00000",
+      "name": "Summon Fog",
+      "type": "spell",
+      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "system": {
+        "description": {
+          "value": "<p>Tier 2 air summoning · Casting: 1 action · Base Favor: 1 · Range: 10 feet · Duration: 1 minute</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 283.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "summonfog",
+        "level": 2,
+        "school": "air",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "sourceClass": "ritualist",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "spec",
+          "special": "1 minute"
+        },
+        "range": {
+          "value": null,
+          "units": "spec",
+          "special": "10 feet"
+        },
+        "target": {
+          "affects": {
+            "type": "",
+            "count": "",
+            "choice": false,
+            "special": ""
+          },
+          "template": {
+            "units": "ft",
+            "contiguous": false,
+            "type": ""
+          }
+        },
+        "activities": {
+          "rkisummonfog0000": {
+            "_id": "rkisummonfog0000",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": true,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "duration": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfiair0000000000",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "magic": {
+            "kind": "invocation",
+            "element": "air",
+            "tier": 2,
+            "favorCost": 1,
+            "invocationType": "summoning"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "risurgeofair0000",
+      "_key": "!items!risurgeofair0000",
+      "name": "Surge of Air",
+      "type": "spell",
+      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "system": {
+        "description": {
+          "value": "<p>Tier 1 air smite · Casting: 1 action · Base Favor: 0 · Range: Self (30-foot line) · Duration: Instantaneous</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 285.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "surgeofair",
+        "level": 1,
+        "school": "air",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "sourceClass": "ritualist",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "spec",
+          "special": "Instantaneous"
+        },
+        "range": {
+          "value": null,
+          "units": "spec",
+          "special": "Self (30-foot line)"
+        },
+        "target": {
+          "affects": {
+            "type": "",
+            "count": "",
+            "choice": false,
+            "special": ""
+          },
+          "template": {
+            "units": "ft",
+            "contiguous": false,
+            "type": ""
+          }
+        },
+        "activities": {
+          "rkisurgeofair000": {
+            "_id": "rkisurgeofair000",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": true,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "duration": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfiair0000000000",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "magic": {
+            "kind": "invocation",
+            "element": "air",
+            "tier": 1,
+            "favorCost": 0,
+            "invocationType": "smite"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "ritheelementsris",
+      "_key": "!items!ritheelementsris",
+      "name": "The Elements Rise",
+      "type": "spell",
+      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "system": {
+        "description": {
+          "value": "<p>Tier 3 any element · Casting: 1 minute · Base Favor: 2 · Range: 10 feet · Duration: Ongoing (2 favor per round)</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 285.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "theelementsrise",
+        "level": 3,
+        "school": "evo",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "sourceClass": "ritualist",
+        "activation": {
+          "type": "minute",
+          "value": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "spec",
+          "special": "Ongoing (2 favor per round)"
+        },
+        "range": {
+          "value": null,
+          "units": "spec",
+          "special": "10 feet"
+        },
+        "target": {
+          "affects": {
+            "type": "",
+            "count": "",
+            "choice": false,
+            "special": ""
+          },
+          "template": {
+            "units": "ft",
+            "contiguous": false,
+            "type": ""
+          }
+        },
+        "activities": {
+          "rkitheelementsri": {
+            "_id": "rkitheelementsri",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "minute",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": true,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "duration": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfiuniversal0000",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "magic": {
+            "kind": "invocation",
+            "element": "any",
+            "tier": 3,
+            "favorCost": 2,
+            "invocationType": "element"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "ritherushingwave",
+      "_key": "!items!ritherushingwave",
+      "name": "The Rushing Wave",
+      "type": "spell",
+      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "system": {
+        "description": {
+          "value": "<p>Tier 2 water augmentation · Casting: 1 bonus action · Base Favor: 1 · Range: Self · Duration: 1 minute</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 285.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "therushingwave",
+        "level": 2,
+        "school": "water",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "sourceClass": "ritualist",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "spec",
+          "special": "1 minute"
+        },
+        "range": {
+          "value": null,
+          "units": "spec",
+          "special": "Self"
+        },
+        "target": {
+          "affects": {
+            "type": "",
+            "count": "",
+            "choice": false,
+            "special": ""
+          },
+          "template": {
+            "units": "ft",
+            "contiguous": false,
+            "type": ""
+          }
+        },
+        "activities": {
+          "rkitherushingwav": {
+            "_id": "rkitherushingwav",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": true,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "duration": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfiwater00000000",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "magic": {
+            "kind": "invocation",
+            "element": "water",
+            "tier": 2,
+            "favorCost": 1,
+            "invocationType": "augmentation"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rithresholdbarri",
+      "_key": "!items!rithresholdbarri",
+      "name": "Threshold Barrier",
+      "type": "spell",
+      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "system": {
+        "description": {
+          "value": "<p>Tier 0 any element · Casting: 10 minutes · Base Favor: 0 · Range: Self (15-foot line) · Duration: 1 hour</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 286.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "thresholdbarrier",
+        "level": 0,
+        "school": "evo",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "sourceClass": "ritualist",
+        "activation": {
+          "type": "minute",
+          "value": 10,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "spec",
+          "special": "1 hour"
+        },
+        "range": {
+          "value": null,
+          "units": "spec",
+          "special": "Self (15-foot line)"
+        },
+        "target": {
+          "affects": {
+            "type": "",
+            "count": "",
+            "choice": false,
+            "special": ""
+          },
+          "template": {
+            "units": "ft",
+            "contiguous": false,
+            "type": ""
+          }
+        },
+        "activities": {
+          "rkithresholdbarr": {
+            "_id": "rkithresholdbarr",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "minute",
+              "value": 10,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": true,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "duration": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfiuniversal0000",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "magic": {
+            "kind": "invocation",
+            "element": "any",
+            "tier": 0,
+            "favorCost": 0,
+            "invocationType": "element"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "ritokenofmemory0",
+      "_key": "!items!ritokenofmemory0",
+      "name": "Token of Memory",
+      "type": "spell",
+      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "system": {
+        "description": {
+          "value": "<p>Tier 1 air illusion · Casting: 1 minute · Base Favor: 0 · Range: Touch · Duration: 1 hour</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 286.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "tokenofmemory",
+        "level": 1,
+        "school": "air",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "sourceClass": "ritualist",
+        "activation": {
+          "type": "minute",
+          "value": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "spec",
+          "special": "1 hour"
+        },
+        "range": {
+          "value": null,
+          "units": "spec",
+          "special": "Touch"
+        },
+        "target": {
+          "affects": {
+            "type": "",
+            "count": "",
+            "choice": false,
+            "special": ""
+          },
+          "template": {
+            "units": "ft",
+            "contiguous": false,
+            "type": ""
+          }
+        },
+        "activities": {
+          "rkitokenofmemory": {
+            "_id": "rkitokenofmemory",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "minute",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": true,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "duration": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfiair0000000000",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "magic": {
+            "kind": "invocation",
+            "element": "air",
+            "tier": 1,
+            "favorCost": 0,
+            "invocationType": "illusion"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "riwingsofthephoe",
+      "_key": "!items!riwingsofthephoe",
+      "name": "Wings of the Phoenix",
+      "type": "spell",
+      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "system": {
+        "description": {
+          "value": "<p>Tier 3 fire augmentation · Casting: 1 action · Base Favor: 2 · Range: Self · Duration: 1 minute</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 291.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "wingsofthephoenix",
+        "level": 3,
+        "school": "fire",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "always",
+          "prepared": true
+        },
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "sourceClass": "ritualist",
+        "activation": {
+          "type": "action",
+          "value": null,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "spec",
+          "special": "1 minute"
+        },
+        "range": {
+          "value": null,
+          "units": "spec",
+          "special": "Self"
+        },
+        "target": {
+          "affects": {
+            "type": "",
+            "count": "",
+            "choice": false,
+            "special": ""
+          },
+          "template": {
+            "units": "ft",
+            "contiguous": false,
+            "type": ""
+          }
+        },
+        "activities": {
+          "rkiwingsofthepho": {
+            "_id": "rkiwingsofthepho",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": true,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "duration": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfifire000000000",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "magic": {
+            "kind": "invocation",
+            "element": "fire",
+            "tier": 3,
+            "favorCost": 2,
+            "invocationType": "augmentation"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    }
+  ]
+}

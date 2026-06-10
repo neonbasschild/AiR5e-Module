@@ -1,0 +1,319 @@
+/* ============================================================
+   Adventures in Rokugan 5E - "Rokugan" Sheet Theme
+   Feudal-Japanese fantasy reskin of the dnd5e 5.x sheets.
+
+   APPROACH
+   The dnd5e 5.x sheets are driven by CSS custom properties, so
+   this theme works primarily by overriding those variables under
+   an opt-in `.rokugan-theme` class placed on the sheet root
+   (character, NPC, and item sheets). Structure, layout, and all
+   sheet functionality are untouched. Decorative patterns
+   (seigaiha waves, kumiko lattice) are original inline SVGs of
+   traditional public-domain geometric motifs.
+
+   Light mode: washi paper, sumi ink, vermillion lacquer, gold.
+   Dark mode: night lacquer, gilded gold, ember vermillion.
+   ============================================================ */
+
+/* ----------------------------------------
+   Palette + dnd5e variable overrides — LIGHT
+   ---------------------------------------- */
+
+.rokugan-theme {
+  /* L5R palette */
+  --l5r-vermillion: #a4282d;        /* shu lacquer red */
+  --l5r-vermillion-deep: #7c1d21;
+  --l5r-gold: #b8923d;              /* gilded brass */
+  --l5r-gold-bright: #d4af5f;
+  --l5r-ink: #2e2a26;               /* sumi ink */
+  --l5r-ink-soft: #4a443c;
+  --l5r-paper: #f3ecdb;             /* washi */
+  --l5r-paper-deep: #e9dfc8;
+  --l5r-indigo: #3a5a6e;            /* ai-zome indigo */
+
+  /* Retarget the dnd5e system palette: this cascades through the
+     entire sheet AND this module's own panels, which read the
+     same variables. */
+  --dnd5e-color-gold: var(--l5r-gold);
+  --dnd5e-color-maroon: var(--l5r-vermillion);
+  --dnd5e-color-olive: var(--l5r-ink-soft);
+  --dnd5e-color-groove: var(--l5r-paper-deep);
+  --dnd5e-color-blue: var(--l5r-indigo);
+
+  /* Headline font: Japanese mincho serifs where installed,
+     falling back through the dnd5e display font. */
+  --l5r-font-display: "Shippori Mincho", "Yu Mincho", "YuMincho",
+    "Hiragino Mincho ProN", "Noto Serif JP", "Source Han Serif",
+    var(--dnd5e-font-modesto, "Modesto Condensed"), serif;
+  --dnd5e-font-modesto: var(--l5r-font-display);
+
+  /* Decorative patterns (original SVG, traditional motifs) */
+  --l5r-seigaiha: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='20'%3E%3Cg fill='none' stroke='%23a4282d' stroke-opacity='0.10'%3E%3Ccircle cx='0' cy='20' r='18'/%3E%3Ccircle cx='0' cy='20' r='12'/%3E%3Ccircle cx='0' cy='20' r='6'/%3E%3Ccircle cx='40' cy='20' r='18'/%3E%3Ccircle cx='40' cy='20' r='12'/%3E%3Ccircle cx='40' cy='20' r='6'/%3E%3Ccircle cx='20' cy='30' r='18'/%3E%3Ccircle cx='20' cy='30' r='12'/%3E%3Ccircle cx='20' cy='30' r='6'/%3E%3C/g%3E%3C/svg%3E");
+  --l5r-kumiko: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='28'%3E%3Cpath d='M0 14h28M14 0v28M0 0l28 28M28 0L0 28' stroke='%232e2a26' stroke-opacity='0.035' stroke-width='1'/%3E%3C/svg%3E");
+
+  /* Theme-flipping semantic tokens */
+  --l5r-surface: var(--l5r-paper);
+  --l5r-surface-raised: #faf5e9;
+  --l5r-text: var(--l5r-ink);
+  --l5r-text-muted: #6e6557;
+  --l5r-frame: var(--l5r-vermillion-deep);
+  --l5r-accent: var(--l5r-vermillion);
+  --l5r-accent-text: var(--l5r-vermillion);
+  --l5r-rule: var(--l5r-gold);
+
+  color-scheme: light;
+}
+
+/* ----------------------------------------
+   DARK — night lacquer (single override block)
+   v13 places `themed theme-dark` on the same application root
+   that carries `.rokugan-theme`; descendant variant included
+   for body-level theming.
+   ---------------------------------------- */
+
+.rokugan-theme.theme-dark,
+.theme-dark .rokugan-theme {
+  --l5r-gold: #d4af5f;
+  --l5r-vermillion: #c4493f;        /* ember red, readable on dark */
+  --l5r-vermillion-deep: #511418;
+
+  --dnd5e-color-gold: var(--l5r-gold);
+  --dnd5e-color-maroon: var(--l5r-vermillion);
+  --dnd5e-color-olive: #b5ab93;
+
+  --l5r-seigaiha: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='20'%3E%3Cg fill='none' stroke='%23d4af5f' stroke-opacity='0.10'%3E%3Ccircle cx='0' cy='20' r='18'/%3E%3Ccircle cx='0' cy='20' r='12'/%3E%3Ccircle cx='0' cy='20' r='6'/%3E%3Ccircle cx='40' cy='20' r='18'/%3E%3Ccircle cx='40' cy='20' r='12'/%3E%3Ccircle cx='40' cy='20' r='6'/%3E%3Ccircle cx='20' cy='30' r='18'/%3E%3Ccircle cx='20' cy='30' r='12'/%3E%3Ccircle cx='20' cy='30' r='6'/%3E%3C/g%3E%3C/svg%3E");
+  --l5r-kumiko: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='28'%3E%3Cpath d='M0 14h28M14 0v28M0 0l28 28M28 0L0 28' stroke='%23d4af5f' stroke-opacity='0.04' stroke-width='1'/%3E%3C/svg%3E");
+
+  --l5r-surface: #16151a;
+  --l5r-surface-raised: #1f1d23;
+  --l5r-text: #d9d2c0;
+  --l5r-text-muted: #9a917e;
+  --l5r-frame: #0e0d11;
+  --l5r-accent: var(--l5r-vermillion);
+  --l5r-accent-text: var(--l5r-gold);
+  --l5r-rule: var(--l5r-gold);
+
+  color-scheme: dark;
+}
+
+/* ----------------------------------------
+   Window frame & paper surface
+   ---------------------------------------- */
+
+.rokugan-theme .window-content {
+  background:
+    var(--l5r-kumiko),
+    linear-gradient(180deg, var(--l5r-surface-raised), var(--l5r-surface)) !important;
+  color: var(--l5r-text);
+}
+
+/* Lacquered window title bar with a gold rule */
+.rokugan-theme .window-header {
+  background: linear-gradient(180deg, var(--l5r-frame), color-mix(in srgb, var(--l5r-frame) 80%, black)) !important;
+  border-bottom: 2px solid var(--l5r-gold);
+}
+
+.rokugan-theme .window-header .window-title {
+  font-family: var(--l5r-font-display);
+  letter-spacing: 1px;
+  color: #f0e6cf;
+}
+
+/* ----------------------------------------
+   Sheet header — vermillion banner with wave crest
+   ---------------------------------------- */
+
+.rokugan-theme .sheet-header,
+.rokugan-theme .sheet-header-banner {
+  background:
+    var(--l5r-seigaiha),
+    linear-gradient(165deg, var(--l5r-vermillion) 0%, var(--l5r-vermillion-deep) 100%) !important;
+  border-bottom: 2px solid var(--l5r-gold);
+}
+
+.rokugan-theme .sheet-header .document-name,
+.rokugan-theme .sheet-header input[name="name"],
+.rokugan-theme .sheet-header .name,
+.rokugan-theme .sheet-header .title {
+  font-family: var(--l5r-font-display);
+  letter-spacing: 1.5px;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.55);
+}
+
+/* Portrait framed like a hanging scroll: gold inner frame on lacquer */
+.rokugan-theme .sheet-header img.portrait,
+.rokugan-theme .portrait img,
+.rokugan-theme img.profile,
+.rokugan-theme .sheet-header .profile {
+  border: 2px solid var(--l5r-gold);
+  outline: 3px solid var(--l5r-vermillion-deep);
+  outline-offset: 1px;
+  border-radius: 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.45);
+}
+
+/* ----------------------------------------
+   Tab navigation — noren-style markers
+   ---------------------------------------- */
+
+.rokugan-theme nav.tabs .item,
+.rokugan-theme nav.tabs [data-action="tab"] {
+  font-family: var(--l5r-font-display);
+  color: var(--l5r-text-muted);
+  transition: color 0.12s ease;
+}
+
+/* Hover tint applies to INACTIVE tabs only. The system's active tab uses
+   a gold background with an ink-colored icon; recoloring it gold made the
+   active icon invisible, so dnd5e's own active styling is left untouched. */
+.rokugan-theme nav.tabs .item:hover:not(.active),
+.rokugan-theme nav.tabs [data-action="tab"]:hover:not(.active) {
+  color: var(--l5r-accent-text);
+  text-shadow: none;
+}
+
+/* ----------------------------------------
+   Filigree boxes & cards — paper panels, gilded corners
+   (filigree corner SVGs inherit the retargeted gold variable)
+   ---------------------------------------- */
+
+.rokugan-theme filigree-box {
+  background: var(--l5r-surface-raised);
+}
+
+.rokugan-theme filigree-box h3,
+.rokugan-theme .card .header,
+.rokugan-theme .items-section .items-header {
+  font-family: var(--l5r-font-display);
+  letter-spacing: 1px;
+}
+
+.rokugan-theme .card,
+.rokugan-theme .items-section {
+  background: var(--l5r-surface-raised);
+  border-color: color-mix(in srgb, var(--l5r-gold) 55%, transparent);
+}
+
+/* Section rules pick up the gold */
+.rokugan-theme hr,
+.rokugan-theme .horizontal-divider {
+  border-color: var(--l5r-rule);
+}
+
+/* ----------------------------------------
+   Pills, tags, buttons — hanko-seal accents
+   ---------------------------------------- */
+
+.rokugan-theme .pills .pill,
+.rokugan-theme .pill {
+  border-color: color-mix(in srgb, var(--l5r-gold) 70%, transparent);
+  background: color-mix(in srgb, var(--l5r-surface-raised) 80%, var(--l5r-gold) 8%);
+  color: var(--l5r-text);
+}
+
+/* Display font on TEXT buttons only. Foundry v13 header controls (and
+   other icon buttons) carry Font Awesome classes on the <button> element
+   itself; forcing a serif there replaces the glyph with a missing-glyph
+   box - the "missing icons" in the window's top-right corner. */
+.rokugan-theme button:not([class*="fa-"]):not(.focus-btn):not(.favor-btn):not(.yy-btn):not(.yin-yang-form-btn) {
+  font-family: var(--l5r-font-display);
+}
+
+/* Defensive restore: anything that IS an icon keeps the icon font. */
+.rokugan-theme [class*="fa-solid"],
+.rokugan-theme [class*="fa-regular"],
+.rokugan-theme [class*="fa-light"],
+.rokugan-theme [class*="fa-duotone"],
+.rokugan-theme i.fas,
+.rokugan-theme i.far,
+.rokugan-theme i.fal {
+  font-family: var(--fa-style-family-classic, var(--fa-style-family, "Font Awesome 6 Pro")) !important;
+}
+
+.rokugan-theme [class*="fa-brands"],
+.rokugan-theme i.fab {
+  font-family: "Font Awesome 6 Brands" !important;
+}
+
+.rokugan-theme button:hover:not(:disabled) {
+  border-color: var(--l5r-vermillion);
+}
+
+/* Primary/positive action buttons read as lacquer seals */
+.rokugan-theme button.gold-button,
+.rokugan-theme .sheet-header button {
+  background: linear-gradient(180deg, var(--l5r-vermillion), var(--l5r-vermillion-deep));
+  border: 1px solid var(--l5r-gold);
+  color: #f3ecdb;
+}
+
+/* ----------------------------------------
+   Inputs & form fields on paper
+   ---------------------------------------- */
+
+.rokugan-theme input[type="text"],
+.rokugan-theme input[type="number"],
+.rokugan-theme select,
+.rokugan-theme textarea {
+  border-color: color-mix(in srgb, var(--l5r-ink-soft) 35%, transparent);
+}
+
+.rokugan-theme input:focus,
+.rokugan-theme select:focus,
+.rokugan-theme textarea:focus {
+  border-color: var(--l5r-vermillion);
+  box-shadow: 0 0 4px color-mix(in srgb, var(--l5r-vermillion) 60%, transparent);
+}
+
+/* ----------------------------------------
+   Module panels under the theme
+   The resource panels and Rokugan tab already read the
+   retargeted --dnd5e-color-* variables; these touches add
+   the paper/lacquer finish.
+   ---------------------------------------- */
+
+.rokugan-theme filigree-box.rokugan-resource-panel {
+  background:
+    var(--l5r-kumiko),
+    var(--l5r-surface-raised);
+}
+
+.rokugan-theme h3.rokugan-panel-header .panel-title,
+.rokugan-theme .rokugan-section-title {
+  font-family: var(--l5r-font-display);
+  letter-spacing: 2px;
+}
+
+.rokugan-theme .yin-yang-slot.balanced {
+  border-color: var(--l5r-gold);
+}
+
+/* ----------------------------------------
+   Item sheets — scroll-paper details
+   ---------------------------------------- */
+
+.rokugan-theme.sheet.item .sheet-header,
+.rokugan-theme .item-header {
+  background:
+    var(--l5r-seigaiha),
+    linear-gradient(165deg, var(--l5r-vermillion), var(--l5r-vermillion-deep)) !important;
+}
+
+.rokugan-theme .rokugan-magic-config {
+  background:
+    var(--l5r-kumiko),
+    var(--l5r-surface-raised);
+}
+
+/* ----------------------------------------
+   Scrollbars (WebKit) — lacquer on paper
+   ---------------------------------------- */
+
+.rokugan-theme ::-webkit-scrollbar-thumb {
+  background: color-mix(in srgb, var(--l5r-gold) 60%, var(--l5r-surface));
+  border-radius: 4px;
+}
+
+.rokugan-theme ::-webkit-scrollbar-track {
+  background: transparent;
+}

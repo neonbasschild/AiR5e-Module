@@ -26,6 +26,7 @@ import { RokuganHooks } from "./hooks.mjs";
 import { RokuganSheets } from "./sheets.mjs";
 import { RokuganResources } from "./resources.mjs";
 import { RokuganItems } from "./items.mjs";
+import { RokuganPacks } from "./packs.mjs";
 
 Hooks.once("init", () => {
   console.log("Rokugan5E | Initializing Adventures in Rokugan module");
@@ -83,6 +84,29 @@ Hooks.once("init", () => {
     default: true
   });
 
+  game.settings.register("rokugan5e", "l5rSheetTheme", {
+    name: "ROKUGAN.Settings.L5RSheetTheme",
+    hint: "ROKUGAN.Settings.L5RSheetThemeHint",
+    scope: "client",
+    config: true,
+    type: Boolean,
+    default: true,
+    onChange: () => {
+      // Re-render open sheets so the theme class is applied/removed live
+      for (const app of foundry.applications.instances.values()) {
+        const doc = app.document ?? app.actor ?? app.item;
+        if (doc?.documentName === "Actor" || doc?.documentName === "Item") app.render();
+      }
+    }
+  });
+
+  game.settings.register("rokugan5e", "packsSeededVersion", {
+    scope: "world",
+    config: false,
+    type: String,
+    default: ""
+  });
+
   // Apply Rokugan config changes to CONFIG.DND5E
   RokuganConfig.apply();
 });
@@ -99,6 +123,9 @@ Hooks.once("ready", () => {
 
   // Item usage automation (Favor/Focus spending)
   RokuganItems.registerUsageHooks();
+
+  // Seed the Adventures in Rokugan compendium packs (GM, first load only)
+  RokuganPacks.seed();
 
   // ----------------------------------------
   // Combat automation: Focus lifecycle

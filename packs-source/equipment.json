@@ -1,0 +1,7499 @@
+{
+  "folders": [
+    {
+      "_id": "rfeweapons000000",
+      "_key": "!folders!rfeweapons000000",
+      "name": "Weapons",
+      "type": "Item",
+      "sorting": "a",
+      "color": null,
+      "folder": null,
+      "sort": 0
+    },
+    {
+      "_id": "rfearmor00000000",
+      "_key": "!folders!rfearmor00000000",
+      "name": "Armor",
+      "type": "Item",
+      "sorting": "a",
+      "color": null,
+      "folder": null,
+      "sort": 0
+    },
+    {
+      "_id": "rfeoutfits000000",
+      "_key": "!folders!rfeoutfits000000",
+      "name": "Outfits",
+      "type": "Item",
+      "sorting": "a",
+      "color": null,
+      "folder": null,
+      "sort": 0
+    },
+    {
+      "_id": "rfeadventuringge",
+      "_key": "!folders!rfeadventuringge",
+      "name": "Adventuring Gear",
+      "type": "Item",
+      "sorting": "a",
+      "color": null,
+      "folder": null,
+      "sort": 0
+    },
+    {
+      "_id": "rfearrows0000000",
+      "_key": "!folders!rfearrows0000000",
+      "name": "Arrows",
+      "type": "Item",
+      "sorting": "a",
+      "color": null,
+      "folder": null,
+      "sort": 0
+    },
+    {
+      "_id": "rfetoolsartisan0",
+      "_key": "!folders!rfetoolsartisan0",
+      "name": "Tools — Artisan",
+      "type": "Item",
+      "sorting": "a",
+      "color": null,
+      "folder": null,
+      "sort": 0
+    },
+    {
+      "_id": "rfetoolsgaming00",
+      "_key": "!folders!rfetoolsgaming00",
+      "name": "Tools — Gaming",
+      "type": "Item",
+      "sorting": "a",
+      "color": null,
+      "folder": null,
+      "sort": 0
+    },
+    {
+      "_id": "rfetoolsmusical0",
+      "_key": "!folders!rfetoolsmusical0",
+      "name": "Tools — Musical",
+      "type": "Item",
+      "sorting": "a",
+      "color": null,
+      "folder": null,
+      "sort": 0
+    },
+    {
+      "_id": "rfetoolsmystic00",
+      "_key": "!folders!rfetoolsmystic00",
+      "name": "Tools — Mystic",
+      "type": "Item",
+      "sorting": "a",
+      "color": null,
+      "folder": null,
+      "sort": 0
+    },
+    {
+      "_id": "rfetoolssubterfu",
+      "_key": "!folders!rfetoolssubterfu",
+      "name": "Tools — Subterfuge",
+      "type": "Item",
+      "sorting": "a",
+      "color": null,
+      "folder": null,
+      "sort": 0
+    },
+    {
+      "_id": "rfemounts0000000",
+      "_key": "!folders!rfemounts0000000",
+      "name": "Mounts",
+      "type": "Item",
+      "sorting": "a",
+      "color": null,
+      "folder": null,
+      "sort": 0
+    },
+    {
+      "_id": "rfetackvehicles0",
+      "_key": "!folders!rfetackvehicles0",
+      "name": "Tack & Vehicles",
+      "type": "Item",
+      "sorting": "a",
+      "color": null,
+      "folder": null,
+      "sort": 0
+    },
+    {
+      "_id": "rfeshipsboats000",
+      "_key": "!folders!rfeshipsboats000",
+      "name": "Ships & Boats",
+      "type": "Item",
+      "sorting": "a",
+      "color": null,
+      "folder": null,
+      "sort": 0
+    },
+    {
+      "_id": "rfefooddrinklodg",
+      "_key": "!folders!rfefooddrinklodg",
+      "name": "Food, Drink & Lodging",
+      "type": "Item",
+      "sorting": "a",
+      "color": null,
+      "folder": null,
+      "sort": 0
+    }
+  ],
+  "entries": [
+    {
+      "_id": "rwcarpentershamm",
+      "_key": "!items!rwcarpentershamm",
+      "name": "Carpenter's Hammer",
+      "type": "weapon",
+      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "system": {
+        "description": {
+          "value": "<p>Properties: Light, thrown (range 20/60).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "carpentershammer",
+        "quantity": 1,
+        "weight": {
+          "value": 2,
+          "units": "lb"
+        },
+        "price": {
+          "value": 4,
+          "denomination": "sp"
+        },
+        "type": {
+          "value": "simpleM",
+          "baseItem": ""
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 4,
+            "types": [
+              "bludgeoning"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          },
+          "versatile": {}
+        },
+        "properties": [
+          "lgt",
+          "thr"
+        ],
+        "proficient": null,
+        "range": {
+          "value": 20,
+          "long": 60,
+          "reach": null,
+          "units": "ft"
+        },
+        "mastery": "",
+        "magicalBonus": null,
+        "attuned": false,
+        "equipped": false
+      },
+      "effects": [],
+      "folder": "rfeweapons000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rwclub0000000000",
+      "_key": "!items!rwclub0000000000",
+      "name": "Club",
+      "type": "weapon",
+      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "system": {
+        "description": {
+          "value": "<p>Properties: Light.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "club",
+        "quantity": 1,
+        "weight": {
+          "value": 2,
+          "units": "lb"
+        },
+        "price": {
+          "value": 2,
+          "denomination": "sp"
+        },
+        "type": {
+          "value": "simpleM",
+          "baseItem": ""
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 4,
+            "types": [
+              "bludgeoning"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          },
+          "versatile": {}
+        },
+        "properties": [
+          "lgt"
+        ],
+        "proficient": null,
+        "range": {
+          "value": null,
+          "long": null,
+          "reach": null,
+          "units": "ft"
+        },
+        "mastery": "",
+        "magicalBonus": null,
+        "attuned": false,
+        "equipped": false
+      },
+      "effects": [],
+      "folder": "rfeweapons000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rwcudgel00000000",
+      "_key": "!items!rwcudgel00000000",
+      "name": "Cudgel",
+      "type": "weapon",
+      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "system": {
+        "description": {
+          "value": "<p>Properties: Heavy, two-handed.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "cudgel",
+        "quantity": 1,
+        "weight": {
+          "value": 4,
+          "units": "lb"
+        },
+        "price": {
+          "value": 5,
+          "denomination": "sp"
+        },
+        "type": {
+          "value": "simpleM",
+          "baseItem": ""
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 8,
+            "types": [
+              "bludgeoning"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          },
+          "versatile": {}
+        },
+        "properties": [
+          "hvy",
+          "two"
+        ],
+        "proficient": null,
+        "range": {
+          "value": null,
+          "long": null,
+          "reach": null,
+          "units": "ft"
+        },
+        "mastery": "",
+        "magicalBonus": null,
+        "attuned": false,
+        "equipped": false
+      },
+      "effects": [],
+      "folder": "rfeweapons000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rwdagger00000000",
+      "_key": "!items!rwdagger00000000",
+      "name": "Dagger",
+      "type": "weapon",
+      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "system": {
+        "description": {
+          "value": "<p>Properties: Finesse, light, thrown (20/60).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "dagger",
+        "quantity": 1,
+        "weight": {
+          "value": 1,
+          "units": "lb"
+        },
+        "price": {
+          "value": 1,
+          "denomination": "gp"
+        },
+        "type": {
+          "value": "simpleM",
+          "baseItem": ""
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 4,
+            "types": [
+              "piercing"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          },
+          "versatile": {}
+        },
+        "properties": [
+          "fin",
+          "lgt",
+          "thr"
+        ],
+        "proficient": null,
+        "range": {
+          "value": 20,
+          "long": 60,
+          "reach": null,
+          "units": "ft"
+        },
+        "mastery": "",
+        "magicalBonus": null,
+        "attuned": false,
+        "equipped": false
+      },
+      "effects": [],
+      "folder": "rfeweapons000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rwhatchet0000000",
+      "_key": "!items!rwhatchet0000000",
+      "name": "Hatchet",
+      "type": "weapon",
+      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "system": {
+        "description": {
+          "value": "<p>Properties: Light, thrown (range 20/60).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "hatchet",
+        "quantity": 1,
+        "weight": {
+          "value": 2,
+          "units": "lb"
+        },
+        "price": {
+          "value": 6,
+          "denomination": "sp"
+        },
+        "type": {
+          "value": "simpleM",
+          "baseItem": ""
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 6,
+            "types": [
+              "slashing"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          },
+          "versatile": {}
+        },
+        "properties": [
+          "lgt",
+          "thr"
+        ],
+        "proficient": null,
+        "range": {
+          "value": 20,
+          "long": 60,
+          "reach": null,
+          "units": "ft"
+        },
+        "mastery": "",
+        "magicalBonus": null,
+        "attuned": false,
+        "equipped": false
+      },
+      "effects": [],
+      "folder": "rfeweapons000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rwironfan0000000",
+      "_key": "!items!rwironfan0000000",
+      "name": "Iron Fan",
+      "type": "weapon",
+      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "system": {
+        "description": {
+          "value": "<p>Properties: Defensive, light.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "ironfan",
+        "quantity": 1,
+        "weight": {
+          "value": 1,
+          "units": "lb"
+        },
+        "price": {
+          "value": 5,
+          "denomination": "gp"
+        },
+        "type": {
+          "value": "simpleM",
+          "baseItem": ""
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 4,
+            "types": [
+              "bludgeoning"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          },
+          "versatile": {}
+        },
+        "properties": [
+          "defensive",
+          "lgt"
+        ],
+        "proficient": null,
+        "range": {
+          "value": null,
+          "long": null,
+          "reach": null,
+          "units": "ft"
+        },
+        "mastery": "",
+        "magicalBonus": null,
+        "attuned": false,
+        "equipped": false
+      },
+      "effects": [],
+      "folder": "rfeweapons000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rwreinforcedpipe",
+      "_key": "!items!rwreinforcedpipe",
+      "name": "Reinforced Pipe",
+      "type": "weapon",
+      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "system": {
+        "description": {
+          "value": "<p>Properties: Defensive, finesse.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "reinforcedpipe",
+        "quantity": 1,
+        "weight": {
+          "value": 0.5,
+          "units": "lb"
+        },
+        "price": {
+          "value": 5,
+          "denomination": "gp"
+        },
+        "type": {
+          "value": "simpleM",
+          "baseItem": ""
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 4,
+            "types": [
+              "bludgeoning"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          },
+          "versatile": {}
+        },
+        "properties": [
+          "defensive",
+          "fin"
+        ],
+        "proficient": null,
+        "range": {
+          "value": null,
+          "long": null,
+          "reach": null,
+          "units": "ft"
+        },
+        "mastery": "",
+        "magicalBonus": null,
+        "attuned": false,
+        "equipped": false
+      },
+      "effects": [],
+      "folder": "rfeweapons000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rwsickle00000000",
+      "_key": "!items!rwsickle00000000",
+      "name": "Sickle",
+      "type": "weapon",
+      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "system": {
+        "description": {
+          "value": "<p>Properties: Finesse, light, paired, snaring (10).</p><p>Snaring (10 ft.)</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "sickle",
+        "quantity": 1,
+        "weight": {
+          "value": 1,
+          "units": "lb"
+        },
+        "price": {
+          "value": 1,
+          "denomination": "gp"
+        },
+        "type": {
+          "value": "simpleM",
+          "baseItem": ""
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 4,
+            "types": [
+              "slashing"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          },
+          "versatile": {}
+        },
+        "properties": [
+          "fin",
+          "lgt",
+          "paired",
+          "snaring"
+        ],
+        "proficient": null,
+        "range": {
+          "value": null,
+          "long": null,
+          "reach": null,
+          "units": "ft"
+        },
+        "mastery": "",
+        "magicalBonus": null,
+        "attuned": false,
+        "equipped": false
+      },
+      "effects": [],
+      "folder": "rfeweapons000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rwspear000000000",
+      "_key": "!items!rwspear000000000",
+      "name": "Spear",
+      "type": "weapon",
+      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "system": {
+        "description": {
+          "value": "<p>Properties: Thrown (20/60), versatile (1d8).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "spear",
+        "quantity": 1,
+        "weight": {
+          "value": 3,
+          "units": "lb"
+        },
+        "price": {
+          "value": 5,
+          "denomination": "gp"
+        },
+        "type": {
+          "value": "simpleM",
+          "baseItem": ""
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 6,
+            "types": [
+              "piercing"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          },
+          "versatile": {
+            "number": 1,
+            "denomination": 8,
+            "types": [
+              "piercing"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          }
+        },
+        "properties": [
+          "thr",
+          "ver"
+        ],
+        "proficient": null,
+        "range": {
+          "value": 20,
+          "long": 60,
+          "reach": null,
+          "units": "ft"
+        },
+        "mastery": "",
+        "magicalBonus": null,
+        "attuned": false,
+        "equipped": false
+      },
+      "effects": [],
+      "folder": "rfeweapons000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rwstaff000000000",
+      "_key": "!items!rwstaff000000000",
+      "name": "Staff",
+      "type": "weapon",
+      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "system": {
+        "description": {
+          "value": "<p>Properties: Versatile (1d8).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "staff",
+        "quantity": 1,
+        "weight": {
+          "value": 4,
+          "units": "lb"
+        },
+        "price": {
+          "value": 4,
+          "denomination": "sp"
+        },
+        "type": {
+          "value": "simpleM",
+          "baseItem": ""
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 6,
+            "types": [
+              "bludgeoning"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          },
+          "versatile": {
+            "number": 1,
+            "denomination": 8,
+            "types": [
+              "bludgeoning"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          }
+        },
+        "properties": [
+          "ver"
+        ],
+        "proficient": null,
+        "range": {
+          "value": null,
+          "long": null,
+          "reach": null,
+          "units": "ft"
+        },
+        "mastery": "",
+        "magicalBonus": null,
+        "attuned": false,
+        "equipped": false
+      },
+      "effects": [],
+      "folder": "rfeweapons000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rwwoodensword000",
+      "_key": "!items!rwwoodensword000",
+      "name": "Wooden Sword",
+      "type": "weapon",
+      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "system": {
+        "description": {
+          "value": "<p>Properties: Versatile (1d8).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "woodensword",
+        "quantity": 1,
+        "weight": {
+          "value": 2,
+          "units": "lb"
+        },
+        "price": {
+          "value": 6,
+          "denomination": "sp"
+        },
+        "type": {
+          "value": "simpleM",
+          "baseItem": ""
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 6,
+            "types": [
+              "bludgeoning"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          },
+          "versatile": {
+            "number": 1,
+            "denomination": 8,
+            "types": [
+              "bludgeoning"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          }
+        },
+        "properties": [
+          "ver"
+        ],
+        "proficient": null,
+        "range": {
+          "value": null,
+          "long": null,
+          "reach": null,
+          "units": "ft"
+        },
+        "mastery": "",
+        "magicalBonus": null,
+        "attuned": false,
+        "equipped": false
+      },
+      "effects": [],
+      "folder": "rfeweapons000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rwhuntingbow0000",
+      "_key": "!items!rwhuntingbow0000",
+      "name": "Hunting Bow",
+      "type": "weapon",
+      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "system": {
+        "description": {
+          "value": "<p>Properties: Ammunition (range 80/320), two-handed.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "huntingbow",
+        "quantity": 1,
+        "weight": {
+          "value": 2,
+          "units": "lb"
+        },
+        "price": {
+          "value": 3,
+          "denomination": "gp"
+        },
+        "type": {
+          "value": "simpleR",
+          "baseItem": ""
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 6,
+            "types": [
+              "piercing"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          },
+          "versatile": {}
+        },
+        "properties": [
+          "amm",
+          "two"
+        ],
+        "proficient": null,
+        "range": {
+          "value": 80,
+          "long": 320,
+          "reach": null,
+          "units": "ft"
+        },
+        "mastery": "",
+        "magicalBonus": null,
+        "attuned": false,
+        "equipped": false
+      },
+      "effects": [],
+      "folder": "rfeweapons000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rwsling000000000",
+      "_key": "!items!rwsling000000000",
+      "name": "Sling",
+      "type": "weapon",
+      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "system": {
+        "description": {
+          "value": "<p>Properties: Ammunition (range 30/120).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "sling",
+        "quantity": 1,
+        "weight": {
+          "value": 0.25,
+          "units": "lb"
+        },
+        "price": {
+          "value": 1,
+          "denomination": "sp"
+        },
+        "type": {
+          "value": "simpleR",
+          "baseItem": ""
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 4,
+            "types": [
+              "bludgeoning"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          },
+          "versatile": {}
+        },
+        "properties": [
+          "amm"
+        ],
+        "proficient": null,
+        "range": {
+          "value": 30,
+          "long": 120,
+          "reach": null,
+          "units": "ft"
+        },
+        "mastery": "",
+        "magicalBonus": null,
+        "attuned": false,
+        "equipped": false
+      },
+      "effects": [],
+      "folder": "rfeweapons000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rwbattleaxe00000",
+      "_key": "!items!rwbattleaxe00000",
+      "name": "Battleaxe",
+      "type": "weapon",
+      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "system": {
+        "description": {
+          "value": "<p>Properties: Versatile (1d10).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "battleaxe",
+        "quantity": 1,
+        "weight": {
+          "value": 4,
+          "units": "lb"
+        },
+        "price": {
+          "value": 25,
+          "denomination": "gp"
+        },
+        "type": {
+          "value": "martialM",
+          "baseItem": ""
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 8,
+            "types": [
+              "slashing"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          },
+          "versatile": {
+            "number": 1,
+            "denomination": 10,
+            "types": [
+              "slashing"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          }
+        },
+        "properties": [
+          "ver"
+        ],
+        "proficient": null,
+        "range": {
+          "value": null,
+          "long": null,
+          "reach": null,
+          "units": "ft"
+        },
+        "mastery": "",
+        "magicalBonus": null,
+        "attuned": false,
+        "equipped": false
+      },
+      "effects": [],
+      "folder": "rfeweapons000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rwchainsickle000",
+      "_key": "!items!rwchainsickle000",
+      "name": "Chain Sickle",
+      "type": "weapon",
+      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "system": {
+        "description": {
+          "value": "<p>Properties: Finesse, reach, snaring (15), two-handed.</p><p>Snaring (15 ft.)</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "chainsickle",
+        "quantity": 1,
+        "weight": {
+          "value": 2,
+          "units": "lb"
+        },
+        "price": {
+          "value": 5,
+          "denomination": "gp"
+        },
+        "type": {
+          "value": "martialM",
+          "baseItem": ""
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 6,
+            "types": [
+              "slashing"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          },
+          "versatile": {}
+        },
+        "properties": [
+          "fin",
+          "rch",
+          "snaring",
+          "two"
+        ],
+        "proficient": null,
+        "range": {
+          "value": null,
+          "long": null,
+          "reach": 10,
+          "units": "ft"
+        },
+        "mastery": "",
+        "magicalBonus": null,
+        "attuned": false,
+        "equipped": false
+      },
+      "effects": [],
+      "folder": "rfeweapons000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rwcrescenthalber",
+      "_key": "!items!rwcrescenthalber",
+      "name": "Crescent Halberd",
+      "type": "weapon",
+      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "system": {
+        "description": {
+          "value": "<p>Properties: Heavy, reach, versatile (1d10).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "crescenthalberd",
+        "quantity": 1,
+        "weight": {
+          "value": 7,
+          "units": "lb"
+        },
+        "price": {
+          "value": 25,
+          "denomination": "gp"
+        },
+        "type": {
+          "value": "martialM",
+          "baseItem": ""
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 8,
+            "types": [
+              "slashing"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          },
+          "versatile": {
+            "number": 1,
+            "denomination": 10,
+            "types": [
+              "slashing"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          }
+        },
+        "properties": [
+          "hvy",
+          "rch",
+          "ver"
+        ],
+        "proficient": null,
+        "range": {
+          "value": null,
+          "long": null,
+          "reach": 10,
+          "units": "ft"
+        },
+        "mastery": "",
+        "magicalBonus": null,
+        "attuned": false,
+        "equipped": false
+      },
+      "effects": [],
+      "folder": "rfeweapons000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rwbroadsaber0000",
+      "_key": "!items!rwbroadsaber0000",
+      "name": "Broad Saber",
+      "type": "weapon",
+      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "system": {
+        "description": {
+          "value": "<p>Properties: Finesse, light, paired.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "broadsaber",
+        "quantity": 1,
+        "weight": {
+          "value": 3,
+          "units": "lb"
+        },
+        "price": {
+          "value": 15,
+          "denomination": "gp"
+        },
+        "type": {
+          "value": "martialM",
+          "baseItem": ""
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 6,
+            "types": [
+              "slashing"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          },
+          "versatile": {}
+        },
+        "properties": [
+          "fin",
+          "lgt",
+          "paired"
+        ],
+        "proficient": null,
+        "range": {
+          "value": null,
+          "long": null,
+          "reach": null,
+          "units": "ft"
+        },
+        "mastery": "",
+        "magicalBonus": null,
+        "attuned": false,
+        "equipped": false
+      },
+      "effects": [],
+      "folder": "rfeweapons000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rwcurvedsaber000",
+      "_key": "!items!rwcurvedsaber000",
+      "name": "Curved Saber",
+      "type": "weapon",
+      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "system": {
+        "description": {
+          "value": "<p>Properties: Special.</p><p>Special property</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "curvedsaber",
+        "quantity": 1,
+        "weight": {
+          "value": 4,
+          "units": "lb"
+        },
+        "price": {
+          "value": 25,
+          "denomination": "gp"
+        },
+        "type": {
+          "value": "martialM",
+          "baseItem": ""
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 8,
+            "types": [
+              "slashing"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          },
+          "versatile": {}
+        },
+        "properties": [
+          "spc"
+        ],
+        "proficient": null,
+        "range": {
+          "value": null,
+          "long": null,
+          "reach": null,
+          "units": "ft"
+        },
+        "mastery": "",
+        "magicalBonus": null,
+        "attuned": false,
+        "equipped": false
+      },
+      "effects": [],
+      "folder": "rfeweapons000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rwhookedspear000",
+      "_key": "!items!rwhookedspear000",
+      "name": "Hooked Spear",
+      "type": "weapon",
+      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "system": {
+        "description": {
+          "value": "<p>Properties: Snaring (10), versatile (1d10).</p><p>Snaring (10 ft.)</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "hookedspear",
+        "quantity": 1,
+        "weight": {
+          "value": 3,
+          "units": "lb"
+        },
+        "price": {
+          "value": 20,
+          "denomination": "gp"
+        },
+        "type": {
+          "value": "martialM",
+          "baseItem": ""
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 8,
+            "types": [
+              "piercing"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          },
+          "versatile": {
+            "number": 1,
+            "denomination": 10,
+            "types": [
+              "piercing"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          }
+        },
+        "properties": [
+          "snaring",
+          "ver"
+        ],
+        "proficient": null,
+        "range": {
+          "value": null,
+          "long": null,
+          "reach": null,
+          "units": "ft"
+        },
+        "mastery": "",
+        "magicalBonus": null,
+        "attuned": false,
+        "equipped": false
+      },
+      "effects": [],
+      "folder": "rfeweapons000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rwhorsecleavingb",
+      "_key": "!items!rwhorsecleavingb",
+      "name": "Horsecleaving Blade",
+      "type": "weapon",
+      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "system": {
+        "description": {
+          "value": "<p>Properties: Heavy, special, two-handed.</p><p>Special property</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "horsecleavingblade",
+        "quantity": 1,
+        "weight": {
+          "value": 8,
+          "units": "lb"
+        },
+        "price": {
+          "value": 80,
+          "denomination": "gp"
+        },
+        "type": {
+          "value": "martialM",
+          "baseItem": ""
+        },
+        "damage": {
+          "base": {
+            "number": 2,
+            "denomination": 8,
+            "types": [
+              "slashing"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          },
+          "versatile": {}
+        },
+        "properties": [
+          "hvy",
+          "spc",
+          "two"
+        ],
+        "proficient": null,
+        "range": {
+          "value": null,
+          "long": null,
+          "reach": null,
+          "units": "ft"
+        },
+        "mastery": "",
+        "magicalBonus": null,
+        "attuned": false,
+        "equipped": false
+      },
+      "effects": [],
+      "folder": "rfeweapons000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rwironstuddedclu",
+      "_key": "!items!rwironstuddedclu",
+      "name": "Iron-Studded Club",
+      "type": "weapon",
+      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "system": {
+        "description": {
+          "value": "<p>Properties: Heavy, two-handed.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "ironstuddedclub",
+        "quantity": 1,
+        "weight": {
+          "value": 4,
+          "units": "lb"
+        },
+        "price": {
+          "value": 40,
+          "denomination": "gp"
+        },
+        "type": {
+          "value": "martialM",
+          "baseItem": ""
+        },
+        "damage": {
+          "base": {
+            "number": 2,
+            "denomination": 6,
+            "types": [
+              "bludgeoning"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          },
+          "versatile": {}
+        },
+        "properties": [
+          "hvy",
+          "two"
+        ],
+        "proficient": null,
+        "range": {
+          "value": null,
+          "long": null,
+          "reach": null,
+          "units": "ft"
+        },
+        "mastery": "",
+        "magicalBonus": null,
+        "attuned": false,
+        "equipped": false
+      },
+      "effects": [],
+      "folder": "rfeweapons000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rwkatana00000000",
+      "_key": "!items!rwkatana00000000",
+      "name": "Katana",
+      "type": "weapon",
+      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "system": {
+        "description": {
+          "value": "<p>Properties: Finesse, versatile (1d10).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "katana",
+        "quantity": 1,
+        "weight": {
+          "value": 3,
+          "units": "lb"
+        },
+        "price": {
+          "value": 20,
+          "denomination": "gp"
+        },
+        "type": {
+          "value": "martialM",
+          "baseItem": ""
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 8,
+            "types": [
+              "slashing"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          },
+          "versatile": {
+            "number": 1,
+            "denomination": 10,
+            "types": [
+              "slashing"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          }
+        },
+        "properties": [
+          "fin",
+          "ver"
+        ],
+        "proficient": null,
+        "range": {
+          "value": null,
+          "long": null,
+          "reach": null,
+          "units": "ft"
+        },
+        "mastery": "",
+        "magicalBonus": null,
+        "attuned": false,
+        "equipped": false
+      },
+      "effects": [],
+      "folder": "rfeweapons000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rwmallet00000000",
+      "_key": "!items!rwmallet00000000",
+      "name": "Mallet",
+      "type": "weapon",
+      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "system": {
+        "description": {
+          "value": "<p>Properties: Heavy, versatile (1d10).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "mallet",
+        "quantity": 1,
+        "weight": {
+          "value": 6,
+          "units": "lb"
+        },
+        "price": {
+          "value": 10,
+          "denomination": "gp"
+        },
+        "type": {
+          "value": "martialM",
+          "baseItem": ""
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 8,
+            "types": [
+              "bludgeoning"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          },
+          "versatile": {
+            "number": 1,
+            "denomination": 10,
+            "types": [
+              "bludgeoning"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          }
+        },
+        "properties": [
+          "hvy",
+          "ver"
+        ],
+        "proficient": null,
+        "range": {
+          "value": null,
+          "long": null,
+          "reach": null,
+          "units": "ft"
+        },
+        "mastery": "",
+        "magicalBonus": null,
+        "attuned": false,
+        "equipped": false
+      },
+      "effects": [],
+      "folder": "rfeweapons000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rwmeteorhammer00",
+      "_key": "!items!rwmeteorhammer00",
+      "name": "Meteor Hammer",
+      "type": "weapon",
+      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "system": {
+        "description": {
+          "value": "<p>Properties: Reach, snaring (15), two-handed.</p><p>Snaring (15 ft.)</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "meteorhammer",
+        "quantity": 1,
+        "weight": {
+          "value": 5,
+          "units": "lb"
+        },
+        "price": {
+          "value": 25,
+          "denomination": "gp"
+        },
+        "type": {
+          "value": "martialM",
+          "baseItem": ""
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 6,
+            "types": [
+              "bludgeoning"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          },
+          "versatile": {}
+        },
+        "properties": [
+          "rch",
+          "snaring",
+          "two"
+        ],
+        "proficient": null,
+        "range": {
+          "value": null,
+          "long": null,
+          "reach": 10,
+          "units": "ft"
+        },
+        "mastery": "",
+        "magicalBonus": null,
+        "attuned": false,
+        "equipped": false
+      },
+      "effects": [],
+      "folder": "rfeweapons000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rwnaginata000000",
+      "_key": "!items!rwnaginata000000",
+      "name": "Naginata",
+      "type": "weapon",
+      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "system": {
+        "description": {
+          "value": "<p>Properties: Defensive, finesse, reach, two-handed.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "naginata",
+        "quantity": 1,
+        "weight": {
+          "value": 4,
+          "units": "lb"
+        },
+        "price": {
+          "value": 40,
+          "denomination": "gp"
+        },
+        "type": {
+          "value": "martialM",
+          "baseItem": ""
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 10,
+            "types": [
+              "slashing"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          },
+          "versatile": {}
+        },
+        "properties": [
+          "defensive",
+          "fin",
+          "rch",
+          "two"
+        ],
+        "proficient": null,
+        "range": {
+          "value": null,
+          "long": null,
+          "reach": 10,
+          "units": "ft"
+        },
+        "mastery": "",
+        "magicalBonus": null,
+        "attuned": false,
+        "equipped": false
+      },
+      "effects": [],
+      "folder": "rfeweapons000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rwgreatsword0000",
+      "_key": "!items!rwgreatsword0000",
+      "name": "Greatsword",
+      "type": "weapon",
+      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "system": {
+        "description": {
+          "value": "<p>Properties: Heavy, two-handed.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "greatsword",
+        "quantity": 1,
+        "weight": {
+          "value": 6,
+          "units": "lb"
+        },
+        "price": {
+          "value": 50,
+          "denomination": "gp"
+        },
+        "type": {
+          "value": "martialM",
+          "baseItem": ""
+        },
+        "damage": {
+          "base": {
+            "number": 2,
+            "denomination": 6,
+            "types": [
+              "slashing"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          },
+          "versatile": {}
+        },
+        "properties": [
+          "hvy",
+          "two"
+        ],
+        "proficient": null,
+        "range": {
+          "value": null,
+          "long": null,
+          "reach": null,
+          "units": "ft"
+        },
+        "mastery": "",
+        "magicalBonus": null,
+        "attuned": false,
+        "equipped": false
+      },
+      "effects": [],
+      "folder": "rfeweapons000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rwnunchaku000000",
+      "_key": "!items!rwnunchaku000000",
+      "name": "Nunchaku",
+      "type": "weapon",
+      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "system": {
+        "description": {
+          "value": "<p>Properties: Finesse, snaring (15).</p><p>Snaring (15 ft.)</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "nunchaku",
+        "quantity": 1,
+        "weight": {
+          "value": 2,
+          "units": "lb"
+        },
+        "price": {
+          "value": 2,
+          "denomination": "gp"
+        },
+        "type": {
+          "value": "martialM",
+          "baseItem": ""
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 6,
+            "types": [
+              "bludgeoning"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          },
+          "versatile": {}
+        },
+        "properties": [
+          "fin",
+          "snaring"
+        ],
+        "proficient": null,
+        "range": {
+          "value": null,
+          "long": null,
+          "reach": null,
+          "units": "ft"
+        },
+        "mastery": "",
+        "magicalBonus": null,
+        "attuned": false,
+        "equipped": false
+      },
+      "effects": [],
+      "folder": "rfeweapons000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rwsai00000000000",
+      "_key": "!items!rwsai00000000000",
+      "name": "Sai",
+      "type": "weapon",
+      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "system": {
+        "description": {
+          "value": "<p>Properties: Finesse, light, paired, snaring (10), thrown (10/30).</p><p>Snaring (10 ft.)</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "sai",
+        "quantity": 1,
+        "weight": {
+          "value": 1,
+          "units": "lb"
+        },
+        "price": {
+          "value": 3,
+          "denomination": "gp"
+        },
+        "type": {
+          "value": "martialM",
+          "baseItem": ""
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 4,
+            "types": [
+              "piercing"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          },
+          "versatile": {}
+        },
+        "properties": [
+          "fin",
+          "lgt",
+          "paired",
+          "snaring",
+          "thr"
+        ],
+        "proficient": null,
+        "range": {
+          "value": 10,
+          "long": 30,
+          "reach": null,
+          "units": "ft"
+        },
+        "mastery": "",
+        "magicalBonus": null,
+        "attuned": false,
+        "equipped": false
+      },
+      "effects": [],
+      "folder": "rfeweapons000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rwspikedmace0000",
+      "_key": "!items!rwspikedmace0000",
+      "name": "Spiked Mace",
+      "type": "weapon",
+      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "system": {
+        "description": {
+          "value": "<p>Properties: Heavy, versatile (1d12).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "spikedmace",
+        "quantity": 1,
+        "weight": {
+          "value": 16,
+          "units": "lb"
+        },
+        "price": {
+          "value": 45,
+          "denomination": "gp"
+        },
+        "type": {
+          "value": "martialM",
+          "baseItem": ""
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 8,
+            "types": [
+              "bludgeoning"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          },
+          "versatile": {
+            "number": 1,
+            "denomination": 12,
+            "types": [
+              "bludgeoning"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          }
+        },
+        "properties": [
+          "hvy",
+          "ver"
+        ],
+        "proficient": null,
+        "range": {
+          "value": null,
+          "long": null,
+          "reach": null,
+          "units": "ft"
+        },
+        "mastery": "",
+        "magicalBonus": null,
+        "attuned": false,
+        "equipped": false
+      },
+      "effects": [],
+      "folder": "rfeweapons000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rwstraightswordd",
+      "_key": "!items!rwstraightswordd",
+      "name": "Straightsword, Double-Edged",
+      "type": "weapon",
+      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "system": {
+        "description": {
+          "value": "<p>Properties: Finesse, special, versatile (1d8).</p><p>Special property</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "straightsworddoubleedged",
+        "quantity": 1,
+        "weight": {
+          "value": 3,
+          "units": "lb"
+        },
+        "price": {
+          "value": 20,
+          "denomination": "gp"
+        },
+        "type": {
+          "value": "martialM",
+          "baseItem": ""
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 6,
+            "types": [
+              "piercing",
+              "slashing"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          },
+          "versatile": {
+            "number": 1,
+            "denomination": 8,
+            "types": [
+              "piercing",
+              "slashing"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          }
+        },
+        "properties": [
+          "fin",
+          "spc",
+          "ver"
+        ],
+        "proficient": null,
+        "range": {
+          "value": null,
+          "long": null,
+          "reach": null,
+          "units": "ft"
+        },
+        "mastery": "",
+        "magicalBonus": null,
+        "attuned": false,
+        "equipped": false
+      },
+      "effects": [],
+      "folder": "rfeweapons000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rwstraightswords",
+      "_key": "!items!rwstraightswords",
+      "name": "Straightsword, Single-Edged",
+      "type": "weapon",
+      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "system": {
+        "description": {
+          "value": "<p>Properties: Versatile (1d10).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "straightswordsingleedged",
+        "quantity": 1,
+        "weight": {
+          "value": 3,
+          "units": "lb"
+        },
+        "price": {
+          "value": 18,
+          "denomination": "gp"
+        },
+        "type": {
+          "value": "martialM",
+          "baseItem": ""
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 8,
+            "types": [
+              "slashing"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          },
+          "versatile": {
+            "number": 1,
+            "denomination": 10,
+            "types": [
+              "slashing"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          }
+        },
+        "properties": [
+          "ver"
+        ],
+        "proficient": null,
+        "range": {
+          "value": null,
+          "long": null,
+          "reach": null,
+          "units": "ft"
+        },
+        "mastery": "",
+        "magicalBonus": null,
+        "attuned": false,
+        "equipped": false
+      },
+      "effects": [],
+      "folder": "rfeweapons000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rwswordbreaker00",
+      "_key": "!items!rwswordbreaker00",
+      "name": "Swordbreaker",
+      "type": "weapon",
+      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "system": {
+        "description": {
+          "value": "<p>Properties: Defensive, light, snaring (10).</p><p>Snaring (10 ft.)</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "swordbreaker",
+        "quantity": 1,
+        "weight": {
+          "value": 1,
+          "units": "lb"
+        },
+        "price": {
+          "value": 3,
+          "denomination": "gp"
+        },
+        "type": {
+          "value": "martialM",
+          "baseItem": ""
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 4,
+            "types": [
+              "bludgeoning"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          },
+          "versatile": {}
+        },
+        "properties": [
+          "defensive",
+          "lgt",
+          "snaring"
+        ],
+        "proficient": null,
+        "range": {
+          "value": null,
+          "long": null,
+          "reach": null,
+          "units": "ft"
+        },
+        "mastery": "",
+        "magicalBonus": null,
+        "attuned": false,
+        "equipped": false
+      },
+      "effects": [],
+      "folder": "rfeweapons000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rwtigerhooksword",
+      "_key": "!items!rwtigerhooksword",
+      "name": "Tiger Hook Swords",
+      "type": "weapon",
+      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "system": {
+        "description": {
+          "value": "<p>Properties: Light, paired, snaring (10).</p><p>Snaring (10 ft.)</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "tigerhookswords",
+        "quantity": 1,
+        "weight": {
+          "value": 2,
+          "units": "lb"
+        },
+        "price": {
+          "value": 15,
+          "denomination": "gp"
+        },
+        "type": {
+          "value": "martialM",
+          "baseItem": ""
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 6,
+            "types": [
+              "slashing"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          },
+          "versatile": {}
+        },
+        "properties": [
+          "lgt",
+          "paired",
+          "snaring"
+        ],
+        "proficient": null,
+        "range": {
+          "value": null,
+          "long": null,
+          "reach": null,
+          "units": "ft"
+        },
+        "mastery": "",
+        "magicalBonus": null,
+        "attuned": false,
+        "equipped": false
+      },
+      "effects": [],
+      "folder": "rfeweapons000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rwthreesectionst",
+      "_key": "!items!rwthreesectionst",
+      "name": "Three-Section Staff",
+      "type": "weapon",
+      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "system": {
+        "description": {
+          "value": "<p>Properties: Reach, snaring (10), two-handed.</p><p>Snaring (10 ft.)</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "threesectionstaff",
+        "quantity": 1,
+        "weight": {
+          "value": 2,
+          "units": "lb"
+        },
+        "price": {
+          "value": 5,
+          "denomination": "gp"
+        },
+        "type": {
+          "value": "martialM",
+          "baseItem": ""
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 8,
+            "types": [
+              "bludgeoning"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          },
+          "versatile": {}
+        },
+        "properties": [
+          "rch",
+          "snaring",
+          "two"
+        ],
+        "proficient": null,
+        "range": {
+          "value": null,
+          "long": null,
+          "reach": 10,
+          "units": "ft"
+        },
+        "mastery": "",
+        "magicalBonus": null,
+        "attuned": false,
+        "equipped": false
+      },
+      "effects": [],
+      "folder": "rfeweapons000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rwtridentpolearm",
+      "_key": "!items!rwtridentpolearm",
+      "name": "Trident Polearm",
+      "type": "weapon",
+      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "system": {
+        "description": {
+          "value": "<p>Properties: Thrown (10/30), versatile (1d10).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "tridentpolearm",
+        "quantity": 1,
+        "weight": {
+          "value": 5,
+          "units": "lb"
+        },
+        "price": {
+          "value": 12,
+          "denomination": "gp"
+        },
+        "type": {
+          "value": "martialM",
+          "baseItem": ""
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 8,
+            "types": [
+              "piercing"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          },
+          "versatile": {
+            "number": 1,
+            "denomination": 10,
+            "types": [
+              "piercing"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          }
+        },
+        "properties": [
+          "thr",
+          "ver"
+        ],
+        "proficient": null,
+        "range": {
+          "value": 10,
+          "long": 30,
+          "reach": null,
+          "units": "ft"
+        },
+        "mastery": "",
+        "magicalBonus": null,
+        "attuned": false,
+        "equipped": false
+      },
+      "effects": [],
+      "folder": "rfeweapons000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rwwakizashi00000",
+      "_key": "!items!rwwakizashi00000",
+      "name": "Wakizashi",
+      "type": "weapon",
+      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "system": {
+        "description": {
+          "value": "<p>Properties: Finesse, light, thrown (10/30).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "wakizashi",
+        "quantity": 1,
+        "weight": {
+          "value": 2,
+          "units": "lb"
+        },
+        "price": {
+          "value": 10,
+          "denomination": "gp"
+        },
+        "type": {
+          "value": "martialM",
+          "baseItem": ""
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 6,
+            "types": [
+              "slashing"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          },
+          "versatile": {}
+        },
+        "properties": [
+          "fin",
+          "lgt",
+          "thr"
+        ],
+        "proficient": null,
+        "range": {
+          "value": 10,
+          "long": 30,
+          "reach": null,
+          "units": "ft"
+        },
+        "mastery": "",
+        "magicalBonus": null,
+        "attuned": false,
+        "equipped": false
+      },
+      "effects": [],
+      "folder": "rfeweapons000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rwwarspear000000",
+      "_key": "!items!rwwarspear000000",
+      "name": "Warspear",
+      "type": "weapon",
+      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "system": {
+        "description": {
+          "value": "<p>Properties: Reach, two-handed.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "warspear",
+        "quantity": 1,
+        "weight": {
+          "value": 4,
+          "units": "lb"
+        },
+        "price": {
+          "value": 15,
+          "denomination": "gp"
+        },
+        "type": {
+          "value": "martialM",
+          "baseItem": ""
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 10,
+            "types": [
+              "piercing"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          },
+          "versatile": {}
+        },
+        "properties": [
+          "rch",
+          "two"
+        ],
+        "proficient": null,
+        "range": {
+          "value": null,
+          "long": null,
+          "reach": 10,
+          "units": "ft"
+        },
+        "mastery": "",
+        "magicalBonus": null,
+        "attuned": false,
+        "equipped": false
+      },
+      "effects": [],
+      "folder": "rfeweapons000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rwwhipsword00000",
+      "_key": "!items!rwwhipsword00000",
+      "name": "Whip Sword",
+      "type": "weapon",
+      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "system": {
+        "description": {
+          "value": "<p>Properties: Reach, special.</p><p>Special property</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "whipsword",
+        "quantity": 1,
+        "weight": {
+          "value": 3,
+          "units": "lb"
+        },
+        "price": {
+          "value": 25,
+          "denomination": "gp"
+        },
+        "type": {
+          "value": "martialM",
+          "baseItem": ""
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 6,
+            "types": [
+              "slashing"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          },
+          "versatile": {}
+        },
+        "properties": [
+          "rch",
+          "spc"
+        ],
+        "proficient": null,
+        "range": {
+          "value": null,
+          "long": null,
+          "reach": 10,
+          "units": "ft"
+        },
+        "mastery": "",
+        "magicalBonus": null,
+        "attuned": false,
+        "equipped": false
+      },
+      "effects": [],
+      "folder": "rfeweapons000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rwballista000000",
+      "_key": "!items!rwballista000000",
+      "name": "Ballista",
+      "type": "weapon",
+      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "system": {
+        "description": {
+          "value": "<p>Properties: Loading, special.</p><p>Special property</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 199.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "ballista",
+        "quantity": 1,
+        "weight": {
+          "value": 750,
+          "units": "lb"
+        },
+        "price": {
+          "value": 1000,
+          "denomination": "gp"
+        },
+        "type": {
+          "value": "martialR",
+          "baseItem": ""
+        },
+        "damage": {
+          "base": {
+            "number": 3,
+            "denomination": 8,
+            "types": [
+              "piercing"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          },
+          "versatile": {}
+        },
+        "properties": [
+          "lod",
+          "spc"
+        ],
+        "proficient": null,
+        "range": {
+          "value": null,
+          "long": null,
+          "reach": null,
+          "units": "ft"
+        },
+        "mastery": "",
+        "magicalBonus": null,
+        "attuned": false,
+        "equipped": false
+      },
+      "effects": [],
+      "folder": "rfeweapons000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rwblowgun0000000",
+      "_key": "!items!rwblowgun0000000",
+      "name": "Blowgun",
+      "type": "weapon",
+      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "system": {
+        "description": {
+          "value": "<p>Properties: Ammunition (25/100), loading.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 199.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "blowgun",
+        "quantity": 1,
+        "weight": {
+          "value": 0.25,
+          "units": "lb"
+        },
+        "price": {
+          "value": 5,
+          "denomination": "sp"
+        },
+        "type": {
+          "value": "martialR",
+          "baseItem": ""
+        },
+        "damage": {
+          "base": {
+            "number": null,
+            "denomination": null,
+            "types": [
+              "piercing"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": true,
+              "formula": "1"
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          },
+          "versatile": {}
+        },
+        "properties": [
+          "amm",
+          "lod"
+        ],
+        "proficient": null,
+        "range": {
+          "value": 25,
+          "long": 100,
+          "reach": null,
+          "units": "ft"
+        },
+        "mastery": "",
+        "magicalBonus": null,
+        "attuned": false,
+        "equipped": false
+      },
+      "effects": [],
+      "folder": "rfeweapons000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rwcrossbow000000",
+      "_key": "!items!rwcrossbow000000",
+      "name": "Crossbow",
+      "type": "weapon",
+      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "system": {
+        "description": {
+          "value": "<p>Properties: Ammunition (range 30/120), loading, two-handed.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 199.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "crossbow",
+        "quantity": 1,
+        "weight": {
+          "value": 12,
+          "units": "lb"
+        },
+        "price": {
+          "value": 50,
+          "denomination": "gp"
+        },
+        "type": {
+          "value": "martialR",
+          "baseItem": ""
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 8,
+            "types": [
+              "piercing"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          },
+          "versatile": {}
+        },
+        "properties": [
+          "amm",
+          "lod",
+          "two"
+        ],
+        "proficient": null,
+        "range": {
+          "value": 30,
+          "long": 120,
+          "reach": null,
+          "units": "ft"
+        },
+        "mastery": "",
+        "magicalBonus": null,
+        "attuned": false,
+        "equipped": false
+      },
+      "effects": [],
+      "folder": "rfeweapons000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rwgreatbow000000",
+      "_key": "!items!rwgreatbow000000",
+      "name": "Greatbow",
+      "type": "weapon",
+      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "system": {
+        "description": {
+          "value": "<p>Properties: Ammunition (range 150/600), heavy, special, two-handed.</p><p>Special property</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 199.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "greatbow",
+        "quantity": 1,
+        "weight": {
+          "value": 4,
+          "units": "lb"
+        },
+        "price": {
+          "value": 75,
+          "denomination": "gp"
+        },
+        "type": {
+          "value": "martialR",
+          "baseItem": ""
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 8,
+            "types": [
+              "piercing"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          },
+          "versatile": {}
+        },
+        "properties": [
+          "amm",
+          "hvy",
+          "spc",
+          "two"
+        ],
+        "proficient": null,
+        "range": {
+          "value": 150,
+          "long": 600,
+          "reach": null,
+          "units": "ft"
+        },
+        "mastery": "",
+        "magicalBonus": null,
+        "attuned": false,
+        "equipped": false
+      },
+      "effects": [],
+      "folder": "rfeweapons000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rwheavycrossbow0",
+      "_key": "!items!rwheavycrossbow0",
+      "name": "Heavy Crossbow",
+      "type": "weapon",
+      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "system": {
+        "description": {
+          "value": "<p>Properties: Ammunition (range 100/400), loading, two-handed.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 199.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "heavycrossbow",
+        "quantity": 1,
+        "weight": {
+          "value": 18,
+          "units": "lb"
+        },
+        "price": {
+          "value": 50,
+          "denomination": "gp"
+        },
+        "type": {
+          "value": "martialR",
+          "baseItem": ""
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 10,
+            "types": [
+              "piercing"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          },
+          "versatile": {}
+        },
+        "properties": [
+          "amm",
+          "lod",
+          "two"
+        ],
+        "proficient": null,
+        "range": {
+          "value": 100,
+          "long": 400,
+          "reach": null,
+          "units": "ft"
+        },
+        "mastery": "",
+        "magicalBonus": null,
+        "attuned": false,
+        "equipped": false
+      },
+      "effects": [],
+      "folder": "rfeweapons000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rwlongbow0000000",
+      "_key": "!items!rwlongbow0000000",
+      "name": "Longbow",
+      "type": "weapon",
+      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "system": {
+        "description": {
+          "value": "<p>Properties: Ammunition (range 150/600), heavy, two-handed.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 199.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "longbow",
+        "quantity": 1,
+        "weight": {
+          "value": 2,
+          "units": "lb"
+        },
+        "price": {
+          "value": 50,
+          "denomination": "gp"
+        },
+        "type": {
+          "value": "martialR",
+          "baseItem": ""
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 8,
+            "types": [
+              "piercing"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          },
+          "versatile": {}
+        },
+        "properties": [
+          "amm",
+          "hvy",
+          "two"
+        ],
+        "proficient": null,
+        "range": {
+          "value": 150,
+          "long": 600,
+          "reach": null,
+          "units": "ft"
+        },
+        "mastery": "",
+        "magicalBonus": null,
+        "attuned": false,
+        "equipped": false
+      },
+      "effects": [],
+      "folder": "rfeweapons000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rwrepeatingcross",
+      "_key": "!items!rwrepeatingcross",
+      "name": "Repeating Crossbow",
+      "type": "weapon",
+      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "system": {
+        "description": {
+          "value": "<p>Properties: Ammunition (range 30/120), loading, special.</p><p>Special property</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 199.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "repeatingcrossbow",
+        "quantity": 1,
+        "weight": {
+          "value": 18,
+          "units": "lb"
+        },
+        "price": {
+          "value": 65,
+          "denomination": "gp"
+        },
+        "type": {
+          "value": "martialR",
+          "baseItem": ""
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 8,
+            "types": [
+              "piercing"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          },
+          "versatile": {}
+        },
+        "properties": [
+          "amm",
+          "lod",
+          "spc"
+        ],
+        "proficient": null,
+        "range": {
+          "value": 30,
+          "long": 120,
+          "reach": null,
+          "units": "ft"
+        },
+        "mastery": "",
+        "magicalBonus": null,
+        "attuned": false,
+        "equipped": false
+      },
+      "effects": [],
+      "folder": "rfeweapons000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rwshinjohorsebow",
+      "_key": "!items!rwshinjohorsebow",
+      "name": "Shinjo Horsebow",
+      "type": "weapon",
+      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "system": {
+        "description": {
+          "value": "<p>Properties: Ammunition (range 100/400), special, two-handed.</p><p>Special property</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 199.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "shinjohorsebow",
+        "quantity": 1,
+        "weight": {
+          "value": 2,
+          "units": "lb"
+        },
+        "price": {
+          "value": 30,
+          "denomination": "gp"
+        },
+        "type": {
+          "value": "martialR",
+          "baseItem": ""
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 6,
+            "types": [
+              "piercing"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          },
+          "versatile": {}
+        },
+        "properties": [
+          "amm",
+          "spc",
+          "two"
+        ],
+        "proficient": null,
+        "range": {
+          "value": 100,
+          "long": 400,
+          "reach": null,
+          "units": "ft"
+        },
+        "mastery": "",
+        "magicalBonus": null,
+        "attuned": false,
+        "equipped": false
+      },
+      "effects": [],
+      "folder": "rfeweapons000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rwshuriken000000",
+      "_key": "!items!rwshuriken000000",
+      "name": "Shuriken",
+      "type": "weapon",
+      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "system": {
+        "description": {
+          "value": "<p>Properties: Ammunition (range 15/60), finesse, light.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 199.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "shuriken",
+        "quantity": 1,
+        "weight": {
+          "value": 0.125,
+          "units": "lb"
+        },
+        "price": {
+          "value": 5,
+          "denomination": "sp"
+        },
+        "type": {
+          "value": "martialR",
+          "baseItem": ""
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 4,
+            "types": [
+              "piercing"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          },
+          "versatile": {}
+        },
+        "properties": [
+          "amm",
+          "fin",
+          "lgt"
+        ],
+        "proficient": null,
+        "range": {
+          "value": 15,
+          "long": 60,
+          "reach": null,
+          "units": "ft"
+        },
+        "mastery": "",
+        "magicalBonus": null,
+        "attuned": false,
+        "equipped": false
+      },
+      "effects": [],
+      "folder": "rfeweapons000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "raconcealedarmor",
+      "_key": "!items!raconcealedarmor",
+      "name": "Concealed Armor",
+      "type": "equipment",
+      "img": "systems/dnd5e/icons/svg/items/equipment.svg",
+      "system": {
+        "description": {
+          "value": "<p>Hidden beneath clothing: DC 15 Perception check to detect.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 190.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "concealedarmor",
+        "quantity": 1,
+        "weight": {
+          "value": 6,
+          "units": "lb"
+        },
+        "price": {
+          "value": 10,
+          "denomination": "gp"
+        },
+        "type": {
+          "value": "light",
+          "baseItem": ""
+        },
+        "armor": {
+          "value": 11,
+          "dex": null,
+          "magicalBonus": null
+        },
+        "strength": null,
+        "properties": [],
+        "proficient": null,
+        "attuned": false,
+        "equipped": false
+      },
+      "effects": [],
+      "folder": "rfearmor00000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rasharkleatherar",
+      "_key": "!items!rasharkleatherar",
+      "name": "Shark Leather Armor",
+      "type": "equipment",
+      "img": "systems/dnd5e/icons/svg/items/equipment.svg",
+      "system": {
+        "description": {
+          "value": "<p>Wearer reduces nonmagical slashing damage taken by 3.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 190.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "sharkleatherarmor",
+        "quantity": 1,
+        "weight": {
+          "value": 8,
+          "units": "lb"
+        },
+        "price": {
+          "value": 12,
+          "denomination": "gp"
+        },
+        "type": {
+          "value": "light",
+          "baseItem": ""
+        },
+        "armor": {
+          "value": 11,
+          "dex": null,
+          "magicalBonus": null
+        },
+        "strength": null,
+        "properties": [],
+        "proficient": null,
+        "attuned": false,
+        "equipped": false
+      },
+      "effects": [],
+      "folder": "rfearmor00000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rasilkarmor00000",
+      "_key": "!items!rasilkarmor00000",
+      "name": "Silk Armor",
+      "type": "equipment",
+      "img": "systems/dnd5e/icons/svg/items/equipment.svg",
+      "system": {
+        "description": {
+          "value": "<p>Wearer reduces nonmagical piercing damage taken by 3.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 190.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "silkarmor",
+        "quantity": 1,
+        "weight": {
+          "value": 4,
+          "units": "lb"
+        },
+        "price": {
+          "value": 25,
+          "denomination": "gp"
+        },
+        "type": {
+          "value": "light",
+          "baseItem": ""
+        },
+        "armor": {
+          "value": 11,
+          "dex": null,
+          "magicalBonus": null
+        },
+        "strength": null,
+        "properties": [],
+        "proficient": null,
+        "attuned": false,
+        "equipped": false
+      },
+      "effects": [],
+      "folder": "rfearmor00000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "raanimalhidearmo",
+      "_key": "!items!raanimalhidearmo",
+      "name": "Animal-Hide Armor",
+      "type": "equipment",
+      "img": "systems/dnd5e/icons/svg/items/equipment.svg",
+      "system": {
+        "description": {
+          "value": "<p>Resistance to nonmagical cold damage; reduce magical cold damage taken by 2.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 190.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "animalhidearmor",
+        "quantity": 1,
+        "weight": {
+          "value": 12,
+          "units": "lb"
+        },
+        "price": {
+          "value": 10,
+          "denomination": "gp"
+        },
+        "type": {
+          "value": "medium",
+          "baseItem": ""
+        },
+        "armor": {
+          "value": 12,
+          "dex": 2,
+          "magicalBonus": null
+        },
+        "strength": null,
+        "properties": [],
+        "proficient": null,
+        "attuned": false,
+        "equipped": false
+      },
+      "effects": [],
+      "folder": "rfearmor00000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rafieldgear00000",
+      "_key": "!items!rafieldgear00000",
+      "name": "Field Gear",
+      "type": "equipment",
+      "img": "systems/dnd5e/icons/svg/items/equipment.svg",
+      "system": {
+        "description": {
+          "value": "<p>No additional effects.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 190.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "fieldgear",
+        "quantity": 1,
+        "weight": {
+          "value": 20,
+          "units": "lb"
+        },
+        "price": {
+          "value": 10,
+          "denomination": "gp"
+        },
+        "type": {
+          "value": "medium",
+          "baseItem": ""
+        },
+        "armor": {
+          "value": 13,
+          "dex": 2,
+          "magicalBonus": null
+        },
+        "strength": null,
+        "properties": [
+          "stealthDisadvantage"
+        ],
+        "proficient": null,
+        "attuned": false,
+        "equipped": false
+      },
+      "effects": [],
+      "folder": "rfearmor00000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "ralacqueredarmor",
+      "_key": "!items!ralacqueredarmor",
+      "name": "Lacquered Armor",
+      "type": "equipment",
+      "img": "systems/dnd5e/icons/svg/items/equipment.svg",
+      "system": {
+        "description": {
+          "value": "<p>No additional effects.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 190.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "lacqueredarmor",
+        "quantity": 1,
+        "weight": {
+          "value": 45,
+          "units": "lb"
+        },
+        "price": {
+          "value": 50,
+          "denomination": "gp"
+        },
+        "type": {
+          "value": "heavy",
+          "baseItem": ""
+        },
+        "armor": {
+          "value": 14,
+          "dex": 2,
+          "magicalBonus": null
+        },
+        "strength": 13,
+        "properties": [
+          "stealthDisadvantage"
+        ],
+        "proficient": null,
+        "attuned": false,
+        "equipped": false
+      },
+      "effects": [],
+      "folder": "rfearmor00000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rasegmentedplate",
+      "_key": "!items!rasegmentedplate",
+      "name": "Segmented Plate",
+      "type": "equipment",
+      "img": "systems/dnd5e/icons/svg/items/equipment.svg",
+      "system": {
+        "description": {
+          "value": "<p>Disadvantage on Acrobatics checks.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 190.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "segmentedplate",
+        "quantity": 1,
+        "weight": {
+          "value": 65,
+          "units": "lb"
+        },
+        "price": {
+          "value": 1000,
+          "denomination": "gp"
+        },
+        "type": {
+          "value": "heavy",
+          "baseItem": ""
+        },
+        "armor": {
+          "value": 18,
+          "dex": null,
+          "magicalBonus": null
+        },
+        "strength": 15,
+        "properties": [
+          "stealthDisadvantage"
+        ],
+        "proficient": null,
+        "attuned": false,
+        "equipped": false
+      },
+      "effects": [],
+      "folder": "rfearmor00000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "raroundshield000",
+      "_key": "!items!raroundshield000",
+      "name": "Round Shield",
+      "type": "equipment",
+      "img": "systems/dnd5e/icons/svg/items/equipment.svg",
+      "system": {
+        "description": {
+          "value": "<p>No additional effects.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 190.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "roundshield",
+        "quantity": 1,
+        "weight": {
+          "value": 6,
+          "units": "lb"
+        },
+        "price": {
+          "value": 25,
+          "denomination": "gp"
+        },
+        "type": {
+          "value": "shield",
+          "baseItem": ""
+        },
+        "armor": {
+          "value": 2,
+          "dex": null,
+          "magicalBonus": null
+        },
+        "strength": null,
+        "properties": [],
+        "proficient": null,
+        "attuned": false,
+        "equipped": false
+      },
+      "effects": [],
+      "folder": "rfearmor00000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rawallshield0000",
+      "_key": "!items!rawallshield0000",
+      "name": "Wall Shield",
+      "type": "equipment",
+      "img": "systems/dnd5e/icons/svg/items/equipment.svg",
+      "system": {
+        "description": {
+          "value": "<p>Partial cover vs. ranged attacks; -10 ft. speed; disadvantage on Acrobatics, Athletics, and Stealth.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 190.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "wallshield",
+        "quantity": 1,
+        "weight": {
+          "value": 12,
+          "units": "lb"
+        },
+        "price": {
+          "value": 75,
+          "denomination": "gp"
+        },
+        "type": {
+          "value": "shield",
+          "baseItem": ""
+        },
+        "armor": {
+          "value": 2,
+          "dex": null,
+          "magicalBonus": null
+        },
+        "strength": 15,
+        "properties": [],
+        "proficient": null,
+        "attuned": false,
+        "equipped": false
+      },
+      "effects": [],
+      "folder": "rfearmor00000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "roresplendentreg",
+      "_key": "!items!roresplendentreg",
+      "name": "Resplendent Regalia",
+      "type": "equipment",
+      "img": "systems/dnd5e/icons/svg/items/equipment.svg",
+      "system": {
+        "description": {
+          "value": "<p>Bonus action: advantage on next Intimidation, Performance, and Persuasion check (recharges on short rest).</p><p>Cannot be worn with armor or a shield.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 189.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "resplendentregalia",
+        "quantity": 1,
+        "weight": {
+          "value": 5,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "type": {
+          "value": "clothing",
+          "baseItem": ""
+        },
+        "armor": {
+          "value": null,
+          "dex": null,
+          "magicalBonus": null
+        },
+        "strength": null,
+        "properties": [],
+        "proficient": null,
+        "attuned": false,
+        "equipped": false
+      },
+      "effects": [],
+      "folder": "rfeoutfits000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rosanctifiedvest",
+      "_key": "!items!rosanctifiedvest",
+      "name": "Sanctified Vestments",
+      "type": "equipment",
+      "img": "systems/dnd5e/icons/svg/items/equipment.svg",
+      "system": {
+        "description": {
+          "value": "<p>Resistance to damage from supernatural sources; advantage on related saving throws.</p><p>Cannot be worn with armor or a shield.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 189.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "sanctifiedvestments",
+        "quantity": 1,
+        "weight": {
+          "value": 10,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "type": {
+          "value": "clothing",
+          "baseItem": ""
+        },
+        "armor": {
+          "value": null,
+          "dex": null,
+          "magicalBonus": null
+        },
+        "strength": null,
+        "properties": [],
+        "proficient": null,
+        "attuned": false,
+        "equipped": false
+      },
+      "effects": [],
+      "folder": "rfeoutfits000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rotravelingcloth",
+      "_key": "!items!rotravelingcloth",
+      "name": "Traveling Clothes",
+      "type": "equipment",
+      "img": "systems/dnd5e/icons/svg/items/equipment.svg",
+      "system": {
+        "description": {
+          "value": "<p>Hardy garments suited to the road and harsh climates.</p><p>Cannot be worn with armor or a shield.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 189.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "travelingclothes",
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "type": {
+          "value": "clothing",
+          "baseItem": ""
+        },
+        "armor": {
+          "value": null,
+          "dex": null,
+          "magicalBonus": null
+        },
+        "strength": null,
+        "properties": [],
+        "proficient": null,
+        "attuned": false,
+        "equipped": false
+      },
+      "effects": [],
+      "folder": "rfeoutfits000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rounremarkablega",
+      "_key": "!items!rounremarkablega",
+      "name": "Unremarkable Garb",
+      "type": "equipment",
+      "img": "systems/dnd5e/icons/svg/items/equipment.svg",
+      "system": {
+        "description": {
+          "value": "<p>Common clothing; helps the wearer pass without notice.</p><p>Cannot be worn with armor or a shield.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 189.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "unremarkablegarb",
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 0,
+          "denomination": "gp"
+        },
+        "type": {
+          "value": "clothing",
+          "baseItem": ""
+        },
+        "armor": {
+          "value": null,
+          "dex": null,
+          "magicalBonus": null
+        },
+        "strength": null,
+        "properties": [],
+        "proficient": null,
+        "attuned": false,
+        "equipped": false
+      },
+      "effects": [],
+      "folder": "rfeoutfits000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rgbook0000000000",
+      "_key": "!items!rgbook0000000000",
+      "name": "Book",
+      "type": "loot",
+      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "system": {
+        "description": {
+          "value": "<p>Price ranges 5 cp to 5 gp by quality.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 193.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "book",
+        "quantity": 1,
+        "weight": {
+          "value": 1,
+          "units": "lb"
+        },
+        "price": {
+          "value": 5,
+          "denomination": "cp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "type": {
+          "value": "",
+          "subtype": ""
+        }
+      },
+      "effects": [],
+      "folder": "rfeadventuringge",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rgfieldmedicinek",
+      "_key": "!items!rgfieldmedicinek",
+      "name": "Field Medicine Kit",
+      "type": "consumable",
+      "img": "systems/dnd5e/icons/svg/items/consumable.svg",
+      "system": {
+        "description": {
+          "value": "<p>Ten uses; stabilize or treat wounds in the field.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 193.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "fieldmedicinekit",
+        "quantity": 1,
+        "weight": {
+          "value": 3,
+          "units": "lb"
+        },
+        "price": {
+          "value": 2,
+          "denomination": "sp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "type": {
+          "value": "trinket",
+          "subtype": ""
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfeadventuringge",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rgfingerofjade00",
+      "_key": "!items!rgfingerofjade00",
+      "name": "Finger of Jade",
+      "type": "loot",
+      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "system": {
+        "description": {
+          "value": "<p>Small jade charm; wards against the Shadowlands Taint.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 193.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "fingerofjade",
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 1,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "type": {
+          "value": "",
+          "subtype": ""
+        }
+      },
+      "effects": [],
+      "folder": "rfeadventuringge",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rgmask0000000000",
+      "_key": "!items!rgmask0000000000",
+      "name": "Mask",
+      "type": "loot",
+      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "system": {
+        "description": {
+          "value": "<p>Price 5 sp to 10 gp by craftsmanship; theatrical or concealing.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 193.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "mask",
+        "quantity": 1,
+        "weight": {
+          "value": 0.5,
+          "units": "lb"
+        },
+        "price": {
+          "value": 5,
+          "denomination": "sp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "type": {
+          "value": "",
+          "subtype": ""
+        }
+      },
+      "effects": [],
+      "folder": "rfeadventuringge",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rgpersonalsealor",
+      "_key": "!items!rgpersonalsealor",
+      "name": "Personal Seal or Chop",
+      "type": "loot",
+      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "system": {
+        "description": {
+          "value": "<p>Stamps a personal mark in ink or wax.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 193.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "personalsealorchop",
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 8,
+          "denomination": "sp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "type": {
+          "value": "",
+          "subtype": ""
+        }
+      },
+      "effects": [],
+      "folder": "rfeadventuringge",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rgportableteaset",
+      "_key": "!items!rgportableteaset",
+      "name": "Portable Tea Set",
+      "type": "loot",
+      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "system": {
+        "description": {
+          "value": "<p>Compact set for the tea ceremony on the road.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 193.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "portableteaset",
+        "quantity": 1,
+        "weight": {
+          "value": 2,
+          "units": "lb"
+        },
+        "price": {
+          "value": 5,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "type": {
+          "value": "",
+          "subtype": ""
+        }
+      },
+      "effects": [],
+      "folder": "rfeadventuringge",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rgquiver00000000",
+      "_key": "!items!rgquiver00000000",
+      "name": "Quiver",
+      "type": "container",
+      "img": "systems/dnd5e/icons/svg/items/container.svg",
+      "system": {
+        "description": {
+          "value": "<p>Holds 20 arrows.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 193.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "quiver",
+        "quantity": 1,
+        "weight": {
+          "value": 1,
+          "units": "lb"
+        },
+        "price": {
+          "value": 2,
+          "denomination": "sp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "capacity": {
+          "type": "weight",
+          "value": null,
+          "weightless": false
+        }
+      },
+      "effects": [],
+      "folder": "rfeadventuringge",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rgritualpouch000",
+      "_key": "!items!rgritualpouch000",
+      "name": "Ritual Pouch",
+      "type": "container",
+      "img": "systems/dnd5e/icons/svg/items/container.svg",
+      "system": {
+        "description": {
+          "value": "<p>Holds an invoker's ritual focuses and offerings.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 193.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "ritualpouch",
+        "quantity": 1,
+        "weight": {
+          "value": 1,
+          "units": "lb"
+        },
+        "price": {
+          "value": 3,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "capacity": {
+          "type": "weight",
+          "value": null,
+          "weightless": false
+        }
+      },
+      "effects": [],
+      "folder": "rfeadventuringge",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rgropeperfoot000",
+      "_key": "!items!rgropeperfoot000",
+      "name": "Rope (per foot)",
+      "type": "loot",
+      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "system": {
+        "description": {
+          "value": "<p>Priced per foot; 5 cp/ft.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 193.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "ropeperfoot",
+        "quantity": 1,
+        "weight": {
+          "value": 0.1,
+          "units": "lb"
+        },
+        "price": {
+          "value": 5,
+          "denomination": "cp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "type": {
+          "value": "",
+          "subtype": ""
+        }
+      },
+      "effects": [],
+      "folder": "rfeadventuringge",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rgtentsmall00000",
+      "_key": "!items!rgtentsmall00000",
+      "name": "Tent, Small",
+      "type": "loot",
+      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "system": {
+        "description": {
+          "value": "<p>Sleeps two.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 193.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "tentsmall",
+        "quantity": 1,
+        "weight": {
+          "value": 8,
+          "units": "lb"
+        },
+        "price": {
+          "value": 1,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "type": {
+          "value": "",
+          "subtype": ""
+        }
+      },
+      "effects": [],
+      "folder": "rfeadventuringge",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rgtentmedium0000",
+      "_key": "!items!rgtentmedium0000",
+      "name": "Tent, Medium",
+      "type": "loot",
+      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "system": {
+        "description": {
+          "value": "<p>Sleeps several.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 193.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "tentmedium",
+        "quantity": 1,
+        "weight": {
+          "value": 20,
+          "units": "lb"
+        },
+        "price": {
+          "value": 10,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "type": {
+          "value": "",
+          "subtype": ""
+        }
+      },
+      "effects": [],
+      "folder": "rfeadventuringge",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rgtentlarge00000",
+      "_key": "!items!rgtentlarge00000",
+      "name": "Tent, Large",
+      "type": "loot",
+      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "system": {
+        "description": {
+          "value": "<p>Chomchong; sleeps up to a dozen, needs pack animals.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 193.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "tentlarge",
+        "quantity": 1,
+        "weight": {
+          "value": 40,
+          "units": "lb"
+        },
+        "price": {
+          "value": 20,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "type": {
+          "value": "",
+          "subtype": ""
+        }
+      },
+      "effects": [],
+      "folder": "rfeadventuringge",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rgumbrella000000",
+      "_key": "!items!rgumbrella000000",
+      "name": "Umbrella",
+      "type": "loot",
+      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "system": {
+        "description": {
+          "value": "<p>Wicker and silk; keeps off sun and rain.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 193.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "umbrella",
+        "quantity": 1,
+        "weight": {
+          "value": 1,
+          "units": "lb"
+        },
+        "price": {
+          "value": 4,
+          "denomination": "sp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "type": {
+          "value": "",
+          "subtype": ""
+        }
+      },
+      "effects": [],
+      "folder": "rfeadventuringge",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rgwhetstone00000",
+      "_key": "!items!rgwhetstone00000",
+      "name": "Whetstone",
+      "type": "loot",
+      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "system": {
+        "description": {
+          "value": "<p>Sharpens most bladed weapons (not katana/wakizashi).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 193.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "whetstone",
+        "quantity": 1,
+        "weight": {
+          "value": 1,
+          "units": "lb"
+        },
+        "price": {
+          "value": 2,
+          "denomination": "cp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "type": {
+          "value": "",
+          "subtype": ""
+        }
+      },
+      "effects": [],
+      "folder": "rfeadventuringge",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rgwillowleafarro",
+      "_key": "!items!rgwillowleafarro",
+      "name": "Willow-Leaf Arrows",
+      "type": "consumable",
+      "img": "systems/dnd5e/icons/svg/items/ammo.svg",
+      "system": {
+        "description": {
+          "value": "<p>Standard arrows (20).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 197.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "willowleafarrows",
+        "quantity": 1,
+        "weight": {
+          "value": 1,
+          "units": "lb"
+        },
+        "price": {
+          "value": 1,
+          "denomination": "sp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "type": {
+          "value": "ammo",
+          "subtype": "arrow"
+        },
+        "properties": [],
+        "magicalBonus": null
+      },
+      "effects": [],
+      "folder": "rfearrows0000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rgarmorpiercinga",
+      "_key": "!items!rgarmorpiercinga",
+      "name": "Armor-Piercing Arrows",
+      "type": "consumable",
+      "img": "systems/dnd5e/icons/svg/items/ammo.svg",
+      "system": {
+        "description": {
+          "value": "<p>Designed to punch through armor.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 197.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "armorpiercingarrows",
+        "quantity": 1,
+        "weight": {
+          "value": 1,
+          "units": "lb"
+        },
+        "price": {
+          "value": 5,
+          "denomination": "sp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "type": {
+          "value": "ammo",
+          "subtype": "arrow"
+        },
+        "properties": [],
+        "magicalBonus": null
+      },
+      "effects": [],
+      "folder": "rfearrows0000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rgdemonbreakinga",
+      "_key": "!items!rgdemonbreakinga",
+      "name": "Demon-Breaking Arrows",
+      "type": "consumable",
+      "img": "systems/dnd5e/icons/svg/items/ammo.svg",
+      "system": {
+        "description": {
+          "value": "<p>Blessed against creatures of the Shadowlands.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 197.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "demonbreakingarrows",
+        "quantity": 1,
+        "weight": {
+          "value": 1,
+          "units": "lb"
+        },
+        "price": {
+          "value": 5,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "type": {
+          "value": "ammo",
+          "subtype": "arrow"
+        },
+        "properties": [],
+        "magicalBonus": null
+      },
+      "effects": [],
+      "folder": "rfearrows0000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rgfireblossomarr",
+      "_key": "!items!rgfireblossomarr",
+      "name": "Fire-Blossom Arrows",
+      "type": "consumable",
+      "img": "systems/dnd5e/icons/svg/items/ammo.svg",
+      "system": {
+        "description": {
+          "value": "<p>Burst into flame on impact.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 197.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "fireblossomarrows",
+        "quantity": 1,
+        "weight": {
+          "value": 1,
+          "units": "lb"
+        },
+        "price": {
+          "value": 1,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "type": {
+          "value": "ammo",
+          "subtype": "arrow"
+        },
+        "properties": [],
+        "magicalBonus": null
+      },
+      "effects": [],
+      "folder": "rfearrows0000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rgfleshcutterarr",
+      "_key": "!items!rgfleshcutterarr",
+      "name": "Flesh-Cutter Arrows",
+      "type": "consumable",
+      "img": "systems/dnd5e/icons/svg/items/ammo.svg",
+      "system": {
+        "description": {
+          "value": "<p>Broad heads for grievous wounds.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 197.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "fleshcutterarrows",
+        "quantity": 1,
+        "weight": {
+          "value": 1,
+          "units": "lb"
+        },
+        "price": {
+          "value": 5,
+          "denomination": "sp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "type": {
+          "value": "ammo",
+          "subtype": "arrow"
+        },
+        "properties": [],
+        "magicalBonus": null
+      },
+      "effects": [],
+      "folder": "rfearrows0000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rghummingbulbarr",
+      "_key": "!items!rghummingbulbarr",
+      "name": "Humming-Bulb Arrows",
+      "type": "consumable",
+      "img": "systems/dnd5e/icons/svg/items/ammo.svg",
+      "system": {
+        "description": {
+          "value": "<p>Whistle in flight to signal or unnerve.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 197.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "hummingbulbarrows",
+        "quantity": 1,
+        "weight": {
+          "value": 1,
+          "units": "lb"
+        },
+        "price": {
+          "value": 1,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "type": {
+          "value": "ammo",
+          "subtype": "arrow"
+        },
+        "properties": [],
+        "magicalBonus": null
+      },
+      "effects": [],
+      "folder": "rfearrows0000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rgsoulstararrows",
+      "_key": "!items!rgsoulstararrows",
+      "name": "Soul-Star Arrows",
+      "type": "consumable",
+      "img": "systems/dnd5e/icons/svg/items/ammo.svg",
+      "system": {
+        "description": {
+          "value": "<p>Strike spirits and the incorporeal.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 197.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "soulstararrows",
+        "quantity": 1,
+        "weight": {
+          "value": 1,
+          "units": "lb"
+        },
+        "price": {
+          "value": 5,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "type": {
+          "value": "ammo",
+          "subtype": "arrow"
+        },
+        "properties": [],
+        "magicalBonus": null
+      },
+      "effects": [],
+      "folder": "rfearrows0000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rgblacksmithskit",
+      "_key": "!items!rgblacksmithskit",
+      "name": "Blacksmith's Kit",
+      "type": "tool",
+      "img": "systems/dnd5e/icons/svg/items/tool.svg",
+      "system": {
+        "description": {
+          "value": "<p>Artisan tool.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 203.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "blacksmithskit",
+        "quantity": 1,
+        "weight": {
+          "value": 8,
+          "units": "lb"
+        },
+        "price": {
+          "value": 10,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "type": {
+          "value": "",
+          "baseItem": ""
+        },
+        "proficient": null,
+        "properties": [],
+        "ability": ""
+      },
+      "effects": [],
+      "folder": "rfetoolsartisan0",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rgbowyerskit0000",
+      "_key": "!items!rgbowyerskit0000",
+      "name": "Bowyer's Kit",
+      "type": "tool",
+      "img": "systems/dnd5e/icons/svg/items/tool.svg",
+      "system": {
+        "description": {
+          "value": "<p>Artisan tool.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 203.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "bowyerskit",
+        "quantity": 1,
+        "weight": {
+          "value": 5,
+          "units": "lb"
+        },
+        "price": {
+          "value": 4,
+          "denomination": "sp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "type": {
+          "value": "",
+          "baseItem": ""
+        },
+        "proficient": null,
+        "properties": [],
+        "ability": ""
+      },
+      "effects": [],
+      "folder": "rfetoolsartisan0",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rgcalligraphyset",
+      "_key": "!items!rgcalligraphyset",
+      "name": "Calligraphy Set",
+      "type": "tool",
+      "img": "systems/dnd5e/icons/svg/items/tool.svg",
+      "system": {
+        "description": {
+          "value": "<p>Artisan tool.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 203.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "calligraphyset",
+        "quantity": 1,
+        "weight": {
+          "value": 1,
+          "units": "lb"
+        },
+        "price": {
+          "value": 1,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "type": {
+          "value": "",
+          "baseItem": ""
+        },
+        "proficient": null,
+        "properties": [],
+        "ability": ""
+      },
+      "effects": [],
+      "folder": "rfetoolsartisan0",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rgceremonialteas",
+      "_key": "!items!rgceremonialteas",
+      "name": "Ceremonial Tea Set",
+      "type": "tool",
+      "img": "systems/dnd5e/icons/svg/items/tool.svg",
+      "system": {
+        "description": {
+          "value": "<p>Artisan tool.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 203.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "ceremonialteaset",
+        "quantity": 1,
+        "weight": {
+          "value": 4,
+          "units": "lb"
+        },
+        "price": {
+          "value": 12,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "type": {
+          "value": "",
+          "baseItem": ""
+        },
+        "proficient": null,
+        "properties": [],
+        "ability": ""
+      },
+      "effects": [],
+      "folder": "rfetoolsartisan0",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rgchemistskit000",
+      "_key": "!items!rgchemistskit000",
+      "name": "Chemist's Kit",
+      "type": "tool",
+      "img": "systems/dnd5e/icons/svg/items/tool.svg",
+      "system": {
+        "description": {
+          "value": "<p>Artisan tool.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 203.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "chemistskit",
+        "quantity": 1,
+        "weight": {
+          "value": 8,
+          "units": "lb"
+        },
+        "price": {
+          "value": 6,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "type": {
+          "value": "",
+          "baseItem": ""
+        },
+        "proficient": null,
+        "properties": [],
+        "ability": ""
+      },
+      "effects": [],
+      "folder": "rfetoolsartisan0",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rgcookingkit0000",
+      "_key": "!items!rgcookingkit0000",
+      "name": "Cooking Kit",
+      "type": "tool",
+      "img": "systems/dnd5e/icons/svg/items/tool.svg",
+      "system": {
+        "description": {
+          "value": "<p>Artisan tool.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 203.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "cookingkit",
+        "quantity": 1,
+        "weight": {
+          "value": 6,
+          "units": "lb"
+        },
+        "price": {
+          "value": 2,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "type": {
+          "value": "",
+          "baseItem": ""
+        },
+        "proficient": null,
+        "properties": [],
+        "ability": ""
+      },
+      "effects": [],
+      "folder": "rfetoolsartisan0",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rgfishingkit0000",
+      "_key": "!items!rgfishingkit0000",
+      "name": "Fishing Kit",
+      "type": "tool",
+      "img": "systems/dnd5e/icons/svg/items/tool.svg",
+      "system": {
+        "description": {
+          "value": "<p>Artisan tool.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 203.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "fishingkit",
+        "quantity": 1,
+        "weight": {
+          "value": 4,
+          "units": "lb"
+        },
+        "price": {
+          "value": 1,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "type": {
+          "value": "",
+          "baseItem": ""
+        },
+        "proficient": null,
+        "properties": [],
+        "ability": ""
+      },
+      "effects": [],
+      "folder": "rfetoolsartisan0",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rgmakeupkit00000",
+      "_key": "!items!rgmakeupkit00000",
+      "name": "Makeup Kit",
+      "type": "tool",
+      "img": "systems/dnd5e/icons/svg/items/tool.svg",
+      "system": {
+        "description": {
+          "value": "<p>Artisan tool.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 203.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "makeupkit",
+        "quantity": 1,
+        "weight": {
+          "value": 1,
+          "units": "lb"
+        },
+        "price": {
+          "value": 8,
+          "denomination": "sp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "type": {
+          "value": "",
+          "baseItem": ""
+        },
+        "proficient": null,
+        "properties": [],
+        "ability": ""
+      },
+      "effects": [],
+      "folder": "rfetoolsartisan0",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rgmasonskit00000",
+      "_key": "!items!rgmasonskit00000",
+      "name": "Mason's Kit",
+      "type": "tool",
+      "img": "systems/dnd5e/icons/svg/items/tool.svg",
+      "system": {
+        "description": {
+          "value": "<p>Artisan tool.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 203.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "masonskit",
+        "quantity": 1,
+        "weight": {
+          "value": 8,
+          "units": "lb"
+        },
+        "price": {
+          "value": 2,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "type": {
+          "value": "",
+          "baseItem": ""
+        },
+        "proficient": null,
+        "properties": [],
+        "ability": ""
+      },
+      "effects": [],
+      "folder": "rfetoolsartisan0",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rgpainterstools0",
+      "_key": "!items!rgpainterstools0",
+      "name": "Painter's Tools",
+      "type": "tool",
+      "img": "systems/dnd5e/icons/svg/items/tool.svg",
+      "system": {
+        "description": {
+          "value": "<p>Artisan tool.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 203.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "painterstools",
+        "quantity": 1,
+        "weight": {
+          "value": 5,
+          "units": "lb"
+        },
+        "price": {
+          "value": 5,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "type": {
+          "value": "",
+          "baseItem": ""
+        },
+        "proficient": null,
+        "properties": [],
+        "ability": ""
+      },
+      "effects": [],
+      "folder": "rfetoolsartisan0",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rgpottersset0000",
+      "_key": "!items!rgpottersset0000",
+      "name": "Potter's Set",
+      "type": "tool",
+      "img": "systems/dnd5e/icons/svg/items/tool.svg",
+      "system": {
+        "description": {
+          "value": "<p>Artisan tool.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 203.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "pottersset",
+        "quantity": 1,
+        "weight": {
+          "value": 3,
+          "units": "lb"
+        },
+        "price": {
+          "value": 1,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "type": {
+          "value": "",
+          "baseItem": ""
+        },
+        "proficient": null,
+        "properties": [],
+        "ability": ""
+      },
+      "effects": [],
+      "folder": "rfetoolsartisan0",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rgswordmaintenan",
+      "_key": "!items!rgswordmaintenan",
+      "name": "Sword Maintenance Kit",
+      "type": "tool",
+      "img": "systems/dnd5e/icons/svg/items/tool.svg",
+      "system": {
+        "description": {
+          "value": "<p>Artisan tool.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 203.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "swordmaintenancekit",
+        "quantity": 1,
+        "weight": {
+          "value": 1,
+          "units": "lb"
+        },
+        "price": {
+          "value": 15,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "type": {
+          "value": "",
+          "baseItem": ""
+        },
+        "proficient": null,
+        "properties": [],
+        "ability": ""
+      },
+      "effects": [],
+      "folder": "rfetoolsartisan0",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rgtailorskit0000",
+      "_key": "!items!rgtailorskit0000",
+      "name": "Tailor's Kit",
+      "type": "tool",
+      "img": "systems/dnd5e/icons/svg/items/tool.svg",
+      "system": {
+        "description": {
+          "value": "<p>Artisan tool.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 203.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "tailorskit",
+        "quantity": 1,
+        "weight": {
+          "value": 5,
+          "units": "lb"
+        },
+        "price": {
+          "value": 3,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "type": {
+          "value": "",
+          "baseItem": ""
+        },
+        "proficient": null,
+        "properties": [],
+        "ability": ""
+      },
+      "effects": [],
+      "folder": "rfetoolsartisan0",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rgtattooset00000",
+      "_key": "!items!rgtattooset00000",
+      "name": "Tattoo Set",
+      "type": "tool",
+      "img": "systems/dnd5e/icons/svg/items/tool.svg",
+      "system": {
+        "description": {
+          "value": "<p>Artisan tool.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 203.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "tattooset",
+        "quantity": 1,
+        "weight": {
+          "value": 1,
+          "units": "lb"
+        },
+        "price": {
+          "value": 4,
+          "denomination": "sp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "type": {
+          "value": "",
+          "baseItem": ""
+        },
+        "proficient": null,
+        "properties": [],
+        "ability": ""
+      },
+      "effects": [],
+      "folder": "rfetoolsartisan0",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rgweaverskit0000",
+      "_key": "!items!rgweaverskit0000",
+      "name": "Weaver's Kit",
+      "type": "tool",
+      "img": "systems/dnd5e/icons/svg/items/tool.svg",
+      "system": {
+        "description": {
+          "value": "<p>Artisan tool.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 203.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "weaverskit",
+        "quantity": 1,
+        "weight": {
+          "value": 5,
+          "units": "lb"
+        },
+        "price": {
+          "value": 1,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "type": {
+          "value": "",
+          "baseItem": ""
+        },
+        "proficient": null,
+        "properties": [],
+        "ability": ""
+      },
+      "effects": [],
+      "folder": "rfetoolsartisan0",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rgboardorcardgam",
+      "_key": "!items!rgboardorcardgam",
+      "name": "Board or Card Game",
+      "type": "tool",
+      "img": "systems/dnd5e/icons/svg/items/tool.svg",
+      "system": {
+        "description": {
+          "value": "<p>Gaming tool.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 203.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "boardorcardgame",
+        "quantity": 1,
+        "weight": {
+          "value": 0.5,
+          "units": "lb"
+        },
+        "price": {
+          "value": 1,
+          "denomination": "sp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "type": {
+          "value": "",
+          "baseItem": ""
+        },
+        "proficient": null,
+        "properties": [],
+        "ability": ""
+      },
+      "effects": [],
+      "folder": "rfetoolsgaming00",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rgdiceandcup0000",
+      "_key": "!items!rgdiceandcup0000",
+      "name": "Dice and Cup",
+      "type": "tool",
+      "img": "systems/dnd5e/icons/svg/items/tool.svg",
+      "system": {
+        "description": {
+          "value": "<p>Gaming tool.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 203.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "diceandcup",
+        "quantity": 1,
+        "weight": {
+          "value": 0.5,
+          "units": "lb"
+        },
+        "price": {
+          "value": 5,
+          "denomination": "cp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "type": {
+          "value": "",
+          "baseItem": ""
+        },
+        "proficient": null,
+        "properties": [],
+        "ability": ""
+      },
+      "effects": [],
+      "folder": "rfetoolsgaming00",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rgdrums000000000",
+      "_key": "!items!rgdrums000000000",
+      "name": "Drums",
+      "type": "tool",
+      "img": "systems/dnd5e/icons/svg/items/tool.svg",
+      "system": {
+        "description": {
+          "value": "<p>Musical tool.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 203.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "drums",
+        "quantity": 1,
+        "weight": {
+          "value": 6,
+          "units": "lb"
+        },
+        "price": {
+          "value": 5,
+          "denomination": "sp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "type": {
+          "value": "",
+          "baseItem": ""
+        },
+        "proficient": null,
+        "properties": [],
+        "ability": ""
+      },
+      "effects": [],
+      "folder": "rfetoolsmusical0",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rgflute000000000",
+      "_key": "!items!rgflute000000000",
+      "name": "Flute",
+      "type": "tool",
+      "img": "systems/dnd5e/icons/svg/items/tool.svg",
+      "system": {
+        "description": {
+          "value": "<p>Musical tool.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 203.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "flute",
+        "quantity": 1,
+        "weight": {
+          "value": 1,
+          "units": "lb"
+        },
+        "price": {
+          "value": 2,
+          "denomination": "sp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "type": {
+          "value": "",
+          "baseItem": ""
+        },
+        "proficient": null,
+        "properties": [],
+        "ability": ""
+      },
+      "effects": [],
+      "folder": "rfetoolsmusical0",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rglute0000000000",
+      "_key": "!items!rglute0000000000",
+      "name": "Lute",
+      "type": "tool",
+      "img": "systems/dnd5e/icons/svg/items/tool.svg",
+      "system": {
+        "description": {
+          "value": "<p>Musical tool.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 203.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "lute",
+        "quantity": 1,
+        "weight": {
+          "value": 2,
+          "units": "lb"
+        },
+        "price": {
+          "value": 5,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "type": {
+          "value": "",
+          "baseItem": ""
+        },
+        "proficient": null,
+        "properties": [],
+        "ability": ""
+      },
+      "effects": [],
+      "folder": "rfetoolsmusical0",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rgzither00000000",
+      "_key": "!items!rgzither00000000",
+      "name": "Zither",
+      "type": "tool",
+      "img": "systems/dnd5e/icons/svg/items/tool.svg",
+      "system": {
+        "description": {
+          "value": "<p>Musical tool.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 203.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "zither",
+        "quantity": 1,
+        "weight": {
+          "value": 3,
+          "units": "lb"
+        },
+        "price": {
+          "value": 10,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "type": {
+          "value": "",
+          "baseItem": ""
+        },
+        "proficient": null,
+        "properties": [],
+        "ability": ""
+      },
+      "effects": [],
+      "folder": "rfetoolsmusical0",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rgalchemistskit0",
+      "_key": "!items!rgalchemistskit0",
+      "name": "Alchemist's Kit",
+      "type": "tool",
+      "img": "systems/dnd5e/icons/svg/items/tool.svg",
+      "system": {
+        "description": {
+          "value": "<p>Mystic tool.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 203.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "alchemistskit",
+        "quantity": 1,
+        "weight": {
+          "value": 8,
+          "units": "lb"
+        },
+        "price": {
+          "value": 10,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "type": {
+          "value": "",
+          "baseItem": ""
+        },
+        "proficient": null,
+        "properties": [],
+        "ability": ""
+      },
+      "effects": [],
+      "folder": "rfetoolsmystic00",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rgdivinationkit0",
+      "_key": "!items!rgdivinationkit0",
+      "name": "Divination Kit",
+      "type": "tool",
+      "img": "systems/dnd5e/icons/svg/items/tool.svg",
+      "system": {
+        "description": {
+          "value": "<p>Mystic tool.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 203.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "divinationkit",
+        "quantity": 1,
+        "weight": {
+          "value": 3,
+          "units": "lb"
+        },
+        "price": {
+          "value": 1,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "type": {
+          "value": "",
+          "baseItem": ""
+        },
+        "proficient": null,
+        "properties": [],
+        "ability": ""
+      },
+      "effects": [],
+      "folder": "rfetoolsmystic00",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rgdisguisekit000",
+      "_key": "!items!rgdisguisekit000",
+      "name": "Disguise Kit",
+      "type": "tool",
+      "img": "systems/dnd5e/icons/svg/items/tool.svg",
+      "system": {
+        "description": {
+          "value": "<p>Subterfuge tool.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 203.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "disguisekit",
+        "quantity": 1,
+        "weight": {
+          "value": 3,
+          "units": "lb"
+        },
+        "price": {
+          "value": 2,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "type": {
+          "value": "",
+          "baseItem": ""
+        },
+        "proficient": null,
+        "properties": [],
+        "ability": ""
+      },
+      "effects": [],
+      "folder": "rfetoolssubterfu",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rginfiltratorseq",
+      "_key": "!items!rginfiltratorseq",
+      "name": "Infiltrator's Equipment",
+      "type": "tool",
+      "img": "systems/dnd5e/icons/svg/items/tool.svg",
+      "system": {
+        "description": {
+          "value": "<p>Subterfuge tool.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 203.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "infiltratorsequipment",
+        "quantity": 1,
+        "weight": {
+          "value": 5,
+          "units": "lb"
+        },
+        "price": {
+          "value": 1,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "type": {
+          "value": "",
+          "baseItem": ""
+        },
+        "proficient": null,
+        "properties": [],
+        "ability": ""
+      },
+      "effects": [],
+      "folder": "rfetoolssubterfu",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rginvisibleinkse",
+      "_key": "!items!rginvisibleinkse",
+      "name": "Invisible Ink Set",
+      "type": "tool",
+      "img": "systems/dnd5e/icons/svg/items/tool.svg",
+      "system": {
+        "description": {
+          "value": "<p>Subterfuge tool.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 203.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "invisibleinkset",
+        "quantity": 1,
+        "weight": {
+          "value": 1,
+          "units": "lb"
+        },
+        "price": {
+          "value": 3,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "type": {
+          "value": "",
+          "baseItem": ""
+        },
+        "proficient": null,
+        "properties": [],
+        "ability": ""
+      },
+      "effects": [],
+      "folder": "rfetoolssubterfu",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rgcamel000000000",
+      "_key": "!items!rgcamel000000000",
+      "name": "Camel",
+      "type": "loot",
+      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "system": {
+        "description": {
+          "value": "<p>Speed 50 ft.; carrying capacity 480 lb.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 207.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "camel",
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 100,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "type": {
+          "value": "",
+          "subtype": ""
+        }
+      },
+      "effects": [],
+      "folder": "rfemounts0000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rgelephant000000",
+      "_key": "!items!rgelephant000000",
+      "name": "Elephant",
+      "type": "loot",
+      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "system": {
+        "description": {
+          "value": "<p>Speed 40 ft.; carrying capacity 1,320 lb.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 207.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "elephant",
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 800,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "type": {
+          "value": "",
+          "subtype": ""
+        }
+      },
+      "effects": [],
+      "folder": "rfemounts0000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rgox000000000000",
+      "_key": "!items!rgox000000000000",
+      "name": "Ox",
+      "type": "loot",
+      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "system": {
+        "description": {
+          "value": "<p>Speed 30 ft.; draft animal.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 207.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "ox",
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 40,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "type": {
+          "value": "",
+          "subtype": ""
+        }
+      },
+      "effects": [],
+      "folder": "rfemounts0000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rgpony0000000000",
+      "_key": "!items!rgpony0000000000",
+      "name": "Pony",
+      "type": "loot",
+      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "system": {
+        "description": {
+          "value": "<p>Speed 40 ft.; carrying capacity 225 lb.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 207.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "pony",
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 30,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "type": {
+          "value": "",
+          "subtype": ""
+        }
+      },
+      "effects": [],
+      "folder": "rfemounts0000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rgwarhorse000000",
+      "_key": "!items!rgwarhorse000000",
+      "name": "Warhorse",
+      "type": "loot",
+      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "system": {
+        "description": {
+          "value": "<p>Speed 60 ft.; trained for battle.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 207.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "warhorse",
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 400,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "type": {
+          "value": "",
+          "subtype": ""
+        }
+      },
+      "effects": [],
+      "folder": "rfemounts0000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rgutakusteed0000",
+      "_key": "!items!rgutakusteed0000",
+      "name": "Utaku Steed",
+      "type": "loot",
+      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "system": {
+        "description": {
+          "value": "<p>Legendary Unicorn warhorse; profile on p. 419.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 207.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "utakusteed",
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 1000,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "type": {
+          "value": "",
+          "subtype": ""
+        }
+      },
+      "effects": [],
+      "folder": "rfemounts0000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rgsaddlecommon00",
+      "_key": "!items!rgsaddlecommon00",
+      "name": "Saddle, Common",
+      "type": "loot",
+      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "system": {
+        "description": {
+          "value": "<p><em>Full text: <em>Adventures in Rokugan</em>, p. 207.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "saddlecommon",
+        "quantity": 1,
+        "weight": {
+          "value": 15,
+          "units": "lb"
+        },
+        "price": {
+          "value": 5,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "type": {
+          "value": "",
+          "subtype": ""
+        }
+      },
+      "effects": [],
+      "folder": "rfetackvehicles0",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rgsaddlestirrupe",
+      "_key": "!items!rgsaddlestirrupe",
+      "name": "Saddle, Stirruped",
+      "type": "loot",
+      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "system": {
+        "description": {
+          "value": "<p>Military saddle with stirrups.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 207.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "saddlestirruped",
+        "quantity": 1,
+        "weight": {
+          "value": 18,
+          "units": "lb"
+        },
+        "price": {
+          "value": 25,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "type": {
+          "value": "",
+          "subtype": ""
+        }
+      },
+      "effects": [],
+      "folder": "rfetackvehicles0",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rgcartdrawn00000",
+      "_key": "!items!rgcartdrawn00000",
+      "name": "Cart, Drawn",
+      "type": "loot",
+      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "system": {
+        "description": {
+          "value": "<p>Animal-drawn cart.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 207.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "cartdrawn",
+        "quantity": 1,
+        "weight": {
+          "value": 200,
+          "units": "lb"
+        },
+        "price": {
+          "value": 15,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "type": {
+          "value": "",
+          "subtype": ""
+        }
+      },
+      "effects": [],
+      "folder": "rfetackvehicles0",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rgcartpersonal00",
+      "_key": "!items!rgcartpersonal00",
+      "name": "Cart, Personal",
+      "type": "loot",
+      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "system": {
+        "description": {
+          "value": "<p>Hand-pulled cart.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 207.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "cartpersonal",
+        "quantity": 1,
+        "weight": {
+          "value": 60,
+          "units": "lb"
+        },
+        "price": {
+          "value": 5,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "type": {
+          "value": "",
+          "subtype": ""
+        }
+      },
+      "effects": [],
+      "folder": "rfetackvehicles0",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rgpalanquin00000",
+      "_key": "!items!rgpalanquin00000",
+      "name": "Palanquin",
+      "type": "loot",
+      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "system": {
+        "description": {
+          "value": "<p>Carried litter for nobles.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 207.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "palanquin",
+        "quantity": 1,
+        "weight": {
+          "value": 50,
+          "units": "lb"
+        },
+        "price": {
+          "value": 50,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "type": {
+          "value": "",
+          "subtype": ""
+        }
+      },
+      "effects": [],
+      "folder": "rfetackvehicles0",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rgferryraft00000",
+      "_key": "!items!rgferryraft00000",
+      "name": "Ferry Raft",
+      "type": "loot",
+      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "system": {
+        "description": {
+          "value": "<p>River crossing.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 207.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "ferryraft",
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 5,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "type": {
+          "value": "",
+          "subtype": ""
+        }
+      },
+      "effects": [],
+      "folder": "rfeshipsboats000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rgmantistradings",
+      "_key": "!items!rgmantistradings",
+      "name": "Mantis Trading Ship",
+      "type": "loot",
+      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "system": {
+        "description": {
+          "value": "<p>Oceangoing merchant vessel.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 207.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "mantistradingship",
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 25000,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "type": {
+          "value": "",
+          "subtype": ""
+        }
+      },
+      "effects": [],
+      "folder": "rfeshipsboats000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rgperformersboat",
+      "_key": "!items!rgperformersboat",
+      "name": "Performer's Boat",
+      "type": "loot",
+      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "system": {
+        "description": {
+          "value": "<p>River pleasure craft.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 207.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "performersboat",
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 500,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "type": {
+          "value": "",
+          "subtype": ""
+        }
+      },
+      "effects": [],
+      "folder": "rfeshipsboats000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rgwaterspider000",
+      "_key": "!items!rgwaterspider000",
+      "name": "Water-Spider",
+      "type": "loot",
+      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "system": {
+        "description": {
+          "value": "<p>Small skimming boat.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 207.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "waterspider",
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 5,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "type": {
+          "value": "",
+          "subtype": ""
+        }
+      },
+      "effects": [],
+      "folder": "rfeshipsboats000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rgtubboat0000000",
+      "_key": "!items!rgtubboat0000000",
+      "name": "Tub-Boat",
+      "type": "loot",
+      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "system": {
+        "description": {
+          "value": "<p>One-person round boat.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 207.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "tubboat",
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 1,
+          "denomination": "gp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "type": {
+          "value": "",
+          "subtype": ""
+        }
+      },
+      "effects": [],
+      "folder": "rfeshipsboats000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rgbasicfoodsperd",
+      "_key": "!items!rgbasicfoodsperd",
+      "name": "Basic Foods (per day)",
+      "type": "loot",
+      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "system": {
+        "description": {
+          "value": "<p>Rice, barley, vegetables, local fish/game. City: 3 cp.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 211.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "basicfoodsperday",
+        "quantity": 1,
+        "weight": {
+          "value": 2,
+          "units": "lb"
+        },
+        "price": {
+          "value": 2,
+          "denomination": "cp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "type": {
+          "value": "",
+          "subtype": ""
+        }
+      },
+      "effects": [],
+      "folder": "rfefooddrinklodg",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rgluxuryfoodsper",
+      "_key": "!items!rgluxuryfoodsper",
+      "name": "Luxury Foods (per day)",
+      "type": "loot",
+      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "system": {
+        "description": {
+          "value": "<p>Spices, pastries, imported fruit, seafood. Countryside: 2 sp.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 211.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "luxuryfoodsperday",
+        "quantity": 1,
+        "weight": {
+          "value": 2,
+          "units": "lb"
+        },
+        "price": {
+          "value": 7,
+          "denomination": "cp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "type": {
+          "value": "",
+          "subtype": ""
+        }
+      },
+      "effects": [],
+      "folder": "rfefooddrinklodg",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rgbasicdrink0000",
+      "_key": "!items!rgbasicdrink0000",
+      "name": "Basic Drink",
+      "type": "loot",
+      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "system": {
+        "description": {
+          "value": "<p>Local sake, shōchū, beer. City: 2 cp.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 211.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "basicdrink",
+        "quantity": 1,
+        "weight": {
+          "value": 1,
+          "units": "lb"
+        },
+        "price": {
+          "value": 1,
+          "denomination": "cp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "type": {
+          "value": "",
+          "subtype": ""
+        }
+      },
+      "effects": [],
+      "folder": "rfefooddrinklodg",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rgluxurydrink000",
+      "_key": "!items!rgluxurydrink000",
+      "name": "Luxury Drink",
+      "type": "loot",
+      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "system": {
+        "description": {
+          "value": "<p>Premium/imported sake and wine. Countryside: 6 cp.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 211.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "luxurydrink",
+        "quantity": 1,
+        "weight": {
+          "value": 1,
+          "units": "lb"
+        },
+        "price": {
+          "value": 4,
+          "denomination": "cp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "type": {
+          "value": "",
+          "subtype": ""
+        }
+      },
+      "effects": [],
+      "folder": "rfefooddrinklodg",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rgbasicconsumerg",
+      "_key": "!items!rgbasicconsumerg",
+      "name": "Basic Consumer Goods",
+      "type": "loot",
+      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "system": {
+        "description": {
+          "value": "<p>Tatami mats, futons. City: 3 sp.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 211.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "basicconsumergoods",
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 1,
+          "denomination": "sp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "type": {
+          "value": "",
+          "subtype": ""
+        }
+      },
+      "effects": [],
+      "folder": "rfefooddrinklodg",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rgluxuryconsumer",
+      "_key": "!items!rgluxuryconsumer",
+      "name": "Luxury Consumer Goods",
+      "type": "loot",
+      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "system": {
+        "description": {
+          "value": "<p>Shōji screens, artwork, hangings. Countryside: 6 sp.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 211.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "luxuryconsumergoods",
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 5,
+          "denomination": "sp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "type": {
+          "value": "",
+          "subtype": ""
+        }
+      },
+      "effects": [],
+      "folder": "rfefooddrinklodg",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rginnstayhumblep",
+      "_key": "!items!rginnstayhumblep",
+      "name": "Inn Stay, Humble (per day)",
+      "type": "loot",
+      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "system": {
+        "description": {
+          "value": "<p>City: 7 cp.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 211.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "innstayhumbleperday",
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 3,
+          "denomination": "cp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "type": {
+          "value": "",
+          "subtype": ""
+        }
+      },
+      "effects": [],
+      "folder": "rfefooddrinklodg",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rginnstaysecurep",
+      "_key": "!items!rginnstaysecurep",
+      "name": "Inn Stay, Secure (per day)",
+      "type": "loot",
+      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "system": {
+        "description": {
+          "value": "<p>City: 3 sp.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 211.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "innstaysecureperday",
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 1,
+          "denomination": "sp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "type": {
+          "value": "",
+          "subtype": ""
+        }
+      },
+      "effects": [],
+      "folder": "rfefooddrinklodg",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rginnstaylavishp",
+      "_key": "!items!rginnstaylavishp",
+      "name": "Inn Stay, Lavish (per day)",
+      "type": "loot",
+      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "system": {
+        "description": {
+          "value": "<p>City: 3 gp.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 211.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "innstaylavishperday",
+        "quantity": 1,
+        "weight": {
+          "value": 0,
+          "units": "lb"
+        },
+        "price": {
+          "value": 7,
+          "denomination": "sp"
+        },
+        "rarity": "",
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "identified": true,
+        "type": {
+          "value": "",
+          "subtype": ""
+        }
+      },
+      "effects": [],
+      "folder": "rfefooddrinklodg",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,1538 @@
+{
+  "folders": [],
+  "entries": [
+    {
+      "_id": "rtcrashingwavecu",
+      "_key": "!items!rtcrashingwavecu",
+      "name": "Crashing Wave Cut",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Activation: 1 Attack · Focus Cost: 3+ · Range: Self (wave: weapon’s range + 5 feet)</p><p>Mandatory Movement: 10 feet before the attack</p><p>Weapon Used: Any melee weapon or unarmed</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 253.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "crashingwavecut",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Martial technique",
+        "properties": [],
+        "activities": {
+          "rktcrashingwavec": {
+            "_id": "rktcrashingwavec",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "special",
+              "value": null,
+              "condition": "1 Attack"
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": true,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "duration": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "magic": {
+            "kind": "technique",
+            "techniqueType": "strike",
+            "focusCost": 3,
+            "mandatoryMovement": "10 feet before the attack",
+            "requiredWeapon": "Any melee weapon or unarmed",
+            "multitarget": false
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rtcrescentmoonde",
+      "_key": "!items!rtcrescentmoonde",
+      "name": "Crescent Moon Defense",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Activation: 1 Reaction · Focus Cost: 3 · Range: Weapon’s range</p><p>Weapon Used: Any melee weapon or unarmed</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 254.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "crescentmoondefense",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Martial technique",
+        "properties": [],
+        "activities": {
+          "rktcrescentmoond": {
+            "_id": "rktcrescentmoond",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "duration": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "magic": {
+            "kind": "technique",
+            "techniqueType": "strike",
+            "focusCost": 3,
+            "mandatoryMovement": "None",
+            "requiredWeapon": "Any melee weapon or unarmed",
+            "multitarget": false
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rtcrimsonleavesb",
+      "_key": "!items!rtcrimsonleavesb",
+      "name": "Crimson Leaves Blow",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Activation: 1 Attack · Focus Cost: 3+ · Range: Self (slam: weapon’s range)</p><p>Mandatory Movement: 5 feet before attacking</p><p>Weapon Used: Any melee weapon or unarmed</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 254.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "crimsonleavesblow",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Martial technique",
+        "properties": [],
+        "activities": {
+          "rktcrimsonleaves": {
+            "_id": "rktcrimsonleaves",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "special",
+              "value": null,
+              "condition": "1 Attack"
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": true,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "duration": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "magic": {
+            "kind": "technique",
+            "techniqueType": "strike",
+            "focusCost": 3,
+            "mandatoryMovement": "5 feet before attacking",
+            "requiredWeapon": "Any melee weapon or unarmed",
+            "multitarget": false
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rtfallingheavens",
+      "_key": "!items!rtfallingheavens",
+      "name": "Falling Heavens Shot",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Activation: 1 Action · Focus Cost: 2+ · Range: Weapon’s short range</p><p>Weapon Used: Any ranged or thrown weapon</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 254.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "fallingheavensshot",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Martial technique",
+        "properties": [],
+        "activities": {
+          "rktfallingheaven": {
+            "_id": "rktfallingheaven",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": true,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "duration": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "magic": {
+            "kind": "technique",
+            "techniqueType": "strike",
+            "focusCost": 2,
+            "mandatoryMovement": "None",
+            "requiredWeapon": "Any ranged or thrown weapon",
+            "multitarget": false
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rtflashingsteelc",
+      "_key": "!items!rtflashingsteelc",
+      "name": "Flashing Steel Cut",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Activation: 1 Attack · Focus Cost: 2+ · Range: Weapon’s range</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 255.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "flashingsteelcut",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Martial technique",
+        "properties": [],
+        "activities": {
+          "rktflashingsteel": {
+            "_id": "rktflashingsteel",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "special",
+              "value": null,
+              "condition": "1 Attack"
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": true,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "duration": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "magic": {
+            "kind": "technique",
+            "techniqueType": "strike",
+            "focusCost": 2,
+            "mandatoryMovement": "None",
+            "requiredWeapon": "",
+            "multitarget": false
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rtflowingwaterst",
+      "_key": "!items!rtflowingwaterst",
+      "name": "Flowing Water Strike",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Activation: 1 Attack · Focus Cost: 2+ · Range: Self (sweep: weapon’s range)</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 255.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "flowingwaterstrike",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Martial technique",
+        "properties": [],
+        "activities": {
+          "rktflowingwaters": {
+            "_id": "rktflowingwaters",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "special",
+              "value": null,
+              "condition": "1 Attack"
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": true,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "duration": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "magic": {
+            "kind": "technique",
+            "techniqueType": "strike",
+            "focusCost": 2,
+            "mandatoryMovement": "None",
+            "requiredWeapon": "",
+            "multitarget": false
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rtgripoflordhida",
+      "_key": "!items!rtgripoflordhida",
+      "name": "Grip of Lord Hida",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Activation: 1 Attack · Focus Cost: 3 · Range: Touch</p><p>Mandatory Movement: 10 feet</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 255.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "gripoflordhida",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Martial technique",
+        "properties": [],
+        "activities": {
+          "rktgripoflordhid": {
+            "_id": "rktgripoflordhid",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "special",
+              "value": null,
+              "condition": "1 Attack"
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "duration": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "magic": {
+            "kind": "technique",
+            "techniqueType": "strike",
+            "focusCost": 3,
+            "mandatoryMovement": "10 feet",
+            "requiredWeapon": "",
+            "multitarget": false
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rtheartpiercingt",
+      "_key": "!items!rtheartpiercingt",
+      "name": "Heartpiercing Thrust",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Activation: 1 Attack · Focus Cost: 3+ · Range: Self (Line: weapon’s range + 5 feet)</p><p>Mandatory Movement: 10 feet (before attacking)</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 255.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "heartpiercingthrust",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Martial technique",
+        "properties": [],
+        "activities": {
+          "rktheartpiercing": {
+            "_id": "rktheartpiercing",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "special",
+              "value": null,
+              "condition": "1 Attack"
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": true,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "duration": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "magic": {
+            "kind": "technique",
+            "techniqueType": "strike",
+            "focusCost": 3,
+            "mandatoryMovement": "10 feet (before attacking)",
+            "requiredWeapon": "",
+            "multitarget": false
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rtiaijutsucutcro",
+      "_key": "!items!rtiaijutsucutcro",
+      "name": "Iaijutsu Cut: Crossing Blade",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Activation: 1 Action · Focus Cost: 4+ · Range: Self (sweep: weapon’s range)</p><p>Mandatory Movement: 5 feet</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 257.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "iaijutsucutcrossingblade",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Martial technique",
+        "properties": [],
+        "activities": {
+          "rktiaijutsucutcr": {
+            "_id": "rktiaijutsucutcr",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": true,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "duration": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "magic": {
+            "kind": "technique",
+            "techniqueType": "strike",
+            "focusCost": 4,
+            "mandatoryMovement": "5 feet",
+            "requiredWeapon": "",
+            "multitarget": false
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rtiaijutsucutris",
+      "_key": "!items!rtiaijutsucutris",
+      "name": "Iaijutsu Cut: Rising Blade",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Activation: 1 Reaction · Focus Cost: 3 · Range: Weapon’s range</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 257.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "iaijutsucutrisingblade",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Martial technique",
+        "properties": [],
+        "activities": {
+          "rktiaijutsucutri": {
+            "_id": "rktiaijutsucutri",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "duration": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "magic": {
+            "kind": "technique",
+            "techniqueType": "strike",
+            "focusCost": 3,
+            "mandatoryMovement": "",
+            "requiredWeapon": "",
+            "multitarget": false
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rtironforestdefe",
+      "_key": "!items!rtironforestdefe",
+      "name": "Iron Forest Defense",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Activation: 1 Reaction · Focus Cost: 3 · Range: Weapon’s range</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 257.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "ironforestdefense",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Martial technique",
+        "properties": [],
+        "activities": {
+          "rktironforestdef": {
+            "_id": "rktironforestdef",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "duration": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "magic": {
+            "kind": "technique",
+            "techniqueType": "strike",
+            "focusCost": 3,
+            "mandatoryMovement": "None",
+            "requiredWeapon": "",
+            "multitarget": false
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rtlaughingfoxdef",
+      "_key": "!items!rtlaughingfoxdef",
+      "name": "Laughing Fox Defense",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Activation: 1 Reaction · Focus Cost: 3+ · Range: Weapon’s range</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 257.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "laughingfoxdefense",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Martial technique",
+        "properties": [],
+        "activities": {
+          "rktlaughingfoxde": {
+            "_id": "rktlaughingfoxde",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": true,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "duration": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "magic": {
+            "kind": "technique",
+            "techniqueType": "strike",
+            "focusCost": 3,
+            "mandatoryMovement": "None",
+            "requiredWeapon": "",
+            "multitarget": false
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rtsnappingbranch",
+      "_key": "!items!rtsnappingbranch",
+      "name": "Snapping Branch Strike",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Activation: 1 Attack · Focus Cost: 2+ · Range: Self (slam: weapon’s range)</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 257.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "snappingbranchstrike",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Martial technique",
+        "properties": [],
+        "activities": {
+          "rktsnappingbranc": {
+            "_id": "rktsnappingbranc",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "special",
+              "value": null,
+              "condition": "1 Attack"
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": true,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "duration": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "magic": {
+            "kind": "technique",
+            "techniqueType": "strike",
+            "focusCost": 2,
+            "mandatoryMovement": "None",
+            "requiredWeapon": "",
+            "multitarget": false
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rtsparkingsteeld",
+      "_key": "!items!rtsparkingsteeld",
+      "name": "Sparking Steel Defense",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Activation: 1 Reaction · Focus Cost: 2+ · Range: Self</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 257.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "sparkingsteeldefense",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Martial technique",
+        "properties": [],
+        "activities": {
+          "rktsparkingsteel": {
+            "_id": "rktsparkingsteel",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": true,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "duration": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "magic": {
+            "kind": "technique",
+            "techniqueType": "strike",
+            "focusCost": 2,
+            "mandatoryMovement": "None",
+            "requiredWeapon": "",
+            "multitarget": false
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rtsoaringthunder",
+      "_key": "!items!rtsoaringthunder",
+      "name": "Soaring Thunderbolt Strike",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Activation: 1 Action · Focus Cost: 2+ · Range: 20 feet, minimum 10 feet from you</p><p>Mandatory Movement: 10 feet (before attacking)</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 258.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "soaringthunderboltstrike",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Martial technique",
+        "properties": [],
+        "activities": {
+          "rktsoaringthunde": {
+            "_id": "rktsoaringthunde",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": true,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "duration": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "magic": {
+            "kind": "technique",
+            "techniqueType": "strike",
+            "focusCost": 2,
+            "mandatoryMovement": "10 feet (before attacking)",
+            "requiredWeapon": "",
+            "multitarget": false
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rtsoulsunderings",
+      "_key": "!items!rtsoulsunderings",
+      "name": "Soul-Sundering Strike",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Activation: 1 attack · Focus Cost: 3+ · Range: Weapon’s range</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 258.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "soulsunderingstrike",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Martial technique",
+        "properties": [],
+        "activities": {
+          "rktsoulsundering": {
+            "_id": "rktsoulsundering",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "special",
+              "value": null,
+              "condition": "1 attack"
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": true,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "duration": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "magic": {
+            "kind": "technique",
+            "techniqueType": "strike",
+            "focusCost": 3,
+            "mandatoryMovement": "None",
+            "requiredWeapon": "",
+            "multitarget": false
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rtswirlingvipers",
+      "_key": "!items!rtswirlingvipers",
+      "name": "Swirling Viper Shot",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Activation: 1 Attack · Focus Cost: 2+ · Range: Weapon’s short range</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 258.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "swirlingvipershot",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Martial technique",
+        "properties": [],
+        "activities": {
+          "rktswirlingviper": {
+            "_id": "rktswirlingviper",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "special",
+              "value": null,
+              "condition": "1 Attack"
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": true,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "duration": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "magic": {
+            "kind": "technique",
+            "techniqueType": "strike",
+            "focusCost": 2,
+            "mandatoryMovement": "None",
+            "requiredWeapon": "",
+            "multitarget": false
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rttwinstreamsthr",
+      "_key": "!items!rttwinstreamsthr",
+      "name": "Twin Streams Thrust",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Activation: 1 Action and 1 Bonus Action · Focus Cost: 2+ · Range: Self (line: 5 feet)</p><p>Mandatory Movement: 10 feet (before attacking)</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 259.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "twinstreamsthrust",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Martial technique",
+        "properties": [],
+        "activities": {
+          "rkttwinstreamsth": {
+            "_id": "rkttwinstreamsth",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": true,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "duration": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "magic": {
+            "kind": "technique",
+            "techniqueType": "strike",
+            "focusCost": 2,
+            "mandatoryMovement": "10 feet (before attacking)",
+            "requiredWeapon": "",
+            "multitarget": false
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rtvanishingworld",
+      "_key": "!items!rtvanishingworld",
+      "name": "Vanishing World Flurry",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Activation: 1 Action · Focus Cost: 3+ · Range: Self (slam: weapon’s range)</p><p>Mandatory Movement: 10 feet (before attacking)</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 259.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "vanishingworldflurry",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Martial technique",
+        "properties": [],
+        "activities": {
+          "rktvanishingworl": {
+            "_id": "rktvanishingworl",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": true,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "duration": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "magic": {
+            "kind": "technique",
+            "techniqueType": "strike",
+            "focusCost": 3,
+            "mandatoryMovement": "10 feet (before attacking)",
+            "requiredWeapon": "",
+            "multitarget": false
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rtveiledmenaceth",
+      "_key": "!items!rtveiledmenaceth",
+      "name": "Veiled Menace Thrust",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Activation: 1 Attack · Focus Cost: 2 · Range: Weapon’s range</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 259.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "veiledmenacethrust",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Martial technique",
+        "properties": [],
+        "activities": {
+          "rktveiledmenacet": {
+            "_id": "rktveiledmenacet",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "special",
+              "value": null,
+              "condition": "1 Attack"
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "duration": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "magic": {
+            "kind": "technique",
+            "techniqueType": "strike",
+            "focusCost": 2,
+            "mandatoryMovement": "None",
+            "requiredWeapon": "",
+            "multitarget": false
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rtwaspsspitevoll",
+      "_key": "!items!rtwaspsspitevoll",
+      "name": "Wasp’s Spite Volley",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Activation: 1 Action · Focus Cost: 2+ · Range: Weapon’s short range, minimum 10 feet</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 259.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "waspsspitevolley",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Martial technique",
+        "properties": [],
+        "activities": {
+          "rktwaspsspitevol": {
+            "_id": "rktwaspsspitevol",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": true,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "duration": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "magic": {
+            "kind": "technique",
+            "techniqueType": "strike",
+            "focusCost": 2,
+            "mandatoryMovement": "None",
+            "requiredWeapon": "",
+            "multitarget": false
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    }
+  ]
+}

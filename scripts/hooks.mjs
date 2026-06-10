@@ -21,7 +21,18 @@ export class RokuganHooks {
     // html normalized to jQuery (AppV2 hooks pass raw HTMLElement).
     // ----------------------------------------
 
+    // Toggle the opt-in L5R sheet theme class on the application root.
+    // Purely cosmetic: the class scopes styles/l5r-theme.css, which reskins
+    // the dnd5e sheet via its CSS custom properties without touching
+    // structure or behavior.
+    const applyTheme = (app) => {
+      const root = app.element instanceof HTMLElement ? app.element : app.element?.[0];
+      root?.classList.toggle("rokugan-theme",
+        !!game.settings.get("rokugan5e", "l5rSheetTheme"));
+    };
+
     const dispatchActor = (app, html) => {
+      applyTheme(app);
       const $html = toJQuery(html);
       const doc = getSheetDocument(app);
       if (!doc || doc.documentName !== "Actor") return;
@@ -35,6 +46,7 @@ export class RokuganHooks {
     };
 
     const dispatchItem = (app, html) => {
+      applyTheme(app);
       const $html = toJQuery(html);
       const doc = getSheetDocument(app);
       if (!doc || doc.documentName !== "Item") return;
@@ -216,15 +228,27 @@ export class RokuganHooks {
     const actor = sheet.actor;
     if (!actor) return;
 
-    // Check if tab already exists (avoid duplicates on re-render)
-    if (html.find(".tab.rokugan").length) return;
+    // AppV2 sheets perform PARTIAL re-renders: any actor update (including
+    // this tab's own flag writes) may replace the nav part, the body part,
+    // or both. A presence check on one piece desyncs them - e.g. the nav is
+    // wiped while the content survives, the check returns early, and the
+    // tab button vanishes until the sheet is reopened. Instead, remove BOTH
+    // pieces and re-inject fresh on every render, so the result is
+    // identical no matter which parts the system replaced.
+    html.find(".tabs[data-group='primary'] [data-tab='rokugan']").remove();
+    html.find(".tab.rokugan[data-group='primary']").remove();
 
-    // Add tab button to nav
     const tabNav = html.find(".tabs[data-group='primary']");
     if (!tabNav.length) return;
 
+    // Preserve the active tab across re-renders: the sheet remembers
+    // tabGroups.primary === "rokugan", so freshly injected pieces must
+    // carry the active class or the body renders empty after an edit.
+    const isActive = sheet.tabGroups?.primary === "rokugan";
+
     tabNav.append(`
-      <a class="item control" data-action="tab" data-group="primary" data-tab="rokugan"
+      <a class="item control${isActive ? " active" : ""}" data-action="tab"
+         data-group="primary" data-tab="rokugan"
          data-tooltip aria-label="Adventures in Rokugan">
         <i class="fas fa-torii-gate"></i>
       </a>
@@ -243,7 +267,7 @@ export class RokuganHooks {
 
     // Build tab content
     const tabContent = `
-      <div class="tab rokugan" data-group="primary" data-tab="rokugan">
+      <div class="tab rokugan${isActive ? " active" : ""}" data-group="primary" data-tab="rokugan">
         <div class="rokugan-section">
           <h3 class="rokugan-section-title">
             <i class="fas fa-shield-alt"></i>
@@ -329,8 +353,11 @@ export class RokuganHooks {
       </div>
     `;
 
-    // Insert tab content before the closing .sheet-body
-    html.find(".tab:last").after(tabContent);
+    // Insert after the system's last primary tab; fall back to the sheet
+    // body if a partial render context exposes no tab sections.
+    const lastTab = html.find(".tab[data-group='primary']").last();
+    if (lastTab.length) lastTab.after(tabContent);
+    else html.find(".sheet-body").first().append(tabContent);
 
     // Handle save on change
     html.find(".tab.rokugan input, .tab.rokugan select, .tab.rokugan textarea").on("change", async (ev) => {
