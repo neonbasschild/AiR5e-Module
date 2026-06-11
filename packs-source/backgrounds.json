@@ -140,7 +140,7 @@
       "img": "systems/dnd5e/icons/svg/items/background.svg",
       "system": {
         "description": {
-          "value": "<p>Weapon Proficiencies: Wakizashi.</p><p>Tool Proficiencies: Choose one of the following tools: blacksmith’s kit, bowyer’s kit, or board or card game.</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 129.</em></p>",
+          "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 128.</em></p>",
           "chat": ""
         },
         "source": {
@@ -191,6 +191,44 @@
             "value": {}
           },
           {
+            "_id": "rkhidafamilywpn0",
+            "type": "Trait",
+            "level": 1,
+            "title": "Weapon Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "weapon:wakizashi"
+              ],
+              "choices": []
+            },
+            "value": {}
+          },
+          {
+            "_id": "rkhidafamilytool",
+            "type": "Trait",
+            "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "tool:blacksmithskit",
+                    "tool:bowyerskit"
+                  ]
+                }
+              ]
+            },
+            "value": {}
+          },
+          {
             "_id": "rkhidafamilylang",
             "type": "Trait",
             "level": 1,
@@ -200,7 +238,8 @@
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:standard:rokugani"
+                "languages:rokugan:battleArgot",
+                "languages:rokugan:rokugani"
               ],
               "choices": []
             },
@@ -261,7 +300,7 @@
       "img": "systems/dnd5e/icons/svg/items/background.svg",
       "system": {
         "description": {
-          "value": "<p>Weapon Proficiencies: Wakizashi.</p><p>Tool Proficiencies: Chemist’s kit, dice and cup.</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 130.</em></p>",
+          "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 130.</em></p>",
           "chat": ""
         },
         "source": {
@@ -310,6 +349,39 @@
             "value": {}
           },
           {
+            "_id": "rkhirumafamilywp",
+            "type": "Trait",
+            "level": 1,
+            "title": "Weapon Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "weapon:wakizashi"
+              ],
+              "choices": []
+            },
+            "value": {}
+          },
+          {
+            "_id": "rkhirumafamilyto",
+            "type": "Trait",
+            "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "tool:chemistskit",
+                "tool:diceandcup"
+              ],
+              "choices": []
+            },
+            "value": {}
+          },
+          {
             "_id": "rkhirumafamilyla",
             "type": "Trait",
             "level": 1,
@@ -319,8 +391,9 @@
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:standard:rokugani",
-                "languages:standard:ivoryKingdoms"
+                "languages:rokugan:battleArgot",
+                "languages:rokugan:ivindi",
+                "languages:rokugan:rokugani"
               ],
               "choices": []
             },
@@ -397,7 +470,7 @@
       "img": "systems/dnd5e/icons/svg/items/background.svg",
       "system": {
         "description": {
-          "value": "<p>Weapon Proficiencies: Wakizashi.</p><p>Tool Proficiencies: Mason’s kit, any one other artisan tool.</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 130.</em></p>",
+          "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 130.</em></p>",
           "chat": ""
         },
         "source": {
@@ -447,6 +520,59 @@
             "value": {}
           },
           {
+            "_id": "rkkaiufamilywpn0",
+            "type": "Trait",
+            "level": 1,
+            "title": "Weapon Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "weapon:wakizashi"
+              ],
+              "choices": []
+            },
+            "value": {}
+          },
+          {
+            "_id": "rkkaiufamilytool",
+            "type": "Trait",
+            "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "tool:masonskit"
+              ],
+              "choices": []
+            },
+            "value": {}
+          },
+          {
+            "_id": "rkkaiufamilytool",
+            "type": "Trait",
+            "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "tool:art"
+                  ]
+                }
+              ]
+            },
+            "value": {}
+          },
+          {
             "_id": "rkkaiufamilylang",
             "type": "Trait",
             "level": 1,
@@ -456,7 +582,8 @@
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:standard:rokugani"
+                "languages:rokugan:battleArgot",
+                "languages:rokugan:rokugani"
               ],
               "choices": []
             },
@@ -533,7 +660,7 @@
       "img": "systems/dnd5e/icons/svg/items/background.svg",
       "system": {
         "description": {
-          "value": "<p>Weapon Proficiencies: Wakizashi.</p><p>Tool Proficiencies: Alchemist’s kit.</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 131.</em></p>",
+          "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 130.</em></p>",
           "chat": ""
         },
         "source": {
@@ -584,6 +711,38 @@
             "value": {}
           },
           {
+            "_id": "rkkunifamilywpn0",
+            "type": "Trait",
+            "level": 1,
+            "title": "Weapon Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "weapon:wakizashi"
+              ],
+              "choices": []
+            },
+            "value": {}
+          },
+          {
+            "_id": "rkkunifamilytool",
+            "type": "Trait",
+            "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "tool:alchemistskit"
+              ],
+              "choices": []
+            },
+            "value": {}
+          },
+          {
             "_id": "rkkunifamilylang",
             "type": "Trait",
             "level": 1,
@@ -593,7 +752,7 @@
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:standard:rokugani"
+                "languages:rokugan:rokugani"
               ],
               "choices": []
             },
@@ -670,7 +829,7 @@
       "img": "systems/dnd5e/icons/svg/items/background.svg",
       "system": {
         "description": {
-          "value": "<p>Weapon Proficiencies: Wakizashi.</p><p>Tool Proficiencies: Any one artisan tool or tool of subterfuge.</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 131.</em></p>",
+          "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 131.</em></p>",
           "chat": ""
         },
         "source": {
@@ -721,6 +880,44 @@
             "value": {}
           },
           {
+            "_id": "rkyasukifamilywp",
+            "type": "Trait",
+            "level": 1,
+            "title": "Weapon Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "weapon:wakizashi"
+              ],
+              "choices": []
+            },
+            "value": {}
+          },
+          {
+            "_id": "rkyasukifamilyto",
+            "type": "Trait",
+            "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "tool:art",
+                    "tool:subterfuge"
+                  ]
+                }
+              ]
+            },
+            "value": {}
+          },
+          {
             "_id": "rkyasukifamilyla",
             "type": "Trait",
             "level": 1,
@@ -730,7 +927,10 @@
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:standard:rokugani"
+                "languages:rokugan:ivindi",
+                "languages:rokugan:jindallaean",
+                "languages:rokugan:qamari",
+                "languages:rokugan:rokugani"
               ],
               "choices": []
             },
@@ -750,13 +950,18 @@
                 {
                   "count": 1,
                   "pool": [
-                    "languages:standard:rokugani",
-                    "languages:standard:nezumi",
-                    "languages:standard:naganese",
-                    "languages:standard:tenguspeech",
-                    "languages:standard:ivoryKingdoms",
-                    "languages:standard:burningSands",
-                    "languages:standard:celestial"
+                    "languages:rokugan:courtlyRokugani",
+                    "languages:rokugan:ivindi",
+                    "languages:rokugan:jindallaean",
+                    "languages:rokugan:leafRustle",
+                    "languages:rokugan:qamari",
+                    "languages:rokugan:riverSpeech",
+                    "languages:rokugan:skySpeech",
+                    "languages:rokugan:stoneClick",
+                    "languages:rokugan:ujik",
+                    "languages:rokugan:yunFengWen",
+                    "languages:rokugan:animalSpeech",
+                    "languages:rokugan:battleArgot"
                   ]
                 }
               ]
@@ -842,7 +1047,7 @@
       "img": "systems/dnd5e/icons/svg/items/background.svg",
       "system": {
         "description": {
-          "value": "<p>Tool Proficiencies: Any one artisan tool (see page 203), any one mystic implement (see page 206).</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 134.</em></p>",
+          "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 133.</em></p>",
           "chat": ""
         },
         "source": {
@@ -892,6 +1097,48 @@
             "value": {}
           },
           {
+            "_id": "rkasahinafamilyt",
+            "type": "Trait",
+            "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "tool:art"
+                  ]
+                }
+              ]
+            },
+            "value": {}
+          },
+          {
+            "_id": "rkasahinafamilyt",
+            "type": "Trait",
+            "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "tool:mystic"
+                  ]
+                }
+              ]
+            },
+            "value": {}
+          },
+          {
             "_id": "rkasahinafamilyl",
             "type": "Trait",
             "level": 1,
@@ -901,7 +1148,7 @@
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:standard:rokugani"
+                "languages:rokugan:rokugani"
               ],
               "choices": []
             },
@@ -954,7 +1201,7 @@
       "img": "systems/dnd5e/icons/svg/items/background.svg",
       "system": {
         "description": {
-          "value": "<p>Weapon Proficiencies: Wakizashi.</p><p>Tool Proficiencies: Choose one of the following tools (see page 203): blacksmith’s kit, bowyer’s kit, or any one tool of subterfuge.</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 134.</em></p>",
+          "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 133.</em></p>",
           "chat": ""
         },
         "source": {
@@ -1004,6 +1251,44 @@
             "value": {}
           },
           {
+            "_id": "rkdaidojifamilyw",
+            "type": "Trait",
+            "level": 1,
+            "title": "Weapon Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "weapon:wakizashi"
+              ],
+              "choices": []
+            },
+            "value": {}
+          },
+          {
+            "_id": "rkdaidojifamilyt",
+            "type": "Trait",
+            "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "tool:blacksmithskit",
+                    "tool:bowyerskit"
+                  ]
+                }
+              ]
+            },
+            "value": {}
+          },
+          {
             "_id": "rkdaidojifamilyl",
             "type": "Trait",
             "level": 1,
@@ -1013,7 +1298,8 @@
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:standard:rokugani"
+                "languages:rokugan:battleArgot",
+                "languages:rokugan:rokugani"
               ],
               "choices": []
             },
@@ -1074,7 +1360,7 @@
       "img": "systems/dnd5e/icons/svg/items/background.svg",
       "system": {
         "description": {
-          "value": "<p>Weapon Proficiencies: Wakizashi.</p><p>Tool Proficiencies: Calligraphy set, ceremonial tea set.</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 134.</em></p>",
+          "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 133.</em></p>",
           "chat": ""
         },
         "source": {
@@ -1124,6 +1410,39 @@
             "value": {}
           },
           {
+            "_id": "rkdojifamilywpn0",
+            "type": "Trait",
+            "level": 1,
+            "title": "Weapon Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "weapon:wakizashi"
+              ],
+              "choices": []
+            },
+            "value": {}
+          },
+          {
+            "_id": "rkdojifamilytool",
+            "type": "Trait",
+            "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "tool:calligraphyset",
+                "tool:ceremonialteaset"
+              ],
+              "choices": []
+            },
+            "value": {}
+          },
+          {
             "_id": "rkdojifamilylang",
             "type": "Trait",
             "level": 1,
@@ -1133,7 +1452,8 @@
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:standard:rokugani"
+                "languages:rokugan:courtlyRokugani",
+                "languages:rokugan:rokugani"
               ],
               "choices": []
             },
@@ -1202,7 +1522,7 @@
       "img": "systems/dnd5e/icons/svg/items/background.svg",
       "system": {
         "description": {
-          "value": "<p>Weapon Proficiencies: Wakizashi.</p><p>Tool Proficiencies: Any one artisan tool or any one musical instrument.</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 134.</em></p>",
+          "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 133.</em></p>",
           "chat": ""
         },
         "source": {
@@ -1252,6 +1572,44 @@
             "value": {}
           },
           {
+            "_id": "rkkakitafamilywp",
+            "type": "Trait",
+            "level": 1,
+            "title": "Weapon Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "weapon:wakizashi"
+              ],
+              "choices": []
+            },
+            "value": {}
+          },
+          {
+            "_id": "rkkakitafamilyto",
+            "type": "Trait",
+            "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "tool:art",
+                    "tool:music"
+                  ]
+                }
+              ]
+            },
+            "value": {}
+          },
+          {
             "_id": "rkkakitafamilyla",
             "type": "Trait",
             "level": 1,
@@ -1261,7 +1619,8 @@
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:standard:rokugani"
+                "languages:rokugan:courtlyRokugani",
+                "languages:rokugan:rokugani"
               ],
               "choices": []
             },
@@ -1330,7 +1689,7 @@
       "img": "systems/dnd5e/icons/svg/items/background.svg",
       "system": {
         "description": {
-          "value": "<p>Weapon Proficiencies: Wakizashi.</p><p>Tool Proficiencies: Alchemist’s kit, one artisan tool of your choice.</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 136.</em></p>",
+          "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 135.</em></p>",
           "chat": ""
         },
         "source": {
@@ -1381,6 +1740,59 @@
             "value": {}
           },
           {
+            "_id": "rkagashafamilywp",
+            "type": "Trait",
+            "level": 1,
+            "title": "Weapon Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "weapon:wakizashi"
+              ],
+              "choices": []
+            },
+            "value": {}
+          },
+          {
+            "_id": "rkagashafamilyto",
+            "type": "Trait",
+            "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "tool:alchemistskit"
+              ],
+              "choices": []
+            },
+            "value": {}
+          },
+          {
+            "_id": "rkagashafamilyto",
+            "type": "Trait",
+            "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "tool:art"
+                  ]
+                }
+              ]
+            },
+            "value": {}
+          },
+          {
             "_id": "rkagashafamilyla",
             "type": "Trait",
             "level": 1,
@@ -1390,7 +1802,7 @@
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:standard:rokugani"
+                "languages:rokugan:rokugani"
               ],
               "choices": []
             },
@@ -1410,13 +1822,18 @@
                 {
                   "count": 1,
                   "pool": [
-                    "languages:standard:rokugani",
-                    "languages:standard:nezumi",
-                    "languages:standard:naganese",
-                    "languages:standard:tenguspeech",
-                    "languages:standard:ivoryKingdoms",
-                    "languages:standard:burningSands",
-                    "languages:standard:celestial"
+                    "languages:rokugan:courtlyRokugani",
+                    "languages:rokugan:ivindi",
+                    "languages:rokugan:jindallaean",
+                    "languages:rokugan:leafRustle",
+                    "languages:rokugan:qamari",
+                    "languages:rokugan:riverSpeech",
+                    "languages:rokugan:skySpeech",
+                    "languages:rokugan:stoneClick",
+                    "languages:rokugan:ujik",
+                    "languages:rokugan:yunFengWen",
+                    "languages:rokugan:animalSpeech",
+                    "languages:rokugan:battleArgot"
                   ]
                 }
               ]
@@ -1462,7 +1879,7 @@
       "img": "systems/dnd5e/icons/svg/items/background.svg",
       "system": {
         "description": {
-          "value": "<p>Weapon Proficiencies: Wakizashi.</p><p>Tool Proficiencies: Any one tool of your choice.</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 137.</em></p>",
+          "value": "<p>Also grants proficiency with: Any one tool of your choice (apply manually).</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 137.</em></p>",
           "chat": ""
         },
         "source": {
@@ -1513,6 +1930,22 @@
             "value": {}
           },
           {
+            "_id": "rkkitsukifamilyw",
+            "type": "Trait",
+            "level": 1,
+            "title": "Weapon Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "weapon:wakizashi"
+              ],
+              "choices": []
+            },
+            "value": {}
+          },
+          {
             "_id": "rkkitsukifamilyl",
             "type": "Trait",
             "level": 1,
@@ -1522,7 +1955,7 @@
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:standard:rokugani"
+                "languages:rokugan:rokugani"
               ],
               "choices": []
             },
@@ -1542,13 +1975,18 @@
                 {
                   "count": 1,
                   "pool": [
-                    "languages:standard:rokugani",
-                    "languages:standard:nezumi",
-                    "languages:standard:naganese",
-                    "languages:standard:tenguspeech",
-                    "languages:standard:ivoryKingdoms",
-                    "languages:standard:burningSands",
-                    "languages:standard:celestial"
+                    "languages:rokugan:courtlyRokugani",
+                    "languages:rokugan:ivindi",
+                    "languages:rokugan:jindallaean",
+                    "languages:rokugan:leafRustle",
+                    "languages:rokugan:qamari",
+                    "languages:rokugan:riverSpeech",
+                    "languages:rokugan:skySpeech",
+                    "languages:rokugan:stoneClick",
+                    "languages:rokugan:ujik",
+                    "languages:rokugan:yunFengWen",
+                    "languages:rokugan:animalSpeech",
+                    "languages:rokugan:battleArgot"
                   ]
                 }
               ]
@@ -1618,7 +2056,7 @@
       "img": "systems/dnd5e/icons/svg/items/background.svg",
       "system": {
         "description": {
-          "value": "<p>Weapon Proficiencies: Wakizashi.</p><p>Tool Proficiencies: Any one artisan tool (see page 203) or gaming set (see page 205) of your choice.</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 139.</em></p>",
+          "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 138.</em></p>",
           "chat": ""
         },
         "source": {
@@ -1672,13 +2110,52 @@
             "_id": "rkmirumotofamily",
             "type": "Trait",
             "level": 1,
+            "title": "Weapon Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "weapon:wakizashi"
+              ],
+              "choices": []
+            },
+            "value": {}
+          },
+          {
+            "_id": "rkmirumotofamily",
+            "type": "Trait",
+            "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "tool:art",
+                    "tool:game"
+                  ]
+                }
+              ]
+            },
+            "value": {}
+          },
+          {
+            "_id": "rkmirumotofamily",
+            "type": "Trait",
+            "level": 1,
             "title": "Languages",
             "configuration": {
               "hint": "",
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:standard:rokugani"
+                "languages:rokugan:battleArgot",
+                "languages:rokugan:rokugani"
               ],
               "choices": []
             },
@@ -1731,7 +2208,7 @@
       "img": "systems/dnd5e/icons/svg/items/background.svg",
       "system": {
         "description": {
-          "value": "<p>Weapon Proficiencies: Wakizashi.</p><p>Tool Proficiencies: Tattoo set, divination kit.</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 139.</em></p>",
+          "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 138.</em></p>",
           "chat": ""
         },
         "source": {
@@ -1782,6 +2259,39 @@
             "value": {}
           },
           {
+            "_id": "rktogashiorderwp",
+            "type": "Trait",
+            "level": 1,
+            "title": "Weapon Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "weapon:wakizashi"
+              ],
+              "choices": []
+            },
+            "value": {}
+          },
+          {
+            "_id": "rktogashiorderto",
+            "type": "Trait",
+            "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "tool:tattooset",
+                "tool:divinationkit"
+              ],
+              "choices": []
+            },
+            "value": {}
+          },
+          {
             "_id": "rktogashiorderla",
             "type": "Trait",
             "level": 1,
@@ -1791,7 +2301,7 @@
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:standard:rokugani"
+                "languages:rokugan:rokugani"
               ],
               "choices": []
             },
@@ -1852,7 +2362,7 @@
       "img": "systems/dnd5e/icons/svg/items/background.svg",
       "system": {
         "description": {
-          "value": "<p>Weapon Proficiencies: Wakizashi.</p><p>Tool Proficiencies: Calligraphy set, board or card game.</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 141.</em></p>",
+          "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 140.</em></p>",
           "chat": ""
         },
         "source": {
@@ -1902,6 +2412,38 @@
             "value": {}
           },
           {
+            "_id": "rkakodofamilywpn",
+            "type": "Trait",
+            "level": 1,
+            "title": "Weapon Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "weapon:wakizashi"
+              ],
+              "choices": []
+            },
+            "value": {}
+          },
+          {
+            "_id": "rkakodofamilytoo",
+            "type": "Trait",
+            "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "tool:calligraphyset"
+              ],
+              "choices": []
+            },
+            "value": {}
+          },
+          {
             "_id": "rkakodofamilylan",
             "type": "Trait",
             "level": 1,
@@ -1911,7 +2453,8 @@
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:standard:rokugani"
+                "languages:rokugan:battleArgot",
+                "languages:rokugan:rokugani"
               ],
               "choices": []
             },
@@ -1980,7 +2523,7 @@
       "img": "systems/dnd5e/icons/svg/items/background.svg",
       "system": {
         "description": {
-          "value": "<p>Weapon Proficiencies: Wakizashi.</p><p>Tool Proficiencies: Dice and cup, any one musical instrument (see page 205).</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 142.</em></p>",
+          "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 142.</em></p>",
           "chat": ""
         },
         "source": {
@@ -2031,6 +2574,59 @@
             "value": {}
           },
           {
+            "_id": "rkikomafamilywpn",
+            "type": "Trait",
+            "level": 1,
+            "title": "Weapon Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "weapon:wakizashi"
+              ],
+              "choices": []
+            },
+            "value": {}
+          },
+          {
+            "_id": "rkikomafamilytoo",
+            "type": "Trait",
+            "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "tool:diceandcup"
+              ],
+              "choices": []
+            },
+            "value": {}
+          },
+          {
+            "_id": "rkikomafamilytoo",
+            "type": "Trait",
+            "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "tool:music"
+                  ]
+                }
+              ]
+            },
+            "value": {}
+          },
+          {
             "_id": "rkikomafamilylan",
             "type": "Trait",
             "level": 1,
@@ -2040,7 +2636,9 @@
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:standard:rokugani"
+                "languages:rokugan:courtlyRokugani",
+                "languages:rokugan:battleArgot",
+                "languages:rokugan:rokugani"
               ],
               "choices": []
             },
@@ -2101,7 +2699,7 @@
       "img": "systems/dnd5e/icons/svg/items/background.svg",
       "system": {
         "description": {
-          "value": "<p>Weapon Proficiencies: Wakizashi.</p><p>Tool Proficiencies: Divination kit, any one artisan tool (see page 203).</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 142.</em></p>",
+          "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 142.</em></p>",
           "chat": ""
         },
         "source": {
@@ -2151,6 +2749,59 @@
             "value": {}
           },
           {
+            "_id": "rkkitsufamilywpn",
+            "type": "Trait",
+            "level": 1,
+            "title": "Weapon Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "weapon:wakizashi"
+              ],
+              "choices": []
+            },
+            "value": {}
+          },
+          {
+            "_id": "rkkitsufamilytoo",
+            "type": "Trait",
+            "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "tool:divinationkit"
+              ],
+              "choices": []
+            },
+            "value": {}
+          },
+          {
+            "_id": "rkkitsufamilytoo",
+            "type": "Trait",
+            "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "tool:art"
+                  ]
+                }
+              ]
+            },
+            "value": {}
+          },
+          {
             "_id": "rkkitsufamilylan",
             "type": "Trait",
             "level": 1,
@@ -2160,7 +2811,9 @@
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:standard:rokugani"
+                "languages:rokugan:courtlyRokugani",
+                "languages:rokugan:battleArgot",
+                "languages:rokugan:rokugani"
               ],
               "choices": []
             },
@@ -2221,7 +2874,7 @@
       "img": "systems/dnd5e/icons/svg/items/background.svg",
       "system": {
         "description": {
-          "value": "<p>Weapon Proficiencies: Wakizashi.</p><p>Tool Proficiencies: Sword maintenance kit.</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 143.</em></p>",
+          "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 143.</em></p>",
           "chat": ""
         },
         "source": {
@@ -2272,6 +2925,38 @@
             "value": {}
           },
           {
+            "_id": "rkmatsufamilywpn",
+            "type": "Trait",
+            "level": 1,
+            "title": "Weapon Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "weapon:wakizashi"
+              ],
+              "choices": []
+            },
+            "value": {}
+          },
+          {
+            "_id": "rkmatsufamilytoo",
+            "type": "Trait",
+            "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "tool:swordmaintenancekit"
+              ],
+              "choices": []
+            },
+            "value": {}
+          },
+          {
             "_id": "rkmatsufamilylan",
             "type": "Trait",
             "level": 1,
@@ -2281,7 +2966,8 @@
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:standard:rokugani"
+                "languages:rokugan:battleArgot",
+                "languages:rokugan:rokugani"
               ],
               "choices": []
             },
@@ -2342,7 +3028,7 @@
       "img": "systems/dnd5e/icons/svg/items/background.svg",
       "system": {
         "description": {
-          "value": "<p>Weapon Proficiencies: Wakizashi.</p><p>Tool Proficiencies: Calligraphy set, any one other artisan tool (see page 203).</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 146.</em></p>",
+          "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 146.</em></p>",
           "chat": ""
         },
         "source": {
@@ -2392,6 +3078,59 @@
             "value": {}
           },
           {
+            "_id": "rkasakofamilywpn",
+            "type": "Trait",
+            "level": 1,
+            "title": "Weapon Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "weapon:wakizashi"
+              ],
+              "choices": []
+            },
+            "value": {}
+          },
+          {
+            "_id": "rkasakofamilytoo",
+            "type": "Trait",
+            "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "tool:calligraphyset"
+              ],
+              "choices": []
+            },
+            "value": {}
+          },
+          {
+            "_id": "rkasakofamilytoo",
+            "type": "Trait",
+            "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "tool:art"
+                  ]
+                }
+              ]
+            },
+            "value": {}
+          },
+          {
             "_id": "rkasakofamilylan",
             "type": "Trait",
             "level": 1,
@@ -2401,7 +3140,9 @@
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:standard:rokugani"
+                "languages:rokugan:courtlyRokugani",
+                "languages:rokugan:asakoCipher",
+                "languages:rokugan:rokugani"
               ],
               "choices": []
             },
@@ -2421,13 +3162,18 @@
                 {
                   "count": 1,
                   "pool": [
-                    "languages:standard:rokugani",
-                    "languages:standard:nezumi",
-                    "languages:standard:naganese",
-                    "languages:standard:tenguspeech",
-                    "languages:standard:ivoryKingdoms",
-                    "languages:standard:burningSands",
-                    "languages:standard:celestial"
+                    "languages:rokugan:courtlyRokugani",
+                    "languages:rokugan:ivindi",
+                    "languages:rokugan:jindallaean",
+                    "languages:rokugan:leafRustle",
+                    "languages:rokugan:qamari",
+                    "languages:rokugan:riverSpeech",
+                    "languages:rokugan:skySpeech",
+                    "languages:rokugan:stoneClick",
+                    "languages:rokugan:ujik",
+                    "languages:rokugan:yunFengWen",
+                    "languages:rokugan:animalSpeech",
+                    "languages:rokugan:battleArgot"
                   ]
                 }
               ]
@@ -2489,7 +3235,7 @@
       "img": "systems/dnd5e/icons/svg/items/background.svg",
       "system": {
         "description": {
-          "value": "<p>Tool Proficiencies: Any one mystic implement (see page 206).</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 146.</em></p>",
+          "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 146.</em></p>",
           "chat": ""
         },
         "source": {
@@ -2539,6 +3285,27 @@
             "value": {}
           },
           {
+            "_id": "rkisawafamilytoo",
+            "type": "Trait",
+            "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "tool:mystic"
+                  ]
+                }
+              ]
+            },
+            "value": {}
+          },
+          {
             "_id": "rkisawafamilylan",
             "type": "Trait",
             "level": 1,
@@ -2548,7 +3315,8 @@
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:standard:rokugani"
+                "languages:rokugan:jindallaean",
+                "languages:rokugan:rokugani"
               ],
               "choices": []
             },
@@ -2568,13 +3336,18 @@
                 {
                   "count": 1,
                   "pool": [
-                    "languages:standard:rokugani",
-                    "languages:standard:nezumi",
-                    "languages:standard:naganese",
-                    "languages:standard:tenguspeech",
-                    "languages:standard:ivoryKingdoms",
-                    "languages:standard:burningSands",
-                    "languages:standard:celestial"
+                    "languages:rokugan:courtlyRokugani",
+                    "languages:rokugan:ivindi",
+                    "languages:rokugan:jindallaean",
+                    "languages:rokugan:leafRustle",
+                    "languages:rokugan:qamari",
+                    "languages:rokugan:riverSpeech",
+                    "languages:rokugan:skySpeech",
+                    "languages:rokugan:stoneClick",
+                    "languages:rokugan:ujik",
+                    "languages:rokugan:yunFengWen",
+                    "languages:rokugan:animalSpeech",
+                    "languages:rokugan:battleArgot"
                   ]
                 }
               ]
@@ -2628,7 +3401,7 @@
       "img": "systems/dnd5e/icons/svg/items/background.svg",
       "system": {
         "description": {
-          "value": "<p>Weapon Proficiencies: Wakizashi.</p><p>Tool Proficiencies: Any one artisan tool.</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 148.</em></p>",
+          "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 147.</em></p>",
           "chat": ""
         },
         "source": {
@@ -2678,6 +3451,43 @@
             "value": {}
           },
           {
+            "_id": "rkshibafamilywpn",
+            "type": "Trait",
+            "level": 1,
+            "title": "Weapon Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "weapon:wakizashi"
+              ],
+              "choices": []
+            },
+            "value": {}
+          },
+          {
+            "_id": "rkshibafamilytoo",
+            "type": "Trait",
+            "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "tool:art"
+                  ]
+                }
+              ]
+            },
+            "value": {}
+          },
+          {
             "_id": "rkshibafamilylan",
             "type": "Trait",
             "level": 1,
@@ -2687,7 +3497,8 @@
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:standard:rokugani"
+                "languages:rokugan:battleArgot",
+                "languages:rokugan:rokugani"
               ],
               "choices": []
             },
@@ -2740,7 +3551,7 @@
       "img": "systems/dnd5e/icons/svg/items/background.svg",
       "system": {
         "description": {
-          "value": "<p>Weapon Proficiencies: Wakizashi.</p><p>Tool Proficiencies: Any one artisan tool or musical instrument, any one tool of subterfuge.</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 150.</em></p>",
+          "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 149.</em></p>",
           "chat": ""
         },
         "source": {
@@ -2790,6 +3601,65 @@
             "value": {}
           },
           {
+            "_id": "rkbayushifamilyw",
+            "type": "Trait",
+            "level": 1,
+            "title": "Weapon Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "weapon:wakizashi"
+              ],
+              "choices": []
+            },
+            "value": {}
+          },
+          {
+            "_id": "rkbayushifamilyt",
+            "type": "Trait",
+            "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "tool:art",
+                    "tool:music"
+                  ]
+                }
+              ]
+            },
+            "value": {}
+          },
+          {
+            "_id": "rkbayushifamilyt",
+            "type": "Trait",
+            "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "tool:subterfuge"
+                  ]
+                }
+              ]
+            },
+            "value": {}
+          },
+          {
             "_id": "rkbayushifamilyl",
             "type": "Trait",
             "level": 1,
@@ -2799,7 +3669,8 @@
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:standard:rokugani"
+                "languages:rokugan:courtlyRokugani",
+                "languages:rokugan:rokugani"
               ],
               "choices": []
             },
@@ -2819,13 +3690,18 @@
                 {
                   "count": 1,
                   "pool": [
-                    "languages:standard:rokugani",
-                    "languages:standard:nezumi",
-                    "languages:standard:naganese",
-                    "languages:standard:tenguspeech",
-                    "languages:standard:ivoryKingdoms",
-                    "languages:standard:burningSands",
-                    "languages:standard:celestial"
+                    "languages:rokugan:courtlyRokugani",
+                    "languages:rokugan:ivindi",
+                    "languages:rokugan:jindallaean",
+                    "languages:rokugan:leafRustle",
+                    "languages:rokugan:qamari",
+                    "languages:rokugan:riverSpeech",
+                    "languages:rokugan:skySpeech",
+                    "languages:rokugan:stoneClick",
+                    "languages:rokugan:ujik",
+                    "languages:rokugan:yunFengWen",
+                    "languages:rokugan:animalSpeech",
+                    "languages:rokugan:battleArgot"
                   ]
                 }
               ]
@@ -2895,7 +3771,7 @@
       "img": "systems/dnd5e/icons/svg/items/background.svg",
       "system": {
         "description": {
-          "value": "<p>Weapon Proficiencies: Wakizashi.</p><p>Tool Proficiencies: Any one artisan tool or musical instrument, disguise kit.</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 150.</em></p>",
+          "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 149.</em></p>",
           "chat": ""
         },
         "source": {
@@ -2944,6 +3820,60 @@
             "value": {}
           },
           {
+            "_id": "rkshosurofamilyw",
+            "type": "Trait",
+            "level": 1,
+            "title": "Weapon Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "weapon:wakizashi"
+              ],
+              "choices": []
+            },
+            "value": {}
+          },
+          {
+            "_id": "rkshosurofamilyt",
+            "type": "Trait",
+            "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "tool:disguisekit"
+              ],
+              "choices": []
+            },
+            "value": {}
+          },
+          {
+            "_id": "rkshosurofamilyt",
+            "type": "Trait",
+            "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "tool:art",
+                    "tool:music"
+                  ]
+                }
+              ]
+            },
+            "value": {}
+          },
+          {
             "_id": "rkshosurofamilyl",
             "type": "Trait",
             "level": 1,
@@ -2953,7 +3883,8 @@
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:standard:rokugani"
+                "languages:rokugan:courtlyRokugani",
+                "languages:rokugan:rokugani"
               ],
               "choices": []
             },
@@ -2973,13 +3904,18 @@
                 {
                   "count": 1,
                   "pool": [
-                    "languages:standard:rokugani",
-                    "languages:standard:nezumi",
-                    "languages:standard:naganese",
-                    "languages:standard:tenguspeech",
-                    "languages:standard:ivoryKingdoms",
-                    "languages:standard:burningSands",
-                    "languages:standard:celestial"
+                    "languages:rokugan:courtlyRokugani",
+                    "languages:rokugan:ivindi",
+                    "languages:rokugan:jindallaean",
+                    "languages:rokugan:leafRustle",
+                    "languages:rokugan:qamari",
+                    "languages:rokugan:riverSpeech",
+                    "languages:rokugan:skySpeech",
+                    "languages:rokugan:stoneClick",
+                    "languages:rokugan:ujik",
+                    "languages:rokugan:yunFengWen",
+                    "languages:rokugan:animalSpeech",
+                    "languages:rokugan:battleArgot"
                   ]
                 }
               ]
@@ -3057,7 +3993,7 @@
       "img": "systems/dnd5e/icons/svg/items/background.svg",
       "system": {
         "description": {
-          "value": "<p>Weapon Proficiencies: Wakizashi.</p><p>Tool Proficiencies: Any one artisan tool or mystic implement, any one tool of subterfuge.</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 151.</em></p>",
+          "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 151.</em></p>",
           "chat": ""
         },
         "source": {
@@ -3105,6 +4041,65 @@
             "value": {}
           },
           {
+            "_id": "rksoshifamilywpn",
+            "type": "Trait",
+            "level": 1,
+            "title": "Weapon Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "weapon:wakizashi"
+              ],
+              "choices": []
+            },
+            "value": {}
+          },
+          {
+            "_id": "rksoshifamilytoo",
+            "type": "Trait",
+            "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "tool:art",
+                    "tool:mystic"
+                  ]
+                }
+              ]
+            },
+            "value": {}
+          },
+          {
+            "_id": "rksoshifamilytoo",
+            "type": "Trait",
+            "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "tool:subterfuge"
+                  ]
+                }
+              ]
+            },
+            "value": {}
+          },
+          {
             "_id": "rksoshifamilylan",
             "type": "Trait",
             "level": 1,
@@ -3114,7 +4109,8 @@
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:standard:rokugani"
+                "languages:rokugan:courtlyRokugani",
+                "languages:rokugan:rokugani"
               ],
               "choices": []
             },
@@ -3134,13 +4130,18 @@
                 {
                   "count": 1,
                   "pool": [
-                    "languages:standard:rokugani",
-                    "languages:standard:nezumi",
-                    "languages:standard:naganese",
-                    "languages:standard:tenguspeech",
-                    "languages:standard:ivoryKingdoms",
-                    "languages:standard:burningSands",
-                    "languages:standard:celestial"
+                    "languages:rokugan:courtlyRokugani",
+                    "languages:rokugan:ivindi",
+                    "languages:rokugan:jindallaean",
+                    "languages:rokugan:leafRustle",
+                    "languages:rokugan:qamari",
+                    "languages:rokugan:riverSpeech",
+                    "languages:rokugan:skySpeech",
+                    "languages:rokugan:stoneClick",
+                    "languages:rokugan:ujik",
+                    "languages:rokugan:yunFengWen",
+                    "languages:rokugan:animalSpeech",
+                    "languages:rokugan:battleArgot"
                   ]
                 }
               ]
@@ -3210,7 +4211,7 @@
       "img": "systems/dnd5e/icons/svg/items/background.svg",
       "system": {
         "description": {
-          "value": "<p>Weapon Proficiencies: Wakizashi.</p><p>Tool Proficiencies: Calligraphy set, any one tool of subterfuge.</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 151.</em></p>",
+          "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 151.</em></p>",
           "chat": ""
         },
         "source": {
@@ -3261,6 +4262,59 @@
             "value": {}
           },
           {
+            "_id": "rkyogofamilywpn0",
+            "type": "Trait",
+            "level": 1,
+            "title": "Weapon Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "weapon:wakizashi"
+              ],
+              "choices": []
+            },
+            "value": {}
+          },
+          {
+            "_id": "rkyogofamilytool",
+            "type": "Trait",
+            "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "tool:calligraphyset"
+              ],
+              "choices": []
+            },
+            "value": {}
+          },
+          {
+            "_id": "rkyogofamilytool",
+            "type": "Trait",
+            "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "tool:subterfuge"
+                  ]
+                }
+              ]
+            },
+            "value": {}
+          },
+          {
             "_id": "rkyogofamilylang",
             "type": "Trait",
             "level": 1,
@@ -3270,7 +4324,8 @@
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:standard:rokugani"
+                "languages:rokugan:yogoCipher",
+                "languages:rokugan:rokugani"
               ],
               "choices": []
             },
@@ -3339,7 +4394,7 @@
       "img": "systems/dnd5e/icons/svg/items/background.svg",
       "system": {
         "description": {
-          "value": "<p>Weapon Proficiencies: Hunting bow.</p><p>Tool Proficiencies: Any one artisan tool or gaming set, mounts.</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 153.</em></p>",
+          "value": "<p>Also grants proficiency with: mounts (apply manually).</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 152.</em></p>",
           "chat": ""
         },
         "source": {
@@ -3390,6 +4445,44 @@
             "value": {}
           },
           {
+            "_id": "rkidefamilywpn00",
+            "type": "Trait",
+            "level": 1,
+            "title": "Weapon Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "weapon:huntingbow"
+              ],
+              "choices": []
+            },
+            "value": {}
+          },
+          {
+            "_id": "rkidefamilytoolc",
+            "type": "Trait",
+            "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "tool:art",
+                    "tool:game"
+                  ]
+                }
+              ]
+            },
+            "value": {}
+          },
+          {
             "_id": "rkidefamilylang0",
             "type": "Trait",
             "level": 1,
@@ -3399,7 +4492,7 @@
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:standard:rokugani"
+                "languages:rokugan:rokugani"
               ],
               "choices": []
             },
@@ -3492,7 +4585,7 @@
       "img": "systems/dnd5e/icons/svg/items/background.svg",
       "system": {
         "description": {
-          "value": "<p>Weapon Proficiencies: Hunting bow.</p><p>Tool Proficiencies: Any one artisan tool or mystic implement, mounts.</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 154.</em></p>",
+          "value": "<p>Also grants proficiency with: mounts (apply manually).</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 154.</em></p>",
           "chat": ""
         },
         "source": {
@@ -3542,6 +4635,44 @@
             "value": {}
           },
           {
+            "_id": "rkiuchifamilywpn",
+            "type": "Trait",
+            "level": 1,
+            "title": "Weapon Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "weapon:huntingbow"
+              ],
+              "choices": []
+            },
+            "value": {}
+          },
+          {
+            "_id": "rkiuchifamilytoo",
+            "type": "Trait",
+            "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "tool:art",
+                    "tool:mystic"
+                  ]
+                }
+              ]
+            },
+            "value": {}
+          },
+          {
             "_id": "rkiuchifamilylan",
             "type": "Trait",
             "level": 1,
@@ -3551,7 +4682,8 @@
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:standard:rokugani"
+                "languages:rokugan:ujik",
+                "languages:rokugan:rokugani"
               ],
               "choices": []
             },
@@ -3636,7 +4768,7 @@
       "img": "systems/dnd5e/icons/svg/items/background.svg",
       "system": {
         "description": {
-          "value": "<p>Weapon Proficiencies: Curved saber.</p><p>Tool Proficiencies: Any one artisan tool or musical instrument, mounts.</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 154.</em></p>",
+          "value": "<p>Also grants proficiency with: mounts (apply manually).</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 154.</em></p>",
           "chat": ""
         },
         "source": {
@@ -3687,6 +4819,44 @@
             "value": {}
           },
           {
+            "_id": "rkmotofamilywpn0",
+            "type": "Trait",
+            "level": 1,
+            "title": "Weapon Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "weapon:curvedsaber"
+              ],
+              "choices": []
+            },
+            "value": {}
+          },
+          {
+            "_id": "rkmotofamilytool",
+            "type": "Trait",
+            "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "tool:art",
+                    "tool:music"
+                  ]
+                }
+              ]
+            },
+            "value": {}
+          },
+          {
             "_id": "rkmotofamilylang",
             "type": "Trait",
             "level": 1,
@@ -3696,7 +4866,8 @@
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:standard:rokugani"
+                "languages:rokugan:ujik",
+                "languages:rokugan:rokugani"
               ],
               "choices": []
             },
@@ -3757,7 +4928,7 @@
       "img": "systems/dnd5e/icons/svg/items/background.svg",
       "system": {
         "description": {
-          "value": "<p>Weapon Proficiencies: Hunting bow.</p><p>Tool Proficiencies: Any one artisan tool or gaming set, mounts.</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 154.</em></p>",
+          "value": "<p>Also grants proficiency with: mounts (apply manually).</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 154.</em></p>",
           "chat": ""
         },
         "source": {
@@ -3807,6 +4978,44 @@
             "value": {}
           },
           {
+            "_id": "rkshinjofamilywp",
+            "type": "Trait",
+            "level": 1,
+            "title": "Weapon Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "weapon:huntingbow"
+              ],
+              "choices": []
+            },
+            "value": {}
+          },
+          {
+            "_id": "rkshinjofamilyto",
+            "type": "Trait",
+            "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "tool:art",
+                    "tool:game"
+                  ]
+                }
+              ]
+            },
+            "value": {}
+          },
+          {
             "_id": "rkshinjofamilyla",
             "type": "Trait",
             "level": 1,
@@ -3816,7 +5025,8 @@
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:standard:rokugani"
+                "languages:rokugan:ujik",
+                "languages:rokugan:rokugani"
               ],
               "choices": []
             },
@@ -3901,7 +5111,7 @@
       "img": "systems/dnd5e/icons/svg/items/background.svg",
       "system": {
         "description": {
-          "value": "<p>Weapon Proficiencies: Wakizashi.</p><p>Tool Proficiencies: Any one artisan tool or musical instrument, mounts.</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 157.</em></p>",
+          "value": "<p>Also grants proficiency with: mounts (apply manually).</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 155.</em></p>",
           "chat": ""
         },
         "source": {
@@ -3951,6 +5161,44 @@
             "value": {}
           },
           {
+            "_id": "rkutakufamilywpn",
+            "type": "Trait",
+            "level": 1,
+            "title": "Weapon Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "weapon:wakizashi"
+              ],
+              "choices": []
+            },
+            "value": {}
+          },
+          {
+            "_id": "rkutakufamilytoo",
+            "type": "Trait",
+            "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "tool:art",
+                    "tool:music"
+                  ]
+                }
+              ]
+            },
+            "value": {}
+          },
+          {
             "_id": "rkutakufamilylan",
             "type": "Trait",
             "level": 1,
@@ -3960,7 +5208,8 @@
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:standard:rokugani"
+                "languages:rokugan:ujik",
+                "languages:rokugan:rokugani"
               ],
               "choices": []
             },
@@ -4021,7 +5270,7 @@
       "img": "systems/dnd5e/icons/svg/items/background.svg",
       "system": {
         "description": {
-          "value": "<p>Weapon Proficiencies: Wakizashi.</p><p>Tool Proficiencies: Calligraphy set, ceremonial tea set.</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 157.</em></p>",
+          "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 155.</em></p>",
           "chat": ""
         },
         "source": {
@@ -4072,6 +5321,39 @@
             "value": {}
           },
           {
+            "_id": "rkhanteifamilywp",
+            "type": "Trait",
+            "level": 1,
+            "title": "Weapon Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "weapon:wakizashi"
+              ],
+              "choices": []
+            },
+            "value": {}
+          },
+          {
+            "_id": "rkhanteifamilyto",
+            "type": "Trait",
+            "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "tool:calligraphyset",
+                "tool:ceremonialteaset"
+              ],
+              "choices": []
+            },
+            "value": {}
+          },
+          {
             "_id": "rkhanteifamilyla",
             "type": "Trait",
             "level": 1,
@@ -4081,7 +5363,8 @@
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:standard:rokugani"
+                "languages:rokugan:courtlyRokugani",
+                "languages:rokugan:rokugani"
               ],
               "choices": []
             },
@@ -4150,7 +5433,7 @@
       "img": "systems/dnd5e/icons/svg/items/background.svg",
       "system": {
         "description": {
-          "value": "<p>Weapon Proficiencies: Wakizashi.</p><p>Tool Proficiencies: Calligraphy set, any one other artisan tool.</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 157.</em></p>",
+          "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 155.</em></p>",
           "chat": ""
         },
         "source": {
@@ -4201,6 +5484,59 @@
             "value": {}
           },
           {
+            "_id": "rkmiyafamilywpn0",
+            "type": "Trait",
+            "level": 1,
+            "title": "Weapon Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "weapon:wakizashi"
+              ],
+              "choices": []
+            },
+            "value": {}
+          },
+          {
+            "_id": "rkmiyafamilytool",
+            "type": "Trait",
+            "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "tool:calligraphyset"
+              ],
+              "choices": []
+            },
+            "value": {}
+          },
+          {
+            "_id": "rkmiyafamilytool",
+            "type": "Trait",
+            "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "tool:art"
+                  ]
+                }
+              ]
+            },
+            "value": {}
+          },
+          {
             "_id": "rkmiyafamilylang",
             "type": "Trait",
             "level": 1,
@@ -4210,7 +5546,8 @@
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:standard:rokugani"
+                "languages:rokugan:courtlyRokugani",
+                "languages:rokugan:rokugani"
               ],
               "choices": []
             },
@@ -4271,7 +5608,7 @@
       "img": "systems/dnd5e/icons/svg/items/background.svg",
       "system": {
         "description": {
-          "value": "<p>Weapon Proficiencies: Wakizashi.</p><p>Tool Proficiencies: Calligraphy set, any one other artisan tool.</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 157.</em></p>",
+          "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 155.</em></p>",
           "chat": ""
         },
         "source": {
@@ -4320,6 +5657,59 @@
             "value": {}
           },
           {
+            "_id": "rkotomofamilywpn",
+            "type": "Trait",
+            "level": 1,
+            "title": "Weapon Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "weapon:wakizashi"
+              ],
+              "choices": []
+            },
+            "value": {}
+          },
+          {
+            "_id": "rkotomofamilytoo",
+            "type": "Trait",
+            "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "tool:calligraphyset"
+              ],
+              "choices": []
+            },
+            "value": {}
+          },
+          {
+            "_id": "rkotomofamilytoo",
+            "type": "Trait",
+            "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "tool:art"
+                  ]
+                }
+              ]
+            },
+            "value": {}
+          },
+          {
             "_id": "rkotomofamilylan",
             "type": "Trait",
             "level": 1,
@@ -4329,7 +5719,8 @@
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:standard:rokugani"
+                "languages:rokugan:courtlyRokugani",
+                "languages:rokugan:rokugani"
               ],
               "choices": []
             },
@@ -4390,7 +5781,7 @@
       "img": "systems/dnd5e/icons/svg/items/background.svg",
       "system": {
         "description": {
-          "value": "<p>Weapon Proficiencies: Wakizashi.</p><p>Tool Proficiencies: Fishing kit, vehicles (ships).</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 160.</em></p>",
+          "value": "<p>Also grants proficiency with: vehicles (ships) (apply manually).</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 159.</em></p>",
           "chat": ""
         },
         "source": {
@@ -4444,13 +5835,45 @@
             "_id": "rkfamiliesofthef",
             "type": "Trait",
             "level": 1,
+            "title": "Weapon Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "weapon:wakizashi"
+              ],
+              "choices": []
+            },
+            "value": {}
+          },
+          {
+            "_id": "rkfamiliesofthef",
+            "type": "Trait",
+            "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "tool:fishingkit"
+              ],
+              "choices": []
+            },
+            "value": {}
+          },
+          {
+            "_id": "rkfamiliesofthef",
+            "type": "Trait",
+            "level": 1,
             "title": "Languages",
             "configuration": {
               "hint": "",
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:standard:rokugani"
+                "languages:rokugan:rokugani"
               ],
               "choices": []
             },
@@ -4470,13 +5893,18 @@
                 {
                   "count": 1,
                   "pool": [
-                    "languages:standard:rokugani",
-                    "languages:standard:nezumi",
-                    "languages:standard:naganese",
-                    "languages:standard:tenguspeech",
-                    "languages:standard:ivoryKingdoms",
-                    "languages:standard:burningSands",
-                    "languages:standard:celestial"
+                    "languages:rokugan:courtlyRokugani",
+                    "languages:rokugan:ivindi",
+                    "languages:rokugan:jindallaean",
+                    "languages:rokugan:leafRustle",
+                    "languages:rokugan:qamari",
+                    "languages:rokugan:riverSpeech",
+                    "languages:rokugan:skySpeech",
+                    "languages:rokugan:stoneClick",
+                    "languages:rokugan:ujik",
+                    "languages:rokugan:yunFengWen",
+                    "languages:rokugan:animalSpeech",
+                    "languages:rokugan:battleArgot"
                   ]
                 }
               ]
@@ -4554,7 +5982,7 @@
       "img": "systems/dnd5e/icons/svg/items/background.svg",
       "system": {
         "description": {
-          "value": "<p>Weapon Proficiencies: Wakizashi.</p><p>Tool Proficiencies: Blacksmith’s kit or weaver’s kit.</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 160.</em></p>",
+          "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 160.</em></p>",
           "chat": ""
         },
         "source": {
@@ -4603,6 +6031,44 @@
               ]
             },
             "value": {}
+          },
+          {
+            "_id": "rkbadgerclanwpn0",
+            "type": "Trait",
+            "level": 1,
+            "title": "Weapon Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "weapon:wakizashi"
+              ],
+              "choices": []
+            },
+            "value": {}
+          },
+          {
+            "_id": "rkbadgerclantool",
+            "type": "Trait",
+            "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "tool:blacksmithskit",
+                    "tool:weaverskit"
+                  ]
+                }
+              ]
+            },
+            "value": {}
           }
         ],
         "wealth": ""
@@ -4623,7 +6089,7 @@
       "img": "systems/dnd5e/icons/svg/items/background.svg",
       "system": {
         "description": {
-          "value": "<p>Weapon Proficiencies: Wakizashi.</p><p>Tool Proficiencies: Makeup kit, any one tool of subterfuge.</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 161.</em></p>",
+          "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 161.</em></p>",
           "chat": ""
         },
         "source": {
@@ -4672,6 +6138,59 @@
             "value": {}
           },
           {
+            "_id": "rkcatclanwpn0000",
+            "type": "Trait",
+            "level": 1,
+            "title": "Weapon Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "weapon:wakizashi"
+              ],
+              "choices": []
+            },
+            "value": {}
+          },
+          {
+            "_id": "rkcatclantool000",
+            "type": "Trait",
+            "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "tool:makeupkit"
+              ],
+              "choices": []
+            },
+            "value": {}
+          },
+          {
+            "_id": "rkcatclantoolc00",
+            "type": "Trait",
+            "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "tool:subterfuge"
+                  ]
+                }
+              ]
+            },
+            "value": {}
+          },
+          {
             "_id": "rkcatclanlang000",
             "type": "Trait",
             "level": 1,
@@ -4681,7 +6200,7 @@
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:standard:rokugani"
+                "languages:rokugan:rokugani"
               ],
               "choices": []
             },
@@ -4750,7 +6269,7 @@
       "img": "systems/dnd5e/icons/svg/items/background.svg",
       "system": {
         "description": {
-          "value": "<p>Weapon Proficiencies: Wakizashi.</p><p>Tool Proficiencies: Calligraphy set, divination kit.</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 161.</em></p>",
+          "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 161.</em></p>",
           "chat": ""
         },
         "source": {
@@ -4801,6 +6320,39 @@
             "value": {}
           },
           {
+            "_id": "rkcentipedeclanw",
+            "type": "Trait",
+            "level": 1,
+            "title": "Weapon Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "weapon:wakizashi"
+              ],
+              "choices": []
+            },
+            "value": {}
+          },
+          {
+            "_id": "rkcentipedeclant",
+            "type": "Trait",
+            "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "tool:calligraphyset",
+                "tool:divinationkit"
+              ],
+              "choices": []
+            },
+            "value": {}
+          },
+          {
             "_id": "rkcentipedeclanl",
             "type": "Trait",
             "level": 1,
@@ -4810,7 +6362,7 @@
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:standard:rokugani"
+                "languages:rokugan:rokugani"
               ],
               "choices": []
             },
@@ -4879,7 +6431,7 @@
       "img": "systems/dnd5e/icons/svg/items/background.svg",
       "system": {
         "description": {
-          "value": "<p>Weapon Proficiencies: Wakizashi.</p><p>Tool Proficiencies: Divination kit, any one tool of sabotage.</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 161.</em></p>",
+          "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 161.</em></p>",
           "chat": ""
         },
         "source": {
@@ -4928,6 +6480,59 @@
             "value": {}
           },
           {
+            "_id": "rkdeerclanwpn000",
+            "type": "Trait",
+            "level": 1,
+            "title": "Weapon Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "weapon:wakizashi"
+              ],
+              "choices": []
+            },
+            "value": {}
+          },
+          {
+            "_id": "rkdeerclantool00",
+            "type": "Trait",
+            "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "tool:divinationkit"
+              ],
+              "choices": []
+            },
+            "value": {}
+          },
+          {
+            "_id": "rkdeerclantoolc0",
+            "type": "Trait",
+            "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "tool:subterfuge"
+                  ]
+                }
+              ]
+            },
+            "value": {}
+          },
+          {
             "_id": "rkdeerclanlang00",
             "type": "Trait",
             "level": 1,
@@ -4937,7 +6542,7 @@
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:standard:rokugani"
+                "languages:rokugan:rokugani"
               ],
               "choices": []
             },
@@ -4998,7 +6603,7 @@
       "img": "systems/dnd5e/icons/svg/items/background.svg",
       "system": {
         "description": {
-          "value": "<p>Weapon Proficiencies: Wakizashi.</p><p>Tool Proficiencies: Sword maintenance kit.</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 163.</em></p>",
+          "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 163.</em></p>",
           "chat": ""
         },
         "source": {
@@ -5047,6 +6652,38 @@
             "value": {}
           },
           {
+            "_id": "rkfalconclanwpn0",
+            "type": "Trait",
+            "level": 1,
+            "title": "Weapon Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "weapon:wakizashi"
+              ],
+              "choices": []
+            },
+            "value": {}
+          },
+          {
+            "_id": "rkfalconclantool",
+            "type": "Trait",
+            "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "tool:swordmaintenancekit"
+              ],
+              "choices": []
+            },
+            "value": {}
+          },
+          {
             "_id": "rkfalconclanlang",
             "type": "Trait",
             "level": 1,
@@ -5056,7 +6693,8 @@
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:standard:rokugani"
+                "languages:rokugan:battleArgot",
+                "languages:rokugan:rokugani"
               ],
               "choices": []
             },
@@ -5117,7 +6755,7 @@
       "img": "systems/dnd5e/icons/svg/items/background.svg",
       "system": {
         "description": {
-          "value": "<p>Weapon Proficiencies: Wakizashi.</p><p>Tool Proficiencies: Any one musical instrument, any one mystic implement.</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 163.</em></p>",
+          "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 163.</em></p>",
           "chat": ""
         },
         "source": {
@@ -5168,6 +6806,64 @@
             "value": {}
           },
           {
+            "_id": "rkfoxclanwpn0000",
+            "type": "Trait",
+            "level": 1,
+            "title": "Weapon Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "weapon:wakizashi"
+              ],
+              "choices": []
+            },
+            "value": {}
+          },
+          {
+            "_id": "rkfoxclantoolc00",
+            "type": "Trait",
+            "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "tool:music"
+                  ]
+                }
+              ]
+            },
+            "value": {}
+          },
+          {
+            "_id": "rkfoxclantoolc10",
+            "type": "Trait",
+            "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "tool:mystic"
+                  ]
+                }
+              ]
+            },
+            "value": {}
+          },
+          {
             "_id": "rkfoxclanlang000",
             "type": "Trait",
             "level": 1,
@@ -5177,7 +6873,7 @@
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:standard:rokugani"
+                "languages:rokugan:rokugani"
               ],
               "choices": []
             },
@@ -5230,7 +6926,7 @@
       "img": "systems/dnd5e/icons/svg/items/background.svg",
       "system": {
         "description": {
-          "value": "<p>Weapon Proficiencies: Wakizashi.</p><p>Tool Proficiencies: Divination kit.</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 163.</em></p>",
+          "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 163.</em></p>",
           "chat": ""
         },
         "source": {
@@ -5281,6 +6977,38 @@
             "value": {}
           },
           {
+            "_id": "rkhareclanwpn000",
+            "type": "Trait",
+            "level": 1,
+            "title": "Weapon Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "weapon:wakizashi"
+              ],
+              "choices": []
+            },
+            "value": {}
+          },
+          {
+            "_id": "rkhareclantool00",
+            "type": "Trait",
+            "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "tool:divinationkit"
+              ],
+              "choices": []
+            },
+            "value": {}
+          },
+          {
             "_id": "rkhareclanlang00",
             "type": "Trait",
             "level": 1,
@@ -5290,7 +7018,8 @@
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:standard:rokugani"
+                "languages:rokugan:battleArgot",
+                "languages:rokugan:rokugani"
               ],
               "choices": []
             },
@@ -5351,7 +7080,7 @@
       "img": "systems/dnd5e/icons/svg/items/background.svg",
       "system": {
         "description": {
-          "value": "<p>Weapon Proficiencies: Wakizashi.</p><p>Tool Proficiencies: Weaver’s kit, divination kit.</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 163.</em></p>",
+          "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 163.</em></p>",
           "chat": ""
         },
         "source": {
@@ -5402,6 +7131,39 @@
             "value": {}
           },
           {
+            "_id": "rkmothclanwpn000",
+            "type": "Trait",
+            "level": 1,
+            "title": "Weapon Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "weapon:wakizashi"
+              ],
+              "choices": []
+            },
+            "value": {}
+          },
+          {
+            "_id": "rkmothclantool00",
+            "type": "Trait",
+            "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "tool:weaverskit",
+                "tool:divinationkit"
+              ],
+              "choices": []
+            },
+            "value": {}
+          },
+          {
             "_id": "rkmothclanlang00",
             "type": "Trait",
             "level": 1,
@@ -5411,7 +7173,7 @@
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:standard:rokugani"
+                "languages:rokugan:rokugani"
               ],
               "choices": []
             },
@@ -5472,7 +7234,7 @@
       "img": "systems/dnd5e/icons/svg/items/background.svg",
       "system": {
         "description": {
-          "value": "<p>Weapon Proficiencies: Wakizashi.</p><p>Tool Proficiencies: Any two of the following tools: cooking kit, fishing kit, mason’s kit, potter’s set, tailor’s kit, weaver’s kit, board or card game, dice and cup, drum, or flute.</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 163.</em></p>",
+          "value": "<p>Also grants proficiency with: Any two of the following tools: cooking kit, drum, or flute (apply manually).</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 163.</em></p>",
           "chat": ""
         },
         "source": {
@@ -5521,6 +7283,43 @@
               ]
             },
             "value": {}
+          },
+          {
+            "_id": "rksparrowclanwpn",
+            "type": "Trait",
+            "level": 1,
+            "title": "Weapon Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "weapon:wakizashi"
+              ],
+              "choices": []
+            },
+            "value": {}
+          },
+          {
+            "_id": "rksparrowclantoo",
+            "type": "Trait",
+            "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "tool:fishingkit",
+                "tool:masonskit",
+                "tool:pottersset",
+                "tool:tailorskit",
+                "tool:weaverskit",
+                "tool:diceandcup"
+              ],
+              "choices": []
+            },
+            "value": {}
           }
         ],
         "wealth": ""
@@ -5541,7 +7340,7 @@
       "img": "systems/dnd5e/icons/svg/items/background.svg",
       "system": {
         "description": {
-          "value": "<p>Weapon Proficiencies: Wakizashi.</p><p>Tool Proficiencies: Any one tool of subterfuge.</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 165.</em></p>",
+          "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 165.</em></p>",
           "chat": ""
         },
         "source": {
@@ -5591,6 +7390,43 @@
             "value": {}
           },
           {
+            "_id": "rktortoiseclanwp",
+            "type": "Trait",
+            "level": 1,
+            "title": "Weapon Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "weapon:wakizashi"
+              ],
+              "choices": []
+            },
+            "value": {}
+          },
+          {
+            "_id": "rktortoiseclanto",
+            "type": "Trait",
+            "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "tool:subterfuge"
+                  ]
+                }
+              ]
+            },
+            "value": {}
+          },
+          {
             "_id": "rktortoiseclanla",
             "type": "Trait",
             "level": 1,
@@ -5600,7 +7436,7 @@
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:standard:rokugani"
+                "languages:rokugan:rokugani"
               ],
               "choices": []
             },
@@ -5620,13 +7456,18 @@
                 {
                   "count": 1,
                   "pool": [
-                    "languages:standard:rokugani",
-                    "languages:standard:nezumi",
-                    "languages:standard:naganese",
-                    "languages:standard:tenguspeech",
-                    "languages:standard:ivoryKingdoms",
-                    "languages:standard:burningSands",
-                    "languages:standard:celestial"
+                    "languages:rokugan:courtlyRokugani",
+                    "languages:rokugan:ivindi",
+                    "languages:rokugan:jindallaean",
+                    "languages:rokugan:leafRustle",
+                    "languages:rokugan:qamari",
+                    "languages:rokugan:riverSpeech",
+                    "languages:rokugan:skySpeech",
+                    "languages:rokugan:stoneClick",
+                    "languages:rokugan:ujik",
+                    "languages:rokugan:yunFengWen",
+                    "languages:rokugan:animalSpeech",
+                    "languages:rokugan:battleArgot"
                   ]
                 }
               ]
@@ -5704,7 +7545,7 @@
       "img": "systems/dnd5e/icons/svg/items/background.svg",
       "system": {
         "description": {
-          "value": "<p>Weapon Proficiencies: Hunting bow.</p><p>Tool Proficiencies: Bowyer’s kit or dice and cup.</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 165.</em></p>",
+          "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 165.</em></p>",
           "chat": ""
         },
         "source": {
@@ -5753,6 +7594,44 @@
             "value": {}
           },
           {
+            "_id": "rkwaspclanwpn000",
+            "type": "Trait",
+            "level": 1,
+            "title": "Weapon Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "weapon:huntingbow"
+              ],
+              "choices": []
+            },
+            "value": {}
+          },
+          {
+            "_id": "rkwaspclantoolc0",
+            "type": "Trait",
+            "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "tool:bowyerskit",
+                    "tool:diceandcup"
+                  ]
+                }
+              ]
+            },
+            "value": {}
+          },
+          {
             "_id": "rkwaspclanlang00",
             "type": "Trait",
             "level": 1,
@@ -5762,7 +7641,8 @@
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:standard:rokugani"
+                "languages:rokugan:battleArgot",
+                "languages:rokugan:rokugani"
               ],
               "choices": []
             },
@@ -5815,7 +7695,7 @@
       "img": "systems/dnd5e/icons/svg/items/background.svg",
       "system": {
         "description": {
-          "value": "<p>Tool Proficiencies: Any two artisan tools.</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 166.</em></p>",
+          "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 166.</em></p>",
           "chat": ""
         },
         "source": {
@@ -5869,13 +7749,34 @@
             "_id": "rkregimentedlife",
             "type": "Trait",
             "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "tool:art"
+                  ]
+                }
+              ]
+            },
+            "value": {}
+          },
+          {
+            "_id": "rkregimentedlife",
+            "type": "Trait",
+            "level": 1,
             "title": "Languages",
             "configuration": {
               "hint": "",
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:standard:rokugani"
+                "languages:rokugan:rokugani"
               ],
               "choices": []
             },
@@ -5895,13 +7796,18 @@
                 {
                   "count": 1,
                   "pool": [
-                    "languages:standard:rokugani",
-                    "languages:standard:nezumi",
-                    "languages:standard:naganese",
-                    "languages:standard:tenguspeech",
-                    "languages:standard:ivoryKingdoms",
-                    "languages:standard:burningSands",
-                    "languages:standard:celestial"
+                    "languages:rokugan:courtlyRokugani",
+                    "languages:rokugan:ivindi",
+                    "languages:rokugan:jindallaean",
+                    "languages:rokugan:leafRustle",
+                    "languages:rokugan:qamari",
+                    "languages:rokugan:riverSpeech",
+                    "languages:rokugan:skySpeech",
+                    "languages:rokugan:stoneClick",
+                    "languages:rokugan:ujik",
+                    "languages:rokugan:yunFengWen",
+                    "languages:rokugan:animalSpeech",
+                    "languages:rokugan:battleArgot"
                   ]
                 }
               ]
@@ -5955,7 +7861,7 @@
       "img": "systems/dnd5e/icons/svg/items/background.svg",
       "system": {
         "description": {
-          "value": "<p>Tool Proficiencies: Any one tool, mounts.</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 169.</em></p>",
+          "value": "<p>Also grants proficiency with: Any one tool, mounts (apply manually).</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 168.</em></p>",
           "chat": ""
         },
         "source": {
@@ -6014,7 +7920,7 @@
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:standard:rokugani"
+                "languages:rokugan:rokugani"
               ],
               "choices": []
             },
@@ -6034,13 +7940,18 @@
                 {
                   "count": 1,
                   "pool": [
-                    "languages:standard:rokugani",
-                    "languages:standard:nezumi",
-                    "languages:standard:naganese",
-                    "languages:standard:tenguspeech",
-                    "languages:standard:ivoryKingdoms",
-                    "languages:standard:burningSands",
-                    "languages:standard:celestial"
+                    "languages:rokugan:courtlyRokugani",
+                    "languages:rokugan:ivindi",
+                    "languages:rokugan:jindallaean",
+                    "languages:rokugan:leafRustle",
+                    "languages:rokugan:qamari",
+                    "languages:rokugan:riverSpeech",
+                    "languages:rokugan:skySpeech",
+                    "languages:rokugan:stoneClick",
+                    "languages:rokugan:ujik",
+                    "languages:rokugan:yunFengWen",
+                    "languages:rokugan:animalSpeech",
+                    "languages:rokugan:battleArgot"
                   ]
                 }
               ]
@@ -6110,7 +8021,7 @@
       "img": "systems/dnd5e/icons/svg/items/background.svg",
       "system": {
         "description": {
-          "value": "<p>Tool Proficiencies: Any one tool, any one artisan tool.</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 169.</em></p>",
+          "value": "<p>Also grants proficiency with: Any one tool (apply manually).</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 168.</em></p>",
           "chat": ""
         },
         "source": {
@@ -6164,13 +8075,34 @@
             "_id": "rkmountainvillag",
             "type": "Trait",
             "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "tool:art"
+                  ]
+                }
+              ]
+            },
+            "value": {}
+          },
+          {
+            "_id": "rkmountainvillag",
+            "type": "Trait",
+            "level": 1,
             "title": "Languages",
             "configuration": {
               "hint": "",
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:standard:rokugani"
+                "languages:rokugan:rokugani"
               ],
               "choices": []
             },
@@ -6190,13 +8122,18 @@
                 {
                   "count": 1,
                   "pool": [
-                    "languages:standard:rokugani",
-                    "languages:standard:nezumi",
-                    "languages:standard:naganese",
-                    "languages:standard:tenguspeech",
-                    "languages:standard:ivoryKingdoms",
-                    "languages:standard:burningSands",
-                    "languages:standard:celestial"
+                    "languages:rokugan:courtlyRokugani",
+                    "languages:rokugan:ivindi",
+                    "languages:rokugan:jindallaean",
+                    "languages:rokugan:leafRustle",
+                    "languages:rokugan:qamari",
+                    "languages:rokugan:riverSpeech",
+                    "languages:rokugan:skySpeech",
+                    "languages:rokugan:stoneClick",
+                    "languages:rokugan:ujik",
+                    "languages:rokugan:yunFengWen",
+                    "languages:rokugan:animalSpeech",
+                    "languages:rokugan:battleArgot"
                   ]
                 }
               ]
@@ -6250,7 +8187,7 @@
       "img": "systems/dnd5e/icons/svg/items/background.svg",
       "system": {
         "description": {
-          "value": "<p>Tool Proficiencies: Any one tool, vehicles (ships).</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 169.</em></p>",
+          "value": "<p>Also grants proficiency with: Any one tool, vehicles (ships) (apply manually).</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 168.</em></p>",
           "chat": ""
         },
         "source": {
@@ -6309,7 +8246,7 @@
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:standard:rokugani"
+                "languages:rokugan:rokugani"
               ],
               "choices": []
             },
@@ -6329,13 +8266,18 @@
                 {
                   "count": 1,
                   "pool": [
-                    "languages:standard:rokugani",
-                    "languages:standard:nezumi",
-                    "languages:standard:naganese",
-                    "languages:standard:tenguspeech",
-                    "languages:standard:ivoryKingdoms",
-                    "languages:standard:burningSands",
-                    "languages:standard:celestial"
+                    "languages:rokugan:courtlyRokugani",
+                    "languages:rokugan:ivindi",
+                    "languages:rokugan:jindallaean",
+                    "languages:rokugan:leafRustle",
+                    "languages:rokugan:qamari",
+                    "languages:rokugan:riverSpeech",
+                    "languages:rokugan:skySpeech",
+                    "languages:rokugan:stoneClick",
+                    "languages:rokugan:ujik",
+                    "languages:rokugan:yunFengWen",
+                    "languages:rokugan:animalSpeech",
+                    "languages:rokugan:battleArgot"
                   ]
                 }
               ]
@@ -6405,7 +8347,7 @@
       "img": "systems/dnd5e/icons/svg/items/background.svg",
       "system": {
         "description": {
-          "value": "<p>Tool Proficiencies: Any one artisan tool, vehicles (ships).</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 178.</em></p>",
+          "value": "<p>Also grants proficiency with: vehicles (ships) (apply manually).</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 177.</em></p>",
           "chat": ""
         },
         "source": {
@@ -6455,6 +8397,27 @@
             "value": {}
           },
           {
+            "_id": "rkkinushimacityt",
+            "type": "Trait",
+            "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "tool:art"
+                  ]
+                }
+              ]
+            },
+            "value": {}
+          },
+          {
             "_id": "rkkinushimacityl",
             "type": "Trait",
             "level": 1,
@@ -6464,7 +8427,7 @@
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:standard:rokugani"
+                "languages:rokugan:rokugani"
               ],
               "choices": []
             },
@@ -6484,13 +8447,18 @@
                 {
                   "count": 1,
                   "pool": [
-                    "languages:standard:rokugani",
-                    "languages:standard:nezumi",
-                    "languages:standard:naganese",
-                    "languages:standard:tenguspeech",
-                    "languages:standard:ivoryKingdoms",
-                    "languages:standard:burningSands",
-                    "languages:standard:celestial"
+                    "languages:rokugan:courtlyRokugani",
+                    "languages:rokugan:ivindi",
+                    "languages:rokugan:jindallaean",
+                    "languages:rokugan:leafRustle",
+                    "languages:rokugan:qamari",
+                    "languages:rokugan:riverSpeech",
+                    "languages:rokugan:skySpeech",
+                    "languages:rokugan:stoneClick",
+                    "languages:rokugan:ujik",
+                    "languages:rokugan:yunFengWen",
+                    "languages:rokugan:animalSpeech",
+                    "languages:rokugan:battleArgot"
                   ]
                 }
               ]
@@ -6560,7 +8528,7 @@
       "img": "systems/dnd5e/icons/svg/items/background.svg",
       "system": {
         "description": {
-          "value": "<p>Tool Proficiencies: Fishing kit, any one musical instrument.</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 178.</em></p>",
+          "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 177.</em></p>",
           "chat": ""
         },
         "source": {
@@ -6612,13 +8580,50 @@
             "_id": "rkmenoumoriislan",
             "type": "Trait",
             "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "tool:fishingkit"
+              ],
+              "choices": []
+            },
+            "value": {}
+          },
+          {
+            "_id": "rkmenoumoriislan",
+            "type": "Trait",
+            "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "tool:music"
+                  ]
+                }
+              ]
+            },
+            "value": {}
+          },
+          {
+            "_id": "rkmenoumoriislan",
+            "type": "Trait",
+            "level": 1,
             "title": "Languages",
             "configuration": {
               "hint": "",
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:standard:rokugani"
+                "languages:rokugan:rokugani"
               ],
               "choices": []
             },
@@ -6638,13 +8643,18 @@
                 {
                   "count": 1,
                   "pool": [
-                    "languages:standard:rokugani",
-                    "languages:standard:nezumi",
-                    "languages:standard:naganese",
-                    "languages:standard:tenguspeech",
-                    "languages:standard:ivoryKingdoms",
-                    "languages:standard:burningSands",
-                    "languages:standard:celestial"
+                    "languages:rokugan:courtlyRokugani",
+                    "languages:rokugan:ivindi",
+                    "languages:rokugan:jindallaean",
+                    "languages:rokugan:leafRustle",
+                    "languages:rokugan:qamari",
+                    "languages:rokugan:riverSpeech",
+                    "languages:rokugan:skySpeech",
+                    "languages:rokugan:stoneClick",
+                    "languages:rokugan:ujik",
+                    "languages:rokugan:yunFengWen",
+                    "languages:rokugan:animalSpeech",
+                    "languages:rokugan:battleArgot"
                   ]
                 }
               ]
@@ -6722,7 +8732,7 @@
       "img": "systems/dnd5e/icons/svg/items/background.svg",
       "system": {
         "description": {
-          "value": "<p>Tool Proficiencies: Any one artisan tool.</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 180.</em></p>",
+          "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 179.</em></p>",
           "chat": ""
         },
         "source": {
@@ -6772,6 +8782,27 @@
             "value": {}
           },
           {
+            "_id": "rksaebyuksantool",
+            "type": "Trait",
+            "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "tool:art"
+                  ]
+                }
+              ]
+            },
+            "value": {}
+          },
+          {
             "_id": "rksaebyuksanlang",
             "type": "Trait",
             "level": 1,
@@ -6781,7 +8812,8 @@
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:standard:rokugani"
+                "languages:rokugan:jindallaean",
+                "languages:rokugan:rokugani"
               ],
               "choices": []
             },
@@ -6850,7 +8882,7 @@
       "img": "systems/dnd5e/icons/svg/items/background.svg",
       "system": {
         "description": {
-          "value": "<p>Tool Proficiencies: Any one artisan tool, vehicles (ships).</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 180.</em></p>",
+          "value": "<p>Also grants proficiency with: vehicles (ships) (apply manually).</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 180.</em></p>",
           "chat": ""
         },
         "source": {
@@ -6901,6 +8933,27 @@
             "value": {}
           },
           {
+            "_id": "rkkkachivalleyto",
+            "type": "Trait",
+            "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "tool:art"
+                  ]
+                }
+              ]
+            },
+            "value": {}
+          },
+          {
             "_id": "rkkkachivalleyla",
             "type": "Trait",
             "level": 1,
@@ -6910,7 +8963,8 @@
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:standard:rokugani"
+                "languages:rokugan:jindallaean",
+                "languages:rokugan:rokugani"
               ],
               "choices": []
             },
@@ -6963,7 +9017,7 @@
       "img": "systems/dnd5e/icons/svg/items/background.svg",
       "system": {
         "description": {
-          "value": "<p>Tool Proficiencies: Blacksmith’s kit or bowyer’s kit.</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 182.</em></p>",
+          "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 182.</em></p>",
           "chat": ""
         },
         "source": {
@@ -7017,13 +9071,36 @@
             "_id": "rkknottedtailstr",
             "type": "Trait",
             "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "tool:blacksmithskit",
+                    "tool:bowyerskit"
+                  ]
+                }
+              ]
+            },
+            "value": {}
+          },
+          {
+            "_id": "rkknottedtailstr",
+            "type": "Trait",
+            "level": 1,
             "title": "Languages",
             "configuration": {
               "hint": "",
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:standard:rokugani"
+                "languages:rokugan:stoneClick",
+                "languages:rokugan:rokugani"
               ],
               "choices": []
             },
@@ -7043,13 +9120,18 @@
                 {
                   "count": 1,
                   "pool": [
-                    "languages:standard:rokugani",
-                    "languages:standard:nezumi",
-                    "languages:standard:naganese",
-                    "languages:standard:tenguspeech",
-                    "languages:standard:ivoryKingdoms",
-                    "languages:standard:burningSands",
-                    "languages:standard:celestial"
+                    "languages:rokugan:courtlyRokugani",
+                    "languages:rokugan:ivindi",
+                    "languages:rokugan:jindallaean",
+                    "languages:rokugan:leafRustle",
+                    "languages:rokugan:qamari",
+                    "languages:rokugan:riverSpeech",
+                    "languages:rokugan:skySpeech",
+                    "languages:rokugan:stoneClick",
+                    "languages:rokugan:ujik",
+                    "languages:rokugan:yunFengWen",
+                    "languages:rokugan:animalSpeech",
+                    "languages:rokugan:battleArgot"
                   ]
                 }
               ]
@@ -7135,7 +9217,7 @@
       "img": "systems/dnd5e/icons/svg/items/background.svg",
       "system": {
         "description": {
-          "value": "<p>Tool Proficiencies: Any one mystic implement (see page 206).</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 185.</em></p>",
+          "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 183.</em></p>",
           "chat": ""
         },
         "source": {
@@ -7189,13 +9271,35 @@
             "_id": "rksnowfeatheraer",
             "type": "Trait",
             "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "tool:mystic"
+                  ]
+                }
+              ]
+            },
+            "value": {}
+          },
+          {
+            "_id": "rksnowfeatheraer",
+            "type": "Trait",
+            "level": 1,
             "title": "Languages",
             "configuration": {
               "hint": "",
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:standard:rokugani"
+                "languages:rokugan:skySpeech",
+                "languages:rokugan:rokugani"
               ],
               "choices": []
             },
@@ -7248,7 +9352,7 @@
       "img": "systems/dnd5e/icons/svg/items/background.svg",
       "system": {
         "description": {
-          "value": "<p>Tool Proficiencies: Blacksmith’s kit or sword maintenance kit (see page 204).</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 185.</em></p>",
+          "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 183.</em></p>",
           "chat": ""
         },
         "source": {
@@ -7297,6 +9401,28 @@
             "value": {}
           },
           {
+            "_id": "rkstarfallaeriet",
+            "type": "Trait",
+            "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "tool:blacksmithskit",
+                    "tool:swordmaintenancekit"
+                  ]
+                }
+              ]
+            },
+            "value": {}
+          },
+          {
             "_id": "rkstarfallaeriel",
             "type": "Trait",
             "level": 1,
@@ -7306,7 +9432,8 @@
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:standard:rokugani"
+                "languages:rokugan:skySpeech",
+                "languages:rokugan:rokugani"
               ],
               "choices": []
             },
@@ -7367,7 +9494,7 @@
       "img": "systems/dnd5e/icons/svg/items/background.svg",
       "system": {
         "description": {
-          "value": "<p>Tool Proficiencies: Any one artisan tool or musical instrument.</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 185.</em></p>",
+          "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 183.</em></p>",
           "chat": ""
         },
         "source": {
@@ -7421,13 +9548,36 @@
             "_id": "rkcourtoftheanim",
             "type": "Trait",
             "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "tool:art",
+                    "tool:music"
+                  ]
+                }
+              ]
+            },
+            "value": {}
+          },
+          {
+            "_id": "rkcourtoftheanim",
+            "type": "Trait",
+            "level": 1,
             "title": "Languages",
             "configuration": {
               "hint": "",
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:standard:rokugani"
+                "languages:rokugan:animalSpeech",
+                "languages:rokugan:rokugani"
               ],
               "choices": []
             },
@@ -7472,7 +9622,7 @@
       "img": "systems/dnd5e/icons/svg/items/background.svg",
       "system": {
         "description": {
-          "value": "<p>Tool Proficiencies: Calligraphy set.</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 185.</em></p>",
+          "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 183.</em></p>",
           "chat": ""
         },
         "source": {
@@ -7526,13 +9676,30 @@
             "_id": "rktherealmofwait",
             "type": "Trait",
             "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "tool:calligraphyset"
+              ],
+              "choices": []
+            },
+            "value": {}
+          },
+          {
+            "_id": "rktherealmofwait",
+            "type": "Trait",
+            "level": 1,
             "title": "Languages",
             "configuration": {
               "hint": "",
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:standard:rokugani"
+                "languages:rokugan:courtlyRokugani",
+                "languages:rokugan:rokugani"
               ],
               "choices": []
             },
@@ -7552,13 +9719,18 @@
                 {
                   "count": 1,
                   "pool": [
-                    "languages:standard:rokugani",
-                    "languages:standard:nezumi",
-                    "languages:standard:naganese",
-                    "languages:standard:tenguspeech",
-                    "languages:standard:ivoryKingdoms",
-                    "languages:standard:burningSands",
-                    "languages:standard:celestial"
+                    "languages:rokugan:courtlyRokugani",
+                    "languages:rokugan:ivindi",
+                    "languages:rokugan:jindallaean",
+                    "languages:rokugan:leafRustle",
+                    "languages:rokugan:qamari",
+                    "languages:rokugan:riverSpeech",
+                    "languages:rokugan:skySpeech",
+                    "languages:rokugan:stoneClick",
+                    "languages:rokugan:ujik",
+                    "languages:rokugan:yunFengWen",
+                    "languages:rokugan:animalSpeech",
+                    "languages:rokugan:battleArgot"
                   ]
                 }
               ]
@@ -7620,7 +9792,7 @@
       "img": "systems/dnd5e/icons/svg/items/background.svg",
       "system": {
         "description": {
-          "value": "<p>Weapon Proficiencies: Any one martial weapon.</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 185.</em></p>",
+          "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 183.</em></p>",
           "chat": ""
         },
         "source": {
@@ -7672,13 +9844,36 @@
             "_id": "rktherealmofslau",
             "type": "Trait",
             "level": 1,
+            "title": "Weapon Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "weapon:mar"
+                  ]
+                }
+              ]
+            },
+            "value": {}
+          },
+          {
+            "_id": "rktherealmofslau",
+            "type": "Trait",
+            "level": 1,
             "title": "Languages",
             "configuration": {
               "hint": "",
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:standard:rokugani"
+                "languages:rokugan:courtlyRokugani",
+                "languages:rokugan:battleArgot",
+                "languages:rokugan:rokugani"
               ],
               "choices": []
             },

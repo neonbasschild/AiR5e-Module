@@ -80,7 +80,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Bushi class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 44.</em></p>",
+          "value": "<p>Bushi class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 47.</em></p>",
           "chat": ""
         },
         "source": {
@@ -117,7 +117,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Bushi class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 44.</em></p>",
+          "value": "<p>Bushi class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 47.</em></p>",
           "chat": ""
         },
         "source": {
@@ -154,7 +154,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Bushi class feature (level 2).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 44.</em></p>",
+          "value": "<p>Bushi class feature (level 2).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 49.</em></p>",
           "chat": ""
         },
         "source": {
@@ -191,7 +191,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Bushi class feature (level 2).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 44.</em></p>",
+          "value": "<p>Bushi class feature (level 2).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 50.</em></p>",
           "chat": ""
         },
         "source": {
@@ -228,7 +228,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Bushi class feature (level 5).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 44.</em></p>",
+          "value": "<p>Bushi class feature (level 5).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 50.</em></p>",
           "chat": ""
         },
         "source": {
@@ -265,7 +265,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Bushi class feature (level 6).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 44.</em></p>",
+          "value": "<p>Bushi class feature (level 6).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 50.</em></p>",
           "chat": ""
         },
         "source": {
@@ -480,6 +480,43 @@
       }
     },
     {
+      "_id": "rcfbushifighting",
+      "_key": "!items!rcfbushifighting",
+      "name": "Fighting Style",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Bushi class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 44.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "bushifightingstyle",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Bushi 1",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcbushi00000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
       "_id": "rcfduelistmartia",
       "_key": "!items!rcfduelistmartia",
       "name": "Martial Techniques",
@@ -487,7 +524,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Duelist class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 54.</em></p>",
+          "value": "<p>Duelist class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 47.</em></p>",
           "chat": ""
         },
         "source": {
@@ -561,7 +598,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Duelist class feature (level 2).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 54.</em></p>",
+          "value": "<p>Duelist class feature (level 2).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 59.</em></p>",
           "chat": ""
         },
         "source": {
@@ -598,7 +635,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Duelist class feature (level 3).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 54.</em></p>",
+          "value": "<p>Duelist class feature (level 3).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 59.</em></p>",
           "chat": ""
         },
         "source": {
@@ -635,7 +672,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Duelist class feature (level 5).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 54.</em></p>",
+          "value": "<p>Duelist class feature (level 5).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 50.</em></p>",
           "chat": ""
         },
         "source": {
@@ -672,7 +709,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Duelist class feature (level 6).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 54.</em></p>",
+          "value": "<p>Duelist class feature (level 6).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 60.</em></p>",
           "chat": ""
         },
         "source": {
@@ -709,7 +746,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Duelist class feature (level 9).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 54.</em></p>",
+          "value": "<p>Duelist class feature (level 9).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 60.</em></p>",
           "chat": ""
         },
         "source": {
@@ -746,7 +783,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Duelist class feature (level 10).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 54.</em></p>",
+          "value": "<p>Duelist class feature (level 10).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 50.</em></p>",
           "chat": ""
         },
         "source": {
@@ -924,6 +961,80 @@
       }
     },
     {
+      "_id": "rcfduelistfocusp",
+      "_key": "!items!rcfduelistfocusp",
+      "name": "Focus Points",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Duelist class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 47.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "duelistfocuspoints",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Duelist 1",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcduelist000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfduelistduelis",
+      "_key": "!items!rcfduelistduelis",
+      "name": "Duelist's Poise",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Duelist class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 54.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "duelistduelistspoise",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Duelist 1",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcduelist000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
       "_id": "rcfcourtierflour",
       "_key": "!items!rcfcourtierflour",
       "name": "Flourishes",
@@ -931,7 +1042,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Courtier class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 64.</em></p>",
+          "value": "<p>Courtier class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 67.</em></p>",
           "chat": ""
         },
         "source": {
@@ -968,7 +1079,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Courtier class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 64.</em></p>",
+          "value": "<p>Courtier class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 67.</em></p>",
           "chat": ""
         },
         "source": {
@@ -1042,7 +1153,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Courtier class feature (level 5).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 64.</em></p>",
+          "value": "<p>Courtier class feature (level 5).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 66.</em></p>",
           "chat": ""
         },
         "source": {
@@ -1116,7 +1227,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Courtier class feature (level 11).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 64.</em></p>",
+          "value": "<p>Courtier class feature (level 11).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 73.</em></p>",
           "chat": ""
         },
         "source": {
@@ -1227,7 +1338,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Courtier class feature (level 16).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 64.</em></p>",
+          "value": "<p>Courtier class feature (level 16).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 73.</em></p>",
           "chat": ""
         },
         "source": {
@@ -1294,6 +1405,117 @@
       }
     },
     {
+      "_id": "rcfcourtierfocus",
+      "_key": "!items!rcfcourtierfocus",
+      "name": "Focus Points",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Courtier class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 47.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "courtierfocuspoints",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Courtier 1",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfccourtier00000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfcourtiercourt",
+      "_key": "!items!rcfcourtiercourt",
+      "name": "Courtly Techniques",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Courtier class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 64.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "courtiercourtlytechniques",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Courtier 1",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfccourtier00000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfcourtierrheto",
+      "_key": "!items!rcfcourtierrheto",
+      "name": "Rhetoric",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Courtier class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 64.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "courtierrhetoric",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Courtier 1",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfccourtier00000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
       "_id": "rcfshinobiexpert",
       "_key": "!items!rcfshinobiexpert",
       "name": "Expert Prowler",
@@ -1301,7 +1523,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Shinobi class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 74.</em></p>",
+          "value": "<p>Shinobi class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 81.</em></p>",
           "chat": ""
         },
         "source": {
@@ -1338,7 +1560,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Shinobi class feature (level 2).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 74.</em></p>",
+          "value": "<p>Shinobi class feature (level 2).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 81.</em></p>",
           "chat": ""
         },
         "source": {
@@ -1375,7 +1597,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Shinobi class feature (level 5).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 74.</em></p>",
+          "value": "<p>Shinobi class feature (level 5).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 81.</em></p>",
           "chat": ""
         },
         "source": {
@@ -1412,7 +1634,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Shinobi class feature (level 6).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 74.</em></p>",
+          "value": "<p>Shinobi class feature (level 6).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 81.</em></p>",
           "chat": ""
         },
         "source": {
@@ -1449,7 +1671,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Shinobi class feature (level 7).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 74.</em></p>",
+          "value": "<p>Shinobi class feature (level 7).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 81.</em></p>",
           "chat": ""
         },
         "source": {
@@ -1486,7 +1708,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Shinobi class feature (level 11).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 74.</em></p>",
+          "value": "<p>Shinobi class feature (level 11).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 81.</em></p>",
           "chat": ""
         },
         "source": {
@@ -1523,7 +1745,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Shinobi class feature (level 14).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 74.</em></p>",
+          "value": "<p>Shinobi class feature (level 14).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 81.</em></p>",
           "chat": ""
         },
         "source": {
@@ -1597,7 +1819,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Shinobi class feature (level 17).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 74.</em></p>",
+          "value": "<p>Shinobi class feature (level 17).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 81.</em></p>",
           "chat": ""
         },
         "source": {
@@ -1634,7 +1856,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Shinobi class feature (level 20).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 74.</em></p>",
+          "value": "<p>Shinobi class feature (level 20).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 82.</em></p>",
           "chat": ""
         },
         "source": {
@@ -1664,6 +1886,196 @@
       }
     },
     {
+      "_id": "rcfshinobimercil",
+      "_key": "!items!rcfshinobimercil",
+      "name": "Merciless Strikes",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Shinobi class feature (level 1).</p><p>Add this much extra damage per negative condition on the target (max three instances), once per creature per turn. Damage type matches the triggering attack.</p><p>Per-condition damage scales by level (see @scale.shinobi.merciless-strikes).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 79.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "shinobimercilessstrikes",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Shinobi 1",
+        "properties": [],
+        "activities": {
+          "rkactshinobimerc": {
+            "_id": "rkactshinobimerc",
+            "type": "damage",
+            "name": "Apply Damage",
+            "activation": {
+              "type": "special",
+              "value": null,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "damage": {
+              "parts": [
+                {
+                  "number": null,
+                  "denomination": null,
+                  "bonus": "",
+                  "types": [],
+                  "custom": {
+                    "enabled": true,
+                    "formula": "@scale.shinobi.merciless-strikes"
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": null
+                  }
+                }
+              ]
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcshinobi000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfshinobininjut",
+      "_key": "!items!rcfshinobininjut",
+      "name": "Ninjutsu",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Shinobi class feature (level 1).</p><p>Ninjutsu attack modifier = proficiency + Dexterity. Ninjutsu save DC = 8 + proficiency + Dexterity.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 79.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "shinobininjutsu",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Shinobi 1",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcshinobi000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfshinobifocusp",
+      "_key": "!items!rcfshinobifocusp",
+      "name": "Focus Points",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Shinobi class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 47.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "shinobifocuspoints",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Shinobi 1",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcshinobi000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfshinobininjat",
+      "_key": "!items!rcfshinobininjat",
+      "name": "Ninja Tools",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Shinobi class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 84.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "shinobininjatools",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Shinobi 1",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcshinobi000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
       "_id": "rcfritualistinvo",
       "_key": "!items!rcfritualistinvo",
       "name": "Invocations and Favor",
@@ -1671,7 +2083,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Ritualist class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 88.</em></p>",
+          "value": "<p>Ritualist class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 89.</em></p>",
           "chat": ""
         },
         "source": {
@@ -1745,7 +2157,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Ritualist class feature (level 10).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 88.</em></p>",
+          "value": "<p>Ritualist class feature (level 10).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 91.</em></p>",
           "chat": ""
         },
         "source": {
@@ -1782,7 +2194,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Ritualist class feature (level 18).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 88.</em></p>",
+          "value": "<p>Ritualist class feature (level 18).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 91.</em></p>",
           "chat": ""
         },
         "source": {
@@ -1849,6 +2261,117 @@
       }
     },
     {
+      "_id": "rcfritualistinvo",
+      "_key": "!items!rcfritualistinvo",
+      "name": "Invocations",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Ritualist class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 88.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "ritualistinvocations",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Ritualist 1",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcritualist0000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfritualistfavo",
+      "_key": "!items!rcfritualistfavo",
+      "name": "Favor",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Ritualist class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 89.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "ritualistfavor",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Ritualist 1",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcritualist0000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfritualistritu",
+      "_key": "!items!rcfritualistritu",
+      "name": "Ritual Casting",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Ritualist class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 88.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "ritualistritualcasting",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Ritualist 1",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcritualist0000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
       "_id": "rcfpilgrimbodymi",
       "_key": "!items!rcfpilgrimbodymi",
       "name": "Body, Mind, and Spirit",
@@ -1893,7 +2416,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Pilgrim class feature (level 2).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 99.</em></p>",
+          "value": "<p>Pilgrim class feature (level 2).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 100.</em></p>",
           "chat": ""
         },
         "source": {
@@ -1930,7 +2453,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Pilgrim class feature (level 2).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 99.</em></p>",
+          "value": "<p>Pilgrim class feature (level 2).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 101.</em></p>",
           "chat": ""
         },
         "source": {
@@ -1967,7 +2490,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Pilgrim class feature (level 3).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 99.</em></p>",
+          "value": "<p>Pilgrim class feature (level 3).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 100.</em></p>",
           "chat": ""
         },
         "source": {
@@ -2004,7 +2527,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Pilgrim class feature (level 5).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 99.</em></p>",
+          "value": "<p>Pilgrim class feature (level 5).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 101.</em></p>",
           "chat": ""
         },
         "source": {
@@ -2041,7 +2564,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Pilgrim class feature (level 5).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 99.</em></p>",
+          "value": "<p>Pilgrim class feature (level 5).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 101.</em></p>",
           "chat": ""
         },
         "source": {
@@ -2115,7 +2638,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Pilgrim class feature (level 7).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 99.</em></p>",
+          "value": "<p>Pilgrim class feature (level 7).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 101.</em></p>",
           "chat": ""
         },
         "source": {
@@ -2152,7 +2675,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Pilgrim class feature (level 9).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 99.</em></p>",
+          "value": "<p>Pilgrim class feature (level 9).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 103.</em></p>",
           "chat": ""
         },
         "source": {
@@ -2226,7 +2749,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Pilgrim class feature (level 12).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 99.</em></p>",
+          "value": "<p>Pilgrim class feature (level 12).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 98.</em></p>",
           "chat": ""
         },
         "source": {
@@ -2263,7 +2786,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Pilgrim class feature (level 13).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 99.</em></p>",
+          "value": "<p>Pilgrim class feature (level 13).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 104.</em></p>",
           "chat": ""
         },
         "source": {
@@ -2300,7 +2823,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Pilgrim class feature (level 14).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 99.</em></p>",
+          "value": "<p>Pilgrim class feature (level 14).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 104.</em></p>",
           "chat": ""
         },
         "source": {
@@ -2374,7 +2897,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Pilgrim class feature (level 20).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 99.</em></p>",
+          "value": "<p>Pilgrim class feature (level 20).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 98.</em></p>",
           "chat": ""
         },
         "source": {
@@ -2411,7 +2934,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Acolyte class feature (level 2).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 112.</em></p>",
+          "value": "<p>Acolyte class feature (level 2).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 116.</em></p>",
           "chat": ""
         },
         "source": {
@@ -2448,7 +2971,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Acolyte class feature (level 3).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 112.</em></p>",
+          "value": "<p>Acolyte class feature (level 3).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 116.</em></p>",
           "chat": ""
         },
         "source": {
@@ -2522,7 +3045,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Acolyte class feature (level 5).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 112.</em></p>",
+          "value": "<p>Acolyte class feature (level 5).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 116.</em></p>",
           "chat": ""
         },
         "source": {
@@ -2559,7 +3082,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Acolyte class feature (level 7).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 112.</em></p>",
+          "value": "<p>Acolyte class feature (level 7).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 116.</em></p>",
           "chat": ""
         },
         "source": {
@@ -2596,7 +3119,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Acolyte class feature (level 10).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 112.</em></p>",
+          "value": "<p>Acolyte class feature (level 10).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 116.</em></p>",
           "chat": ""
         },
         "source": {
@@ -2633,7 +3156,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Acolyte class feature (level 13).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 112.</em></p>",
+          "value": "<p>Acolyte class feature (level 13).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 116.</em></p>",
           "chat": ""
         },
         "source": {
@@ -2670,7 +3193,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Acolyte class feature (level 15).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 112.</em></p>",
+          "value": "<p>Acolyte class feature (level 15).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 116.</em></p>",
           "chat": ""
         },
         "source": {
@@ -2707,7 +3230,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Acolyte class feature (level 18).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 112.</em></p>",
+          "value": "<p>Acolyte class feature (level 18).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 116.</em></p>",
           "chat": ""
         },
         "source": {
@@ -2720,6 +3243,117 @@
           "subtype": ""
         },
         "requirements": "Acolyte 18",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcacolyte000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfacolytefocusp",
+      "_key": "!items!rcfacolytefocusp",
+      "name": "Focus Points",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Acolyte class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 47.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "acolytefocuspoints",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Acolyte 1",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcacolyte000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfacolytemartia",
+      "_key": "!items!rcfacolytemartia",
+      "name": "Martial Techniques",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Acolyte class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 47.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "acolytemartialtechniques",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Acolyte 1",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        }
+      },
+      "effects": [],
+      "folder": "rfcacolyte000000",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcfacolytesupern",
+      "_key": "!items!rcfacolytesupern",
+      "name": "Supernatural Mark",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Acolyte class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 112.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "acolytesupernaturalmark",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Acolyte 1",
         "properties": [],
         "activities": {},
         "uses": {

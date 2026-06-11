@@ -90,7 +90,7 @@
       "img": "systems/dnd5e/icons/svg/items/class.svg",
       "system": {
         "description": {
-          "value": "<p>Front-line warrior using Focus and martial techniques.</p><p>Starting equipment and full feature text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 44.</em></p>",
+          "value": "<p>Front-line warrior using Focus and martial techniques.</p><p>Proficiencies, starting equipment, and full feature text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 44.</em></p>",
           "chat": ""
         },
         "source": {
@@ -356,6 +356,10 @@
                 },
                 {
                   "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfbushimartialt",
+                  "optional": false
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfbushifighting",
                   "optional": false
                 }
               ],
@@ -692,7 +696,7 @@
       "img": "systems/dnd5e/icons/svg/items/class.svg",
       "system": {
         "description": {
-          "value": "<p>Master of the blade and the duel; uses Focus and techniques.</p><p>Tools: bowyer's kit or sword maintenance kit.</p><p>Starting equipment and full feature text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 54.</em></p>",
+          "value": "<p>Master of the blade and the duel; uses Focus and techniques.</p><p>Proficiencies, starting equipment, and full feature text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 53.</em></p>",
           "chat": ""
         },
         "source": {
@@ -770,6 +774,28 @@
                     "skills:prc",
                     "skills:prf",
                     "skills:per"
+                  ]
+                }
+              ]
+            },
+            "value": {}
+          },
+          {
+            "_id": "rkduelisttoolxc0",
+            "type": "Trait",
+            "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "tool:bowyerskit",
+                    "tool:swordmaintenancekit"
                   ]
                 }
               ]
@@ -937,6 +963,14 @@
               "items": [
                 {
                   "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfduelistmartia",
+                  "optional": false
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfduelistfocusp",
+                  "optional": false
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfduelistduelis",
                   "optional": false
                 }
               ],
@@ -1331,7 +1365,7 @@
       "img": "systems/dnd5e/icons/svg/items/class.svg",
       "system": {
         "description": {
-          "value": "<p>Diplomat and intriguer; uses Focus and social techniques.</p><p>Armor: silk armor (a Rokugan-specific light armor).</p><p>Tools: any two from artisan's tools, gaming sets, mystic implements, tools of subterfuge.</p><p>Starting equipment and full feature text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 64.</em></p>",
+          "value": "<p>Diplomat and intriguer; uses Focus and social techniques.</p><p>Proficiencies, starting equipment, and full feature text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 64.</em></p>",
           "chat": ""
         },
         "source": {
@@ -1412,6 +1446,46 @@
                     "skills:per",
                     "skills:rel",
                     "skills:slt"
+                  ]
+                }
+              ]
+            },
+            "value": {}
+          },
+          {
+            "_id": "rkcourtierarmx00",
+            "type": "Trait",
+            "level": 1,
+            "title": "Armor Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "armor:silkarmor"
+              ],
+              "choices": []
+            },
+            "value": {}
+          },
+          {
+            "_id": "rkcourtiertoolxc",
+            "type": "Trait",
+            "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 2,
+                  "pool": [
+                    "tool:art",
+                    "tool:game",
+                    "tool:mystic",
+                    "tool:subterfuge"
                   ]
                 }
               ]
@@ -1559,6 +1633,18 @@
                 },
                 {
                   "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfcourtierstrat",
+                  "optional": false
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfcourtierfocus",
+                  "optional": false
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfcourtiercourt",
+                  "optional": false
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfcourtierrheto",
                   "optional": false
                 }
               ],
@@ -1874,7 +1960,7 @@
       "img": "systems/dnd5e/icons/svg/items/class.svg",
       "system": {
         "description": {
-          "value": "<p>Spy and infiltrator; uses Focus and ninjutsu techniques.</p><p>Weapons: also shuriken, chain sickle, katana, nunchaku, sai, and swordbreaker.</p><p>Tools: ninja tools, tools of subterfuge.</p><p>Starting equipment and full feature text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 74.</em></p>",
+          "value": "<p>Spy and infiltrator; uses Focus and ninjutsu techniques.</p><p>Proficiencies, starting equipment, and full feature text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 76.</em></p>",
           "chat": ""
         },
         "source": {
@@ -1975,6 +2061,64 @@
             "value": {}
           },
           {
+            "_id": "rkshinobiwpnx000",
+            "type": "Trait",
+            "level": 1,
+            "title": "Weapon Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "weapon:shuriken",
+                "weapon:chainsickle",
+                "weapon:katana",
+                "weapon:nunchaku",
+                "weapon:sai",
+                "weapon:swordbreaker"
+              ],
+              "choices": []
+            },
+            "value": {}
+          },
+          {
+            "_id": "rkshinobitoolx00",
+            "type": "Trait",
+            "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "tool:disguisekit"
+              ],
+              "choices": []
+            },
+            "value": {}
+          },
+          {
+            "_id": "rkshinobitoolxc0",
+            "type": "Trait",
+            "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "tool:subterfuge"
+                  ]
+                }
+              ]
+            },
+            "value": {}
+          },
+          {
             "_id": "rkfocusmaximum00",
             "type": "ScaleValue",
             "title": "Focus Maximum",
@@ -2041,6 +2185,176 @@
                 },
                 "18": {
                   "value": 7
+                }
+              }
+            },
+            "value": {}
+          },
+          {
+            "_id": "rkshinobimercile",
+            "type": "ScaleValue",
+            "title": "Merciless Strikes",
+            "configuration": {
+              "identifier": "merciless-strikes",
+              "type": "dice",
+              "distance": {
+                "units": ""
+              },
+              "scale": {
+                "1": {
+                  "number": 1,
+                  "faces": 4
+                },
+                "2": {
+                  "number": 1,
+                  "faces": 4
+                },
+                "3": {
+                  "number": 2,
+                  "faces": 4
+                },
+                "4": {
+                  "number": 2,
+                  "faces": 4
+                },
+                "5": {
+                  "number": 2,
+                  "faces": 4
+                },
+                "6": {
+                  "number": 2,
+                  "faces": 4
+                },
+                "7": {
+                  "number": 2,
+                  "faces": 6
+                },
+                "8": {
+                  "number": 2,
+                  "faces": 6
+                },
+                "9": {
+                  "number": 3,
+                  "faces": 4
+                },
+                "10": {
+                  "number": 3,
+                  "faces": 4
+                },
+                "11": {
+                  "number": 2,
+                  "faces": 8
+                },
+                "12": {
+                  "number": 2,
+                  "faces": 8
+                },
+                "13": {
+                  "number": 3,
+                  "faces": 6
+                },
+                "14": {
+                  "number": 3,
+                  "faces": 6
+                },
+                "15": {
+                  "number": 3,
+                  "faces": 6
+                },
+                "16": {
+                  "number": 3,
+                  "faces": 6
+                },
+                "17": {
+                  "number": 3,
+                  "faces": 8
+                },
+                "18": {
+                  "number": 3,
+                  "faces": 8
+                },
+                "19": {
+                  "number": 3,
+                  "faces": 8
+                },
+                "20": {
+                  "number": 3,
+                  "faces": 8
+                }
+              }
+            },
+            "value": {}
+          },
+          {
+            "_id": "rkninjatoolsprep",
+            "type": "ScaleValue",
+            "title": "Ninja Tools Prepared",
+            "configuration": {
+              "identifier": "ninja-tools-prepared",
+              "type": "number",
+              "distance": {
+                "units": ""
+              },
+              "scale": {
+                "1": {
+                  "value": 2
+                },
+                "2": {
+                  "value": 2
+                },
+                "3": {
+                  "value": 2
+                },
+                "4": {
+                  "value": 2
+                },
+                "5": {
+                  "value": 2
+                },
+                "6": {
+                  "value": 3
+                },
+                "7": {
+                  "value": 3
+                },
+                "8": {
+                  "value": 3
+                },
+                "9": {
+                  "value": 3
+                },
+                "10": {
+                  "value": 3
+                },
+                "11": {
+                  "value": 4
+                },
+                "12": {
+                  "value": 4
+                },
+                "13": {
+                  "value": 4
+                },
+                "14": {
+                  "value": 4
+                },
+                "15": {
+                  "value": 4
+                },
+                "16": {
+                  "value": 5
+                },
+                "17": {
+                  "value": 5
+                },
+                "18": {
+                  "value": 5
+                },
+                "19": {
+                  "value": 5
+                },
+                "20": {
+                  "value": 5
                 }
               }
             },
@@ -2135,6 +2449,22 @@
               "items": [
                 {
                   "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfshinobiexpert",
+                  "optional": false
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfshinobimercil",
+                  "optional": false
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfshinobininjut",
+                  "optional": false
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfshinobifocusp",
+                  "optional": false
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfshinobininjat",
                   "optional": false
                 }
               ],
@@ -2496,7 +2826,7 @@
       "img": "systems/dnd5e/icons/svg/items/class.svg",
       "system": {
         "description": {
-          "value": "<p>Priest who entreats the spirits; uses Favor and invocations.</p><p>Tools: choose one mystic implement.</p><p>Starting equipment and full feature text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 88.</em></p>",
+          "value": "<p>Priest who entreats the spirits; uses Favor and invocations.</p><p>Proficiencies, starting equipment, and full feature text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 86.</em></p>",
           "chat": ""
         },
         "source": {
@@ -2575,6 +2905,27 @@
                     "skills:prf",
                     "skills:per",
                     "skills:rel"
+                  ]
+                }
+              ]
+            },
+            "value": {}
+          },
+          {
+            "_id": "rkritualisttoolx",
+            "type": "Trait",
+            "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "tool:mystic"
                   ]
                 }
               ]
@@ -2796,6 +3147,18 @@
               "items": [
                 {
                   "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfritualistinvo",
+                  "optional": false
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfritualistinvo",
+                  "optional": false
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfritualistfavo",
+                  "optional": false
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfritualistritu",
                   "optional": false
                 }
               ],
@@ -3027,7 +3390,7 @@
       "img": "systems/dnd5e/icons/svg/items/class.svg",
       "system": {
         "description": {
-          "value": "<p>Seeker of balance; channels Yin/Yang energy and externalizations.</p><p>Tools: one type of artisan's tools of your choice.</p><p>Starting equipment and full feature text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 99.</em></p>",
+          "value": "<p>Seeker of balance; channels Yin/Yang energy and externalizations.</p><p>Proficiencies, starting equipment, and full feature text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 96.</em></p>",
           "chat": ""
         },
         "source": {
@@ -3103,6 +3466,27 @@
                     "skills:sur",
                     "skills:med",
                     "skills:his"
+                  ]
+                }
+              ]
+            },
+            "value": {}
+          },
+          {
+            "_id": "rkpilgrimtoolxc0",
+            "type": "Trait",
+            "level": 1,
+            "title": "Tool Proficiency",
+            "configuration": {
+              "hint": "",
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "tool:art"
                   ]
                 }
               ]
@@ -3519,7 +3903,7 @@
       "img": "systems/dnd5e/icons/svg/items/class.svg",
       "system": {
         "description": {
-          "value": "<p>Bearer of a supernatural mark; uses Focus and techniques.</p><p>Starting equipment and full feature text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 112.</em></p>",
+          "value": "<p>Bearer of a supernatural mark; uses Focus and techniques.</p><p>Proficiencies, starting equipment, and full feature text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 111.</em></p>",
           "chat": ""
         },
         "source": {
@@ -3757,6 +4141,31 @@
               "points": 2,
               "fixed": {},
               "cap": 2
+            },
+            "value": {}
+          },
+          {
+            "_id": "rkacolytegrant10",
+            "type": "ItemGrant",
+            "level": 1,
+            "title": "Features",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfacolytefocusp",
+                  "optional": false
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfacolytemartia",
+                  "optional": false
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfacolytesupern",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": null
             },
             "value": {}
           },

@@ -12,6 +12,8 @@
  *  - Weapons: Rokugan/Japanese-inspired weapon names
  */
 
+import { ROKUGAN_WEAPON_IDS, ROKUGAN_TOOL_IDS, EQUIPMENT_PACK } from "./proficiency-ids.mjs";
+
 export class RokuganConfig {
 
   // ----------------------------------------
@@ -140,12 +142,14 @@ export class RokuganConfig {
   // Currency (replaces gp/sp/cp labels)
   // ----------------------------------------
 
+  // Reference only (live registration is in apply(), driven by the
+  // currencyMode setting). Conversions are coins-per-gp from book Table 4-1:
+  //   koku = 1 gp, bu = 2 sp (1/5 gp), zeni = 2 cp (1/50 gp).
   static CURRENCY = {
-    cp: { label: "ROKUGAN.Currency.Zeni", abbr: "ROKUGAN.Currency.ZeniAbbr" },
-    sp: { label: "ROKUGAN.Currency.Bu", abbr: "ROKUGAN.Currency.BuAbbr" },
-    gp: { label: "ROKUGAN.Currency.Koku", abbr: "ROKUGAN.Currency.KokuAbbr" },
-    ep: null,   // Not used in Rokugan
-    pp: null    // Not used in Rokugan
+    koku: { label: "ROKUGAN.Currency.Koku", abbr: "ROKUGAN.Currency.KokuAbbr", conversion: 1 },
+    bu:   { label: "ROKUGAN.Currency.Bu",   abbr: "ROKUGAN.Currency.BuAbbr",   conversion: 5 },
+    zeni: { label: "ROKUGAN.Currency.Zeni", abbr: "ROKUGAN.Currency.ZeniAbbr", conversion: 50 },
+    // ep and pp are not used as currency in Rokugan.
   };
 
   // ----------------------------------------
@@ -284,16 +288,26 @@ export class RokuganConfig {
   // Languages of Rokugan
   // ----------------------------------------
 
+  // Canonical Adventures in Rokugan language list (reference; the live
+  // registration happens in apply()).
   static LANGUAGES = {
     rokugani: "ROKUGAN.Language.Rokugani",
-    nezumi: "ROKUGAN.Language.Nezumi",
-    naganese: "ROKUGAN.Language.Naganese",
-    tenguspeech: "ROKUGAN.Language.TenguSpeech",
-    ivoryKingdoms: "ROKUGAN.Language.IvoryKingdoms",
-    burningSands: "ROKUGAN.Language.BurningSands",
-    celestial: "ROKUGAN.Language.Celestial",
-    // Sign language
     rokuganiSigned: "ROKUGAN.Language.RokuganiSigned",
+    courtlyRokugani: "ROKUGAN.Language.CourtlyRokugani",
+    ivindi: "ROKUGAN.Language.Ivindi",
+    jindallaean: "ROKUGAN.Language.Jindallaean",
+    leafRustle: "ROKUGAN.Language.LeafRustle",
+    qamari: "ROKUGAN.Language.QamariLanguages",
+    riverSpeech: "ROKUGAN.Language.RiverSpeech",
+    skySpeech: "ROKUGAN.Language.SkySpeech",
+    stoneClick: "ROKUGAN.Language.StoneClick",
+    ujik: "ROKUGAN.Language.UjikLanguages",
+    yunFengWen: "ROKUGAN.Language.YunFengWen",
+    animalSpeech: "ROKUGAN.Language.AnimalSpeech",
+    battleArgot: "ROKUGAN.Language.BattleArgot",
+    asakoCipher: "ROKUGAN.Language.AsakoCipher",
+    kuniCodes: "ROKUGAN.Language.KuniCodes",
+    yogoCipher: "ROKUGAN.Language.YogoCipher",
   };
 
   // ----------------------------------------
@@ -331,62 +345,137 @@ export class RokuganConfig {
     // the language file overrides in lang/en.json.
 
     // ----- Currency -----
-    // dnd5e 5.x currencies carry { label, abbreviation, conversion, icon }.
-    // Renames are gated on the terminology setting; removal of electrum and
-    // platinum (not used in Rokugan) is gated on hideNonRokuganContent and
-    // done by deleting the config entries, which is how dnd5e expects
-    // currencies to be removed.
+    // Per Adventures in Rokugan (Table 4-1, p. 187), the game uses standard
+    // gp/sp/cp by default but provides the Legend of the Five Rings coinage as
+    // an option, with these exact relationships:
+    //   1 koku = 1 gp   (= 10 sp = 100 cp = 5 bu = 50 zeni)
+    //   1 bu   = 2 sp   (= 1/5 gp = 20 cp = 10 zeni)
+    //   1 zeni = 2 cp   (= 1/5 sp = 1/50 gp)
+    // dnd5e's `conversion` is "how many of this coin equal one gp", so:
+    //   koku 1, bu 5, zeni 50 - which is exactly the koku/bu/zeni column of
+    //   the book's table. Because the conversions are correct, money entered
+    //   in one denomination is valued correctly against the other system, so
+    //   switching modes converts on the fly without changing a character's
+    //   actual wealth.
+    //
+    // The "currencyMode" setting chooses the presentation:
+    //   "standard" - gp/sp/cp (default, as the book recommends for 5e players)
+    //   "rokugan"  - koku/bu/zeni only (the L5R classic coinage)
+    //   "both"     - keep gp/sp/cp AND add koku/bu/zeni as extra denominations
     if (cfg.currencies) {
-      if (cfg.currencies.cp) {
-        cfg.currencies.cp.label = "ROKUGAN.Currency.Zeni";
-        cfg.currencies.cp.abbreviation = "ROKUGAN.Currency.ZeniAbbr";
-      }
-      if (cfg.currencies.sp) {
-        cfg.currencies.sp.label = "ROKUGAN.Currency.Bu";
-        cfg.currencies.sp.abbreviation = "ROKUGAN.Currency.BuAbbr";
-      }
-      if (cfg.currencies.gp) {
-        cfg.currencies.gp.label = "ROKUGAN.Currency.Koku";
-        cfg.currencies.gp.abbreviation = "ROKUGAN.Currency.KokuAbbr";
-      }
+      const mode = game.settings.get("rokugan5e", "currencyMode");
+
+      // dnd5e 5.x currency icons live alongside label/abbreviation/conversion.
+      const koku = { label: "ROKUGAN.Currency.Koku", abbreviation: "ROKUGAN.Currency.KokuAbbr", conversion: 1 };
+      const bu   = { label: "ROKUGAN.Currency.Bu",   abbreviation: "ROKUGAN.Currency.BuAbbr",   conversion: 5 };
+      const zeni = { label: "ROKUGAN.Currency.Zeni", abbreviation: "ROKUGAN.Currency.ZeniAbbr", conversion: 50 };
+
+      // Electrum and platinum are never used in Rokugan.
       if (game.settings.get("rokugan5e", "hideNonRokuganContent")) {
         delete cfg.currencies.ep;
         delete cfg.currencies.pp;
       }
+
+      if (mode === "rokugan") {
+        // Rokugani-only presentation. We must NOT change the sp/cp conversion
+        // numbers (10/100): item prices and stored wealth are recorded in
+        // gp/sp/cp, and altering a slot's conversion would silently revalue
+        // them. Because 1 koku = 1 gp exactly, the gp slot is relabeled to
+        // Koku at 1:1 with no value change. Bu and zeni are added as their own
+        // coins (conversions 5 and 50), and sp/cp are hidden from the wallet
+        // so the sheet reads in koku/bu/zeni. Existing sp/cp values remain
+        // valued correctly underneath and surface again if the GM switches
+        // back, so nothing is ever lost.
+        cfg.currencies.gp = { ...cfg.currencies.gp, ...koku };
+        cfg.currencies.bu   = { ...bu };
+        cfg.currencies.zeni = { ...zeni };
+        // Hide sp/cp slots from display without deleting stored amounts.
+        if (cfg.currencies.sp) cfg.currencies.sp = { ...cfg.currencies.sp, label: "ROKUGAN.Currency.BuFromSp", abbreviation: "ROKUGAN.Currency.BuAbbr" };
+        if (cfg.currencies.cp) cfg.currencies.cp = { ...cfg.currencies.cp, label: "ROKUGAN.Currency.ZeniFromCp", abbreviation: "ROKUGAN.Currency.ZeniAbbr" };
+      } else if (mode === "both") {
+        // Keep gp/sp/cp exact and add koku/bu/zeni as additional coins on the
+        // same gp value scale. This is the true on-the-fly converter: the
+        // system's currency-convert tools move value between all six, and
+        // prices stay precise in gp/sp/cp.
+        cfg.currencies.koku = { ...koku };
+        cfg.currencies.bu   = { ...bu };
+        cfg.currencies.zeni = { ...zeni };
+      }
+      // mode === "standard": leave gp/sp/cp untouched (book default).
     }
 
     // ----- Tools: Add Rokugan-relevant tool proficiencies -----
     cfg.toolTypes = cfg.toolTypes ?? {};
     cfg.toolTypes.rokugan = "ROKUGAN.Tools.RokuganTools";
 
+    // ----- Tool proficiency categories (Adventures in Rokugan) -----
+    // AiR groups tools into categories the way 5e does (artisan's tools,
+    // gaming sets, musical instruments) plus its own: mystic implements and
+    // tools of subterfuge. These appear in the proficiency dropdowns.
     if (cfg.toolProficiencies) {
-      // Musician tools relevant to Rokugan
-      cfg.toolProficiencies["shamisen"] = "ROKUGAN.Tool.Shamisen";
-      cfg.toolProficiencies["biwa"] = "ROKUGAN.Tool.Biwa";
-      cfg.toolProficiencies["shakuhachi"] = "ROKUGAN.Tool.Shakuhachi";
-      cfg.toolProficiencies["taiko"] = "ROKUGAN.Tool.Taiko";
-      cfg.toolProficiencies["koto"] = "ROKUGAN.Tool.Koto";
-      // Artisan tools
-      cfg.toolProficiencies["calligrapher"] = "ROKUGAN.Tool.Calligrapher";
-      cfg.toolProficiencies["origami"] = "ROKUGAN.Tool.Origami";
-      cfg.toolProficiencies["tea_ceremony"] = "ROKUGAN.Tool.TeaCeremony";
-      cfg.toolProficiencies["ikebana"] = "ROKUGAN.Tool.Ikebana";
-      // Gaming
-      cfg.toolProficiencies["shogi"] = "ROKUGAN.Tool.Shogi";
-      cfg.toolProficiencies["go"] = "ROKUGAN.Tool.Go";
+      cfg.toolProficiencies["art"] = cfg.toolProficiencies["art"] ?? "ROKUGAN.ToolCat.Artisan";
+      cfg.toolProficiencies["game"] = cfg.toolProficiencies["game"] ?? "ROKUGAN.ToolCat.Gaming";
+      cfg.toolProficiencies["music"] = cfg.toolProficiencies["music"] ?? "ROKUGAN.ToolCat.Musical";
+      cfg.toolProficiencies["mystic"] = "ROKUGAN.ToolCat.Mystic";
+      cfg.toolProficiencies["subterfuge"] = "ROKUGAN.ToolCat.Subterfuge";
     }
 
-    // ----- Languages -----
+    // ----- Weapon / Tool IDs -> equipment-compendium items -----
+    // dnd5e resolves a specific weapon/tool proficiency (and the item
+    // "proficient" state) via CONFIG.DND5E.weaponIds / toolIds, each mapping
+    // an identifier to a compendium item. We point AiR's weapons and tools at
+    // the rokugan5e.equipment pack so those proficiencies resolve to the real
+    // items, exactly as the SRD weapons/tools do for the core system.
+    cfg.weaponIds = cfg.weaponIds ?? {};
+    for (const [key, id] of Object.entries(ROKUGAN_WEAPON_IDS)) {
+      cfg.weaponIds[key] = `Compendium.${EQUIPMENT_PACK}.Item.${id}`;
+    }
+    cfg.toolIds = cfg.toolIds ?? {};
+    for (const [key, id] of Object.entries(ROKUGAN_TOOL_IDS)) {
+      cfg.toolIds[key] = `Compendium.${EQUIPMENT_PACK}.Item.${id}`;
+    }
+
+    // ----- Languages (Adventures in Rokugan) -----
+    // dnd5e 5.x stores languages as a nested tree: each category has
+    // { label, children: { key: { label } | "label" } } and trait keys read
+    // "languages:<category>:<key>". We add a "rokugan" category whose children
+    // are the canonical AiR languages, and treat Rokugani as the setting's
+    // Common. Older flat shapes are tolerated as a fallback.
     if (cfg.languages) {
-      cfg.languages.standard = cfg.languages.standard ?? {};
-      cfg.languages.standard.rokugani = "ROKUGAN.Language.Rokugani";
-      cfg.languages.standard.nezumi = "ROKUGAN.Language.Nezumi";
-      cfg.languages.standard.naganese = "ROKUGAN.Language.Naganese";
-      cfg.languages.standard.tenguspeech = "ROKUGAN.Language.TenguSpeech";
-      cfg.languages.standard.ivoryKingdoms = "ROKUGAN.Language.IvoryKingdoms";
-      cfg.languages.standard.burningSands = "ROKUGAN.Language.BurningSands";
-      cfg.languages.standard.celestial = "ROKUGAN.Language.Celestial";
-      cfg.languages.standard.rokuganiSigned = "ROKUGAN.Language.RokuganiSigned";
+      const air = {
+        rokugani: "ROKUGAN.Language.Rokugani",
+        rokuganiSigned: "ROKUGAN.Language.RokuganiSigned",
+        courtlyRokugani: "ROKUGAN.Language.CourtlyRokugani",
+        ivindi: "ROKUGAN.Language.Ivindi",
+        jindallaean: "ROKUGAN.Language.Jindallaean",
+        leafRustle: "ROKUGAN.Language.LeafRustle",
+        qamari: "ROKUGAN.Language.QamariLanguages",
+        riverSpeech: "ROKUGAN.Language.RiverSpeech",
+        skySpeech: "ROKUGAN.Language.SkySpeech",
+        stoneClick: "ROKUGAN.Language.StoneClick",
+        ujik: "ROKUGAN.Language.UjikLanguages",
+        yunFengWen: "ROKUGAN.Language.YunFengWen",
+        animalSpeech: "ROKUGAN.Language.AnimalSpeech",
+        battleArgot: "ROKUGAN.Language.BattleArgot",
+        asakoCipher: "ROKUGAN.Language.AsakoCipher",
+        kuniCodes: "ROKUGAN.Language.KuniCodes",
+        yogoCipher: "ROKUGAN.Language.YogoCipher",
+      };
+
+      // Detect nested (5.x) vs flat language config and register accordingly.
+      const sample = Object.values(cfg.languages)[0];
+      const nested = sample && typeof sample === "object" && ("children" in sample || "label" in sample);
+
+      if (nested) {
+        cfg.languages.rokugan = {
+          label: "ROKUGAN.Language.Category",
+          children: Object.fromEntries(Object.entries(air).map(([k, v]) => [k, v])),
+        };
+      } else {
+        // Flat fallback (older dnd5e): drop them in the standard bucket.
+        cfg.languages.standard = cfg.languages.standard ?? {};
+        for (const [k, v] of Object.entries(air)) cfg.languages.standard[k] = v;
+      }
     }
 
     // ----- Creature Types: Add Rokugan-specific types -----

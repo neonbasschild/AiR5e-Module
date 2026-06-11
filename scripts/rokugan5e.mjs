@@ -57,6 +57,23 @@ Hooks.once("init", () => {
       : window.location.reload()
   });
 
+  game.settings.register("rokugan5e", "currencyMode", {
+    name: "ROKUGAN.Settings.CurrencyMode",
+    hint: "ROKUGAN.Settings.CurrencyModeHint",
+    scope: "world",
+    config: true,
+    type: String,
+    default: "standard",
+    choices: {
+      standard: "ROKUGAN.Settings.CurrencyStandard",
+      rokugan: "ROKUGAN.Settings.CurrencyRokugan",
+      both: "ROKUGAN.Settings.CurrencyBoth"
+    },
+    onChange: () => foundry.utils.debouncedReload
+      ? foundry.utils.debouncedReload()
+      : window.location.reload()
+  });
+
   game.settings.register("rokugan5e", "autoSpendResources", {
     name: "ROKUGAN.Settings.AutoSpendResources",
     hint: "ROKUGAN.Settings.AutoSpendResourcesHint",

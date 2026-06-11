@@ -363,7 +363,7 @@
       "img": "systems/dnd5e/icons/svg/items/race.svg",
       "system": {
         "description": {
-          "value": "<p>Ancient serpentfolk, fifteen feet or longer from head to tail.</p><p>Ability Score Increase: 2 points, max +1 to one score.</p><p>Traits: Age, Size, Speed, Sharp Senses, Skitter, Language.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 30.</em></p>",
+          "value": "<p>Ancient serpentfolk, fifteen feet or longer from head to tail.</p><p>Ability Score Increase: 2 points, max +1 to one score.</p><p>Traits: Age, Size, Speed, Sharp Senses, Skitter, Language.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 26.</em></p>",
           "chat": ""
         },
         "source": {
@@ -436,7 +436,7 @@
       "img": "systems/dnd5e/icons/svg/items/race.svg",
       "system": {
         "description": {
-          "value": "<p>Quick, resilient ratfolk of the Shadowlands ruins.</p><p>Ability Score Increase: 3 points, max +2 to one score.</p><p>Traits: Age, Size, Speed, Darkvision, Demonic True Form, Language, Inverted Weight, Spiritual Force, Strange Physiology.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 32.</em></p>",
+          "value": "<p>Quick, resilient ratfolk of the Shadowlands ruins.</p><p>Ability Score Increase: 3 points, max +2 to one score.</p><p>Traits: Age, Size, Speed, Darkvision, Demonic True Form, Language, Inverted Weight, Spiritual Force, Strange Physiology.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 31.</em></p>",
           "chat": ""
         },
         "source": {
@@ -655,7 +655,7 @@
       "img": "systems/dnd5e/icons/svg/items/race.svg",
       "system": {
         "description": {
-          "value": "<p>Crow-folk of the high mountains; gliding flight.</p><p>Ability Score Increase: 2 points, max +1 to one score.</p><p>Traits: Age, See Innate Shapeshifting, Speed, Innate Shapeshifting, Language, Dreamwalker, Illusory Tricks.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 38.</em></p>",
+          "value": "<p>Crow-folk of the high mountains; gliding flight.</p><p>Ability Score Increase: 2 points, max +1 to one score.</p><p>Traits: Age, See Innate Shapeshifting, Speed, Innate Shapeshifting, Language, Dreamwalker, Illusory Tricks.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 36.</em></p>",
           "chat": ""
         },
         "source": {
@@ -801,7 +801,7 @@
       "img": "systems/dnd5e/icons/svg/items/race.svg",
       "system": {
         "description": {
-          "value": "<p>A one-of-a-kind being; size matches the chosen species.</p><p>Ability Score Increase: 3 points, max +2 to one score.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 42.</em></p>",
+          "value": "<p>A one-of-a-kind being; size matches the chosen species.</p><p>Ability Score Increase: 3 points, max +2 to one score.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 41.</em></p>",
           "chat": ""
         },
         "source": {

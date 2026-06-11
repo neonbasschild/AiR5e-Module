@@ -400,3 +400,74 @@ The Human's two options can't live in one race item — dnd5e applies a race's f
 - **Human (Versatile)** — increase two different ability scores by 1 (you distribute the points) **and** choose one feat from the AiR Feats pack.
 
 The player simply picks whichever Human they want at character creation, so both options are fully supported instead of one being forced. (The Human is the only AiR species with this either/or ability-score option, so no other races needed splitting.)
+
+---
+
+## Version 3.11.0 — Page Reference Corrections
+
+Page references in compendium entries were inaccurate, most visibly the class features: every feature inherited its parent class's starting page (e.g. all Shinobi features pointed to p. 74) rather than the page where the feature is actually printed. Expert Prowler, for instance, listed p. 74 but is on p. 81.
+
+The root issue was twofold: class features were assigned the class's start page wholesale, and the PDF's internal page count is offset from the book's printed page numbers. Page references are now resolved against the **printed** page numbers using the book's page breaks, constrained to each entry's own chapter so a name mentioned in two places (e.g. a feat referenced in a class writeup) resolves to its real location:
+
+- **Class features**: now span 22 distinct pages instead of 7 — each feature points to its actual page (Expert Prowler → p. 81, Merciless Strikes → p. 79, etc.).
+- **Classes, backgrounds, feats, species, equipment**: 64 additional page references corrected (e.g. several Imperial-family backgrounds, the Aerie backgrounds, and a number of feats were 2 pages off).
+- The correction is built into the pack generator, so future rebuilds stay accurate automatically.
+
+The self-healing seeder's data version was bumped, so existing worlds pick up the corrected references on next load.
+
+---
+
+## Version 3.12.0 — Languages, Weapon & Tool Proficiencies Registered
+
+The proficiency grants on backgrounds and classes previously referenced languages, weapons, and tools that weren't registered in the system, so they resolved to blanks. All three are now properly registered in `CONFIG.DND5E`.
+
+### Languages
+The module now registers the **canonical Adventures in Rokugan languages** (replacing earlier placeholder names) as a "Languages of Rokugan" category in dnd5e 5.x's nested language tree: Rokugani and Rokugani (Signed), Courtly Rokugani, Ivindi, Jindallaean, Leaf-Rustle (Shinomen nezumi), Qamari Languages, River Speech (naga), Sky Speech (tengu), Stone-Click (Shadowlands nezumi), Ujik Languages, Yún Fēng Wén, Animal Speech, Battle Argot, and the Asako Cipher / Kuni Codes / Yogo Cipher. Backgrounds now grant these real language keys (and free-language choices draw from the correct list), so they appear and apply correctly. The registration auto-detects nested (5.x) vs. flat language config for forward/backward compatibility.
+
+### Weapon & Tool Proficiencies
+All AiR weapons (47) and tools (26) are registered into `CONFIG.DND5E.weaponIds` and `toolIds`, each mapped to its item in the `rokugan5e.equipment` compendium — the same mechanism the core system uses for SRD gear. This makes specific weapon/tool proficiencies resolve to the real items and lets the proficiency checkbox on those items work. AiR's tool **categories** — Artisan's Tools, Gaming Sets, Musical Instruments, and AiR's own Mystic Implements and Tools of Subterfuge — are registered as tool-proficiency categories so they appear in the proficiency dropdowns.
+
+The self-healing seeder's data version was bumped (backgrounds changed), so existing worlds update on next load.
+
+---
+
+## Version 3.13.0 — Full Weapon & Tool Proficiency Automation (Classes + Backgrounds)
+
+Now that the weapons and tools are registered (3.12.0), the weapon and tool proficiencies that backgrounds and classes grant are applied **mechanically** instead of being left as description notes. Using the Shosuro Family background as the example, adding it to a character now grants: Deception + a choice of one stealth-type skill, **the wakizashi weapon proficiency**, **the disguise kit tool proficiency**, **a choice of one artisan tool or musical instrument**, languages, and starting equipment — all automatically.
+
+- **Backgrounds**: 43 of 58 now grant weapon proficiencies (mostly the wakizashi; some hunting bow, curved saber, or "any one martial weapon" as a choice) and 54 of 58 grant tool proficiencies. Specific tools are granted directly; "any one artisan tool," "A or B," and "choose one/two of the following" become proper choices; mounts/vehicles (which are item-use proficiencies, not tool keys) remain noted in the description.
+- **Classes**: specific weapon and tool proficiencies beyond the base categories are now granted — most notably the **Shinobi's shuriken, chain sickle, katana, nunchaku, sai, and swordbreaker**, the Courtier's two-tool choice and silk armor, the Duelist's bowyer's/sword-maintenance kit choice, the Ritualist's mystic implement, and the Pilgrim's artisan tool.
+
+All proficiency keys resolve against the registered `weaponIds`/`toolIds` and tool categories (verified zero unresolvable keys). The self-healing seeder's data version was bumped, so existing worlds update on next load.
+
+---
+
+## Version 3.14.0 — Currency System Options (gp/sp/cp ↔ koku/bu/zeni)
+
+Adventures in Rokugan uses standard gold/silver/copper by default but provides the Legend of the Five Rings koku/bu/zeni coinage with a conversion table (p. 187). A world setting, **Currency System**, now lets the GM choose:
+
+- **Standard (gold / silver / copper)** — the book's default; gp/sp/cp untouched.
+- **Rokugan (koku / bu / zeni)** — the L5R classic coinage on the sheet.
+- **Both** — gp/sp/cp and koku/bu/zeni together; the true on-the-fly converter.
+
+### Correct, lossless conversions
+The earlier build relabeled cp→zeni and sp→bu 1:1, which was **wrong** — per Table 4-1, 1 bu = 2 sp and 1 zeni = 2 cp, not 1:1. The coins are now registered with their real conversion factors (koku = 1, bu = 5, zeni = 50 per gp), reproducing all 18 relationships in the book's table exactly (verified). Because dnd5e values every coin on the shared gp scale, money keeps its true value across modes — switching presentation converts a character's wealth on the fly rather than changing it.
+
+To stay lossless, "Rokugan" mode relabels the gp slot to Koku (exact 1:1) and adds bu/zeni as their own coins without altering the sp/cp conversion numbers (so item prices and stored amounts, which are recorded in gp/sp/cp, are never silently revalued). "Both" mode is the cleanest for mixing the two, since the system's own currency-conversion tools then move value between all six denominations. Electrum and platinum remain removed (not used in Rokugan).
+
+---
+
+## Version 3.15.0 — Functional Class Features (Merciless Strikes, Ninjutsu)
+
+Class features were inert descriptions. This release begins making them *work*, starting with the two flagship Shinobi abilities, and adds a framework for automating more:
+
+### Merciless Strikes (Shinobi's Sneak-Attack analogue)
+The Shinobi class now carries a **dice ScaleValue** (`@scale.shinobi.merciless-strikes`) encoding the per-condition damage progression from the class table (1d4 at level 1, up through 2d6, 3d6, to 3d8). The Merciless Strikes feature item has a **damage activity** that rolls this scaling die, so it can be used directly from the sheet — add it per negative condition on the target, up to three instances, once per creature per turn.
+
+### Ninjutsu (Focus-based casting analogue)
+The Ninjutsu feature now surfaces its **attack modifier** (proficiency + Dexterity) and **save DC** (8 + proficiency + Dexterity) on the item, and the Shinobi gains a **Ninja Tools Prepared** ScaleValue tracking how many ninja tools can be prepared per long rest (2 rising to 5). This integrates with the existing Focus pool and technique-item system (the ninja tools are consumable technique items that spend Focus). 
+
+### Core features restored
+Sixteen foundational 1st-level features that were lost during table extraction (because they sit in the table's merged "special" column) are now present as items across all classes — including Focus Points, Martial Techniques, Combat Stance, Invocations, Favor, Yin and Yang, Externalizations, and the Shinobi's Merciless Strikes and Ninjutsu — bringing the class-features pack to 88 entries.
+
+This establishes the pattern (ScaleValue for progressions + an activity on the feature item) for automating further features; passive riders and save/attack abilities can be wired the same way in future passes.

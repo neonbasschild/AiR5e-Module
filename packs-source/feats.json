@@ -9,7 +9,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Prerequisite: You must be capable of performing invocations</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 223.</em></p>",
+          "value": "<p>Prerequisite: You must be capable of performing invocations</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 222.</em></p>",
           "chat": ""
         },
         "source": {
@@ -46,7 +46,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Prerequisite: You must have a forbidden text or a practitioner of forbidden arts who can train you</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 223.</em></p>",
+          "value": "<p>Prerequisite: You must have a forbidden text or a practitioner of forbidden arts who can train you</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 222.</em></p>",
           "chat": ""
         },
         "source": {
@@ -527,7 +527,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Prerequisite: Dragon Clan background or Wisdom</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 229.</em></p>",
+          "value": "<p>Prerequisite: Dragon Clan background or Wisdom</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 228.</em></p>",
           "chat": ""
         },
         "source": {
@@ -564,7 +564,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Prerequisite: Dragon Clan background or Constitution</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 229.</em></p>",
+          "value": "<p>Prerequisite: Dragon Clan background or Constitution</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 228.</em></p>",
           "chat": ""
         },
         "source": {
@@ -601,7 +601,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Prerequisite: Dragon Clan background or Wisdom</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 229.</em></p>",
+          "value": "<p>Prerequisite: Dragon Clan background or Wisdom</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 228.</em></p>",
           "chat": ""
         },
         "source": {
@@ -638,7 +638,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Prerequisite: Dragon Clan background or Intelligence</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 229.</em></p>",
+          "value": "<p>Prerequisite: Dragon Clan background or Intelligence</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 228.</em></p>",
           "chat": ""
         },
         "source": {
@@ -675,7 +675,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Prerequisite: Lion Clan background or Strength</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 229.</em></p>",
+          "value": "<p>Prerequisite: Lion Clan background or Strength</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 228.</em></p>",
           "chat": ""
         },
         "source": {
@@ -712,7 +712,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Prerequisite: Lion Clan background or Wisdom</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 229.</em></p>",
+          "value": "<p>Prerequisite: Lion Clan background or Wisdom</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 228.</em></p>",
           "chat": ""
         },
         "source": {
@@ -749,7 +749,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Prerequisite: Lion Clan background or Constitution</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 229.</em></p>",
+          "value": "<p>Prerequisite: Lion Clan background or Constitution</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 228.</em></p>",
           "chat": ""
         },
         "source": {
@@ -786,7 +786,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Prerequisite: Lion Clan background or Charisma</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 229.</em></p>",
+          "value": "<p>Prerequisite: Lion Clan background or Charisma</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 228.</em></p>",
           "chat": ""
         },
         "source": {
@@ -1156,7 +1156,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Prerequisite: Unicorn Clan background or Dexterity</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 235.</em></p>",
+          "value": "<p>Prerequisite: Unicorn Clan background or Dexterity</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 233.</em></p>",
           "chat": ""
         },
         "source": {
@@ -1193,7 +1193,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Prerequisite: Unicorn Clan background or Intelligence</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 235.</em></p>",
+          "value": "<p>Prerequisite: Unicorn Clan background or Intelligence</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 233.</em></p>",
           "chat": ""
         },
         "source": {
@@ -1230,7 +1230,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Prerequisite: Unicorn Clan background or Wisdom</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 235.</em></p>",
+          "value": "<p>Prerequisite: Unicorn Clan background or Wisdom</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 233.</em></p>",
           "chat": ""
         },
         "source": {
@@ -1267,7 +1267,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Prerequisite: Imperial Family background or Charisma</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 235.</em></p>",
+          "value": "<p>Prerequisite: Imperial Family background or Charisma</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 233.</em></p>",
           "chat": ""
         },
         "source": {
@@ -1304,7 +1304,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Prerequisite: Moth Clan background or proficiency in Religion</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 235.</em></p>",
+          "value": "<p>Prerequisite: Moth Clan background or proficiency in Religion</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 233.</em></p>",
           "chat": ""
         },
         "source": {
@@ -1341,7 +1341,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Prerequisite: Falcon Clan background or proficiency in Arcana</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 235.</em></p>",
+          "value": "<p>Prerequisite: Falcon Clan background or proficiency in Arcana</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 233.</em></p>",
           "chat": ""
         },
         "source": {
@@ -1378,7 +1378,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Prerequisite: Centipede Clan background or proficiency in Religion, must be able to perform invocations</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 235.</em></p>",
+          "value": "<p>Prerequisite: Centipede Clan background or proficiency in Religion, must be able to perform invocations</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 233.</em></p>",
           "chat": ""
         },
         "source": {
@@ -1415,7 +1415,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Prerequisite: Mantis Clan background or proficiency in</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 235.</em></p>",
+          "value": "<p>Prerequisite: Mantis Clan background or proficiency in</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 233.</em></p>",
           "chat": ""
         },
         "source": {
@@ -1452,7 +1452,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Prerequisite: Deer Clan background or proficiency in Stealth</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 235.</em></p>",
+          "value": "<p>Prerequisite: Deer Clan background or proficiency in Stealth</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 233.</em></p>",
           "chat": ""
         },
         "source": {
@@ -1489,7 +1489,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Prerequisite: Badger Clan background or proficiency in Athletics</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 235.</em></p>",
+          "value": "<p>Prerequisite: Badger Clan background or proficiency in Athletics</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 233.</em></p>",
           "chat": ""
         },
         "source": {
@@ -1526,7 +1526,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Prerequisite: Dragonfly Clan background or proficiency in Charisma saving throws</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 235.</em></p>",
+          "value": "<p>Prerequisite: Dragonfly Clan background or proficiency in Charisma saving throws</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 233.</em></p>",
           "chat": ""
         },
         "source": {
@@ -2081,7 +2081,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Prerequisite: Tengu species</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 243.</em></p>",
+          "value": "<p>Prerequisite: Tengu species</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 239.</em></p>",
           "chat": ""
         },
         "source": {
@@ -2118,7 +2118,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Prerequisite: Human species</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 243.</em></p>",
+          "value": "<p>Prerequisite: Human species</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 239.</em></p>",
           "chat": ""
         },
         "source": {
@@ -2155,7 +2155,7 @@
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
       "system": {
         "description": {
-          "value": "<p>Prerequisite: Nezumi species</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 243.</em></p>",
+          "value": "<p>Prerequisite: Nezumi species</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 239.</em></p>",
           "chat": ""
         },
         "source": {

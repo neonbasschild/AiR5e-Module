@@ -60,7 +60,7 @@
       "img": "systems/dnd5e/icons/svg/items/spell.svg",
       "system": {
         "description": {
-          "value": "<p>Tier 2 earth summoning · Casting: 1 action · Base Favor: 1 · Range: Self · Duration: Ongoing (1 favor per round)</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 263.</em></p>",
+          "value": "<p>Tier 2 earth summoning · Casting: 1 action · Base Favor: 1 · Range: Self · Duration: Ongoing (1 favor per round)</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 261.</em></p>",
           "chat": ""
         },
         "source": {
@@ -171,7 +171,7 @@
       "img": "systems/dnd5e/icons/svg/items/spell.svg",
       "system": {
         "description": {
-          "value": "<p>Tier 2 earth summoning · Casting: 1 minute · Base Favor: 1 · Range: 30 feet · Duration: 1 hour</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 263.</em></p>",
+          "value": "<p>Tier 2 earth summoning · Casting: 1 minute · Base Favor: 1 · Range: 30 feet · Duration: 1 hour</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 261.</em></p>",
           "chat": ""
         },
         "source": {
@@ -726,7 +726,7 @@
       "img": "systems/dnd5e/icons/svg/items/spell.svg",
       "system": {
         "description": {
-          "value": "<p>Tier 1 fire smite · Casting: 1 action · Base Favor: 0 · Range: 30 feet · Duration: Instantaneous</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 268.</em></p>",
+          "value": "<p>Tier 1 fire smite · Casting: 1 action · Base Favor: 0 · Range: 30 feet · Duration: Instantaneous</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 267.</em></p>",
           "chat": ""
         },
         "source": {
@@ -837,7 +837,7 @@
       "img": "systems/dnd5e/icons/svg/items/spell.svg",
       "system": {
         "description": {
-          "value": "<p>Tier 1 earth mending · Casting: 10 minutes · Base Favor: 0 · Range: Touch · Duration: Instantaneous</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 268.</em></p>",
+          "value": "<p>Tier 1 earth mending · Casting: 10 minutes · Base Favor: 0 · Range: Touch · Duration: Instantaneous</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 267.</em></p>",
           "chat": ""
         },
         "source": {
@@ -948,7 +948,7 @@
       "img": "systems/dnd5e/icons/svg/items/spell.svg",
       "system": {
         "description": {
-          "value": "<p>Tier 0 any element · Casting: 1 minute · Base Favor: 0 · Range: Touch · Duration: Instantaneous</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 268.</em></p>",
+          "value": "<p>Tier 0 any element · Casting: 1 minute · Base Favor: 0 · Range: Touch · Duration: Instantaneous</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 267.</em></p>",
           "chat": ""
         },
         "source": {
@@ -1059,7 +1059,7 @@
       "img": "systems/dnd5e/icons/svg/items/spell.svg",
       "system": {
         "description": {
-          "value": "<p>Tier 0 any element · Casting: 1 minute · Base Favor: 0 · Range: 30 feet · Duration: Instantaneous</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 268.</em></p>",
+          "value": "<p>Tier 0 any element · Casting: 1 minute · Base Favor: 0 · Range: 30 feet · Duration: Instantaneous</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 267.</em></p>",
           "chat": ""
         },
         "source": {
@@ -1614,7 +1614,7 @@
       "img": "systems/dnd5e/icons/svg/items/spell.svg",
       "system": {
         "description": {
-          "value": "<p>Tier 3 earth augmentation · Casting: 1 action · Base Favor: 1 · Range: 10 feet · Duration: 1 minute</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 272.</em></p>",
+          "value": "<p>Tier 3 earth augmentation · Casting: 1 action · Base Favor: 1 · Range: 10 feet · Duration: 1 minute</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 271.</em></p>",
           "chat": ""
         },
         "source": {
@@ -1725,7 +1725,7 @@
       "img": "systems/dnd5e/icons/svg/items/spell.svg",
       "system": {
         "description": {
-          "value": "<p>Tier 3 water augmentation · Casting: 1 action · Base Favor: 2 · Range: Self · Duration: Ongoing (1 favor per round)</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 272.</em></p>",
+          "value": "<p>Tier 3 water augmentation · Casting: 1 action · Base Favor: 2 · Range: Self · Duration: Ongoing (1 favor per round)</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 271.</em></p>",
           "chat": ""
         },
         "source": {
@@ -1836,7 +1836,7 @@
       "img": "systems/dnd5e/icons/svg/items/spell.svg",
       "system": {
         "description": {
-          "value": "<p>Tier 2 fire smite · Casting: 1 action · Base Favor: 1 · Range: 60 feet · Duration: Instantaneous</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 272.</em></p>",
+          "value": "<p>Tier 2 fire smite · Casting: 1 action · Base Favor: 1 · Range: 60 feet · Duration: Instantaneous</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 271.</em></p>",
           "chat": ""
         },
         "source": {
@@ -2169,7 +2169,7 @@
       "img": "systems/dnd5e/icons/svg/items/spell.svg",
       "system": {
         "description": {
-          "value": "<p>Tier 1 earth summoning · Casting: 1 minute · Base Favor: 0 · Range: 10 feet · Duration: Ongoing (1 favor per round)</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 275.</em></p>",
+          "value": "<p>Tier 1 earth summoning · Casting: 1 minute · Base Favor: 0 · Range: 10 feet · Duration: Ongoing (1 favor per round)</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 274.</em></p>",
           "chat": ""
         },
         "source": {
@@ -2280,7 +2280,7 @@
       "img": "systems/dnd5e/icons/svg/items/spell.svg",
       "system": {
         "description": {
-          "value": "<p>Tier 2 water augmentation · Casting: 1 action · Base Favor: 1 · Range: 30 feet · Duration: Instantaneous</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 275.</em></p>",
+          "value": "<p>Tier 2 water augmentation · Casting: 1 action · Base Favor: 1 · Range: 30 feet · Duration: Instantaneous</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 274.</em></p>",
           "chat": ""
         },
         "source": {
@@ -2391,7 +2391,7 @@
       "img": "systems/dnd5e/icons/svg/items/spell.svg",
       "system": {
         "description": {
-          "value": "<p>Tier 3 water augmentation · Casting: 1 action · Base Favor: 2 · Range: 10 feet · Duration: 1 minute</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 275.</em></p>",
+          "value": "<p>Tier 3 water augmentation · Casting: 1 action · Base Favor: 2 · Range: 10 feet · Duration: 1 minute</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 274.</em></p>",
           "chat": ""
         },
         "source": {
@@ -3168,7 +3168,7 @@
       "img": "systems/dnd5e/icons/svg/items/spell.svg",
       "system": {
         "description": {
-          "value": "<p>Tier 1 water mending · Casting: — · Base Favor: 1 · Range: — · Duration: —</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 279.</em></p>",
+          "value": "<p>Tier 1 water mending · Casting: — · Base Favor: 1 · Range: — · Duration: —</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 260.</em></p>",
           "chat": ""
         },
         "source": {
@@ -3612,7 +3612,7 @@
       "img": "systems/dnd5e/icons/svg/items/spell.svg",
       "system": {
         "description": {
-          "value": "<p>Tier 1 earth smite · Casting: 1 action · Base Favor: 0 · Range: Self (10-foot line) · Duration: Instantaneous</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 283.</em></p>",
+          "value": "<p>Tier 1 earth smite · Casting: 1 action · Base Favor: 0 · Range: Self (10-foot line) · Duration: Instantaneous</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 282.</em></p>",
           "chat": ""
         },
         "source": {
@@ -3723,7 +3723,7 @@
       "img": "systems/dnd5e/icons/svg/items/spell.svg",
       "system": {
         "description": {
-          "value": "<p>Tier 1 fire summoning · Casting: 1 action · Base Favor: 0 · Range: Self · Duration: 1 minute</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 283.</em></p>",
+          "value": "<p>Tier 1 fire summoning · Casting: 1 action · Base Favor: 0 · Range: Self · Duration: 1 minute</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 282.</em></p>",
           "chat": ""
         },
         "source": {
@@ -3834,7 +3834,7 @@
       "img": "systems/dnd5e/icons/svg/items/spell.svg",
       "system": {
         "description": {
-          "value": "<p>Tier 1 water smite · Casting: 1 action · Base Favor: 0 · Range: Self (5-foot sweep) · Duration: Instantaneous</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 283.</em></p>",
+          "value": "<p>Tier 1 water smite · Casting: 1 action · Base Favor: 0 · Range: Self (5-foot sweep) · Duration: Instantaneous</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 282.</em></p>",
           "chat": ""
         },
         "source": {
@@ -3945,7 +3945,7 @@
       "img": "systems/dnd5e/icons/svg/items/spell.svg",
       "system": {
         "description": {
-          "value": "<p>Tier 2 air summoning · Casting: 1 action · Base Favor: 1 · Range: 10 feet · Duration: 1 minute</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 283.</em></p>",
+          "value": "<p>Tier 2 air summoning · Casting: 1 action · Base Favor: 1 · Range: 10 feet · Duration: 1 minute</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 282.</em></p>",
           "chat": ""
         },
         "source": {
@@ -4056,7 +4056,7 @@
       "img": "systems/dnd5e/icons/svg/items/spell.svg",
       "system": {
         "description": {
-          "value": "<p>Tier 1 air smite · Casting: 1 action · Base Favor: 0 · Range: Self (30-foot line) · Duration: Instantaneous</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 285.</em></p>",
+          "value": "<p>Tier 1 air smite · Casting: 1 action · Base Favor: 0 · Range: Self (30-foot line) · Duration: Instantaneous</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 284.</em></p>",
           "chat": ""
         },
         "source": {
@@ -4167,7 +4167,7 @@
       "img": "systems/dnd5e/icons/svg/items/spell.svg",
       "system": {
         "description": {
-          "value": "<p>Tier 3 any element · Casting: 1 minute · Base Favor: 2 · Range: 10 feet · Duration: Ongoing (2 favor per round)</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 285.</em></p>",
+          "value": "<p>Tier 3 any element · Casting: 1 minute · Base Favor: 2 · Range: 10 feet · Duration: Ongoing (2 favor per round)</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 284.</em></p>",
           "chat": ""
         },
         "source": {
@@ -4278,7 +4278,7 @@
       "img": "systems/dnd5e/icons/svg/items/spell.svg",
       "system": {
         "description": {
-          "value": "<p>Tier 2 water augmentation · Casting: 1 bonus action · Base Favor: 1 · Range: Self · Duration: 1 minute</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 285.</em></p>",
+          "value": "<p>Tier 2 water augmentation · Casting: 1 bonus action · Base Favor: 1 · Range: Self · Duration: 1 minute</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 284.</em></p>",
           "chat": ""
         },
         "source": {
@@ -4611,7 +4611,7 @@
       "img": "systems/dnd5e/icons/svg/items/spell.svg",
       "system": {
         "description": {
-          "value": "<p>Tier 3 fire augmentation · Casting: 1 action · Base Favor: 2 · Range: Self · Duration: 1 minute</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 291.</em></p>",
+          "value": "<p>Tier 3 fire augmentation · Casting: 1 action · Base Favor: 2 · Range: Self · Duration: 1 minute</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 287.</em></p>",
           "chat": ""
         },
         "source": {

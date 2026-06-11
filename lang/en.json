@@ -12,7 +12,12 @@
       "AutomateCombatFocus": "Automate Focus in Combat",
       "AutomateCombatFocusHint": "Reset Focus to 0 at combat start/end and grant +1 Focus at the end of each turn (stance bonuses must still be added manually).",
       "L5RSheetTheme": "Rokugan Sheet Theme",
-      "L5RSheetThemeHint": "Reskin the dnd5e character, NPC, and item sheets with a feudal-Japanese fantasy look (washi paper, sumi ink, vermillion lacquer, and gold). Cosmetic only; all sheet functionality is unchanged. Per-user setting; supports both light and dark modes."
+      "L5RSheetThemeHint": "Reskin the dnd5e character, NPC, and item sheets with a feudal-Japanese fantasy look (washi paper, sumi ink, vermillion lacquer, and gold). Cosmetic only; all sheet functionality is unchanged. Per-user setting; supports both light and dark modes.",
+      "CurrencyMode": "Currency System",
+      "CurrencyModeHint": "Choose which coinage to use. Adventures in Rokugan defaults to standard gold/silver/copper; the Legend of the Five Rings classic koku/bu/zeni is provided as an option, with the page-187 conversion (1 koku = 1 gp, 1 bu = 2 sp, 1 zeni = 2 cp). Because the conversions preserve value, switching converts a character's wealth on the fly rather than changing it.",
+      "CurrencyStandard": "Standard (gold / silver / copper)",
+      "CurrencyRokugan": "Rokugan (koku / bu / zeni)",
+      "CurrencyBoth": "Both (gp/sp/cp and koku/bu/zeni together)"
     },
     "Class": {
       "Bushi": "Bushi",
@@ -111,7 +116,9 @@
       "Bu": "Bu",
       "BuAbbr": "bu",
       "Koku": "Koku",
-      "KokuAbbr": "koku"
+      "KokuAbbr": "koku",
+      "BuFromSp": "Bu (silver)",
+      "ZeniFromCp": "Zeni (copper)"
     },
     "Armor": {
       "ConcealedArmor": "Concealed Armor",
@@ -220,13 +227,23 @@
     },
     "Language": {
       "Rokugani": "Rokugani",
-      "Nezumi": "Nezumi",
-      "Naganese": "Naga",
-      "TenguSpeech": "Tengu Speech",
-      "IvoryKingdoms": "Ivory Kingdoms Trade Tongue",
-      "BurningSands": "Burning Sands",
-      "Celestial": "Celestial (Spirit Speech)",
-      "RokuganiSigned": "Rokugani (Signed)"
+      "RokuganiSigned": "Rokugani (Signed)",
+      "CourtlyRokugani": "Courtly Rokugani",
+      "Ivindi": "Ivindi",
+      "Jindallaean": "Jindallaean",
+      "LeafRustle": "Leaf-Rustle (Shinomen Nezumi)",
+      "QamariLanguages": "Qamari Languages",
+      "RiverSpeech": "River Speech (Naga)",
+      "SkySpeech": "Sky Speech (Tengu)",
+      "StoneClick": "Stone-Click (Shadowlands Nezumi)",
+      "UjikLanguages": "Ujik Languages",
+      "YunFengWen": "Yún Fēng Wén",
+      "AnimalSpeech": "Animal Speech",
+      "BattleArgot": "Battle Argot",
+      "AsakoCipher": "Asako Cipher",
+      "KuniCodes": "Kuni Codes",
+      "YogoCipher": "Yogo Cipher",
+      "Category": "Languages of Rokugan"
     },
     "Clan": {
       "None": "— No Clan —",
@@ -249,19 +266,6 @@
     },
     "DamageType": {
       "Void": "Void"
-    },
-    "Tool": {
-      "Shamisen": "Shamisen",
-      "Biwa": "Biwa",
-      "Shakuhachi": "Shakuhachi",
-      "Taiko": "Taiko Drum",
-      "Koto": "Koto",
-      "Calligrapher": "Calligrapher's Supplies",
-      "Origami": "Origami Supplies",
-      "TeaCeremony": "Tea Ceremony Implements",
-      "Ikebana": "Ikebana Supplies",
-      "Shogi": "Shōgi Set",
-      "Go": "Go Set"
     },
     "Tools": {
       "RokuganTools": "Rokugan Tools & Arts"
@@ -404,6 +408,13 @@
       "EmpowermentLabel": "Empowerment",
       "FocusSpendTitle": "Spend Focus",
       "FocusSpendPrompt": "How much Focus do you spend on <em>{name}</em>? (minimum {min})"
+    },
+    "ToolCat": {
+      "Artisan": "Artisan's Tools",
+      "Gaming": "Gaming Set",
+      "Musical": "Musical Instrument",
+      "Mystic": "Mystic Implements",
+      "Subterfuge": "Tools of Subterfuge"
     }
   },
   "DND5E": {
