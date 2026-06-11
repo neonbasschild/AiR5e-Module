@@ -12,6 +12,7 @@
       {
         "id": "dnd5e",
         "type": "system",
+        "manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
         "compatibility": {
           "minimum": "5.0.0",
           "verified": "5.3.3"
@@ -21,7 +22,7 @@
   },
   "authors": [
     {
-      "name": "Adventures in Rokugan Module Author"
+      "name": "Neon"
     }
   ],
   "esmodules": [
@@ -145,5 +146,7 @@
         "invocations"
       ]
     }
-  ]
+  ],
+  "manifest": "https://github.com/neonbasschild/AiR5e-Module/releases/latest/download/module.json",
+  "download": "https://github.com/neonbasschild/AiR5e-Module/releases/download/v0.8.0/module.zip"
 }
