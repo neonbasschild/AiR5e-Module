@@ -1,0 +1,87 @@
+/**
+ * RokuganProficiencyIds - Maps weapon/tool proficiency identifiers to their
+ * item _id within the rokugan5e.equipment compendium. Registered into
+ * CONFIG.DND5E.weaponIds / toolIds so that proficiency grants and the
+ * "proficient" checkbox on those items resolve to real compendium entries
+ * (the same mechanism dnd5e uses for its SRD weapons/tools).
+ */
+export const ROKUGAN_WEAPON_IDS = {
+    "ballista": "rwballista000000",
+    "battleaxe": "rwbattleaxe00000",
+    "blowgun": "rwblowgun0000000",
+    "broadsaber": "rwbroadsaber0000",
+    "carpentershammer": "rwcarpentershamm",
+    "chainsickle": "rwchainsickle000",
+    "club": "rwclub0000000000",
+    "crescenthalberd": "rwcrescenthalber",
+    "crossbow": "rwcrossbow000000",
+    "cudgel": "rwcudgel00000000",
+    "curvedsaber": "rwcurvedsaber000",
+    "dagger": "rwdagger00000000",
+    "greatbow": "rwgreatbow000000",
+    "greatsword": "rwgreatsword0000",
+    "hatchet": "rwhatchet0000000",
+    "heavycrossbow": "rwheavycrossbow0",
+    "hookedspear": "rwhookedspear000",
+    "horsecleavingblade": "rwhorsecleavingb",
+    "huntingbow": "rwhuntingbow0000",
+    "ironfan": "rwironfan0000000",
+    "ironstuddedclub": "rwironstuddedclu",
+    "katana": "rwkatana00000000",
+    "longbow": "rwlongbow0000000",
+    "mallet": "rwmallet00000000",
+    "meteorhammer": "rwmeteorhammer00",
+    "naginata": "rwnaginata000000",
+    "nunchaku": "rwnunchaku000000",
+    "reinforcedpipe": "rwreinforcedpipe",
+    "repeatingcrossbow": "rwrepeatingcross",
+    "sai": "rwsai00000000000",
+    "shinjohorsebow": "rwshinjohorsebow",
+    "shuriken": "rwshuriken000000",
+    "sickle": "rwsickle00000000",
+    "sling": "rwsling000000000",
+    "spear": "rwspear000000000",
+    "spikedmace": "rwspikedmace0000",
+    "staff": "rwstaff000000000",
+    "straightsworddoubleedged": "rwstraightswordd",
+    "straightswordsingleedged": "rwstraightswords",
+    "swordbreaker": "rwswordbreaker00",
+    "threesectionstaff": "rwthreesectionst",
+    "tigerhookswords": "rwtigerhooksword",
+    "tridentpolearm": "rwtridentpolearm",
+    "wakizashi": "rwwakizashi00000",
+    "warspear": "rwwarspear000000",
+    "whipsword": "rwwhipsword00000",
+    "woodensword": "rwwoodensword000"
+  };
+
+export const ROKUGAN_TOOL_IDS = {
+    "alchemistskit": "rgalchemistskit0",
+    "blacksmithskit": "rgblacksmithskit",
+    "boardorcardgame": "rgboardorcardgam",
+    "bowyerskit": "rgbowyerskit0000",
+    "calligraphyset": "rgcalligraphyset",
+    "ceremonialteaset": "rgceremonialteas",
+    "chemistskit": "rgchemistskit000",
+    "cookingkit": "rgcookingkit0000",
+    "diceandcup": "rgdiceandcup0000",
+    "disguisekit": "rgdisguisekit000",
+    "divinationkit": "rgdivinationkit0",
+    "drums": "rgdrums000000000",
+    "fishingkit": "rgfishingkit0000",
+    "flute": "rgflute000000000",
+    "infiltratorsequipment": "rginfiltratorseq",
+    "invisibleinkset": "rginvisibleinkse",
+    "lute": "rglute0000000000",
+    "makeupkit": "rgmakeupkit00000",
+    "masonskit": "rgmasonskit00000",
+    "painterstools": "rgpainterstools0",
+    "pottersset": "rgpottersset0000",
+    "swordmaintenancekit": "rgswordmaintenan",
+    "tailorskit": "rgtailorskit0000",
+    "tattooset": "rgtattooset00000",
+    "weaverskit": "rgweaverskit0000",
+    "zither": "rgzither00000000"
+  };
+
+export const EQUIPMENT_PACK = "rokugan5e.equipment";
