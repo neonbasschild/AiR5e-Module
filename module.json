@@ -2,7 +2,7 @@
   "id": "rokugan5e",
   "title": "Adventures in Rokugan 5E",
   "description": "Adapts the dnd5e system for Adventures in Rokugan: classes, species, backgrounds, weapons, armor, terminology, and the full AiR magic system (Focus, Favor, and Yin/Yang resource tracking with automatic spending). Requires Foundry VTT v13+ and dnd5e 5.x.",
-  "version": "3.17.0",
+  "version": "3.19.0",
   "compatibility": {
     "minimum": "13",
     "verified": "13"

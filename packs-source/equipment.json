@@ -169,7 +169,7 @@
         },
         "type": {
           "value": "simpleM",
-          "baseItem": ""
+          "baseItem": "carpentershammer"
         },
         "damage": {
           "base": {
@@ -240,7 +240,7 @@
         },
         "type": {
           "value": "simpleM",
-          "baseItem": ""
+          "baseItem": "club"
         },
         "damage": {
           "base": {
@@ -310,7 +310,7 @@
         },
         "type": {
           "value": "simpleM",
-          "baseItem": ""
+          "baseItem": "cudgel"
         },
         "damage": {
           "base": {
@@ -381,7 +381,7 @@
         },
         "type": {
           "value": "simpleM",
-          "baseItem": ""
+          "baseItem": "dagger"
         },
         "damage": {
           "base": {
@@ -453,7 +453,7 @@
         },
         "type": {
           "value": "simpleM",
-          "baseItem": ""
+          "baseItem": "hatchet"
         },
         "damage": {
           "base": {
@@ -524,7 +524,7 @@
         },
         "type": {
           "value": "simpleM",
-          "baseItem": ""
+          "baseItem": "ironfan"
         },
         "damage": {
           "base": {
@@ -595,7 +595,7 @@
         },
         "type": {
           "value": "simpleM",
-          "baseItem": ""
+          "baseItem": "reinforcedpipe"
         },
         "damage": {
           "base": {
@@ -666,7 +666,7 @@
         },
         "type": {
           "value": "simpleM",
-          "baseItem": ""
+          "baseItem": "sickle"
         },
         "damage": {
           "base": {
@@ -739,7 +739,7 @@
         },
         "type": {
           "value": "simpleM",
-          "baseItem": ""
+          "baseItem": "spear"
         },
         "damage": {
           "base": {
@@ -824,7 +824,7 @@
         },
         "type": {
           "value": "simpleM",
-          "baseItem": ""
+          "baseItem": "staff"
         },
         "damage": {
           "base": {
@@ -908,7 +908,7 @@
         },
         "type": {
           "value": "simpleM",
-          "baseItem": ""
+          "baseItem": "woodensword"
         },
         "damage": {
           "base": {
@@ -992,7 +992,7 @@
         },
         "type": {
           "value": "simpleR",
-          "baseItem": ""
+          "baseItem": "huntingbow"
         },
         "damage": {
           "base": {
@@ -1063,7 +1063,7 @@
         },
         "type": {
           "value": "simpleR",
-          "baseItem": ""
+          "baseItem": "sling"
         },
         "damage": {
           "base": {
@@ -1133,7 +1133,7 @@
         },
         "type": {
           "value": "martialM",
-          "baseItem": ""
+          "baseItem": "battleaxe"
         },
         "damage": {
           "base": {
@@ -1217,7 +1217,7 @@
         },
         "type": {
           "value": "martialM",
-          "baseItem": ""
+          "baseItem": "chainsickle"
         },
         "damage": {
           "base": {
@@ -1290,7 +1290,7 @@
         },
         "type": {
           "value": "martialM",
-          "baseItem": ""
+          "baseItem": "crescenthalberd"
         },
         "damage": {
           "base": {
@@ -1376,7 +1376,7 @@
         },
         "type": {
           "value": "martialM",
-          "baseItem": ""
+          "baseItem": "broadsaber"
         },
         "damage": {
           "base": {
@@ -1448,7 +1448,7 @@
         },
         "type": {
           "value": "martialM",
-          "baseItem": ""
+          "baseItem": "curvedsaber"
         },
         "damage": {
           "base": {
@@ -1518,7 +1518,7 @@
         },
         "type": {
           "value": "martialM",
-          "baseItem": ""
+          "baseItem": "hookedspear"
         },
         "damage": {
           "base": {
@@ -1603,7 +1603,7 @@
         },
         "type": {
           "value": "martialM",
-          "baseItem": ""
+          "baseItem": "horsecleavingblade"
         },
         "damage": {
           "base": {
@@ -1675,7 +1675,7 @@
         },
         "type": {
           "value": "martialM",
-          "baseItem": ""
+          "baseItem": "ironstuddedclub"
         },
         "damage": {
           "base": {
@@ -1746,7 +1746,7 @@
         },
         "type": {
           "value": "martialM",
-          "baseItem": ""
+          "baseItem": "katana"
         },
         "damage": {
           "base": {
@@ -1831,7 +1831,7 @@
         },
         "type": {
           "value": "martialM",
-          "baseItem": ""
+          "baseItem": "mallet"
         },
         "damage": {
           "base": {
@@ -1916,7 +1916,7 @@
         },
         "type": {
           "value": "martialM",
-          "baseItem": ""
+          "baseItem": "meteorhammer"
         },
         "damage": {
           "base": {
@@ -1988,7 +1988,7 @@
         },
         "type": {
           "value": "martialM",
-          "baseItem": ""
+          "baseItem": "naginata"
         },
         "damage": {
           "base": {
@@ -2061,7 +2061,7 @@
         },
         "type": {
           "value": "martialM",
-          "baseItem": ""
+          "baseItem": "greatsword"
         },
         "damage": {
           "base": {
@@ -2132,7 +2132,7 @@
         },
         "type": {
           "value": "martialM",
-          "baseItem": ""
+          "baseItem": "nunchaku"
         },
         "damage": {
           "base": {
@@ -2203,7 +2203,7 @@
         },
         "type": {
           "value": "martialM",
-          "baseItem": ""
+          "baseItem": "sai"
         },
         "damage": {
           "base": {
@@ -2277,7 +2277,7 @@
         },
         "type": {
           "value": "martialM",
-          "baseItem": ""
+          "baseItem": "spikedmace"
         },
         "damage": {
           "base": {
@@ -2362,7 +2362,7 @@
         },
         "type": {
           "value": "martialM",
-          "baseItem": ""
+          "baseItem": "straightsworddoubleedged"
         },
         "damage": {
           "base": {
@@ -2450,7 +2450,7 @@
         },
         "type": {
           "value": "martialM",
-          "baseItem": ""
+          "baseItem": "straightswordsingleedged"
         },
         "damage": {
           "base": {
@@ -2534,7 +2534,7 @@
         },
         "type": {
           "value": "martialM",
-          "baseItem": ""
+          "baseItem": "swordbreaker"
         },
         "damage": {
           "base": {
@@ -2606,7 +2606,7 @@
         },
         "type": {
           "value": "martialM",
-          "baseItem": ""
+          "baseItem": "tigerhookswords"
         },
         "damage": {
           "base": {
@@ -2678,7 +2678,7 @@
         },
         "type": {
           "value": "martialM",
-          "baseItem": ""
+          "baseItem": "threesectionstaff"
         },
         "damage": {
           "base": {
@@ -2750,7 +2750,7 @@
         },
         "type": {
           "value": "martialM",
-          "baseItem": ""
+          "baseItem": "tridentpolearm"
         },
         "damage": {
           "base": {
@@ -2835,7 +2835,7 @@
         },
         "type": {
           "value": "martialM",
-          "baseItem": ""
+          "baseItem": "wakizashi"
         },
         "damage": {
           "base": {
@@ -2907,7 +2907,7 @@
         },
         "type": {
           "value": "martialM",
-          "baseItem": ""
+          "baseItem": "warspear"
         },
         "damage": {
           "base": {
@@ -2978,7 +2978,7 @@
         },
         "type": {
           "value": "martialM",
-          "baseItem": ""
+          "baseItem": "whipsword"
         },
         "damage": {
           "base": {
@@ -3049,7 +3049,7 @@
         },
         "type": {
           "value": "martialR",
-          "baseItem": ""
+          "baseItem": "ballista"
         },
         "damage": {
           "base": {
@@ -3120,7 +3120,7 @@
         },
         "type": {
           "value": "martialR",
-          "baseItem": ""
+          "baseItem": "blowgun"
         },
         "damage": {
           "base": {
@@ -3192,7 +3192,7 @@
         },
         "type": {
           "value": "martialR",
-          "baseItem": ""
+          "baseItem": "crossbow"
         },
         "damage": {
           "base": {
@@ -3264,7 +3264,7 @@
         },
         "type": {
           "value": "martialR",
-          "baseItem": ""
+          "baseItem": "greatbow"
         },
         "damage": {
           "base": {
@@ -3337,7 +3337,7 @@
         },
         "type": {
           "value": "martialR",
-          "baseItem": ""
+          "baseItem": "heavycrossbow"
         },
         "damage": {
           "base": {
@@ -3409,7 +3409,7 @@
         },
         "type": {
           "value": "martialR",
-          "baseItem": ""
+          "baseItem": "longbow"
         },
         "damage": {
           "base": {
@@ -3481,7 +3481,7 @@
         },
         "type": {
           "value": "martialR",
-          "baseItem": ""
+          "baseItem": "repeatingcrossbow"
         },
         "damage": {
           "base": {
@@ -3553,7 +3553,7 @@
         },
         "type": {
           "value": "martialR",
-          "baseItem": ""
+          "baseItem": "shinjohorsebow"
         },
         "damage": {
           "base": {
@@ -3625,7 +3625,7 @@
         },
         "type": {
           "value": "martialR",
-          "baseItem": ""
+          "baseItem": "shuriken"
         },
         "damage": {
           "base": {
@@ -5256,7 +5256,7 @@
         "identified": true,
         "type": {
           "value": "",
-          "baseItem": ""
+          "baseItem": "blacksmithskit"
         },
         "proficient": null,
         "properties": [],
@@ -5302,7 +5302,7 @@
         "identified": true,
         "type": {
           "value": "",
-          "baseItem": ""
+          "baseItem": "bowyerskit"
         },
         "proficient": null,
         "properties": [],
@@ -5348,7 +5348,7 @@
         "identified": true,
         "type": {
           "value": "",
-          "baseItem": ""
+          "baseItem": "calligraphyset"
         },
         "proficient": null,
         "properties": [],
@@ -5394,7 +5394,7 @@
         "identified": true,
         "type": {
           "value": "",
-          "baseItem": ""
+          "baseItem": "ceremonialteaset"
         },
         "proficient": null,
         "properties": [],
@@ -5440,7 +5440,7 @@
         "identified": true,
         "type": {
           "value": "",
-          "baseItem": ""
+          "baseItem": "chemistskit"
         },
         "proficient": null,
         "properties": [],
@@ -5486,7 +5486,7 @@
         "identified": true,
         "type": {
           "value": "",
-          "baseItem": ""
+          "baseItem": "cookingkit"
         },
         "proficient": null,
         "properties": [],
@@ -5532,7 +5532,7 @@
         "identified": true,
         "type": {
           "value": "",
-          "baseItem": ""
+          "baseItem": "fishingkit"
         },
         "proficient": null,
         "properties": [],
@@ -5578,7 +5578,7 @@
         "identified": true,
         "type": {
           "value": "",
-          "baseItem": ""
+          "baseItem": "makeupkit"
         },
         "proficient": null,
         "properties": [],
@@ -5624,7 +5624,7 @@
         "identified": true,
         "type": {
           "value": "",
-          "baseItem": ""
+          "baseItem": "masonskit"
         },
         "proficient": null,
         "properties": [],
@@ -5670,7 +5670,7 @@
         "identified": true,
         "type": {
           "value": "",
-          "baseItem": ""
+          "baseItem": "painterstools"
         },
         "proficient": null,
         "properties": [],
@@ -5716,7 +5716,7 @@
         "identified": true,
         "type": {
           "value": "",
-          "baseItem": ""
+          "baseItem": "pottersset"
         },
         "proficient": null,
         "properties": [],
@@ -5762,7 +5762,7 @@
         "identified": true,
         "type": {
           "value": "",
-          "baseItem": ""
+          "baseItem": "swordmaintenancekit"
         },
         "proficient": null,
         "properties": [],
@@ -5808,7 +5808,7 @@
         "identified": true,
         "type": {
           "value": "",
-          "baseItem": ""
+          "baseItem": "tailorskit"
         },
         "proficient": null,
         "properties": [],
@@ -5854,7 +5854,7 @@
         "identified": true,
         "type": {
           "value": "",
-          "baseItem": ""
+          "baseItem": "tattooset"
         },
         "proficient": null,
         "properties": [],
@@ -5900,7 +5900,7 @@
         "identified": true,
         "type": {
           "value": "",
-          "baseItem": ""
+          "baseItem": "weaverskit"
         },
         "proficient": null,
         "properties": [],
@@ -5946,7 +5946,7 @@
         "identified": true,
         "type": {
           "value": "",
-          "baseItem": ""
+          "baseItem": "boardorcardgame"
         },
         "proficient": null,
         "properties": [],
@@ -5992,7 +5992,7 @@
         "identified": true,
         "type": {
           "value": "",
-          "baseItem": ""
+          "baseItem": "diceandcup"
         },
         "proficient": null,
         "properties": [],
@@ -6038,7 +6038,7 @@
         "identified": true,
         "type": {
           "value": "",
-          "baseItem": ""
+          "baseItem": "drums"
         },
         "proficient": null,
         "properties": [],
@@ -6084,7 +6084,7 @@
         "identified": true,
         "type": {
           "value": "",
-          "baseItem": ""
+          "baseItem": "flute"
         },
         "proficient": null,
         "properties": [],
@@ -6130,7 +6130,7 @@
         "identified": true,
         "type": {
           "value": "",
-          "baseItem": ""
+          "baseItem": "lute"
         },
         "proficient": null,
         "properties": [],
@@ -6176,7 +6176,7 @@
         "identified": true,
         "type": {
           "value": "",
-          "baseItem": ""
+          "baseItem": "zither"
         },
         "proficient": null,
         "properties": [],
@@ -6222,7 +6222,7 @@
         "identified": true,
         "type": {
           "value": "",
-          "baseItem": ""
+          "baseItem": "alchemistskit"
         },
         "proficient": null,
         "properties": [],
@@ -6268,7 +6268,7 @@
         "identified": true,
         "type": {
           "value": "",
-          "baseItem": ""
+          "baseItem": "divinationkit"
         },
         "proficient": null,
         "properties": [],
@@ -6314,7 +6314,7 @@
         "identified": true,
         "type": {
           "value": "",
-          "baseItem": ""
+          "baseItem": "disguisekit"
         },
         "proficient": null,
         "properties": [],
@@ -6360,7 +6360,7 @@
         "identified": true,
         "type": {
           "value": "",
-          "baseItem": ""
+          "baseItem": "infiltratorsequipment"
         },
         "proficient": null,
         "properties": [],
@@ -6406,7 +6406,7 @@
         "identified": true,
         "type": {
           "value": "",
-          "baseItem": ""
+          "baseItem": "invisibleinkset"
         },
         "proficient": null,
         "properties": [],

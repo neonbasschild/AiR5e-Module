@@ -136,6 +136,9 @@ Hooks.once("i18nInit", () => {
 
 Hooks.once("setup", () => {
   RokuganSheets.register();
+  // Re-assert weapon/tool proficiency IDs after the dnd5e system's own setup,
+  // so specific-weapon/tool proficiency grants resolve during character builds.
+  RokuganConfig.registerProficiencies();
 });
 
 Hooks.once("ready", () => {

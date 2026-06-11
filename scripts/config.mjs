@@ -420,7 +420,24 @@ export class RokuganConfig {
       cfg.toolProficiencies["subterfuge"] = "ROKUGAN.ToolCat.Subterfuge";
     }
 
-    // ----- Weapon / Tool IDs -> equipment-compendium items -----
+    // Weapon/tool proficiency IDs are registered in registerProficiencies(),
+    // called at both init and setup so they survive the dnd5e system's own setup.
+    RokuganConfig.registerProficiencies();
+
+    console.log("Rokugan5E | CONFIG.DND5E patched successfully");
+  }
+
+  // Register Rokugan languages. Called at i18nInit so game.i18n is ready and
+  // labels resolve to readable text instead of raw localization keys.
+
+  // Register AiR weapon/tool proficiency IDs. Called at init AND setup: the
+  // dnd5e system may (re)populate CONFIG.DND5E.weaponIds/toolIds from its own
+  // compendium during its setup phase, which can drop entries added only at
+  // init - so we re-assert them at setup to guarantee specific-weapon and
+  // specific-tool proficiency grants resolve when characters are built.
+  static registerProficiencies() {
+    const cfg = CONFIG.DND5E;
+    if (!cfg) return;
     // dnd5e resolves a specific weapon/tool proficiency (and the item
     // "proficient" state) via CONFIG.DND5E.weaponIds / toolIds, each mapping
     // an identifier to a compendium item. We point AiR's weapons and tools at
@@ -432,7 +449,14 @@ export class RokuganConfig {
     }
     cfg.toolIds = cfg.toolIds ?? {};
     for (const [key, id] of Object.entries(ROKUGAN_TOOL_IDS)) {
-      cfg.toolIds[key] = `Compendium.${EQUIPMENT_PACK}.Item.${id}`;
+      const uuid = `Compendium.${EQUIPMENT_PACK}.Item.${id}`;
+      cfg.toolIds[key] = uuid;
+      // Override the equivalent SRD camelCase key so the tool dropdown shows a
+      // single Rokugan entry instead of duplicating with the SRD item
+      // (e.g. our "disguisekit" vs the SRD "disguiseKit").
+      const camel = key.replace(/kit$/, "Kit").replace(/set$/, "Set")
+                       .replace(/tools$/, "Tools").replace(/equipment$/, "Equipment");
+      if (camel !== key && cfg.toolIds[camel]) cfg.toolIds[camel] = uuid;
     }
 
     // Languages are registered in registerLanguages() at i18nInit
@@ -514,11 +538,8 @@ export class RokuganConfig {
 
     CONFIG.statusEffects.push(...rokuganConditions);
 
-    console.log("Rokugan5E | CONFIG.DND5E patched successfully");
   }
 
-  // Register Rokugan languages. Called at i18nInit so game.i18n is ready and
-  // labels resolve to readable text instead of raw localization keys.
   static registerLanguages() {
     const cfg = CONFIG.DND5E;
     // dnd5e 5.x stores languages as a nested tree: each category has

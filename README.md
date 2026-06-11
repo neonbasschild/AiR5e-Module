@@ -501,3 +501,33 @@ Adventures in Rokugan lists only equipment packages, with no per-class "gold ins
 
 ### Verified
 Across all classes and backgrounds: zero broken equipment links, zero duplicate pool/advancement IDs, all weapon-category keys valid, 56 of 58 backgrounds carry their equipment (the other two list none in the book). The seeder's data version was bumped, so existing worlds reseed on next load — drag the class/background onto a character (or use a character-builder) to get the equipment/gold prompt.
+
+---
+
+## Version 3.18.0 — Weapon/Tool Auto-Proficiency Fixed
+
+The automatic proficiency system wasn't recognizing AiR weapons and tools. Several linked causes:
+
+### Items didn't declare their proficiency key (the main bug)
+dnd5e matches a physical item on the sheet to a proficiency via the item's `system.type.baseItem` field, which must equal the registered `weaponIds`/`toolIds` key. Every AiR weapon and tool had an empty `baseItem`, so adding (for example) a wakizashi never triggered the proficiency check even when the character had wakizashi proficiency. Every weapon and tool now declares `baseItem` = its registered key, so the full chain — grant (`weapon:wakizashi`) → registration (`weaponIds.wakizashi`) → item (`baseItem: "wakizashi"`) — connects. Verified across all 47 weapons and 26 tools.
+
+### Duplicate SRD tool entries ("two disguise kits")
+The SRD registers tool keys like `disguiseKit`; this module registered `disguisekit`, so both appeared in the tool dropdown. AiR tools now override the equivalent SRD camelCase key, collapsing each to a single Rokugan entry pointing at the AiR item.
+
+### Missing Rokugani Signed
+Clan-tongue backgrounds list read/sign/speak/write, but only the spoken form was granted. A Rokugani grant now also grants **Rokugani Signed** (e.g. Shosuro Family now correctly gives Rokugani, Rokugani Signed, and Courtly Rokugani plus the free choice).
+
+### Result
+Weapon and tool proficiencies granted by classes and backgrounds now register on the sheet and drive the auto-proficiency checkmark when the matching item is added. All grant keys across every class and background resolve to a registered weapon/tool ID or a valid category (verified zero unresolvable). The seeder's data version was bumped; existing worlds reseed on next load. As with all advancement-applied data, re-drag a class/background already on a character (or rebuild via a character builder) to pick up the corrected items.
+
+---
+
+## Version 3.19.0 — Specific Weapon/Tool Proficiencies Apply on Build
+
+Specific weapon and tool proficiencies (e.g. the Shinobi's shuriken, chain sickle, katana, nunchaku, sai, swordbreaker) appeared in the advancement list during character creation but weren't written to the sheet — only the category grant ("Simple weapons") applied.
+
+The cause was registration timing. AiR's specific weapons/tools are registered into `CONFIG.DND5E.weaponIds`/`toolIds`, and dnd5e validates a Trait advancement's specific-item grants against those keys when the advancement is applied. The dnd5e system repopulates these maps during its own `setup` phase, which could drop entries that were only added at `init` — so by the time a character build applied the Trait grant, the custom keys weren't recognized and were silently dropped, while the built-in category key ("sim") survived.
+
+Weapon/tool ID registration now runs in a dedicated method called at **both `init` and `setup`** (after the dnd5e system finishes its own setup), so the custom keys persist through to character-creation time and the specific-weapon/tool grants resolve and write to the sheet. All Shinobi specific-weapon grant keys verified present in `weaponIds`.
+
+If a character was built before this fix, re-drag the class/background to re-run the advancement and pick up the proficiencies.

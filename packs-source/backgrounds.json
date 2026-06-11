@@ -239,7 +239,8 @@
               "allowReplacements": false,
               "grants": [
                 "languages:rokugan:battleArgot",
-                "languages:rokugan:rokugani"
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned"
               ],
               "choices": []
             },
@@ -393,7 +394,8 @@
               "grants": [
                 "languages:rokugan:battleArgot",
                 "languages:rokugan:ivindi",
-                "languages:rokugan:rokugani"
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned"
               ],
               "choices": []
             },
@@ -583,7 +585,8 @@
               "allowReplacements": false,
               "grants": [
                 "languages:rokugan:battleArgot",
-                "languages:rokugan:rokugani"
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned"
               ],
               "choices": []
             },
@@ -752,7 +755,8 @@
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:rokugan:rokugani"
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned"
               ],
               "choices": []
             },
@@ -930,7 +934,8 @@
                 "languages:rokugan:ivindi",
                 "languages:rokugan:jindallaean",
                 "languages:rokugan:qamari",
-                "languages:rokugan:rokugani"
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned"
               ],
               "choices": []
             },
@@ -1148,7 +1153,8 @@
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:rokugan:rokugani"
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned"
               ],
               "choices": []
             },
@@ -1299,7 +1305,8 @@
               "allowReplacements": false,
               "grants": [
                 "languages:rokugan:battleArgot",
-                "languages:rokugan:rokugani"
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned"
               ],
               "choices": []
             },
@@ -1453,7 +1460,8 @@
               "allowReplacements": false,
               "grants": [
                 "languages:rokugan:courtlyRokugani",
-                "languages:rokugan:rokugani"
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned"
               ],
               "choices": []
             },
@@ -1620,7 +1628,8 @@
               "allowReplacements": false,
               "grants": [
                 "languages:rokugan:courtlyRokugani",
-                "languages:rokugan:rokugani"
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned"
               ],
               "choices": []
             },
@@ -1802,7 +1811,8 @@
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:rokugan:rokugani"
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned"
               ],
               "choices": []
             },
@@ -1955,7 +1965,8 @@
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:rokugan:rokugani"
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned"
               ],
               "choices": []
             },
@@ -2155,7 +2166,8 @@
               "allowReplacements": false,
               "grants": [
                 "languages:rokugan:battleArgot",
-                "languages:rokugan:rokugani"
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned"
               ],
               "choices": []
             },
@@ -2301,7 +2313,8 @@
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:rokugan:rokugani"
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned"
               ],
               "choices": []
             },
@@ -2454,7 +2467,8 @@
               "allowReplacements": false,
               "grants": [
                 "languages:rokugan:battleArgot",
-                "languages:rokugan:rokugani"
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned"
               ],
               "choices": []
             },
@@ -2638,7 +2652,8 @@
               "grants": [
                 "languages:rokugan:courtlyRokugani",
                 "languages:rokugan:battleArgot",
-                "languages:rokugan:rokugani"
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned"
               ],
               "choices": []
             },
@@ -2813,7 +2828,8 @@
               "grants": [
                 "languages:rokugan:courtlyRokugani",
                 "languages:rokugan:battleArgot",
-                "languages:rokugan:rokugani"
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned"
               ],
               "choices": []
             },
@@ -2967,7 +2983,8 @@
               "allowReplacements": false,
               "grants": [
                 "languages:rokugan:battleArgot",
-                "languages:rokugan:rokugani"
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned"
               ],
               "choices": []
             },
@@ -3142,7 +3159,8 @@
               "grants": [
                 "languages:rokugan:courtlyRokugani",
                 "languages:rokugan:asakoCipher",
-                "languages:rokugan:rokugani"
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned"
               ],
               "choices": []
             },
@@ -3316,7 +3334,8 @@
               "allowReplacements": false,
               "grants": [
                 "languages:rokugan:jindallaean",
-                "languages:rokugan:rokugani"
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned"
               ],
               "choices": []
             },
@@ -3498,7 +3517,8 @@
               "allowReplacements": false,
               "grants": [
                 "languages:rokugan:battleArgot",
-                "languages:rokugan:rokugani"
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned"
               ],
               "choices": []
             },
@@ -3670,7 +3690,8 @@
               "allowReplacements": false,
               "grants": [
                 "languages:rokugan:courtlyRokugani",
-                "languages:rokugan:rokugani"
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned"
               ],
               "choices": []
             },
@@ -3884,7 +3905,8 @@
               "allowReplacements": false,
               "grants": [
                 "languages:rokugan:courtlyRokugani",
-                "languages:rokugan:rokugani"
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned"
               ],
               "choices": []
             },
@@ -4110,7 +4132,8 @@
               "allowReplacements": false,
               "grants": [
                 "languages:rokugan:courtlyRokugani",
-                "languages:rokugan:rokugani"
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned"
               ],
               "choices": []
             },
@@ -4325,7 +4348,8 @@
               "allowReplacements": false,
               "grants": [
                 "languages:rokugan:yogoCipher",
-                "languages:rokugan:rokugani"
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned"
               ],
               "choices": []
             },
@@ -4492,7 +4516,8 @@
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:rokugan:rokugani"
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned"
               ],
               "choices": []
             },
@@ -4683,7 +4708,8 @@
               "allowReplacements": false,
               "grants": [
                 "languages:rokugan:ujik",
-                "languages:rokugan:rokugani"
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned"
               ],
               "choices": []
             },
@@ -4867,7 +4893,8 @@
               "allowReplacements": false,
               "grants": [
                 "languages:rokugan:ujik",
-                "languages:rokugan:rokugani"
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned"
               ],
               "choices": []
             },
@@ -5026,7 +5053,8 @@
               "allowReplacements": false,
               "grants": [
                 "languages:rokugan:ujik",
-                "languages:rokugan:rokugani"
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned"
               ],
               "choices": []
             },
@@ -5209,7 +5237,8 @@
               "allowReplacements": false,
               "grants": [
                 "languages:rokugan:ujik",
-                "languages:rokugan:rokugani"
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned"
               ],
               "choices": []
             },
@@ -5364,7 +5393,8 @@
               "allowReplacements": false,
               "grants": [
                 "languages:rokugan:courtlyRokugani",
-                "languages:rokugan:rokugani"
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned"
               ],
               "choices": []
             },
@@ -5547,7 +5577,8 @@
               "allowReplacements": false,
               "grants": [
                 "languages:rokugan:courtlyRokugani",
-                "languages:rokugan:rokugani"
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned"
               ],
               "choices": []
             },
@@ -5720,7 +5751,8 @@
               "allowReplacements": false,
               "grants": [
                 "languages:rokugan:courtlyRokugani",
-                "languages:rokugan:rokugani"
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned"
               ],
               "choices": []
             },
@@ -5873,7 +5905,8 @@
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:rokugan:rokugani"
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned"
               ],
               "choices": []
             },
@@ -6200,7 +6233,8 @@
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:rokugan:rokugani"
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned"
               ],
               "choices": []
             },
@@ -6362,7 +6396,8 @@
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:rokugan:rokugani"
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned"
               ],
               "choices": []
             },
@@ -6542,7 +6577,8 @@
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:rokugan:rokugani"
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned"
               ],
               "choices": []
             },
@@ -6694,7 +6730,8 @@
               "allowReplacements": false,
               "grants": [
                 "languages:rokugan:battleArgot",
-                "languages:rokugan:rokugani"
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned"
               ],
               "choices": []
             },
@@ -6873,7 +6910,8 @@
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:rokugan:rokugani"
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned"
               ],
               "choices": []
             },
@@ -7019,7 +7057,8 @@
               "allowReplacements": false,
               "grants": [
                 "languages:rokugan:battleArgot",
-                "languages:rokugan:rokugani"
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned"
               ],
               "choices": []
             },
@@ -7173,7 +7212,8 @@
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:rokugan:rokugani"
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned"
               ],
               "choices": []
             },
@@ -7436,7 +7476,8 @@
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:rokugan:rokugani"
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned"
               ],
               "choices": []
             },
@@ -7642,7 +7683,8 @@
               "allowReplacements": false,
               "grants": [
                 "languages:rokugan:battleArgot",
-                "languages:rokugan:rokugani"
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned"
               ],
               "choices": []
             },
@@ -7776,7 +7818,8 @@
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:rokugan:rokugani"
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned"
               ],
               "choices": []
             },
@@ -7920,7 +7963,8 @@
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:rokugan:rokugani"
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned"
               ],
               "choices": []
             },
@@ -8102,7 +8146,8 @@
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:rokugan:rokugani"
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned"
               ],
               "choices": []
             },
@@ -8246,7 +8291,8 @@
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:rokugan:rokugani"
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned"
               ],
               "choices": []
             },
@@ -8427,7 +8473,8 @@
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:rokugan:rokugani"
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned"
               ],
               "choices": []
             },
@@ -8623,7 +8670,8 @@
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "languages:rokugan:rokugani"
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned"
               ],
               "choices": []
             },
@@ -8813,7 +8861,8 @@
               "allowReplacements": false,
               "grants": [
                 "languages:rokugan:jindallaean",
-                "languages:rokugan:rokugani"
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned"
               ],
               "choices": []
             },
@@ -8964,7 +9013,8 @@
               "allowReplacements": false,
               "grants": [
                 "languages:rokugan:jindallaean",
-                "languages:rokugan:rokugani"
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned"
               ],
               "choices": []
             },
@@ -9100,7 +9150,8 @@
               "allowReplacements": false,
               "grants": [
                 "languages:rokugan:stoneClick",
-                "languages:rokugan:rokugani"
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned"
               ],
               "choices": []
             },
@@ -9299,7 +9350,8 @@
               "allowReplacements": false,
               "grants": [
                 "languages:rokugan:skySpeech",
-                "languages:rokugan:rokugani"
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned"
               ],
               "choices": []
             },
@@ -9433,7 +9485,8 @@
               "allowReplacements": false,
               "grants": [
                 "languages:rokugan:skySpeech",
-                "languages:rokugan:rokugani"
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned"
               ],
               "choices": []
             },
@@ -9577,7 +9630,8 @@
               "allowReplacements": false,
               "grants": [
                 "languages:rokugan:animalSpeech",
-                "languages:rokugan:rokugani"
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned"
               ],
               "choices": []
             },
@@ -9699,7 +9753,8 @@
               "allowReplacements": false,
               "grants": [
                 "languages:rokugan:courtlyRokugani",
-                "languages:rokugan:rokugani"
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned"
               ],
               "choices": []
             },
@@ -9873,7 +9928,8 @@
               "grants": [
                 "languages:rokugan:courtlyRokugani",
                 "languages:rokugan:battleArgot",
-                "languages:rokugan:rokugani"
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned"
               ],
               "choices": []
             },
