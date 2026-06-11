@@ -106,14 +106,14 @@
         },
         "advancement": [
           {
-            "_id": "rkbushihp0000000",
+            "_id": "r1c8e71da1b37505",
             "type": "HitPoints",
             "configuration": {},
             "value": {},
             "title": ""
           },
           {
-            "_id": "rkbushisaves0000",
+            "_id": "r60f76fe9412d330",
             "type": "Trait",
             "level": 1,
             "title": "Saving Throw Proficiencies",
@@ -130,7 +130,7 @@
             "value": {}
           },
           {
-            "_id": "rkbushiarmor0000",
+            "_id": "rab318ae9eb620f3",
             "type": "Trait",
             "level": 1,
             "title": "Armor Proficiency",
@@ -147,7 +147,7 @@
             "value": {}
           },
           {
-            "_id": "rkbushiweapons00",
+            "_id": "r3430208e7289e7f",
             "type": "Trait",
             "level": 1,
             "title": "Weapon Proficiency",
@@ -164,7 +164,7 @@
             "value": {}
           },
           {
-            "_id": "rkbushiskills000",
+            "_id": "rda1f08307292a31",
             "type": "Trait",
             "level": 1,
             "title": "Skill Proficiencies",
@@ -192,7 +192,7 @@
             "value": {}
           },
           {
-            "_id": "rkfocusmaximum00",
+            "_id": "r14f3069021a3a75",
             "type": "ScaleValue",
             "title": "Focus Maximum",
             "configuration": {
@@ -228,7 +228,7 @@
             "value": {}
           },
           {
-            "_id": "rktechniquesknow",
+            "_id": "rdd79a47e1b2f334",
             "type": "ScaleValue",
             "title": "Techniques Known",
             "configuration": {
@@ -264,7 +264,7 @@
             "value": {}
           },
           {
-            "_id": "rkbushisub000000",
+            "_id": "r2d8368eb2823ed9",
             "type": "Subclass",
             "level": 3,
             "title": "Archetype",
@@ -272,7 +272,7 @@
             "value": {}
           },
           {
-            "_id": "rkbushiasi400000",
+            "_id": "r7a2cdb4fe606cea",
             "type": "AbilityScoreImprovement",
             "level": 4,
             "title": "",
@@ -284,7 +284,7 @@
             "value": {}
           },
           {
-            "_id": "rkbushiasi800000",
+            "_id": "rb55ba25b35984b4",
             "type": "AbilityScoreImprovement",
             "level": 8,
             "title": "",
@@ -296,7 +296,7 @@
             "value": {}
           },
           {
-            "_id": "rkbushiasi120000",
+            "_id": "re3b1b24343ea32e",
             "type": "AbilityScoreImprovement",
             "level": 12,
             "title": "",
@@ -308,7 +308,7 @@
             "value": {}
           },
           {
-            "_id": "rkbushiasi140000",
+            "_id": "r7fdf4e5d76146ff",
             "type": "AbilityScoreImprovement",
             "level": 14,
             "title": "",
@@ -320,7 +320,7 @@
             "value": {}
           },
           {
-            "_id": "rkbushiasi160000",
+            "_id": "r935d93185289c81",
             "type": "AbilityScoreImprovement",
             "level": 16,
             "title": "",
@@ -332,7 +332,7 @@
             "value": {}
           },
           {
-            "_id": "rkbushiasi190000",
+            "_id": "r2eb577e003074c1",
             "type": "AbilityScoreImprovement",
             "level": 19,
             "title": "",
@@ -344,7 +344,7 @@
             "value": {}
           },
           {
-            "_id": "rkbushigrant1000",
+            "_id": "r66c3e55f65a5317",
             "type": "ItemGrant",
             "level": 1,
             "title": "Features",
@@ -369,7 +369,7 @@
             "value": {}
           },
           {
-            "_id": "rkbushigrant2000",
+            "_id": "r5293f72a092df13",
             "type": "ItemGrant",
             "level": 2,
             "title": "Features",
@@ -390,7 +390,7 @@
             "value": {}
           },
           {
-            "_id": "rkbushigrant5000",
+            "_id": "r46e36e91acf9c78",
             "type": "ItemGrant",
             "level": 5,
             "title": "Features",
@@ -407,7 +407,7 @@
             "value": {}
           },
           {
-            "_id": "rkbushigrant6000",
+            "_id": "rbf8fed78ffeeefc",
             "type": "ItemGrant",
             "level": 6,
             "title": "Features",
@@ -424,7 +424,7 @@
             "value": {}
           },
           {
-            "_id": "rkbushigrant9000",
+            "_id": "ra40eb74e8362f9b",
             "type": "ItemGrant",
             "level": 9,
             "title": "Features",
@@ -441,7 +441,7 @@
             "value": {}
           },
           {
-            "_id": "rkbushigrant1000",
+            "_id": "r219a19475bcd0a2",
             "type": "ItemGrant",
             "level": 10,
             "title": "Features",
@@ -458,7 +458,7 @@
             "value": {}
           },
           {
-            "_id": "rkbushigrant1100",
+            "_id": "r3c4cc8fd89f400b",
             "type": "ItemGrant",
             "level": 11,
             "title": "Features",
@@ -475,7 +475,7 @@
             "value": {}
           },
           {
-            "_id": "rkbushigrant1500",
+            "_id": "r85015de10758372",
             "type": "ItemGrant",
             "level": 15,
             "title": "Features",
@@ -492,7 +492,7 @@
             "value": {}
           },
           {
-            "_id": "rkbushigrant2000",
+            "_id": "r87b6a95536eae72",
             "type": "ItemGrant",
             "level": 20,
             "title": "Features",
@@ -509,7 +509,7 @@
             "value": {}
           },
           {
-            "_id": "rkbushistarteq00",
+            "_id": "rcbb1298bbb5884a",
             "type": "StartingEquipment",
             "title": "",
             "configuration": {
@@ -544,7 +544,7 @@
                   "sort": 3,
                   "type": "weapon",
                   "count": 1,
-                  "key": "martial",
+                  "key": "mar",
                   "requiresProficiency": false
                 },
                 {
@@ -569,7 +569,7 @@
                   "sort": 6,
                   "type": "weapon",
                   "count": 1,
-                  "key": "martial",
+                  "key": "mar",
                   "requiresProficiency": false
                 },
                 {
@@ -634,7 +634,7 @@
                   "sort": 14,
                   "type": "weapon",
                   "count": 1,
-                  "key": "simpleM",
+                  "key": "sim",
                   "requiresProficiency": false
                 },
                 {
@@ -643,7 +643,7 @@
                   "sort": 15,
                   "type": "weapon",
                   "count": 1,
-                  "key": "simpleR",
+                  "key": "sim",
                   "requiresProficiency": false
                 },
                 {
@@ -663,7 +663,7 @@
                   "key": "Compendium.rokugan5e.equipment.Item.rwdagger00000000"
                 }
               ],
-              "wealth": ""
+              "wealth": "2d4 * 10"
             },
             "value": {},
             "level": 1
@@ -712,14 +712,14 @@
         },
         "advancement": [
           {
-            "_id": "rkduelisthp00000",
+            "_id": "r16378e0270a57b5",
             "type": "HitPoints",
             "configuration": {},
             "value": {},
             "title": ""
           },
           {
-            "_id": "rkduelistsaves00",
+            "_id": "r11aeec829ae9ec2",
             "type": "Trait",
             "level": 1,
             "title": "Saving Throw Proficiencies",
@@ -736,7 +736,7 @@
             "value": {}
           },
           {
-            "_id": "rkduelistweapons",
+            "_id": "r5078fcfc6b57d17",
             "type": "Trait",
             "level": 1,
             "title": "Weapon Proficiency",
@@ -753,7 +753,7 @@
             "value": {}
           },
           {
-            "_id": "rkduelistskills0",
+            "_id": "r2647ea56d2eaf51",
             "type": "Trait",
             "level": 1,
             "title": "Skill Proficiencies",
@@ -781,7 +781,7 @@
             "value": {}
           },
           {
-            "_id": "rkduelisttoolxc0",
+            "_id": "re589a02718c4ef0",
             "type": "Trait",
             "level": 1,
             "title": "Tool Proficiency",
@@ -803,7 +803,7 @@
             "value": {}
           },
           {
-            "_id": "rkfocusmaximum00",
+            "_id": "r14f3069021a3a75",
             "type": "ScaleValue",
             "title": "Focus Maximum",
             "configuration": {
@@ -839,7 +839,7 @@
             "value": {}
           },
           {
-            "_id": "rktechniquesknow",
+            "_id": "rdd79a47e1b2f334",
             "type": "ScaleValue",
             "title": "Techniques Known",
             "configuration": {
@@ -875,7 +875,7 @@
             "value": {}
           },
           {
-            "_id": "rkduelistsub0000",
+            "_id": "r53913228aa54f8a",
             "type": "Subclass",
             "level": 3,
             "title": "Archetype",
@@ -883,7 +883,7 @@
             "value": {}
           },
           {
-            "_id": "rkduelistasi4000",
+            "_id": "r88eab025e192d37",
             "type": "AbilityScoreImprovement",
             "level": 4,
             "title": "",
@@ -895,7 +895,7 @@
             "value": {}
           },
           {
-            "_id": "rkduelistasi8000",
+            "_id": "rbe8a90ed8fd3819",
             "type": "AbilityScoreImprovement",
             "level": 8,
             "title": "",
@@ -907,7 +907,7 @@
             "value": {}
           },
           {
-            "_id": "rkduelistasi1000",
+            "_id": "r76ddafacf37a413",
             "type": "AbilityScoreImprovement",
             "level": 10,
             "title": "",
@@ -919,7 +919,7 @@
             "value": {}
           },
           {
-            "_id": "rkduelistasi1200",
+            "_id": "r18e752e19c171e1",
             "type": "AbilityScoreImprovement",
             "level": 12,
             "title": "",
@@ -931,7 +931,7 @@
             "value": {}
           },
           {
-            "_id": "rkduelistasi1600",
+            "_id": "r4e32aaec11a3f6d",
             "type": "AbilityScoreImprovement",
             "level": 16,
             "title": "",
@@ -943,7 +943,7 @@
             "value": {}
           },
           {
-            "_id": "rkduelistasi1900",
+            "_id": "r44458ca90e92618",
             "type": "AbilityScoreImprovement",
             "level": 19,
             "title": "",
@@ -955,7 +955,7 @@
             "value": {}
           },
           {
-            "_id": "rkduelistgrant10",
+            "_id": "r233aa883c5fda56",
             "type": "ItemGrant",
             "level": 1,
             "title": "Features",
@@ -980,7 +980,7 @@
             "value": {}
           },
           {
-            "_id": "rkduelistgrant20",
+            "_id": "r802466c3df25894",
             "type": "ItemGrant",
             "level": 2,
             "title": "Features",
@@ -1001,7 +1001,7 @@
             "value": {}
           },
           {
-            "_id": "rkduelistgrant30",
+            "_id": "r14d55b2d06965be",
             "type": "ItemGrant",
             "level": 3,
             "title": "Features",
@@ -1018,7 +1018,7 @@
             "value": {}
           },
           {
-            "_id": "rkduelistgrant50",
+            "_id": "rf006c097a114212",
             "type": "ItemGrant",
             "level": 5,
             "title": "Features",
@@ -1035,7 +1035,7 @@
             "value": {}
           },
           {
-            "_id": "rkduelistgrant60",
+            "_id": "r4c1ef749b7c54b3",
             "type": "ItemGrant",
             "level": 6,
             "title": "Features",
@@ -1052,7 +1052,7 @@
             "value": {}
           },
           {
-            "_id": "rkduelistgrant90",
+            "_id": "r9b1d5327df8e4ef",
             "type": "ItemGrant",
             "level": 9,
             "title": "Features",
@@ -1069,7 +1069,7 @@
             "value": {}
           },
           {
-            "_id": "rkduelistgrant10",
+            "_id": "rdc7fcb393fe4671",
             "type": "ItemGrant",
             "level": 10,
             "title": "Features",
@@ -1086,7 +1086,7 @@
             "value": {}
           },
           {
-            "_id": "rkduelistgrant13",
+            "_id": "ra4a135367e721a3",
             "type": "ItemGrant",
             "level": 13,
             "title": "Features",
@@ -1103,7 +1103,7 @@
             "value": {}
           },
           {
-            "_id": "rkduelistgrant14",
+            "_id": "r7dcbf816066b00c",
             "type": "ItemGrant",
             "level": 14,
             "title": "Features",
@@ -1120,7 +1120,7 @@
             "value": {}
           },
           {
-            "_id": "rkduelistgrant15",
+            "_id": "rd4f5875c93ebc67",
             "type": "ItemGrant",
             "level": 15,
             "title": "Features",
@@ -1137,7 +1137,7 @@
             "value": {}
           },
           {
-            "_id": "rkduelistgrant20",
+            "_id": "r8cd214be30ad9ff",
             "type": "ItemGrant",
             "level": 20,
             "title": "Features",
@@ -1154,7 +1154,7 @@
             "value": {}
           },
           {
-            "_id": "rkdueliststarteq",
+            "_id": "r0c5d5ffe3741e29",
             "type": "StartingEquipment",
             "title": "",
             "configuration": {
@@ -1205,7 +1205,7 @@
                   "sort": 5,
                   "type": "weapon",
                   "count": 1,
-                  "key": "martialM",
+                  "key": "mar",
                   "requiresProficiency": false
                 },
                 {
@@ -1222,7 +1222,7 @@
                   "sort": 7,
                   "type": "weapon",
                   "count": 1,
-                  "key": "simpleM",
+                  "key": "sim",
                   "requiresProficiency": false
                 },
                 {
@@ -1231,7 +1231,7 @@
                   "sort": 8,
                   "type": "weapon",
                   "count": 1,
-                  "key": "simpleM",
+                  "key": "sim",
                   "requiresProficiency": false
                 },
                 {
@@ -1248,7 +1248,7 @@
                   "sort": 10,
                   "type": "weapon",
                   "count": 1,
-                  "key": "martialM",
+                  "key": "mar",
                   "requiresProficiency": false
                 },
                 {
@@ -1332,7 +1332,7 @@
                   "key": "Compendium.rokugan5e.equipment.Item.rgswordmaintenan"
                 }
               ],
-              "wealth": ""
+              "wealth": "5d4 * 10"
             },
             "value": {},
             "level": 1
@@ -1381,14 +1381,14 @@
         },
         "advancement": [
           {
-            "_id": "rkcourtierhp0000",
+            "_id": "rf8d6f7efaf84047",
             "type": "HitPoints",
             "configuration": {},
             "value": {},
             "title": ""
           },
           {
-            "_id": "rkcourtiersaves0",
+            "_id": "r8fd05352de8f83d",
             "type": "Trait",
             "level": 1,
             "title": "Saving Throw Proficiencies",
@@ -1405,7 +1405,7 @@
             "value": {}
           },
           {
-            "_id": "rkcourtierweapon",
+            "_id": "rfb266984fc382c3",
             "type": "Trait",
             "level": 1,
             "title": "Weapon Proficiency",
@@ -1421,7 +1421,7 @@
             "value": {}
           },
           {
-            "_id": "rkcourtierskills",
+            "_id": "r287a40f4b7caf42",
             "type": "Trait",
             "level": 1,
             "title": "Skill Proficiencies",
@@ -1453,7 +1453,7 @@
             "value": {}
           },
           {
-            "_id": "rkcourtierarmx00",
+            "_id": "r6111577b3efcedf",
             "type": "Trait",
             "level": 1,
             "title": "Armor Proficiency",
@@ -1469,7 +1469,7 @@
             "value": {}
           },
           {
-            "_id": "rkcourtiertoolxc",
+            "_id": "r5b4d40cfa3e5b36",
             "type": "Trait",
             "level": 1,
             "title": "Tool Proficiency",
@@ -1493,7 +1493,7 @@
             "value": {}
           },
           {
-            "_id": "rkfocusmaximum00",
+            "_id": "r14f3069021a3a75",
             "type": "ScaleValue",
             "title": "Focus Maximum",
             "configuration": {
@@ -1529,7 +1529,7 @@
             "value": {}
           },
           {
-            "_id": "rktechniquesknow",
+            "_id": "rdd79a47e1b2f334",
             "type": "ScaleValue",
             "title": "Techniques Known",
             "configuration": {
@@ -1565,7 +1565,7 @@
             "value": {}
           },
           {
-            "_id": "rkcourtiersub000",
+            "_id": "r42b2e10c3ceac11",
             "type": "Subclass",
             "level": 3,
             "title": "Archetype",
@@ -1573,7 +1573,7 @@
             "value": {}
           },
           {
-            "_id": "rkcourtierasi400",
+            "_id": "re2d60a43699085f",
             "type": "AbilityScoreImprovement",
             "level": 4,
             "title": "",
@@ -1585,7 +1585,7 @@
             "value": {}
           },
           {
-            "_id": "rkcourtierasi800",
+            "_id": "r24ebd6ecc83d03c",
             "type": "AbilityScoreImprovement",
             "level": 8,
             "title": "",
@@ -1597,7 +1597,7 @@
             "value": {}
           },
           {
-            "_id": "rkcourtierasi120",
+            "_id": "r7c594d2869d23d3",
             "type": "AbilityScoreImprovement",
             "level": 12,
             "title": "",
@@ -1609,7 +1609,7 @@
             "value": {}
           },
           {
-            "_id": "rkcourtierasi200",
+            "_id": "r906d4ce8f14c038",
             "type": "AbilityScoreImprovement",
             "level": 20,
             "title": "",
@@ -1621,7 +1621,7 @@
             "value": {}
           },
           {
-            "_id": "rkcourtiergrant1",
+            "_id": "rf73e93956780d9e",
             "type": "ItemGrant",
             "level": 1,
             "title": "Features",
@@ -1654,7 +1654,7 @@
             "value": {}
           },
           {
-            "_id": "rkcourtiergrant2",
+            "_id": "rc6c5256d3eccd07",
             "type": "ItemGrant",
             "level": 2,
             "title": "Features",
@@ -1671,7 +1671,7 @@
             "value": {}
           },
           {
-            "_id": "rkcourtiergrant5",
+            "_id": "r4e3fa75d079ce56",
             "type": "ItemGrant",
             "level": 5,
             "title": "Features",
@@ -1688,7 +1688,7 @@
             "value": {}
           },
           {
-            "_id": "rkcourtiergrant6",
+            "_id": "rd4e3cb6f373f5b2",
             "type": "ItemGrant",
             "level": 6,
             "title": "Features",
@@ -1705,7 +1705,7 @@
             "value": {}
           },
           {
-            "_id": "rkcourtiergrant1",
+            "_id": "r23569737ee70b17",
             "type": "ItemGrant",
             "level": 11,
             "title": "Features",
@@ -1722,7 +1722,7 @@
             "value": {}
           },
           {
-            "_id": "rkcourtiergrant1",
+            "_id": "rb9c93f1013ee053",
             "type": "ItemGrant",
             "level": 13,
             "title": "Features",
@@ -1739,7 +1739,7 @@
             "value": {}
           },
           {
-            "_id": "rkcourtiergrant1",
+            "_id": "ref7bcd484b6b815",
             "type": "ItemGrant",
             "level": 15,
             "title": "Features",
@@ -1756,7 +1756,7 @@
             "value": {}
           },
           {
-            "_id": "rkcourtiergrant1",
+            "_id": "r277a0984c4925e2",
             "type": "ItemGrant",
             "level": 16,
             "title": "Features",
@@ -1773,7 +1773,7 @@
             "value": {}
           },
           {
-            "_id": "rkcourtiergrant1",
+            "_id": "r7786f1572b59527",
             "type": "ItemGrant",
             "level": 18,
             "title": "Features",
@@ -1790,7 +1790,7 @@
             "value": {}
           },
           {
-            "_id": "rkcourtierstarte",
+            "_id": "rcce12873f3564f1",
             "type": "StartingEquipment",
             "title": "",
             "configuration": {
@@ -1857,7 +1857,7 @@
                   "sort": 7,
                   "type": "weapon",
                   "count": 1,
-                  "key": "simpleM",
+                  "key": "sim",
                   "requiresProficiency": false
                 },
                 {
@@ -1927,7 +1927,7 @@
                   "requiresProficiency": false
                 }
               ],
-              "wealth": ""
+              "wealth": "5d4 * 10"
             },
             "value": {},
             "level": 1
@@ -1976,14 +1976,14 @@
         },
         "advancement": [
           {
-            "_id": "rkshinobihp00000",
+            "_id": "r2707260f4e35cf2",
             "type": "HitPoints",
             "configuration": {},
             "value": {},
             "title": ""
           },
           {
-            "_id": "rkshinobisaves00",
+            "_id": "r291199c96d4d62f",
             "type": "Trait",
             "level": 1,
             "title": "Saving Throw Proficiencies",
@@ -2000,7 +2000,7 @@
             "value": {}
           },
           {
-            "_id": "rkshinobiarmor00",
+            "_id": "r1a6bcd322a72da5",
             "type": "Trait",
             "level": 1,
             "title": "Armor Proficiency",
@@ -2016,7 +2016,7 @@
             "value": {}
           },
           {
-            "_id": "rkshinobiweapons",
+            "_id": "r99c79e4eeefb4c5",
             "type": "Trait",
             "level": 1,
             "title": "Weapon Proficiency",
@@ -2032,7 +2032,7 @@
             "value": {}
           },
           {
-            "_id": "rkshinobiskills0",
+            "_id": "r36c2cf1ee0a7c19",
             "type": "Trait",
             "level": 1,
             "title": "Skill Proficiencies",
@@ -2061,7 +2061,7 @@
             "value": {}
           },
           {
-            "_id": "rkshinobiwpnx000",
+            "_id": "r3efa9c76846b415",
             "type": "Trait",
             "level": 1,
             "title": "Weapon Proficiency",
@@ -2082,7 +2082,7 @@
             "value": {}
           },
           {
-            "_id": "rkshinobitoolx00",
+            "_id": "raa4c25fe4f6199e",
             "type": "Trait",
             "level": 1,
             "title": "Tool Proficiency",
@@ -2098,7 +2098,7 @@
             "value": {}
           },
           {
-            "_id": "rkshinobitoolxc0",
+            "_id": "r3d41c64d60ecbbb",
             "type": "Trait",
             "level": 1,
             "title": "Tool Proficiency",
@@ -2119,7 +2119,7 @@
             "value": {}
           },
           {
-            "_id": "rkfocusmaximum00",
+            "_id": "r14f3069021a3a75",
             "type": "ScaleValue",
             "title": "Focus Maximum",
             "configuration": {
@@ -2155,7 +2155,7 @@
             "value": {}
           },
           {
-            "_id": "rktechniquesknow",
+            "_id": "rdd79a47e1b2f334",
             "type": "ScaleValue",
             "title": "Techniques Known",
             "configuration": {
@@ -2191,7 +2191,7 @@
             "value": {}
           },
           {
-            "_id": "rkshinobimercile",
+            "_id": "rc4ac8e382ace056",
             "type": "ScaleValue",
             "title": "Merciless Strikes",
             "configuration": {
@@ -2286,7 +2286,7 @@
             "value": {}
           },
           {
-            "_id": "rkninjatoolsprep",
+            "_id": "r605b326a74bb971",
             "type": "ScaleValue",
             "title": "Ninja Tools Prepared",
             "configuration": {
@@ -2361,7 +2361,7 @@
             "value": {}
           },
           {
-            "_id": "rkshinobisub0000",
+            "_id": "r21cd352bcb99e61",
             "type": "Subclass",
             "level": 3,
             "title": "Archetype",
@@ -2369,7 +2369,7 @@
             "value": {}
           },
           {
-            "_id": "rkshinobiasi4000",
+            "_id": "r1f1e5f487a6937f",
             "type": "AbilityScoreImprovement",
             "level": 4,
             "title": "",
@@ -2381,7 +2381,7 @@
             "value": {}
           },
           {
-            "_id": "rkshinobiasi8000",
+            "_id": "rb6d19ab628849e9",
             "type": "AbilityScoreImprovement",
             "level": 8,
             "title": "",
@@ -2393,7 +2393,7 @@
             "value": {}
           },
           {
-            "_id": "rkshinobiasi1000",
+            "_id": "r4cc8849f5e1ab8d",
             "type": "AbilityScoreImprovement",
             "level": 10,
             "title": "",
@@ -2405,7 +2405,7 @@
             "value": {}
           },
           {
-            "_id": "rkshinobiasi1200",
+            "_id": "re015bc8ff12c2df",
             "type": "AbilityScoreImprovement",
             "level": 12,
             "title": "",
@@ -2417,7 +2417,7 @@
             "value": {}
           },
           {
-            "_id": "rkshinobiasi1600",
+            "_id": "r33b501718dfe603",
             "type": "AbilityScoreImprovement",
             "level": 16,
             "title": "",
@@ -2429,7 +2429,7 @@
             "value": {}
           },
           {
-            "_id": "rkshinobiasi1900",
+            "_id": "ra0e59644c84274a",
             "type": "AbilityScoreImprovement",
             "level": 19,
             "title": "",
@@ -2441,7 +2441,7 @@
             "value": {}
           },
           {
-            "_id": "rkshinobigrant10",
+            "_id": "rb018331a9ba1c59",
             "type": "ItemGrant",
             "level": 1,
             "title": "Features",
@@ -2474,7 +2474,7 @@
             "value": {}
           },
           {
-            "_id": "rkshinobigrant20",
+            "_id": "ra777e442a22a1d2",
             "type": "ItemGrant",
             "level": 2,
             "title": "Features",
@@ -2491,7 +2491,7 @@
             "value": {}
           },
           {
-            "_id": "rkshinobigrant50",
+            "_id": "r2d0ee5c15e04482",
             "type": "ItemGrant",
             "level": 5,
             "title": "Features",
@@ -2508,7 +2508,7 @@
             "value": {}
           },
           {
-            "_id": "rkshinobigrant60",
+            "_id": "r2679fe2724b4b6a",
             "type": "ItemGrant",
             "level": 6,
             "title": "Features",
@@ -2525,7 +2525,7 @@
             "value": {}
           },
           {
-            "_id": "rkshinobigrant70",
+            "_id": "r2311f7d5a900726",
             "type": "ItemGrant",
             "level": 7,
             "title": "Features",
@@ -2542,7 +2542,7 @@
             "value": {}
           },
           {
-            "_id": "rkshinobigrant11",
+            "_id": "re08e35e44f41c43",
             "type": "ItemGrant",
             "level": 11,
             "title": "Features",
@@ -2559,7 +2559,7 @@
             "value": {}
           },
           {
-            "_id": "rkshinobigrant14",
+            "_id": "rdc5cf592dce4130",
             "type": "ItemGrant",
             "level": 14,
             "title": "Features",
@@ -2576,7 +2576,7 @@
             "value": {}
           },
           {
-            "_id": "rkshinobigrant15",
+            "_id": "r2fa4a44c97c1252",
             "type": "ItemGrant",
             "level": 15,
             "title": "Features",
@@ -2593,7 +2593,7 @@
             "value": {}
           },
           {
-            "_id": "rkshinobigrant17",
+            "_id": "r527b98e977cf378",
             "type": "ItemGrant",
             "level": 17,
             "title": "Features",
@@ -2610,7 +2610,7 @@
             "value": {}
           },
           {
-            "_id": "rkshinobigrant20",
+            "_id": "rb5b24f60f5b414d",
             "type": "ItemGrant",
             "level": 20,
             "title": "Features",
@@ -2627,7 +2627,7 @@
             "value": {}
           },
           {
-            "_id": "rkshinobistarteq",
+            "_id": "r116f2dc1a28b1db",
             "type": "StartingEquipment",
             "title": "",
             "configuration": {
@@ -2793,7 +2793,7 @@
                   "key": "Compendium.rokugan5e.equipment.Item.rginfiltratorseq"
                 }
               ],
-              "wealth": ""
+              "wealth": "4d4 * 10"
             },
             "value": {},
             "level": 1
@@ -2842,14 +2842,14 @@
         },
         "advancement": [
           {
-            "_id": "rkritualisthp000",
+            "_id": "r53a00cc4fc9df55",
             "type": "HitPoints",
             "configuration": {},
             "value": {},
             "title": ""
           },
           {
-            "_id": "rkritualistsaves",
+            "_id": "r94f4c82a7087492",
             "type": "Trait",
             "level": 1,
             "title": "Saving Throw Proficiencies",
@@ -2866,7 +2866,7 @@
             "value": {}
           },
           {
-            "_id": "rkritualistweapo",
+            "_id": "rb4576386408410f",
             "type": "Trait",
             "level": 1,
             "title": "Weapon Proficiency",
@@ -2882,7 +2882,7 @@
             "value": {}
           },
           {
-            "_id": "rkritualistskill",
+            "_id": "r2e693e4ac673d73",
             "type": "Trait",
             "level": 1,
             "title": "Skill Proficiencies",
@@ -2912,7 +2912,7 @@
             "value": {}
           },
           {
-            "_id": "rkritualisttoolx",
+            "_id": "r078237ddb29cd7f",
             "type": "Trait",
             "level": 1,
             "title": "Tool Proficiency",
@@ -2933,7 +2933,7 @@
             "value": {}
           },
           {
-            "_id": "rkfavormaximum00",
+            "_id": "r3caefb02ad9fcde",
             "type": "ScaleValue",
             "title": "Favor Maximum",
             "configuration": {
@@ -2963,7 +2963,7 @@
             "value": {}
           },
           {
-            "_id": "rkinvocationst10",
+            "_id": "re0b13fb8d1b951d",
             "type": "ScaleValue",
             "title": "Tier 1 Invocations Known",
             "configuration": {
@@ -3005,7 +3005,7 @@
             "value": {}
           },
           {
-            "_id": "rkinvocationst20",
+            "_id": "rda1d49a80fffd46",
             "type": "ScaleValue",
             "title": "Tier 2 Invocations Known",
             "configuration": {
@@ -3041,7 +3041,7 @@
             "value": {}
           },
           {
-            "_id": "rkinvocationst30",
+            "_id": "ra26c82f590cc018",
             "type": "ScaleValue",
             "title": "Tier 3 Invocations Known",
             "configuration": {
@@ -3071,7 +3071,7 @@
             "value": {}
           },
           {
-            "_id": "rkritualistsub00",
+            "_id": "r2dd339cf87a5254",
             "type": "Subclass",
             "level": 2,
             "title": "Archetype",
@@ -3079,7 +3079,7 @@
             "value": {}
           },
           {
-            "_id": "rkritualistasi40",
+            "_id": "r875b5465cf10d1d",
             "type": "AbilityScoreImprovement",
             "level": 4,
             "title": "",
@@ -3091,7 +3091,7 @@
             "value": {}
           },
           {
-            "_id": "rkritualistasi80",
+            "_id": "rc6a77a07f5e601f",
             "type": "AbilityScoreImprovement",
             "level": 8,
             "title": "",
@@ -3103,7 +3103,7 @@
             "value": {}
           },
           {
-            "_id": "rkritualistasi12",
+            "_id": "rf78c2d96192ecd6",
             "type": "AbilityScoreImprovement",
             "level": 12,
             "title": "",
@@ -3115,7 +3115,7 @@
             "value": {}
           },
           {
-            "_id": "rkritualistasi16",
+            "_id": "rda9b9c85b4d525b",
             "type": "AbilityScoreImprovement",
             "level": 16,
             "title": "",
@@ -3127,7 +3127,7 @@
             "value": {}
           },
           {
-            "_id": "rkritualistasi19",
+            "_id": "r0887b0874c93318",
             "type": "AbilityScoreImprovement",
             "level": 19,
             "title": "",
@@ -3139,7 +3139,7 @@
             "value": {}
           },
           {
-            "_id": "rkritualistgrant",
+            "_id": "r5e971920e6b6211",
             "type": "ItemGrant",
             "level": 1,
             "title": "Features",
@@ -3168,7 +3168,7 @@
             "value": {}
           },
           {
-            "_id": "rkritualistgrant",
+            "_id": "r9f1cc9b0766d6b0",
             "type": "ItemGrant",
             "level": 3,
             "title": "Features",
@@ -3185,7 +3185,7 @@
             "value": {}
           },
           {
-            "_id": "rkritualistgrant",
+            "_id": "rf11351afcc770dc",
             "type": "ItemGrant",
             "level": 10,
             "title": "Features",
@@ -3202,7 +3202,7 @@
             "value": {}
           },
           {
-            "_id": "rkritualistgrant",
+            "_id": "rede9c34f2ec8edb",
             "type": "ItemGrant",
             "level": 18,
             "title": "Features",
@@ -3219,7 +3219,7 @@
             "value": {}
           },
           {
-            "_id": "rkritualistgrant",
+            "_id": "rf235a3c8922ef6c",
             "type": "ItemGrant",
             "level": 20,
             "title": "Features",
@@ -3236,7 +3236,7 @@
             "value": {}
           },
           {
-            "_id": "rkritualiststart",
+            "_id": "r0f67693915d09ab",
             "type": "StartingEquipment",
             "title": "",
             "configuration": {
@@ -3287,7 +3287,7 @@
                   "sort": 5,
                   "type": "weapon",
                   "count": 1,
-                  "key": "simpleM",
+                  "key": "sim",
                   "requiresProficiency": false
                 },
                 {
@@ -3357,7 +3357,7 @@
                   "requiresProficiency": false
                 }
               ],
-              "wealth": ""
+              "wealth": "5d4 * 10"
             },
             "value": {},
             "level": 1
@@ -3406,14 +3406,14 @@
         },
         "advancement": [
           {
-            "_id": "rkpilgrimhp00000",
+            "_id": "r59d6fac376cbb94",
             "type": "HitPoints",
             "configuration": {},
             "value": {},
             "title": ""
           },
           {
-            "_id": "rkpilgrimsaves00",
+            "_id": "r19783391f2ab5c1",
             "type": "Trait",
             "level": 1,
             "title": "Saving Throw Proficiencies",
@@ -3430,7 +3430,7 @@
             "value": {}
           },
           {
-            "_id": "rkpilgrimweapons",
+            "_id": "r20592754e90cc1e",
             "type": "Trait",
             "level": 1,
             "title": "Weapon Proficiency",
@@ -3446,7 +3446,7 @@
             "value": {}
           },
           {
-            "_id": "rkpilgrimskills0",
+            "_id": "r1d0df32745c0332",
             "type": "Trait",
             "level": 1,
             "title": "Skill Proficiencies",
@@ -3473,7 +3473,7 @@
             "value": {}
           },
           {
-            "_id": "rkpilgrimtoolxc0",
+            "_id": "r3453428938b535b",
             "type": "Trait",
             "level": 1,
             "title": "Tool Proficiency",
@@ -3494,7 +3494,7 @@
             "value": {}
           },
           {
-            "_id": "rkcultivatedpote",
+            "_id": "rf85feccc399370b",
             "type": "ScaleValue",
             "title": "Cultivated Potential Hit Dice",
             "configuration": {
@@ -3539,7 +3539,7 @@
             "value": {}
           },
           {
-            "_id": "rkpilgrimsub0000",
+            "_id": "rc388cf7ebd5121b",
             "type": "Subclass",
             "level": 2,
             "title": "Archetype",
@@ -3547,7 +3547,7 @@
             "value": {}
           },
           {
-            "_id": "rkpilgrimasi4000",
+            "_id": "r303f336074f855a",
             "type": "AbilityScoreImprovement",
             "level": 4,
             "title": "",
@@ -3559,7 +3559,7 @@
             "value": {}
           },
           {
-            "_id": "rkpilgrimasi8000",
+            "_id": "rcdce37bb3cbf87a",
             "type": "AbilityScoreImprovement",
             "level": 8,
             "title": "",
@@ -3571,7 +3571,7 @@
             "value": {}
           },
           {
-            "_id": "rkpilgrimasi1200",
+            "_id": "r4496668dc3358df",
             "type": "AbilityScoreImprovement",
             "level": 12,
             "title": "",
@@ -3583,7 +3583,7 @@
             "value": {}
           },
           {
-            "_id": "rkpilgrimasi1600",
+            "_id": "r89358c74b49ba1d",
             "type": "AbilityScoreImprovement",
             "level": 16,
             "title": "",
@@ -3595,7 +3595,7 @@
             "value": {}
           },
           {
-            "_id": "rkpilgrimasi1900",
+            "_id": "r4d82f53cfcb7496",
             "type": "AbilityScoreImprovement",
             "level": 19,
             "title": "",
@@ -3607,7 +3607,7 @@
             "value": {}
           },
           {
-            "_id": "rkpilgrimgrant10",
+            "_id": "r96d0dc9dc4633f2",
             "type": "ItemGrant",
             "level": 1,
             "title": "Features",
@@ -3624,7 +3624,7 @@
             "value": {}
           },
           {
-            "_id": "rkpilgrimgrant20",
+            "_id": "r961720370cd2370",
             "type": "ItemGrant",
             "level": 2,
             "title": "Features",
@@ -3645,7 +3645,7 @@
             "value": {}
           },
           {
-            "_id": "rkpilgrimgrant30",
+            "_id": "re42b0eebfe4ab3c",
             "type": "ItemGrant",
             "level": 3,
             "title": "Features",
@@ -3662,7 +3662,7 @@
             "value": {}
           },
           {
-            "_id": "rkpilgrimgrant50",
+            "_id": "r6ac963fb299cdc4",
             "type": "ItemGrant",
             "level": 5,
             "title": "Features",
@@ -3683,7 +3683,7 @@
             "value": {}
           },
           {
-            "_id": "rkpilgrimgrant60",
+            "_id": "r4c83af320200e28",
             "type": "ItemGrant",
             "level": 6,
             "title": "Features",
@@ -3700,7 +3700,7 @@
             "value": {}
           },
           {
-            "_id": "rkpilgrimgrant70",
+            "_id": "r424037177c44508",
             "type": "ItemGrant",
             "level": 7,
             "title": "Features",
@@ -3717,7 +3717,7 @@
             "value": {}
           },
           {
-            "_id": "rkpilgrimgrant90",
+            "_id": "r0081819387ef3b2",
             "type": "ItemGrant",
             "level": 9,
             "title": "Features",
@@ -3734,7 +3734,7 @@
             "value": {}
           },
           {
-            "_id": "rkpilgrimgrant10",
+            "_id": "r1c9d3da61368a64",
             "type": "ItemGrant",
             "level": 10,
             "title": "Features",
@@ -3751,7 +3751,7 @@
             "value": {}
           },
           {
-            "_id": "rkpilgrimgrant12",
+            "_id": "rc4f7353f0552849",
             "type": "ItemGrant",
             "level": 12,
             "title": "Features",
@@ -3768,7 +3768,7 @@
             "value": {}
           },
           {
-            "_id": "rkpilgrimgrant13",
+            "_id": "rd650649645a0303",
             "type": "ItemGrant",
             "level": 13,
             "title": "Features",
@@ -3785,7 +3785,7 @@
             "value": {}
           },
           {
-            "_id": "rkpilgrimgrant14",
+            "_id": "r57d83390322a7b9",
             "type": "ItemGrant",
             "level": 14,
             "title": "Features",
@@ -3802,7 +3802,7 @@
             "value": {}
           },
           {
-            "_id": "rkpilgrimgrant20",
+            "_id": "r45fdab0aef092df",
             "type": "ItemGrant",
             "level": 20,
             "title": "Features",
@@ -3823,7 +3823,7 @@
             "value": {}
           },
           {
-            "_id": "rkpilgrimstarteq",
+            "_id": "r7da401f2ad7a082",
             "type": "StartingEquipment",
             "title": "",
             "configuration": {
@@ -3866,11 +3866,11 @@
                   "sort": 4,
                   "type": "weapon",
                   "count": 1,
-                  "key": "simple",
+                  "key": "sim",
                   "requiresProficiency": false
                 }
               ],
-              "wealth": ""
+              "wealth": "5d4"
             },
             "value": {},
             "level": 1
@@ -3919,14 +3919,14 @@
         },
         "advancement": [
           {
-            "_id": "rkacolytehp00000",
+            "_id": "rb72463d60ff1403",
             "type": "HitPoints",
             "configuration": {},
             "value": {},
             "title": ""
           },
           {
-            "_id": "rkacolytesaves00",
+            "_id": "rbb86afac8ed866c",
             "type": "Trait",
             "level": 1,
             "title": "Saving Throw Proficiencies",
@@ -3942,7 +3942,7 @@
             "value": {}
           },
           {
-            "_id": "rkacolytearmor00",
+            "_id": "r20ad262e117d7fa",
             "type": "Trait",
             "level": 1,
             "title": "Armor Proficiency",
@@ -3958,7 +3958,7 @@
             "value": {}
           },
           {
-            "_id": "rkacolyteweapons",
+            "_id": "r9c89122d5e8bf7c",
             "type": "Trait",
             "level": 1,
             "title": "Weapon Proficiency",
@@ -3975,7 +3975,7 @@
             "value": {}
           },
           {
-            "_id": "rkacolyteskills0",
+            "_id": "rcc6e9b42c52922b",
             "type": "Trait",
             "level": 1,
             "title": "Skill Proficiencies",
@@ -4005,7 +4005,7 @@
             "value": {}
           },
           {
-            "_id": "rkfocusmaximum00",
+            "_id": "r14f3069021a3a75",
             "type": "ScaleValue",
             "title": "Focus Maximum",
             "configuration": {
@@ -4041,7 +4041,7 @@
             "value": {}
           },
           {
-            "_id": "rktechniquesknow",
+            "_id": "rdd79a47e1b2f334",
             "type": "ScaleValue",
             "title": "Techniques Known",
             "configuration": {
@@ -4077,7 +4077,7 @@
             "value": {}
           },
           {
-            "_id": "rkacolytesub0000",
+            "_id": "rdd6d1ed819ec0d1",
             "type": "Subclass",
             "level": 1,
             "title": "Archetype",
@@ -4085,7 +4085,7 @@
             "value": {}
           },
           {
-            "_id": "rkacolyteasi4000",
+            "_id": "r6ffbd164a911659",
             "type": "AbilityScoreImprovement",
             "level": 4,
             "title": "",
@@ -4097,7 +4097,7 @@
             "value": {}
           },
           {
-            "_id": "rkacolyteasi8000",
+            "_id": "r98da95a79bb75dd",
             "type": "AbilityScoreImprovement",
             "level": 8,
             "title": "",
@@ -4109,7 +4109,7 @@
             "value": {}
           },
           {
-            "_id": "rkacolyteasi1200",
+            "_id": "r7e25842ee23c6cc",
             "type": "AbilityScoreImprovement",
             "level": 12,
             "title": "",
@@ -4121,7 +4121,7 @@
             "value": {}
           },
           {
-            "_id": "rkacolyteasi1600",
+            "_id": "r696ec59c98cb8ee",
             "type": "AbilityScoreImprovement",
             "level": 16,
             "title": "",
@@ -4133,7 +4133,7 @@
             "value": {}
           },
           {
-            "_id": "rkacolyteasi1900",
+            "_id": "rf5c2c3c7e112717",
             "type": "AbilityScoreImprovement",
             "level": 19,
             "title": "",
@@ -4145,7 +4145,7 @@
             "value": {}
           },
           {
-            "_id": "rkacolytegrant10",
+            "_id": "r735ef9a73399fa2",
             "type": "ItemGrant",
             "level": 1,
             "title": "Features",
@@ -4170,7 +4170,7 @@
             "value": {}
           },
           {
-            "_id": "rkacolytegrant20",
+            "_id": "r5022537921b9b61",
             "type": "ItemGrant",
             "level": 2,
             "title": "Features",
@@ -4187,7 +4187,7 @@
             "value": {}
           },
           {
-            "_id": "rkacolytegrant30",
+            "_id": "r4631bbecbb50042",
             "type": "ItemGrant",
             "level": 3,
             "title": "Features",
@@ -4204,7 +4204,7 @@
             "value": {}
           },
           {
-            "_id": "rkacolytegrant50",
+            "_id": "r30fd95daf4d7133",
             "type": "ItemGrant",
             "level": 5,
             "title": "Features",
@@ -4225,7 +4225,7 @@
             "value": {}
           },
           {
-            "_id": "rkacolytegrant70",
+            "_id": "rea8b125b12bf138",
             "type": "ItemGrant",
             "level": 7,
             "title": "Features",
@@ -4242,7 +4242,7 @@
             "value": {}
           },
           {
-            "_id": "rkacolytegrant10",
+            "_id": "r423559d861a18f2",
             "type": "ItemGrant",
             "level": 10,
             "title": "Features",
@@ -4259,7 +4259,7 @@
             "value": {}
           },
           {
-            "_id": "rkacolytegrant13",
+            "_id": "rf2ba7e9754e2ea6",
             "type": "ItemGrant",
             "level": 13,
             "title": "Features",
@@ -4276,7 +4276,7 @@
             "value": {}
           },
           {
-            "_id": "rkacolytegrant15",
+            "_id": "rc131566adc58b46",
             "type": "ItemGrant",
             "level": 15,
             "title": "Features",
@@ -4293,7 +4293,7 @@
             "value": {}
           },
           {
-            "_id": "rkacolytegrant18",
+            "_id": "r7bfca7cce71d121",
             "type": "ItemGrant",
             "level": 18,
             "title": "Features",
@@ -4310,7 +4310,7 @@
             "value": {}
           },
           {
-            "_id": "rkacolytestarteq",
+            "_id": "r83cd15a4de79513",
             "type": "StartingEquipment",
             "title": "",
             "configuration": {
@@ -4353,7 +4353,7 @@
                   "sort": 4,
                   "type": "weapon",
                   "count": 1,
-                  "key": "martial",
+                  "key": "mar",
                   "requiresProficiency": false
                 },
                 {
@@ -4370,7 +4370,7 @@
                   "sort": 6,
                   "type": "weapon",
                   "count": 1,
-                  "key": "simple",
+                  "key": "sim",
                   "requiresProficiency": false
                 },
                 {
@@ -4382,7 +4382,7 @@
                   "key": "Compendium.rokugan5e.equipment.Item.rwshuriken000000"
                 }
               ],
-              "wealth": ""
+              "wealth": "5d4 * 10"
             },
             "value": {},
             "level": 1

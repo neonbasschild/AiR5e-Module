@@ -471,3 +471,33 @@ The Ninjutsu feature now surfaces its **attack modifier** (proficiency + Dexteri
 Sixteen foundational 1st-level features that were lost during table extraction (because they sit in the table's merged "special" column) are now present as items across all classes — including Focus Points, Martial Techniques, Combat Stance, Invocations, Favor, Yin and Yang, Externalizations, and the Shinobi's Merciless Strikes and Ninjutsu — bringing the class-features pack to 88 entries.
 
 This establishes the pattern (ScaleValue for progressions + an activity on the feature item) for automating further features; passive riders and save/attack abilities can be wired the same way in future passes.
+
+---
+
+## Version 3.16.0 — Critical Bugfixes: Advancement IDs, Languages, Human Versatile
+
+Three bugs, two sharing a single root cause.
+
+### Duplicate advancement IDs (Mirumoto with no automation, Human Versatile missing its ability increase)
+The ID generator truncated names to 16 characters, so advancements with similar name-prefixes on the same item collided — and dnd5e silently drops advancements that share an `_id`. This is why the Mirumoto Family background appeared to have no automation (its trait advancements collided away) and why Human (Versatile) granted only the feat (its ability-score-increase advancement collided with the feat advancement). IDs are now derived from a hash of the full identifier, and a dedup safety net runs at build time, guaranteeing every advancement on every item has a unique ID. Audited across all packs: **zero duplicate advancement IDs remain**. This fixes automation on **37 backgrounds**, all **7 classes**, and **2 species** that were affected.
+
+### Languages showing as "ROKUGAN.Language.…"
+The language labels displayed as raw localization keys because the languages were registered at `init` — before Foundry's localization is ready — and stored as bare key strings in the wrong tree shape. Language registration now happens at `i18nInit` (when `game.i18n` is populated), localizes each label, and uses dnd5e 5.x's correct nested `{ label, children: { key: { label } } }` shape. Languages now display by name.
+
+### Apply the fixes to an existing world
+The seeder's data version was bumped, so on the next world load the compendiums are cleared and re-imported with the corrected data — no new world needed. (If a character already has the old Mirumoto background or old Human applied, re-drag the corrected version from the compendium to pick up the automation.)
+
+---
+
+## Version 3.17.0 — Starting Equipment & Gold Fixed
+
+Starting equipment wasn't being granted because the weapon-category choices used invalid keys, and there was no gold alternative.
+
+### Invalid weapon category keys (the main bug)
+StartingEquipment "any one martial/simple weapon" choices were built with the weapon **type** values (`simpleM`, `martialM`, `simpleR`) instead of dnd5e's weapon **proficiency category** keys, which are only `sim` and `mar`. dnd5e couldn't resolve those entries, breaking the equipment step. All weapon-category choices now use the correct `sim`/`mar` keys (melee/ranged distinctions collapse to the base category, since dnd5e grants starting weapons by proficiency category). Linked items (specific weapons, armor, tools) were already resolving correctly; this fixes the category *choices* that sat alongside them.
+
+### Gold alternative (take starting wealth instead of equipment)
+Adventures in Rokugan lists only equipment packages, with no per-class "gold instead" option, so the wealth field was empty and the gold choice never appeared. Each class now carries a standard 5e-style starting-wealth roll (e.g. Bushi 2d4×10, Duelist 5d4×10, Shinobi 4d4×10, Pilgrim 5d4) so players who prefer to buy their own gear get the **"take gold instead"** option at character creation, exactly as the core dnd5e classes offer.
+
+### Verified
+Across all classes and backgrounds: zero broken equipment links, zero duplicate pool/advancement IDs, all weapon-category keys valid, 56 of 58 backgrounds carry their equipment (the other two list none in the book). The seeder's data version was bumped, so existing worlds reseed on next load — drag the class/background onto a character (or use a character-builder) to get the equipment/gold prompt.

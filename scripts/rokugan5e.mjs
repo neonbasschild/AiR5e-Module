@@ -128,6 +128,12 @@ Hooks.once("init", () => {
   RokuganConfig.apply();
 });
 
+Hooks.once("i18nInit", () => {
+  // Languages are registered here (not at init) so their labels can be
+  // localized; registering at init left them showing as raw keys.
+  RokuganConfig.registerLanguages();
+});
+
 Hooks.once("setup", () => {
   RokuganSheets.register();
 });

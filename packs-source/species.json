@@ -19,7 +19,7 @@
         "identifier": "humanstandard",
         "advancement": [
           {
-            "_id": "rkhumanstandards",
+            "_id": "r3529b47f0725104",
             "type": "Size",
             "configuration": {
               "hint": "",
@@ -31,7 +31,7 @@
             "title": ""
           },
           {
-            "_id": "rkhumanstandarda",
+            "_id": "r8c38b833f049d2e",
             "type": "AbilityScoreImprovement",
             "level": 0,
             "title": "",
@@ -99,7 +99,7 @@
         "identifier": "humanversatile",
         "advancement": [
           {
-            "_id": "rkhumanversatile",
+            "_id": "rbf886497e6ad8ec",
             "type": "Size",
             "configuration": {
               "hint": "",
@@ -111,7 +111,7 @@
             "title": ""
           },
           {
-            "_id": "rkhumanversatile",
+            "_id": "r0f5c44fdba0a0b9",
             "type": "AbilityScoreImprovement",
             "level": 0,
             "title": "",
@@ -123,7 +123,7 @@
             "value": {}
           },
           {
-            "_id": "rkhumanversatile",
+            "_id": "r5c23ec874ca1445",
             "type": "ItemChoice",
             "title": "Bonus Feat",
             "configuration": {
@@ -373,7 +373,7 @@
         "identifier": "naga",
         "advancement": [
           {
-            "_id": "rknagasize000000",
+            "_id": "rd40aec8a71ec877",
             "type": "Size",
             "configuration": {
               "hint": "",
@@ -385,7 +385,7 @@
             "title": ""
           },
           {
-            "_id": "rknagaasi0000000",
+            "_id": "r1c6e9dee8eae89f",
             "type": "AbilityScoreImprovement",
             "level": 0,
             "title": "",
@@ -446,7 +446,7 @@
         "identifier": "nezumi",
         "advancement": [
           {
-            "_id": "rknezumisize0000",
+            "_id": "r15376b591cfc4a2",
             "type": "Size",
             "configuration": {
               "hint": "",
@@ -458,7 +458,7 @@
             "title": ""
           },
           {
-            "_id": "rknezumiasi00000",
+            "_id": "re0bb996a4d1a429",
             "type": "AbilityScoreImprovement",
             "level": 0,
             "title": "",
@@ -519,7 +519,7 @@
         "identifier": "mazoku",
         "advancement": [
           {
-            "_id": "rkmazokusize0000",
+            "_id": "ra5d596d326efd0c",
             "type": "Size",
             "configuration": {
               "hint": "",
@@ -531,7 +531,7 @@
             "title": ""
           },
           {
-            "_id": "rkmazokuasi00000",
+            "_id": "r81b4e36a2d4d11d",
             "type": "AbilityScoreImprovement",
             "level": 0,
             "title": "",
@@ -592,7 +592,7 @@
         "identifier": "specter",
         "advancement": [
           {
-            "_id": "rkspectersize000",
+            "_id": "r399ac31210ce8a0",
             "type": "Size",
             "configuration": {
               "hint": "",
@@ -604,7 +604,7 @@
             "title": ""
           },
           {
-            "_id": "rkspecterasi0000",
+            "_id": "re40cac131f43443",
             "type": "AbilityScoreImprovement",
             "level": 0,
             "title": "",
@@ -665,7 +665,7 @@
         "identifier": "tengu",
         "advancement": [
           {
-            "_id": "rktengusize00000",
+            "_id": "r9e9bbda5f868da2",
             "type": "Size",
             "configuration": {
               "hint": "",
@@ -677,7 +677,7 @@
             "title": ""
           },
           {
-            "_id": "rktenguasi000000",
+            "_id": "r03bfd23496c84c7",
             "type": "AbilityScoreImprovement",
             "level": 0,
             "title": "",
@@ -738,7 +738,7 @@
         "identifier": "animalyokai",
         "advancement": [
           {
-            "_id": "rkanimalyokaisiz",
+            "_id": "rc2fe3f7f751b939",
             "type": "Size",
             "configuration": {
               "hint": "",
@@ -750,7 +750,7 @@
             "title": ""
           },
           {
-            "_id": "rkanimalyokaiasi",
+            "_id": "r3a578291821df81",
             "type": "AbilityScoreImprovement",
             "level": 0,
             "title": "",
@@ -811,7 +811,7 @@
         "identifier": "uniqueexistence",
         "advancement": [
           {
-            "_id": "rkuniqueexistenc",
+            "_id": "r25d86195a435f37",
             "type": "Size",
             "configuration": {
               "hint": "",
@@ -823,7 +823,7 @@
             "title": ""
           },
           {
-            "_id": "rkuniqueexistenc",
+            "_id": "re11697613f8866f",
             "type": "AbilityScoreImprovement",
             "level": 0,
             "title": "",

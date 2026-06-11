@@ -435,48 +435,8 @@ export class RokuganConfig {
       cfg.toolIds[key] = `Compendium.${EQUIPMENT_PACK}.Item.${id}`;
     }
 
-    // ----- Languages (Adventures in Rokugan) -----
-    // dnd5e 5.x stores languages as a nested tree: each category has
-    // { label, children: { key: { label } | "label" } } and trait keys read
-    // "languages:<category>:<key>". We add a "rokugan" category whose children
-    // are the canonical AiR languages, and treat Rokugani as the setting's
-    // Common. Older flat shapes are tolerated as a fallback.
-    if (cfg.languages) {
-      const air = {
-        rokugani: "ROKUGAN.Language.Rokugani",
-        rokuganiSigned: "ROKUGAN.Language.RokuganiSigned",
-        courtlyRokugani: "ROKUGAN.Language.CourtlyRokugani",
-        ivindi: "ROKUGAN.Language.Ivindi",
-        jindallaean: "ROKUGAN.Language.Jindallaean",
-        leafRustle: "ROKUGAN.Language.LeafRustle",
-        qamari: "ROKUGAN.Language.QamariLanguages",
-        riverSpeech: "ROKUGAN.Language.RiverSpeech",
-        skySpeech: "ROKUGAN.Language.SkySpeech",
-        stoneClick: "ROKUGAN.Language.StoneClick",
-        ujik: "ROKUGAN.Language.UjikLanguages",
-        yunFengWen: "ROKUGAN.Language.YunFengWen",
-        animalSpeech: "ROKUGAN.Language.AnimalSpeech",
-        battleArgot: "ROKUGAN.Language.BattleArgot",
-        asakoCipher: "ROKUGAN.Language.AsakoCipher",
-        kuniCodes: "ROKUGAN.Language.KuniCodes",
-        yogoCipher: "ROKUGAN.Language.YogoCipher",
-      };
-
-      // Detect nested (5.x) vs flat language config and register accordingly.
-      const sample = Object.values(cfg.languages)[0];
-      const nested = sample && typeof sample === "object" && ("children" in sample || "label" in sample);
-
-      if (nested) {
-        cfg.languages.rokugan = {
-          label: "ROKUGAN.Language.Category",
-          children: Object.fromEntries(Object.entries(air).map(([k, v]) => [k, v])),
-        };
-      } else {
-        // Flat fallback (older dnd5e): drop them in the standard bucket.
-        cfg.languages.standard = cfg.languages.standard ?? {};
-        for (const [k, v] of Object.entries(air)) cfg.languages.standard[k] = v;
-      }
-    }
+    // Languages are registered in registerLanguages() at i18nInit
+    // (so labels can be localized).
 
     // ----- Creature Types: Add Rokugan-specific types -----
     if (cfg.creatureTypes) {
@@ -555,6 +515,58 @@ export class RokuganConfig {
     CONFIG.statusEffects.push(...rokuganConditions);
 
     console.log("Rokugan5E | CONFIG.DND5E patched successfully");
+  }
+
+  // Register Rokugan languages. Called at i18nInit so game.i18n is ready and
+  // labels resolve to readable text instead of raw localization keys.
+  static registerLanguages() {
+    const cfg = CONFIG.DND5E;
+    // dnd5e 5.x stores languages as a nested tree: each category has
+    // { label, children: { key: { label } | "label" } } and trait keys read
+    // "languages:<category>:<key>". We add a "rokugan" category whose children
+    // are the canonical AiR languages, and treat Rokugani as the setting's
+    // Common. Older flat shapes are tolerated as a fallback.
+    if (cfg.languages) {
+      const air = {
+        rokugani: "ROKUGAN.Language.Rokugani",
+        rokuganiSigned: "ROKUGAN.Language.RokuganiSigned",
+        courtlyRokugani: "ROKUGAN.Language.CourtlyRokugani",
+        ivindi: "ROKUGAN.Language.Ivindi",
+        jindallaean: "ROKUGAN.Language.Jindallaean",
+        leafRustle: "ROKUGAN.Language.LeafRustle",
+        qamari: "ROKUGAN.Language.QamariLanguages",
+        riverSpeech: "ROKUGAN.Language.RiverSpeech",
+        skySpeech: "ROKUGAN.Language.SkySpeech",
+        stoneClick: "ROKUGAN.Language.StoneClick",
+        ujik: "ROKUGAN.Language.UjikLanguages",
+        yunFengWen: "ROKUGAN.Language.YunFengWen",
+        animalSpeech: "ROKUGAN.Language.AnimalSpeech",
+        battleArgot: "ROKUGAN.Language.BattleArgot",
+        asakoCipher: "ROKUGAN.Language.AsakoCipher",
+        kuniCodes: "ROKUGAN.Language.KuniCodes",
+        yogoCipher: "ROKUGAN.Language.YogoCipher",
+      };
+
+      // Detect nested (5.x) vs flat language config and register accordingly.
+      const sample = Object.values(cfg.languages)[0];
+      const nested = sample && typeof sample === "object" && ("children" in sample || "label" in sample);
+
+      // Localize now: registration may occur before some i18n-less render
+      // paths, and dnd5e expects ready-to-display labels here.
+      const loc = (k) => game.i18n.has?.(k) ? game.i18n.localize(k) : k;
+      if (nested) {
+        // dnd5e 5.x nested shape: { label, children: { key: { label } } }.
+        cfg.languages.rokugan = {
+          label: loc("ROKUGAN.Language.Category"),
+          children: Object.fromEntries(
+            Object.entries(air).map(([k, v]) => [k, { label: loc(v) }])),
+        };
+      } else {
+        // Flat fallback (older dnd5e): standard bucket, localized strings.
+        cfg.languages.standard = cfg.languages.standard ?? {};
+        for (const [k, v] of Object.entries(air)) cfg.languages.standard[k] = loc(v);
+      }
+    }
   }
 
   // ----------------------------------------

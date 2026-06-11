@@ -1908,8 +1908,8 @@
         "requirements": "Shinobi 1",
         "properties": [],
         "activities": {
-          "rkactshinobimerc": {
-            "_id": "rkactshinobimerc",
+          "r48de81d10aaee59": {
+            "_id": "r48de81d10aaee59",
             "type": "damage",
             "name": "Apply Damage",
             "activation": {
