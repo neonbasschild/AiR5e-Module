@@ -115,10 +115,7 @@
           {
             "_id": "r60f76fe9412d330",
             "type": "Trait",
-            "level": 1,
-            "title": "Saving Throw Proficiencies",
             "configuration": {
-              "hint": "",
               "mode": "default",
               "allowReplacements": false,
               "grants": [
@@ -127,15 +124,16 @@
               ],
               "choices": []
             },
-            "value": {}
+            "level": 1,
+            "title": "Saving Throw Proficiencies",
+            "value": {
+              "chosen": []
+            }
           },
           {
             "_id": "rab318ae9eb620f3",
             "type": "Trait",
-            "level": 1,
-            "title": "Armor Proficiency",
             "configuration": {
-              "hint": "",
               "mode": "default",
               "allowReplacements": false,
               "grants": [
@@ -144,15 +142,16 @@
               ],
               "choices": []
             },
-            "value": {}
+            "level": 1,
+            "title": "Armor Proficiency",
+            "value": {
+              "chosen": []
+            }
           },
           {
             "_id": "r3430208e7289e7f",
             "type": "Trait",
-            "level": 1,
-            "title": "Weapon Proficiency",
             "configuration": {
-              "hint": "",
               "mode": "default",
               "allowReplacements": false,
               "grants": [
@@ -161,15 +160,16 @@
               ],
               "choices": []
             },
-            "value": {}
+            "level": 1,
+            "title": "Weapon Proficiency",
+            "value": {
+              "chosen": []
+            }
           },
           {
             "_id": "rda1f08307292a31",
             "type": "Trait",
-            "level": 1,
-            "title": "Skill Proficiencies",
             "configuration": {
-              "hint": "",
               "mode": "default",
               "allowReplacements": false,
               "grants": [],
@@ -189,7 +189,11 @@
                 }
               ]
             },
-            "value": {}
+            "level": 1,
+            "title": "Skill Proficiencies",
+            "value": {
+              "chosen": []
+            }
           },
           {
             "_id": "r14f3069021a3a75",
@@ -507,166 +511,6 @@
               "spell": null
             },
             "value": {}
-          },
-          {
-            "_id": "rcbb1298bbb5884a",
-            "type": "StartingEquipment",
-            "title": "",
-            "configuration": {
-              "pool": [
-                {
-                  "_id": "se00000000000000",
-                  "group": null,
-                  "sort": 0,
-                  "type": "OR",
-                  "count": 1,
-                  "key": ""
-                },
-                {
-                  "_id": "se00000000000001",
-                  "group": "se00000000000000",
-                  "sort": 1,
-                  "type": "AND",
-                  "count": 1,
-                  "key": ""
-                },
-                {
-                  "_id": "se00000000000002",
-                  "group": "se00000000000001",
-                  "sort": 2,
-                  "type": "linked",
-                  "count": 1,
-                  "key": "Compendium.rokugan5e.equipment.Item.rafieldgear00000"
-                },
-                {
-                  "_id": "se00000000000003",
-                  "group": "se00000000000001",
-                  "sort": 3,
-                  "type": "weapon",
-                  "count": 1,
-                  "key": "mar",
-                  "requiresProficiency": false
-                },
-                {
-                  "_id": "se00000000000004",
-                  "group": "se00000000000000",
-                  "sort": 4,
-                  "type": "AND",
-                  "count": 1,
-                  "key": ""
-                },
-                {
-                  "_id": "se00000000000005",
-                  "group": "se00000000000004",
-                  "sort": 5,
-                  "type": "linked",
-                  "count": 1,
-                  "key": "Compendium.rokugan5e.equipment.Item.raanimalhidearmo"
-                },
-                {
-                  "_id": "se00000000000006",
-                  "group": "se00000000000004",
-                  "sort": 6,
-                  "type": "weapon",
-                  "count": 1,
-                  "key": "mar",
-                  "requiresProficiency": false
-                },
-                {
-                  "_id": "se00000000000007",
-                  "group": "se00000000000000",
-                  "sort": 7,
-                  "type": "AND",
-                  "count": 1,
-                  "key": ""
-                },
-                {
-                  "_id": "se00000000000008",
-                  "group": "se00000000000007",
-                  "sort": 8,
-                  "type": "linked",
-                  "count": 1,
-                  "key": "Compendium.rokugan5e.equipment.Item.rasilkarmor00000"
-                },
-                {
-                  "_id": "se00000000000009",
-                  "group": "se00000000000007",
-                  "sort": 9,
-                  "type": "linked",
-                  "count": 1,
-                  "key": "Compendium.rokugan5e.equipment.Item.rwlongbow0000000"
-                },
-                {
-                  "_id": "se0000000000000a",
-                  "group": "se00000000000007",
-                  "sort": 10,
-                  "type": "linked",
-                  "count": 20,
-                  "key": "Compendium.rokugan5e.equipment.Item.rgwillowleafarro"
-                },
-                {
-                  "_id": "se0000000000000b",
-                  "group": "se00000000000007",
-                  "sort": 11,
-                  "type": "linked",
-                  "count": 1,
-                  "key": "Compendium.rokugan5e.equipment.Item.rgarmorpiercinga"
-                },
-                {
-                  "_id": "se0000000000000c",
-                  "group": "se00000000000007",
-                  "sort": 12,
-                  "type": "linked",
-                  "count": 1,
-                  "key": "Compendium.rokugan5e.equipment.Item.rghummingbulbarr"
-                },
-                {
-                  "_id": "se0000000000000d",
-                  "group": null,
-                  "sort": 13,
-                  "type": "OR",
-                  "count": 1,
-                  "key": ""
-                },
-                {
-                  "_id": "se0000000000000e",
-                  "group": "se0000000000000d",
-                  "sort": 14,
-                  "type": "weapon",
-                  "count": 1,
-                  "key": "sim",
-                  "requiresProficiency": false
-                },
-                {
-                  "_id": "se0000000000000f",
-                  "group": "se0000000000000d",
-                  "sort": 15,
-                  "type": "weapon",
-                  "count": 1,
-                  "key": "sim",
-                  "requiresProficiency": false
-                },
-                {
-                  "_id": "se00000000000010",
-                  "group": "se0000000000000d",
-                  "sort": 16,
-                  "type": "AND",
-                  "count": 1,
-                  "key": ""
-                },
-                {
-                  "_id": "se00000000000011",
-                  "group": "se00000000000010",
-                  "sort": 17,
-                  "type": "linked",
-                  "count": 2,
-                  "key": "Compendium.rokugan5e.equipment.Item.rwdagger00000000"
-                }
-              ],
-              "wealth": "2d4 * 10"
-            },
-            "value": {},
-            "level": 1
           }
         ],
         "spellcasting": {
@@ -678,6 +522,174 @@
           "all": true
         },
         "properties": [],
+        "startingEquipment": [
+          {
+            "type": "AND",
+            "_id": "se00000000000001",
+            "group": "",
+            "sort": 100000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "OR",
+            "_id": "se00000000000002",
+            "group": "se00000000000001",
+            "sort": 200000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "AND",
+            "_id": "se00000000000003",
+            "group": "se00000000000002",
+            "sort": 300000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "linked",
+            "_id": "se00000000000004",
+            "group": "se00000000000003",
+            "sort": 400000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rafieldgear00000"
+          },
+          {
+            "type": "weapon",
+            "_id": "se00000000000005",
+            "group": "se00000000000003",
+            "sort": 500000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "mar"
+          },
+          {
+            "type": "AND",
+            "_id": "se00000000000006",
+            "group": "se00000000000002",
+            "sort": 600000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "linked",
+            "_id": "se00000000000007",
+            "group": "se00000000000006",
+            "sort": 700000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.raanimalhidearmo"
+          },
+          {
+            "type": "weapon",
+            "_id": "se00000000000008",
+            "group": "se00000000000006",
+            "sort": 800000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "mar"
+          },
+          {
+            "type": "AND",
+            "_id": "se00000000000009",
+            "group": "se00000000000002",
+            "sort": 900000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "linked",
+            "_id": "se0000000000000a",
+            "group": "se00000000000009",
+            "sort": 1000000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rasilkarmor00000"
+          },
+          {
+            "type": "linked",
+            "_id": "se0000000000000b",
+            "group": "se00000000000009",
+            "sort": 1100000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rwlongbow0000000"
+          },
+          {
+            "type": "linked",
+            "_id": "se0000000000000c",
+            "group": "se00000000000009",
+            "sort": 1200000,
+            "requiresProficiency": false,
+            "count": 20,
+            "key": "Compendium.rokugan5e.equipment.Item.rgwillowleafarro"
+          },
+          {
+            "type": "linked",
+            "_id": "se0000000000000d",
+            "group": "se00000000000009",
+            "sort": 1300000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rgarmorpiercinga"
+          },
+          {
+            "type": "linked",
+            "_id": "se0000000000000e",
+            "group": "se00000000000009",
+            "sort": 1400000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rghummingbulbarr"
+          },
+          {
+            "type": "OR",
+            "_id": "se0000000000000f",
+            "group": "se00000000000001",
+            "sort": 1500000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "weapon",
+            "_id": "se00000000000010",
+            "group": "se0000000000000f",
+            "sort": 1600000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "sim"
+          },
+          {
+            "type": "weapon",
+            "_id": "se00000000000011",
+            "group": "se0000000000000f",
+            "sort": 1700000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "sim"
+          },
+          {
+            "type": "AND",
+            "_id": "se00000000000012",
+            "group": "se0000000000000f",
+            "sort": 1800000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "linked",
+            "_id": "se00000000000013",
+            "group": "se00000000000012",
+            "sort": 1900000,
+            "requiresProficiency": false,
+            "count": 2,
+            "key": "Compendium.rokugan5e.equipment.Item.rwdagger00000000"
+          },
+          {
+            "type": "currency",
+            "_id": "se00000000000014",
+            "group": "se00000000000001",
+            "sort": 2000000,
+            "requiresProficiency": false,
+            "count": 50,
+            "key": "gp"
+          }
+        ],
         "wealth": ""
       },
       "effects": [],
@@ -721,10 +733,7 @@
           {
             "_id": "r11aeec829ae9ec2",
             "type": "Trait",
-            "level": 1,
-            "title": "Saving Throw Proficiencies",
             "configuration": {
-              "hint": "",
               "mode": "default",
               "allowReplacements": false,
               "grants": [
@@ -733,15 +742,16 @@
               ],
               "choices": []
             },
-            "value": {}
+            "level": 1,
+            "title": "Saving Throw Proficiencies",
+            "value": {
+              "chosen": []
+            }
           },
           {
             "_id": "r5078fcfc6b57d17",
             "type": "Trait",
-            "level": 1,
-            "title": "Weapon Proficiency",
             "configuration": {
-              "hint": "",
               "mode": "default",
               "allowReplacements": false,
               "grants": [
@@ -750,15 +760,16 @@
               ],
               "choices": []
             },
-            "value": {}
+            "level": 1,
+            "title": "Weapon Proficiency",
+            "value": {
+              "chosen": []
+            }
           },
           {
             "_id": "r2647ea56d2eaf51",
             "type": "Trait",
-            "level": 1,
-            "title": "Skill Proficiencies",
             "configuration": {
-              "hint": "",
               "mode": "default",
               "allowReplacements": false,
               "grants": [],
@@ -778,15 +789,16 @@
                 }
               ]
             },
-            "value": {}
+            "level": 1,
+            "title": "Skill Proficiencies",
+            "value": {
+              "chosen": []
+            }
           },
           {
             "_id": "re589a02718c4ef0",
             "type": "Trait",
-            "level": 1,
-            "title": "Tool Proficiency",
             "configuration": {
-              "hint": "",
               "mode": "default",
               "allowReplacements": false,
               "grants": [],
@@ -800,7 +812,11 @@
                 }
               ]
             },
-            "value": {}
+            "level": 1,
+            "title": "Tool Proficiency",
+            "value": {
+              "chosen": []
+            }
           },
           {
             "_id": "r14f3069021a3a75",
@@ -1152,190 +1168,6 @@
               "spell": null
             },
             "value": {}
-          },
-          {
-            "_id": "r0c5d5ffe3741e29",
-            "type": "StartingEquipment",
-            "title": "",
-            "configuration": {
-              "pool": [
-                {
-                  "_id": "se00000000000000",
-                  "group": null,
-                  "sort": 0,
-                  "type": "OR",
-                  "count": 1,
-                  "key": ""
-                },
-                {
-                  "_id": "se00000000000001",
-                  "group": "se00000000000000",
-                  "sort": 1,
-                  "type": "linked",
-                  "count": 1,
-                  "key": "Compendium.rokugan5e.equipment.Item.roresplendentreg"
-                },
-                {
-                  "_id": "se00000000000002",
-                  "group": "se00000000000000",
-                  "sort": 2,
-                  "type": "linked",
-                  "count": 1,
-                  "key": "Compendium.rokugan5e.equipment.Item.rotravelingcloth"
-                },
-                {
-                  "_id": "se00000000000003",
-                  "group": "se00000000000000",
-                  "sort": 3,
-                  "type": "linked",
-                  "count": 1,
-                  "key": "Compendium.rokugan5e.equipment.Item.rounremarkablega"
-                },
-                {
-                  "_id": "se00000000000004",
-                  "group": null,
-                  "sort": 4,
-                  "type": "OR",
-                  "count": 1,
-                  "key": ""
-                },
-                {
-                  "_id": "se00000000000005",
-                  "group": "se00000000000004",
-                  "sort": 5,
-                  "type": "weapon",
-                  "count": 1,
-                  "key": "mar",
-                  "requiresProficiency": false
-                },
-                {
-                  "_id": "se00000000000006",
-                  "group": "se00000000000004",
-                  "sort": 6,
-                  "type": "AND",
-                  "count": 1,
-                  "key": ""
-                },
-                {
-                  "_id": "se00000000000007",
-                  "group": "se00000000000006",
-                  "sort": 7,
-                  "type": "weapon",
-                  "count": 1,
-                  "key": "sim",
-                  "requiresProficiency": false
-                },
-                {
-                  "_id": "se00000000000008",
-                  "group": "se00000000000006",
-                  "sort": 8,
-                  "type": "weapon",
-                  "count": 1,
-                  "key": "sim",
-                  "requiresProficiency": false
-                },
-                {
-                  "_id": "se00000000000009",
-                  "group": "se00000000000004",
-                  "sort": 9,
-                  "type": "AND",
-                  "count": 1,
-                  "key": ""
-                },
-                {
-                  "_id": "se0000000000000a",
-                  "group": "se00000000000009",
-                  "sort": 10,
-                  "type": "weapon",
-                  "count": 1,
-                  "key": "mar",
-                  "requiresProficiency": false
-                },
-                {
-                  "_id": "se0000000000000b",
-                  "group": "se00000000000004",
-                  "sort": 11,
-                  "type": "AND",
-                  "count": 1,
-                  "key": ""
-                },
-                {
-                  "_id": "se0000000000000c",
-                  "group": "se0000000000000b",
-                  "sort": 12,
-                  "type": "linked",
-                  "count": 1,
-                  "key": "Compendium.rokugan5e.equipment.Item.rwhuntingbow0000"
-                },
-                {
-                  "_id": "se0000000000000d",
-                  "group": "se0000000000000b",
-                  "sort": 13,
-                  "type": "linked",
-                  "count": 20,
-                  "key": "Compendium.rokugan5e.equipment.Item.rgwillowleafarro"
-                },
-                {
-                  "_id": "se0000000000000e",
-                  "group": "se0000000000000b",
-                  "sort": 14,
-                  "type": "linked",
-                  "count": 1,
-                  "key": "Compendium.rokugan5e.equipment.Item.rgarmorpiercinga"
-                },
-                {
-                  "_id": "se0000000000000f",
-                  "group": "se0000000000000b",
-                  "sort": 15,
-                  "type": "linked",
-                  "count": 1,
-                  "key": "Compendium.rokugan5e.equipment.Item.rgfleshcutterarr"
-                },
-                {
-                  "_id": "se00000000000010",
-                  "group": null,
-                  "sort": 16,
-                  "type": "AND",
-                  "count": 1,
-                  "key": ""
-                },
-                {
-                  "_id": "se00000000000011",
-                  "group": "se00000000000010",
-                  "sort": 17,
-                  "type": "linked",
-                  "count": 1,
-                  "key": "Compendium.rokugan5e.equipment.Item.rwdagger00000000"
-                },
-                {
-                  "_id": "se00000000000012",
-                  "group": null,
-                  "sort": 18,
-                  "type": "OR",
-                  "count": 1,
-                  "key": ""
-                },
-                {
-                  "_id": "se00000000000013",
-                  "group": "se00000000000012",
-                  "sort": 19,
-                  "type": "linked",
-                  "count": 1,
-                  "key": "Compendium.rokugan5e.equipment.Item.rgbowyerskit0000"
-                },
-                {
-                  "_id": "se00000000000014",
-                  "group": "se00000000000012",
-                  "sort": 20,
-                  "type": "linked",
-                  "count": 1,
-                  "key": "Compendium.rokugan5e.equipment.Item.rgswordmaintenan"
-                }
-              ],
-              "wealth": "5d4 * 10"
-            },
-            "value": {},
-            "level": 1
           }
         ],
         "spellcasting": {
@@ -1347,6 +1179,199 @@
           "all": true
         },
         "properties": [],
+        "startingEquipment": [
+          {
+            "type": "AND",
+            "_id": "se00000000000015",
+            "group": "",
+            "sort": 100000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "OR",
+            "_id": "se00000000000016",
+            "group": "se00000000000015",
+            "sort": 200000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "linked",
+            "_id": "se00000000000017",
+            "group": "se00000000000016",
+            "sort": 300000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.roresplendentreg"
+          },
+          {
+            "type": "linked",
+            "_id": "se00000000000018",
+            "group": "se00000000000016",
+            "sort": 400000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rotravelingcloth"
+          },
+          {
+            "type": "linked",
+            "_id": "se00000000000019",
+            "group": "se00000000000016",
+            "sort": 500000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rounremarkablega"
+          },
+          {
+            "type": "OR",
+            "_id": "se0000000000001a",
+            "group": "se00000000000015",
+            "sort": 600000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "weapon",
+            "_id": "se0000000000001b",
+            "group": "se0000000000001a",
+            "sort": 700000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "mar"
+          },
+          {
+            "type": "AND",
+            "_id": "se0000000000001c",
+            "group": "se0000000000001a",
+            "sort": 800000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "weapon",
+            "_id": "se0000000000001d",
+            "group": "se0000000000001c",
+            "sort": 900000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "sim"
+          },
+          {
+            "type": "weapon",
+            "_id": "se0000000000001e",
+            "group": "se0000000000001c",
+            "sort": 1000000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "sim"
+          },
+          {
+            "type": "AND",
+            "_id": "se0000000000001f",
+            "group": "se0000000000001a",
+            "sort": 1100000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "weapon",
+            "_id": "se00000000000020",
+            "group": "se0000000000001f",
+            "sort": 1200000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "mar"
+          },
+          {
+            "type": "AND",
+            "_id": "se00000000000021",
+            "group": "se0000000000001a",
+            "sort": 1300000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "linked",
+            "_id": "se00000000000022",
+            "group": "se00000000000021",
+            "sort": 1400000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rwhuntingbow0000"
+          },
+          {
+            "type": "linked",
+            "_id": "se00000000000023",
+            "group": "se00000000000021",
+            "sort": 1500000,
+            "requiresProficiency": false,
+            "count": 20,
+            "key": "Compendium.rokugan5e.equipment.Item.rgwillowleafarro"
+          },
+          {
+            "type": "linked",
+            "_id": "se00000000000024",
+            "group": "se00000000000021",
+            "sort": 1600000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rgarmorpiercinga"
+          },
+          {
+            "type": "linked",
+            "_id": "se00000000000025",
+            "group": "se00000000000021",
+            "sort": 1700000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rgfleshcutterarr"
+          },
+          {
+            "type": "AND",
+            "_id": "se00000000000026",
+            "group": "se00000000000015",
+            "sort": 1800000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "linked",
+            "_id": "se00000000000027",
+            "group": "se00000000000026",
+            "sort": 1900000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rwdagger00000000"
+          },
+          {
+            "type": "OR",
+            "_id": "se00000000000028",
+            "group": "se00000000000015",
+            "sort": 2000000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "linked",
+            "_id": "se00000000000029",
+            "group": "se00000000000028",
+            "sort": 2100000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rgbowyerskit0000"
+          },
+          {
+            "type": "linked",
+            "_id": "se0000000000002a",
+            "group": "se00000000000028",
+            "sort": 2200000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rgswordmaintenan"
+          },
+          {
+            "type": "currency",
+            "_id": "se0000000000002b",
+            "group": "se00000000000015",
+            "sort": 2300000,
+            "requiresProficiency": false,
+            "count": 125,
+            "key": "gp"
+          }
+        ],
         "wealth": ""
       },
       "effects": [],
@@ -1390,10 +1415,7 @@
           {
             "_id": "r8fd05352de8f83d",
             "type": "Trait",
-            "level": 1,
-            "title": "Saving Throw Proficiencies",
             "configuration": {
-              "hint": "",
               "mode": "default",
               "allowReplacements": false,
               "grants": [
@@ -1402,15 +1424,16 @@
               ],
               "choices": []
             },
-            "value": {}
+            "level": 1,
+            "title": "Saving Throw Proficiencies",
+            "value": {
+              "chosen": []
+            }
           },
           {
             "_id": "rfb266984fc382c3",
             "type": "Trait",
-            "level": 1,
-            "title": "Weapon Proficiency",
             "configuration": {
-              "hint": "",
               "mode": "default",
               "allowReplacements": false,
               "grants": [
@@ -1418,15 +1441,16 @@
               ],
               "choices": []
             },
-            "value": {}
+            "level": 1,
+            "title": "Weapon Proficiency",
+            "value": {
+              "chosen": []
+            }
           },
           {
             "_id": "r287a40f4b7caf42",
             "type": "Trait",
-            "level": 1,
-            "title": "Skill Proficiencies",
             "configuration": {
-              "hint": "",
               "mode": "default",
               "allowReplacements": false,
               "grants": [],
@@ -1450,15 +1474,16 @@
                 }
               ]
             },
-            "value": {}
+            "level": 1,
+            "title": "Skill Proficiencies",
+            "value": {
+              "chosen": []
+            }
           },
           {
             "_id": "r6111577b3efcedf",
             "type": "Trait",
-            "level": 1,
-            "title": "Armor Proficiency",
             "configuration": {
-              "hint": "",
               "mode": "default",
               "allowReplacements": false,
               "grants": [
@@ -1466,15 +1491,16 @@
               ],
               "choices": []
             },
-            "value": {}
+            "level": 1,
+            "title": "Armor Proficiency",
+            "value": {
+              "chosen": []
+            }
           },
           {
             "_id": "r5b4d40cfa3e5b36",
             "type": "Trait",
-            "level": 1,
-            "title": "Tool Proficiency",
             "configuration": {
-              "hint": "",
               "mode": "default",
               "allowReplacements": false,
               "grants": [],
@@ -1490,7 +1516,11 @@
                 }
               ]
             },
-            "value": {}
+            "level": 1,
+            "title": "Tool Proficiency",
+            "value": {
+              "chosen": []
+            }
           },
           {
             "_id": "r14f3069021a3a75",
@@ -1788,149 +1818,6 @@
               "spell": null
             },
             "value": {}
-          },
-          {
-            "_id": "rcce12873f3564f1",
-            "type": "StartingEquipment",
-            "title": "",
-            "configuration": {
-              "pool": [
-                {
-                  "_id": "se00000000000000",
-                  "group": null,
-                  "sort": 0,
-                  "type": "OR",
-                  "count": 1,
-                  "key": ""
-                },
-                {
-                  "_id": "se00000000000001",
-                  "group": "se00000000000000",
-                  "sort": 1,
-                  "type": "linked",
-                  "count": 1,
-                  "key": "Compendium.rokugan5e.equipment.Item.roresplendentreg"
-                },
-                {
-                  "_id": "se00000000000002",
-                  "group": "se00000000000000",
-                  "sort": 2,
-                  "type": "linked",
-                  "count": 1,
-                  "key": "Compendium.rokugan5e.equipment.Item.rounremarkablega"
-                },
-                {
-                  "_id": "se00000000000003",
-                  "group": null,
-                  "sort": 3,
-                  "type": "OR",
-                  "count": 1,
-                  "key": ""
-                },
-                {
-                  "_id": "se00000000000004",
-                  "group": "se00000000000003",
-                  "sort": 4,
-                  "type": "linked",
-                  "count": 1,
-                  "key": "Compendium.rokugan5e.equipment.Item.rasilkarmor00000"
-                },
-                {
-                  "_id": "se00000000000005",
-                  "group": "se00000000000003",
-                  "sort": 5,
-                  "type": "linked",
-                  "count": 1,
-                  "key": "Compendium.rokugan5e.equipment.Item.rotravelingcloth"
-                },
-                {
-                  "_id": "se00000000000006",
-                  "group": null,
-                  "sort": 6,
-                  "type": "OR",
-                  "count": 1,
-                  "key": ""
-                },
-                {
-                  "_id": "se00000000000007",
-                  "group": "se00000000000006",
-                  "sort": 7,
-                  "type": "weapon",
-                  "count": 1,
-                  "key": "sim",
-                  "requiresProficiency": false
-                },
-                {
-                  "_id": "se00000000000008",
-                  "group": "se00000000000006",
-                  "sort": 8,
-                  "type": "AND",
-                  "count": 1,
-                  "key": ""
-                },
-                {
-                  "_id": "se00000000000009",
-                  "group": "se00000000000008",
-                  "sort": 9,
-                  "type": "linked",
-                  "count": 1,
-                  "key": "Compendium.rokugan5e.equipment.Item.rwhuntingbow0000"
-                },
-                {
-                  "_id": "se0000000000000a",
-                  "group": "se00000000000008",
-                  "sort": 10,
-                  "type": "linked",
-                  "count": 20,
-                  "key": "Compendium.rokugan5e.equipment.Item.rgwillowleafarro"
-                },
-                {
-                  "_id": "se0000000000000b",
-                  "group": null,
-                  "sort": 11,
-                  "type": "AND",
-                  "count": 1,
-                  "key": ""
-                },
-                {
-                  "_id": "se0000000000000c",
-                  "group": "se0000000000000b",
-                  "sort": 12,
-                  "type": "linked",
-                  "count": 1,
-                  "key": "Compendium.rokugan5e.equipment.Item.rwdagger00000000"
-                },
-                {
-                  "_id": "se0000000000000d",
-                  "group": null,
-                  "sort": 13,
-                  "type": "AND",
-                  "count": 1,
-                  "key": ""
-                },
-                {
-                  "_id": "se0000000000000e",
-                  "group": "se0000000000000d",
-                  "sort": 14,
-                  "type": "tool",
-                  "count": 1,
-                  "key": "art",
-                  "requiresProficiency": false
-                },
-                {
-                  "_id": "se0000000000000f",
-                  "group": "se0000000000000d",
-                  "sort": 15,
-                  "type": "tool",
-                  "count": 1,
-                  "key": "art",
-                  "requiresProficiency": false
-                }
-              ],
-              "wealth": "5d4 * 10"
-            },
-            "value": {},
-            "level": 1
           }
         ],
         "spellcasting": {
@@ -1942,6 +1829,156 @@
           "all": true
         },
         "properties": [],
+        "startingEquipment": [
+          {
+            "type": "AND",
+            "_id": "se0000000000002c",
+            "group": "",
+            "sort": 100000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "OR",
+            "_id": "se0000000000002d",
+            "group": "se0000000000002c",
+            "sort": 200000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "linked",
+            "_id": "se0000000000002e",
+            "group": "se0000000000002d",
+            "sort": 300000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.roresplendentreg"
+          },
+          {
+            "type": "linked",
+            "_id": "se0000000000002f",
+            "group": "se0000000000002d",
+            "sort": 400000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rounremarkablega"
+          },
+          {
+            "type": "OR",
+            "_id": "se00000000000030",
+            "group": "se0000000000002c",
+            "sort": 500000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "linked",
+            "_id": "se00000000000031",
+            "group": "se00000000000030",
+            "sort": 600000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rasilkarmor00000"
+          },
+          {
+            "type": "linked",
+            "_id": "se00000000000032",
+            "group": "se00000000000030",
+            "sort": 700000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rotravelingcloth"
+          },
+          {
+            "type": "OR",
+            "_id": "se00000000000033",
+            "group": "se0000000000002c",
+            "sort": 800000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "weapon",
+            "_id": "se00000000000034",
+            "group": "se00000000000033",
+            "sort": 900000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "sim"
+          },
+          {
+            "type": "AND",
+            "_id": "se00000000000035",
+            "group": "se00000000000033",
+            "sort": 1000000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "linked",
+            "_id": "se00000000000036",
+            "group": "se00000000000035",
+            "sort": 1100000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rwhuntingbow0000"
+          },
+          {
+            "type": "linked",
+            "_id": "se00000000000037",
+            "group": "se00000000000035",
+            "sort": 1200000,
+            "requiresProficiency": false,
+            "count": 20,
+            "key": "Compendium.rokugan5e.equipment.Item.rgwillowleafarro"
+          },
+          {
+            "type": "AND",
+            "_id": "se00000000000038",
+            "group": "se0000000000002c",
+            "sort": 1300000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "linked",
+            "_id": "se00000000000039",
+            "group": "se00000000000038",
+            "sort": 1400000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rwdagger00000000"
+          },
+          {
+            "type": "AND",
+            "_id": "se0000000000003a",
+            "group": "se0000000000002c",
+            "sort": 1500000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "tool",
+            "_id": "se0000000000003b",
+            "group": "se0000000000003a",
+            "sort": 1600000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "art"
+          },
+          {
+            "type": "tool",
+            "_id": "se0000000000003c",
+            "group": "se0000000000003a",
+            "sort": 1700000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "art"
+          },
+          {
+            "type": "currency",
+            "_id": "se0000000000003d",
+            "group": "se0000000000002c",
+            "sort": 1800000,
+            "requiresProficiency": false,
+            "count": 125,
+            "key": "gp"
+          }
+        ],
         "wealth": ""
       },
       "effects": [],
@@ -1985,10 +2022,7 @@
           {
             "_id": "r291199c96d4d62f",
             "type": "Trait",
-            "level": 1,
-            "title": "Saving Throw Proficiencies",
             "configuration": {
-              "hint": "",
               "mode": "default",
               "allowReplacements": false,
               "grants": [
@@ -1997,15 +2031,16 @@
               ],
               "choices": []
             },
-            "value": {}
+            "level": 1,
+            "title": "Saving Throw Proficiencies",
+            "value": {
+              "chosen": []
+            }
           },
           {
             "_id": "r1a6bcd322a72da5",
             "type": "Trait",
-            "level": 1,
-            "title": "Armor Proficiency",
             "configuration": {
-              "hint": "",
               "mode": "default",
               "allowReplacements": false,
               "grants": [
@@ -2013,15 +2048,16 @@
               ],
               "choices": []
             },
-            "value": {}
+            "level": 1,
+            "title": "Armor Proficiency",
+            "value": {
+              "chosen": []
+            }
           },
           {
             "_id": "r99c79e4eeefb4c5",
             "type": "Trait",
-            "level": 1,
-            "title": "Weapon Proficiency",
             "configuration": {
-              "hint": "",
               "mode": "default",
               "allowReplacements": false,
               "grants": [
@@ -2029,15 +2065,16 @@
               ],
               "choices": []
             },
-            "value": {}
+            "level": 1,
+            "title": "Weapon Proficiency",
+            "value": {
+              "chosen": []
+            }
           },
           {
             "_id": "r36c2cf1ee0a7c19",
             "type": "Trait",
-            "level": 1,
-            "title": "Skill Proficiencies",
             "configuration": {
-              "hint": "",
               "mode": "default",
               "allowReplacements": false,
               "grants": [],
@@ -2058,36 +2095,38 @@
                 }
               ]
             },
-            "value": {}
+            "level": 1,
+            "title": "Skill Proficiencies",
+            "value": {
+              "chosen": []
+            }
           },
           {
             "_id": "r3efa9c76846b415",
             "type": "Trait",
-            "level": 1,
-            "title": "Weapon Proficiency",
             "configuration": {
-              "hint": "",
               "mode": "default",
               "allowReplacements": false,
               "grants": [
-                "weapon:shuriken",
-                "weapon:chainsickle",
-                "weapon:katana",
-                "weapon:nunchaku",
-                "weapon:sai",
-                "weapon:swordbreaker"
+                "weapon:mar:shuriken",
+                "weapon:mar:chainsickle",
+                "weapon:mar:katana",
+                "weapon:mar:nunchaku",
+                "weapon:mar:sai",
+                "weapon:mar:swordbreaker"
               ],
               "choices": []
             },
-            "value": {}
+            "level": 1,
+            "title": "Weapon Proficiency",
+            "value": {
+              "chosen": []
+            }
           },
           {
             "_id": "raa4c25fe4f6199e",
             "type": "Trait",
-            "level": 1,
-            "title": "Tool Proficiency",
             "configuration": {
-              "hint": "",
               "mode": "default",
               "allowReplacements": false,
               "grants": [
@@ -2095,15 +2134,16 @@
               ],
               "choices": []
             },
-            "value": {}
+            "level": 1,
+            "title": "Tool Proficiency",
+            "value": {
+              "chosen": []
+            }
           },
           {
             "_id": "r3d41c64d60ecbbb",
             "type": "Trait",
-            "level": 1,
-            "title": "Tool Proficiency",
             "configuration": {
-              "hint": "",
               "mode": "default",
               "allowReplacements": false,
               "grants": [],
@@ -2116,7 +2156,11 @@
                 }
               ]
             },
-            "value": {}
+            "level": 1,
+            "title": "Tool Proficiency",
+            "value": {
+              "chosen": []
+            }
           },
           {
             "_id": "r14f3069021a3a75",
@@ -2625,178 +2669,6 @@
               "spell": null
             },
             "value": {}
-          },
-          {
-            "_id": "r116f2dc1a28b1db",
-            "type": "StartingEquipment",
-            "title": "",
-            "configuration": {
-              "pool": [
-                {
-                  "_id": "se00000000000000",
-                  "group": null,
-                  "sort": 0,
-                  "type": "OR",
-                  "count": 1,
-                  "key": ""
-                },
-                {
-                  "_id": "se00000000000001",
-                  "group": "se00000000000000",
-                  "sort": 1,
-                  "type": "linked",
-                  "count": 1,
-                  "key": "Compendium.rokugan5e.equipment.Item.rwkatana00000000"
-                },
-                {
-                  "_id": "se00000000000002",
-                  "group": "se00000000000000",
-                  "sort": 2,
-                  "type": "linked",
-                  "count": 1,
-                  "key": "Compendium.rokugan5e.equipment.Item.rwstraightswords"
-                },
-                {
-                  "_id": "se00000000000003",
-                  "group": "se00000000000000",
-                  "sort": 3,
-                  "type": "AND",
-                  "count": 1,
-                  "key": ""
-                },
-                {
-                  "_id": "se00000000000004",
-                  "group": "se00000000000003",
-                  "sort": 4,
-                  "type": "linked",
-                  "count": 2,
-                  "key": "Compendium.rokugan5e.equipment.Item.rwsickle00000000"
-                },
-                {
-                  "_id": "se00000000000005",
-                  "group": "se00000000000000",
-                  "sort": 5,
-                  "type": "linked",
-                  "count": 1,
-                  "key": "Compendium.rokugan5e.equipment.Item.rwchainsickle000"
-                },
-                {
-                  "_id": "se00000000000006",
-                  "group": "se00000000000000",
-                  "sort": 6,
-                  "type": "linked",
-                  "count": 1,
-                  "key": "Compendium.rokugan5e.equipment.Item.rwnunchaku000000"
-                },
-                {
-                  "_id": "se00000000000007",
-                  "group": "se00000000000000",
-                  "sort": 7,
-                  "type": "AND",
-                  "count": 1,
-                  "key": ""
-                },
-                {
-                  "_id": "se00000000000008",
-                  "group": "se00000000000007",
-                  "sort": 8,
-                  "type": "linked",
-                  "count": 2,
-                  "key": "Compendium.rokugan5e.equipment.Item.rwsai00000000000"
-                },
-                {
-                  "_id": "se00000000000009",
-                  "group": null,
-                  "sort": 9,
-                  "type": "OR",
-                  "count": 1,
-                  "key": ""
-                },
-                {
-                  "_id": "se0000000000000a",
-                  "group": "se00000000000009",
-                  "sort": 10,
-                  "type": "linked",
-                  "count": 10,
-                  "key": "Compendium.rokugan5e.equipment.Item.rwshuriken000000"
-                },
-                {
-                  "_id": "se0000000000000b",
-                  "group": "se00000000000009",
-                  "sort": 11,
-                  "type": "AND",
-                  "count": 1,
-                  "key": ""
-                },
-                {
-                  "_id": "se0000000000000c",
-                  "group": "se0000000000000b",
-                  "sort": 12,
-                  "type": "linked",
-                  "count": 4,
-                  "key": "Compendium.rokugan5e.equipment.Item.rwdagger00000000"
-                },
-                {
-                  "_id": "se0000000000000d",
-                  "group": null,
-                  "sort": 13,
-                  "type": "AND",
-                  "count": 1,
-                  "key": ""
-                },
-                {
-                  "_id": "se0000000000000e",
-                  "group": "se0000000000000d",
-                  "sort": 14,
-                  "type": "linked",
-                  "count": 1,
-                  "key": "Compendium.rokugan5e.equipment.Item.raconcealedarmor"
-                },
-                {
-                  "_id": "se0000000000000f",
-                  "group": null,
-                  "sort": 15,
-                  "type": "AND",
-                  "count": 1,
-                  "key": ""
-                },
-                {
-                  "_id": "se00000000000010",
-                  "group": "se0000000000000f",
-                  "sort": 16,
-                  "type": "linked",
-                  "count": 1,
-                  "key": "Compendium.rokugan5e.equipment.Item.rounremarkablega"
-                },
-                {
-                  "_id": "se00000000000011",
-                  "group": null,
-                  "sort": 17,
-                  "type": "OR",
-                  "count": 1,
-                  "key": ""
-                },
-                {
-                  "_id": "se00000000000012",
-                  "group": "se00000000000011",
-                  "sort": 18,
-                  "type": "linked",
-                  "count": 1,
-                  "key": "Compendium.rokugan5e.equipment.Item.rgdisguisekit000"
-                },
-                {
-                  "_id": "se00000000000013",
-                  "group": "se00000000000011",
-                  "sort": 19,
-                  "type": "linked",
-                  "count": 1,
-                  "key": "Compendium.rokugan5e.equipment.Item.rginfiltratorseq"
-                }
-              ],
-              "wealth": "4d4 * 10"
-            },
-            "value": {},
-            "level": 1
           }
         ],
         "spellcasting": {
@@ -2808,6 +2680,188 @@
           "all": true
         },
         "properties": [],
+        "startingEquipment": [
+          {
+            "type": "AND",
+            "_id": "se0000000000003e",
+            "group": "",
+            "sort": 100000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "OR",
+            "_id": "se0000000000003f",
+            "group": "se0000000000003e",
+            "sort": 200000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "linked",
+            "_id": "se00000000000040",
+            "group": "se0000000000003f",
+            "sort": 300000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rwkatana00000000"
+          },
+          {
+            "type": "linked",
+            "_id": "se00000000000041",
+            "group": "se0000000000003f",
+            "sort": 400000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rwstraightswords"
+          },
+          {
+            "type": "AND",
+            "_id": "se00000000000042",
+            "group": "se0000000000003f",
+            "sort": 500000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "linked",
+            "_id": "se00000000000043",
+            "group": "se00000000000042",
+            "sort": 600000,
+            "requiresProficiency": false,
+            "count": 2,
+            "key": "Compendium.rokugan5e.equipment.Item.rwsickle00000000"
+          },
+          {
+            "type": "linked",
+            "_id": "se00000000000044",
+            "group": "se0000000000003f",
+            "sort": 700000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rwchainsickle000"
+          },
+          {
+            "type": "linked",
+            "_id": "se00000000000045",
+            "group": "se0000000000003f",
+            "sort": 800000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rwnunchaku000000"
+          },
+          {
+            "type": "AND",
+            "_id": "se00000000000046",
+            "group": "se0000000000003f",
+            "sort": 900000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "linked",
+            "_id": "se00000000000047",
+            "group": "se00000000000046",
+            "sort": 1000000,
+            "requiresProficiency": false,
+            "count": 2,
+            "key": "Compendium.rokugan5e.equipment.Item.rwsai00000000000"
+          },
+          {
+            "type": "OR",
+            "_id": "se00000000000048",
+            "group": "se0000000000003e",
+            "sort": 1100000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "linked",
+            "_id": "se00000000000049",
+            "group": "se00000000000048",
+            "sort": 1200000,
+            "requiresProficiency": false,
+            "count": 10,
+            "key": "Compendium.rokugan5e.equipment.Item.rwshuriken000000"
+          },
+          {
+            "type": "AND",
+            "_id": "se0000000000004a",
+            "group": "se00000000000048",
+            "sort": 1300000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "linked",
+            "_id": "se0000000000004b",
+            "group": "se0000000000004a",
+            "sort": 1400000,
+            "requiresProficiency": false,
+            "count": 4,
+            "key": "Compendium.rokugan5e.equipment.Item.rwdagger00000000"
+          },
+          {
+            "type": "AND",
+            "_id": "se0000000000004c",
+            "group": "se0000000000003e",
+            "sort": 1500000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "linked",
+            "_id": "se0000000000004d",
+            "group": "se0000000000004c",
+            "sort": 1600000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.raconcealedarmor"
+          },
+          {
+            "type": "AND",
+            "_id": "se0000000000004e",
+            "group": "se0000000000003e",
+            "sort": 1700000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "linked",
+            "_id": "se0000000000004f",
+            "group": "se0000000000004e",
+            "sort": 1800000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rounremarkablega"
+          },
+          {
+            "type": "OR",
+            "_id": "se00000000000050",
+            "group": "se0000000000003e",
+            "sort": 1900000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "linked",
+            "_id": "se00000000000051",
+            "group": "se00000000000050",
+            "sort": 2000000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rgdisguisekit000"
+          },
+          {
+            "type": "linked",
+            "_id": "se00000000000052",
+            "group": "se00000000000050",
+            "sort": 2100000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rginfiltratorseq"
+          },
+          {
+            "type": "currency",
+            "_id": "se00000000000053",
+            "group": "se0000000000003e",
+            "sort": 2200000,
+            "requiresProficiency": false,
+            "count": 100,
+            "key": "gp"
+          }
+        ],
         "wealth": ""
       },
       "effects": [],
@@ -2851,10 +2905,7 @@
           {
             "_id": "r94f4c82a7087492",
             "type": "Trait",
-            "level": 1,
-            "title": "Saving Throw Proficiencies",
             "configuration": {
-              "hint": "",
               "mode": "default",
               "allowReplacements": false,
               "grants": [
@@ -2863,15 +2914,16 @@
               ],
               "choices": []
             },
-            "value": {}
+            "level": 1,
+            "title": "Saving Throw Proficiencies",
+            "value": {
+              "chosen": []
+            }
           },
           {
             "_id": "rb4576386408410f",
             "type": "Trait",
-            "level": 1,
-            "title": "Weapon Proficiency",
             "configuration": {
-              "hint": "",
               "mode": "default",
               "allowReplacements": false,
               "grants": [
@@ -2879,15 +2931,16 @@
               ],
               "choices": []
             },
-            "value": {}
+            "level": 1,
+            "title": "Weapon Proficiency",
+            "value": {
+              "chosen": []
+            }
           },
           {
             "_id": "r2e693e4ac673d73",
             "type": "Trait",
-            "level": 1,
-            "title": "Skill Proficiencies",
             "configuration": {
-              "hint": "",
               "mode": "default",
               "allowReplacements": false,
               "grants": [],
@@ -2909,15 +2962,16 @@
                 }
               ]
             },
-            "value": {}
+            "level": 1,
+            "title": "Skill Proficiencies",
+            "value": {
+              "chosen": []
+            }
           },
           {
             "_id": "r078237ddb29cd7f",
             "type": "Trait",
-            "level": 1,
-            "title": "Tool Proficiency",
             "configuration": {
-              "hint": "",
               "mode": "default",
               "allowReplacements": false,
               "grants": [],
@@ -2930,7 +2984,11 @@
                 }
               ]
             },
-            "value": {}
+            "level": 1,
+            "title": "Tool Proficiency",
+            "value": {
+              "chosen": []
+            }
           },
           {
             "_id": "r3caefb02ad9fcde",
@@ -3234,133 +3292,6 @@
               "spell": null
             },
             "value": {}
-          },
-          {
-            "_id": "r0f67693915d09ab",
-            "type": "StartingEquipment",
-            "title": "",
-            "configuration": {
-              "pool": [
-                {
-                  "_id": "se00000000000000",
-                  "group": null,
-                  "sort": 0,
-                  "type": "OR",
-                  "count": 1,
-                  "key": ""
-                },
-                {
-                  "_id": "se00000000000001",
-                  "group": "se00000000000000",
-                  "sort": 1,
-                  "type": "linked",
-                  "count": 1,
-                  "key": "Compendium.rokugan5e.equipment.Item.roresplendentreg"
-                },
-                {
-                  "_id": "se00000000000002",
-                  "group": "se00000000000000",
-                  "sort": 2,
-                  "type": "linked",
-                  "count": 1,
-                  "key": "Compendium.rokugan5e.equipment.Item.rosanctifiedvest"
-                },
-                {
-                  "_id": "se00000000000003",
-                  "group": "se00000000000000",
-                  "sort": 3,
-                  "type": "linked",
-                  "count": 1,
-                  "key": "Compendium.rokugan5e.equipment.Item.rotravelingcloth"
-                },
-                {
-                  "_id": "se00000000000004",
-                  "group": null,
-                  "sort": 4,
-                  "type": "OR",
-                  "count": 1,
-                  "key": ""
-                },
-                {
-                  "_id": "se00000000000005",
-                  "group": "se00000000000004",
-                  "sort": 5,
-                  "type": "weapon",
-                  "count": 1,
-                  "key": "sim",
-                  "requiresProficiency": false
-                },
-                {
-                  "_id": "se00000000000006",
-                  "group": "se00000000000004",
-                  "sort": 6,
-                  "type": "AND",
-                  "count": 1,
-                  "key": ""
-                },
-                {
-                  "_id": "se00000000000007",
-                  "group": "se00000000000006",
-                  "sort": 7,
-                  "type": "linked",
-                  "count": 1,
-                  "key": "Compendium.rokugan5e.equipment.Item.rwhuntingbow0000"
-                },
-                {
-                  "_id": "se00000000000008",
-                  "group": "se00000000000006",
-                  "sort": 8,
-                  "type": "linked",
-                  "count": 20,
-                  "key": "Compendium.rokugan5e.equipment.Item.rgwillowleafarro"
-                },
-                {
-                  "_id": "se00000000000009",
-                  "group": "se00000000000006",
-                  "sort": 9,
-                  "type": "linked",
-                  "count": 1,
-                  "key": "Compendium.rokugan5e.equipment.Item.rwdagger00000000"
-                },
-                {
-                  "_id": "se0000000000000a",
-                  "group": null,
-                  "sort": 10,
-                  "type": "AND",
-                  "count": 1,
-                  "key": ""
-                },
-                {
-                  "_id": "se0000000000000b",
-                  "group": "se0000000000000a",
-                  "sort": 11,
-                  "type": "tool",
-                  "count": 1,
-                  "key": "art",
-                  "requiresProficiency": false
-                },
-                {
-                  "_id": "se0000000000000c",
-                  "group": null,
-                  "sort": 12,
-                  "type": "AND",
-                  "count": 1,
-                  "key": ""
-                },
-                {
-                  "_id": "se0000000000000d",
-                  "group": "se0000000000000c",
-                  "sort": 13,
-                  "type": "tool",
-                  "count": 1,
-                  "key": "art",
-                  "requiresProficiency": false
-                }
-              ],
-              "wealth": "5d4 * 10"
-            },
-            "value": {},
-            "level": 1
           }
         ],
         "spellcasting": {
@@ -3372,6 +3303,140 @@
           "all": true
         },
         "properties": [],
+        "startingEquipment": [
+          {
+            "type": "AND",
+            "_id": "se00000000000054",
+            "group": "",
+            "sort": 100000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "OR",
+            "_id": "se00000000000055",
+            "group": "se00000000000054",
+            "sort": 200000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "linked",
+            "_id": "se00000000000056",
+            "group": "se00000000000055",
+            "sort": 300000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.roresplendentreg"
+          },
+          {
+            "type": "linked",
+            "_id": "se00000000000057",
+            "group": "se00000000000055",
+            "sort": 400000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rosanctifiedvest"
+          },
+          {
+            "type": "linked",
+            "_id": "se00000000000058",
+            "group": "se00000000000055",
+            "sort": 500000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rotravelingcloth"
+          },
+          {
+            "type": "OR",
+            "_id": "se00000000000059",
+            "group": "se00000000000054",
+            "sort": 600000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "weapon",
+            "_id": "se0000000000005a",
+            "group": "se00000000000059",
+            "sort": 700000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "sim"
+          },
+          {
+            "type": "AND",
+            "_id": "se0000000000005b",
+            "group": "se00000000000059",
+            "sort": 800000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "linked",
+            "_id": "se0000000000005c",
+            "group": "se0000000000005b",
+            "sort": 900000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rwhuntingbow0000"
+          },
+          {
+            "type": "linked",
+            "_id": "se0000000000005d",
+            "group": "se0000000000005b",
+            "sort": 1000000,
+            "requiresProficiency": false,
+            "count": 20,
+            "key": "Compendium.rokugan5e.equipment.Item.rgwillowleafarro"
+          },
+          {
+            "type": "linked",
+            "_id": "se0000000000005e",
+            "group": "se0000000000005b",
+            "sort": 1100000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rwdagger00000000"
+          },
+          {
+            "type": "AND",
+            "_id": "se0000000000005f",
+            "group": "se00000000000054",
+            "sort": 1200000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "tool",
+            "_id": "se00000000000060",
+            "group": "se0000000000005f",
+            "sort": 1300000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "art"
+          },
+          {
+            "type": "AND",
+            "_id": "se00000000000061",
+            "group": "se00000000000054",
+            "sort": 1400000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "tool",
+            "_id": "se00000000000062",
+            "group": "se00000000000061",
+            "sort": 1500000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "art"
+          },
+          {
+            "type": "currency",
+            "_id": "se00000000000063",
+            "group": "se00000000000054",
+            "sort": 1600000,
+            "requiresProficiency": false,
+            "count": 125,
+            "key": "gp"
+          }
+        ],
         "wealth": ""
       },
       "effects": [],
@@ -3415,10 +3480,7 @@
           {
             "_id": "r19783391f2ab5c1",
             "type": "Trait",
-            "level": 1,
-            "title": "Saving Throw Proficiencies",
             "configuration": {
-              "hint": "",
               "mode": "default",
               "allowReplacements": false,
               "grants": [
@@ -3427,15 +3489,16 @@
               ],
               "choices": []
             },
-            "value": {}
+            "level": 1,
+            "title": "Saving Throw Proficiencies",
+            "value": {
+              "chosen": []
+            }
           },
           {
             "_id": "r20592754e90cc1e",
             "type": "Trait",
-            "level": 1,
-            "title": "Weapon Proficiency",
             "configuration": {
-              "hint": "",
               "mode": "default",
               "allowReplacements": false,
               "grants": [
@@ -3443,15 +3506,16 @@
               ],
               "choices": []
             },
-            "value": {}
+            "level": 1,
+            "title": "Weapon Proficiency",
+            "value": {
+              "chosen": []
+            }
           },
           {
             "_id": "r1d0df32745c0332",
             "type": "Trait",
-            "level": 1,
-            "title": "Skill Proficiencies",
             "configuration": {
-              "hint": "",
               "mode": "default",
               "allowReplacements": false,
               "grants": [],
@@ -3470,15 +3534,16 @@
                 }
               ]
             },
-            "value": {}
+            "level": 1,
+            "title": "Skill Proficiencies",
+            "value": {
+              "chosen": []
+            }
           },
           {
             "_id": "r3453428938b535b",
             "type": "Trait",
-            "level": 1,
-            "title": "Tool Proficiency",
             "configuration": {
-              "hint": "",
               "mode": "default",
               "allowReplacements": false,
               "grants": [],
@@ -3491,7 +3556,11 @@
                 }
               ]
             },
-            "value": {}
+            "level": 1,
+            "title": "Tool Proficiency",
+            "value": {
+              "chosen": []
+            }
           },
           {
             "_id": "rf85feccc399370b",
@@ -3821,59 +3890,6 @@
               "spell": null
             },
             "value": {}
-          },
-          {
-            "_id": "r7da401f2ad7a082",
-            "type": "StartingEquipment",
-            "title": "",
-            "configuration": {
-              "pool": [
-                {
-                  "_id": "se00000000000000",
-                  "group": null,
-                  "sort": 0,
-                  "type": "OR",
-                  "count": 1,
-                  "key": ""
-                },
-                {
-                  "_id": "se00000000000001",
-                  "group": "se00000000000000",
-                  "sort": 1,
-                  "type": "linked",
-                  "count": 1,
-                  "key": "Compendium.rokugan5e.equipment.Item.rotravelingcloth"
-                },
-                {
-                  "_id": "se00000000000002",
-                  "group": "se00000000000000",
-                  "sort": 2,
-                  "type": "linked",
-                  "count": 1,
-                  "key": "Compendium.rokugan5e.equipment.Item.rounremarkablega"
-                },
-                {
-                  "_id": "se00000000000003",
-                  "group": null,
-                  "sort": 3,
-                  "type": "AND",
-                  "count": 1,
-                  "key": ""
-                },
-                {
-                  "_id": "se00000000000004",
-                  "group": "se00000000000003",
-                  "sort": 4,
-                  "type": "weapon",
-                  "count": 1,
-                  "key": "sim",
-                  "requiresProficiency": false
-                }
-              ],
-              "wealth": "5d4"
-            },
-            "value": {},
-            "level": 1
           }
         ],
         "spellcasting": {
@@ -3885,6 +3901,65 @@
           "all": true
         },
         "properties": [],
+        "startingEquipment": [
+          {
+            "type": "AND",
+            "_id": "se00000000000064",
+            "group": "",
+            "sort": 100000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "OR",
+            "_id": "se00000000000065",
+            "group": "se00000000000064",
+            "sort": 200000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "linked",
+            "_id": "se00000000000066",
+            "group": "se00000000000065",
+            "sort": 300000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rotravelingcloth"
+          },
+          {
+            "type": "linked",
+            "_id": "se00000000000067",
+            "group": "se00000000000065",
+            "sort": 400000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rounremarkablega"
+          },
+          {
+            "type": "AND",
+            "_id": "se00000000000068",
+            "group": "se00000000000064",
+            "sort": 500000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "weapon",
+            "_id": "se00000000000069",
+            "group": "se00000000000068",
+            "sort": 600000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "sim"
+          },
+          {
+            "type": "currency",
+            "_id": "se0000000000006a",
+            "group": "se00000000000064",
+            "sort": 700000,
+            "requiresProficiency": false,
+            "count": 13,
+            "key": "gp"
+          }
+        ],
         "wealth": ""
       },
       "effects": [],
@@ -3928,10 +4003,7 @@
           {
             "_id": "rbb86afac8ed866c",
             "type": "Trait",
-            "level": 1,
-            "title": "Saving Throw Proficiencies",
             "configuration": {
-              "hint": "",
               "mode": "default",
               "allowReplacements": false,
               "grants": [
@@ -3939,15 +4011,16 @@
               ],
               "choices": []
             },
-            "value": {}
+            "level": 1,
+            "title": "Saving Throw Proficiencies",
+            "value": {
+              "chosen": []
+            }
           },
           {
             "_id": "r20ad262e117d7fa",
             "type": "Trait",
-            "level": 1,
-            "title": "Armor Proficiency",
             "configuration": {
-              "hint": "",
               "mode": "default",
               "allowReplacements": false,
               "grants": [
@@ -3955,15 +4028,16 @@
               ],
               "choices": []
             },
-            "value": {}
+            "level": 1,
+            "title": "Armor Proficiency",
+            "value": {
+              "chosen": []
+            }
           },
           {
             "_id": "r9c89122d5e8bf7c",
             "type": "Trait",
-            "level": 1,
-            "title": "Weapon Proficiency",
             "configuration": {
-              "hint": "",
               "mode": "default",
               "allowReplacements": false,
               "grants": [
@@ -3972,15 +4046,16 @@
               ],
               "choices": []
             },
-            "value": {}
+            "level": 1,
+            "title": "Weapon Proficiency",
+            "value": {
+              "chosen": []
+            }
           },
           {
             "_id": "rcc6e9b42c52922b",
             "type": "Trait",
-            "level": 1,
-            "title": "Skill Proficiencies",
             "configuration": {
-              "hint": "",
               "mode": "default",
               "allowReplacements": false,
               "grants": [],
@@ -4002,7 +4077,11 @@
                 }
               ]
             },
-            "value": {}
+            "level": 1,
+            "title": "Skill Proficiencies",
+            "value": {
+              "chosen": []
+            }
           },
           {
             "_id": "r14f3069021a3a75",
@@ -4308,84 +4387,6 @@
               "spell": null
             },
             "value": {}
-          },
-          {
-            "_id": "r83cd15a4de79513",
-            "type": "StartingEquipment",
-            "title": "",
-            "configuration": {
-              "pool": [
-                {
-                  "_id": "se00000000000000",
-                  "group": null,
-                  "sort": 0,
-                  "type": "OR",
-                  "count": 1,
-                  "key": ""
-                },
-                {
-                  "_id": "se00000000000001",
-                  "group": "se00000000000000",
-                  "sort": 1,
-                  "type": "linked",
-                  "count": 1,
-                  "key": "Compendium.rokugan5e.equipment.Item.raconcealedarmor"
-                },
-                {
-                  "_id": "se00000000000002",
-                  "group": "se00000000000000",
-                  "sort": 2,
-                  "type": "linked",
-                  "count": 1,
-                  "key": "Compendium.rokugan5e.equipment.Item.rasilkarmor00000"
-                },
-                {
-                  "_id": "se00000000000003",
-                  "group": null,
-                  "sort": 3,
-                  "type": "AND",
-                  "count": 1,
-                  "key": ""
-                },
-                {
-                  "_id": "se00000000000004",
-                  "group": "se00000000000003",
-                  "sort": 4,
-                  "type": "weapon",
-                  "count": 1,
-                  "key": "mar",
-                  "requiresProficiency": false
-                },
-                {
-                  "_id": "se00000000000005",
-                  "group": null,
-                  "sort": 5,
-                  "type": "OR",
-                  "count": 1,
-                  "key": ""
-                },
-                {
-                  "_id": "se00000000000006",
-                  "group": "se00000000000005",
-                  "sort": 6,
-                  "type": "weapon",
-                  "count": 1,
-                  "key": "sim",
-                  "requiresProficiency": false
-                },
-                {
-                  "_id": "se00000000000007",
-                  "group": "se00000000000005",
-                  "sort": 7,
-                  "type": "linked",
-                  "count": 10,
-                  "key": "Compendium.rokugan5e.equipment.Item.rwshuriken000000"
-                }
-              ],
-              "wealth": "5d4 * 10"
-            },
-            "value": {},
-            "level": 1
           }
         ],
         "spellcasting": {
@@ -4397,6 +4398,90 @@
           "all": true
         },
         "properties": [],
+        "startingEquipment": [
+          {
+            "type": "AND",
+            "_id": "se0000000000006b",
+            "group": "",
+            "sort": 100000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "OR",
+            "_id": "se0000000000006c",
+            "group": "se0000000000006b",
+            "sort": 200000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "linked",
+            "_id": "se0000000000006d",
+            "group": "se0000000000006c",
+            "sort": 300000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.raconcealedarmor"
+          },
+          {
+            "type": "linked",
+            "_id": "se0000000000006e",
+            "group": "se0000000000006c",
+            "sort": 400000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rasilkarmor00000"
+          },
+          {
+            "type": "AND",
+            "_id": "se0000000000006f",
+            "group": "se0000000000006b",
+            "sort": 500000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "weapon",
+            "_id": "se00000000000070",
+            "group": "se0000000000006f",
+            "sort": 600000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "mar"
+          },
+          {
+            "type": "OR",
+            "_id": "se00000000000071",
+            "group": "se0000000000006b",
+            "sort": 700000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "weapon",
+            "_id": "se00000000000072",
+            "group": "se00000000000071",
+            "sort": 800000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "sim"
+          },
+          {
+            "type": "linked",
+            "_id": "se00000000000073",
+            "group": "se00000000000071",
+            "sort": 900000,
+            "requiresProficiency": false,
+            "count": 10,
+            "key": "Compendium.rokugan5e.equipment.Item.rwshuriken000000"
+          },
+          {
+            "type": "currency",
+            "_id": "se00000000000074",
+            "group": "se0000000000006b",
+            "sort": 1000000,
+            "requiresProficiency": false,
+            "count": 125,
+            "key": "gp"
+          }
+        ],
         "wealth": ""
       },
       "effects": [],

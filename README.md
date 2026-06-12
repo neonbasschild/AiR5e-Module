@@ -531,3 +531,76 @@ The cause was registration timing. AiR's specific weapons/tools are registered i
 Weapon/tool ID registration now runs in a dedicated method called at **both `init` and `setup`** (after the dnd5e system finishes its own setup), so the custom keys persist through to character-creation time and the specific-weapon/tool grants resolve and write to the sheet. All Shinobi specific-weapon grant keys verified present in `weaponIds`.
 
 If a character was built before this fix, re-drag the class/background to re-run the advancement and pick up the proficiencies.
+
+---
+
+## Version 3.20.0 — The Real Fix: Weapon/Tool Registration Location (dnd5e 4.0+ API)
+
+This is the actual root cause behind AiR weapons/tools showing as plain text (instead of with an icon) during character creation and not applying as proficiencies.
+
+**dnd5e 4.0 moved specific weapon/tool registration to a new location.** The old `CONFIG.DND5E.weaponIds` / `toolIds` flat maps are deprecated; specific items now live in `CONFIG.DND5E.weapons` and `CONFIG.DND5E.tools` as objects (tools carry `{ ability, id }`, where `id` is the compendium UUID). Per dnd5e issue #4223, once the system has populated its maps, writing to the deprecated `*Ids` maps is a no-op — so this module's registration was effectively invisible to the system. When the Trait advancement tried to resolve `katana`/`shuriken`, it found nothing, so the proficiency couldn't be linked to an item (the missing icon) and wasn't applied to the sheet.
+
+Registration now writes to `CONFIG.DND5E.weapons` and `CONFIG.DND5E.tools` (the 4.0+ locations) with the correct object shape, while still writing the legacy `weaponIds`/`toolIds` for older dnd5e. It runs at both `init` and `setup` (guarded for when the maps don't yet exist) so the entries survive the system's own setup. Tools are registered with a sensible default check ability (e.g. Disguise Kit → Charisma, Calligraphy Set → Intelligence), and the duplicate SRD camelCase entries are collapsed onto the AiR items.
+
+With the items now resolvable, the specific weapon/tool proficiencies (the Shinobi's shuriken, chain sickle, katana, nunchaku, sai, swordbreaker, etc.) display with their icons during the advancement and apply to the sheet.
+
+If a character was built before this fix, re-drag the class/background to re-run the advancement.
+
+---
+
+## Version 3.21.0 — Proficiency Links Resolved Against the Live Pack (real fix)
+
+Two compounding problems were keeping AiR weapon/tool proficiencies from working.
+
+### The seeder never reseeded since 3.18.0
+The compendium seeder reseeds only when its internal `DATA_VERSION` changes — and that constant was accidentally left at `3.18.0` through 3.19 and 3.20, while only the module version advanced. So none of those releases' fixes ever reached an existing world: the packs were never rebuilt. The seeder version is now `3.21.0` (matched to the module), forcing a clean reseed.
+
+### Proficiency UUIDs are now read from the live pack index
+Previously the module registered proficiency items using precomputed compendium UUIDs. If anything about the imported document IDs differed at runtime, those links broke — which matches the "the link is broken / it's calling items that don't exist" symptom. Registration now happens at `ready`, after seeding, by looking up each AiR weapon and tool in the **live equipment-pack index by its `identifier`** and registering the actual runtime `uuid` from that index into `CONFIG.DND5E.weapons[key].id` / `tools[key].id` (the dnd5e v5 location). The link is therefore guaranteed to point at the real seeded item, never a stale precomputed path. Every AiR weapon and tool carries a `system.identifier` exactly matching its proficiency key (verified), so the lookup resolves for all of them.
+
+This targets dnd5e v5 + Foundry v13 (the module's minimum), using the current `CONFIG.DND5E.weapons`/`tools` API with no legacy fallback paths in the resolution.
+
+After updating, load the world once as GM so the reseed and registration run, then re-drag the class/background onto a character to apply the now-resolvable proficiencies.
+
+---
+
+## Version 3.22.0 — Proficiency Registration to Both Config Locations + Diagnostic
+
+You confirmed the katana's in-world UUID is exactly `Compendium.rokugan5e.equipment.Item.rwkatana00000000` — which matches what the module registers. So the item link is correct and `keepId` is preserving IDs properly; the earlier "broken link / item doesn't exist" path is not an ID mismatch.
+
+This release does two things:
+
+1. **Registers to both config locations.** The `ready`-time, index-resolved registration now writes each weapon/tool's real UUID into **both** the dnd5e v5 location (`CONFIG.DND5E.weapons[key].id` / `tools[key].id`) **and** the historical map (`weaponIds[key]` / `toolIds[key]`). Depending on the exact dnd5e build, the Trait advancement derives its set of valid specific-weapon/tool keys from one or the other; writing both with the confirmed-correct UUID covers it.
+
+2. **Adds a diagnostic** (`DIAGNOSTIC.md`). Running the included console snippet with a character selected reports each link in the chain: whether the registration is present, whether the UUID resolves, whether the system considers e.g. "katana" a valid weapon-proficiency choice, and what proficiencies are actually stored on the actor. This pinpoints exactly which step succeeds or fails so the remaining issue (if any) can be fixed precisely rather than by trial.
+
+Please load the updated world as GM (so the reseed and registration run), then run the diagnostic from `DIAGNOSTIC.md` and share the output.
+
+---
+
+## Version 3.23.0 — Correct Proficiency Keys & Starting Equipment Format (from dnd5e pack source)
+
+Using the dnd5e pack-source examples provided, two structural errors were corrected across all classes and backgrounds.
+
+### Weapon proficiency keys are namespaced by category
+Specific weapon proficiencies were written as `weapon:shuriken`, but dnd5e namespaces them under their category: `weapon:mar:shuriken`. This is why specific weapon grants never applied — the key format was wrong. All specific weapon proficiencies are now emitted as `weapon:<sim|mar>:<id>` (e.g. the Shinobi grants `weapon:mar:shuriken`, `weapon:mar:chainsickle`, `weapon:mar:katana`, `weapon:mar:nunchaku`, `weapon:mar:sai`, `weapon:mar:swordbreaker`; backgrounds grant `weapon:mar:wakizashi`). Bare category grants (`weapon:sim`, `weapon:mar`) are unchanged.
+
+### Starting equipment uses system.startingEquipment, not an advancement
+Starting equipment was being written as a `StartingEquipment` *advancement*, but dnd5e 5.x stores it as a flat array at `system.startingEquipment`. Each entry has `_id`, `group` (`""` for top level, or a parent entry's `_id`), `sort` (100000 increments), `type` (`AND`/`OR`/`linked`/`weapon`/`armor`/`tool`/`focus`/`currency`), `key`, `count`, and `requiresProficiency`. Gold is now a `currency` entry inside the tree (e.g. `{type:"currency", key:"gp", count:50}`) rather than a separate wealth roll. All 7 classes and 56 backgrounds now carry correctly-structured `system.startingEquipment`, and Trait advancements use the proper `value:{chosen:[]}` shape with `allowReplacements` set on background skills.
+
+Validated: zero broken equipment links, zero dangling group references, all weapon keys correctly namespaced. The seeder data version was bumped; existing worlds reseed on next load.
+
+---
+
+## Version 1.0.0 — First Release
+
+Feature-complete first public release. The module manifest is finalized for distribution:
+
+- **Version** set to `1.0.0`.
+- **System relationship** now includes the dnd5e manifest URL so Foundry can auto-install/verify the required system (dnd5e, minimum 5.0.0, verified 5.3.3).
+- **Author**: Neon.
+- **Project URL**, **manifest URL** (latest-release), and **download URL** (v1.0.0) point at the `neonbasschild/AiR5e-Module` repository.
+- Seeder data version aligned to `1.0.0`, so the compendiums seed cleanly on first install.
+
+### Packaging note
+The `download` URL expects the release asset to be named **`module.zip`**. When creating the GitHub release tagged `v1.0.0`, upload the packaged module as `module.zip` so the manifest's download link resolves.

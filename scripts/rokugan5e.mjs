@@ -150,8 +150,12 @@ Hooks.once("ready", () => {
   // Item usage automation (Favor/Focus spending)
   RokuganItems.registerUsageHooks();
 
-  // Seed the Adventures in Rokugan compendium packs (GM, first load only)
-  RokuganPacks.seed();
+  // Seed the Adventures in Rokugan compendium packs (GM, first load only),
+  // then register weapon/tool proficiencies against the LIVE pack index so the
+  // proficiency UUIDs are guaranteed to resolve to the seeded items.
+  Promise.resolve(RokuganPacks.seed()).then(() => {
+    RokuganConfig.registerProficienciesFromPack();
+  });
 
   // ----------------------------------------
   // Combat automation: Focus lifecycle

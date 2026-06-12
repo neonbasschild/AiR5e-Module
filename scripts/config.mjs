@@ -14,6 +14,17 @@
 
 import { ROKUGAN_WEAPON_IDS, ROKUGAN_TOOL_IDS, EQUIPMENT_PACK } from "./proficiency-ids.mjs";
 
+// Default check ability per AiR tool (by slug). Subterfuge/most kits use Dex;
+// knowledge/artisan kits use Int; performance instruments use Cha.
+const TOOL_ABILITY = {
+  disguisekit: "cha", infiltratorsequipment: "dex", invisibleinkset: "int",
+  calligraphyset: "int", painterstools: "int", divinationkit: "wis",
+  alchemistskit: "int", chemistskit: "int", swordmaintenancekit: "dex",
+  bowyerskit: "dex", fishingkit: "wis", cookingkit: "wis",
+  drums: "cha", flute: "cha", lute: "cha", zither: "cha",
+  boardorcardgame: "int", diceandcup: "wis",
+};
+
 export class RokuganConfig {
 
   // ----------------------------------------
@@ -435,109 +446,101 @@ export class RokuganConfig {
   // compendium during its setup phase, which can drop entries added only at
   // init - so we re-assert them at setup to guarantee specific-weapon and
   // specific-tool proficiency grants resolve when characters are built.
+  // Resolve weapon/tool proficiency registration against the LIVE compendium
+  // index at ready time. dnd5e v5 reads CONFIG.DND5E.weapons[key].id and
+  // tools[key].id as a UUID; we look up each AiR weapon/tool in the seeded
+  // pack by its identifier and register the REAL uuid from the index, so the
+  // link can never be stale regardless of how documents were imported.
+  static async registerProficienciesFromPack() {
+    const cfg = CONFIG.DND5E;
+    const pack = game.packs.get(EQUIPMENT_PACK);
+    if (!cfg || !pack) {
+      console.warn("Rokugan5E | equipment pack not available for proficiency registration");
+      return;
+    }
+    // Ensure the index includes the fields we need.
+    const index = await pack.getIndex({ fields: ["system.identifier", "system.type.value", "type"] });
+
+    const byIdentifier = new Map();
+    for (const entry of index) {
+      const ident = entry.system?.identifier;
+      if (ident) byIdentifier.set(ident, entry);
+    }
+
+    let weapons = 0, tools = 0;
+    for (const [key] of Object.entries(ROKUGAN_WEAPON_IDS)) {
+      const entry = byIdentifier.get(key);
+      if (!entry) continue;
+      const uuid = entry.uuid; // the REAL uuid from the live index
+      cfg.weapons ??= {};
+      cfg.weapons[key] = foundry.utils.mergeObject(cfg.weapons[key] ?? {}, { id: uuid });
+      // Also write the historical weaponIds map: depending on dnd5e build, the
+      // Trait advancement derives its valid specific-weapon keys from here.
+      cfg.weaponIds ??= {};
+      cfg.weaponIds[key] = uuid;
+      weapons++;
+    }
+    for (const [key] of Object.entries(ROKUGAN_TOOL_IDS)) {
+      const entry = byIdentifier.get(key);
+      if (!entry) continue;
+      const uuid = entry.uuid;
+      const ability = TOOL_ABILITY[key] ?? "int";
+      cfg.tools ??= {};
+      cfg.tools[key] = foundry.utils.mergeObject(cfg.tools[key] ?? {}, { ability, id: uuid });
+      cfg.toolIds ??= {};
+      cfg.toolIds[key] = uuid;
+      // Collapse duplicate SRD camelCase entry onto ours.
+      const camel = key.replace(/kit$/, "Kit").replace(/set$/, "Set")
+                       .replace(/tools$/, "Tools").replace(/equipment$/, "Equipment");
+      if (camel !== key && cfg.tools[camel]) cfg.tools[camel] = { ...cfg.tools[key] };
+      if (camel !== key && cfg.toolIds?.[camel]) cfg.toolIds[camel] = uuid;
+      tools++;
+    }
+    console.log(`Rokugan5E | Registered ${weapons} weapons + ${tools} tools from live pack index`);
+  }
+
   static registerProficiencies() {
     const cfg = CONFIG.DND5E;
     if (!cfg) return;
-    // dnd5e resolves a specific weapon/tool proficiency (and the item
-    // "proficient" state) via CONFIG.DND5E.weaponIds / toolIds, each mapping
-    // an identifier to a compendium item. We point AiR's weapons and tools at
-    // the rokugan5e.equipment pack so those proficiencies resolve to the real
-    // items, exactly as the SRD weapons/tools do for the core system.
-    cfg.weaponIds = cfg.weaponIds ?? {};
+
+    // dnd5e 4.0+ moved specific weapon/tool registration from the flat
+    // weaponIds/toolIds maps to CONFIG.DND5E.weapons and CONFIG.DND5E.tools,
+    // where each entry is an object. Writing to the deprecated *Ids maps after
+    // the system has populated them is a no-op (see dnd5e issue #4223), which
+    // is why AiR weapons/tools showed as plain text (unresolved) during
+    // character creation. We register into BOTH the new and legacy locations
+    // for compatibility across dnd5e 4.x/5.x.
+
+    // --- Weapons ---
     for (const [key, id] of Object.entries(ROKUGAN_WEAPON_IDS)) {
-      cfg.weaponIds[key] = `Compendium.${EQUIPMENT_PACK}.Item.${id}`;
+      const uuid = `Compendium.${EQUIPMENT_PACK}.Item.${id}`;
+      if (cfg.weapons && typeof cfg.weapons === "object") {
+        // New shape: CONFIG.DND5E.weapons[key] = { ..., id: uuid }
+        cfg.weapons[key] = foundry.utils.mergeObject(cfg.weapons[key] ?? {}, { id: uuid });
+      }
+      // Legacy fallback (dnd5e <4): weaponIds[key] = uuid
+      if (cfg.weaponIds) cfg.weaponIds[key] = uuid;
     }
-    cfg.toolIds = cfg.toolIds ?? {};
+
+    // --- Tools ---
     for (const [key, id] of Object.entries(ROKUGAN_TOOL_IDS)) {
       const uuid = `Compendium.${EQUIPMENT_PACK}.Item.${id}`;
-      cfg.toolIds[key] = uuid;
-      // Override the equivalent SRD camelCase key so the tool dropdown shows a
-      // single Rokugan entry instead of duplicating with the SRD item
-      // (e.g. our "disguisekit" vs the SRD "disguiseKit").
-      const camel = key.replace(/kit$/, "Kit").replace(/set$/, "Set")
-                       .replace(/tools$/, "Tools").replace(/equipment$/, "Equipment");
-      if (camel !== key && cfg.toolIds[camel]) cfg.toolIds[camel] = uuid;
-    }
-
-    // Languages are registered in registerLanguages() at i18nInit
-    // (so labels can be localized).
-
-    // ----- Creature Types: Add Rokugan-specific types -----
-    if (cfg.creatureTypes) {
-      cfg.creatureTypes.spirit = "ROKUGAN.CreatureType.Spirit";
-      cfg.creatureTypes.oni = "ROKUGAN.CreatureType.Oni";
-      cfg.creatureTypes.mazoku = "ROKUGAN.CreatureType.Mazoku";
-      cfg.creatureTypes.yokai = "ROKUGAN.CreatureType.Yokai";
-    }
-
-    // ----- Damage Types: Add Rokugan-relevant types -----
-    if (cfg.damageTypes) {
-      // Void damage (advanced concept in Rokugan)
-      cfg.damageTypes.void = "ROKUGAN.DamageType.Void";
-    }
-
-    // ----- Spell Schools → Invocation Elements -----
-    // In Rokugan, the Ritualist uses Invocations organized by element.
-    // We map the dnd5e spell school labels to Rokugan elements for Ritualists.
-    if (cfg.spellSchools) {
-      // Keep standard schools but add element-based ones
-      cfg.spellSchools.air = { label: "ROKUGAN.Invocation.Element.Air", icon: "systems/dnd5e/icons/svg/schools/abjuration.svg" };
-      cfg.spellSchools.earth = { label: "ROKUGAN.Invocation.Element.Earth", icon: "systems/dnd5e/icons/svg/schools/conjuration.svg" };
-      cfg.spellSchools.fire = { label: "ROKUGAN.Invocation.Element.Fire", icon: "systems/dnd5e/icons/svg/schools/evocation.svg" };
-      cfg.spellSchools.water = { label: "ROKUGAN.Invocation.Element.Water", icon: "systems/dnd5e/icons/svg/schools/divination.svg" };
-    }
-
-    // ----- Item Properties: Add Rokugan-specific weapon properties -----
-    if (cfg.itemProperties) {
-      cfg.itemProperties.paired = {
-        label: "ROKUGAN.WeaponProperty.Paired",
-        abbreviation: "ROKUGAN.WeaponProperty.PairedAbbr",
-        icon: null
-      };
-      cfg.itemProperties.ceremonial = {
-        label: "ROKUGAN.WeaponProperty.Ceremonial",
-        abbreviation: "ROKUGAN.WeaponProperty.CeremonialAbbr",
-        icon: null
-      };
-      cfg.itemProperties.awakened = {
-        label: "ROKUGAN.WeaponProperty.Awakened",
-        abbreviation: "ROKUGAN.WeaponProperty.AwakenedAbbr",
-        icon: null
-      };
-      cfg.itemProperties.defensive = {
-        label: "ROKUGAN.WeaponProperty.Defensive",
-        abbreviation: "ROKUGAN.WeaponProperty.DefensiveAbbr",
-        icon: null
-      };
-      cfg.itemProperties.snaring = {
-        label: "ROKUGAN.WeaponProperty.Snaring",
-        abbreviation: "ROKUGAN.WeaponProperty.SnaringAbbr",
-        icon: null
-      };
-      // dnd5e 5.x validates item properties per type; register the custom
-      // Rokugan weapon properties so they survive document data cleaning.
-      const wprops = cfg.validProperties?.weapon;
-      if (wprops?.add) {
-        for (const p of ["paired", "ceremonial", "awakened", "defensive", "snaring"]) wprops.add(p);
+      // Pick a sensible default check ability for the tool category.
+      const ability = TOOL_ABILITY[key] ?? "int";
+      if (cfg.tools && typeof cfg.tools === "object") {
+        cfg.tools[key] = foundry.utils.mergeObject(cfg.tools[key] ?? {}, { ability, id: uuid });
+        // Collapse the duplicate SRD camelCase entry onto ours.
+        const camel = key.replace(/kit$/, "Kit").replace(/set$/, "Set")
+                         .replace(/tools$/, "Tools").replace(/equipment$/, "Equipment");
+        if (camel !== key && cfg.tools[camel]) cfg.tools[camel] = { ...cfg.tools[key] };
+      }
+      if (cfg.toolIds) {
+        cfg.toolIds[key] = uuid;
+        const camel = key.replace(/kit$/, "Kit").replace(/set$/, "Set")
+                         .replace(/tools$/, "Tools").replace(/equipment$/, "Equipment");
+        if (camel !== key && cfg.toolIds[camel]) cfg.toolIds[camel] = uuid;
       }
     }
-
-    // ----- Status Effects / Conditions -----
-    // dnd5e 5.x assigns each status effect a static 16-character _id (see
-    // dnd5e's _configureStatusEffects). Doing the same keeps effect creation
-    // deterministic. Core Foundry icons are used so no SVG assets ship.
-    const staticId = (id) => `rokugan${id}`.padEnd(16, "0").slice(0, 16);
-    const rokuganConditions = [
-      { id: "disoriented",    name: "ROKUGAN.Condition.Disoriented",    img: "icons/svg/daze.svg" },
-      { id: "compromised",    name: "ROKUGAN.Condition.Compromised",    img: "icons/svg/downgrade.svg" },
-      { id: "miserable",      name: "ROKUGAN.Condition.Miserable",      img: "icons/svg/stoned.svg" },
-      { id: "anguished",      name: "ROKUGAN.Condition.Anguished",      img: "icons/svg/terror.svg" },
-      { id: "markedForDeath", name: "ROKUGAN.Condition.MarkedForDeath", img: "icons/svg/target.svg" },
-      { id: "bleedingAiR",    name: "ROKUGAN.Condition.Bleeding",       img: "icons/svg/blood.svg" },
-    ].map(e => ({ ...e, _id: staticId(e.id) }));
-
-    CONFIG.statusEffects.push(...rokuganConditions);
-
   }
 
   static registerLanguages() {
