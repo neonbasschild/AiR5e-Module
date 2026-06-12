@@ -28,7 +28,25 @@
           "max": "",
           "spent": 0,
           "recovery": []
-        }
+        },
+        "advancement": [
+          {
+            "_id": "r5fd246e90545871",
+            "type": "AbilityScoreImprovement",
+            "configuration": {
+              "points": 0,
+              "fixed": {
+                "wis": 1
+              },
+              "cap": 0
+            },
+            "value": {
+              "type": "feat"
+            },
+            "level": 0,
+            "title": ""
+          }
+        ]
       },
       "effects": [],
       "folder": null,
@@ -65,7 +83,8 @@
           "max": "",
           "spent": 0,
           "recovery": []
-        }
+        },
+        "advancement": []
       },
       "effects": [],
       "folder": null,
@@ -102,7 +121,26 @@
           "max": "",
           "spent": 0,
           "recovery": []
-        }
+        },
+        "advancement": [
+          {
+            "_id": "rb2b6854382913a4",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "saves:dex"
+              ],
+              "choices": []
+            },
+            "level": 0,
+            "title": "Saving Throw Proficiency",
+            "value": {
+              "chosen": []
+            }
+          }
+        ]
       },
       "effects": [],
       "folder": null,
@@ -139,7 +177,8 @@
           "max": "",
           "spent": 0,
           "recovery": []
-        }
+        },
+        "advancement": []
       },
       "effects": [],
       "folder": null,
@@ -176,7 +215,8 @@
           "max": "",
           "spent": 0,
           "recovery": []
-        }
+        },
+        "advancement": []
       },
       "effects": [],
       "folder": null,
@@ -213,7 +253,8 @@
           "max": "",
           "spent": 0,
           "recovery": []
-        }
+        },
+        "advancement": []
       },
       "effects": [],
       "folder": null,
@@ -250,7 +291,8 @@
           "max": "",
           "spent": 0,
           "recovery": []
-        }
+        },
+        "advancement": []
       },
       "effects": [],
       "folder": null,
@@ -287,7 +329,8 @@
           "max": "",
           "spent": 0,
           "recovery": []
-        }
+        },
+        "advancement": []
       },
       "effects": [],
       "folder": null,
@@ -324,7 +367,8 @@
           "max": "",
           "spent": 0,
           "recovery": []
-        }
+        },
+        "advancement": []
       },
       "effects": [],
       "folder": null,
@@ -361,7 +405,8 @@
           "max": "",
           "spent": 0,
           "recovery": []
-        }
+        },
+        "advancement": []
       },
       "effects": [],
       "folder": null,
@@ -398,7 +443,8 @@
           "max": "",
           "spent": 0,
           "recovery": []
-        }
+        },
+        "advancement": []
       },
       "effects": [],
       "folder": null,
@@ -435,7 +481,8 @@
           "max": "",
           "spent": 0,
           "recovery": []
-        }
+        },
+        "advancement": []
       },
       "effects": [],
       "folder": null,
@@ -472,7 +519,8 @@
           "max": "",
           "spent": 0,
           "recovery": []
-        }
+        },
+        "advancement": []
       },
       "effects": [],
       "folder": null,
@@ -509,7 +557,8 @@
           "max": "",
           "spent": 0,
           "recovery": []
-        }
+        },
+        "advancement": []
       },
       "effects": [],
       "folder": null,
@@ -546,7 +595,8 @@
           "max": "",
           "spent": 0,
           "recovery": []
-        }
+        },
+        "advancement": []
       },
       "effects": [],
       "folder": null,
@@ -583,7 +633,8 @@
           "max": "",
           "spent": 0,
           "recovery": []
-        }
+        },
+        "advancement": []
       },
       "effects": [],
       "folder": null,
@@ -620,7 +671,26 @@
           "max": "",
           "spent": 0,
           "recovery": []
-        }
+        },
+        "advancement": [
+          {
+            "_id": "ra144a8be157e63d",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "skills:med"
+              ],
+              "choices": []
+            },
+            "level": 0,
+            "title": "Skill Proficiency",
+            "value": {
+              "chosen": []
+            }
+          }
+        ]
       },
       "effects": [],
       "folder": null,
@@ -657,7 +727,8 @@
           "max": "",
           "spent": 0,
           "recovery": []
-        }
+        },
+        "advancement": []
       },
       "effects": [],
       "folder": null,
@@ -694,7 +765,31 @@
           "max": "",
           "spent": 0,
           "recovery": []
-        }
+        },
+        "advancement": [
+          {
+            "_id": "r7a32b51f6998dc9",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 3,
+                  "pool": [
+                    "weapon:mar"
+                  ]
+                }
+              ]
+            },
+            "level": 0,
+            "title": "Martial Weapon Proficiency",
+            "value": {
+              "chosen": []
+            }
+          }
+        ]
       },
       "effects": [],
       "folder": null,
@@ -731,7 +826,26 @@
           "max": "",
           "spent": 0,
           "recovery": []
-        }
+        },
+        "advancement": [
+          {
+            "_id": "rf87f4f7e45f7dbc",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "skills:med"
+              ],
+              "choices": []
+            },
+            "level": 0,
+            "title": "Skill Proficiency",
+            "value": {
+              "chosen": []
+            }
+          }
+        ]
       },
       "effects": [],
       "folder": null,
@@ -768,7 +882,8 @@
           "max": "",
           "spent": 0,
           "recovery": []
-        }
+        },
+        "advancement": []
       },
       "effects": [],
       "folder": null,
@@ -805,7 +920,27 @@
           "max": "",
           "spent": 0,
           "recovery": []
-        }
+        },
+        "advancement": [
+          {
+            "_id": "rd63fef26f3c7ffc",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "skills:prf",
+                "saves:cha"
+              ],
+              "choices": []
+            },
+            "level": 0,
+            "title": "Proficiencies",
+            "value": {
+              "chosen": []
+            }
+          }
+        ]
       },
       "effects": [],
       "folder": null,
@@ -842,7 +977,26 @@
           "max": "",
           "spent": 0,
           "recovery": []
-        }
+        },
+        "advancement": [
+          {
+            "_id": "r176d24b1da39b94",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "skills:rel"
+              ],
+              "choices": []
+            },
+            "level": 0,
+            "title": "Skill Proficiency",
+            "value": {
+              "chosen": []
+            }
+          }
+        ]
       },
       "effects": [],
       "folder": null,
@@ -879,7 +1033,8 @@
           "max": "",
           "spent": 0,
           "recovery": []
-        }
+        },
+        "advancement": []
       },
       "effects": [],
       "folder": null,
@@ -916,7 +1071,8 @@
           "max": "",
           "spent": 0,
           "recovery": []
-        }
+        },
+        "advancement": []
       },
       "effects": [],
       "folder": null,
@@ -953,7 +1109,26 @@
           "max": "",
           "spent": 0,
           "recovery": []
-        }
+        },
+        "advancement": [
+          {
+            "_id": "r3c30525a3301330",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "skills:ath"
+              ],
+              "choices": []
+            },
+            "level": 0,
+            "title": "Skill Proficiency",
+            "value": {
+              "chosen": []
+            }
+          }
+        ]
       },
       "effects": [],
       "folder": null,
@@ -990,7 +1165,8 @@
           "max": "",
           "spent": 0,
           "recovery": []
-        }
+        },
+        "advancement": []
       },
       "effects": [],
       "folder": null,
@@ -1027,7 +1203,8 @@
           "max": "",
           "spent": 0,
           "recovery": []
-        }
+        },
+        "advancement": []
       },
       "effects": [],
       "folder": null,
@@ -1064,7 +1241,8 @@
           "max": "",
           "spent": 0,
           "recovery": []
-        }
+        },
+        "advancement": []
       },
       "effects": [],
       "folder": null,
@@ -1101,7 +1279,8 @@
           "max": "",
           "spent": 0,
           "recovery": []
-        }
+        },
+        "advancement": []
       },
       "effects": [],
       "folder": null,
@@ -1138,7 +1317,8 @@
           "max": "",
           "spent": 0,
           "recovery": []
-        }
+        },
+        "advancement": []
       },
       "effects": [],
       "folder": null,
@@ -1175,7 +1355,8 @@
           "max": "",
           "spent": 0,
           "recovery": []
-        }
+        },
+        "advancement": []
       },
       "effects": [],
       "folder": null,
@@ -1212,7 +1393,8 @@
           "max": "",
           "spent": 0,
           "recovery": []
-        }
+        },
+        "advancement": []
       },
       "effects": [],
       "folder": null,
@@ -1249,7 +1431,27 @@
           "max": "",
           "spent": 0,
           "recovery": []
-        }
+        },
+        "advancement": [
+          {
+            "_id": "r48e6e776973ae94",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "skills:ins",
+                "saves:wis"
+              ],
+              "choices": []
+            },
+            "level": 0,
+            "title": "Proficiencies",
+            "value": {
+              "chosen": []
+            }
+          }
+        ]
       },
       "effects": [],
       "folder": null,
@@ -1286,7 +1488,8 @@
           "max": "",
           "spent": 0,
           "recovery": []
-        }
+        },
+        "advancement": []
       },
       "effects": [],
       "folder": null,
@@ -1323,7 +1526,8 @@
           "max": "",
           "spent": 0,
           "recovery": []
-        }
+        },
+        "advancement": []
       },
       "effects": [],
       "folder": null,
@@ -1360,7 +1564,8 @@
           "max": "",
           "spent": 0,
           "recovery": []
-        }
+        },
+        "advancement": []
       },
       "effects": [],
       "folder": null,
@@ -1397,7 +1602,8 @@
           "max": "",
           "spent": 0,
           "recovery": []
-        }
+        },
+        "advancement": []
       },
       "effects": [],
       "folder": null,
@@ -1434,7 +1640,8 @@
           "max": "",
           "spent": 0,
           "recovery": []
-        }
+        },
+        "advancement": []
       },
       "effects": [],
       "folder": null,
@@ -1471,7 +1678,8 @@
           "max": "",
           "spent": 0,
           "recovery": []
-        }
+        },
+        "advancement": []
       },
       "effects": [],
       "folder": null,
@@ -1508,7 +1716,8 @@
           "max": "",
           "spent": 0,
           "recovery": []
-        }
+        },
+        "advancement": []
       },
       "effects": [],
       "folder": null,
@@ -1545,7 +1754,8 @@
           "max": "",
           "spent": 0,
           "recovery": []
-        }
+        },
+        "advancement": []
       },
       "effects": [],
       "folder": null,
@@ -1582,7 +1792,8 @@
           "max": "",
           "spent": 0,
           "recovery": []
-        }
+        },
+        "advancement": []
       },
       "effects": [],
       "folder": null,
@@ -1619,7 +1830,8 @@
           "max": "",
           "spent": 0,
           "recovery": []
-        }
+        },
+        "advancement": []
       },
       "effects": [],
       "folder": null,
@@ -1656,7 +1868,8 @@
           "max": "",
           "spent": 0,
           "recovery": []
-        }
+        },
+        "advancement": []
       },
       "effects": [],
       "folder": null,
@@ -1693,7 +1906,8 @@
           "max": "",
           "spent": 0,
           "recovery": []
-        }
+        },
+        "advancement": []
       },
       "effects": [],
       "folder": null,
@@ -1730,7 +1944,8 @@
           "max": "",
           "spent": 0,
           "recovery": []
-        }
+        },
+        "advancement": []
       },
       "effects": [],
       "folder": null,
@@ -1767,7 +1982,8 @@
           "max": "",
           "spent": 0,
           "recovery": []
-        }
+        },
+        "advancement": []
       },
       "effects": [],
       "folder": null,
@@ -1804,7 +2020,8 @@
           "max": "",
           "spent": 0,
           "recovery": []
-        }
+        },
+        "advancement": []
       },
       "effects": [],
       "folder": null,
@@ -1841,9 +2058,31 @@
           "max": "",
           "spent": 0,
           "recovery": []
-        }
+        },
+        "advancement": []
       },
-      "effects": [],
+      "effects": [
+        {
+          "_id": "r273d7e4be8bfcfb",
+          "name": "Laborer’s Endurance",
+          "img": "systems/dnd5e/icons/svg/items/feature.svg",
+          "changes": [
+            {
+              "key": "system.attributes.hp.bonuses.overall",
+              "mode": 2,
+              "value": "@details.level",
+              "priority": 20
+            }
+          ],
+          "disabled": false,
+          "transfer": true,
+          "description": "",
+          "origin": null,
+          "duration": {},
+          "statuses": [],
+          "flags": {}
+        }
+      ],
       "folder": null,
       "sort": 0,
       "flags": {},
@@ -1878,7 +2117,8 @@
           "max": "",
           "spent": 0,
           "recovery": []
-        }
+        },
+        "advancement": []
       },
       "effects": [],
       "folder": null,
@@ -1915,7 +2155,8 @@
           "max": "",
           "spent": 0,
           "recovery": []
-        }
+        },
+        "advancement": []
       },
       "effects": [],
       "folder": null,
@@ -1952,7 +2193,8 @@
           "max": "",
           "spent": 0,
           "recovery": []
-        }
+        },
+        "advancement": []
       },
       "effects": [],
       "folder": null,
@@ -1989,7 +2231,25 @@
           "max": "",
           "spent": 0,
           "recovery": []
-        }
+        },
+        "advancement": [
+          {
+            "_id": "r88e9160af9bfe91",
+            "type": "AbilityScoreImprovement",
+            "configuration": {
+              "points": 0,
+              "fixed": {
+                "con": 1
+              },
+              "cap": 0
+            },
+            "value": {
+              "type": "feat"
+            },
+            "level": 0,
+            "title": ""
+          }
+        ]
       },
       "effects": [],
       "folder": null,
@@ -2026,7 +2286,25 @@
           "max": "",
           "spent": 0,
           "recovery": []
-        }
+        },
+        "advancement": [
+          {
+            "_id": "r56e75c2a8ac1267",
+            "type": "AbilityScoreImprovement",
+            "configuration": {
+              "points": 0,
+              "fixed": {
+                "str": 1
+              },
+              "cap": 0
+            },
+            "value": {
+              "type": "feat"
+            },
+            "level": 0,
+            "title": ""
+          }
+        ]
       },
       "effects": [],
       "folder": null,
@@ -2063,7 +2341,25 @@
           "max": "",
           "spent": 0,
           "recovery": []
-        }
+        },
+        "advancement": [
+          {
+            "_id": "rf0fc663e63f9227",
+            "type": "AbilityScoreImprovement",
+            "configuration": {
+              "points": 0,
+              "fixed": {
+                "cha": 1
+              },
+              "cap": 0
+            },
+            "value": {
+              "type": "feat"
+            },
+            "level": 0,
+            "title": ""
+          }
+        ]
       },
       "effects": [],
       "folder": null,
@@ -2100,9 +2396,48 @@
           "max": "",
           "spent": 0,
           "recovery": []
-        }
+        },
+        "advancement": [
+          {
+            "_id": "r79e189a9315a6d1",
+            "type": "AbilityScoreImprovement",
+            "configuration": {
+              "points": 0,
+              "fixed": {
+                "dex": 1
+              },
+              "cap": 0
+            },
+            "value": {
+              "type": "feat"
+            },
+            "level": 0,
+            "title": ""
+          }
+        ]
       },
-      "effects": [],
+      "effects": [
+        {
+          "_id": "r359c57ba495baa7",
+          "name": "Nimble Glider",
+          "img": "systems/dnd5e/icons/svg/items/feature.svg",
+          "changes": [
+            {
+              "key": "system.attributes.movement.fly",
+              "mode": 2,
+              "value": "10",
+              "priority": 20
+            }
+          ],
+          "disabled": false,
+          "transfer": true,
+          "description": "",
+          "origin": null,
+          "duration": {},
+          "statuses": [],
+          "flags": {}
+        }
+      ],
       "folder": null,
       "sort": 0,
       "flags": {},
@@ -2137,7 +2472,8 @@
           "max": "",
           "spent": 0,
           "recovery": []
-        }
+        },
+        "advancement": []
       },
       "effects": [],
       "folder": null,
@@ -2174,9 +2510,48 @@
           "max": "",
           "spent": 0,
           "recovery": []
-        }
+        },
+        "advancement": [
+          {
+            "_id": "r4c20b3265ffad14",
+            "type": "AbilityScoreImprovement",
+            "configuration": {
+              "points": 0,
+              "fixed": {
+                "dex": 1
+              },
+              "cap": 0
+            },
+            "value": {
+              "type": "feat"
+            },
+            "level": 0,
+            "title": ""
+          }
+        ]
       },
-      "effects": [],
+      "effects": [
+        {
+          "_id": "r6e6cdc9ccfeba10",
+          "name": "Scamper",
+          "img": "systems/dnd5e/icons/svg/items/feature.svg",
+          "changes": [
+            {
+              "key": "system.attributes.movement.walk",
+              "mode": 2,
+              "value": "10",
+              "priority": 20
+            }
+          ],
+          "disabled": false,
+          "transfer": true,
+          "description": "",
+          "origin": null,
+          "duration": {},
+          "statuses": [],
+          "flags": {}
+        }
+      ],
       "folder": null,
       "sort": 0,
       "flags": {},
