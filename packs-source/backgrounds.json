@@ -1,8 +1,8 @@
 {
   "folders": [
     {
-      "_id": "rfbcrabclan00000",
-      "_key": "!folders!rfbcrabclan00000",
+      "_id": "r332a70792a47d58",
+      "_key": "!folders!r332a70792a47d58",
       "name": "Crab Clan",
       "type": "Item",
       "sorting": "a",
@@ -11,8 +11,8 @@
       "sort": 0
     },
     {
-      "_id": "rfbcraneclan0000",
-      "_key": "!folders!rfbcraneclan0000",
+      "_id": "r5e481ccecc85139",
+      "_key": "!folders!r5e481ccecc85139",
       "name": "Crane Clan",
       "type": "Item",
       "sorting": "a",
@@ -21,8 +21,8 @@
       "sort": 0
     },
     {
-      "_id": "rfbdragonclan000",
-      "_key": "!folders!rfbdragonclan000",
+      "_id": "ra568ff9cc91e55b",
+      "_key": "!folders!ra568ff9cc91e55b",
       "name": "Dragon Clan",
       "type": "Item",
       "sorting": "a",
@@ -31,8 +31,8 @@
       "sort": 0
     },
     {
-      "_id": "rfblionclan00000",
-      "_key": "!folders!rfblionclan00000",
+      "_id": "r7ea95580c3596da",
+      "_key": "!folders!r7ea95580c3596da",
       "name": "Lion Clan",
       "type": "Item",
       "sorting": "a",
@@ -41,8 +41,8 @@
       "sort": 0
     },
     {
-      "_id": "rfbphoenixclan00",
-      "_key": "!folders!rfbphoenixclan00",
+      "_id": "r39ff3ab17402dd3",
+      "_key": "!folders!r39ff3ab17402dd3",
       "name": "Phoenix Clan",
       "type": "Item",
       "sorting": "a",
@@ -51,8 +51,8 @@
       "sort": 0
     },
     {
-      "_id": "rfbscorpionclan0",
-      "_key": "!folders!rfbscorpionclan0",
+      "_id": "rafb98bc48382a42",
+      "_key": "!folders!rafb98bc48382a42",
       "name": "Scorpion Clan",
       "type": "Item",
       "sorting": "a",
@@ -61,8 +61,8 @@
       "sort": 0
     },
     {
-      "_id": "rfbunicornclan00",
-      "_key": "!folders!rfbunicornclan00",
+      "_id": "rbc6f75791028a2a",
+      "_key": "!folders!rbc6f75791028a2a",
       "name": "Unicorn Clan",
       "type": "Item",
       "sorting": "a",
@@ -71,8 +71,8 @@
       "sort": 0
     },
     {
-      "_id": "rfbimperialfamil",
-      "_key": "!folders!rfbimperialfamil",
+      "_id": "r8b896411a65b7e8",
+      "_key": "!folders!r8b896411a65b7e8",
       "name": "Imperial Families",
       "type": "Item",
       "sorting": "a",
@@ -81,8 +81,8 @@
       "sort": 0
     },
     {
-      "_id": "rfbminorclans000",
-      "_key": "!folders!rfbminorclans000",
+      "_id": "r5bb7d6e2f9b589e",
+      "_key": "!folders!r5bb7d6e2f9b589e",
       "name": "Minor Clans",
       "type": "Item",
       "sorting": "a",
@@ -91,8 +91,8 @@
       "sort": 0
     },
     {
-      "_id": "rfbmonastic00000",
-      "_key": "!folders!rfbmonastic00000",
+      "_id": "ra971940b3afc1a9",
+      "_key": "!folders!ra971940b3afc1a9",
       "name": "Monastic",
       "type": "Item",
       "sorting": "a",
@@ -101,8 +101,8 @@
       "sort": 0
     },
     {
-      "_id": "rfbcommoner00000",
-      "_key": "!folders!rfbcommoner00000",
+      "_id": "r67d818d5a56d859",
+      "_key": "!folders!r67d818d5a56d859",
       "name": "Commoner",
       "type": "Item",
       "sorting": "a",
@@ -111,8 +111,8 @@
       "sort": 0
     },
     {
-      "_id": "rfbnonrokugani00",
-      "_key": "!folders!rfbnonrokugani00",
+      "_id": "rec1c7f40d6b95a8",
+      "_key": "!folders!rec1c7f40d6b95a8",
       "name": "Non-Rokugani",
       "type": "Item",
       "sorting": "a",
@@ -121,8 +121,8 @@
       "sort": 0
     },
     {
-      "_id": "rfbnonhuman00000",
-      "_key": "!folders!rfbnonhuman00000",
+      "_id": "rd45c5edd8fbff76",
+      "_key": "!folders!rd45c5edd8fbff76",
       "name": "Non-Human",
       "type": "Item",
       "sorting": "a",
@@ -133,8 +133,8 @@
   ],
   "entries": [
     {
-      "_id": "rbhidafamily0000",
-      "_key": "!items!rbhidafamily0000",
+      "_id": "r8aee5e13135dc2d",
+      "_key": "!items!r8aee5e13135dc2d",
       "name": "Hida Family",
       "type": "background",
       "img": "systems/dnd5e/icons/svg/items/background.svg",
@@ -255,15 +255,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be0000000000929a",
+            "_id": "be0000000000a084",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be0000000000929b",
-            "group": "be0000000000929a",
+            "_id": "be0000000000a085",
+            "group": "be0000000000a084",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -271,8 +271,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000000929c",
-            "group": "be0000000000929a",
+            "_id": "be0000000000a086",
+            "group": "be0000000000a084",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -280,18 +280,18 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000000929d",
-            "group": "be0000000000929a",
+            "_id": "be0000000000a087",
+            "group": "be0000000000a084",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
-            "key": "Compendium.rokugan5e.equipment.Item.rgfingerofjade00"
+            "key": "Compendium.rokugan5e.equipment.Item.r647e720702658b6"
           }
         ],
         "wealth": ""
       },
       "effects": [],
-      "folder": "rfbcrabclan00000",
+      "folder": "r332a70792a47d58",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -299,8 +299,8 @@
       }
     },
     {
-      "_id": "rbhirumafamily00",
-      "_key": "!items!rbhirumafamily00",
+      "_id": "r9ab7261d366cd78",
+      "_key": "!items!r9ab7261d366cd78",
       "name": "Hiruma Family",
       "type": "background",
       "img": "systems/dnd5e/icons/svg/items/background.svg",
@@ -415,22 +415,22 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be00000000005b65",
+            "_id": "be00000000012d01",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "OR",
-            "_id": "be00000000005b66",
-            "group": "be00000000005b65",
+            "_id": "be00000000012d02",
+            "group": "be00000000012d01",
             "sort": 200000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be00000000005b67",
-            "group": "be00000000005b66",
+            "_id": "be00000000012d03",
+            "group": "be00000000012d02",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -438,8 +438,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000005b68",
-            "group": "be00000000005b66",
+            "_id": "be00000000012d04",
+            "group": "be00000000012d02",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
@@ -447,8 +447,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000005b69",
-            "group": "be00000000005b65",
+            "_id": "be00000000012d05",
+            "group": "be00000000012d01",
             "sort": 500000,
             "requiresProficiency": false,
             "count": null,
@@ -456,18 +456,18 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000005b6a",
-            "group": "be00000000005b65",
+            "_id": "be00000000012d06",
+            "group": "be00000000012d01",
             "sort": 600000,
             "requiresProficiency": false,
             "count": null,
-            "key": "Compendium.rokugan5e.equipment.Item.rgfingerofjade00"
+            "key": "Compendium.rokugan5e.equipment.Item.r647e720702658b6"
           }
         ],
         "wealth": ""
       },
       "effects": [],
-      "folder": "rfbcrabclan00000",
+      "folder": "r332a70792a47d58",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -475,8 +475,8 @@
       }
     },
     {
-      "_id": "rbkaiufamily0000",
-      "_key": "!items!rbkaiufamily0000",
+      "_id": "r03abd6c97719dea",
+      "_key": "!items!r03abd6c97719dea",
       "name": "Kaiu Family",
       "type": "background",
       "img": "systems/dnd5e/icons/svg/items/background.svg",
@@ -612,22 +612,22 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be0000000000521f",
+            "_id": "be0000000000a70e",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "OR",
-            "_id": "be00000000005220",
-            "group": "be0000000000521f",
+            "_id": "be0000000000a70f",
+            "group": "be0000000000a70e",
             "sort": 200000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be00000000005221",
-            "group": "be00000000005220",
+            "_id": "be0000000000a710",
+            "group": "be0000000000a70f",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -635,8 +635,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000005222",
-            "group": "be00000000005220",
+            "_id": "be0000000000a711",
+            "group": "be0000000000a70f",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
@@ -644,8 +644,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000005223",
-            "group": "be0000000000521f",
+            "_id": "be0000000000a712",
+            "group": "be0000000000a70e",
             "sort": 500000,
             "requiresProficiency": false,
             "count": null,
@@ -653,18 +653,18 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000005224",
-            "group": "be0000000000521f",
+            "_id": "be0000000000a713",
+            "group": "be0000000000a70e",
             "sort": 600000,
             "requiresProficiency": false,
             "count": null,
-            "key": "Compendium.rokugan5e.equipment.Item.rgfingerofjade00"
+            "key": "Compendium.rokugan5e.equipment.Item.r647e720702658b6"
           }
         ],
         "wealth": ""
       },
       "effects": [],
-      "folder": "rfbcrabclan00000",
+      "folder": "r332a70792a47d58",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -672,8 +672,8 @@
       }
     },
     {
-      "_id": "rbkunifamily0000",
-      "_key": "!items!rbkunifamily0000",
+      "_id": "rb9b80a3830c02e2",
+      "_key": "!items!rb9b80a3830c02e2",
       "name": "Kuni Family",
       "type": "background",
       "img": "systems/dnd5e/icons/svg/items/background.svg",
@@ -787,22 +787,22 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be00000000000a98",
+            "_id": "be000000000006d8",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "OR",
-            "_id": "be00000000000a99",
-            "group": "be00000000000a98",
+            "_id": "be000000000006d9",
+            "group": "be000000000006d8",
             "sort": 200000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be00000000000a9a",
-            "group": "be00000000000a99",
+            "_id": "be000000000006da",
+            "group": "be000000000006d9",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -810,8 +810,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000000a9b",
-            "group": "be00000000000a99",
+            "_id": "be000000000006db",
+            "group": "be000000000006d9",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
@@ -819,8 +819,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000000a9c",
-            "group": "be00000000000a98",
+            "_id": "be000000000006dc",
+            "group": "be000000000006d8",
             "sort": 500000,
             "requiresProficiency": false,
             "count": null,
@@ -828,18 +828,18 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000000a9d",
-            "group": "be00000000000a98",
+            "_id": "be000000000006dd",
+            "group": "be000000000006d8",
             "sort": 600000,
             "requiresProficiency": false,
             "count": null,
-            "key": "Compendium.rokugan5e.equipment.Item.rgfingerofjade00"
+            "key": "Compendium.rokugan5e.equipment.Item.r647e720702658b6"
           }
         ],
         "wealth": ""
       },
       "effects": [],
-      "folder": "rfbcrabclan00000",
+      "folder": "r332a70792a47d58",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -847,8 +847,8 @@
       }
     },
     {
-      "_id": "rbyasukifamily00",
-      "_key": "!items!rbyasukifamily00",
+      "_id": "rdf8f8c02a10e586",
+      "_key": "!items!rdf8f8c02a10e586",
       "name": "Yasuki Family",
       "type": "background",
       "img": "systems/dnd5e/icons/svg/items/background.svg",
@@ -1004,15 +1004,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be00000000004a50",
+            "_id": "be00000000001d24",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be00000000004a51",
-            "group": "be00000000004a50",
+            "_id": "be00000000001d25",
+            "group": "be00000000001d24",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -1020,8 +1020,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000004a52",
-            "group": "be00000000004a50",
+            "_id": "be00000000001d26",
+            "group": "be00000000001d24",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -1029,8 +1029,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000004a53",
-            "group": "be00000000004a50",
+            "_id": "be00000000001d27",
+            "group": "be00000000001d24",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
@@ -1038,15 +1038,15 @@
           },
           {
             "type": "OR",
-            "_id": "be00000000004a54",
-            "group": "be00000000004a50",
+            "_id": "be00000000001d28",
+            "group": "be00000000001d24",
             "sort": 500000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be00000000004a55",
-            "group": "be00000000004a54",
+            "_id": "be00000000001d29",
+            "group": "be00000000001d28",
             "sort": 600000,
             "requiresProficiency": false,
             "count": null,
@@ -1054,8 +1054,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000004a56",
-            "group": "be00000000004a54",
+            "_id": "be00000000001d2a",
+            "group": "be00000000001d28",
             "sort": 700000,
             "requiresProficiency": false,
             "count": null,
@@ -1065,7 +1065,7 @@
         "wealth": ""
       },
       "effects": [],
-      "folder": "rfbcrabclan00000",
+      "folder": "r332a70792a47d58",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -1073,8 +1073,8 @@
       }
     },
     {
-      "_id": "rbasahinafamily0",
-      "_key": "!items!rbasahinafamily0",
+      "_id": "rb1096e85f0ca0ce",
+      "_key": "!items!rb1096e85f0ca0ce",
       "name": "Asahina Family",
       "type": "background",
       "img": "systems/dnd5e/icons/svg/items/background.svg",
@@ -1197,15 +1197,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be000000000059d3",
+            "_id": "be00000000010ec5",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be000000000059d4",
-            "group": "be000000000059d3",
+            "_id": "be00000000010ec6",
+            "group": "be00000000010ec5",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -1213,8 +1213,8 @@
           },
           {
             "type": "linked",
-            "_id": "be000000000059d5",
-            "group": "be000000000059d3",
+            "_id": "be00000000010ec7",
+            "group": "be00000000010ec5",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -1224,7 +1224,7 @@
         "wealth": ""
       },
       "effects": [],
-      "folder": "rfbcraneclan0000",
+      "folder": "r5e481ccecc85139",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -1232,8 +1232,8 @@
       }
     },
     {
-      "_id": "rbdaidojifamily0",
-      "_key": "!items!rbdaidojifamily0",
+      "_id": "rfb97db1818ac769",
+      "_key": "!items!rfb97db1818ac769",
       "name": "Daidoji Family",
       "type": "background",
       "img": "systems/dnd5e/icons/svg/items/background.svg",
@@ -1353,15 +1353,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be0000000001749c",
+            "_id": "be00000000016f69",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be0000000001749d",
-            "group": "be0000000001749c",
+            "_id": "be00000000016f6a",
+            "group": "be00000000016f69",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -1369,8 +1369,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000001749e",
-            "group": "be0000000001749c",
+            "_id": "be00000000016f6b",
+            "group": "be00000000016f69",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -1378,8 +1378,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000001749f",
-            "group": "be0000000001749c",
+            "_id": "be00000000016f6c",
+            "group": "be00000000016f69",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
@@ -1387,8 +1387,8 @@
           },
           {
             "type": "currency",
-            "_id": "be000000000174a0",
-            "group": "be0000000001749c",
+            "_id": "be00000000016f6d",
+            "group": "be00000000016f69",
             "sort": 500000,
             "requiresProficiency": false,
             "count": 10,
@@ -1398,7 +1398,7 @@
         "wealth": ""
       },
       "effects": [],
-      "folder": "rfbcraneclan0000",
+      "folder": "r5e481ccecc85139",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -1406,8 +1406,8 @@
       }
     },
     {
-      "_id": "rbdojifamily0000",
-      "_key": "!items!rbdojifamily0000",
+      "_id": "rd0b194d7fd40a7c",
+      "_key": "!items!rd0b194d7fd40a7c",
       "name": "Doji Family",
       "type": "background",
       "img": "systems/dnd5e/icons/svg/items/background.svg",
@@ -1522,15 +1522,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be0000000000f0fc",
+            "_id": "be0000000000c77b",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be0000000000f0fd",
-            "group": "be0000000000f0fc",
+            "_id": "be0000000000c77c",
+            "group": "be0000000000c77b",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -1538,8 +1538,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000000f0fe",
-            "group": "be0000000000f0fc",
+            "_id": "be0000000000c77d",
+            "group": "be0000000000c77b",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -1547,27 +1547,27 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000000f0ff",
-            "group": "be0000000000f0fc",
+            "_id": "be0000000000c77e",
+            "group": "be0000000000c77b",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
-            "key": "Compendium.rokugan5e.equipment.Item.rgcalligraphyset"
+            "key": "Compendium.rokugan5e.equipment.Item.r5383cc2169c1ede"
           },
           {
             "type": "linked",
-            "_id": "be0000000000f100",
-            "group": "be0000000000f0fc",
+            "_id": "be0000000000c77f",
+            "group": "be0000000000c77b",
             "sort": 500000,
             "requiresProficiency": false,
             "count": null,
-            "key": "Compendium.rokugan5e.equipment.Item.rgceremonialteas"
+            "key": "Compendium.rokugan5e.equipment.Item.rd9953c9b0bb24f1"
           }
         ],
         "wealth": ""
       },
       "effects": [],
-      "folder": "rfbcraneclan0000",
+      "folder": "r5e481ccecc85139",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -1575,8 +1575,8 @@
       }
     },
     {
-      "_id": "rbkakitafamily00",
-      "_key": "!items!rbkakitafamily00",
+      "_id": "r9f8683bd5c5d594",
+      "_key": "!items!r9f8683bd5c5d594",
       "name": "Kakita Family",
       "type": "background",
       "img": "systems/dnd5e/icons/svg/items/background.svg",
@@ -1696,22 +1696,22 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be0000000000f577",
+            "_id": "be00000000016f8f",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "OR",
-            "_id": "be0000000000f578",
-            "group": "be0000000000f577",
+            "_id": "be00000000016f90",
+            "group": "be00000000016f8f",
             "sort": 200000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be0000000000f579",
-            "group": "be0000000000f578",
+            "_id": "be00000000016f91",
+            "group": "be00000000016f90",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -1719,8 +1719,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000000f57a",
-            "group": "be0000000000f578",
+            "_id": "be00000000016f92",
+            "group": "be00000000016f90",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
@@ -1728,8 +1728,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000000f57b",
-            "group": "be0000000000f577",
+            "_id": "be00000000016f93",
+            "group": "be00000000016f8f",
             "sort": 500000,
             "requiresProficiency": false,
             "count": null,
@@ -1739,7 +1739,7 @@
         "wealth": ""
       },
       "effects": [],
-      "folder": "rfbcraneclan0000",
+      "folder": "r5e481ccecc85139",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -1747,8 +1747,8 @@
       }
     },
     {
-      "_id": "rbagashafamily00",
-      "_key": "!items!rbagashafamily00",
+      "_id": "r192506ea6641ad4",
+      "_key": "!items!r192506ea6641ad4",
       "name": "Agasha Family",
       "type": "background",
       "img": "systems/dnd5e/icons/svg/items/background.svg",
@@ -1917,15 +1917,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be0000000001131c",
+            "_id": "be0000000000354c",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be0000000001131d",
-            "group": "be0000000001131c",
+            "_id": "be0000000000354d",
+            "group": "be0000000000354c",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -1933,8 +1933,8 @@
           },
           {
             "type": "currency",
-            "_id": "be0000000001131e",
-            "group": "be0000000001131c",
+            "_id": "be0000000000354e",
+            "group": "be0000000000354c",
             "sort": 300000,
             "requiresProficiency": false,
             "count": 8,
@@ -1944,7 +1944,7 @@
         "wealth": ""
       },
       "effects": [],
-      "folder": "rfbdragonclan000",
+      "folder": "ra568ff9cc91e55b",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -1952,8 +1952,8 @@
       }
     },
     {
-      "_id": "rbkitsukifamily0",
-      "_key": "!items!rbkitsukifamily0",
+      "_id": "r98813d1f18fade2",
+      "_key": "!items!r98813d1f18fade2",
       "name": "Kitsuki Family",
       "type": "background",
       "img": "systems/dnd5e/icons/svg/items/background.svg",
@@ -2083,15 +2083,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be0000000001264e",
+            "_id": "be0000000001555f",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be0000000001264f",
-            "group": "be0000000001264e",
+            "_id": "be00000000015560",
+            "group": "be0000000001555f",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -2099,8 +2099,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000012650",
-            "group": "be0000000001264e",
+            "_id": "be00000000015561",
+            "group": "be0000000001555f",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -2108,8 +2108,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000012651",
-            "group": "be0000000001264e",
+            "_id": "be00000000015562",
+            "group": "be0000000001555f",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
@@ -2117,8 +2117,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000012652",
-            "group": "be0000000001264e",
+            "_id": "be00000000015563",
+            "group": "be0000000001555f",
             "sort": 500000,
             "requiresProficiency": false,
             "count": null,
@@ -2126,8 +2126,8 @@
           },
           {
             "type": "currency",
-            "_id": "be00000000012653",
-            "group": "be0000000001264e",
+            "_id": "be00000000015564",
+            "group": "be0000000001555f",
             "sort": 600000,
             "requiresProficiency": false,
             "count": 8,
@@ -2137,7 +2137,7 @@
         "wealth": ""
       },
       "effects": [],
-      "folder": "rfbdragonclan000",
+      "folder": "ra568ff9cc91e55b",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -2145,8 +2145,8 @@
       }
     },
     {
-      "_id": "rbmirumotofamily",
-      "_key": "!items!rbmirumotofamily",
+      "_id": "r4351f1d78768ede",
+      "_key": "!items!r4351f1d78768ede",
       "name": "Mirumoto Family",
       "type": "background",
       "img": "systems/dnd5e/icons/svg/items/background.svg",
@@ -2267,15 +2267,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be00000000009439",
+            "_id": "be00000000012793",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be0000000000943a",
-            "group": "be00000000009439",
+            "_id": "be00000000012794",
+            "group": "be00000000012793",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -2283,8 +2283,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000000943b",
-            "group": "be00000000009439",
+            "_id": "be00000000012795",
+            "group": "be00000000012793",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -2294,7 +2294,7 @@
         "wealth": ""
       },
       "effects": [],
-      "folder": "rfbdragonclan000",
+      "folder": "ra568ff9cc91e55b",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -2302,8 +2302,8 @@
       }
     },
     {
-      "_id": "rbtogashiorder00",
-      "_key": "!items!rbtogashiorder00",
+      "_id": "re56b1f2f9336493",
+      "_key": "!items!re56b1f2f9336493",
       "name": "Togashi Order",
       "type": "background",
       "img": "systems/dnd5e/icons/svg/items/background.svg",
@@ -2418,15 +2418,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be0000000000c4f4",
+            "_id": "be00000000002f9e",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be0000000000c4f5",
-            "group": "be0000000000c4f4",
+            "_id": "be00000000002f9f",
+            "group": "be00000000002f9e",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -2434,27 +2434,27 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000000c4f6",
-            "group": "be0000000000c4f4",
+            "_id": "be00000000002fa0",
+            "group": "be00000000002f9e",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
-            "key": "Compendium.rokugan5e.equipment.Item.rgtattooset00000"
+            "key": "Compendium.rokugan5e.equipment.Item.r6e73465bddae339"
           },
           {
             "type": "linked",
-            "_id": "be0000000000c4f7",
-            "group": "be0000000000c4f4",
+            "_id": "be00000000002fa1",
+            "group": "be00000000002f9e",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
-            "key": "Compendium.rokugan5e.equipment.Item.rgdivinationkit0"
+            "key": "Compendium.rokugan5e.equipment.Item.r5ccb4b290ff78e6"
           }
         ],
         "wealth": ""
       },
       "effects": [],
-      "folder": "rfbdragonclan000",
+      "folder": "ra568ff9cc91e55b",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -2462,8 +2462,8 @@
       }
     },
     {
-      "_id": "rbakodofamily000",
-      "_key": "!items!rbakodofamily000",
+      "_id": "rbf1b1192e8af6d2",
+      "_key": "!items!rbf1b1192e8af6d2",
       "name": "Akodo Family",
       "type": "background",
       "img": "systems/dnd5e/icons/svg/items/background.svg",
@@ -2577,15 +2577,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be00000000011ce0",
+            "_id": "be0000000000f31e",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be00000000011ce1",
-            "group": "be00000000011ce0",
+            "_id": "be0000000000f31f",
+            "group": "be0000000000f31e",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -2593,8 +2593,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000011ce2",
-            "group": "be00000000011ce0",
+            "_id": "be0000000000f320",
+            "group": "be0000000000f31e",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -2602,8 +2602,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000011ce3",
-            "group": "be00000000011ce0",
+            "_id": "be0000000000f321",
+            "group": "be0000000000f31e",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
@@ -2611,17 +2611,17 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000011ce4",
-            "group": "be00000000011ce0",
+            "_id": "be0000000000f322",
+            "group": "be0000000000f31e",
             "sort": 500000,
             "requiresProficiency": false,
             "count": null,
-            "key": "Compendium.rokugan5e.equipment.Item.rgcalligraphyset"
+            "key": "Compendium.rokugan5e.equipment.Item.r5383cc2169c1ede"
           },
           {
             "type": "currency",
-            "_id": "be00000000011ce5",
-            "group": "be00000000011ce0",
+            "_id": "be0000000000f323",
+            "group": "be0000000000f31e",
             "sort": 600000,
             "requiresProficiency": false,
             "count": 10,
@@ -2631,7 +2631,7 @@
         "wealth": ""
       },
       "effects": [],
-      "folder": "rfblionclan00000",
+      "folder": "r7ea95580c3596da",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -2639,8 +2639,8 @@
       }
     },
     {
-      "_id": "rbikomafamily000",
-      "_key": "!items!rbikomafamily000",
+      "_id": "r27a8d55c81a31a1",
+      "_key": "!items!r27a8d55c81a31a1",
       "name": "Ikoma Family",
       "type": "background",
       "img": "systems/dnd5e/icons/svg/items/background.svg",
@@ -2778,15 +2778,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be00000000006da6",
+            "_id": "be0000000000373a",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be00000000006da7",
-            "group": "be00000000006da6",
+            "_id": "be0000000000373b",
+            "group": "be0000000000373a",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -2794,8 +2794,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000006da8",
-            "group": "be00000000006da6",
+            "_id": "be0000000000373c",
+            "group": "be0000000000373a",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -2803,8 +2803,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000006da9",
-            "group": "be00000000006da6",
+            "_id": "be0000000000373d",
+            "group": "be0000000000373a",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
@@ -2814,7 +2814,7 @@
         "wealth": ""
       },
       "effects": [],
-      "folder": "rfblionclan00000",
+      "folder": "r7ea95580c3596da",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -2822,8 +2822,8 @@
       }
     },
     {
-      "_id": "rbkitsufamily000",
-      "_key": "!items!rbkitsufamily000",
+      "_id": "rf72b21fd9c47a72",
+      "_key": "!items!rf72b21fd9c47a72",
       "name": "Kitsu Family",
       "type": "background",
       "img": "systems/dnd5e/icons/svg/items/background.svg",
@@ -2960,15 +2960,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be0000000000f554",
+            "_id": "be000000000080bc",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be0000000000f555",
-            "group": "be0000000000f554",
+            "_id": "be000000000080bd",
+            "group": "be000000000080bc",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -2976,8 +2976,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000000f556",
-            "group": "be0000000000f554",
+            "_id": "be000000000080be",
+            "group": "be000000000080bc",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -2985,18 +2985,18 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000000f557",
-            "group": "be0000000000f554",
+            "_id": "be000000000080bf",
+            "group": "be000000000080bc",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
-            "key": "Compendium.rokugan5e.equipment.Item.rgdivinationkit0"
+            "key": "Compendium.rokugan5e.equipment.Item.r5ccb4b290ff78e6"
           }
         ],
         "wealth": ""
       },
       "effects": [],
-      "folder": "rfblionclan00000",
+      "folder": "r7ea95580c3596da",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -3004,8 +3004,8 @@
       }
     },
     {
-      "_id": "rbmatsufamily000",
-      "_key": "!items!rbmatsufamily000",
+      "_id": "r480a0223522fbce",
+      "_key": "!items!r480a0223522fbce",
       "name": "Matsu Family",
       "type": "background",
       "img": "systems/dnd5e/icons/svg/items/background.svg",
@@ -3120,15 +3120,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be000000000024ba",
+            "_id": "be0000000000fb14",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be000000000024bb",
-            "group": "be000000000024ba",
+            "_id": "be0000000000fb15",
+            "group": "be0000000000fb14",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -3136,8 +3136,8 @@
           },
           {
             "type": "linked",
-            "_id": "be000000000024bc",
-            "group": "be000000000024ba",
+            "_id": "be0000000000fb16",
+            "group": "be0000000000fb14",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -3145,18 +3145,18 @@
           },
           {
             "type": "linked",
-            "_id": "be000000000024bd",
-            "group": "be000000000024ba",
+            "_id": "be0000000000fb17",
+            "group": "be0000000000fb14",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
-            "key": "Compendium.rokugan5e.equipment.Item.rgswordmaintenan"
+            "key": "Compendium.rokugan5e.equipment.Item.r7be3091118a9a92"
           }
         ],
         "wealth": ""
       },
       "effects": [],
-      "folder": "rfblionclan00000",
+      "folder": "r7ea95580c3596da",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -3164,8 +3164,8 @@
       }
     },
     {
-      "_id": "rbasakofamily000",
-      "_key": "!items!rbasakofamily000",
+      "_id": "r93d6c9af99b3d68",
+      "_key": "!items!r93d6c9af99b3d68",
       "name": "Asako Family",
       "type": "background",
       "img": "systems/dnd5e/icons/svg/items/background.svg",
@@ -3335,15 +3335,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be00000000017d0c",
+            "_id": "be000000000147f5",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be00000000017d0d",
-            "group": "be00000000017d0c",
+            "_id": "be000000000147f6",
+            "group": "be000000000147f5",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -3351,8 +3351,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000017d0e",
-            "group": "be00000000017d0c",
+            "_id": "be000000000147f7",
+            "group": "be000000000147f5",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -3360,18 +3360,18 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000017d0f",
-            "group": "be00000000017d0c",
+            "_id": "be000000000147f8",
+            "group": "be000000000147f5",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
-            "key": "Compendium.rokugan5e.equipment.Item.rgcalligraphyset"
+            "key": "Compendium.rokugan5e.equipment.Item.r5383cc2169c1ede"
           }
         ],
         "wealth": ""
       },
       "effects": [],
-      "folder": "rfbphoenixclan00",
+      "folder": "r39ff3ab17402dd3",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -3379,8 +3379,8 @@
       }
     },
     {
-      "_id": "rbisawafamily000",
-      "_key": "!items!rbisawafamily000",
+      "_id": "r09bd4e44a49cc56",
+      "_key": "!items!r09bd4e44a49cc56",
       "name": "Isawa Family",
       "type": "background",
       "img": "systems/dnd5e/icons/svg/items/background.svg",
@@ -3515,15 +3515,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be0000000000b533",
+            "_id": "be0000000000b826",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be0000000000b534",
-            "group": "be0000000000b533",
+            "_id": "be0000000000b827",
+            "group": "be0000000000b826",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -3531,8 +3531,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000000b535",
-            "group": "be0000000000b533",
+            "_id": "be0000000000b828",
+            "group": "be0000000000b826",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -3542,7 +3542,7 @@
         "wealth": ""
       },
       "effects": [],
-      "folder": "rfbphoenixclan00",
+      "folder": "r39ff3ab17402dd3",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -3550,8 +3550,8 @@
       }
     },
     {
-      "_id": "rbshibafamily000",
-      "_key": "!items!rbshibafamily000",
+      "_id": "r5763e6d8d193cd0",
+      "_key": "!items!r5763e6d8d193cd0",
       "name": "Shiba Family",
       "type": "background",
       "img": "systems/dnd5e/icons/svg/items/background.svg",
@@ -3670,15 +3670,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be0000000000d088",
+            "_id": "be00000000001a67",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be0000000000d089",
-            "group": "be0000000000d088",
+            "_id": "be00000000001a68",
+            "group": "be00000000001a67",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -3686,8 +3686,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000000d08a",
-            "group": "be0000000000d088",
+            "_id": "be00000000001a69",
+            "group": "be00000000001a67",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -3697,7 +3697,7 @@
         "wealth": ""
       },
       "effects": [],
-      "folder": "rfbphoenixclan00",
+      "folder": "r39ff3ab17402dd3",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -3705,8 +3705,8 @@
       }
     },
     {
-      "_id": "rbbayushifamily0",
-      "_key": "!items!rbbayushifamily0",
+      "_id": "r5a22469502980b8",
+      "_key": "!items!r5a22469502980b8",
       "name": "Bayushi Family",
       "type": "background",
       "img": "systems/dnd5e/icons/svg/items/background.svg",
@@ -3881,15 +3881,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be000000000039e7",
+            "_id": "be000000000091f1",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be000000000039e8",
-            "group": "be000000000039e7",
+            "_id": "be000000000091f2",
+            "group": "be000000000091f1",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -3897,8 +3897,8 @@
           },
           {
             "type": "linked",
-            "_id": "be000000000039e9",
-            "group": "be000000000039e7",
+            "_id": "be000000000091f3",
+            "group": "be000000000091f1",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -3906,8 +3906,8 @@
           },
           {
             "type": "linked",
-            "_id": "be000000000039ea",
-            "group": "be000000000039e7",
+            "_id": "be000000000091f4",
+            "group": "be000000000091f1",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
@@ -3915,17 +3915,17 @@
           },
           {
             "type": "linked",
-            "_id": "be000000000039eb",
-            "group": "be000000000039e7",
+            "_id": "be000000000091f5",
+            "group": "be000000000091f1",
             "sort": 500000,
             "requiresProficiency": false,
             "count": null,
-            "key": "Compendium.rokugan5e.equipment.Item.rgmask0000000000"
+            "key": "Compendium.rokugan5e.equipment.Item.r5bb8e9408bd975e"
           },
           {
             "type": "currency",
-            "_id": "be000000000039ec",
-            "group": "be000000000039e7",
+            "_id": "be000000000091f6",
+            "group": "be000000000091f1",
             "sort": 600000,
             "requiresProficiency": false,
             "count": 10,
@@ -3935,7 +3935,7 @@
         "wealth": ""
       },
       "effects": [],
-      "folder": "rfbscorpionclan0",
+      "folder": "rafb98bc48382a42",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -3943,8 +3943,8 @@
       }
     },
     {
-      "_id": "rbshosurofamily0",
-      "_key": "!items!rbshosurofamily0",
+      "_id": "r323df27cc56fd30",
+      "_key": "!items!r323df27cc56fd30",
       "name": "Shosuro Family",
       "type": "background",
       "img": "systems/dnd5e/icons/svg/items/background.svg",
@@ -4113,15 +4113,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be0000000000c561",
+            "_id": "be00000000009e00",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be0000000000c562",
-            "group": "be0000000000c561",
+            "_id": "be00000000009e01",
+            "group": "be00000000009e00",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -4129,8 +4129,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000000c563",
-            "group": "be0000000000c561",
+            "_id": "be00000000009e02",
+            "group": "be00000000009e00",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -4138,8 +4138,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000000c564",
-            "group": "be0000000000c561",
+            "_id": "be00000000009e03",
+            "group": "be00000000009e00",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
@@ -4147,27 +4147,27 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000000c565",
-            "group": "be0000000000c561",
+            "_id": "be00000000009e04",
+            "group": "be00000000009e00",
             "sort": 500000,
             "requiresProficiency": false,
             "count": null,
-            "key": "Compendium.rokugan5e.equipment.Item.rgmask0000000000"
+            "key": "Compendium.rokugan5e.equipment.Item.r5bb8e9408bd975e"
           },
           {
             "type": "linked",
-            "_id": "be0000000000c566",
-            "group": "be0000000000c561",
+            "_id": "be00000000009e05",
+            "group": "be00000000009e00",
             "sort": 600000,
             "requiresProficiency": false,
             "count": null,
-            "key": "Compendium.rokugan5e.equipment.Item.rgdisguisekit000"
+            "key": "Compendium.rokugan5e.equipment.Item.r4ff664765766118"
           }
         ],
         "wealth": ""
       },
       "effects": [],
-      "folder": "rfbscorpionclan0",
+      "folder": "rafb98bc48382a42",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -4175,8 +4175,8 @@
       }
     },
     {
-      "_id": "rbsoshifamily000",
-      "_key": "!items!rbsoshifamily000",
+      "_id": "r4984b12dc2f9ee4",
+      "_key": "!items!r4984b12dc2f9ee4",
       "name": "Soshi Family",
       "type": "background",
       "img": "systems/dnd5e/icons/svg/items/background.svg",
@@ -4349,15 +4349,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be00000000005cb8",
+            "_id": "be00000000013c72",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be00000000005cb9",
-            "group": "be00000000005cb8",
+            "_id": "be00000000013c73",
+            "group": "be00000000013c72",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -4365,8 +4365,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000005cba",
-            "group": "be00000000005cb8",
+            "_id": "be00000000013c74",
+            "group": "be00000000013c72",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -4374,8 +4374,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000005cbb",
-            "group": "be00000000005cb8",
+            "_id": "be00000000013c75",
+            "group": "be00000000013c72",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
@@ -4383,18 +4383,18 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000005cbc",
-            "group": "be00000000005cb8",
+            "_id": "be00000000013c76",
+            "group": "be00000000013c72",
             "sort": 500000,
             "requiresProficiency": false,
             "count": null,
-            "key": "Compendium.rokugan5e.equipment.Item.rgmask0000000000"
+            "key": "Compendium.rokugan5e.equipment.Item.r5bb8e9408bd975e"
           }
         ],
         "wealth": ""
       },
       "effects": [],
-      "folder": "rfbscorpionclan0",
+      "folder": "rafb98bc48382a42",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -4402,8 +4402,8 @@
       }
     },
     {
-      "_id": "rbyogofamily0000",
-      "_key": "!items!rbyogofamily0000",
+      "_id": "ra37c203709acbb1",
+      "_key": "!items!ra37c203709acbb1",
       "name": "Yogo Family",
       "type": "background",
       "img": "systems/dnd5e/icons/svg/items/background.svg",
@@ -4540,15 +4540,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be000000000070f9",
+            "_id": "be000000000049aa",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be000000000070fa",
-            "group": "be000000000070f9",
+            "_id": "be000000000049ab",
+            "group": "be000000000049aa",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -4556,8 +4556,8 @@
           },
           {
             "type": "linked",
-            "_id": "be000000000070fb",
-            "group": "be000000000070f9",
+            "_id": "be000000000049ac",
+            "group": "be000000000049aa",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -4565,27 +4565,27 @@
           },
           {
             "type": "linked",
-            "_id": "be000000000070fc",
-            "group": "be000000000070f9",
+            "_id": "be000000000049ad",
+            "group": "be000000000049aa",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
-            "key": "Compendium.rokugan5e.equipment.Item.rgmask0000000000"
+            "key": "Compendium.rokugan5e.equipment.Item.r5bb8e9408bd975e"
           },
           {
             "type": "linked",
-            "_id": "be000000000070fd",
-            "group": "be000000000070f9",
+            "_id": "be000000000049ae",
+            "group": "be000000000049aa",
             "sort": 500000,
             "requiresProficiency": false,
             "count": null,
-            "key": "Compendium.rokugan5e.equipment.Item.rgcalligraphyset"
+            "key": "Compendium.rokugan5e.equipment.Item.r5383cc2169c1ede"
           }
         ],
         "wealth": ""
       },
       "effects": [],
-      "folder": "rfbscorpionclan0",
+      "folder": "rafb98bc48382a42",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -4593,8 +4593,8 @@
       }
     },
     {
-      "_id": "rbidefamily00000",
-      "_key": "!items!rbidefamily00000",
+      "_id": "re73b6d1d5cfa54d",
+      "_key": "!items!re73b6d1d5cfa54d",
       "name": "Ide Family",
       "type": "background",
       "img": "systems/dnd5e/icons/svg/items/background.svg",
@@ -4714,15 +4714,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be000000000005f4",
+            "_id": "be000000000169e8",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be000000000005f5",
-            "group": "be000000000005f4",
+            "_id": "be000000000169e9",
+            "group": "be000000000169e8",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -4730,8 +4730,8 @@
           },
           {
             "type": "linked",
-            "_id": "be000000000005f6",
-            "group": "be000000000005f4",
+            "_id": "be000000000169ea",
+            "group": "be000000000169e8",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -4739,15 +4739,15 @@
           },
           {
             "type": "OR",
-            "_id": "be000000000005f7",
-            "group": "be000000000005f4",
+            "_id": "be000000000169eb",
+            "group": "be000000000169e8",
             "sort": 400000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be000000000005f8",
-            "group": "be000000000005f7",
+            "_id": "be000000000169ec",
+            "group": "be000000000169eb",
             "sort": 500000,
             "requiresProficiency": false,
             "count": null,
@@ -4755,8 +4755,8 @@
           },
           {
             "type": "linked",
-            "_id": "be000000000005f9",
-            "group": "be000000000005f7",
+            "_id": "be000000000169ed",
+            "group": "be000000000169eb",
             "sort": 600000,
             "requiresProficiency": false,
             "count": null,
@@ -4764,8 +4764,8 @@
           },
           {
             "type": "linked",
-            "_id": "be000000000005fa",
-            "group": "be000000000005f4",
+            "_id": "be000000000169ee",
+            "group": "be000000000169e8",
             "sort": 700000,
             "requiresProficiency": false,
             "count": null,
@@ -4773,18 +4773,18 @@
           },
           {
             "type": "linked",
-            "_id": "be000000000005fb",
-            "group": "be000000000005f4",
+            "_id": "be000000000169ef",
+            "group": "be000000000169e8",
             "sort": 800000,
             "requiresProficiency": false,
             "count": null,
-            "key": "Compendium.rokugan5e.equipment.Item.rgquiver00000000"
+            "key": "Compendium.rokugan5e.equipment.Item.r4d724f6afc21a58"
           }
         ],
         "wealth": ""
       },
       "effects": [],
-      "folder": "rfbunicornclan00",
+      "folder": "rbc6f75791028a2a",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -4792,8 +4792,8 @@
       }
     },
     {
-      "_id": "rbiuchifamily000",
-      "_key": "!items!rbiuchifamily000",
+      "_id": "rc22ab8ac9f365ca",
+      "_key": "!items!rc22ab8ac9f365ca",
       "name": "Iuchi Family",
       "type": "background",
       "img": "systems/dnd5e/icons/svg/items/background.svg",
@@ -4913,22 +4913,22 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be00000000003b46",
+            "_id": "be0000000000ceba",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "OR",
-            "_id": "be00000000003b47",
-            "group": "be00000000003b46",
+            "_id": "be0000000000cebb",
+            "group": "be0000000000ceba",
             "sort": 200000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be00000000003b48",
-            "group": "be00000000003b47",
+            "_id": "be0000000000cebc",
+            "group": "be0000000000cebb",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -4936,8 +4936,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000003b49",
-            "group": "be00000000003b47",
+            "_id": "be0000000000cebd",
+            "group": "be0000000000cebb",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
@@ -4945,15 +4945,15 @@
           },
           {
             "type": "OR",
-            "_id": "be00000000003b4a",
-            "group": "be00000000003b46",
+            "_id": "be0000000000cebe",
+            "group": "be0000000000ceba",
             "sort": 500000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be00000000003b4b",
-            "group": "be00000000003b4a",
+            "_id": "be0000000000cebf",
+            "group": "be0000000000cebe",
             "sort": 600000,
             "requiresProficiency": false,
             "count": null,
@@ -4961,8 +4961,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000003b4c",
-            "group": "be00000000003b4a",
+            "_id": "be0000000000cec0",
+            "group": "be0000000000cebe",
             "sort": 700000,
             "requiresProficiency": false,
             "count": null,
@@ -4972,7 +4972,7 @@
         "wealth": ""
       },
       "effects": [],
-      "folder": "rfbunicornclan00",
+      "folder": "rbc6f75791028a2a",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -4980,8 +4980,8 @@
       }
     },
     {
-      "_id": "rbmotofamily0000",
-      "_key": "!items!rbmotofamily0000",
+      "_id": "r518107970c8cf71",
+      "_key": "!items!r518107970c8cf71",
       "name": "Moto Family",
       "type": "background",
       "img": "systems/dnd5e/icons/svg/items/background.svg",
@@ -5102,15 +5102,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be0000000000c718",
+            "_id": "be00000000008f7e",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be0000000000c719",
-            "group": "be0000000000c718",
+            "_id": "be00000000008f7f",
+            "group": "be00000000008f7e",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -5118,8 +5118,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000000c71a",
-            "group": "be0000000000c718",
+            "_id": "be00000000008f80",
+            "group": "be00000000008f7e",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -5127,8 +5127,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000000c71b",
-            "group": "be0000000000c718",
+            "_id": "be00000000008f81",
+            "group": "be00000000008f7e",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
@@ -5138,7 +5138,7 @@
         "wealth": ""
       },
       "effects": [],
-      "folder": "rfbunicornclan00",
+      "folder": "rbc6f75791028a2a",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -5146,8 +5146,8 @@
       }
     },
     {
-      "_id": "rbshinjofamily00",
-      "_key": "!items!rbshinjofamily00",
+      "_id": "r7a91f59030c43a3",
+      "_key": "!items!r7a91f59030c43a3",
       "name": "Shinjo Family",
       "type": "background",
       "img": "systems/dnd5e/icons/svg/items/background.svg",
@@ -5267,15 +5267,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be00000000006d79",
+            "_id": "be00000000016e8d",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be00000000006d7a",
-            "group": "be00000000006d79",
+            "_id": "be00000000016e8e",
+            "group": "be00000000016e8d",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -5283,15 +5283,15 @@
           },
           {
             "type": "OR",
-            "_id": "be00000000006d7b",
-            "group": "be00000000006d79",
+            "_id": "be00000000016e8f",
+            "group": "be00000000016e8d",
             "sort": 300000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be00000000006d7c",
-            "group": "be00000000006d7b",
+            "_id": "be00000000016e90",
+            "group": "be00000000016e8f",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
@@ -5299,8 +5299,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000006d7d",
-            "group": "be00000000006d7b",
+            "_id": "be00000000016e91",
+            "group": "be00000000016e8f",
             "sort": 500000,
             "requiresProficiency": false,
             "count": null,
@@ -5308,8 +5308,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000006d7e",
-            "group": "be00000000006d79",
+            "_id": "be00000000016e92",
+            "group": "be00000000016e8d",
             "sort": 600000,
             "requiresProficiency": false,
             "count": null,
@@ -5317,17 +5317,17 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000006d7f",
-            "group": "be00000000006d79",
+            "_id": "be00000000016e93",
+            "group": "be00000000016e8d",
             "sort": 700000,
             "requiresProficiency": false,
             "count": null,
-            "key": "Compendium.rokugan5e.equipment.Item.rgquiver00000000"
+            "key": "Compendium.rokugan5e.equipment.Item.r4d724f6afc21a58"
           },
           {
             "type": "currency",
-            "_id": "be00000000006d80",
-            "group": "be00000000006d79",
+            "_id": "be00000000016e94",
+            "group": "be00000000016e8d",
             "sort": 800000,
             "requiresProficiency": false,
             "count": 10,
@@ -5337,7 +5337,7 @@
         "wealth": ""
       },
       "effects": [],
-      "folder": "rfbunicornclan00",
+      "folder": "rbc6f75791028a2a",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -5345,8 +5345,8 @@
       }
     },
     {
-      "_id": "rbutakufamily000",
-      "_key": "!items!rbutakufamily000",
+      "_id": "rba81fa0484f6d4c",
+      "_key": "!items!rba81fa0484f6d4c",
       "name": "Utaku Family",
       "type": "background",
       "img": "systems/dnd5e/icons/svg/items/background.svg",
@@ -5466,15 +5466,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be0000000001006c",
+            "_id": "be0000000001461a",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be0000000001006d",
-            "group": "be0000000001006c",
+            "_id": "be0000000001461b",
+            "group": "be0000000001461a",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -5482,8 +5482,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000001006e",
-            "group": "be0000000001006c",
+            "_id": "be0000000001461c",
+            "group": "be0000000001461a",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -5491,8 +5491,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000001006f",
-            "group": "be0000000001006c",
+            "_id": "be0000000001461d",
+            "group": "be0000000001461a",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
@@ -5500,8 +5500,8 @@
           },
           {
             "type": "currency",
-            "_id": "be00000000010070",
-            "group": "be0000000001006c",
+            "_id": "be0000000001461e",
+            "group": "be0000000001461a",
             "sort": 500000,
             "requiresProficiency": false,
             "count": 10,
@@ -5511,7 +5511,7 @@
         "wealth": ""
       },
       "effects": [],
-      "folder": "rfbunicornclan00",
+      "folder": "rbc6f75791028a2a",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -5519,8 +5519,8 @@
       }
     },
     {
-      "_id": "rbhanteifamily00",
-      "_key": "!items!rbhanteifamily00",
+      "_id": "r767ff364d5339d6",
+      "_key": "!items!r767ff364d5339d6",
       "name": "Hantei Family",
       "type": "background",
       "img": "systems/dnd5e/icons/svg/items/background.svg",
@@ -5636,15 +5636,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be00000000017e01",
+            "_id": "be00000000002bdb",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be00000000017e02",
-            "group": "be00000000017e01",
+            "_id": "be00000000002bdc",
+            "group": "be00000000002bdb",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -5652,8 +5652,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000017e03",
-            "group": "be00000000017e01",
+            "_id": "be00000000002bdd",
+            "group": "be00000000002bdb",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -5661,27 +5661,27 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000017e04",
-            "group": "be00000000017e01",
+            "_id": "be00000000002bde",
+            "group": "be00000000002bdb",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
-            "key": "Compendium.rokugan5e.equipment.Item.rgcalligraphyset"
+            "key": "Compendium.rokugan5e.equipment.Item.r5383cc2169c1ede"
           },
           {
             "type": "linked",
-            "_id": "be00000000017e05",
-            "group": "be00000000017e01",
+            "_id": "be00000000002bdf",
+            "group": "be00000000002bdb",
             "sort": 500000,
             "requiresProficiency": false,
             "count": null,
-            "key": "Compendium.rokugan5e.equipment.Item.rgceremonialteas"
+            "key": "Compendium.rokugan5e.equipment.Item.rd9953c9b0bb24f1"
           }
         ],
         "wealth": ""
       },
       "effects": [],
-      "folder": "rfbimperialfamil",
+      "folder": "r8b896411a65b7e8",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -5689,8 +5689,8 @@
       }
     },
     {
-      "_id": "rbmiyafamily0000",
-      "_key": "!items!rbmiyafamily0000",
+      "_id": "r99fa6709d88a3fb",
+      "_key": "!items!r99fa6709d88a3fb",
       "name": "Miya Family",
       "type": "background",
       "img": "systems/dnd5e/icons/svg/items/background.svg",
@@ -5827,15 +5827,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be000000000047f2",
+            "_id": "be0000000000900e",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be000000000047f3",
-            "group": "be000000000047f2",
+            "_id": "be0000000000900f",
+            "group": "be0000000000900e",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -5843,8 +5843,8 @@
           },
           {
             "type": "linked",
-            "_id": "be000000000047f4",
-            "group": "be000000000047f2",
+            "_id": "be00000000009010",
+            "group": "be0000000000900e",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -5852,17 +5852,17 @@
           },
           {
             "type": "linked",
-            "_id": "be000000000047f5",
-            "group": "be000000000047f2",
+            "_id": "be00000000009011",
+            "group": "be0000000000900e",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
-            "key": "Compendium.rokugan5e.equipment.Item.rgcalligraphyset"
+            "key": "Compendium.rokugan5e.equipment.Item.r5383cc2169c1ede"
           },
           {
             "type": "currency",
-            "_id": "be000000000047f6",
-            "group": "be000000000047f2",
+            "_id": "be00000000009012",
+            "group": "be0000000000900e",
             "sort": 500000,
             "requiresProficiency": false,
             "count": 12,
@@ -5872,7 +5872,7 @@
         "wealth": ""
       },
       "effects": [],
-      "folder": "rfbimperialfamil",
+      "folder": "r8b896411a65b7e8",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -5880,8 +5880,8 @@
       }
     },
     {
-      "_id": "rbotomofamily000",
-      "_key": "!items!rbotomofamily000",
+      "_id": "rbb9173fd952ff24",
+      "_key": "!items!rbb9173fd952ff24",
       "name": "Otomo Family",
       "type": "background",
       "img": "systems/dnd5e/icons/svg/items/background.svg",
@@ -6016,15 +6016,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be0000000001519e",
+            "_id": "be0000000000f6f5",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be0000000001519f",
-            "group": "be0000000001519e",
+            "_id": "be0000000000f6f6",
+            "group": "be0000000000f6f5",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -6032,8 +6032,8 @@
           },
           {
             "type": "linked",
-            "_id": "be000000000151a0",
-            "group": "be0000000001519e",
+            "_id": "be0000000000f6f7",
+            "group": "be0000000000f6f5",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -6041,17 +6041,17 @@
           },
           {
             "type": "linked",
-            "_id": "be000000000151a1",
-            "group": "be0000000001519e",
+            "_id": "be0000000000f6f8",
+            "group": "be0000000000f6f5",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
-            "key": "Compendium.rokugan5e.equipment.Item.rgcalligraphyset"
+            "key": "Compendium.rokugan5e.equipment.Item.r5383cc2169c1ede"
           },
           {
             "type": "currency",
-            "_id": "be000000000151a2",
-            "group": "be0000000001519e",
+            "_id": "be0000000000f6f9",
+            "group": "be0000000000f6f5",
             "sort": 500000,
             "requiresProficiency": false,
             "count": 12,
@@ -6061,7 +6061,7 @@
         "wealth": ""
       },
       "effects": [],
-      "folder": "rfbimperialfamil",
+      "folder": "r8b896411a65b7e8",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -6069,8 +6069,8 @@
       }
     },
     {
-      "_id": "rbfamiliesofthef",
-      "_key": "!items!rbfamiliesofthef",
+      "_id": "r65298999661e64b",
+      "_key": "!items!r65298999661e64b",
       "name": "Families of the Fleet",
       "type": "background",
       "img": "systems/dnd5e/icons/svg/items/background.svg",
@@ -6217,22 +6217,22 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be00000000015218",
+            "_id": "be0000000000b97d",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "OR",
-            "_id": "be00000000015219",
-            "group": "be00000000015218",
+            "_id": "be0000000000b97e",
+            "group": "be0000000000b97d",
             "sort": 200000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be0000000001521a",
-            "group": "be00000000015219",
+            "_id": "be0000000000b97f",
+            "group": "be0000000000b97e",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -6240,8 +6240,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000001521b",
-            "group": "be00000000015219",
+            "_id": "be0000000000b980",
+            "group": "be0000000000b97e",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
@@ -6249,8 +6249,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000001521c",
-            "group": "be00000000015218",
+            "_id": "be0000000000b981",
+            "group": "be0000000000b97d",
             "sort": 500000,
             "requiresProficiency": false,
             "count": null,
@@ -6258,18 +6258,18 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000001521d",
-            "group": "be00000000015218",
+            "_id": "be0000000000b982",
+            "group": "be0000000000b97d",
             "sort": 600000,
             "requiresProficiency": false,
             "count": null,
-            "key": "Compendium.rokugan5e.equipment.Item.rgfishingkit0000"
+            "key": "Compendium.rokugan5e.equipment.Item.r4b7d8c91ef49dca"
           }
         ],
         "wealth": ""
       },
       "effects": [],
-      "folder": "rfbminorclans000",
+      "folder": "r5bb7d6e2f9b589e",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -6277,8 +6277,8 @@
       }
     },
     {
-      "_id": "rbbadgerclan0000",
-      "_key": "!items!rbbadgerclan0000",
+      "_id": "r56037c4b4eb9eb2",
+      "_key": "!items!r56037c4b4eb9eb2",
       "name": "Badger Clan",
       "type": "background",
       "img": "systems/dnd5e/icons/svg/items/background.svg",
@@ -6381,7 +6381,7 @@
         "wealth": ""
       },
       "effects": [],
-      "folder": "rfbminorclans000",
+      "folder": "r5bb7d6e2f9b589e",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -6389,8 +6389,8 @@
       }
     },
     {
-      "_id": "rbcatclan0000000",
-      "_key": "!items!rbcatclan0000000",
+      "_id": "r4438ca9db9f6a24",
+      "_key": "!items!r4438ca9db9f6a24",
       "name": "Cat Clan",
       "type": "background",
       "img": "systems/dnd5e/icons/svg/items/background.svg",
@@ -6524,15 +6524,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be0000000000c7ca",
+            "_id": "be000000000145de",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be0000000000c7cb",
-            "group": "be0000000000c7ca",
+            "_id": "be000000000145df",
+            "group": "be000000000145de",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -6540,8 +6540,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000000c7cc",
-            "group": "be0000000000c7ca",
+            "_id": "be000000000145e0",
+            "group": "be000000000145de",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -6549,8 +6549,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000000c7cd",
-            "group": "be0000000000c7ca",
+            "_id": "be000000000145e1",
+            "group": "be000000000145de",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
@@ -6558,18 +6558,18 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000000c7ce",
-            "group": "be0000000000c7ca",
+            "_id": "be000000000145e2",
+            "group": "be000000000145de",
             "sort": 500000,
             "requiresProficiency": false,
             "count": null,
-            "key": "Compendium.rokugan5e.equipment.Item.rgmakeupkit00000"
+            "key": "Compendium.rokugan5e.equipment.Item.r028f5e6e5d45b00"
           }
         ],
         "wealth": ""
       },
       "effects": [],
-      "folder": "rfbminorclans000",
+      "folder": "r5bb7d6e2f9b589e",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -6577,8 +6577,8 @@
       }
     },
     {
-      "_id": "rbcentipedeclan0",
-      "_key": "!items!rbcentipedeclan0",
+      "_id": "rfabf0777666d451",
+      "_key": "!items!rfabf0777666d451",
       "name": "Centipede Clan",
       "type": "background",
       "img": "systems/dnd5e/icons/svg/items/background.svg",
@@ -6693,15 +6693,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be0000000000bc03",
+            "_id": "be000000000157eb",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be0000000000bc04",
-            "group": "be0000000000bc03",
+            "_id": "be000000000157ec",
+            "group": "be000000000157eb",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -6709,8 +6709,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000000bc05",
-            "group": "be0000000000bc03",
+            "_id": "be000000000157ed",
+            "group": "be000000000157eb",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -6718,27 +6718,27 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000000bc06",
-            "group": "be0000000000bc03",
+            "_id": "be000000000157ee",
+            "group": "be000000000157eb",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
-            "key": "Compendium.rokugan5e.equipment.Item.rgcalligraphyset"
+            "key": "Compendium.rokugan5e.equipment.Item.r5383cc2169c1ede"
           },
           {
             "type": "linked",
-            "_id": "be0000000000bc07",
-            "group": "be0000000000bc03",
+            "_id": "be000000000157ef",
+            "group": "be000000000157eb",
             "sort": 500000,
             "requiresProficiency": false,
             "count": null,
-            "key": "Compendium.rokugan5e.equipment.Item.rgdivinationkit0"
+            "key": "Compendium.rokugan5e.equipment.Item.r5ccb4b290ff78e6"
           }
         ],
         "wealth": ""
       },
       "effects": [],
-      "folder": "rfbminorclans000",
+      "folder": "r5bb7d6e2f9b589e",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -6746,8 +6746,8 @@
       }
     },
     {
-      "_id": "rbdeerclan000000",
-      "_key": "!items!rbdeerclan000000",
+      "_id": "r98467e097639dc5",
+      "_key": "!items!r98467e097639dc5",
       "name": "Deer Clan",
       "type": "background",
       "img": "systems/dnd5e/icons/svg/items/background.svg",
@@ -6881,15 +6881,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be000000000016ef",
+            "_id": "be0000000000747c",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be000000000016f0",
-            "group": "be000000000016ef",
+            "_id": "be0000000000747d",
+            "group": "be0000000000747c",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -6897,8 +6897,8 @@
           },
           {
             "type": "linked",
-            "_id": "be000000000016f1",
-            "group": "be000000000016ef",
+            "_id": "be0000000000747e",
+            "group": "be0000000000747c",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -6906,18 +6906,18 @@
           },
           {
             "type": "linked",
-            "_id": "be000000000016f2",
-            "group": "be000000000016ef",
+            "_id": "be0000000000747f",
+            "group": "be0000000000747c",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
-            "key": "Compendium.rokugan5e.equipment.Item.rgdivinationkit0"
+            "key": "Compendium.rokugan5e.equipment.Item.r5ccb4b290ff78e6"
           }
         ],
         "wealth": ""
       },
       "effects": [],
-      "folder": "rfbminorclans000",
+      "folder": "r5bb7d6e2f9b589e",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -6925,8 +6925,8 @@
       }
     },
     {
-      "_id": "rbfalconclan0000",
-      "_key": "!items!rbfalconclan0000",
+      "_id": "r2f1b5503303eb06",
+      "_key": "!items!r2f1b5503303eb06",
       "name": "Falcon Clan",
       "type": "background",
       "img": "systems/dnd5e/icons/svg/items/background.svg",
@@ -7039,15 +7039,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be00000000003d6d",
+            "_id": "be0000000000a2d5",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be00000000003d6e",
-            "group": "be00000000003d6d",
+            "_id": "be0000000000a2d6",
+            "group": "be0000000000a2d5",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -7055,8 +7055,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000003d6f",
-            "group": "be00000000003d6d",
+            "_id": "be0000000000a2d7",
+            "group": "be0000000000a2d5",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -7064,18 +7064,18 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000003d70",
-            "group": "be00000000003d6d",
+            "_id": "be0000000000a2d8",
+            "group": "be0000000000a2d5",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
-            "key": "Compendium.rokugan5e.equipment.Item.rgswordmaintenan"
+            "key": "Compendium.rokugan5e.equipment.Item.r7be3091118a9a92"
           }
         ],
         "wealth": ""
       },
       "effects": [],
-      "folder": "rfbminorclans000",
+      "folder": "r5bb7d6e2f9b589e",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -7083,8 +7083,8 @@
       }
     },
     {
-      "_id": "rbfoxclan0000000",
-      "_key": "!items!rbfoxclan0000000",
+      "_id": "r0802212e748ffe4",
+      "_key": "!items!r0802212e748ffe4",
       "name": "Fox Clan",
       "type": "background",
       "img": "systems/dnd5e/icons/svg/items/background.svg",
@@ -7225,15 +7225,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be0000000001381c",
+            "_id": "be0000000000bd00",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be0000000001381d",
-            "group": "be0000000001381c",
+            "_id": "be0000000000bd01",
+            "group": "be0000000000bd00",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -7241,8 +7241,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000001381e",
-            "group": "be0000000001381c",
+            "_id": "be0000000000bd02",
+            "group": "be0000000000bd00",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -7252,7 +7252,7 @@
         "wealth": ""
       },
       "effects": [],
-      "folder": "rfbminorclans000",
+      "folder": "r5bb7d6e2f9b589e",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -7260,8 +7260,8 @@
       }
     },
     {
-      "_id": "rbhareclan000000",
-      "_key": "!items!rbhareclan000000",
+      "_id": "rbdb1f4c4d25d9b3",
+      "_key": "!items!rbdb1f4c4d25d9b3",
       "name": "Hare Clan",
       "type": "background",
       "img": "systems/dnd5e/icons/svg/items/background.svg",
@@ -7376,15 +7376,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be000000000175a2",
+            "_id": "be00000000001c2e",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be000000000175a3",
-            "group": "be000000000175a2",
+            "_id": "be00000000001c2f",
+            "group": "be00000000001c2e",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -7392,8 +7392,8 @@
           },
           {
             "type": "linked",
-            "_id": "be000000000175a4",
-            "group": "be000000000175a2",
+            "_id": "be00000000001c30",
+            "group": "be00000000001c2e",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -7401,18 +7401,18 @@
           },
           {
             "type": "linked",
-            "_id": "be000000000175a5",
-            "group": "be000000000175a2",
+            "_id": "be00000000001c31",
+            "group": "be00000000001c2e",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
-            "key": "Compendium.rokugan5e.equipment.Item.rgdivinationkit0"
+            "key": "Compendium.rokugan5e.equipment.Item.r5ccb4b290ff78e6"
           }
         ],
         "wealth": ""
       },
       "effects": [],
-      "folder": "rfbminorclans000",
+      "folder": "r5bb7d6e2f9b589e",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -7420,8 +7420,8 @@
       }
     },
     {
-      "_id": "rbmothclan000000",
-      "_key": "!items!rbmothclan000000",
+      "_id": "r24498f063f5efad",
+      "_key": "!items!r24498f063f5efad",
       "name": "Moth Clan",
       "type": "background",
       "img": "systems/dnd5e/icons/svg/items/background.svg",
@@ -7536,15 +7536,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be0000000001654b",
+            "_id": "be000000000089d3",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be0000000001654c",
-            "group": "be0000000001654b",
+            "_id": "be000000000089d4",
+            "group": "be000000000089d3",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -7552,8 +7552,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000001654d",
-            "group": "be0000000001654b",
+            "_id": "be000000000089d5",
+            "group": "be000000000089d3",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -7561,18 +7561,18 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000001654e",
-            "group": "be0000000001654b",
+            "_id": "be000000000089d6",
+            "group": "be000000000089d3",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
-            "key": "Compendium.rokugan5e.equipment.Item.rgdivinationkit0"
+            "key": "Compendium.rokugan5e.equipment.Item.r5ccb4b290ff78e6"
           }
         ],
         "wealth": ""
       },
       "effects": [],
-      "folder": "rfbminorclans000",
+      "folder": "r5bb7d6e2f9b589e",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -7580,8 +7580,8 @@
       }
     },
     {
-      "_id": "rbsparrowclan000",
-      "_key": "!items!rbsparrowclan000",
+      "_id": "rbe701970050cc32",
+      "_key": "!items!rbe701970050cc32",
       "name": "Sparrow Clan",
       "type": "background",
       "img": "systems/dnd5e/icons/svg/items/background.svg",
@@ -7683,7 +7683,7 @@
         "wealth": ""
       },
       "effects": [],
-      "folder": "rfbminorclans000",
+      "folder": "r5bb7d6e2f9b589e",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -7691,8 +7691,8 @@
       }
     },
     {
-      "_id": "rbtortoiseclan00",
-      "_key": "!items!rbtortoiseclan00",
+      "_id": "r103a5bc3bd2a5a8",
+      "_key": "!items!r103a5bc3bd2a5a8",
       "name": "Tortoise Clan",
       "type": "background",
       "img": "systems/dnd5e/icons/svg/items/background.svg",
@@ -7843,15 +7843,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be000000000139b0",
+            "_id": "be00000000008d08",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be000000000139b1",
-            "group": "be000000000139b0",
+            "_id": "be00000000008d09",
+            "group": "be00000000008d08",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -7859,8 +7859,8 @@
           },
           {
             "type": "linked",
-            "_id": "be000000000139b2",
-            "group": "be000000000139b0",
+            "_id": "be00000000008d0a",
+            "group": "be00000000008d08",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -7868,15 +7868,15 @@
           },
           {
             "type": "OR",
-            "_id": "be000000000139b3",
-            "group": "be000000000139b0",
+            "_id": "be00000000008d0b",
+            "group": "be00000000008d08",
             "sort": 400000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be000000000139b4",
-            "group": "be000000000139b3",
+            "_id": "be00000000008d0c",
+            "group": "be00000000008d0b",
             "sort": 500000,
             "requiresProficiency": false,
             "count": null,
@@ -7884,8 +7884,8 @@
           },
           {
             "type": "linked",
-            "_id": "be000000000139b5",
-            "group": "be000000000139b3",
+            "_id": "be00000000008d0d",
+            "group": "be00000000008d0b",
             "sort": 600000,
             "requiresProficiency": false,
             "count": null,
@@ -7895,7 +7895,7 @@
         "wealth": ""
       },
       "effects": [],
-      "folder": "rfbminorclans000",
+      "folder": "r5bb7d6e2f9b589e",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -7903,8 +7903,8 @@
       }
     },
     {
-      "_id": "rbwaspclan000000",
-      "_key": "!items!rbwaspclan000000",
+      "_id": "r155b78900cd931b",
+      "_key": "!items!r155b78900cd931b",
       "name": "Wasp Clan",
       "type": "background",
       "img": "systems/dnd5e/icons/svg/items/background.svg",
@@ -8023,15 +8023,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be00000000003740",
+            "_id": "be0000000000ebf3",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be00000000003741",
-            "group": "be00000000003740",
+            "_id": "be0000000000ebf4",
+            "group": "be0000000000ebf3",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -8039,8 +8039,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000003742",
-            "group": "be00000000003740",
+            "_id": "be0000000000ebf5",
+            "group": "be0000000000ebf3",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -8050,7 +8050,7 @@
         "wealth": ""
       },
       "effects": [],
-      "folder": "rfbminorclans000",
+      "folder": "r5bb7d6e2f9b589e",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -8058,8 +8058,8 @@
       }
     },
     {
-      "_id": "rbregimentedlife",
-      "_key": "!items!rbregimentedlife",
+      "_id": "r07e0ad41a521e7a",
+      "_key": "!items!r07e0ad41a521e7a",
       "name": "Regimented Lifestyle",
       "type": "background",
       "img": "systems/dnd5e/icons/svg/items/background.svg",
@@ -8194,15 +8194,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be0000000000a686",
+            "_id": "be0000000000f612",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be0000000000a687",
-            "group": "be0000000000a686",
+            "_id": "be0000000000f613",
+            "group": "be0000000000f612",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -8210,8 +8210,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000000a688",
-            "group": "be0000000000a686",
+            "_id": "be0000000000f614",
+            "group": "be0000000000f612",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -8221,7 +8221,7 @@
         "wealth": ""
       },
       "effects": [],
-      "folder": "rfbmonastic00000",
+      "folder": "ra971940b3afc1a9",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -8229,8 +8229,8 @@
       }
     },
     {
-      "_id": "rbforesthamlet00",
-      "_key": "!items!rbforesthamlet00",
+      "_id": "r8f1d8672812a1cc",
+      "_key": "!items!r8f1d8672812a1cc",
       "name": "Forest Hamlet",
       "type": "background",
       "img": "systems/dnd5e/icons/svg/items/background.svg",
@@ -8342,15 +8342,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be0000000000bf84",
+            "_id": "be0000000000d046",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be0000000000bf85",
-            "group": "be0000000000bf84",
+            "_id": "be0000000000d047",
+            "group": "be0000000000d046",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -8358,15 +8358,15 @@
           },
           {
             "type": "OR",
-            "_id": "be0000000000bf86",
-            "group": "be0000000000bf84",
+            "_id": "be0000000000d048",
+            "group": "be0000000000d046",
             "sort": 300000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be0000000000bf87",
-            "group": "be0000000000bf86",
+            "_id": "be0000000000d049",
+            "group": "be0000000000d048",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
@@ -8374,8 +8374,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000000bf88",
-            "group": "be0000000000bf86",
+            "_id": "be0000000000d04a",
+            "group": "be0000000000d048",
             "sort": 500000,
             "requiresProficiency": false,
             "count": null,
@@ -8385,7 +8385,7 @@
         "wealth": ""
       },
       "effects": [],
-      "folder": "rfbcommoner00000",
+      "folder": "r67d818d5a56d859",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -8393,8 +8393,8 @@
       }
     },
     {
-      "_id": "rbmountainvillag",
-      "_key": "!items!rbmountainvillag",
+      "_id": "r35dfcca55cfab7a",
+      "_key": "!items!r35dfcca55cfab7a",
       "name": "Mountain Village",
       "type": "background",
       "img": "systems/dnd5e/icons/svg/items/background.svg",
@@ -8529,15 +8529,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be0000000000e29c",
+            "_id": "be000000000024e9",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be0000000000e29d",
-            "group": "be0000000000e29c",
+            "_id": "be000000000024ea",
+            "group": "be000000000024e9",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -8545,8 +8545,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000000e29e",
-            "group": "be0000000000e29c",
+            "_id": "be000000000024eb",
+            "group": "be000000000024e9",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -8556,7 +8556,7 @@
         "wealth": ""
       },
       "effects": [],
-      "folder": "rfbcommoner00000",
+      "folder": "r67d818d5a56d859",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -8564,8 +8564,8 @@
       }
     },
     {
-      "_id": "rbporttown000000",
-      "_key": "!items!rbporttown000000",
+      "_id": "r2ffef91be2f5727",
+      "_key": "!items!r2ffef91be2f5727",
       "name": "Port Town",
       "type": "background",
       "img": "systems/dnd5e/icons/svg/items/background.svg",
@@ -8677,22 +8677,22 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be00000000006c25",
+            "_id": "be00000000017081",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "OR",
-            "_id": "be00000000006c26",
-            "group": "be00000000006c25",
+            "_id": "be00000000017082",
+            "group": "be00000000017081",
             "sort": 200000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be00000000006c27",
-            "group": "be00000000006c26",
+            "_id": "be00000000017083",
+            "group": "be00000000017082",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -8700,8 +8700,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000006c28",
-            "group": "be00000000006c26",
+            "_id": "be00000000017084",
+            "group": "be00000000017082",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
@@ -8709,8 +8709,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000006c29",
-            "group": "be00000000006c25",
+            "_id": "be00000000017085",
+            "group": "be00000000017081",
             "sort": 500000,
             "requiresProficiency": false,
             "count": null,
@@ -8720,7 +8720,7 @@
         "wealth": ""
       },
       "effects": [],
-      "folder": "rfbcommoner00000",
+      "folder": "r67d818d5a56d859",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -8728,8 +8728,8 @@
       }
     },
     {
-      "_id": "rbkinushimacity0",
-      "_key": "!items!rbkinushimacity0",
+      "_id": "r1404cf418126845",
+      "_key": "!items!r1404cf418126845",
       "name": "Kinushima City",
       "type": "background",
       "img": "systems/dnd5e/icons/svg/items/background.svg",
@@ -8863,22 +8863,22 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be00000000013247",
+            "_id": "be0000000000a115",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "OR",
-            "_id": "be00000000013248",
-            "group": "be00000000013247",
+            "_id": "be0000000000a116",
+            "group": "be0000000000a115",
             "sort": 200000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be00000000013249",
-            "group": "be00000000013248",
+            "_id": "be0000000000a117",
+            "group": "be0000000000a116",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -8886,8 +8886,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000001324a",
-            "group": "be00000000013248",
+            "_id": "be0000000000a118",
+            "group": "be0000000000a116",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
@@ -8895,8 +8895,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000001324b",
-            "group": "be00000000013247",
+            "_id": "be0000000000a119",
+            "group": "be0000000000a115",
             "sort": 500000,
             "requiresProficiency": false,
             "count": null,
@@ -8906,7 +8906,7 @@
         "wealth": ""
       },
       "effects": [],
-      "folder": "rfbnonrokugani00",
+      "folder": "rec1c7f40d6b95a8",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -8914,8 +8914,8 @@
       }
     },
     {
-      "_id": "rbmenoumoriislan",
-      "_key": "!items!rbmenoumoriislan",
+      "_id": "r3c412cdde5ed9a9",
+      "_key": "!items!r3c412cdde5ed9a9",
       "name": "Menoumori Island",
       "type": "background",
       "img": "systems/dnd5e/icons/svg/items/background.svg",
@@ -9065,22 +9065,22 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be00000000012c55",
+            "_id": "be0000000000b489",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "OR",
-            "_id": "be00000000012c56",
-            "group": "be00000000012c55",
+            "_id": "be0000000000b48a",
+            "group": "be0000000000b489",
             "sort": 200000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be00000000012c57",
-            "group": "be00000000012c56",
+            "_id": "be0000000000b48b",
+            "group": "be0000000000b48a",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -9088,8 +9088,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000012c58",
-            "group": "be00000000012c56",
+            "_id": "be0000000000b48c",
+            "group": "be0000000000b48a",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
@@ -9097,8 +9097,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000012c59",
-            "group": "be00000000012c55",
+            "_id": "be0000000000b48d",
+            "group": "be0000000000b489",
             "sort": 500000,
             "requiresProficiency": false,
             "count": null,
@@ -9106,18 +9106,18 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000012c5a",
-            "group": "be00000000012c55",
+            "_id": "be0000000000b48e",
+            "group": "be0000000000b489",
             "sort": 600000,
             "requiresProficiency": false,
             "count": null,
-            "key": "Compendium.rokugan5e.equipment.Item.rgfishingkit0000"
+            "key": "Compendium.rokugan5e.equipment.Item.r4b7d8c91ef49dca"
           }
         ],
         "wealth": ""
       },
       "effects": [],
-      "folder": "rfbnonrokugani00",
+      "folder": "rec1c7f40d6b95a8",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -9125,8 +9125,8 @@
       }
     },
     {
-      "_id": "rbsaebyuksan0000",
-      "_key": "!items!rbsaebyuksan0000",
+      "_id": "r7c3fa776a520162",
+      "_key": "!items!r7c3fa776a520162",
       "name": "Saebyuksan",
       "type": "background",
       "img": "systems/dnd5e/icons/svg/items/background.svg",
@@ -9228,22 +9228,22 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be00000000010fd1",
+            "_id": "be0000000000234c",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "OR",
-            "_id": "be00000000010fd2",
-            "group": "be00000000010fd1",
+            "_id": "be0000000000234d",
+            "group": "be0000000000234c",
             "sort": 200000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be00000000010fd3",
-            "group": "be00000000010fd2",
+            "_id": "be0000000000234e",
+            "group": "be0000000000234d",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -9251,8 +9251,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000010fd4",
-            "group": "be00000000010fd2",
+            "_id": "be0000000000234f",
+            "group": "be0000000000234d",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
@@ -9260,8 +9260,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000010fd5",
-            "group": "be00000000010fd1",
+            "_id": "be00000000002350",
+            "group": "be0000000000234c",
             "sort": 500000,
             "requiresProficiency": false,
             "count": null,
@@ -9271,7 +9271,7 @@
         "wealth": ""
       },
       "effects": [],
-      "folder": "rfbnonrokugani00",
+      "folder": "rec1c7f40d6b95a8",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -9279,8 +9279,8 @@
       }
     },
     {
-      "_id": "rbkkachivalley00",
-      "_key": "!items!rbkkachivalley00",
+      "_id": "r1962125d77eb222",
+      "_key": "!items!r1962125d77eb222",
       "name": "Kkachi Valley",
       "type": "background",
       "img": "systems/dnd5e/icons/svg/items/background.svg",
@@ -9383,15 +9383,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be000000000041ff",
+            "_id": "be0000000000ceff",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be00000000004200",
-            "group": "be000000000041ff",
+            "_id": "be0000000000cf00",
+            "group": "be0000000000ceff",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -9399,8 +9399,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000004201",
-            "group": "be000000000041ff",
+            "_id": "be0000000000cf01",
+            "group": "be0000000000ceff",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -9410,7 +9410,7 @@
         "wealth": ""
       },
       "effects": [],
-      "folder": "rfbnonrokugani00",
+      "folder": "rec1c7f40d6b95a8",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -9418,8 +9418,8 @@
       }
     },
     {
-      "_id": "rbknottedtailstr",
-      "_key": "!items!rbknottedtailstr",
+      "_id": "r70e3933b47caab6",
+      "_key": "!items!r70e3933b47caab6",
       "name": "Knotted Tails Tribe",
       "type": "background",
       "img": "systems/dnd5e/icons/svg/items/background.svg",
@@ -9556,22 +9556,22 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be00000000011119",
+            "_id": "be0000000000686f",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "OR",
-            "_id": "be0000000001111a",
-            "group": "be00000000011119",
+            "_id": "be00000000006870",
+            "group": "be0000000000686f",
             "sort": 200000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be0000000001111b",
-            "group": "be0000000001111a",
+            "_id": "be00000000006871",
+            "group": "be00000000006870",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -9579,8 +9579,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000001111c",
-            "group": "be0000000001111a",
+            "_id": "be00000000006872",
+            "group": "be00000000006870",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
@@ -9588,8 +9588,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000001111d",
-            "group": "be00000000011119",
+            "_id": "be00000000006873",
+            "group": "be0000000000686f",
             "sort": 500000,
             "requiresProficiency": false,
             "count": null,
@@ -9597,27 +9597,27 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000001111e",
-            "group": "be00000000011119",
+            "_id": "be00000000006874",
+            "group": "be0000000000686f",
             "sort": 600000,
             "requiresProficiency": false,
             "count": null,
-            "key": "Compendium.rokugan5e.equipment.Item.rgfieldmedicinek"
+            "key": "Compendium.rokugan5e.equipment.Item.r7564a742651656e"
           },
           {
             "type": "linked",
-            "_id": "be0000000001111f",
-            "group": "be00000000011119",
+            "_id": "be00000000006875",
+            "group": "be0000000000686f",
             "sort": 700000,
             "requiresProficiency": false,
             "count": null,
-            "key": "Compendium.rokugan5e.equipment.Item.rgwhetstone00000"
+            "key": "Compendium.rokugan5e.equipment.Item.rf1cf782c91b7440"
           }
         ],
         "wealth": ""
       },
       "effects": [],
-      "folder": "rfbnonhuman00000",
+      "folder": "rd45c5edd8fbff76",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -9625,8 +9625,8 @@
       }
     },
     {
-      "_id": "rbsnowfeatheraer",
-      "_key": "!items!rbsnowfeatheraer",
+      "_id": "r9ae922c502afb2d",
+      "_key": "!items!r9ae922c502afb2d",
       "name": "Snowfeather Aerie",
       "type": "background",
       "img": "systems/dnd5e/icons/svg/items/background.svg",
@@ -9729,15 +9729,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be00000000009a7a",
+            "_id": "be00000000016405",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be00000000009a7b",
-            "group": "be00000000009a7a",
+            "_id": "be00000000016406",
+            "group": "be00000000016405",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -9745,8 +9745,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000009a7c",
-            "group": "be00000000009a7a",
+            "_id": "be00000000016407",
+            "group": "be00000000016405",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -9756,7 +9756,7 @@
         "wealth": ""
       },
       "effects": [],
-      "folder": "rfbnonhuman00000",
+      "folder": "rd45c5edd8fbff76",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -9764,8 +9764,8 @@
       }
     },
     {
-      "_id": "rbstarfallaerie0",
-      "_key": "!items!rbstarfallaerie0",
+      "_id": "rfbf9b139a08cf03",
+      "_key": "!items!rfbf9b139a08cf03",
       "name": "Starfall Aerie",
       "type": "background",
       "img": "systems/dnd5e/icons/svg/items/background.svg",
@@ -9867,15 +9867,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be00000000009345",
+            "_id": "be00000000009688",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be00000000009346",
-            "group": "be00000000009345",
+            "_id": "be00000000009689",
+            "group": "be00000000009688",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -9883,8 +9883,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000009347",
-            "group": "be00000000009345",
+            "_id": "be0000000000968a",
+            "group": "be00000000009688",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -9892,18 +9892,18 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000009348",
-            "group": "be00000000009345",
+            "_id": "be0000000000968b",
+            "group": "be00000000009688",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
-            "key": "Compendium.rokugan5e.equipment.Item.rgswordmaintenan"
+            "key": "Compendium.rokugan5e.equipment.Item.r7be3091118a9a92"
           }
         ],
         "wealth": ""
       },
       "effects": [],
-      "folder": "rfbnonhuman00000",
+      "folder": "rd45c5edd8fbff76",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -9911,8 +9911,8 @@
       }
     },
     {
-      "_id": "rbcourtoftheanim",
-      "_key": "!items!rbcourtoftheanim",
+      "_id": "r2ba0b5d72ac7923",
+      "_key": "!items!r2ba0b5d72ac7923",
       "name": "Court of the Animals’ Path",
       "type": "background",
       "img": "systems/dnd5e/icons/svg/items/background.svg",
@@ -10016,15 +10016,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be0000000000fec0",
+            "_id": "be00000000005b57",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be0000000000fec1",
-            "group": "be0000000000fec0",
+            "_id": "be00000000005b58",
+            "group": "be00000000005b57",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -10034,7 +10034,7 @@
         "wealth": ""
       },
       "effects": [],
-      "folder": "rfbnonhuman00000",
+      "folder": "rd45c5edd8fbff76",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -10042,8 +10042,8 @@
       }
     },
     {
-      "_id": "rbtherealmofwait",
-      "_key": "!items!rbtherealmofwait",
+      "_id": "r313255cbd644f63",
+      "_key": "!items!r313255cbd644f63",
       "name": "The Realm of Waiting",
       "type": "background",
       "img": "systems/dnd5e/icons/svg/items/background.svg",
@@ -10174,15 +10174,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be000000000163b4",
+            "_id": "be00000000016db8",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be000000000163b5",
-            "group": "be000000000163b4",
+            "_id": "be00000000016db9",
+            "group": "be00000000016db8",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -10190,8 +10190,8 @@
           },
           {
             "type": "linked",
-            "_id": "be000000000163b6",
-            "group": "be000000000163b4",
+            "_id": "be00000000016dba",
+            "group": "be00000000016db8",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -10199,18 +10199,18 @@
           },
           {
             "type": "linked",
-            "_id": "be000000000163b7",
-            "group": "be000000000163b4",
+            "_id": "be00000000016dbb",
+            "group": "be00000000016db8",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
-            "key": "Compendium.rokugan5e.equipment.Item.rgcalligraphyset"
+            "key": "Compendium.rokugan5e.equipment.Item.r5383cc2169c1ede"
           }
         ],
         "wealth": ""
       },
       "effects": [],
-      "folder": "rfbnonhuman00000",
+      "folder": "rd45c5edd8fbff76",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -10218,8 +10218,8 @@
       }
     },
     {
-      "_id": "rbtherealmofslau",
-      "_key": "!items!rbtherealmofslau",
+      "_id": "r3244ffe87b4cbed",
+      "_key": "!items!r3244ffe87b4cbed",
       "name": "The Realm of Slaughter",
       "type": "background",
       "img": "systems/dnd5e/icons/svg/items/background.svg",
@@ -10321,15 +10321,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be0000000000851e",
+            "_id": "be0000000001107c",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be0000000000851f",
-            "group": "be0000000000851e",
+            "_id": "be0000000001107d",
+            "group": "be0000000001107c",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -10339,7 +10339,7 @@
         "wealth": ""
       },
       "effects": [],
-      "folder": "rfbnonhuman00000",
+      "folder": "rd45c5edd8fbff76",
       "sort": 0,
       "flags": {},
       "ownership": {

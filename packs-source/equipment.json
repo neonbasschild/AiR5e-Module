@@ -1,8 +1,8 @@
 {
   "folders": [
     {
-      "_id": "rfeweapons000000",
-      "_key": "!folders!rfeweapons000000",
+      "_id": "r5911ec7073a9f5f",
+      "_key": "!folders!r5911ec7073a9f5f",
       "name": "Weapons",
       "type": "Item",
       "sorting": "a",
@@ -11,8 +11,8 @@
       "sort": 0
     },
     {
-      "_id": "rfearmor00000000",
-      "_key": "!folders!rfearmor00000000",
+      "_id": "r0778a1da28b1b20",
+      "_key": "!folders!r0778a1da28b1b20",
       "name": "Armor",
       "type": "Item",
       "sorting": "a",
@@ -21,8 +21,8 @@
       "sort": 0
     },
     {
-      "_id": "rfeoutfits000000",
-      "_key": "!folders!rfeoutfits000000",
+      "_id": "rd940f8ac3e432ed",
+      "_key": "!folders!rd940f8ac3e432ed",
       "name": "Outfits",
       "type": "Item",
       "sorting": "a",
@@ -31,8 +31,8 @@
       "sort": 0
     },
     {
-      "_id": "rfeadventuringge",
-      "_key": "!folders!rfeadventuringge",
+      "_id": "rd26c357dd39be91",
+      "_key": "!folders!rd26c357dd39be91",
       "name": "Adventuring Gear",
       "type": "Item",
       "sorting": "a",
@@ -41,8 +41,8 @@
       "sort": 0
     },
     {
-      "_id": "rfearrows0000000",
-      "_key": "!folders!rfearrows0000000",
+      "_id": "r043634adec5faa5",
+      "_key": "!folders!r043634adec5faa5",
       "name": "Arrows",
       "type": "Item",
       "sorting": "a",
@@ -51,8 +51,8 @@
       "sort": 0
     },
     {
-      "_id": "rfetoolsartisan0",
-      "_key": "!folders!rfetoolsartisan0",
+      "_id": "r26afe9865b5566e",
+      "_key": "!folders!r26afe9865b5566e",
       "name": "Tools — Artisan",
       "type": "Item",
       "sorting": "a",
@@ -61,8 +61,8 @@
       "sort": 0
     },
     {
-      "_id": "rfetoolsgaming00",
-      "_key": "!folders!rfetoolsgaming00",
+      "_id": "re3099e0c896404a",
+      "_key": "!folders!re3099e0c896404a",
       "name": "Tools — Gaming",
       "type": "Item",
       "sorting": "a",
@@ -71,8 +71,8 @@
       "sort": 0
     },
     {
-      "_id": "rfetoolsmusical0",
-      "_key": "!folders!rfetoolsmusical0",
+      "_id": "rfa82dc2e62654ce",
+      "_key": "!folders!rfa82dc2e62654ce",
       "name": "Tools — Musical",
       "type": "Item",
       "sorting": "a",
@@ -81,8 +81,8 @@
       "sort": 0
     },
     {
-      "_id": "rfetoolsmystic00",
-      "_key": "!folders!rfetoolsmystic00",
+      "_id": "rf3c451e548ebd39",
+      "_key": "!folders!rf3c451e548ebd39",
       "name": "Tools — Mystic",
       "type": "Item",
       "sorting": "a",
@@ -91,8 +91,8 @@
       "sort": 0
     },
     {
-      "_id": "rfetoolssubterfu",
-      "_key": "!folders!rfetoolssubterfu",
+      "_id": "r92b76fa2a526cbc",
+      "_key": "!folders!r92b76fa2a526cbc",
       "name": "Tools — Subterfuge",
       "type": "Item",
       "sorting": "a",
@@ -101,8 +101,8 @@
       "sort": 0
     },
     {
-      "_id": "rfemounts0000000",
-      "_key": "!folders!rfemounts0000000",
+      "_id": "r661a5d6679b8097",
+      "_key": "!folders!r661a5d6679b8097",
       "name": "Mounts",
       "type": "Item",
       "sorting": "a",
@@ -111,8 +111,8 @@
       "sort": 0
     },
     {
-      "_id": "rfetackvehicles0",
-      "_key": "!folders!rfetackvehicles0",
+      "_id": "ra3424b91da5bb6c",
+      "_key": "!folders!ra3424b91da5bb6c",
       "name": "Tack & Vehicles",
       "type": "Item",
       "sorting": "a",
@@ -121,8 +121,8 @@
       "sort": 0
     },
     {
-      "_id": "rfeshipsboats000",
-      "_key": "!folders!rfeshipsboats000",
+      "_id": "rb277836246221dd",
+      "_key": "!folders!rb277836246221dd",
       "name": "Ships & Boats",
       "type": "Item",
       "sorting": "a",
@@ -131,8 +131,8 @@
       "sort": 0
     },
     {
-      "_id": "rfefooddrinklodg",
-      "_key": "!folders!rfefooddrinklodg",
+      "_id": "r3d44d33b25c30ac",
+      "_key": "!folders!r3d44d33b25c30ac",
       "name": "Food, Drink & Lodging",
       "type": "Item",
       "sorting": "a",
@@ -203,10 +203,54 @@
         "mastery": "",
         "magicalBonus": null,
         "attuned": false,
-        "equipped": false
+        "equipped": false,
+        "activities": {
+          "re3e747a9997766a": {
+            "_id": "re3e747a9997766a",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        }
       },
       "effects": [],
-      "folder": "rfeweapons000000",
+      "folder": "r5911ec7073a9f5f",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -273,10 +317,54 @@
         "mastery": "",
         "magicalBonus": null,
         "attuned": false,
-        "equipped": false
+        "equipped": false,
+        "activities": {
+          "r1c9db297de1b997": {
+            "_id": "r1c9db297de1b997",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        }
       },
       "effects": [],
-      "folder": "rfeweapons000000",
+      "folder": "r5911ec7073a9f5f",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -344,10 +432,54 @@
         "mastery": "",
         "magicalBonus": null,
         "attuned": false,
-        "equipped": false
+        "equipped": false,
+        "activities": {
+          "r32555e71fb2f08b": {
+            "_id": "r32555e71fb2f08b",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        }
       },
       "effects": [],
-      "folder": "rfeweapons000000",
+      "folder": "r5911ec7073a9f5f",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -416,10 +548,54 @@
         "mastery": "",
         "magicalBonus": null,
         "attuned": false,
-        "equipped": false
+        "equipped": false,
+        "activities": {
+          "rb6287a1a924a7ec": {
+            "_id": "rb6287a1a924a7ec",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        }
       },
       "effects": [],
-      "folder": "rfeweapons000000",
+      "folder": "r5911ec7073a9f5f",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -487,10 +663,54 @@
         "mastery": "",
         "magicalBonus": null,
         "attuned": false,
-        "equipped": false
+        "equipped": false,
+        "activities": {
+          "rcbba9d66f76d12a": {
+            "_id": "rcbba9d66f76d12a",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        }
       },
       "effects": [],
-      "folder": "rfeweapons000000",
+      "folder": "r5911ec7073a9f5f",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -558,10 +778,54 @@
         "mastery": "",
         "magicalBonus": null,
         "attuned": false,
-        "equipped": false
+        "equipped": false,
+        "activities": {
+          "rf740435c1f41419": {
+            "_id": "rf740435c1f41419",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        }
       },
       "effects": [],
-      "folder": "rfeweapons000000",
+      "folder": "r5911ec7073a9f5f",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -629,10 +893,54 @@
         "mastery": "",
         "magicalBonus": null,
         "attuned": false,
-        "equipped": false
+        "equipped": false,
+        "activities": {
+          "r0d27af88f18c8e5": {
+            "_id": "r0d27af88f18c8e5",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        }
       },
       "effects": [],
-      "folder": "rfeweapons000000",
+      "folder": "r5911ec7073a9f5f",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -702,10 +1010,54 @@
         "mastery": "",
         "magicalBonus": null,
         "attuned": false,
-        "equipped": false
+        "equipped": false,
+        "activities": {
+          "r0d9324bd9619a8d": {
+            "_id": "r0d9324bd9619a8d",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        }
       },
       "effects": [],
-      "folder": "rfeweapons000000",
+      "folder": "r5911ec7073a9f5f",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -787,10 +1139,54 @@
         "mastery": "",
         "magicalBonus": null,
         "attuned": false,
-        "equipped": false
+        "equipped": false,
+        "activities": {
+          "r90df1b28fd94e66": {
+            "_id": "r90df1b28fd94e66",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        }
       },
       "effects": [],
-      "folder": "rfeweapons000000",
+      "folder": "r5911ec7073a9f5f",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -871,10 +1267,54 @@
         "mastery": "",
         "magicalBonus": null,
         "attuned": false,
-        "equipped": false
+        "equipped": false,
+        "activities": {
+          "rd0d9827464f5734": {
+            "_id": "rd0d9827464f5734",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        }
       },
       "effects": [],
-      "folder": "rfeweapons000000",
+      "folder": "r5911ec7073a9f5f",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -955,10 +1395,54 @@
         "mastery": "",
         "magicalBonus": null,
         "attuned": false,
-        "equipped": false
+        "equipped": false,
+        "activities": {
+          "rf4582a4144322de": {
+            "_id": "rf4582a4144322de",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        }
       },
       "effects": [],
-      "folder": "rfeweapons000000",
+      "folder": "r5911ec7073a9f5f",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -1026,10 +1510,54 @@
         "mastery": "",
         "magicalBonus": null,
         "attuned": false,
-        "equipped": false
+        "equipped": false,
+        "activities": {
+          "r065615a073bb9a4": {
+            "_id": "r065615a073bb9a4",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "ranged",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        }
       },
       "effects": [],
-      "folder": "rfeweapons000000",
+      "folder": "r5911ec7073a9f5f",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -1096,10 +1624,54 @@
         "mastery": "",
         "magicalBonus": null,
         "attuned": false,
-        "equipped": false
+        "equipped": false,
+        "activities": {
+          "raaa2e52d3c411c6": {
+            "_id": "raaa2e52d3c411c6",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "ranged",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        }
       },
       "effects": [],
-      "folder": "rfeweapons000000",
+      "folder": "r5911ec7073a9f5f",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -1180,10 +1752,54 @@
         "mastery": "",
         "magicalBonus": null,
         "attuned": false,
-        "equipped": false
+        "equipped": false,
+        "activities": {
+          "re583ca50e028acc": {
+            "_id": "re583ca50e028acc",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        }
       },
       "effects": [],
-      "folder": "rfeweapons000000",
+      "folder": "r5911ec7073a9f5f",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -1253,10 +1869,54 @@
         "mastery": "",
         "magicalBonus": null,
         "attuned": false,
-        "equipped": false
+        "equipped": false,
+        "activities": {
+          "r300b3fef27159e3": {
+            "_id": "r300b3fef27159e3",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        }
       },
       "effects": [],
-      "folder": "rfeweapons000000",
+      "folder": "r5911ec7073a9f5f",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -1339,10 +1999,54 @@
         "mastery": "",
         "magicalBonus": null,
         "attuned": false,
-        "equipped": false
+        "equipped": false,
+        "activities": {
+          "rcda0adee7e8ced3": {
+            "_id": "rcda0adee7e8ced3",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        }
       },
       "effects": [],
-      "folder": "rfeweapons000000",
+      "folder": "r5911ec7073a9f5f",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -1411,10 +2115,54 @@
         "mastery": "",
         "magicalBonus": null,
         "attuned": false,
-        "equipped": false
+        "equipped": false,
+        "activities": {
+          "r4e790b534e3b710": {
+            "_id": "r4e790b534e3b710",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        }
       },
       "effects": [],
-      "folder": "rfeweapons000000",
+      "folder": "r5911ec7073a9f5f",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -1481,10 +2229,54 @@
         "mastery": "",
         "magicalBonus": null,
         "attuned": false,
-        "equipped": false
+        "equipped": false,
+        "activities": {
+          "reaf68581c88c0be": {
+            "_id": "reaf68581c88c0be",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        }
       },
       "effects": [],
-      "folder": "rfeweapons000000",
+      "folder": "r5911ec7073a9f5f",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -1566,10 +2358,54 @@
         "mastery": "",
         "magicalBonus": null,
         "attuned": false,
-        "equipped": false
+        "equipped": false,
+        "activities": {
+          "r86bcddf778e622b": {
+            "_id": "r86bcddf778e622b",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        }
       },
       "effects": [],
-      "folder": "rfeweapons000000",
+      "folder": "r5911ec7073a9f5f",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -1638,10 +2474,54 @@
         "mastery": "",
         "magicalBonus": null,
         "attuned": false,
-        "equipped": false
+        "equipped": false,
+        "activities": {
+          "r3d211ecee27b445": {
+            "_id": "r3d211ecee27b445",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        }
       },
       "effects": [],
-      "folder": "rfeweapons000000",
+      "folder": "r5911ec7073a9f5f",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -1709,10 +2589,54 @@
         "mastery": "",
         "magicalBonus": null,
         "attuned": false,
-        "equipped": false
+        "equipped": false,
+        "activities": {
+          "r35184a115093890": {
+            "_id": "r35184a115093890",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        }
       },
       "effects": [],
-      "folder": "rfeweapons000000",
+      "folder": "r5911ec7073a9f5f",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -1794,10 +2718,54 @@
         "mastery": "",
         "magicalBonus": null,
         "attuned": false,
-        "equipped": false
+        "equipped": false,
+        "activities": {
+          "rebfe15a104ce444": {
+            "_id": "rebfe15a104ce444",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        }
       },
       "effects": [],
-      "folder": "rfeweapons000000",
+      "folder": "r5911ec7073a9f5f",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -1879,10 +2847,54 @@
         "mastery": "",
         "magicalBonus": null,
         "attuned": false,
-        "equipped": false
+        "equipped": false,
+        "activities": {
+          "r2e78adaa93de9b1": {
+            "_id": "r2e78adaa93de9b1",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        }
       },
       "effects": [],
-      "folder": "rfeweapons000000",
+      "folder": "r5911ec7073a9f5f",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -1951,10 +2963,54 @@
         "mastery": "",
         "magicalBonus": null,
         "attuned": false,
-        "equipped": false
+        "equipped": false,
+        "activities": {
+          "r35be8bd8aee679e": {
+            "_id": "r35be8bd8aee679e",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        }
       },
       "effects": [],
-      "folder": "rfeweapons000000",
+      "folder": "r5911ec7073a9f5f",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -2024,10 +3080,54 @@
         "mastery": "",
         "magicalBonus": null,
         "attuned": false,
-        "equipped": false
+        "equipped": false,
+        "activities": {
+          "rbc3309083c217eb": {
+            "_id": "rbc3309083c217eb",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        }
       },
       "effects": [],
-      "folder": "rfeweapons000000",
+      "folder": "r5911ec7073a9f5f",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -2095,10 +3195,54 @@
         "mastery": "",
         "magicalBonus": null,
         "attuned": false,
-        "equipped": false
+        "equipped": false,
+        "activities": {
+          "r3f1b85dc9aed288": {
+            "_id": "r3f1b85dc9aed288",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        }
       },
       "effects": [],
-      "folder": "rfeweapons000000",
+      "folder": "r5911ec7073a9f5f",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -2166,10 +3310,54 @@
         "mastery": "",
         "magicalBonus": null,
         "attuned": false,
-        "equipped": false
+        "equipped": false,
+        "activities": {
+          "r3f552d4d78c601c": {
+            "_id": "r3f552d4d78c601c",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        }
       },
       "effects": [],
-      "folder": "rfeweapons000000",
+      "folder": "r5911ec7073a9f5f",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -2240,10 +3428,54 @@
         "mastery": "",
         "magicalBonus": null,
         "attuned": false,
-        "equipped": false
+        "equipped": false,
+        "activities": {
+          "r4c1168057a81ee6": {
+            "_id": "r4c1168057a81ee6",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        }
       },
       "effects": [],
-      "folder": "rfeweapons000000",
+      "folder": "r5911ec7073a9f5f",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -2325,10 +3557,54 @@
         "mastery": "",
         "magicalBonus": null,
         "attuned": false,
-        "equipped": false
+        "equipped": false,
+        "activities": {
+          "r4c657ba8b5ac44e": {
+            "_id": "r4c657ba8b5ac44e",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        }
       },
       "effects": [],
-      "folder": "rfeweapons000000",
+      "folder": "r5911ec7073a9f5f",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -2413,10 +3689,54 @@
         "mastery": "",
         "magicalBonus": null,
         "attuned": false,
-        "equipped": false
+        "equipped": false,
+        "activities": {
+          "r0cd393c82593f0e": {
+            "_id": "r0cd393c82593f0e",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        }
       },
       "effects": [],
-      "folder": "rfeweapons000000",
+      "folder": "r5911ec7073a9f5f",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -2497,10 +3817,54 @@
         "mastery": "",
         "magicalBonus": null,
         "attuned": false,
-        "equipped": false
+        "equipped": false,
+        "activities": {
+          "r588e2191e5c9f04": {
+            "_id": "r588e2191e5c9f04",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        }
       },
       "effects": [],
-      "folder": "rfeweapons000000",
+      "folder": "r5911ec7073a9f5f",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -2569,10 +3933,54 @@
         "mastery": "",
         "magicalBonus": null,
         "attuned": false,
-        "equipped": false
+        "equipped": false,
+        "activities": {
+          "r193d5b0a19999c0": {
+            "_id": "r193d5b0a19999c0",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        }
       },
       "effects": [],
-      "folder": "rfeweapons000000",
+      "folder": "r5911ec7073a9f5f",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -2641,10 +4049,54 @@
         "mastery": "",
         "magicalBonus": null,
         "attuned": false,
-        "equipped": false
+        "equipped": false,
+        "activities": {
+          "r75196e7d04b2522": {
+            "_id": "r75196e7d04b2522",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        }
       },
       "effects": [],
-      "folder": "rfeweapons000000",
+      "folder": "r5911ec7073a9f5f",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -2713,10 +4165,54 @@
         "mastery": "",
         "magicalBonus": null,
         "attuned": false,
-        "equipped": false
+        "equipped": false,
+        "activities": {
+          "rf6326e2a90b7928": {
+            "_id": "rf6326e2a90b7928",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        }
       },
       "effects": [],
-      "folder": "rfeweapons000000",
+      "folder": "r5911ec7073a9f5f",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -2798,10 +4294,54 @@
         "mastery": "",
         "magicalBonus": null,
         "attuned": false,
-        "equipped": false
+        "equipped": false,
+        "activities": {
+          "r7924517a6ac7c7c": {
+            "_id": "r7924517a6ac7c7c",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        }
       },
       "effects": [],
-      "folder": "rfeweapons000000",
+      "folder": "r5911ec7073a9f5f",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -2870,10 +4410,54 @@
         "mastery": "",
         "magicalBonus": null,
         "attuned": false,
-        "equipped": false
+        "equipped": false,
+        "activities": {
+          "rceeb312c5a50ffc": {
+            "_id": "rceeb312c5a50ffc",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        }
       },
       "effects": [],
-      "folder": "rfeweapons000000",
+      "folder": "r5911ec7073a9f5f",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -2941,10 +4525,54 @@
         "mastery": "",
         "magicalBonus": null,
         "attuned": false,
-        "equipped": false
+        "equipped": false,
+        "activities": {
+          "r2c8cfccbeda8803": {
+            "_id": "r2c8cfccbeda8803",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        }
       },
       "effects": [],
-      "folder": "rfeweapons000000",
+      "folder": "r5911ec7073a9f5f",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -3012,10 +4640,54 @@
         "mastery": "",
         "magicalBonus": null,
         "attuned": false,
-        "equipped": false
+        "equipped": false,
+        "activities": {
+          "r88ed7811579c13f": {
+            "_id": "r88ed7811579c13f",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        }
       },
       "effects": [],
-      "folder": "rfeweapons000000",
+      "folder": "r5911ec7073a9f5f",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -3083,10 +4755,54 @@
         "mastery": "",
         "magicalBonus": null,
         "attuned": false,
-        "equipped": false
+        "equipped": false,
+        "activities": {
+          "r4cd9b52f461869d": {
+            "_id": "r4cd9b52f461869d",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "ranged",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        }
       },
       "effects": [],
-      "folder": "rfeweapons000000",
+      "folder": "r5911ec7073a9f5f",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -3155,10 +4871,54 @@
         "mastery": "",
         "magicalBonus": null,
         "attuned": false,
-        "equipped": false
+        "equipped": false,
+        "activities": {
+          "rde15552c6211c36": {
+            "_id": "rde15552c6211c36",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "ranged",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        }
       },
       "effects": [],
-      "folder": "rfeweapons000000",
+      "folder": "r5911ec7073a9f5f",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -3227,10 +4987,54 @@
         "mastery": "",
         "magicalBonus": null,
         "attuned": false,
-        "equipped": false
+        "equipped": false,
+        "activities": {
+          "r11b06382d6e127c": {
+            "_id": "r11b06382d6e127c",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "ranged",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        }
       },
       "effects": [],
-      "folder": "rfeweapons000000",
+      "folder": "r5911ec7073a9f5f",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -3300,10 +5104,54 @@
         "mastery": "",
         "magicalBonus": null,
         "attuned": false,
-        "equipped": false
+        "equipped": false,
+        "activities": {
+          "r20e99ffef411cd1": {
+            "_id": "r20e99ffef411cd1",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "ranged",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        }
       },
       "effects": [],
-      "folder": "rfeweapons000000",
+      "folder": "r5911ec7073a9f5f",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -3372,10 +5220,54 @@
         "mastery": "",
         "magicalBonus": null,
         "attuned": false,
-        "equipped": false
+        "equipped": false,
+        "activities": {
+          "reda8b06898dfeb5": {
+            "_id": "reda8b06898dfeb5",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "ranged",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        }
       },
       "effects": [],
-      "folder": "rfeweapons000000",
+      "folder": "r5911ec7073a9f5f",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -3444,10 +5336,54 @@
         "mastery": "",
         "magicalBonus": null,
         "attuned": false,
-        "equipped": false
+        "equipped": false,
+        "activities": {
+          "r58e4b4605e9fbcb": {
+            "_id": "r58e4b4605e9fbcb",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "ranged",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        }
       },
       "effects": [],
-      "folder": "rfeweapons000000",
+      "folder": "r5911ec7073a9f5f",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -3516,10 +5452,54 @@
         "mastery": "",
         "magicalBonus": null,
         "attuned": false,
-        "equipped": false
+        "equipped": false,
+        "activities": {
+          "r5314ab22661d2bf": {
+            "_id": "r5314ab22661d2bf",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "ranged",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        }
       },
       "effects": [],
-      "folder": "rfeweapons000000",
+      "folder": "r5911ec7073a9f5f",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -3588,10 +5568,54 @@
         "mastery": "",
         "magicalBonus": null,
         "attuned": false,
-        "equipped": false
+        "equipped": false,
+        "activities": {
+          "r4fcc3935fbc728c": {
+            "_id": "r4fcc3935fbc728c",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "ranged",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        }
       },
       "effects": [],
-      "folder": "rfeweapons000000",
+      "folder": "r5911ec7073a9f5f",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -3660,10 +5684,54 @@
         "mastery": "",
         "magicalBonus": null,
         "attuned": false,
-        "equipped": false
+        "equipped": false,
+        "activities": {
+          "rf28c55addd4588c": {
+            "_id": "rf28c55addd4588c",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "ranged",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        }
       },
       "effects": [],
-      "folder": "rfeweapons000000",
+      "folder": "r5911ec7073a9f5f",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -3697,7 +5765,7 @@
         },
         "type": {
           "value": "light",
-          "baseItem": ""
+          "baseItem": "concealedarmor"
         },
         "armor": {
           "value": 11,
@@ -3711,7 +5779,7 @@
         "equipped": false
       },
       "effects": [],
-      "folder": "rfearmor00000000",
+      "folder": "r0778a1da28b1b20",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -3745,7 +5813,7 @@
         },
         "type": {
           "value": "light",
-          "baseItem": ""
+          "baseItem": "sharkleatherarmor"
         },
         "armor": {
           "value": 11,
@@ -3759,7 +5827,7 @@
         "equipped": false
       },
       "effects": [],
-      "folder": "rfearmor00000000",
+      "folder": "r0778a1da28b1b20",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -3793,7 +5861,7 @@
         },
         "type": {
           "value": "light",
-          "baseItem": ""
+          "baseItem": "silkarmor"
         },
         "armor": {
           "value": 11,
@@ -3807,7 +5875,7 @@
         "equipped": false
       },
       "effects": [],
-      "folder": "rfearmor00000000",
+      "folder": "r0778a1da28b1b20",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -3841,7 +5909,7 @@
         },
         "type": {
           "value": "medium",
-          "baseItem": ""
+          "baseItem": "animalhidearmor"
         },
         "armor": {
           "value": 12,
@@ -3855,7 +5923,7 @@
         "equipped": false
       },
       "effects": [],
-      "folder": "rfearmor00000000",
+      "folder": "r0778a1da28b1b20",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -3889,7 +5957,7 @@
         },
         "type": {
           "value": "medium",
-          "baseItem": ""
+          "baseItem": "fieldgear"
         },
         "armor": {
           "value": 13,
@@ -3905,7 +5973,7 @@
         "equipped": false
       },
       "effects": [],
-      "folder": "rfearmor00000000",
+      "folder": "r0778a1da28b1b20",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -3939,7 +6007,7 @@
         },
         "type": {
           "value": "heavy",
-          "baseItem": ""
+          "baseItem": "lacqueredarmor"
         },
         "armor": {
           "value": 14,
@@ -3955,7 +6023,7 @@
         "equipped": false
       },
       "effects": [],
-      "folder": "rfearmor00000000",
+      "folder": "r0778a1da28b1b20",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -3989,7 +6057,7 @@
         },
         "type": {
           "value": "heavy",
-          "baseItem": ""
+          "baseItem": "segmentedplate"
         },
         "armor": {
           "value": 18,
@@ -4005,7 +6073,7 @@
         "equipped": false
       },
       "effects": [],
-      "folder": "rfearmor00000000",
+      "folder": "r0778a1da28b1b20",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -4039,7 +6107,7 @@
         },
         "type": {
           "value": "shield",
-          "baseItem": ""
+          "baseItem": "roundshield"
         },
         "armor": {
           "value": 2,
@@ -4053,7 +6121,7 @@
         "equipped": false
       },
       "effects": [],
-      "folder": "rfearmor00000000",
+      "folder": "r0778a1da28b1b20",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -4087,7 +6155,7 @@
         },
         "type": {
           "value": "shield",
-          "baseItem": ""
+          "baseItem": "wallshield"
         },
         "armor": {
           "value": 2,
@@ -4101,7 +6169,7 @@
         "equipped": false
       },
       "effects": [],
-      "folder": "rfearmor00000000",
+      "folder": "r0778a1da28b1b20",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -4149,7 +6217,7 @@
         "equipped": false
       },
       "effects": [],
-      "folder": "rfeoutfits000000",
+      "folder": "rd940f8ac3e432ed",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -4197,7 +6265,7 @@
         "equipped": false
       },
       "effects": [],
-      "folder": "rfeoutfits000000",
+      "folder": "rd940f8ac3e432ed",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -4245,7 +6313,7 @@
         "equipped": false
       },
       "effects": [],
-      "folder": "rfeoutfits000000",
+      "folder": "rd940f8ac3e432ed",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -4293,7 +6361,7 @@
         "equipped": false
       },
       "effects": [],
-      "folder": "rfeoutfits000000",
+      "folder": "rd940f8ac3e432ed",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -4301,8 +6369,8 @@
       }
     },
     {
-      "_id": "rgbook0000000000",
-      "_key": "!items!rgbook0000000000",
+      "_id": "r33527401697f0b8",
+      "_key": "!items!r33527401697f0b8",
       "name": "Book",
       "type": "loot",
       "img": "systems/dnd5e/icons/svg/items/loot.svg",
@@ -4336,7 +6404,7 @@
         }
       },
       "effects": [],
-      "folder": "rfeadventuringge",
+      "folder": "rd26c357dd39be91",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -4344,8 +6412,8 @@
       }
     },
     {
-      "_id": "rgfieldmedicinek",
-      "_key": "!items!rgfieldmedicinek",
+      "_id": "r7564a742651656e",
+      "_key": "!items!r7564a742651656e",
       "name": "Field Medicine Kit",
       "type": "consumable",
       "img": "systems/dnd5e/icons/svg/items/consumable.svg",
@@ -4384,7 +6452,7 @@
         }
       },
       "effects": [],
-      "folder": "rfeadventuringge",
+      "folder": "rd26c357dd39be91",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -4392,8 +6460,8 @@
       }
     },
     {
-      "_id": "rgfingerofjade00",
-      "_key": "!items!rgfingerofjade00",
+      "_id": "r647e720702658b6",
+      "_key": "!items!r647e720702658b6",
       "name": "Finger of Jade",
       "type": "loot",
       "img": "systems/dnd5e/icons/svg/items/loot.svg",
@@ -4427,7 +6495,7 @@
         }
       },
       "effects": [],
-      "folder": "rfeadventuringge",
+      "folder": "rd26c357dd39be91",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -4435,8 +6503,8 @@
       }
     },
     {
-      "_id": "rgmask0000000000",
-      "_key": "!items!rgmask0000000000",
+      "_id": "r5bb8e9408bd975e",
+      "_key": "!items!r5bb8e9408bd975e",
       "name": "Mask",
       "type": "loot",
       "img": "systems/dnd5e/icons/svg/items/loot.svg",
@@ -4470,7 +6538,7 @@
         }
       },
       "effects": [],
-      "folder": "rfeadventuringge",
+      "folder": "rd26c357dd39be91",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -4478,8 +6546,8 @@
       }
     },
     {
-      "_id": "rgpersonalsealor",
-      "_key": "!items!rgpersonalsealor",
+      "_id": "rbfdc4269889a79d",
+      "_key": "!items!rbfdc4269889a79d",
       "name": "Personal Seal or Chop",
       "type": "loot",
       "img": "systems/dnd5e/icons/svg/items/loot.svg",
@@ -4513,7 +6581,7 @@
         }
       },
       "effects": [],
-      "folder": "rfeadventuringge",
+      "folder": "rd26c357dd39be91",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -4521,8 +6589,8 @@
       }
     },
     {
-      "_id": "rgportableteaset",
-      "_key": "!items!rgportableteaset",
+      "_id": "r3867a28cce464a6",
+      "_key": "!items!r3867a28cce464a6",
       "name": "Portable Tea Set",
       "type": "loot",
       "img": "systems/dnd5e/icons/svg/items/loot.svg",
@@ -4556,7 +6624,7 @@
         }
       },
       "effects": [],
-      "folder": "rfeadventuringge",
+      "folder": "rd26c357dd39be91",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -4564,8 +6632,8 @@
       }
     },
     {
-      "_id": "rgquiver00000000",
-      "_key": "!items!rgquiver00000000",
+      "_id": "r4d724f6afc21a58",
+      "_key": "!items!r4d724f6afc21a58",
       "name": "Quiver",
       "type": "container",
       "img": "systems/dnd5e/icons/svg/items/container.svg",
@@ -4600,7 +6668,7 @@
         }
       },
       "effects": [],
-      "folder": "rfeadventuringge",
+      "folder": "rd26c357dd39be91",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -4608,8 +6676,8 @@
       }
     },
     {
-      "_id": "rgritualpouch000",
-      "_key": "!items!rgritualpouch000",
+      "_id": "raa55401518bf492",
+      "_key": "!items!raa55401518bf492",
       "name": "Ritual Pouch",
       "type": "container",
       "img": "systems/dnd5e/icons/svg/items/container.svg",
@@ -4644,7 +6712,7 @@
         }
       },
       "effects": [],
-      "folder": "rfeadventuringge",
+      "folder": "rd26c357dd39be91",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -4652,8 +6720,8 @@
       }
     },
     {
-      "_id": "rgropeperfoot000",
-      "_key": "!items!rgropeperfoot000",
+      "_id": "rb3e7d0db279cb33",
+      "_key": "!items!rb3e7d0db279cb33",
       "name": "Rope (per foot)",
       "type": "loot",
       "img": "systems/dnd5e/icons/svg/items/loot.svg",
@@ -4687,7 +6755,7 @@
         }
       },
       "effects": [],
-      "folder": "rfeadventuringge",
+      "folder": "rd26c357dd39be91",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -4695,8 +6763,8 @@
       }
     },
     {
-      "_id": "rgtentsmall00000",
-      "_key": "!items!rgtentsmall00000",
+      "_id": "rf1d0021f9a407ef",
+      "_key": "!items!rf1d0021f9a407ef",
       "name": "Tent, Small",
       "type": "loot",
       "img": "systems/dnd5e/icons/svg/items/loot.svg",
@@ -4730,7 +6798,7 @@
         }
       },
       "effects": [],
-      "folder": "rfeadventuringge",
+      "folder": "rd26c357dd39be91",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -4738,8 +6806,8 @@
       }
     },
     {
-      "_id": "rgtentmedium0000",
-      "_key": "!items!rgtentmedium0000",
+      "_id": "r30d1d992662eef6",
+      "_key": "!items!r30d1d992662eef6",
       "name": "Tent, Medium",
       "type": "loot",
       "img": "systems/dnd5e/icons/svg/items/loot.svg",
@@ -4773,7 +6841,7 @@
         }
       },
       "effects": [],
-      "folder": "rfeadventuringge",
+      "folder": "rd26c357dd39be91",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -4781,8 +6849,8 @@
       }
     },
     {
-      "_id": "rgtentlarge00000",
-      "_key": "!items!rgtentlarge00000",
+      "_id": "rd5026a4ddf72b8e",
+      "_key": "!items!rd5026a4ddf72b8e",
       "name": "Tent, Large",
       "type": "loot",
       "img": "systems/dnd5e/icons/svg/items/loot.svg",
@@ -4816,7 +6884,7 @@
         }
       },
       "effects": [],
-      "folder": "rfeadventuringge",
+      "folder": "rd26c357dd39be91",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -4824,8 +6892,8 @@
       }
     },
     {
-      "_id": "rgumbrella000000",
-      "_key": "!items!rgumbrella000000",
+      "_id": "r7f9fe09139f71f4",
+      "_key": "!items!r7f9fe09139f71f4",
       "name": "Umbrella",
       "type": "loot",
       "img": "systems/dnd5e/icons/svg/items/loot.svg",
@@ -4859,7 +6927,7 @@
         }
       },
       "effects": [],
-      "folder": "rfeadventuringge",
+      "folder": "rd26c357dd39be91",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -4867,8 +6935,8 @@
       }
     },
     {
-      "_id": "rgwhetstone00000",
-      "_key": "!items!rgwhetstone00000",
+      "_id": "rf1cf782c91b7440",
+      "_key": "!items!rf1cf782c91b7440",
       "name": "Whetstone",
       "type": "loot",
       "img": "systems/dnd5e/icons/svg/items/loot.svg",
@@ -4902,7 +6970,7 @@
         }
       },
       "effects": [],
-      "folder": "rfeadventuringge",
+      "folder": "rd26c357dd39be91",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -4910,8 +6978,8 @@
       }
     },
     {
-      "_id": "rgwillowleafarro",
-      "_key": "!items!rgwillowleafarro",
+      "_id": "r3eab20a524d28ea",
+      "_key": "!items!r3eab20a524d28ea",
       "name": "Willow-Leaf Arrows",
       "type": "consumable",
       "img": "systems/dnd5e/icons/svg/items/ammo.svg",
@@ -4947,7 +7015,7 @@
         "magicalBonus": null
       },
       "effects": [],
-      "folder": "rfearrows0000000",
+      "folder": "r043634adec5faa5",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -4955,8 +7023,8 @@
       }
     },
     {
-      "_id": "rgarmorpiercinga",
-      "_key": "!items!rgarmorpiercinga",
+      "_id": "r4c1ae49c46fd9ad",
+      "_key": "!items!r4c1ae49c46fd9ad",
       "name": "Armor-Piercing Arrows",
       "type": "consumable",
       "img": "systems/dnd5e/icons/svg/items/ammo.svg",
@@ -4992,7 +7060,7 @@
         "magicalBonus": null
       },
       "effects": [],
-      "folder": "rfearrows0000000",
+      "folder": "r043634adec5faa5",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -5000,8 +7068,8 @@
       }
     },
     {
-      "_id": "rgdemonbreakinga",
-      "_key": "!items!rgdemonbreakinga",
+      "_id": "r34ceb9a16537ad9",
+      "_key": "!items!r34ceb9a16537ad9",
       "name": "Demon-Breaking Arrows",
       "type": "consumable",
       "img": "systems/dnd5e/icons/svg/items/ammo.svg",
@@ -5037,7 +7105,7 @@
         "magicalBonus": null
       },
       "effects": [],
-      "folder": "rfearrows0000000",
+      "folder": "r043634adec5faa5",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -5045,8 +7113,8 @@
       }
     },
     {
-      "_id": "rgfireblossomarr",
-      "_key": "!items!rgfireblossomarr",
+      "_id": "r1d9869f740775d1",
+      "_key": "!items!r1d9869f740775d1",
       "name": "Fire-Blossom Arrows",
       "type": "consumable",
       "img": "systems/dnd5e/icons/svg/items/ammo.svg",
@@ -5082,7 +7150,7 @@
         "magicalBonus": null
       },
       "effects": [],
-      "folder": "rfearrows0000000",
+      "folder": "r043634adec5faa5",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -5090,8 +7158,8 @@
       }
     },
     {
-      "_id": "rgfleshcutterarr",
-      "_key": "!items!rgfleshcutterarr",
+      "_id": "r0611bef36f056d5",
+      "_key": "!items!r0611bef36f056d5",
       "name": "Flesh-Cutter Arrows",
       "type": "consumable",
       "img": "systems/dnd5e/icons/svg/items/ammo.svg",
@@ -5127,7 +7195,7 @@
         "magicalBonus": null
       },
       "effects": [],
-      "folder": "rfearrows0000000",
+      "folder": "r043634adec5faa5",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -5135,8 +7203,8 @@
       }
     },
     {
-      "_id": "rghummingbulbarr",
-      "_key": "!items!rghummingbulbarr",
+      "_id": "rb33fbe168f0b0ec",
+      "_key": "!items!rb33fbe168f0b0ec",
       "name": "Humming-Bulb Arrows",
       "type": "consumable",
       "img": "systems/dnd5e/icons/svg/items/ammo.svg",
@@ -5172,7 +7240,7 @@
         "magicalBonus": null
       },
       "effects": [],
-      "folder": "rfearrows0000000",
+      "folder": "r043634adec5faa5",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -5180,8 +7248,8 @@
       }
     },
     {
-      "_id": "rgsoulstararrows",
-      "_key": "!items!rgsoulstararrows",
+      "_id": "r196648df7e57f35",
+      "_key": "!items!r196648df7e57f35",
       "name": "Soul-Star Arrows",
       "type": "consumable",
       "img": "systems/dnd5e/icons/svg/items/ammo.svg",
@@ -5217,7 +7285,7 @@
         "magicalBonus": null
       },
       "effects": [],
-      "folder": "rfearrows0000000",
+      "folder": "r043634adec5faa5",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -5225,8 +7293,8 @@
       }
     },
     {
-      "_id": "rgblacksmithskit",
-      "_key": "!items!rgblacksmithskit",
+      "_id": "r0a689717e40dee8",
+      "_key": "!items!r0a689717e40dee8",
       "name": "Blacksmith's Kit",
       "type": "tool",
       "img": "systems/dnd5e/icons/svg/items/tool.svg",
@@ -5255,15 +7323,15 @@
         "equipped": false,
         "identified": true,
         "type": {
-          "value": "",
+          "value": "art",
           "baseItem": "blacksmithskit"
         },
         "proficient": null,
         "properties": [],
-        "ability": ""
+        "ability": "int"
       },
       "effects": [],
-      "folder": "rfetoolsartisan0",
+      "folder": "r26afe9865b5566e",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -5271,8 +7339,8 @@
       }
     },
     {
-      "_id": "rgbowyerskit0000",
-      "_key": "!items!rgbowyerskit0000",
+      "_id": "rbb96b57ecc301a5",
+      "_key": "!items!rbb96b57ecc301a5",
       "name": "Bowyer's Kit",
       "type": "tool",
       "img": "systems/dnd5e/icons/svg/items/tool.svg",
@@ -5301,15 +7369,15 @@
         "equipped": false,
         "identified": true,
         "type": {
-          "value": "",
+          "value": "art",
           "baseItem": "bowyerskit"
         },
         "proficient": null,
         "properties": [],
-        "ability": ""
+        "ability": "dex"
       },
       "effects": [],
-      "folder": "rfetoolsartisan0",
+      "folder": "r26afe9865b5566e",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -5317,8 +7385,8 @@
       }
     },
     {
-      "_id": "rgcalligraphyset",
-      "_key": "!items!rgcalligraphyset",
+      "_id": "r5383cc2169c1ede",
+      "_key": "!items!r5383cc2169c1ede",
       "name": "Calligraphy Set",
       "type": "tool",
       "img": "systems/dnd5e/icons/svg/items/tool.svg",
@@ -5347,15 +7415,15 @@
         "equipped": false,
         "identified": true,
         "type": {
-          "value": "",
+          "value": "art",
           "baseItem": "calligraphyset"
         },
         "proficient": null,
         "properties": [],
-        "ability": ""
+        "ability": "int"
       },
       "effects": [],
-      "folder": "rfetoolsartisan0",
+      "folder": "r26afe9865b5566e",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -5363,8 +7431,8 @@
       }
     },
     {
-      "_id": "rgceremonialteas",
-      "_key": "!items!rgceremonialteas",
+      "_id": "rd9953c9b0bb24f1",
+      "_key": "!items!rd9953c9b0bb24f1",
       "name": "Ceremonial Tea Set",
       "type": "tool",
       "img": "systems/dnd5e/icons/svg/items/tool.svg",
@@ -5393,15 +7461,15 @@
         "equipped": false,
         "identified": true,
         "type": {
-          "value": "",
+          "value": "art",
           "baseItem": "ceremonialteaset"
         },
         "proficient": null,
         "properties": [],
-        "ability": ""
+        "ability": "int"
       },
       "effects": [],
-      "folder": "rfetoolsartisan0",
+      "folder": "r26afe9865b5566e",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -5409,8 +7477,8 @@
       }
     },
     {
-      "_id": "rgchemistskit000",
-      "_key": "!items!rgchemistskit000",
+      "_id": "r0bec2beac33b603",
+      "_key": "!items!r0bec2beac33b603",
       "name": "Chemist's Kit",
       "type": "tool",
       "img": "systems/dnd5e/icons/svg/items/tool.svg",
@@ -5439,15 +7507,15 @@
         "equipped": false,
         "identified": true,
         "type": {
-          "value": "",
+          "value": "art",
           "baseItem": "chemistskit"
         },
         "proficient": null,
         "properties": [],
-        "ability": ""
+        "ability": "int"
       },
       "effects": [],
-      "folder": "rfetoolsartisan0",
+      "folder": "r26afe9865b5566e",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -5455,8 +7523,8 @@
       }
     },
     {
-      "_id": "rgcookingkit0000",
-      "_key": "!items!rgcookingkit0000",
+      "_id": "rd573568afa1c403",
+      "_key": "!items!rd573568afa1c403",
       "name": "Cooking Kit",
       "type": "tool",
       "img": "systems/dnd5e/icons/svg/items/tool.svg",
@@ -5485,15 +7553,15 @@
         "equipped": false,
         "identified": true,
         "type": {
-          "value": "",
+          "value": "art",
           "baseItem": "cookingkit"
         },
         "proficient": null,
         "properties": [],
-        "ability": ""
+        "ability": "wis"
       },
       "effects": [],
-      "folder": "rfetoolsartisan0",
+      "folder": "r26afe9865b5566e",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -5501,8 +7569,8 @@
       }
     },
     {
-      "_id": "rgfishingkit0000",
-      "_key": "!items!rgfishingkit0000",
+      "_id": "r4b7d8c91ef49dca",
+      "_key": "!items!r4b7d8c91ef49dca",
       "name": "Fishing Kit",
       "type": "tool",
       "img": "systems/dnd5e/icons/svg/items/tool.svg",
@@ -5531,15 +7599,15 @@
         "equipped": false,
         "identified": true,
         "type": {
-          "value": "",
+          "value": "art",
           "baseItem": "fishingkit"
         },
         "proficient": null,
         "properties": [],
-        "ability": ""
+        "ability": "wis"
       },
       "effects": [],
-      "folder": "rfetoolsartisan0",
+      "folder": "r26afe9865b5566e",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -5547,8 +7615,8 @@
       }
     },
     {
-      "_id": "rgmakeupkit00000",
-      "_key": "!items!rgmakeupkit00000",
+      "_id": "r028f5e6e5d45b00",
+      "_key": "!items!r028f5e6e5d45b00",
       "name": "Makeup Kit",
       "type": "tool",
       "img": "systems/dnd5e/icons/svg/items/tool.svg",
@@ -5577,15 +7645,15 @@
         "equipped": false,
         "identified": true,
         "type": {
-          "value": "",
+          "value": "art",
           "baseItem": "makeupkit"
         },
         "proficient": null,
         "properties": [],
-        "ability": ""
+        "ability": "int"
       },
       "effects": [],
-      "folder": "rfetoolsartisan0",
+      "folder": "r26afe9865b5566e",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -5593,8 +7661,8 @@
       }
     },
     {
-      "_id": "rgmasonskit00000",
-      "_key": "!items!rgmasonskit00000",
+      "_id": "rd8eeb89c5e9e131",
+      "_key": "!items!rd8eeb89c5e9e131",
       "name": "Mason's Kit",
       "type": "tool",
       "img": "systems/dnd5e/icons/svg/items/tool.svg",
@@ -5623,15 +7691,15 @@
         "equipped": false,
         "identified": true,
         "type": {
-          "value": "",
+          "value": "art",
           "baseItem": "masonskit"
         },
         "proficient": null,
         "properties": [],
-        "ability": ""
+        "ability": "int"
       },
       "effects": [],
-      "folder": "rfetoolsartisan0",
+      "folder": "r26afe9865b5566e",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -5639,8 +7707,8 @@
       }
     },
     {
-      "_id": "rgpainterstools0",
-      "_key": "!items!rgpainterstools0",
+      "_id": "r2177bbd10cc65c7",
+      "_key": "!items!r2177bbd10cc65c7",
       "name": "Painter's Tools",
       "type": "tool",
       "img": "systems/dnd5e/icons/svg/items/tool.svg",
@@ -5669,15 +7737,15 @@
         "equipped": false,
         "identified": true,
         "type": {
-          "value": "",
+          "value": "art",
           "baseItem": "painterstools"
         },
         "proficient": null,
         "properties": [],
-        "ability": ""
+        "ability": "int"
       },
       "effects": [],
-      "folder": "rfetoolsartisan0",
+      "folder": "r26afe9865b5566e",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -5685,8 +7753,8 @@
       }
     },
     {
-      "_id": "rgpottersset0000",
-      "_key": "!items!rgpottersset0000",
+      "_id": "r2241f7a0d2bb1bd",
+      "_key": "!items!r2241f7a0d2bb1bd",
       "name": "Potter's Set",
       "type": "tool",
       "img": "systems/dnd5e/icons/svg/items/tool.svg",
@@ -5715,15 +7783,15 @@
         "equipped": false,
         "identified": true,
         "type": {
-          "value": "",
+          "value": "art",
           "baseItem": "pottersset"
         },
         "proficient": null,
         "properties": [],
-        "ability": ""
+        "ability": "int"
       },
       "effects": [],
-      "folder": "rfetoolsartisan0",
+      "folder": "r26afe9865b5566e",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -5731,8 +7799,8 @@
       }
     },
     {
-      "_id": "rgswordmaintenan",
-      "_key": "!items!rgswordmaintenan",
+      "_id": "r7be3091118a9a92",
+      "_key": "!items!r7be3091118a9a92",
       "name": "Sword Maintenance Kit",
       "type": "tool",
       "img": "systems/dnd5e/icons/svg/items/tool.svg",
@@ -5761,15 +7829,15 @@
         "equipped": false,
         "identified": true,
         "type": {
-          "value": "",
+          "value": "art",
           "baseItem": "swordmaintenancekit"
         },
         "proficient": null,
         "properties": [],
-        "ability": ""
+        "ability": "dex"
       },
       "effects": [],
-      "folder": "rfetoolsartisan0",
+      "folder": "r26afe9865b5566e",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -5777,8 +7845,8 @@
       }
     },
     {
-      "_id": "rgtailorskit0000",
-      "_key": "!items!rgtailorskit0000",
+      "_id": "r777cd51a952d587",
+      "_key": "!items!r777cd51a952d587",
       "name": "Tailor's Kit",
       "type": "tool",
       "img": "systems/dnd5e/icons/svg/items/tool.svg",
@@ -5807,15 +7875,15 @@
         "equipped": false,
         "identified": true,
         "type": {
-          "value": "",
+          "value": "art",
           "baseItem": "tailorskit"
         },
         "proficient": null,
         "properties": [],
-        "ability": ""
+        "ability": "int"
       },
       "effects": [],
-      "folder": "rfetoolsartisan0",
+      "folder": "r26afe9865b5566e",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -5823,8 +7891,8 @@
       }
     },
     {
-      "_id": "rgtattooset00000",
-      "_key": "!items!rgtattooset00000",
+      "_id": "r6e73465bddae339",
+      "_key": "!items!r6e73465bddae339",
       "name": "Tattoo Set",
       "type": "tool",
       "img": "systems/dnd5e/icons/svg/items/tool.svg",
@@ -5853,15 +7921,15 @@
         "equipped": false,
         "identified": true,
         "type": {
-          "value": "",
+          "value": "art",
           "baseItem": "tattooset"
         },
         "proficient": null,
         "properties": [],
-        "ability": ""
+        "ability": "int"
       },
       "effects": [],
-      "folder": "rfetoolsartisan0",
+      "folder": "r26afe9865b5566e",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -5869,8 +7937,8 @@
       }
     },
     {
-      "_id": "rgweaverskit0000",
-      "_key": "!items!rgweaverskit0000",
+      "_id": "r73cc3680ab3ef11",
+      "_key": "!items!r73cc3680ab3ef11",
       "name": "Weaver's Kit",
       "type": "tool",
       "img": "systems/dnd5e/icons/svg/items/tool.svg",
@@ -5899,15 +7967,15 @@
         "equipped": false,
         "identified": true,
         "type": {
-          "value": "",
+          "value": "art",
           "baseItem": "weaverskit"
         },
         "proficient": null,
         "properties": [],
-        "ability": ""
+        "ability": "int"
       },
       "effects": [],
-      "folder": "rfetoolsartisan0",
+      "folder": "r26afe9865b5566e",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -5915,8 +7983,8 @@
       }
     },
     {
-      "_id": "rgboardorcardgam",
-      "_key": "!items!rgboardorcardgam",
+      "_id": "r8406593258b5689",
+      "_key": "!items!r8406593258b5689",
       "name": "Board or Card Game",
       "type": "tool",
       "img": "systems/dnd5e/icons/svg/items/tool.svg",
@@ -5945,15 +8013,15 @@
         "equipped": false,
         "identified": true,
         "type": {
-          "value": "",
+          "value": "game",
           "baseItem": "boardorcardgame"
         },
         "proficient": null,
         "properties": [],
-        "ability": ""
+        "ability": "int"
       },
       "effects": [],
-      "folder": "rfetoolsgaming00",
+      "folder": "re3099e0c896404a",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -5961,8 +8029,8 @@
       }
     },
     {
-      "_id": "rgdiceandcup0000",
-      "_key": "!items!rgdiceandcup0000",
+      "_id": "r4f132c75d7e4d68",
+      "_key": "!items!r4f132c75d7e4d68",
       "name": "Dice and Cup",
       "type": "tool",
       "img": "systems/dnd5e/icons/svg/items/tool.svg",
@@ -5991,15 +8059,15 @@
         "equipped": false,
         "identified": true,
         "type": {
-          "value": "",
+          "value": "game",
           "baseItem": "diceandcup"
         },
         "proficient": null,
         "properties": [],
-        "ability": ""
+        "ability": "wis"
       },
       "effects": [],
-      "folder": "rfetoolsgaming00",
+      "folder": "re3099e0c896404a",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -6007,8 +8075,8 @@
       }
     },
     {
-      "_id": "rgdrums000000000",
-      "_key": "!items!rgdrums000000000",
+      "_id": "r9afa27e3f292b5a",
+      "_key": "!items!r9afa27e3f292b5a",
       "name": "Drums",
       "type": "tool",
       "img": "systems/dnd5e/icons/svg/items/tool.svg",
@@ -6037,15 +8105,15 @@
         "equipped": false,
         "identified": true,
         "type": {
-          "value": "",
+          "value": "music",
           "baseItem": "drums"
         },
         "proficient": null,
         "properties": [],
-        "ability": ""
+        "ability": "cha"
       },
       "effects": [],
-      "folder": "rfetoolsmusical0",
+      "folder": "rfa82dc2e62654ce",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -6053,8 +8121,8 @@
       }
     },
     {
-      "_id": "rgflute000000000",
-      "_key": "!items!rgflute000000000",
+      "_id": "raf150bb234f44e3",
+      "_key": "!items!raf150bb234f44e3",
       "name": "Flute",
       "type": "tool",
       "img": "systems/dnd5e/icons/svg/items/tool.svg",
@@ -6083,15 +8151,15 @@
         "equipped": false,
         "identified": true,
         "type": {
-          "value": "",
+          "value": "music",
           "baseItem": "flute"
         },
         "proficient": null,
         "properties": [],
-        "ability": ""
+        "ability": "cha"
       },
       "effects": [],
-      "folder": "rfetoolsmusical0",
+      "folder": "rfa82dc2e62654ce",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -6099,8 +8167,8 @@
       }
     },
     {
-      "_id": "rglute0000000000",
-      "_key": "!items!rglute0000000000",
+      "_id": "r86f503315a82961",
+      "_key": "!items!r86f503315a82961",
       "name": "Lute",
       "type": "tool",
       "img": "systems/dnd5e/icons/svg/items/tool.svg",
@@ -6129,15 +8197,15 @@
         "equipped": false,
         "identified": true,
         "type": {
-          "value": "",
+          "value": "music",
           "baseItem": "lute"
         },
         "proficient": null,
         "properties": [],
-        "ability": ""
+        "ability": "cha"
       },
       "effects": [],
-      "folder": "rfetoolsmusical0",
+      "folder": "rfa82dc2e62654ce",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -6145,8 +8213,8 @@
       }
     },
     {
-      "_id": "rgzither00000000",
-      "_key": "!items!rgzither00000000",
+      "_id": "rfb9130587eec4d1",
+      "_key": "!items!rfb9130587eec4d1",
       "name": "Zither",
       "type": "tool",
       "img": "systems/dnd5e/icons/svg/items/tool.svg",
@@ -6175,15 +8243,15 @@
         "equipped": false,
         "identified": true,
         "type": {
-          "value": "",
+          "value": "music",
           "baseItem": "zither"
         },
         "proficient": null,
         "properties": [],
-        "ability": ""
+        "ability": "cha"
       },
       "effects": [],
-      "folder": "rfetoolsmusical0",
+      "folder": "rfa82dc2e62654ce",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -6191,8 +8259,8 @@
       }
     },
     {
-      "_id": "rgalchemistskit0",
-      "_key": "!items!rgalchemistskit0",
+      "_id": "r8b01e3cc5e6e375",
+      "_key": "!items!r8b01e3cc5e6e375",
       "name": "Alchemist's Kit",
       "type": "tool",
       "img": "systems/dnd5e/icons/svg/items/tool.svg",
@@ -6221,15 +8289,15 @@
         "equipped": false,
         "identified": true,
         "type": {
-          "value": "",
+          "value": "mystic",
           "baseItem": "alchemistskit"
         },
         "proficient": null,
         "properties": [],
-        "ability": ""
+        "ability": "int"
       },
       "effects": [],
-      "folder": "rfetoolsmystic00",
+      "folder": "rf3c451e548ebd39",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -6237,8 +8305,8 @@
       }
     },
     {
-      "_id": "rgdivinationkit0",
-      "_key": "!items!rgdivinationkit0",
+      "_id": "r5ccb4b290ff78e6",
+      "_key": "!items!r5ccb4b290ff78e6",
       "name": "Divination Kit",
       "type": "tool",
       "img": "systems/dnd5e/icons/svg/items/tool.svg",
@@ -6267,15 +8335,15 @@
         "equipped": false,
         "identified": true,
         "type": {
-          "value": "",
+          "value": "mystic",
           "baseItem": "divinationkit"
         },
         "proficient": null,
         "properties": [],
-        "ability": ""
+        "ability": "wis"
       },
       "effects": [],
-      "folder": "rfetoolsmystic00",
+      "folder": "rf3c451e548ebd39",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -6283,8 +8351,8 @@
       }
     },
     {
-      "_id": "rgdisguisekit000",
-      "_key": "!items!rgdisguisekit000",
+      "_id": "r4ff664765766118",
+      "_key": "!items!r4ff664765766118",
       "name": "Disguise Kit",
       "type": "tool",
       "img": "systems/dnd5e/icons/svg/items/tool.svg",
@@ -6313,15 +8381,15 @@
         "equipped": false,
         "identified": true,
         "type": {
-          "value": "",
+          "value": "subterfuge",
           "baseItem": "disguisekit"
         },
         "proficient": null,
         "properties": [],
-        "ability": ""
+        "ability": "cha"
       },
       "effects": [],
-      "folder": "rfetoolssubterfu",
+      "folder": "r92b76fa2a526cbc",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -6329,8 +8397,8 @@
       }
     },
     {
-      "_id": "rginfiltratorseq",
-      "_key": "!items!rginfiltratorseq",
+      "_id": "rae4319638ce5c61",
+      "_key": "!items!rae4319638ce5c61",
       "name": "Infiltrator's Equipment",
       "type": "tool",
       "img": "systems/dnd5e/icons/svg/items/tool.svg",
@@ -6359,15 +8427,15 @@
         "equipped": false,
         "identified": true,
         "type": {
-          "value": "",
+          "value": "subterfuge",
           "baseItem": "infiltratorsequipment"
         },
         "proficient": null,
         "properties": [],
-        "ability": ""
+        "ability": "dex"
       },
       "effects": [],
-      "folder": "rfetoolssubterfu",
+      "folder": "r92b76fa2a526cbc",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -6375,8 +8443,8 @@
       }
     },
     {
-      "_id": "rginvisibleinkse",
-      "_key": "!items!rginvisibleinkse",
+      "_id": "r14f77c734171ee6",
+      "_key": "!items!r14f77c734171ee6",
       "name": "Invisible Ink Set",
       "type": "tool",
       "img": "systems/dnd5e/icons/svg/items/tool.svg",
@@ -6405,15 +8473,15 @@
         "equipped": false,
         "identified": true,
         "type": {
-          "value": "",
+          "value": "subterfuge",
           "baseItem": "invisibleinkset"
         },
         "proficient": null,
         "properties": [],
-        "ability": ""
+        "ability": "int"
       },
       "effects": [],
-      "folder": "rfetoolssubterfu",
+      "folder": "r92b76fa2a526cbc",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -6421,8 +8489,8 @@
       }
     },
     {
-      "_id": "rgcamel000000000",
-      "_key": "!items!rgcamel000000000",
+      "_id": "r46e05129bf7b487",
+      "_key": "!items!r46e05129bf7b487",
       "name": "Camel",
       "type": "loot",
       "img": "systems/dnd5e/icons/svg/items/loot.svg",
@@ -6456,7 +8524,7 @@
         }
       },
       "effects": [],
-      "folder": "rfemounts0000000",
+      "folder": "r661a5d6679b8097",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -6464,8 +8532,8 @@
       }
     },
     {
-      "_id": "rgelephant000000",
-      "_key": "!items!rgelephant000000",
+      "_id": "r9fe92672cf207ee",
+      "_key": "!items!r9fe92672cf207ee",
       "name": "Elephant",
       "type": "loot",
       "img": "systems/dnd5e/icons/svg/items/loot.svg",
@@ -6499,7 +8567,7 @@
         }
       },
       "effects": [],
-      "folder": "rfemounts0000000",
+      "folder": "r661a5d6679b8097",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -6507,8 +8575,8 @@
       }
     },
     {
-      "_id": "rgox000000000000",
-      "_key": "!items!rgox000000000000",
+      "_id": "r8179defb580ef90",
+      "_key": "!items!r8179defb580ef90",
       "name": "Ox",
       "type": "loot",
       "img": "systems/dnd5e/icons/svg/items/loot.svg",
@@ -6542,7 +8610,7 @@
         }
       },
       "effects": [],
-      "folder": "rfemounts0000000",
+      "folder": "r661a5d6679b8097",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -6550,8 +8618,8 @@
       }
     },
     {
-      "_id": "rgpony0000000000",
-      "_key": "!items!rgpony0000000000",
+      "_id": "rc398715ac7d4cc0",
+      "_key": "!items!rc398715ac7d4cc0",
       "name": "Pony",
       "type": "loot",
       "img": "systems/dnd5e/icons/svg/items/loot.svg",
@@ -6585,7 +8653,7 @@
         }
       },
       "effects": [],
-      "folder": "rfemounts0000000",
+      "folder": "r661a5d6679b8097",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -6593,8 +8661,8 @@
       }
     },
     {
-      "_id": "rgwarhorse000000",
-      "_key": "!items!rgwarhorse000000",
+      "_id": "rcc600a6c3e2933d",
+      "_key": "!items!rcc600a6c3e2933d",
       "name": "Warhorse",
       "type": "loot",
       "img": "systems/dnd5e/icons/svg/items/loot.svg",
@@ -6628,7 +8696,7 @@
         }
       },
       "effects": [],
-      "folder": "rfemounts0000000",
+      "folder": "r661a5d6679b8097",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -6636,8 +8704,8 @@
       }
     },
     {
-      "_id": "rgutakusteed0000",
-      "_key": "!items!rgutakusteed0000",
+      "_id": "rf1fcba6a48c2c86",
+      "_key": "!items!rf1fcba6a48c2c86",
       "name": "Utaku Steed",
       "type": "loot",
       "img": "systems/dnd5e/icons/svg/items/loot.svg",
@@ -6671,7 +8739,7 @@
         }
       },
       "effects": [],
-      "folder": "rfemounts0000000",
+      "folder": "r661a5d6679b8097",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -6679,8 +8747,8 @@
       }
     },
     {
-      "_id": "rgsaddlecommon00",
-      "_key": "!items!rgsaddlecommon00",
+      "_id": "re0fef6fffc31604",
+      "_key": "!items!re0fef6fffc31604",
       "name": "Saddle, Common",
       "type": "loot",
       "img": "systems/dnd5e/icons/svg/items/loot.svg",
@@ -6714,7 +8782,7 @@
         }
       },
       "effects": [],
-      "folder": "rfetackvehicles0",
+      "folder": "ra3424b91da5bb6c",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -6722,8 +8790,8 @@
       }
     },
     {
-      "_id": "rgsaddlestirrupe",
-      "_key": "!items!rgsaddlestirrupe",
+      "_id": "r2a972532d4e7d01",
+      "_key": "!items!r2a972532d4e7d01",
       "name": "Saddle, Stirruped",
       "type": "loot",
       "img": "systems/dnd5e/icons/svg/items/loot.svg",
@@ -6757,7 +8825,7 @@
         }
       },
       "effects": [],
-      "folder": "rfetackvehicles0",
+      "folder": "ra3424b91da5bb6c",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -6765,8 +8833,8 @@
       }
     },
     {
-      "_id": "rgcartdrawn00000",
-      "_key": "!items!rgcartdrawn00000",
+      "_id": "r33121bc306c756c",
+      "_key": "!items!r33121bc306c756c",
       "name": "Cart, Drawn",
       "type": "loot",
       "img": "systems/dnd5e/icons/svg/items/loot.svg",
@@ -6800,7 +8868,7 @@
         }
       },
       "effects": [],
-      "folder": "rfetackvehicles0",
+      "folder": "ra3424b91da5bb6c",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -6808,8 +8876,8 @@
       }
     },
     {
-      "_id": "rgcartpersonal00",
-      "_key": "!items!rgcartpersonal00",
+      "_id": "rf0129a0dd43ba4e",
+      "_key": "!items!rf0129a0dd43ba4e",
       "name": "Cart, Personal",
       "type": "loot",
       "img": "systems/dnd5e/icons/svg/items/loot.svg",
@@ -6843,7 +8911,7 @@
         }
       },
       "effects": [],
-      "folder": "rfetackvehicles0",
+      "folder": "ra3424b91da5bb6c",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -6851,8 +8919,8 @@
       }
     },
     {
-      "_id": "rgpalanquin00000",
-      "_key": "!items!rgpalanquin00000",
+      "_id": "r1e5b201ba8f9b4c",
+      "_key": "!items!r1e5b201ba8f9b4c",
       "name": "Palanquin",
       "type": "loot",
       "img": "systems/dnd5e/icons/svg/items/loot.svg",
@@ -6886,7 +8954,7 @@
         }
       },
       "effects": [],
-      "folder": "rfetackvehicles0",
+      "folder": "ra3424b91da5bb6c",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -6894,8 +8962,8 @@
       }
     },
     {
-      "_id": "rgferryraft00000",
-      "_key": "!items!rgferryraft00000",
+      "_id": "r69bfd17845647c0",
+      "_key": "!items!r69bfd17845647c0",
       "name": "Ferry Raft",
       "type": "loot",
       "img": "systems/dnd5e/icons/svg/items/loot.svg",
@@ -6929,7 +8997,7 @@
         }
       },
       "effects": [],
-      "folder": "rfeshipsboats000",
+      "folder": "rb277836246221dd",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -6937,8 +9005,8 @@
       }
     },
     {
-      "_id": "rgmantistradings",
-      "_key": "!items!rgmantistradings",
+      "_id": "raf1e17db63fa30c",
+      "_key": "!items!raf1e17db63fa30c",
       "name": "Mantis Trading Ship",
       "type": "loot",
       "img": "systems/dnd5e/icons/svg/items/loot.svg",
@@ -6972,7 +9040,7 @@
         }
       },
       "effects": [],
-      "folder": "rfeshipsboats000",
+      "folder": "rb277836246221dd",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -6980,8 +9048,8 @@
       }
     },
     {
-      "_id": "rgperformersboat",
-      "_key": "!items!rgperformersboat",
+      "_id": "r1a0e33cc42d5ae0",
+      "_key": "!items!r1a0e33cc42d5ae0",
       "name": "Performer's Boat",
       "type": "loot",
       "img": "systems/dnd5e/icons/svg/items/loot.svg",
@@ -7015,7 +9083,7 @@
         }
       },
       "effects": [],
-      "folder": "rfeshipsboats000",
+      "folder": "rb277836246221dd",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -7023,8 +9091,8 @@
       }
     },
     {
-      "_id": "rgwaterspider000",
-      "_key": "!items!rgwaterspider000",
+      "_id": "rc9072928aa4e58f",
+      "_key": "!items!rc9072928aa4e58f",
       "name": "Water-Spider",
       "type": "loot",
       "img": "systems/dnd5e/icons/svg/items/loot.svg",
@@ -7058,7 +9126,7 @@
         }
       },
       "effects": [],
-      "folder": "rfeshipsboats000",
+      "folder": "rb277836246221dd",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -7066,8 +9134,8 @@
       }
     },
     {
-      "_id": "rgtubboat0000000",
-      "_key": "!items!rgtubboat0000000",
+      "_id": "r3aa869e155d0232",
+      "_key": "!items!r3aa869e155d0232",
       "name": "Tub-Boat",
       "type": "loot",
       "img": "systems/dnd5e/icons/svg/items/loot.svg",
@@ -7101,7 +9169,7 @@
         }
       },
       "effects": [],
-      "folder": "rfeshipsboats000",
+      "folder": "rb277836246221dd",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -7109,8 +9177,8 @@
       }
     },
     {
-      "_id": "rgbasicfoodsperd",
-      "_key": "!items!rgbasicfoodsperd",
+      "_id": "rfa8478a7b56096b",
+      "_key": "!items!rfa8478a7b56096b",
       "name": "Basic Foods (per day)",
       "type": "loot",
       "img": "systems/dnd5e/icons/svg/items/loot.svg",
@@ -7144,7 +9212,7 @@
         }
       },
       "effects": [],
-      "folder": "rfefooddrinklodg",
+      "folder": "r3d44d33b25c30ac",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -7152,8 +9220,8 @@
       }
     },
     {
-      "_id": "rgluxuryfoodsper",
-      "_key": "!items!rgluxuryfoodsper",
+      "_id": "re59b9b2e9418a14",
+      "_key": "!items!re59b9b2e9418a14",
       "name": "Luxury Foods (per day)",
       "type": "loot",
       "img": "systems/dnd5e/icons/svg/items/loot.svg",
@@ -7187,7 +9255,7 @@
         }
       },
       "effects": [],
-      "folder": "rfefooddrinklodg",
+      "folder": "r3d44d33b25c30ac",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -7195,8 +9263,8 @@
       }
     },
     {
-      "_id": "rgbasicdrink0000",
-      "_key": "!items!rgbasicdrink0000",
+      "_id": "r283f9e10cc6a4bb",
+      "_key": "!items!r283f9e10cc6a4bb",
       "name": "Basic Drink",
       "type": "loot",
       "img": "systems/dnd5e/icons/svg/items/loot.svg",
@@ -7230,7 +9298,7 @@
         }
       },
       "effects": [],
-      "folder": "rfefooddrinklodg",
+      "folder": "r3d44d33b25c30ac",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -7238,8 +9306,8 @@
       }
     },
     {
-      "_id": "rgluxurydrink000",
-      "_key": "!items!rgluxurydrink000",
+      "_id": "rf99ca0509e910f8",
+      "_key": "!items!rf99ca0509e910f8",
       "name": "Luxury Drink",
       "type": "loot",
       "img": "systems/dnd5e/icons/svg/items/loot.svg",
@@ -7273,7 +9341,7 @@
         }
       },
       "effects": [],
-      "folder": "rfefooddrinklodg",
+      "folder": "r3d44d33b25c30ac",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -7281,8 +9349,8 @@
       }
     },
     {
-      "_id": "rgbasicconsumerg",
-      "_key": "!items!rgbasicconsumerg",
+      "_id": "r3b068525c405f95",
+      "_key": "!items!r3b068525c405f95",
       "name": "Basic Consumer Goods",
       "type": "loot",
       "img": "systems/dnd5e/icons/svg/items/loot.svg",
@@ -7316,7 +9384,7 @@
         }
       },
       "effects": [],
-      "folder": "rfefooddrinklodg",
+      "folder": "r3d44d33b25c30ac",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -7324,8 +9392,8 @@
       }
     },
     {
-      "_id": "rgluxuryconsumer",
-      "_key": "!items!rgluxuryconsumer",
+      "_id": "ra180b4bddc7e025",
+      "_key": "!items!ra180b4bddc7e025",
       "name": "Luxury Consumer Goods",
       "type": "loot",
       "img": "systems/dnd5e/icons/svg/items/loot.svg",
@@ -7359,7 +9427,7 @@
         }
       },
       "effects": [],
-      "folder": "rfefooddrinklodg",
+      "folder": "r3d44d33b25c30ac",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -7367,8 +9435,8 @@
       }
     },
     {
-      "_id": "rginnstayhumblep",
-      "_key": "!items!rginnstayhumblep",
+      "_id": "r50cf99204931e85",
+      "_key": "!items!r50cf99204931e85",
       "name": "Inn Stay, Humble (per day)",
       "type": "loot",
       "img": "systems/dnd5e/icons/svg/items/loot.svg",
@@ -7402,7 +9470,7 @@
         }
       },
       "effects": [],
-      "folder": "rfefooddrinklodg",
+      "folder": "r3d44d33b25c30ac",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -7410,8 +9478,8 @@
       }
     },
     {
-      "_id": "rginnstaysecurep",
-      "_key": "!items!rginnstaysecurep",
+      "_id": "r46241e1fe3f4d2a",
+      "_key": "!items!r46241e1fe3f4d2a",
       "name": "Inn Stay, Secure (per day)",
       "type": "loot",
       "img": "systems/dnd5e/icons/svg/items/loot.svg",
@@ -7445,7 +9513,7 @@
         }
       },
       "effects": [],
-      "folder": "rfefooddrinklodg",
+      "folder": "r3d44d33b25c30ac",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -7453,8 +9521,8 @@
       }
     },
     {
-      "_id": "rginnstaylavishp",
-      "_key": "!items!rginnstaylavishp",
+      "_id": "r48fa54c1b6983be",
+      "_key": "!items!r48fa54c1b6983be",
       "name": "Inn Stay, Lavish (per day)",
       "type": "loot",
       "img": "systems/dnd5e/icons/svg/items/loot.svg",
@@ -7488,7 +9556,7 @@
         }
       },
       "effects": [],
-      "folder": "rfefooddrinklodg",
+      "folder": "r3d44d33b25c30ac",
       "sort": 0,
       "flags": {},
       "ownership": {

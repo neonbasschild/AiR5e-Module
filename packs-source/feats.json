@@ -2,8 +2,8 @@
   "folders": [],
   "entries": [
     {
-      "_id": "rxclarityinsolac",
-      "_key": "!items!rxclarityinsolac",
+      "_id": "r34615d91c15f88a",
+      "_key": "!items!r34615d91c15f88a",
       "name": "Clarity in Solace",
       "type": "feat",
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
@@ -57,8 +57,8 @@
       }
     },
     {
-      "_id": "rxforbiddensorce",
-      "_key": "!items!rxforbiddensorce",
+      "_id": "r0cbac6686943969",
+      "_key": "!items!r0cbac6686943969",
       "name": "Forbidden Sorcery",
       "type": "feat",
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
@@ -95,8 +95,8 @@
       }
     },
     {
-      "_id": "rxgracefulcombat",
-      "_key": "!items!rxgracefulcombat",
+      "_id": "r591de3613232501",
+      "_key": "!items!r591de3613232501",
       "name": "Graceful Combatant",
       "type": "feat",
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
@@ -151,8 +151,8 @@
       }
     },
     {
-      "_id": "rxparagon0000000",
-      "_key": "!items!rxparagon0000000",
+      "_id": "r0ca1f9097ea4950",
+      "_key": "!items!r0ca1f9097ea4950",
       "name": "Paragon",
       "type": "feat",
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
@@ -189,8 +189,8 @@
       }
     },
     {
-      "_id": "rxshadowlandsmig",
-      "_key": "!items!rxshadowlandsmig",
+      "_id": "rec9b9056ec89720",
+      "_key": "!items!rec9b9056ec89720",
       "name": "Shadowlands Might",
       "type": "feat",
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
@@ -227,8 +227,8 @@
       }
     },
     {
-      "_id": "rxunusualweaponm",
-      "_key": "!items!rxunusualweaponm",
+      "_id": "r273de48e83caf36",
+      "_key": "!items!r273de48e83caf36",
       "name": "Unusual Weapon Mastery",
       "type": "feat",
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
@@ -265,8 +265,8 @@
       }
     },
     {
-      "_id": "rxceaselessvigil",
-      "_key": "!items!rxceaselessvigil",
+      "_id": "rd234ea08748bf29",
+      "_key": "!items!rd234ea08748bf29",
       "name": "Ceaseless Vigilance",
       "type": "feat",
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
@@ -303,8 +303,8 @@
       }
     },
     {
-      "_id": "rxendurancetrain",
-      "_key": "!items!rxendurancetrain",
+      "_id": "ra29cb1f989436ce",
+      "_key": "!items!ra29cb1f989436ce",
       "name": "Endurance Training",
       "type": "feat",
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
@@ -341,8 +341,8 @@
       }
     },
     {
-      "_id": "rxengineeringexp",
-      "_key": "!items!rxengineeringexp",
+      "_id": "rbb36345873302a2",
+      "_key": "!items!rbb36345873302a2",
       "name": "Engineering Experience",
       "type": "feat",
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
@@ -379,8 +379,8 @@
       }
     },
     {
-      "_id": "rxfellstrikes000",
-      "_key": "!items!rxfellstrikes000",
+      "_id": "rf02b09fe5f097a9",
+      "_key": "!items!rf02b09fe5f097a9",
       "name": "Fell Strikes",
       "type": "feat",
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
@@ -417,8 +417,8 @@
       }
     },
     {
-      "_id": "rxcautiousrhetor",
-      "_key": "!items!rxcautiousrhetor",
+      "_id": "r6d93a22829c9115",
+      "_key": "!items!r6d93a22829c9115",
       "name": "Cautious Rhetorician",
       "type": "feat",
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
@@ -455,8 +455,8 @@
       }
     },
     {
-      "_id": "rxpoiseandpurpos",
-      "_key": "!items!rxpoiseandpurpos",
+      "_id": "r4315a5082d95937",
+      "_key": "!items!r4315a5082d95937",
       "name": "Poise and Purpose",
       "type": "feat",
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
@@ -493,8 +493,8 @@
       }
     },
     {
-      "_id": "rxresolveofiron0",
-      "_key": "!items!rxresolveofiron0",
+      "_id": "r4d6b66e6bf7a8f9",
+      "_key": "!items!r4d6b66e6bf7a8f9",
       "name": "Resolve of Iron",
       "type": "feat",
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
@@ -531,8 +531,8 @@
       }
     },
     {
-      "_id": "rxwellconnected0",
-      "_key": "!items!rxwellconnected0",
+      "_id": "r257cd51f458a6f2",
+      "_key": "!items!r257cd51f458a6f2",
       "name": "Well-Connected",
       "type": "feat",
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
@@ -569,8 +569,8 @@
       }
     },
     {
-      "_id": "rxadaptablestrat",
-      "_key": "!items!rxadaptablestrat",
+      "_id": "re4967a7603fd638",
+      "_key": "!items!re4967a7603fd638",
       "name": "Adaptable Strategy",
       "type": "feat",
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
@@ -607,8 +607,8 @@
       }
     },
     {
-      "_id": "rxaltitudetraini",
-      "_key": "!items!rxaltitudetraini",
+      "_id": "r9096bb71b125ed3",
+      "_key": "!items!r9096bb71b125ed3",
       "name": "Altitude Training",
       "type": "feat",
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
@@ -645,8 +645,8 @@
       }
     },
     {
-      "_id": "rxdisruptivestri",
-      "_key": "!items!rxdisruptivestri",
+      "_id": "r81efc79bff23f89",
+      "_key": "!items!r81efc79bff23f89",
       "name": "Disruptive Strikes",
       "type": "feat",
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
@@ -701,8 +701,8 @@
       }
     },
     {
-      "_id": "rxkeenstudy00000",
-      "_key": "!items!rxkeenstudy00000",
+      "_id": "ra37ae28f2bb1e02",
+      "_key": "!items!ra37ae28f2bb1e02",
       "name": "Keen Study",
       "type": "feat",
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
@@ -739,8 +739,8 @@
       }
     },
     {
-      "_id": "rxcombatdrill000",
-      "_key": "!items!rxcombatdrill000",
+      "_id": "r477a7faeb97b39b",
+      "_key": "!items!r477a7faeb97b39b",
       "name": "Combat Drill",
       "type": "feat",
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
@@ -800,8 +800,8 @@
       }
     },
     {
-      "_id": "rxfieldmedicine0",
-      "_key": "!items!rxfieldmedicine0",
+      "_id": "r342c10537dc7400",
+      "_key": "!items!r342c10537dc7400",
       "name": "Field Medicine",
       "type": "feat",
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
@@ -856,8 +856,8 @@
       }
     },
     {
-      "_id": "rxmarchingstamin",
-      "_key": "!items!rxmarchingstamin",
+      "_id": "r80a1507c32daf6a",
+      "_key": "!items!r80a1507c32daf6a",
       "name": "Marching Stamina",
       "type": "feat",
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
@@ -894,8 +894,8 @@
       }
     },
     {
-      "_id": "rxmotivatingstor",
-      "_key": "!items!rxmotivatingstor",
+      "_id": "r39c7e5dc2b7b288",
+      "_key": "!items!r39c7e5dc2b7b288",
       "name": "Motivating Storyteller",
       "type": "feat",
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
@@ -951,8 +951,8 @@
       }
     },
     {
-      "_id": "rxapprenticeritu",
-      "_key": "!items!rxapprenticeritu",
+      "_id": "r18264145a452ae4",
+      "_key": "!items!r18264145a452ae4",
       "name": "Apprentice Ritualist",
       "type": "feat",
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
@@ -1007,8 +1007,8 @@
       }
     },
     {
-      "_id": "rxelementalalign",
-      "_key": "!items!rxelementalalign",
+      "_id": "r5a69dc399891641",
+      "_key": "!items!r5a69dc399891641",
       "name": "Elemental Alignment",
       "type": "feat",
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
@@ -1045,8 +1045,8 @@
       }
     },
     {
-      "_id": "rxloremaster0000",
-      "_key": "!items!rxloremaster0000",
+      "_id": "r83e248fe5e9f8bc",
+      "_key": "!items!r83e248fe5e9f8bc",
       "name": "Loremaster",
       "type": "feat",
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
@@ -1083,8 +1083,8 @@
       }
     },
     {
-      "_id": "rxvalorousbodygu",
-      "_key": "!items!rxvalorousbodygu",
+      "_id": "r9b2b6bb612dbdb6",
+      "_key": "!items!r9b2b6bb612dbdb6",
       "name": "Valorous Bodyguard",
       "type": "feat",
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
@@ -1139,8 +1139,8 @@
       }
     },
     {
-      "_id": "rxsecretsuponsec",
-      "_key": "!items!rxsecretsuponsec",
+      "_id": "rf9cc2fc440686da",
+      "_key": "!items!rf9cc2fc440686da",
       "name": "Secrets upon Secrets",
       "type": "feat",
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
@@ -1177,8 +1177,8 @@
       }
     },
     {
-      "_id": "rxtenebrousarts0",
-      "_key": "!items!rxtenebrousarts0",
+      "_id": "rfb83a7e22588be5",
+      "_key": "!items!rfb83a7e22588be5",
       "name": "Tenebrous Arts",
       "type": "feat",
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
@@ -1215,8 +1215,8 @@
       }
     },
     {
-      "_id": "rxtreadlightly00",
-      "_key": "!items!rxtreadlightly00",
+      "_id": "r68dc04c09af5505",
+      "_key": "!items!r68dc04c09af5505",
       "name": "Tread Lightly",
       "type": "feat",
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
@@ -1253,8 +1253,8 @@
       }
     },
     {
-      "_id": "rxweaknessasstre",
-      "_key": "!items!rxweaknessasstre",
+      "_id": "r7aad0df22ce893f",
+      "_key": "!items!r7aad0df22ce893f",
       "name": "Weakness as Strength",
       "type": "feat",
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
@@ -1291,8 +1291,8 @@
       }
     },
     {
-      "_id": "rxanimalcompanio",
-      "_key": "!items!rxanimalcompanio",
+      "_id": "reaf139f11c8d4e7",
+      "_key": "!items!reaf139f11c8d4e7",
       "name": "Animal Companion",
       "type": "feat",
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
@@ -1329,8 +1329,8 @@
       }
     },
     {
-      "_id": "rxseasonedrider0",
-      "_key": "!items!rxseasonedrider0",
+      "_id": "r73c28b1f642d1cb",
+      "_key": "!items!r73c28b1f642d1cb",
       "name": "Seasoned Rider",
       "type": "feat",
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
@@ -1367,8 +1367,8 @@
       }
     },
     {
-      "_id": "rxtradeexpert000",
-      "_key": "!items!rxtradeexpert000",
+      "_id": "rbbf08f3dcdbe206",
+      "_key": "!items!rbbf08f3dcdbe206",
       "name": "Trade Expert",
       "type": "feat",
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
@@ -1405,8 +1405,8 @@
       }
     },
     {
-      "_id": "rxunwaveringhear",
-      "_key": "!items!rxunwaveringhear",
+      "_id": "re75d4af89abf98c",
+      "_key": "!items!re75d4af89abf98c",
       "name": "Unwavering Heart",
       "type": "feat",
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
@@ -1462,8 +1462,8 @@
       }
     },
     {
-      "_id": "rxcelestialautho",
-      "_key": "!items!rxcelestialautho",
+      "_id": "r2064804664cc827",
+      "_key": "!items!r2064804664cc827",
       "name": "Celestial Authority",
       "type": "feat",
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
@@ -1500,8 +1500,8 @@
       }
     },
     {
-      "_id": "rxdreamscapejour",
-      "_key": "!items!rxdreamscapejour",
+      "_id": "r6c4d56d7a6ca81d",
+      "_key": "!items!r6c4d56d7a6ca81d",
       "name": "Dreamscape Journey",
       "type": "feat",
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
@@ -1538,8 +1538,8 @@
       }
     },
     {
-      "_id": "rxexorcistssight",
-      "_key": "!items!rxexorcistssight",
+      "_id": "r61e9bc68fbab415",
+      "_key": "!items!r61e9bc68fbab415",
       "name": "Exorcist’s Sight",
       "type": "feat",
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
@@ -1576,8 +1576,8 @@
       }
     },
     {
-      "_id": "rxfavorofladysun",
-      "_key": "!items!rxfavorofladysun",
+      "_id": "r0f59666e1915abf",
+      "_key": "!items!r0f59666e1915abf",
       "name": "Favor of Lady Sun",
       "type": "feat",
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
@@ -1614,8 +1614,8 @@
       }
     },
     {
-      "_id": "rxheartyboast000",
-      "_key": "!items!rxheartyboast000",
+      "_id": "ra5ff4d1289c55e6",
+      "_key": "!items!ra5ff4d1289c55e6",
       "name": "Hearty Boast",
       "type": "feat",
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
@@ -1652,8 +1652,8 @@
       }
     },
     {
-      "_id": "rxinnocuousprese",
-      "_key": "!items!rxinnocuousprese",
+      "_id": "r223bbd08414d27b",
+      "_key": "!items!r223bbd08414d27b",
       "name": "Innocuous Presence",
       "type": "feat",
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
@@ -1690,8 +1690,8 @@
       }
     },
     {
-      "_id": "rxkillinggrip000",
-      "_key": "!items!rxkillinggrip000",
+      "_id": "rd7dc4fe43b026c2",
+      "_key": "!items!rd7dc4fe43b026c2",
       "name": "Killing Grip",
       "type": "feat",
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
@@ -1728,8 +1728,8 @@
       }
     },
     {
-      "_id": "rxobfuscatingdem",
-      "_key": "!items!rxobfuscatingdem",
+      "_id": "r8480a3410f7f0f5",
+      "_key": "!items!r8480a3410f7f0f5",
       "name": "Obfuscating Demeanor",
       "type": "feat",
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
@@ -1766,8 +1766,8 @@
       }
     },
     {
-      "_id": "rxphantomthief00",
-      "_key": "!items!rxphantomthief00",
+      "_id": "r5d2675b3946a7df",
+      "_key": "!items!r5d2675b3946a7df",
       "name": "Phantom Thief",
       "type": "feat",
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
@@ -1804,8 +1804,8 @@
       }
     },
     {
-      "_id": "rxslingspecialis",
-      "_key": "!items!rxslingspecialis",
+      "_id": "r9d241904375dd74",
+      "_key": "!items!r9d241904375dd74",
       "name": "Sling Specialist",
       "type": "feat",
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
@@ -1842,8 +1842,8 @@
       }
     },
     {
-      "_id": "rxspiritualevasi",
-      "_key": "!items!rxspiritualevasi",
+      "_id": "r60f49c5a1236ab8",
+      "_key": "!items!r60f49c5a1236ab8",
       "name": "Spiritual Evasion",
       "type": "feat",
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
@@ -1880,8 +1880,8 @@
       }
     },
     {
-      "_id": "rxspiritualmedia",
-      "_key": "!items!rxspiritualmedia",
+      "_id": "rec4f1e4a914ea58",
+      "_key": "!items!rec4f1e4a914ea58",
       "name": "Spiritual Mediator",
       "type": "feat",
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
@@ -1918,8 +1918,8 @@
       }
     },
     {
-      "_id": "rxstingofagony00",
-      "_key": "!items!rxstingofagony00",
+      "_id": "r40a68a3808c48ca",
+      "_key": "!items!r40a68a3808c48ca",
       "name": "Sting of Agony",
       "type": "feat",
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
@@ -1956,8 +1956,8 @@
       }
     },
     {
-      "_id": "rxartisansingenu",
-      "_key": "!items!rxartisansingenu",
+      "_id": "r4cd6ca3ba14eb00",
+      "_key": "!items!r4cd6ca3ba14eb00",
       "name": "Artisan’s Ingenuity",
       "type": "feat",
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
@@ -1994,8 +1994,8 @@
       }
     },
     {
-      "_id": "rxbrawlersedge00",
-      "_key": "!items!rxbrawlersedge00",
+      "_id": "r53ed3d2833a0cec",
+      "_key": "!items!r53ed3d2833a0cec",
       "name": "Brawler’s Edge",
       "type": "feat",
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
@@ -2032,8 +2032,8 @@
       }
     },
     {
-      "_id": "rxlaborersendura",
-      "_key": "!items!rxlaborersendura",
+      "_id": "rcd6a5160b986d47",
+      "_key": "!items!rcd6a5160b986d47",
       "name": "Laborer’s Endurance",
       "type": "feat",
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
@@ -2091,8 +2091,8 @@
       }
     },
     {
-      "_id": "rxmerchantsstree",
-      "_key": "!items!rxmerchantsstree",
+      "_id": "r21039caa69cd683",
+      "_key": "!items!r21039caa69cd683",
       "name": "Merchant’s Streetwise",
       "type": "feat",
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
@@ -2129,8 +2129,8 @@
       }
     },
     {
-      "_id": "rxsurvivalistsey",
-      "_key": "!items!rxsurvivalistsey",
+      "_id": "r7b0e3797e50bf06",
+      "_key": "!items!r7b0e3797e50bf06",
       "name": "Survivalist’s Eye",
       "type": "feat",
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
@@ -2167,8 +2167,8 @@
       }
     },
     {
-      "_id": "rxtranslatorskno",
-      "_key": "!items!rxtranslatorskno",
+      "_id": "r9ebe7461a9a7726",
+      "_key": "!items!r9ebe7461a9a7726",
       "name": "Translator’s Knowledge",
       "type": "feat",
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
@@ -2205,8 +2205,8 @@
       }
     },
     {
-      "_id": "rxconstriction00",
-      "_key": "!items!rxconstriction00",
+      "_id": "rc59a088e90e7942",
+      "_key": "!items!rc59a088e90e7942",
       "name": "Constriction",
       "type": "feat",
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
@@ -2260,8 +2260,8 @@
       }
     },
     {
-      "_id": "rxtransformation",
-      "_key": "!items!rxtransformation",
+      "_id": "raf31cfed7b4e889",
+      "_key": "!items!raf31cfed7b4e889",
       "name": "Transformation",
       "type": "feat",
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
@@ -2315,8 +2315,8 @@
       }
     },
     {
-      "_id": "rxhauntingphenom",
-      "_key": "!items!rxhauntingphenom",
+      "_id": "ree8e0fcb523f627",
+      "_key": "!items!ree8e0fcb523f627",
       "name": "Haunting Phenomena",
       "type": "feat",
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
@@ -2370,8 +2370,8 @@
       }
     },
     {
-      "_id": "rxnimbleglider00",
-      "_key": "!items!rxnimbleglider00",
+      "_id": "rcd19f760779e581",
+      "_key": "!items!rcd19f760779e581",
       "name": "Nimble Glider",
       "type": "feat",
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
@@ -2446,8 +2446,8 @@
       }
     },
     {
-      "_id": "rxpersistence000",
-      "_key": "!items!rxpersistence000",
+      "_id": "rf8ada9928708181",
+      "_key": "!items!rf8ada9928708181",
       "name": "Persistence",
       "type": "feat",
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
@@ -2484,8 +2484,8 @@
       }
     },
     {
-      "_id": "rxscamper0000000",
-      "_key": "!items!rxscamper0000000",
+      "_id": "ref669d75a8791c3",
+      "_key": "!items!ref669d75a8791c3",
       "name": "Scamper",
       "type": "feat",
       "img": "systems/dnd5e/icons/svg/items/feature.svg",
@@ -2552,6 +2552,264 @@
           "flags": {}
         }
       ],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r645f0283fdec778",
+      "_key": "!items!r645f0283fdec778",
+      "name": "Charm Connoisseur",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>You have visited numerous shrines and taken a deep interest in the creation and use of charms. You gain the following benefits: $ Increase your Intelligence score by 1, to a maximum of 20. $ You gain proficiency in the calligraphy set artisan tool. $ You can create copies of basic charms. This process takes 2 hours of focused work and 5 sp of consecrated paper and ink, at the end of which you must</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 222.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "charmconnoisseur",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": [
+          {
+            "_id": "r7ea7891404aa608",
+            "type": "AbilityScoreImprovement",
+            "configuration": {
+              "points": 0,
+              "fixed": {
+                "int": 1
+              },
+              "cap": 0
+            },
+            "value": {
+              "type": "feat"
+            },
+            "level": 0,
+            "title": ""
+          }
+        ]
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "ra138f28f0c22df1",
+      "_key": "!items!ra138f28f0c22df1",
+      "name": "Fashionable",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>You have insight into what various outfits say about their wearers, and always keep up with the latest trends. Gain the following benefits: $ Increase your Charisma score by 1, to a maximum of 20. $ When you spend at least 5 minutes in a place inhabited by sentient creatures, you can tell what the local fashions are, and how best to blend in (or stand out). $ As part of a long rest or by spending </p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 222.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "fashionable",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": [
+          {
+            "_id": "r128718ab2467200",
+            "type": "AbilityScoreImprovement",
+            "configuration": {
+              "points": 0,
+              "fixed": {
+                "cha": 1
+              },
+              "cap": 0
+            },
+            "value": {
+              "type": "feat"
+            },
+            "level": 0,
+            "title": ""
+          }
+        ]
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r7c56581e77fd47f",
+      "_key": "!items!r7c56581e77fd47f",
+      "name": "Genuine Idealist",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>You can maintain a sunny attitude in almost any circumstance, granting you the following benefits: $ Increase your Constitution score by 1, to a maximum of 20. $ When the GM gives you inspiration, you can choose a friendly character who can perceive you to gain inspiration as well. If you already have inspiration, you can choose two friendly characters who can perceive you to gain inspiration inst</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 224.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "genuineidealist",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": [
+          {
+            "_id": "r7734dc43e9f1f93",
+            "type": "AbilityScoreImprovement",
+            "configuration": {
+              "points": 0,
+              "fixed": {
+                "con": 1
+              },
+              "cap": 0
+            },
+            "value": {
+              "type": "feat"
+            },
+            "level": 0,
+            "title": ""
+          }
+        ]
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r34fb31eb222958d",
+      "_key": "!items!r34fb31eb222958d",
+      "name": "Enhanced Demonic Transformation",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Prerequisite: Oni species. Prerequisite: Oni species You can wield more of your demonic power in the Mortal Realm, granting you the following benefits: $ Increase your Strength score by 1. $ Choose 1 new demonic form feature. You gain this feature while transformed. $ When you transform into your demonic form, roll 1d4 and increase the number of rounds you can maintain that transformation by a number of rounds equal to the </p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 222.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "enhanceddemonictransformation",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Oni species",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": [
+          {
+            "_id": "r827dc90b04a7af4",
+            "type": "AbilityScoreImprovement",
+            "configuration": {
+              "points": 0,
+              "fixed": {
+                "str": 1
+              },
+              "cap": 0
+            },
+            "value": {
+              "type": "feat"
+            },
+            "level": 0,
+            "title": ""
+          }
+        ]
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rb00f137e92c1667",
+      "_key": "!items!rb00f137e92c1667",
+      "name": "Skilled Shapeshifter",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>You become more skilled at controlling your transformations. You gain the ability to perform the ever-changing waves invocation (see page 271) without spending favor. When you do, you gain bonus favor to spend on its empowerments equal to half your proficiency bonus, rounded up. After performing this invocation, you cannot perform it again this way until you complete a long rest or spend at least </p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 239.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "skilledshapeshifter",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
       "folder": null,
       "sort": 0,
       "flags": {},

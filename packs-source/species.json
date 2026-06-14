@@ -2,8 +2,8 @@
   "folders": [],
   "entries": [
     {
-      "_id": "rshumanstandard0",
-      "_key": "!items!rshumanstandard0",
+      "_id": "r0d079767ace0132",
+      "_key": "!items!r0d079767ace0132",
       "name": "Human (Standard)",
       "type": "race",
       "img": "systems/dnd5e/icons/svg/items/race.svg",
@@ -82,8 +82,8 @@
       }
     },
     {
-      "_id": "rshumanversatile",
-      "_key": "!items!rshumanversatile",
+      "_id": "r45ded04574460f7",
+      "_key": "!items!r45ded04574460f7",
       "name": "Human (Versatile)",
       "type": "race",
       "img": "systems/dnd5e/icons/svg/items/race.svg",
@@ -138,181 +138,196 @@
               "type": "feat",
               "pool": [
                 {
-                  "uuid": "Compendium.rokugan5e.feats.Item.rxclarityinsolac"
+                  "uuid": "Compendium.rokugan5e.feats.Item.r34615d91c15f88a"
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.feats.Item.rxforbiddensorce"
+                  "uuid": "Compendium.rokugan5e.feats.Item.r0cbac6686943969"
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.feats.Item.rxgracefulcombat"
+                  "uuid": "Compendium.rokugan5e.feats.Item.r591de3613232501"
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.feats.Item.rxparagon0000000"
+                  "uuid": "Compendium.rokugan5e.feats.Item.r0ca1f9097ea4950"
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.feats.Item.rxshadowlandsmig"
+                  "uuid": "Compendium.rokugan5e.feats.Item.rec9b9056ec89720"
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.feats.Item.rxunusualweaponm"
+                  "uuid": "Compendium.rokugan5e.feats.Item.r273de48e83caf36"
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.feats.Item.rxceaselessvigil"
+                  "uuid": "Compendium.rokugan5e.feats.Item.rd234ea08748bf29"
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.feats.Item.rxendurancetrain"
+                  "uuid": "Compendium.rokugan5e.feats.Item.ra29cb1f989436ce"
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.feats.Item.rxengineeringexp"
+                  "uuid": "Compendium.rokugan5e.feats.Item.rbb36345873302a2"
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.feats.Item.rxfellstrikes000"
+                  "uuid": "Compendium.rokugan5e.feats.Item.rf02b09fe5f097a9"
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.feats.Item.rxcautiousrhetor"
+                  "uuid": "Compendium.rokugan5e.feats.Item.r6d93a22829c9115"
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.feats.Item.rxpoiseandpurpos"
+                  "uuid": "Compendium.rokugan5e.feats.Item.r4315a5082d95937"
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.feats.Item.rxresolveofiron0"
+                  "uuid": "Compendium.rokugan5e.feats.Item.r4d6b66e6bf7a8f9"
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.feats.Item.rxwellconnected0"
+                  "uuid": "Compendium.rokugan5e.feats.Item.r257cd51f458a6f2"
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.feats.Item.rxadaptablestrat"
+                  "uuid": "Compendium.rokugan5e.feats.Item.re4967a7603fd638"
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.feats.Item.rxaltitudetraini"
+                  "uuid": "Compendium.rokugan5e.feats.Item.r9096bb71b125ed3"
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.feats.Item.rxdisruptivestri"
+                  "uuid": "Compendium.rokugan5e.feats.Item.r81efc79bff23f89"
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.feats.Item.rxkeenstudy00000"
+                  "uuid": "Compendium.rokugan5e.feats.Item.ra37ae28f2bb1e02"
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.feats.Item.rxcombatdrill000"
+                  "uuid": "Compendium.rokugan5e.feats.Item.r477a7faeb97b39b"
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.feats.Item.rxfieldmedicine0"
+                  "uuid": "Compendium.rokugan5e.feats.Item.r342c10537dc7400"
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.feats.Item.rxmarchingstamin"
+                  "uuid": "Compendium.rokugan5e.feats.Item.r80a1507c32daf6a"
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.feats.Item.rxmotivatingstor"
+                  "uuid": "Compendium.rokugan5e.feats.Item.r39c7e5dc2b7b288"
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.feats.Item.rxapprenticeritu"
+                  "uuid": "Compendium.rokugan5e.feats.Item.r18264145a452ae4"
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.feats.Item.rxelementalalign"
+                  "uuid": "Compendium.rokugan5e.feats.Item.r5a69dc399891641"
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.feats.Item.rxloremaster0000"
+                  "uuid": "Compendium.rokugan5e.feats.Item.r83e248fe5e9f8bc"
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.feats.Item.rxvalorousbodygu"
+                  "uuid": "Compendium.rokugan5e.feats.Item.r9b2b6bb612dbdb6"
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.feats.Item.rxsecretsuponsec"
+                  "uuid": "Compendium.rokugan5e.feats.Item.rf9cc2fc440686da"
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.feats.Item.rxtenebrousarts0"
+                  "uuid": "Compendium.rokugan5e.feats.Item.rfb83a7e22588be5"
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.feats.Item.rxtreadlightly00"
+                  "uuid": "Compendium.rokugan5e.feats.Item.r68dc04c09af5505"
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.feats.Item.rxweaknessasstre"
+                  "uuid": "Compendium.rokugan5e.feats.Item.r7aad0df22ce893f"
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.feats.Item.rxanimalcompanio"
+                  "uuid": "Compendium.rokugan5e.feats.Item.reaf139f11c8d4e7"
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.feats.Item.rxseasonedrider0"
+                  "uuid": "Compendium.rokugan5e.feats.Item.r73c28b1f642d1cb"
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.feats.Item.rxtradeexpert000"
+                  "uuid": "Compendium.rokugan5e.feats.Item.rbbf08f3dcdbe206"
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.feats.Item.rxunwaveringhear"
+                  "uuid": "Compendium.rokugan5e.feats.Item.re75d4af89abf98c"
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.feats.Item.rxcelestialautho"
+                  "uuid": "Compendium.rokugan5e.feats.Item.r2064804664cc827"
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.feats.Item.rxdreamscapejour"
+                  "uuid": "Compendium.rokugan5e.feats.Item.r6c4d56d7a6ca81d"
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.feats.Item.rxexorcistssight"
+                  "uuid": "Compendium.rokugan5e.feats.Item.r61e9bc68fbab415"
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.feats.Item.rxfavorofladysun"
+                  "uuid": "Compendium.rokugan5e.feats.Item.r0f59666e1915abf"
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.feats.Item.rxheartyboast000"
+                  "uuid": "Compendium.rokugan5e.feats.Item.ra5ff4d1289c55e6"
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.feats.Item.rxinnocuousprese"
+                  "uuid": "Compendium.rokugan5e.feats.Item.r223bbd08414d27b"
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.feats.Item.rxkillinggrip000"
+                  "uuid": "Compendium.rokugan5e.feats.Item.rd7dc4fe43b026c2"
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.feats.Item.rxobfuscatingdem"
+                  "uuid": "Compendium.rokugan5e.feats.Item.r8480a3410f7f0f5"
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.feats.Item.rxphantomthief00"
+                  "uuid": "Compendium.rokugan5e.feats.Item.r5d2675b3946a7df"
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.feats.Item.rxslingspecialis"
+                  "uuid": "Compendium.rokugan5e.feats.Item.r9d241904375dd74"
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.feats.Item.rxspiritualevasi"
+                  "uuid": "Compendium.rokugan5e.feats.Item.r60f49c5a1236ab8"
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.feats.Item.rxspiritualmedia"
+                  "uuid": "Compendium.rokugan5e.feats.Item.rec4f1e4a914ea58"
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.feats.Item.rxstingofagony00"
+                  "uuid": "Compendium.rokugan5e.feats.Item.r40a68a3808c48ca"
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.feats.Item.rxartisansingenu"
+                  "uuid": "Compendium.rokugan5e.feats.Item.r4cd6ca3ba14eb00"
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.feats.Item.rxbrawlersedge00"
+                  "uuid": "Compendium.rokugan5e.feats.Item.r53ed3d2833a0cec"
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.feats.Item.rxlaborersendura"
+                  "uuid": "Compendium.rokugan5e.feats.Item.rcd6a5160b986d47"
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.feats.Item.rxmerchantsstree"
+                  "uuid": "Compendium.rokugan5e.feats.Item.r21039caa69cd683"
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.feats.Item.rxsurvivalistsey"
+                  "uuid": "Compendium.rokugan5e.feats.Item.r7b0e3797e50bf06"
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.feats.Item.rxtranslatorskno"
+                  "uuid": "Compendium.rokugan5e.feats.Item.r9ebe7461a9a7726"
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.feats.Item.rxconstriction00"
+                  "uuid": "Compendium.rokugan5e.feats.Item.rc59a088e90e7942"
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.feats.Item.rxtransformation"
+                  "uuid": "Compendium.rokugan5e.feats.Item.raf31cfed7b4e889"
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.feats.Item.rxhauntingphenom"
+                  "uuid": "Compendium.rokugan5e.feats.Item.ree8e0fcb523f627"
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.feats.Item.rxnimbleglider00"
+                  "uuid": "Compendium.rokugan5e.feats.Item.rcd19f760779e581"
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.feats.Item.rxpersistence000"
+                  "uuid": "Compendium.rokugan5e.feats.Item.rf8ada9928708181"
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.feats.Item.rxscamper0000000"
+                  "uuid": "Compendium.rokugan5e.feats.Item.ref669d75a8791c3"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.feats.Item.r645f0283fdec778"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.feats.Item.ra138f28f0c22df1"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.feats.Item.r7c56581e77fd47f"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.feats.Item.r34fb31eb222958d"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.feats.Item.rb00f137e92c1667"
                 }
               ],
               "restriction": {
@@ -356,8 +371,8 @@
       }
     },
     {
-      "_id": "rsnaga0000000000",
-      "_key": "!items!rsnaga0000000000",
+      "_id": "re3e107fbc3d4c6c",
+      "_key": "!items!re3e107fbc3d4c6c",
       "name": "Naga",
       "type": "race",
       "img": "systems/dnd5e/icons/svg/items/race.svg",
@@ -429,8 +444,8 @@
       }
     },
     {
-      "_id": "rsnezumi00000000",
-      "_key": "!items!rsnezumi00000000",
+      "_id": "r76439a8f407f011",
+      "_key": "!items!r76439a8f407f011",
       "name": "Nezumi",
       "type": "race",
       "img": "systems/dnd5e/icons/svg/items/race.svg",
@@ -502,8 +517,8 @@
       }
     },
     {
-      "_id": "rsmazoku00000000",
-      "_key": "!items!rsmazoku00000000",
+      "_id": "rc3d4f13f701ce74",
+      "_key": "!items!rc3d4f13f701ce74",
       "name": "Mazoku",
       "type": "race",
       "img": "systems/dnd5e/icons/svg/items/race.svg",
@@ -575,8 +590,8 @@
       }
     },
     {
-      "_id": "rsspecter0000000",
-      "_key": "!items!rsspecter0000000",
+      "_id": "r1c6fcc2d487b318",
+      "_key": "!items!r1c6fcc2d487b318",
       "name": "Specter",
       "type": "race",
       "img": "systems/dnd5e/icons/svg/items/race.svg",
@@ -648,8 +663,8 @@
       }
     },
     {
-      "_id": "rstengu000000000",
-      "_key": "!items!rstengu000000000",
+      "_id": "r02850f150ee696c",
+      "_key": "!items!r02850f150ee696c",
       "name": "Tengu",
       "type": "race",
       "img": "systems/dnd5e/icons/svg/items/race.svg",
@@ -721,8 +736,8 @@
       }
     },
     {
-      "_id": "rsanimalyokai000",
-      "_key": "!items!rsanimalyokai000",
+      "_id": "rfec87c602a08618",
+      "_key": "!items!rfec87c602a08618",
       "name": "Animal Yokai",
       "type": "race",
       "img": "systems/dnd5e/icons/svg/items/race.svg",
@@ -794,8 +809,8 @@
       }
     },
     {
-      "_id": "rsuniqueexistenc",
-      "_key": "!items!rsuniqueexistenc",
+      "_id": "re82c8a9ef571015",
+      "_key": "!items!re82c8a9ef571015",
       "name": "Unique Existence",
       "type": "race",
       "img": "systems/dnd5e/icons/svg/items/race.svg",

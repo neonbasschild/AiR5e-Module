@@ -1,0 +1,1690 @@
+{
+  "folders": [
+    {
+      "_id": "r1d2210a8f67a63b",
+      "_key": "!folders!r1d2210a8f67a63b",
+      "name": "Charms - Rank 1",
+      "type": "Item",
+      "sorting": "a",
+      "color": null,
+      "folder": null,
+      "sort": 0
+    },
+    {
+      "_id": "r79341131cc39c03",
+      "_key": "!folders!r79341131cc39c03",
+      "name": "Charms - Rank 2",
+      "type": "Item",
+      "sorting": "a",
+      "color": null,
+      "folder": null,
+      "sort": 0
+    },
+    {
+      "_id": "rf4f48d8e7292114",
+      "_key": "!folders!rf4f48d8e7292114",
+      "name": "Charms - Rank 3",
+      "type": "Item",
+      "sorting": "a",
+      "color": null,
+      "folder": null,
+      "sort": 0
+    }
+  ],
+  "entries": [
+    {
+      "_id": "re9afff2add30b5b",
+      "_key": "!items!re9afff2add30b5b",
+      "name": "Ancient Mountains Charm",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Rank 1 charm. Blessing of the Fortune of Longevity. Offering to recharge at a shrine: 1 gp. Recharges on a long rest.</p><p>When another character damages you with an attack, use this charm and your reaction to reduce the damage by 1d6 + your proficiency bonus.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 217.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "ancientmountainscharm",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Charm (Rank 1)",
+        "properties": [],
+        "activities": {
+          "rd56041be59c7be1": {
+            "_id": "rd56041be59c7be1",
+            "type": "damage",
+            "name": "",
+            "activation": {
+              "type": "reaction",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "itemUses",
+                  "value": "1",
+                  "target": "",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "damage": {
+              "parts": [
+                {
+                  "number": null,
+                  "denomination": null,
+                  "bonus": "",
+                  "types": [],
+                  "custom": {
+                    "enabled": true,
+                    "formula": "1d6 + @prof"
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": null
+                  }
+                }
+              ]
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "1",
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "lr",
+              "type": "recoverAll"
+            }
+          ]
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "r1d2210a8f67a63b",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "charm": {
+            "rank": 1,
+            "offering": "1 gp"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "re66139af196a54a",
+      "_key": "!items!re66139af196a54a",
+      "name": "Discernment Charm",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Rank 1 charm. Blessing of the Fortune of Rhetoric and Performance. Offering to recharge at a shrine: 1 gp. Recharges on a long rest.</p><p>When another character you can perceive makes a Charisma check against you, use this charm to learn their motivation.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 217.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "discernmentcharm",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Charm (Rank 1)",
+        "properties": [],
+        "activities": {
+          "raf51764e96a9388": {
+            "_id": "raf51764e96a9388",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "special",
+              "value": null,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "itemUses",
+                  "value": "1",
+                  "target": "",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "1",
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "lr",
+              "type": "recoverAll"
+            }
+          ]
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "r1d2210a8f67a63b",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "charm": {
+            "rank": 1,
+            "offering": "1 gp"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r2c9d07241026367",
+      "_key": "!items!r2c9d07241026367",
+      "name": "Imbuement Charm",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Rank 1 charm. Blessing of the Fortune of Blessed Art. Offering to recharge at a shrine: 1 gp. Recharges on a long rest.</p><p>Use this charm and a bonus action to treat your weapon and unarmed attacks as magical for overcoming resistances and immunities until the end of your turn.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 217.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "imbuementcharm",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Charm (Rank 1)",
+        "properties": [],
+        "activities": {
+          "rd2c0092286cd576": {
+            "_id": "rd2c0092286cd576",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "bonus",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "itemUses",
+                  "value": "1",
+                  "target": "",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "1",
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "lr",
+              "type": "recoverAll"
+            }
+          ]
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "r1d2210a8f67a63b",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "charm": {
+            "rank": 1,
+            "offering": "1 gp"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rb28ad94f7afc2cd",
+      "_key": "!items!rb28ad94f7afc2cd",
+      "name": "Obstinacy Charm",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Rank 1 charm. Blessing of the Fortune of Wisdom and Mercy. Offering to recharge at a shrine: 1 gp. Recharges on a long rest.</p><p>If you are charmed or frightened, use this charm and a bonus action to remove that condition.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 217.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "obstinacycharm",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Charm (Rank 1)",
+        "properties": [],
+        "activities": {
+          "r07525fbdc3cf159": {
+            "_id": "r07525fbdc3cf159",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "bonus",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "itemUses",
+                  "value": "1",
+                  "target": "",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "1",
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "lr",
+              "type": "recoverAll"
+            }
+          ]
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "r1d2210a8f67a63b",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "charm": {
+            "rank": 1,
+            "offering": "1 gp"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r4e59f816a23ac4f",
+      "_key": "!items!r4e59f816a23ac4f",
+      "name": "Preservation Charm",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Rank 1 charm. Blessing of the Fortune of Midday Sun. Offering to recharge at a shrine: 1 gp. Recharges on a long rest.</p><p>When you make a death saving throw, before rolling, use this charm to automatically succeed.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 217.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "preservationcharm",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Charm (Rank 1)",
+        "properties": [],
+        "activities": {
+          "r2c6e3263c396e16": {
+            "_id": "r2c6e3263c396e16",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "special",
+              "value": null,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "itemUses",
+                  "value": "1",
+                  "target": "",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "1",
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "lr",
+              "type": "recoverAll"
+            }
+          ]
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "r1d2210a8f67a63b",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "charm": {
+            "rank": 1,
+            "offering": "1 gp"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r321f2b5a26015ff",
+      "_key": "!items!r321f2b5a26015ff",
+      "name": "Protection Charm",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Rank 1 charm. Blessing of the Fortune of Physical Mastery. Offering to recharge at a shrine: 1 gp. Recharges on a long rest.</p><p>Choose a damage type (bludgeoning, cold, fire, force, lightning, thunder) when acquired. Use this charm and your action to gain resistance to that type until the start of your next turn.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 217.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "protectioncharm",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Charm (Rank 1)",
+        "properties": [],
+        "activities": {
+          "rf015ccc85526457": {
+            "_id": "rf015ccc85526457",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "itemUses",
+                  "value": "1",
+                  "target": "",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "1",
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "lr",
+              "type": "recoverAll"
+            }
+          ]
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "r1d2210a8f67a63b",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "charm": {
+            "rank": 1,
+            "offering": "1 gp"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r2fa2c2840c392ff",
+      "_key": "!items!r2fa2c2840c392ff",
+      "name": "Purification Charm",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Rank 1 charm. Blessing of the Fortune of Clear Waters. Offering to recharge at a shrine: 1 gp. Recharges on a long rest.</p><p>If you are poisoned, use this charm and a bonus action to remove that condition.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 217.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "purificationcharm",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Charm (Rank 1)",
+        "properties": [],
+        "activities": {
+          "r80126a7f3dab6a7": {
+            "_id": "r80126a7f3dab6a7",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "bonus",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "itemUses",
+                  "value": "1",
+                  "target": "",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "1",
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "lr",
+              "type": "recoverAll"
+            }
+          ]
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "r1d2210a8f67a63b",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "charm": {
+            "rank": 1,
+            "offering": "1 gp"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r0bc059cb9820b4b",
+      "_key": "!items!r0bc059cb9820b4b",
+      "name": "Restoration Charm",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Rank 1 charm. Blessing of the Fortune of Healing and Medicine. Offering to recharge at a shrine: 1 gp. Recharges on a long rest.</p><p>When you are healed for 1+ hit points, use this charm to heal additional hit points equal to 1d6 + your proficiency bonus.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 217.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "restorationcharm",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Charm (Rank 1)",
+        "properties": [],
+        "activities": {
+          "ra680c84f444f3b7": {
+            "_id": "ra680c84f444f3b7",
+            "type": "heal",
+            "name": "",
+            "activation": {
+              "type": "special",
+              "value": null,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "itemUses",
+                  "value": "1",
+                  "target": "",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "healing": {
+              "number": null,
+              "denomination": null,
+              "bonus": "",
+              "types": [
+                "healing"
+              ],
+              "custom": {
+                "enabled": true,
+                "formula": "1d6 + @prof"
+              },
+              "scaling": {
+                "mode": "",
+                "number": null
+              }
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "1",
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "lr",
+              "type": "recoverAll"
+            }
+          ]
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "r1d2210a8f67a63b",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "charm": {
+            "rank": 1,
+            "offering": "1 gp"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "reb3947fbea8d4f6",
+      "_key": "!items!reb3947fbea8d4f6",
+      "name": "Drifting Cloud Charm",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Rank 2 charm. Blessing of the Fortune of Open Skies. Offering to recharge at a shrine: 1 gp. Recharges on a long rest.</p><p>On your turn, spend this charm to increase one of your movement speeds by +5 feet until the end of your turn.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 217.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "driftingcloudcharm",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Charm (Rank 2)",
+        "properties": [],
+        "activities": {
+          "r9c110070162be74": {
+            "_id": "r9c110070162be74",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "special",
+              "value": null,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "itemUses",
+                  "value": "1",
+                  "target": "",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "1",
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "lr",
+              "type": "recoverAll"
+            }
+          ]
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "r79341131cc39c03",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "charm": {
+            "rank": 2,
+            "offering": "1 gp"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r9984986f66254df",
+      "_key": "!items!r9984986f66254df",
+      "name": "Flowing River Charm",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Rank 2 charm. Blessing of the Fortune of Longevity. Offering to recharge at a shrine: 5 gp. Recharges on a long rest.</p><p>Spend your action, this charm, and one Hit Die to regain hit points equal to that Hit Die's maximum value.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 217.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "flowingrivercharm",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Charm (Rank 2)",
+        "properties": [],
+        "activities": {
+          "rfa28d30eb8e2a49": {
+            "_id": "rfa28d30eb8e2a49",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "itemUses",
+                  "value": "1",
+                  "target": "",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "1",
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "lr",
+              "type": "recoverAll"
+            }
+          ]
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "r79341131cc39c03",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "charm": {
+            "rank": 2,
+            "offering": "5 gp"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r06fa130ebdc9dd8",
+      "_key": "!items!r06fa130ebdc9dd8",
+      "name": "Foresight Charm",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Rank 2 charm. Blessing of the Fortune of Fateful Encounters. Offering to recharge at a shrine: 5 gp. Recharges on a long rest.</p><p>After you use your reaction, spend this charm to gain an additional reaction before the start of your next turn.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 217.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "foresightcharm",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Charm (Rank 2)",
+        "properties": [],
+        "activities": {
+          "re48f95a47bd22db": {
+            "_id": "re48f95a47bd22db",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "special",
+              "value": null,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "itemUses",
+                  "value": "1",
+                  "target": "",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "1",
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "lr",
+              "type": "recoverAll"
+            }
+          ]
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "r79341131cc39c03",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "charm": {
+            "rank": 2,
+            "offering": "5 gp"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r72b47d656f3db73",
+      "_key": "!items!r72b47d656f3db73",
+      "name": "Inner Strength Charm",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Rank 2 charm. Blessing of the Fortune of Persistence. Offering to recharge at a shrine: 5 gp. Recharges on a long rest.</p><p>Choose favor or focus when acquired. On your turn, spend this charm to gain 1 of that resource.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 217.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "innerstrengthcharm",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Charm (Rank 2)",
+        "properties": [],
+        "activities": {
+          "r4553885b7890e96": {
+            "_id": "r4553885b7890e96",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "special",
+              "value": null,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "itemUses",
+                  "value": "1",
+                  "target": "",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "1",
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "lr",
+              "type": "recoverAll"
+            }
+          ]
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "r79341131cc39c03",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "charm": {
+            "rank": 2,
+            "offering": "5 gp"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rbc8745c12ed90dc",
+      "_key": "!items!rbc8745c12ed90dc",
+      "name": "Observation Charm",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Rank 2 charm. Blessing of the Fortune of Wisdom and Mercy. Offering to recharge at a shrine: 5 gp. Recharges on a long rest.</p><p>Spend a bonus action and this charm to learn the CR, AC, highest ability score, or motivation of a character you can perceive.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 217.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "observationcharm",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Charm (Rank 2)",
+        "properties": [],
+        "activities": {
+          "rcc0efdc95eb9213": {
+            "_id": "rcc0efdc95eb9213",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "bonus",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "itemUses",
+                  "value": "1",
+                  "target": "",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "1",
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "lr",
+              "type": "recoverAll"
+            }
+          ]
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "r79341131cc39c03",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "charm": {
+            "rank": 2,
+            "offering": "5 gp"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r6e523ffb3c5acb5",
+      "_key": "!items!r6e523ffb3c5acb5",
+      "name": "Prosperity Charm",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Rank 2 charm. Blessing of the Fortune of Wealth. Offering to recharge at a shrine: 5 gp. Recharges on a long rest.</p><p>When acquiring money by any means other than payment for a job, receive 10% more.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 217.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "prosperitycharm",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Charm (Rank 2)",
+        "properties": [],
+        "activities": {
+          "ra3674c637f2e20e": {
+            "_id": "ra3674c637f2e20e",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "special",
+              "value": null,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "r79341131cc39c03",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "charm": {
+            "rank": 2,
+            "offering": "5 gp"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r9f002d673cc883a",
+      "_key": "!items!r9f002d673cc883a",
+      "name": "Iron Skin Charm",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Rank 3 charm. Blessing of the Fortune of Mountains and Caves. Narrative reward only; provides a passive benefit and a once-per-long-rest active benefit.</p><p>Passive: +1 AC. Active: use this charm and a bonus action to gain advantage on Con and Str saving throws until the start of your next turn.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 218.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "ironskincharm",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Charm (Rank 3)",
+        "properties": [],
+        "activities": {
+          "r6df99e06c7a5b68": {
+            "_id": "r6df99e06c7a5b68",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "bonus",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "itemUses",
+                  "value": "1",
+                  "target": "",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "1",
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "lr",
+              "type": "recoverAll"
+            }
+          ]
+        },
+        "advancement": []
+      },
+      "effects": [
+        {
+          "_id": "r50f88a3133f6fd5",
+          "name": "Iron Skin Charm (passive)",
+          "img": "systems/dnd5e/icons/svg/items/feature.svg",
+          "changes": [
+            {
+              "key": "system.attributes.ac.bonus",
+              "mode": 2,
+              "value": "1",
+              "priority": 20
+            }
+          ],
+          "disabled": false,
+          "transfer": true,
+          "description": "",
+          "origin": null,
+          "duration": {},
+          "statuses": [],
+          "flags": {}
+        }
+      ],
+      "folder": "rf4f48d8e7292114",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "charm": {
+            "rank": 3,
+            "offering": "—"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r4638d609850f400",
+      "_key": "!items!r4638d609850f400",
+      "name": "Mastery Charm",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Rank 3 charm. Blessing of the Fortune of Craft. Narrative reward only; provides a passive benefit and a once-per-long-rest active benefit.</p><p>Choose an ability score when acquired; you gain proficiency in its saving throws. After failing a save of that type, use your reaction and this charm to gain temp HP equal to 2d8 + your proficiency bonus.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 218.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "masterycharm",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Charm (Rank 3)",
+        "properties": [],
+        "activities": {
+          "r7a5ca306bf3dcef": {
+            "_id": "r7a5ca306bf3dcef",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "reaction",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "itemUses",
+                  "value": "1",
+                  "target": "",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "1",
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "lr",
+              "type": "recoverAll"
+            }
+          ]
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "rf4f48d8e7292114",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "charm": {
+            "rank": 3,
+            "offering": "—"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r568700445633d29",
+      "_key": "!items!r568700445633d29",
+      "name": "Ultimate Imbuement Charm",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Rank 3 charm. Blessing of the Fortune of Blessed Art. Narrative reward only; provides a passive benefit and a once-per-long-rest active benefit.</p><p>Passive: your unarmed and weapon attacks count as magical. Active: when you hit with an attack, use this charm to increase the damage by 1d6 + your proficiency bonus.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 218.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "ultimateimbuementcharm",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Charm (Rank 3)",
+        "properties": [],
+        "activities": {
+          "r5984479c76f13b2": {
+            "_id": "r5984479c76f13b2",
+            "type": "damage",
+            "name": "",
+            "activation": {
+              "type": "special",
+              "value": null,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "itemUses",
+                  "value": "1",
+                  "target": "",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "damage": {
+              "parts": [
+                {
+                  "number": null,
+                  "denomination": null,
+                  "bonus": "",
+                  "types": [],
+                  "custom": {
+                    "enabled": true,
+                    "formula": "1d6 + @prof"
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": null
+                  }
+                }
+              ]
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "1",
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "lr",
+              "type": "recoverAll"
+            }
+          ]
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "rf4f48d8e7292114",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "charm": {
+            "rank": 3,
+            "offering": "—"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r4865de036f03af3",
+      "_key": "!items!r4865de036f03af3",
+      "name": "Ultimate Preservation Charm",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Rank 3 charm. Blessing of the Fortune of Midday Sun. Narrative reward only; provides a passive benefit and a once-per-long-rest active benefit.</p><p>Passive: you cannot be killed by Instant Death. Active: after you succeed on a death saving throw, use this charm to regain 1 hit point.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 218.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "ultimatepreservationcharm",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Charm (Rank 3)",
+        "properties": [],
+        "activities": {
+          "r3aa2ef0664f943a": {
+            "_id": "r3aa2ef0664f943a",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "special",
+              "value": null,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "itemUses",
+                  "value": "1",
+                  "target": "",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "1",
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "lr",
+              "type": "recoverAll"
+            }
+          ]
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "rf4f48d8e7292114",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "charm": {
+            "rank": 3,
+            "offering": "—"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r818fb1ee458eaee",
+      "_key": "!items!r818fb1ee458eaee",
+      "name": "Ultimate Protection Charm",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Rank 3 charm. Blessing of the Fortune of Physical Mastery. Narrative reward only; provides a passive benefit and a once-per-long-rest active benefit.</p><p>Passive: advantage on checks and saves to remove conditions. Active: on your turn, use this charm to remove one condition from yourself or a character within 15 feet.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 218.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "ultimateprotectioncharm",
+        "type": {
+          "value": "feat",
+          "subtype": ""
+        },
+        "requirements": "Charm (Rank 3)",
+        "properties": [],
+        "activities": {
+          "rb9c46a88b84a08a": {
+            "_id": "rb9c46a88b84a08a",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "itemUses",
+                  "value": "1",
+                  "target": "",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "1",
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "lr",
+              "type": "recoverAll"
+            }
+          ]
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "rf4f48d8e7292114",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "charm": {
+            "rank": 3,
+            "offering": "—"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,3433 @@
+{
+  "folders": [
+    {
+      "_id": "r11c23665b3aba09",
+      "_key": "!folders!r11c23665b3aba09",
+      "name": "Externalizations (Pilgrim)",
+      "type": "Item",
+      "sorting": "a",
+      "color": null,
+      "folder": null,
+      "sort": 0
+    },
+    {
+      "_id": "r836ec828af4a59b",
+      "_key": "!folders!r836ec828af4a59b",
+      "name": "Path of Redemption Externalizations",
+      "type": "Item",
+      "sorting": "a",
+      "color": null,
+      "folder": null,
+      "sort": 0
+    },
+    {
+      "_id": "re78e34a3654fd37",
+      "_key": "!folders!re78e34a3654fd37",
+      "name": "Path of Harmony Externalizations",
+      "type": "Item",
+      "sorting": "a",
+      "color": null,
+      "folder": null,
+      "sort": 0
+    },
+    {
+      "_id": "r201442660ef6b80",
+      "_key": "!folders!r201442660ef6b80",
+      "name": "Path of Justice Externalizations",
+      "type": "Item",
+      "sorting": "a",
+      "color": null,
+      "folder": null,
+      "sort": 0
+    }
+  ],
+  "entries": [
+    {
+      "_id": "r254bbe61f5ac2ad",
+      "_key": "!items!r254bbe61f5ac2ad",
+      "name": "Impetus of Rejuvenation",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Pilgrim externalization. Costs 1 or more Hit Dice to activate. Energy shift: move toward the Yang apex (see effect). Attack modifier = proficiency + Constitution; save DC = 8 + proficiency + your cosmic path's attribute.</p><p>You can spend your action to choose yourself or another creature within range. If you chose yourself, you can spend and roll a number of your Hit Dice up to your Yin value and immediately regain hit points equal to the total value of those Hit Dice + your Constitution modifier. Alternately, if you c</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "impetusofrejuvenation",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Pilgrim",
+        "properties": [],
+        "activities": {
+          "rc7c497569a7a6e6": {
+            "_id": "rc7c497569a7a6e6",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "hitDice",
+                  "value": "1",
+                  "target": "smallest",
+                  "scaling": {
+                    "mode": "amount",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": true,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "r11c23665b3aba09",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "externalization": {
+            "energyShift": "yang"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r185222976180ddb",
+      "_key": "!items!r185222976180ddb",
+      "name": "Resonating Strike",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Pilgrim externalization. Costs 1 or more Hit Dice to activate. Energy shift: move toward the Yin apex (see effect). Attack modifier = proficiency + Constitution; save DC = 8 + proficiency + your cosmic path's attribute.</p><p>You can spend your action to make an unarmed attack against a creature in range. On a hit, you can roll and spend a number of Hit Dice up to your Yang value. At the end of its next turn, your target suffers radiant damage equal to 1d6 + your Constitution modifier. It suffers this radiant damage agai</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "resonatingstrike",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Pilgrim",
+        "properties": [],
+        "activities": {
+          "r9bfce7d0dd72eed": {
+            "_id": "r9bfce7d0dd72eed",
+            "type": "save",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "hitDice",
+                  "value": "1",
+                  "target": "smallest",
+                  "scaling": {
+                    "mode": "amount",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": true,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "damage": {
+              "onSave": "half",
+              "parts": []
+            },
+            "save": {
+              "ability": [
+                "dex"
+              ],
+              "dc": {
+                "calculation": "spellcasting",
+                "formula": ""
+              }
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "r11c23665b3aba09",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "externalization": {
+            "energyShift": "yin"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rc4504026e210e28",
+      "_key": "!items!rc4504026e210e28",
+      "name": "Cleansing Touch",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Pilgrim externalization. Costs 1 or more Hit Dice to activate. Energy shift: move toward the Yang apex (see effect). Attack modifier = proficiency + Constitution; save DC = 8 + proficiency + your cosmic path's attribute.</p><p>You can spend your action to choose a number of creatures in range up to your Constitution modifier. Spend and roll a number of Hit Dice up to your Yin value. For each die that is of the listed value or higher, you can remove one of the following conditions from a chosen character: $ 4 or higher: bl</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "cleansingtouch",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Pilgrim",
+        "properties": [],
+        "activities": {
+          "r16c680b195ccc88": {
+            "_id": "r16c680b195ccc88",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "hitDice",
+                  "value": "1",
+                  "target": "smallest",
+                  "scaling": {
+                    "mode": "amount",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": true,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "r11c23665b3aba09",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "externalization": {
+            "energyShift": "yang"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r744c6a9f54b82d4",
+      "_key": "!items!r744c6a9f54b82d4",
+      "name": "Fearsome Leap",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Pilgrim externalization. Costs 1 or more Hit Dice to activate. Energy shift: move toward the Yin apex (see effect). Attack modifier = proficiency + Constitution; save DC = 8 + proficiency + your cosmic path's attribute.</p><p>You can spend your bonus action on your turn to make a heroic leap or extend a jump you already began as part of an action (or any other way). Spend and roll a number of Hit Dice up to your Yang value. You leap 10 feet + 5 feet for each Hit Die with a result of 5 or higher, or extend your leap by th</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "fearsomeleap",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Pilgrim",
+        "properties": [],
+        "activities": {
+          "r6f78b83b1a807c7": {
+            "_id": "r6f78b83b1a807c7",
+            "type": "save",
+            "name": "",
+            "activation": {
+              "type": "bonus",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "hitDice",
+                  "value": "1",
+                  "target": "smallest",
+                  "scaling": {
+                    "mode": "amount",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": true,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "damage": {
+              "onSave": "half",
+              "parts": []
+            },
+            "save": {
+              "ability": [
+                "dex"
+              ],
+              "dc": {
+                "calculation": "spellcasting",
+                "formula": ""
+              }
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "r11c23665b3aba09",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "externalization": {
+            "energyShift": "yin"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r6cdd5fa6bf07db3",
+      "_key": "!items!r6cdd5fa6bf07db3",
+      "name": "Infuse Energy",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Pilgrim externalization. Costs 1 or more Hit Dice to activate. Energy shift: move toward the Yin apex (see effect). Attack modifier = proficiency + Constitution; save DC = 8 + proficiency + your cosmic path's attribute.</p><p>You can spend your bonus action to choose yourself or another creature within 5 feet. Spend and roll a number of Hit Dice up to your Yang value. The chosen creature's next attack roll or multitarget attack roll before the end of its next turn has advantage, and the creature gains a bonus to damage e</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "infuseenergy",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Pilgrim",
+        "properties": [],
+        "activities": {
+          "r945ee928d0681be": {
+            "_id": "r945ee928d0681be",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "bonus",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "hitDice",
+                  "value": "1",
+                  "target": "smallest",
+                  "scaling": {
+                    "mode": "amount",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": true,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "attack": {
+              "ability": "con",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "unarmed"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": false,
+              "parts": []
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "r11c23665b3aba09",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "externalization": {
+            "energyShift": "yin"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r436ad2cbd343334",
+      "_key": "!items!r436ad2cbd343334",
+      "name": "Breath of Life",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Pilgrim externalization. Costs 1 or more Hit Dice to activate. Energy shift: move toward the Yang apex (see effect). Attack modifier = proficiency + Constitution; save DC = 8 + proficiency + your cosmic path's attribute.</p><p>On your turn, you can spend your bonus action to choose a number of creatures up to your Yin value within range. Spend and roll Hit Dice up to your Yin value, then divide the results among the chosen creatures. Each chosen creature must be assigned at least one Hit Die result this way. Each chosen c</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "breathoflife",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Pilgrim",
+        "properties": [],
+        "activities": {
+          "rb4f2ea8ff56fe6e": {
+            "_id": "rb4f2ea8ff56fe6e",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "bonus",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "hitDice",
+                  "value": "1",
+                  "target": "smallest",
+                  "scaling": {
+                    "mode": "amount",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": true,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "r11c23665b3aba09",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "externalization": {
+            "energyShift": "yang"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rb5858f5ae5fc351",
+      "_key": "!items!rb5858f5ae5fc351",
+      "name": "Challenging Grasp",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Pilgrim externalization. Costs 1 or more Hit Dice to activate. Energy shift: move toward the Yang apex (see effect). Attack modifier = proficiency + Constitution; save DC = 8 + proficiency + your cosmic path's attribute.</p><p>You can spend your action to choose one creature within range that can perceive you. Spend and roll Hit Dice up to your Yin value. The chosen creature must make a Wisdom saving throw with DC increased by the highest result among the Hit Dice you rolled. If you are within 5 feet of this creature, it </p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "challenginggrasp",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Pilgrim",
+        "properties": [],
+        "activities": {
+          "rd23a3c9759443df": {
+            "_id": "rd23a3c9759443df",
+            "type": "save",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "hitDice",
+                  "value": "1",
+                  "target": "smallest",
+                  "scaling": {
+                    "mode": "amount",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": true,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "damage": {
+              "onSave": "half",
+              "parts": []
+            },
+            "save": {
+              "ability": [
+                "wis"
+              ],
+              "dc": {
+                "calculation": "spellcasting",
+                "formula": ""
+              }
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "r11c23665b3aba09",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "externalization": {
+            "energyShift": "yang"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rf0e11d5c9b8e548",
+      "_key": "!items!rf0e11d5c9b8e548",
+      "name": "Entwine Destiny",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Pilgrim externalization. Costs 1 or more Hit Dice to activate. Energy shift: move toward the Yang apex (see effect). Attack modifier = proficiency + Constitution; save DC = 8 + proficiency + your cosmic path's attribute.</p><p>On your turn, you can spend an action to spend and roll up to two Hit Dice. Choose a number of creatures within range up to the total result of the Hit Dice. Each of those creatures can either make a Constitution saving throw, adding the higher Hit Die result to the DC, or choose to fail automatical</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "entwinedestiny",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Pilgrim",
+        "properties": [],
+        "activities": {
+          "r1824c83f7d90ef1": {
+            "_id": "r1824c83f7d90ef1",
+            "type": "save",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "hitDice",
+                  "value": "1",
+                  "target": "smallest",
+                  "scaling": {
+                    "mode": "amount",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": true,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "damage": {
+              "onSave": "half",
+              "parts": []
+            },
+            "save": {
+              "ability": [
+                "con"
+              ],
+              "dc": {
+                "calculation": "spellcasting",
+                "formula": ""
+              }
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "r11c23665b3aba09",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "externalization": {
+            "energyShift": "yang"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rb8351683b162a64",
+      "_key": "!items!rb8351683b162a64",
+      "name": "Force of Nature",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Pilgrim externalization. Costs 1 or more Hit Dice to activate. Energy shift: move toward the Yang apex (see effect). Attack modifier = proficiency + Constitution; save DC = 8 + proficiency + your cosmic path's attribute.</p><p>You can spend your action to unleash a whirlwind sweep. Spend and roll a number of Hit Dice up to the lower of your Yin or Yang value, then make an unarmed multitarget attack against each creature in range. Each creature you hit takes additional force damage equal to the highest result among the Hit</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "forceofnature",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Pilgrim",
+        "properties": [],
+        "activities": {
+          "r16b952efd38224c": {
+            "_id": "r16b952efd38224c",
+            "type": "save",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "hitDice",
+                  "value": "1",
+                  "target": "smallest",
+                  "scaling": {
+                    "mode": "amount",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": true,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "damage": {
+              "onSave": "half",
+              "parts": []
+            },
+            "save": {
+              "ability": [
+                "str"
+              ],
+              "dc": {
+                "calculation": "spellcasting",
+                "formula": ""
+              }
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "r11c23665b3aba09",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "externalization": {
+            "energyShift": "yang"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r1d3849ee10fdc82",
+      "_key": "!items!r1d3849ee10fdc82",
+      "name": "Consuming Strike",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Pilgrim externalization. Costs 1 or more Hit Dice to activate. Energy shift: move toward the Yin apex (see effect). Attack modifier = proficiency + Constitution; save DC = 8 + proficiency + your cosmic path's attribute.</p><p>You can spend your action to make an unarmed attack against a creature within range. If it hits, you can spend and roll a number of Hit Dice up to your Yang value. The attack deals bonus radiant damage equal to three times the result of the highest rolled Hit Die.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "consumingstrike",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Pilgrim",
+        "properties": [],
+        "activities": {
+          "rc667cb8e56a6641": {
+            "_id": "rc667cb8e56a6641",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "hitDice",
+                  "value": "1",
+                  "target": "smallest",
+                  "scaling": {
+                    "mode": "amount",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": true,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "attack": {
+              "ability": "con",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "unarmed"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": false,
+              "parts": []
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "r11c23665b3aba09",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "externalization": {
+            "energyShift": "yin"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rf90dcfda0eaf38e",
+      "_key": "!items!rf90dcfda0eaf38e",
+      "name": "Storm of Fists",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Pilgrim externalization. Costs 1 or more Hit Dice to activate. Energy shift: move toward the Yin apex (see effect). Attack modifier = proficiency + Constitution; save DC = 8 + proficiency + your cosmic path's attribute.</p><p>You can spend your action and a number of Hit Dice up to your Yang value to make that many unarmed attacks against creatures in range. You can add the result of up to one Hit Die of your choice to either the attack roll or damage roll for each attack. Each Hit Die result can be added to only one rol</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "stormoffists",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Pilgrim",
+        "properties": [],
+        "activities": {
+          "r9e6009264b1d537": {
+            "_id": "r9e6009264b1d537",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "hitDice",
+                  "value": "1",
+                  "target": "smallest",
+                  "scaling": {
+                    "mode": "amount",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": true,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "attack": {
+              "ability": "con",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "unarmed"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": false,
+              "parts": []
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "r11c23665b3aba09",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "externalization": {
+            "energyShift": "yin"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r7a7dde95997dee4",
+      "_key": "!items!r7a7dde95997dee4",
+      "name": "Darkness (Externalization)",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Path of Redemption additional externalization. Cast the SRD spell <strong>Darkness</strong> by spending 1 Hit Dice. Requires Pilgrim level 2 and Yin/Yang value: Yin 2+. Energy shift: toward the Yang apex. The spell's effect is the SRD spell Darkness; see the dnd5e SRD spell compendium for its full rules.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "pathofredemptiondarkness",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Path of Redemption 2",
+        "properties": [],
+        "activities": {
+          "r0485eb9a961b626": {
+            "_id": "r0485eb9a961b626",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "hitDice",
+                  "value": "1",
+                  "target": "smallest",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "r836ec828af4a59b",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "pathExternalization": {
+            "path": "Path of Redemption",
+            "srdSpell": "Darkness",
+            "level": 2,
+            "yinYang": "Yin 2+",
+            "hitDice": 1,
+            "energyShift": "Yang"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r393ee92135ac844",
+      "_key": "!items!r393ee92135ac844",
+      "name": "Calm Emotions (Externalization)",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Path of Redemption additional externalization. Cast the SRD spell <strong>Calm Emotions</strong> by spending 2 Hit Dice. Requires Pilgrim level 3 and Yin/Yang value: Yin 3+. Energy shift: toward the Yang apex. The spell's effect is the SRD spell Calm Emotions; see the dnd5e SRD spell compendium for its full rules.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "pathofredemptioncalmemotions",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Path of Redemption 3",
+        "properties": [],
+        "activities": {
+          "r4419a3ebce8529a": {
+            "_id": "r4419a3ebce8529a",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "hitDice",
+                  "value": "2",
+                  "target": "smallest",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "r836ec828af4a59b",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "pathExternalization": {
+            "path": "Path of Redemption",
+            "srdSpell": "Calm Emotions",
+            "level": 3,
+            "yinYang": "Yin 3+",
+            "hitDice": 2,
+            "energyShift": "Yang"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rba275fa941df504",
+      "_key": "!items!rba275fa941df504",
+      "name": "Suggestion (Externalization)",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Path of Redemption additional externalization. Cast the SRD spell <strong>Suggestion</strong> by spending 2 Hit Dice. Requires Pilgrim level 4 and Yin/Yang value: Yin 3+. Energy shift: toward the Yang apex. The spell's effect is the SRD spell Suggestion; see the dnd5e SRD spell compendium for its full rules.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "pathofredemptionsuggestion",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Path of Redemption 4",
+        "properties": [],
+        "activities": {
+          "r151714627d408e1": {
+            "_id": "r151714627d408e1",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "hitDice",
+                  "value": "2",
+                  "target": "smallest",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "r836ec828af4a59b",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "pathExternalization": {
+            "path": "Path of Redemption",
+            "srdSpell": "Suggestion",
+            "level": 4,
+            "yinYang": "Yin 3+",
+            "hitDice": 2,
+            "energyShift": "Yang"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r5f00a59a3b0dfc3",
+      "_key": "!items!r5f00a59a3b0dfc3",
+      "name": "Beacon of Hope (Externalization)",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Path of Redemption additional externalization. Cast the SRD spell <strong>Beacon of Hope</strong> by spending 3 Hit Dice. Requires Pilgrim level 6 and Yin/Yang value: Yin 4+. Energy shift: toward the Yang apex. The spell's effect is the SRD spell Beacon of Hope; see the dnd5e SRD spell compendium for its full rules.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "pathofredemptionbeaconofhope",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Path of Redemption 6",
+        "properties": [],
+        "activities": {
+          "rf757cce59f40b57": {
+            "_id": "rf757cce59f40b57",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "hitDice",
+                  "value": "3",
+                  "target": "smallest",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "r836ec828af4a59b",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "pathExternalization": {
+            "path": "Path of Redemption",
+            "srdSpell": "Beacon of Hope",
+            "level": 6,
+            "yinYang": "Yin 4+",
+            "hitDice": 3,
+            "energyShift": "Yang"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rfa927a99dd77340",
+      "_key": "!items!rfa927a99dd77340",
+      "name": "Revivify (Externalization)",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Path of Redemption additional externalization. Cast the SRD spell <strong>Revivify</strong> by spending 3 Hit Dice. Requires Pilgrim level 7 and Yin/Yang value: Yin 3+. Energy shift: toward the Yang apex. The spell's effect is the SRD spell Revivify; see the dnd5e SRD spell compendium for its full rules.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "pathofredemptionrevivify",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Path of Redemption 7",
+        "properties": [],
+        "activities": {
+          "r36479c8efe9f378": {
+            "_id": "r36479c8efe9f378",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "hitDice",
+                  "value": "3",
+                  "target": "smallest",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "r836ec828af4a59b",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "pathExternalization": {
+            "path": "Path of Redemption",
+            "srdSpell": "Revivify",
+            "level": 7,
+            "yinYang": "Yin 3+",
+            "hitDice": 3,
+            "energyShift": "Yang"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r37331dd73a9e46e",
+      "_key": "!items!r37331dd73a9e46e",
+      "name": "Compulsion (Externalization)",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Path of Redemption additional externalization. Cast the SRD spell <strong>Compulsion</strong> by spending 4 Hit Dice. Requires Pilgrim level 8 and Yin/Yang value: Yin 4+. Energy shift: toward the Yang apex. The spell's effect is the SRD spell Compulsion; see the dnd5e SRD spell compendium for its full rules.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "pathofredemptioncompulsion",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Path of Redemption 8",
+        "properties": [],
+        "activities": {
+          "r15ce2e97b050298": {
+            "_id": "r15ce2e97b050298",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "hitDice",
+                  "value": "4",
+                  "target": "smallest",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "r836ec828af4a59b",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "pathExternalization": {
+            "path": "Path of Redemption",
+            "srdSpell": "Compulsion",
+            "level": 8,
+            "yinYang": "Yin 4+",
+            "hitDice": 4,
+            "energyShift": "Yang"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r34ad7a45c8ea27d",
+      "_key": "!items!r34ad7a45c8ea27d",
+      "name": "Geas (Externalization)",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Path of Redemption additional externalization. Cast the SRD spell <strong>Geas</strong> by spending 4 Hit Dice. Requires Pilgrim level 10 and Yin/Yang value: Yin 4+. Energy shift: toward the Yang apex. The spell's effect is the SRD spell Geas; see the dnd5e SRD spell compendium for its full rules.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "pathofredemptiongeas",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Path of Redemption 10",
+        "properties": [],
+        "activities": {
+          "rd2596c5b65f4ecd": {
+            "_id": "rd2596c5b65f4ecd",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "hitDice",
+                  "value": "4",
+                  "target": "smallest",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "r836ec828af4a59b",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "pathExternalization": {
+            "path": "Path of Redemption",
+            "srdSpell": "Geas",
+            "level": 10,
+            "yinYang": "Yin 4+",
+            "hitDice": 4,
+            "energyShift": "Yang"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r645233e6ab3e78b",
+      "_key": "!items!r645233e6ab3e78b",
+      "name": "Speak with Animals (Externalization)",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Path of Harmony additional externalization. Cast the SRD spell <strong>Speak with Animals</strong> by spending 1 Hit Dice. Requires Pilgrim level 2 and Yin/Yang value: Yin 2/Yang 2. Energy shift: toward the either apex (your choice). The spell's effect is the SRD spell Speak with Animals; see the dnd5e SRD spell compendium for its full rules.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "pathofharmonyspeakwithanimals",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Path of Harmony 2",
+        "properties": [],
+        "activities": {
+          "rcde2ada1c4cd96e": {
+            "_id": "rcde2ada1c4cd96e",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "hitDice",
+                  "value": "1",
+                  "target": "smallest",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "re78e34a3654fd37",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "pathExternalization": {
+            "path": "Path of Harmony",
+            "srdSpell": "Speak with Animals",
+            "level": 2,
+            "yinYang": "Yin 2/Yang 2",
+            "hitDice": 1,
+            "energyShift": "either"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcc00ad80bc0157d",
+      "_key": "!items!rcc00ad80bc0157d",
+      "name": "Entangle (Externalization)",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Path of Harmony additional externalization. Cast the SRD spell <strong>Entangle</strong> by spending 2 Hit Dice. Requires Pilgrim level 3 and Yin/Yang value: Yang 3+. Energy shift: toward the Yin apex. The spell's effect is the SRD spell Entangle; see the dnd5e SRD spell compendium for its full rules.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "pathofharmonyentangle",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Path of Harmony 3",
+        "properties": [],
+        "activities": {
+          "r3a956c2346e1e24": {
+            "_id": "r3a956c2346e1e24",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "hitDice",
+                  "value": "2",
+                  "target": "smallest",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "re78e34a3654fd37",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "pathExternalization": {
+            "path": "Path of Harmony",
+            "srdSpell": "Entangle",
+            "level": 3,
+            "yinYang": "Yang 3+",
+            "hitDice": 2,
+            "energyShift": "Yin"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r5c134500acc2e61",
+      "_key": "!items!r5c134500acc2e61",
+      "name": "Silence (Externalization)",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Path of Harmony additional externalization. Cast the SRD spell <strong>Silence</strong> by spending 2 Hit Dice. Requires Pilgrim level 3 and Yin/Yang value: Yin 3+. Energy shift: toward the Yang apex. The spell's effect is the SRD spell Silence; see the dnd5e SRD spell compendium for its full rules.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "pathofharmonysilence",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Path of Harmony 3",
+        "properties": [],
+        "activities": {
+          "r9560b5b616f3eeb": {
+            "_id": "r9560b5b616f3eeb",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "hitDice",
+                  "value": "2",
+                  "target": "smallest",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "re78e34a3654fd37",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "pathExternalization": {
+            "path": "Path of Harmony",
+            "srdSpell": "Silence",
+            "level": 3,
+            "yinYang": "Yin 3+",
+            "hitDice": 2,
+            "energyShift": "Yang"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r0f8dc0e46a52978",
+      "_key": "!items!r0f8dc0e46a52978",
+      "name": "Commune with Nature (Externalization)",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Path of Harmony additional externalization. Cast the SRD spell <strong>Commune with Nature</strong> by spending 3 Hit Dice. Requires Pilgrim level 4 and Yin/Yang value: Yin 2/Yang 2. Energy shift: toward the either apex (your choice). The spell's effect is the SRD spell Commune with Nature; see the dnd5e SRD spell compendium for its full rules.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "pathofharmonycommunewithnature",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Path of Harmony 4",
+        "properties": [],
+        "activities": {
+          "r064d1474a0d76f5": {
+            "_id": "r064d1474a0d76f5",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "hitDice",
+                  "value": "3",
+                  "target": "smallest",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "re78e34a3654fd37",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "pathExternalization": {
+            "path": "Path of Harmony",
+            "srdSpell": "Commune with Nature",
+            "level": 4,
+            "yinYang": "Yin 2/Yang 2",
+            "hitDice": 3,
+            "energyShift": "either"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r8a0241894c12d45",
+      "_key": "!items!r8a0241894c12d45",
+      "name": "Haste (Externalization)",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Path of Harmony additional externalization. Cast the SRD spell <strong>Haste</strong> by spending 3 Hit Dice. Requires Pilgrim level 5 and Yin/Yang value: Yang 3+. Energy shift: toward the Yin apex. The spell's effect is the SRD spell Haste; see the dnd5e SRD spell compendium for its full rules.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "pathofharmonyhaste",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Path of Harmony 5",
+        "properties": [],
+        "activities": {
+          "r753ff5b57b94af8": {
+            "_id": "r753ff5b57b94af8",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "hitDice",
+                  "value": "3",
+                  "target": "smallest",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "re78e34a3654fd37",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "pathExternalization": {
+            "path": "Path of Harmony",
+            "srdSpell": "Haste",
+            "level": 5,
+            "yinYang": "Yang 3+",
+            "hitDice": 3,
+            "energyShift": "Yin"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r6f37186ecf409ee",
+      "_key": "!items!r6f37186ecf409ee",
+      "name": "Slow (Externalization)",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Path of Harmony additional externalization. Cast the SRD spell <strong>Slow</strong> by spending 3 Hit Dice. Requires Pilgrim level 5 and Yin/Yang value: Yin 3+. Energy shift: toward the Yang apex. The spell's effect is the SRD spell Slow; see the dnd5e SRD spell compendium for its full rules.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "pathofharmonyslow",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Path of Harmony 5",
+        "properties": [],
+        "activities": {
+          "re9b9c437a3d1dc9": {
+            "_id": "re9b9c437a3d1dc9",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "hitDice",
+                  "value": "3",
+                  "target": "smallest",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "re78e34a3654fd37",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "pathExternalization": {
+            "path": "Path of Harmony",
+            "srdSpell": "Slow",
+            "level": 5,
+            "yinYang": "Yin 3+",
+            "hitDice": 3,
+            "energyShift": "Yang"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r2655e6180ef38d8",
+      "_key": "!items!r2655e6180ef38d8",
+      "name": "Locate Creature (Externalization)",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Path of Harmony additional externalization. Cast the SRD spell <strong>Locate Creature</strong> by spending 3 Hit Dice. Requires Pilgrim level 6 and Yin/Yang value: Yin 2/Yang 2. Energy shift: toward the either apex (your choice). The spell's effect is the SRD spell Locate Creature; see the dnd5e SRD spell compendium for its full rules.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "pathofharmonylocatecreature",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Path of Harmony 6",
+        "properties": [],
+        "activities": {
+          "r29b2a5482b6e282": {
+            "_id": "r29b2a5482b6e282",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "hitDice",
+                  "value": "3",
+                  "target": "smallest",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "re78e34a3654fd37",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "pathExternalization": {
+            "path": "Path of Harmony",
+            "srdSpell": "Locate Creature",
+            "level": 6,
+            "yinYang": "Yin 2/Yang 2",
+            "hitDice": 3,
+            "energyShift": "either"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r1ee60d5f566d416",
+      "_key": "!items!r1ee60d5f566d416",
+      "name": "Fire Shield (Warm Shield) (Externalization)",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Path of Harmony additional externalization. Cast the SRD spell <strong>Fire Shield (Warm Shield)</strong> by spending 3 Hit Dice. Requires Pilgrim level 7 and Yin/Yang value: Yang 3+. Energy shift: toward the Yin apex. The spell's effect is the SRD spell Fire Shield (Warm Shield); see the dnd5e SRD spell compendium for its full rules.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "pathofharmonyfireshieldwarmshield",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Path of Harmony 7",
+        "properties": [],
+        "activities": {
+          "r340aa0a85eedbaa": {
+            "_id": "r340aa0a85eedbaa",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "hitDice",
+                  "value": "3",
+                  "target": "smallest",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "re78e34a3654fd37",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "pathExternalization": {
+            "path": "Path of Harmony",
+            "srdSpell": "Fire Shield (Warm Shield)",
+            "level": 7,
+            "yinYang": "Yang 3+",
+            "hitDice": 3,
+            "energyShift": "Yin"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r193fb33149df974",
+      "_key": "!items!r193fb33149df974",
+      "name": "Fire Shield (Chill Shield) (Externalization)",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Path of Harmony additional externalization. Cast the SRD spell <strong>Fire Shield (Chill Shield)</strong> by spending 3 Hit Dice. Requires Pilgrim level 7 and Yin/Yang value: Yin 3+. Energy shift: toward the Yang apex. The spell's effect is the SRD spell Fire Shield (Chill Shield); see the dnd5e SRD spell compendium for its full rules.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "pathofharmonyfireshieldchillshield",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Path of Harmony 7",
+        "properties": [],
+        "activities": {
+          "r5eeaa195dedbda2": {
+            "_id": "r5eeaa195dedbda2",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "hitDice",
+                  "value": "3",
+                  "target": "smallest",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "re78e34a3654fd37",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "pathExternalization": {
+            "path": "Path of Harmony",
+            "srdSpell": "Fire Shield (Chill Shield)",
+            "level": 7,
+            "yinYang": "Yin 3+",
+            "hitDice": 3,
+            "energyShift": "Yang"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r9fb31bf9f0fb89c",
+      "_key": "!items!r9fb31bf9f0fb89c",
+      "name": "Freedom of Movement (Externalization)",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Path of Harmony additional externalization. Cast the SRD spell <strong>Freedom of Movement</strong> by spending 3 Hit Dice. Requires Pilgrim level 8 and Yin/Yang value: Yin 2/Yang 2. Energy shift: toward the either apex (your choice). The spell's effect is the SRD spell Freedom of Movement; see the dnd5e SRD spell compendium for its full rules.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "pathofharmonyfreedomofmovement",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Path of Harmony 8",
+        "properties": [],
+        "activities": {
+          "r3bed082fdcf5d21": {
+            "_id": "r3bed082fdcf5d21",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "hitDice",
+                  "value": "3",
+                  "target": "smallest",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "re78e34a3654fd37",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "pathExternalization": {
+            "path": "Path of Harmony",
+            "srdSpell": "Freedom of Movement",
+            "level": 8,
+            "yinYang": "Yin 2/Yang 2",
+            "hitDice": 3,
+            "energyShift": "either"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r2a7ee912836893b",
+      "_key": "!items!r2a7ee912836893b",
+      "name": "Awaken (Externalization)",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Path of Harmony additional externalization. Cast the SRD spell <strong>Awaken</strong> by spending 4 Hit Dice. Requires Pilgrim level 9 and Yin/Yang value: Yang 4+. Energy shift: toward the Yin apex. The spell's effect is the SRD spell Awaken; see the dnd5e SRD spell compendium for its full rules.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "pathofharmonyawaken",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Path of Harmony 9",
+        "properties": [],
+        "activities": {
+          "re910d23a04d6642": {
+            "_id": "re910d23a04d6642",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "hitDice",
+                  "value": "4",
+                  "target": "smallest",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "re78e34a3654fd37",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "pathExternalization": {
+            "path": "Path of Harmony",
+            "srdSpell": "Awaken",
+            "level": 9,
+            "yinYang": "Yang 4+",
+            "hitDice": 4,
+            "energyShift": "Yin"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rf23df2e5aadb068",
+      "_key": "!items!rf23df2e5aadb068",
+      "name": "Modify Memory (Externalization)",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Path of Harmony additional externalization. Cast the SRD spell <strong>Modify Memory</strong> by spending 4 Hit Dice. Requires Pilgrim level 9 and Yin/Yang value: Yin 4+. Energy shift: toward the Yang apex. The spell's effect is the SRD spell Modify Memory; see the dnd5e SRD spell compendium for its full rules.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "pathofharmonymodifymemory",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Path of Harmony 9",
+        "properties": [],
+        "activities": {
+          "r51bdf83332d1025": {
+            "_id": "r51bdf83332d1025",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "hitDice",
+                  "value": "4",
+                  "target": "smallest",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "re78e34a3654fd37",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "pathExternalization": {
+            "path": "Path of Harmony",
+            "srdSpell": "Modify Memory",
+            "level": 9,
+            "yinYang": "Yin 4+",
+            "hitDice": 4,
+            "energyShift": "Yang"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rf954f9d912e9211",
+      "_key": "!items!rf954f9d912e9211",
+      "name": "Find the Path (Externalization)",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Path of Harmony additional externalization. Cast the SRD spell <strong>Find the Path</strong> by spending 5 Hit Dice. Requires Pilgrim level 10 and Yin/Yang value: Yin 2/Yang 2. Energy shift: toward the either apex (your choice). The spell's effect is the SRD spell Find the Path; see the dnd5e SRD spell compendium for its full rules.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "pathofharmonyfindthepath",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Path of Harmony 10",
+        "properties": [],
+        "activities": {
+          "r023db7be97a3c9c": {
+            "_id": "r023db7be97a3c9c",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "hitDice",
+                  "value": "5",
+                  "target": "smallest",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "re78e34a3654fd37",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "pathExternalization": {
+            "path": "Path of Harmony",
+            "srdSpell": "Find the Path",
+            "level": 10,
+            "yinYang": "Yin 2/Yang 2",
+            "hitDice": 5,
+            "energyShift": "either"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r338cebd60f9b455",
+      "_key": "!items!r338cebd60f9b455",
+      "name": "Insect Plague (Externalization)",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Path of Harmony additional externalization. Cast the SRD spell <strong>Insect Plague</strong> by spending 6 Hit Dice. Requires Pilgrim level 11 and Yin/Yang value: Yang 4+. Energy shift: toward the Yin apex. The spell's effect is the SRD spell Insect Plague; see the dnd5e SRD spell compendium for its full rules.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "pathofharmonyinsectplague",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Path of Harmony 11",
+        "properties": [],
+        "activities": {
+          "r9208b0d9ffde217": {
+            "_id": "r9208b0d9ffde217",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "hitDice",
+                  "value": "6",
+                  "target": "smallest",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "re78e34a3654fd37",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "pathExternalization": {
+            "path": "Path of Harmony",
+            "srdSpell": "Insect Plague",
+            "level": 11,
+            "yinYang": "Yang 4+",
+            "hitDice": 6,
+            "energyShift": "Yin"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "ra9557a2c3873fe9",
+      "_key": "!items!ra9557a2c3873fe9",
+      "name": "Tree Stride (Externalization)",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Path of Harmony additional externalization. Cast the SRD spell <strong>Tree Stride</strong> by spending 6 Hit Dice. Requires Pilgrim level 11 and Yin/Yang value: Yin 4+. Energy shift: toward the Yang apex. The spell's effect is the SRD spell Tree Stride; see the dnd5e SRD spell compendium for its full rules.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "pathofharmonytreestride",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Path of Harmony 11",
+        "properties": [],
+        "activities": {
+          "r6a9b3cdc0032c07": {
+            "_id": "r6a9b3cdc0032c07",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "hitDice",
+                  "value": "6",
+                  "target": "smallest",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "re78e34a3654fd37",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "pathExternalization": {
+            "path": "Path of Harmony",
+            "srdSpell": "Tree Stride",
+            "level": 11,
+            "yinYang": "Yin 4+",
+            "hitDice": 6,
+            "energyShift": "Yang"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rac4b2146f17d271",
+      "_key": "!items!rac4b2146f17d271",
+      "name": "Continual Flame (Externalization)",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Path of Justice additional externalization. Cast the SRD spell <strong>Continual Flame</strong> by spending 1 Hit Dice. Requires Pilgrim level 2 and Yin/Yang value: Yang 2+. Energy shift: toward the Yin apex. The spell's effect is the SRD spell Continual Flame; see the dnd5e SRD spell compendium for its full rules.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "pathofjusticecontinualflame",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Path of Justice 2",
+        "properties": [],
+        "activities": {
+          "rd22f6fadcf92958": {
+            "_id": "rd22f6fadcf92958",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "hitDice",
+                  "value": "1",
+                  "target": "smallest",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "r201442660ef6b80",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "pathExternalization": {
+            "path": "Path of Justice",
+            "srdSpell": "Continual Flame",
+            "level": 2,
+            "yinYang": "Yang 2+",
+            "hitDice": 1,
+            "energyShift": "Yin"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rb4b1f2594c959c9",
+      "_key": "!items!rb4b1f2594c959c9",
+      "name": "Hold Person (Externalization)",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Path of Justice additional externalization. Cast the SRD spell <strong>Hold Person</strong> by spending 2 Hit Dice. Requires Pilgrim level 3 and Yin/Yang value: Yang 3+. Energy shift: toward the Yin apex. The spell's effect is the SRD spell Hold Person; see the dnd5e SRD spell compendium for its full rules.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "pathofjusticeholdperson",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Path of Justice 3",
+        "properties": [],
+        "activities": {
+          "r1680d0dfbc75f84": {
+            "_id": "r1680d0dfbc75f84",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "hitDice",
+                  "value": "2",
+                  "target": "smallest",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "r201442660ef6b80",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "pathExternalization": {
+            "path": "Path of Justice",
+            "srdSpell": "Hold Person",
+            "level": 3,
+            "yinYang": "Yang 3+",
+            "hitDice": 2,
+            "energyShift": "Yin"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rb4e0a550c3e2083",
+      "_key": "!items!rb4e0a550c3e2083",
+      "name": "Zone of Truth (Externalization)",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Path of Justice additional externalization. Cast the SRD spell <strong>Zone of Truth</strong> by spending 2 Hit Dice. Requires Pilgrim level 4 and Yin/Yang value: Yang 3+. Energy shift: toward the Yin apex. The spell's effect is the SRD spell Zone of Truth; see the dnd5e SRD spell compendium for its full rules.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "pathofjusticezoneoftruth",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Path of Justice 4",
+        "properties": [],
+        "activities": {
+          "rc6dc8db19b3d348": {
+            "_id": "rc6dc8db19b3d348",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "hitDice",
+                  "value": "2",
+                  "target": "smallest",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "r201442660ef6b80",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "pathExternalization": {
+            "path": "Path of Justice",
+            "srdSpell": "Zone of Truth",
+            "level": 4,
+            "yinYang": "Yang 3+",
+            "hitDice": 2,
+            "energyShift": "Yin"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r79804166f9f392a",
+      "_key": "!items!r79804166f9f392a",
+      "name": "Counterspell (Externalization)",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Path of Justice additional externalization. Cast the SRD spell <strong>Counterspell</strong> by spending 3 Hit Dice. Requires Pilgrim level 6 and Yin/Yang value: Yang 4+. Energy shift: toward the Yin apex. The spell's effect is the SRD spell Counterspell; see the dnd5e SRD spell compendium for its full rules.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "pathofjusticecounterspell",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Path of Justice 6",
+        "properties": [],
+        "activities": {
+          "r19557a2c98eca08": {
+            "_id": "r19557a2c98eca08",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "hitDice",
+                  "value": "3",
+                  "target": "smallest",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "r201442660ef6b80",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "pathExternalization": {
+            "path": "Path of Justice",
+            "srdSpell": "Counterspell",
+            "level": 6,
+            "yinYang": "Yang 4+",
+            "hitDice": 3,
+            "energyShift": "Yin"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rd661626657c2744",
+      "_key": "!items!rd661626657c2744",
+      "name": "Daylight (Externalization)",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Path of Justice additional externalization. Cast the SRD spell <strong>Daylight</strong> by spending 3 Hit Dice. Requires Pilgrim level 7 and Yin/Yang value: Yang 3+. Energy shift: toward the Yin apex. The spell's effect is the SRD spell Daylight; see the dnd5e SRD spell compendium for its full rules.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "pathofjusticedaylight",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Path of Justice 7",
+        "properties": [],
+        "activities": {
+          "r4acadf9446f748c": {
+            "_id": "r4acadf9446f748c",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "hitDice",
+                  "value": "3",
+                  "target": "smallest",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "r201442660ef6b80",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "pathExternalization": {
+            "path": "Path of Justice",
+            "srdSpell": "Daylight",
+            "level": 7,
+            "yinYang": "Yang 3+",
+            "hitDice": 3,
+            "energyShift": "Yin"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rb338b5cb04f609e",
+      "_key": "!items!rb338b5cb04f609e",
+      "name": "Banishment (Externalization)",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Path of Justice additional externalization. Cast the SRD spell <strong>Banishment</strong> by spending 4 Hit Dice. Requires Pilgrim level 8 and Yin/Yang value: Yang 4+. Energy shift: toward the Yin apex. The spell's effect is the SRD spell Banishment; see the dnd5e SRD spell compendium for its full rules.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "pathofjusticebanishment",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Path of Justice 8",
+        "properties": [],
+        "activities": {
+          "r5fb8481c96784c0": {
+            "_id": "r5fb8481c96784c0",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "hitDice",
+                  "value": "4",
+                  "target": "smallest",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "r201442660ef6b80",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "pathExternalization": {
+            "path": "Path of Justice",
+            "srdSpell": "Banishment",
+            "level": 8,
+            "yinYang": "Yang 4+",
+            "hitDice": 4,
+            "energyShift": "Yin"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rded2c911d5a5634",
+      "_key": "!items!rded2c911d5a5634",
+      "name": "Hold Monster (Externalization)",
+      "type": "feat",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "description": {
+          "value": "<p>Path of Justice additional externalization. Cast the SRD spell <strong>Hold Monster</strong> by spending 4 Hit Dice. Requires Pilgrim level 10 and Yin/Yang value: Yang 4+. Energy shift: toward the Yin apex. The spell's effect is the SRD spell Hold Monster; see the dnd5e SRD spell compendium for its full rules.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "pathofjusticeholdmonster",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Path of Justice 10",
+        "properties": [],
+        "activities": {
+          "r0a9e87bd8c6284b": {
+            "_id": "r0a9e87bd8c6284b",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "hitDice",
+                  "value": "4",
+                  "target": "smallest",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "r201442660ef6b80",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "pathExternalization": {
+            "path": "Path of Justice",
+            "srdSpell": "Hold Monster",
+            "level": 10,
+            "yinYang": "Yang 4+",
+            "hitDice": 4,
+            "energyShift": "Yin"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    }
+  ]
+}

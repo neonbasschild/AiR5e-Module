@@ -1,8 +1,8 @@
 {
   "folders": [
     {
-      "_id": "rfiair0000000000",
-      "_key": "!folders!rfiair0000000000",
+      "_id": "rf4b7df4b8a46471",
+      "_key": "!folders!rf4b7df4b8a46471",
       "name": "Air",
       "type": "Item",
       "sorting": "a",
@@ -11,8 +11,8 @@
       "sort": 0
     },
     {
-      "_id": "rfiearth00000000",
-      "_key": "!folders!rfiearth00000000",
+      "_id": "r02de384bbbed641",
+      "_key": "!folders!r02de384bbbed641",
       "name": "Earth",
       "type": "Item",
       "sorting": "a",
@@ -21,8 +21,8 @@
       "sort": 0
     },
     {
-      "_id": "rfifire000000000",
-      "_key": "!folders!rfifire000000000",
+      "_id": "ra89f2d88ec7746e",
+      "_key": "!folders!ra89f2d88ec7746e",
       "name": "Fire",
       "type": "Item",
       "sorting": "a",
@@ -31,8 +31,8 @@
       "sort": 0
     },
     {
-      "_id": "rfiwater00000000",
-      "_key": "!folders!rfiwater00000000",
+      "_id": "rfc774b1a633cae6",
+      "_key": "!folders!rfc774b1a633cae6",
       "name": "Water",
       "type": "Item",
       "sorting": "a",
@@ -41,8 +41,8 @@
       "sort": 0
     },
     {
-      "_id": "rfiuniversal0000",
-      "_key": "!folders!rfiuniversal0000",
+      "_id": "r7b6576cabf1ddd1",
+      "_key": "!folders!r7b6576cabf1ddd1",
       "name": "Universal",
       "type": "Item",
       "sorting": "a",
@@ -114,25 +114,37 @@
           }
         },
         "activities": {
-          "rkiarmorofstone0": {
-            "_id": "rkiarmorofstone0",
-            "type": "utility",
+          "rf21ce00d109b6f3": {
+            "_id": "rf21ce00d109b6f3",
+            "type": "save",
             "name": "",
             "activation": {
               "type": "action",
-              "value": null,
+              "value": 1,
               "condition": ""
             },
             "consumption": {
               "targets": [],
               "scaling": {
-                "allowed": true,
+                "allowed": false,
                 "max": ""
               },
               "spellSlot": false
             },
+            "damage": {
+              "onSave": "half",
+              "parts": []
+            },
+            "save": {
+              "ability": [
+                "dex"
+              ],
+              "dc": {
+                "calculation": "spellcasting",
+                "formula": ""
+              }
+            },
             "description": {},
-            "duration": {},
             "effects": [],
             "range": {},
             "target": {},
@@ -146,7 +158,7 @@
         }
       },
       "effects": [],
-      "folder": "rfiearth00000000",
+      "folder": "r02de384bbbed641",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -225,8 +237,8 @@
           }
         },
         "activities": {
-          "rkibarricadeofea": {
-            "_id": "rkibarricadeofea",
+          "raea7628d3638238": {
+            "_id": "raea7628d3638238",
             "type": "utility",
             "name": "",
             "activation": {
@@ -237,13 +249,12 @@
             "consumption": {
               "targets": [],
               "scaling": {
-                "allowed": true,
+                "allowed": false,
                 "max": ""
               },
               "spellSlot": false
             },
             "description": {},
-            "duration": {},
             "effects": [],
             "range": {},
             "target": {},
@@ -257,7 +268,7 @@
         }
       },
       "effects": [],
-      "folder": "rfiearth00000000",
+      "folder": "r02de384bbbed641",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -336,9 +347,9 @@
           }
         },
         "activities": {
-          "rkibindtheshadow": {
-            "_id": "rkibindtheshadow",
-            "type": "utility",
+          "r8b33d51f52b8ad9": {
+            "_id": "r8b33d51f52b8ad9",
+            "type": "save",
             "name": "",
             "activation": {
               "type": "minute",
@@ -348,13 +359,25 @@
             "consumption": {
               "targets": [],
               "scaling": {
-                "allowed": true,
+                "allowed": false,
                 "max": ""
               },
               "spellSlot": false
             },
+            "damage": {
+              "onSave": "half",
+              "parts": []
+            },
+            "save": {
+              "ability": [
+                "wis"
+              ],
+              "dc": {
+                "calculation": "spellcasting",
+                "formula": ""
+              }
+            },
             "description": {},
-            "duration": {},
             "effects": [],
             "range": {},
             "target": {},
@@ -368,7 +391,7 @@
         }
       },
       "effects": [],
-      "folder": "rfiearth00000000",
+      "folder": "r02de384bbbed641",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -447,25 +470,24 @@
           }
         },
         "activities": {
-          "rkibitingsteel00": {
-            "_id": "rkibitingsteel00",
+          "r7b70ac67f920157": {
+            "_id": "r7b70ac67f920157",
             "type": "utility",
             "name": "",
             "activation": {
               "type": "action",
-              "value": null,
+              "value": 1,
               "condition": ""
             },
             "consumption": {
               "targets": [],
               "scaling": {
-                "allowed": true,
+                "allowed": false,
                 "max": ""
               },
               "spellSlot": false
             },
             "description": {},
-            "duration": {},
             "effects": [],
             "range": {},
             "target": {},
@@ -479,7 +501,7 @@
         }
       },
       "effects": [],
-      "folder": "rfifire000000000",
+      "folder": "ra89f2d88ec7746e",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -558,25 +580,24 @@
           }
         },
         "activities": {
-          "rkibladeoftheele": {
-            "_id": "rkibladeoftheele",
+          "rdd39ec315f6ffcb": {
+            "_id": "rdd39ec315f6ffcb",
             "type": "utility",
             "name": "",
             "activation": {
               "type": "action",
-              "value": null,
+              "value": 1,
               "condition": ""
             },
             "consumption": {
               "targets": [],
               "scaling": {
-                "allowed": true,
+                "allowed": false,
                 "max": ""
               },
               "spellSlot": false
             },
             "description": {},
-            "duration": {},
             "effects": [],
             "range": {},
             "target": {},
@@ -590,7 +611,7 @@
         }
       },
       "effects": [],
-      "folder": "rfiuniversal0000",
+      "folder": "r7b6576cabf1ddd1",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -669,25 +690,24 @@
           }
         },
         "activities": {
-          "rkibreathofthefi": {
-            "_id": "rkibreathofthefi",
+          "r01e854d96083b1c": {
+            "_id": "r01e854d96083b1c",
             "type": "utility",
             "name": "",
             "activation": {
               "type": "action",
-              "value": null,
+              "value": 1,
               "condition": ""
             },
             "consumption": {
               "targets": [],
               "scaling": {
-                "allowed": true,
+                "allowed": false,
                 "max": ""
               },
               "spellSlot": false
             },
             "description": {},
-            "duration": {},
             "effects": [],
             "range": {},
             "target": {},
@@ -701,7 +721,7 @@
         }
       },
       "effects": [],
-      "folder": "rfifire000000000",
+      "folder": "ra89f2d88ec7746e",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -780,25 +800,24 @@
           }
         },
         "activities": {
-          "rkicallofcinders": {
-            "_id": "rkicallofcinders",
+          "re4f7a7aac831d13": {
+            "_id": "re4f7a7aac831d13",
             "type": "utility",
             "name": "",
             "activation": {
               "type": "action",
-              "value": null,
+              "value": 1,
               "condition": ""
             },
             "consumption": {
               "targets": [],
               "scaling": {
-                "allowed": true,
+                "allowed": false,
                 "max": ""
               },
               "spellSlot": false
             },
             "description": {},
-            "duration": {},
             "effects": [],
             "range": {},
             "target": {},
@@ -812,7 +831,7 @@
         }
       },
       "effects": [],
-      "folder": "rfifire000000000",
+      "folder": "ra89f2d88ec7746e",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -891,8 +910,8 @@
           }
         },
         "activities": {
-          "rkicaressofearth": {
-            "_id": "rkicaressofearth",
+          "rda9f65f826c302c": {
+            "_id": "rda9f65f826c302c",
             "type": "utility",
             "name": "",
             "activation": {
@@ -903,13 +922,12 @@
             "consumption": {
               "targets": [],
               "scaling": {
-                "allowed": true,
+                "allowed": false,
                 "max": ""
               },
               "spellSlot": false
             },
             "description": {},
-            "duration": {},
             "effects": [],
             "range": {},
             "target": {},
@@ -923,7 +941,7 @@
         }
       },
       "effects": [],
-      "folder": "rfiearth00000000",
+      "folder": "r02de384bbbed641",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -1002,8 +1020,8 @@
           }
         },
         "activities": {
-          "rkicleansingrite": {
-            "_id": "rkicleansingrite",
+          "r88cfb3b4a4f7b6d": {
+            "_id": "r88cfb3b4a4f7b6d",
             "type": "utility",
             "name": "",
             "activation": {
@@ -1014,13 +1032,12 @@
             "consumption": {
               "targets": [],
               "scaling": {
-                "allowed": true,
+                "allowed": false,
                 "max": ""
               },
               "spellSlot": false
             },
             "description": {},
-            "duration": {},
             "effects": [],
             "range": {},
             "target": {},
@@ -1034,7 +1051,7 @@
         }
       },
       "effects": [],
-      "folder": "rfiuniversal0000",
+      "folder": "r7b6576cabf1ddd1",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -1113,8 +1130,8 @@
           }
         },
         "activities": {
-          "rkicommunewithth": {
-            "_id": "rkicommunewithth",
+          "r36a7059c19d3f76": {
+            "_id": "r36a7059c19d3f76",
             "type": "utility",
             "name": "",
             "activation": {
@@ -1125,13 +1142,12 @@
             "consumption": {
               "targets": [],
               "scaling": {
-                "allowed": true,
+                "allowed": false,
                 "max": ""
               },
               "spellSlot": false
             },
             "description": {},
-            "duration": {},
             "effects": [],
             "range": {},
             "target": {},
@@ -1145,7 +1161,7 @@
         }
       },
       "effects": [],
-      "folder": "rfiuniversal0000",
+      "folder": "r7b6576cabf1ddd1",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -1224,9 +1240,9 @@
           }
         },
         "activities": {
-          "rkidanceofseason": {
-            "_id": "rkidanceofseason",
-            "type": "utility",
+          "r10a30a306da793c": {
+            "_id": "r10a30a306da793c",
+            "type": "save",
             "name": "",
             "activation": {
               "type": "minute",
@@ -1236,13 +1252,25 @@
             "consumption": {
               "targets": [],
               "scaling": {
-                "allowed": true,
+                "allowed": false,
                 "max": ""
               },
               "spellSlot": false
             },
+            "damage": {
+              "onSave": "half",
+              "parts": []
+            },
+            "save": {
+              "ability": [
+                "dex"
+              ],
+              "dc": {
+                "calculation": "spellcasting",
+                "formula": ""
+              }
+            },
             "description": {},
-            "duration": {},
             "effects": [],
             "range": {},
             "target": {},
@@ -1256,7 +1284,7 @@
         }
       },
       "effects": [],
-      "folder": "rfiwater00000000",
+      "folder": "rfc774b1a633cae6",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -1335,8 +1363,8 @@
           }
         },
         "activities": {
-          "rkidivinetheomen": {
-            "_id": "rkidivinetheomen",
+          "r691b999f8ca3ac2": {
+            "_id": "r691b999f8ca3ac2",
             "type": "utility",
             "name": "",
             "activation": {
@@ -1347,13 +1375,12 @@
             "consumption": {
               "targets": [],
               "scaling": {
-                "allowed": true,
+                "allowed": false,
                 "max": ""
               },
               "spellSlot": false
             },
             "description": {},
-            "duration": {},
             "effects": [],
             "range": {},
             "target": {},
@@ -1367,7 +1394,7 @@
         }
       },
       "effects": [],
-      "folder": "rfiuniversal0000",
+      "folder": "r7b6576cabf1ddd1",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -1446,8 +1473,8 @@
           }
         },
         "activities": {
-          "rkidominionofwat": {
-            "_id": "rkidominionofwat",
+          "rbd22008491d9066": {
+            "_id": "rbd22008491d9066",
             "type": "utility",
             "name": "",
             "activation": {
@@ -1458,13 +1485,12 @@
             "consumption": {
               "targets": [],
               "scaling": {
-                "allowed": true,
+                "allowed": false,
                 "max": ""
               },
               "spellSlot": false
             },
             "description": {},
-            "duration": {},
             "effects": [],
             "range": {},
             "target": {},
@@ -1478,7 +1504,7 @@
         }
       },
       "effects": [],
-      "folder": "rfiwater00000000",
+      "folder": "rfc774b1a633cae6",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -1557,25 +1583,24 @@
           }
         },
         "activities": {
-          "rkiearthbecomess": {
-            "_id": "rkiearthbecomess",
+          "ref3611839a2d6da": {
+            "_id": "ref3611839a2d6da",
             "type": "utility",
             "name": "",
             "activation": {
               "type": "action",
-              "value": null,
+              "value": 1,
               "condition": ""
             },
             "consumption": {
               "targets": [],
               "scaling": {
-                "allowed": true,
+                "allowed": false,
                 "max": ""
               },
               "spellSlot": false
             },
             "description": {},
-            "duration": {},
             "effects": [],
             "range": {},
             "target": {},
@@ -1589,7 +1614,7 @@
         }
       },
       "effects": [],
-      "folder": "rfiearth00000000",
+      "folder": "r02de384bbbed641",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -1668,25 +1693,24 @@
           }
         },
         "activities": {
-          "rkiembraceofthee": {
-            "_id": "rkiembraceofthee",
+          "r680086d0ab26bd1": {
+            "_id": "r680086d0ab26bd1",
             "type": "utility",
             "name": "",
             "activation": {
               "type": "action",
-              "value": null,
+              "value": 1,
               "condition": ""
             },
             "consumption": {
               "targets": [],
               "scaling": {
-                "allowed": true,
+                "allowed": false,
                 "max": ""
               },
               "spellSlot": false
             },
             "description": {},
-            "duration": {},
             "effects": [],
             "range": {},
             "target": {},
@@ -1700,7 +1724,7 @@
         }
       },
       "effects": [],
-      "folder": "rfiearth00000000",
+      "folder": "r02de384bbbed641",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -1779,25 +1803,24 @@
           }
         },
         "activities": {
-          "rkieverchangingw": {
-            "_id": "rkieverchangingw",
+          "ra033008e6dfb9ec": {
+            "_id": "ra033008e6dfb9ec",
             "type": "utility",
             "name": "",
             "activation": {
               "type": "action",
-              "value": null,
+              "value": 1,
               "condition": ""
             },
             "consumption": {
               "targets": [],
               "scaling": {
-                "allowed": true,
+                "allowed": false,
                 "max": ""
               },
               "spellSlot": false
             },
             "description": {},
-            "duration": {},
             "effects": [],
             "range": {},
             "target": {},
@@ -1811,7 +1834,7 @@
         }
       },
       "effects": [],
-      "folder": "rfiwater00000000",
+      "folder": "rfc774b1a633cae6",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -1890,25 +1913,24 @@
           }
         },
         "activities": {
-          "rkifuryofosanowo": {
-            "_id": "rkifuryofosanowo",
+          "r377540104013f30": {
+            "_id": "r377540104013f30",
             "type": "utility",
             "name": "",
             "activation": {
               "type": "action",
-              "value": null,
+              "value": 1,
               "condition": ""
             },
             "consumption": {
               "targets": [],
               "scaling": {
-                "allowed": true,
+                "allowed": false,
                 "max": ""
               },
               "spellSlot": false
             },
             "description": {},
-            "duration": {},
             "effects": [],
             "range": {},
             "target": {},
@@ -1922,7 +1944,7 @@
         }
       },
       "effects": [],
-      "folder": "rfifire000000000",
+      "folder": "ra89f2d88ec7746e",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -2001,25 +2023,24 @@
           }
         },
         "activities": {
-          "rkigentlerains00": {
-            "_id": "rkigentlerains00",
+          "r885d6eeaa9352b3": {
+            "_id": "r885d6eeaa9352b3",
             "type": "utility",
             "name": "",
             "activation": {
               "type": "action",
-              "value": null,
+              "value": 1,
               "condition": ""
             },
             "consumption": {
               "targets": [],
               "scaling": {
-                "allowed": true,
+                "allowed": false,
                 "max": ""
               },
               "spellSlot": false
             },
             "description": {},
-            "duration": {},
             "effects": [],
             "range": {},
             "target": {},
@@ -2033,7 +2054,7 @@
         }
       },
       "effects": [],
-      "folder": "rfiwater00000000",
+      "folder": "rfc774b1a633cae6",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -2112,25 +2133,37 @@
           }
         },
         "activities": {
-          "rkigraceoftheair": {
-            "_id": "rkigraceoftheair",
-            "type": "utility",
+          "r29246fef86b8ec2": {
+            "_id": "r29246fef86b8ec2",
+            "type": "save",
             "name": "",
             "activation": {
-              "type": "action",
-              "value": null,
+              "type": "bonus",
+              "value": 1,
               "condition": ""
             },
             "consumption": {
               "targets": [],
               "scaling": {
-                "allowed": true,
+                "allowed": false,
                 "max": ""
               },
               "spellSlot": false
             },
+            "damage": {
+              "onSave": "half",
+              "parts": []
+            },
+            "save": {
+              "ability": [
+                "dex"
+              ],
+              "dc": {
+                "calculation": "spellcasting",
+                "formula": ""
+              }
+            },
             "description": {},
-            "duration": {},
             "effects": [],
             "range": {},
             "target": {},
@@ -2144,7 +2177,7 @@
         }
       },
       "effects": [],
-      "folder": "rfiair0000000000",
+      "folder": "rf4b7df4b8a46471",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -2223,8 +2256,8 @@
           }
         },
         "activities": {
-          "rkiguardianofthe": {
-            "_id": "rkiguardianofthe",
+          "r37dcc7ef883afbb": {
+            "_id": "r37dcc7ef883afbb",
             "type": "utility",
             "name": "",
             "activation": {
@@ -2235,13 +2268,12 @@
             "consumption": {
               "targets": [],
               "scaling": {
-                "allowed": true,
+                "allowed": false,
                 "max": ""
               },
               "spellSlot": false
             },
             "description": {},
-            "duration": {},
             "effects": [],
             "range": {},
             "target": {},
@@ -2255,7 +2287,7 @@
         }
       },
       "effects": [],
-      "folder": "rfiearth00000000",
+      "folder": "r02de384bbbed641",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -2334,25 +2366,37 @@
           }
         },
         "activities": {
-          "rkihandsofthetid": {
-            "_id": "rkihandsofthetid",
-            "type": "utility",
+          "r5ddb98a1705f47c": {
+            "_id": "r5ddb98a1705f47c",
+            "type": "save",
             "name": "",
             "activation": {
               "type": "action",
-              "value": null,
+              "value": 1,
               "condition": ""
             },
             "consumption": {
               "targets": [],
               "scaling": {
-                "allowed": true,
+                "allowed": false,
                 "max": ""
               },
               "spellSlot": false
             },
+            "damage": {
+              "onSave": "half",
+              "parts": []
+            },
+            "save": {
+              "ability": [
+                "str"
+              ],
+              "dc": {
+                "calculation": "spellcasting",
+                "formula": ""
+              }
+            },
             "description": {},
-            "duration": {},
             "effects": [],
             "range": {},
             "target": {},
@@ -2366,7 +2410,7 @@
         }
       },
       "effects": [],
-      "folder": "rfiwater00000000",
+      "folder": "rfc774b1a633cae6",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -2445,25 +2489,24 @@
           }
         },
         "activities": {
-          "rkiheartofthewat": {
-            "_id": "rkiheartofthewat",
+          "r311b92bbb53aca5": {
+            "_id": "r311b92bbb53aca5",
             "type": "utility",
             "name": "",
             "activation": {
               "type": "action",
-              "value": null,
+              "value": 1,
               "condition": ""
             },
             "consumption": {
               "targets": [],
               "scaling": {
-                "allowed": true,
+                "allowed": false,
                 "max": ""
               },
               "spellSlot": false
             },
             "description": {},
-            "duration": {},
             "effects": [],
             "range": {},
             "target": {},
@@ -2477,7 +2520,7 @@
         }
       },
       "effects": [],
-      "folder": "rfiwater00000000",
+      "folder": "rfc774b1a633cae6",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -2556,25 +2599,24 @@
           }
         },
         "activities": {
-          "rkiinvigoratingh": {
-            "_id": "rkiinvigoratingh",
+          "ra062c1cd6d4af63": {
+            "_id": "ra062c1cd6d4af63",
             "type": "utility",
             "name": "",
             "activation": {
               "type": "action",
-              "value": null,
+              "value": 1,
               "condition": ""
             },
             "consumption": {
               "targets": [],
               "scaling": {
-                "allowed": true,
+                "allowed": false,
                 "max": ""
               },
               "spellSlot": false
             },
             "description": {},
-            "duration": {},
             "effects": [],
             "range": {},
             "target": {},
@@ -2588,7 +2630,7 @@
         }
       },
       "effects": [],
-      "folder": "rfifire000000000",
+      "folder": "ra89f2d88ec7746e",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -2667,25 +2709,24 @@
           }
         },
         "activities": {
-          "rkijadestrike000": {
-            "_id": "rkijadestrike000",
+          "r07c03de3d567ae2": {
+            "_id": "r07c03de3d567ae2",
             "type": "utility",
             "name": "",
             "activation": {
               "type": "action",
-              "value": null,
+              "value": 1,
               "condition": ""
             },
             "consumption": {
               "targets": [],
               "scaling": {
-                "allowed": true,
+                "allowed": false,
                 "max": ""
               },
               "spellSlot": false
             },
             "description": {},
-            "duration": {},
             "effects": [],
             "range": {},
             "target": {},
@@ -2699,7 +2740,7 @@
         }
       },
       "effects": [],
-      "folder": "rfiearth00000000",
+      "folder": "r02de384bbbed641",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -2778,9 +2819,9 @@
           }
         },
         "activities": {
-          "rkiladysunssmile": {
-            "_id": "rkiladysunssmile",
-            "type": "utility",
+          "rb7bd69a9f644524": {
+            "_id": "rb7bd69a9f644524",
+            "type": "save",
             "name": "",
             "activation": {
               "type": "minute",
@@ -2790,13 +2831,25 @@
             "consumption": {
               "targets": [],
               "scaling": {
-                "allowed": true,
+                "allowed": false,
                 "max": ""
               },
               "spellSlot": false
             },
+            "damage": {
+              "onSave": "half",
+              "parts": []
+            },
+            "save": {
+              "ability": [
+                "cha"
+              ],
+              "dc": {
+                "calculation": "spellcasting",
+                "formula": ""
+              }
+            },
             "description": {},
-            "duration": {},
             "effects": [],
             "range": {},
             "target": {},
@@ -2810,7 +2863,7 @@
         }
       },
       "effects": [],
-      "folder": "rfifire000000000",
+      "folder": "ra89f2d88ec7746e",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -2889,8 +2942,8 @@
           }
         },
         "activities": {
-          "rkilordmoonsgaze": {
-            "_id": "rkilordmoonsgaze",
+          "r91a985731835e20": {
+            "_id": "r91a985731835e20",
             "type": "utility",
             "name": "",
             "activation": {
@@ -2901,13 +2954,12 @@
             "consumption": {
               "targets": [],
               "scaling": {
-                "allowed": true,
+                "allowed": false,
                 "max": ""
               },
               "spellSlot": false
             },
             "description": {},
-            "duration": {},
             "effects": [],
             "range": {},
             "target": {},
@@ -2921,7 +2973,7 @@
         }
       },
       "effects": [],
-      "folder": "rfiair0000000000",
+      "folder": "rf4b7df4b8a46471",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -3000,8 +3052,8 @@
           }
         },
         "activities": {
-          "rkimaskofwind000": {
-            "_id": "rkimaskofwind000",
+          "rbeaaade406998d3": {
+            "_id": "rbeaaade406998d3",
             "type": "utility",
             "name": "",
             "activation": {
@@ -3012,13 +3064,12 @@
             "consumption": {
               "targets": [],
               "scaling": {
-                "allowed": true,
+                "allowed": false,
                 "max": ""
               },
               "spellSlot": false
             },
             "description": {},
-            "duration": {},
             "effects": [],
             "range": {},
             "target": {},
@@ -3032,7 +3083,7 @@
         }
       },
       "effects": [],
-      "folder": "rfiair0000000000",
+      "folder": "rf4b7df4b8a46471",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -3111,25 +3162,24 @@
           }
         },
         "activities": {
-          "rkinaturestouch0": {
-            "_id": "rkinaturestouch0",
+          "r26b4b5d605abb4d": {
+            "_id": "r26b4b5d605abb4d",
             "type": "utility",
             "name": "",
             "activation": {
               "type": "action",
-              "value": null,
+              "value": 1,
               "condition": ""
             },
             "consumption": {
               "targets": [],
               "scaling": {
-                "allowed": true,
+                "allowed": false,
                 "max": ""
               },
               "spellSlot": false
             },
             "description": {},
-            "duration": {},
             "effects": [],
             "range": {},
             "target": {},
@@ -3143,7 +3193,7 @@
         }
       },
       "effects": [],
-      "folder": "rfiair0000000000",
+      "folder": "rf4b7df4b8a46471",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -3222,25 +3272,24 @@
           }
         },
         "activities": {
-          "rkicastingtime00": {
-            "_id": "rkicastingtime00",
+          "r908a83084f1af32": {
+            "_id": "r908a83084f1af32",
             "type": "utility",
             "name": "",
             "activation": {
-              "type": "special",
-              "value": null,
+              "type": "action",
+              "value": 1,
               "condition": ""
             },
             "consumption": {
               "targets": [],
               "scaling": {
-                "allowed": true,
+                "allowed": false,
                 "max": ""
               },
               "spellSlot": false
             },
             "description": {},
-            "duration": {},
             "effects": [],
             "range": {},
             "target": {},
@@ -3254,7 +3303,7 @@
         }
       },
       "effects": [],
-      "folder": "rfiwater00000000",
+      "folder": "rfc774b1a633cae6",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -3333,9 +3382,9 @@
           }
         },
         "activities": {
-          "rkirealmofillusi": {
-            "_id": "rkirealmofillusi",
-            "type": "utility",
+          "r396eca94fb5511c": {
+            "_id": "r396eca94fb5511c",
+            "type": "save",
             "name": "",
             "activation": {
               "type": "minute",
@@ -3345,13 +3394,25 @@
             "consumption": {
               "targets": [],
               "scaling": {
-                "allowed": true,
+                "allowed": false,
                 "max": ""
               },
               "spellSlot": false
             },
+            "damage": {
+              "onSave": "half",
+              "parts": []
+            },
+            "save": {
+              "ability": [
+                "wis"
+              ],
+              "dc": {
+                "calculation": "spellcasting",
+                "formula": ""
+              }
+            },
             "description": {},
-            "duration": {},
             "effects": [],
             "range": {},
             "target": {},
@@ -3365,7 +3426,7 @@
         }
       },
       "effects": [],
-      "folder": "rfiair0000000000",
+      "folder": "rf4b7df4b8a46471",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -3444,25 +3505,37 @@
           }
         },
         "activities": {
-          "rkisearingbarric": {
-            "_id": "rkisearingbarric",
-            "type": "utility",
+          "r55be333d4c90adc": {
+            "_id": "r55be333d4c90adc",
+            "type": "save",
             "name": "",
             "activation": {
               "type": "action",
-              "value": null,
+              "value": 1,
               "condition": ""
             },
             "consumption": {
               "targets": [],
               "scaling": {
-                "allowed": true,
+                "allowed": false,
                 "max": ""
               },
               "spellSlot": false
             },
+            "damage": {
+              "onSave": "half",
+              "parts": []
+            },
+            "save": {
+              "ability": [
+                "dex"
+              ],
+              "dc": {
+                "calculation": "spellcasting",
+                "formula": ""
+              }
+            },
             "description": {},
-            "duration": {},
             "effects": [],
             "range": {},
             "target": {},
@@ -3476,7 +3549,7 @@
         }
       },
       "effects": [],
-      "folder": "rfifire000000000",
+      "folder": "ra89f2d88ec7746e",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -3555,8 +3628,8 @@
           }
         },
         "activities": {
-          "rkisecretsonthew": {
-            "_id": "rkisecretsonthew",
+          "r2924f12431534ff": {
+            "_id": "r2924f12431534ff",
             "type": "utility",
             "name": "",
             "activation": {
@@ -3567,13 +3640,12 @@
             "consumption": {
               "targets": [],
               "scaling": {
-                "allowed": true,
+                "allowed": false,
                 "max": ""
               },
               "spellSlot": false
             },
             "description": {},
-            "duration": {},
             "effects": [],
             "range": {},
             "target": {},
@@ -3587,7 +3659,7 @@
         }
       },
       "effects": [],
-      "folder": "rfiair0000000000",
+      "folder": "rf4b7df4b8a46471",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -3666,25 +3738,37 @@
           }
         },
         "activities": {
-          "rkisinkholeshung": {
-            "_id": "rkisinkholeshung",
-            "type": "utility",
+          "r97418a3f9c3d690": {
+            "_id": "r97418a3f9c3d690",
+            "type": "save",
             "name": "",
             "activation": {
               "type": "action",
-              "value": null,
+              "value": 1,
               "condition": ""
             },
             "consumption": {
               "targets": [],
               "scaling": {
-                "allowed": true,
+                "allowed": false,
                 "max": ""
               },
               "spellSlot": false
             },
+            "damage": {
+              "onSave": "half",
+              "parts": []
+            },
+            "save": {
+              "ability": [
+                "dex"
+              ],
+              "dc": {
+                "calculation": "spellcasting",
+                "formula": ""
+              }
+            },
             "description": {},
-            "duration": {},
             "effects": [],
             "range": {},
             "target": {},
@@ -3698,7 +3782,7 @@
         }
       },
       "effects": [],
-      "folder": "rfiearth00000000",
+      "folder": "r02de384bbbed641",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -3777,25 +3861,24 @@
           }
         },
         "activities": {
-          "rkisparkingswarm": {
-            "_id": "rkisparkingswarm",
+          "r8025037e8210b75": {
+            "_id": "r8025037e8210b75",
             "type": "utility",
             "name": "",
             "activation": {
               "type": "action",
-              "value": null,
+              "value": 1,
               "condition": ""
             },
             "consumption": {
               "targets": [],
               "scaling": {
-                "allowed": true,
+                "allowed": false,
                 "max": ""
               },
               "spellSlot": false
             },
             "description": {},
-            "duration": {},
             "effects": [],
             "range": {},
             "target": {},
@@ -3809,7 +3892,7 @@
         }
       },
       "effects": [],
-      "folder": "rfifire000000000",
+      "folder": "ra89f2d88ec7746e",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -3888,25 +3971,24 @@
           }
         },
         "activities": {
-          "rkistrikeofthets": {
-            "_id": "rkistrikeofthets",
+          "rf770869e6288aa1": {
+            "_id": "rf770869e6288aa1",
             "type": "utility",
             "name": "",
             "activation": {
               "type": "action",
-              "value": null,
+              "value": 1,
               "condition": ""
             },
             "consumption": {
               "targets": [],
               "scaling": {
-                "allowed": true,
+                "allowed": false,
                 "max": ""
               },
               "spellSlot": false
             },
             "description": {},
-            "duration": {},
             "effects": [],
             "range": {},
             "target": {},
@@ -3920,7 +4002,7 @@
         }
       },
       "effects": [],
-      "folder": "rfiwater00000000",
+      "folder": "rfc774b1a633cae6",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -3999,25 +4081,24 @@
           }
         },
         "activities": {
-          "rkisummonfog0000": {
-            "_id": "rkisummonfog0000",
+          "r35ba559d69f3fd9": {
+            "_id": "r35ba559d69f3fd9",
             "type": "utility",
             "name": "",
             "activation": {
               "type": "action",
-              "value": null,
+              "value": 1,
               "condition": ""
             },
             "consumption": {
               "targets": [],
               "scaling": {
-                "allowed": true,
+                "allowed": false,
                 "max": ""
               },
               "spellSlot": false
             },
             "description": {},
-            "duration": {},
             "effects": [],
             "range": {},
             "target": {},
@@ -4031,7 +4112,7 @@
         }
       },
       "effects": [],
-      "folder": "rfiair0000000000",
+      "folder": "rf4b7df4b8a46471",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -4110,25 +4191,24 @@
           }
         },
         "activities": {
-          "rkisurgeofair000": {
-            "_id": "rkisurgeofair000",
+          "r8ed48b02295dc7c": {
+            "_id": "r8ed48b02295dc7c",
             "type": "utility",
             "name": "",
             "activation": {
               "type": "action",
-              "value": null,
+              "value": 1,
               "condition": ""
             },
             "consumption": {
               "targets": [],
               "scaling": {
-                "allowed": true,
+                "allowed": false,
                 "max": ""
               },
               "spellSlot": false
             },
             "description": {},
-            "duration": {},
             "effects": [],
             "range": {},
             "target": {},
@@ -4142,7 +4222,7 @@
         }
       },
       "effects": [],
-      "folder": "rfiair0000000000",
+      "folder": "rf4b7df4b8a46471",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -4221,8 +4301,8 @@
           }
         },
         "activities": {
-          "rkitheelementsri": {
-            "_id": "rkitheelementsri",
+          "rb812668fbedb17e": {
+            "_id": "rb812668fbedb17e",
             "type": "utility",
             "name": "",
             "activation": {
@@ -4233,13 +4313,12 @@
             "consumption": {
               "targets": [],
               "scaling": {
-                "allowed": true,
+                "allowed": false,
                 "max": ""
               },
               "spellSlot": false
             },
             "description": {},
-            "duration": {},
             "effects": [],
             "range": {},
             "target": {},
@@ -4253,7 +4332,7 @@
         }
       },
       "effects": [],
-      "folder": "rfiuniversal0000",
+      "folder": "r7b6576cabf1ddd1",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -4332,25 +4411,24 @@
           }
         },
         "activities": {
-          "rkitherushingwav": {
-            "_id": "rkitherushingwav",
+          "reed6f1579346292": {
+            "_id": "reed6f1579346292",
             "type": "utility",
             "name": "",
             "activation": {
-              "type": "action",
-              "value": null,
+              "type": "bonus",
+              "value": 1,
               "condition": ""
             },
             "consumption": {
               "targets": [],
               "scaling": {
-                "allowed": true,
+                "allowed": false,
                 "max": ""
               },
               "spellSlot": false
             },
             "description": {},
-            "duration": {},
             "effects": [],
             "range": {},
             "target": {},
@@ -4364,7 +4442,7 @@
         }
       },
       "effects": [],
-      "folder": "rfiwater00000000",
+      "folder": "rfc774b1a633cae6",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -4443,8 +4521,8 @@
           }
         },
         "activities": {
-          "rkithresholdbarr": {
-            "_id": "rkithresholdbarr",
+          "r112eec0180b24d7": {
+            "_id": "r112eec0180b24d7",
             "type": "utility",
             "name": "",
             "activation": {
@@ -4455,13 +4533,12 @@
             "consumption": {
               "targets": [],
               "scaling": {
-                "allowed": true,
+                "allowed": false,
                 "max": ""
               },
               "spellSlot": false
             },
             "description": {},
-            "duration": {},
             "effects": [],
             "range": {},
             "target": {},
@@ -4475,7 +4552,7 @@
         }
       },
       "effects": [],
-      "folder": "rfiuniversal0000",
+      "folder": "r7b6576cabf1ddd1",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -4554,9 +4631,9 @@
           }
         },
         "activities": {
-          "rkitokenofmemory": {
-            "_id": "rkitokenofmemory",
-            "type": "utility",
+          "r49bfbd0e39196f7": {
+            "_id": "r49bfbd0e39196f7",
+            "type": "save",
             "name": "",
             "activation": {
               "type": "minute",
@@ -4566,13 +4643,25 @@
             "consumption": {
               "targets": [],
               "scaling": {
-                "allowed": true,
+                "allowed": false,
                 "max": ""
               },
               "spellSlot": false
             },
+            "damage": {
+              "onSave": "half",
+              "parts": []
+            },
+            "save": {
+              "ability": [
+                "wis"
+              ],
+              "dc": {
+                "calculation": "spellcasting",
+                "formula": ""
+              }
+            },
             "description": {},
-            "duration": {},
             "effects": [],
             "range": {},
             "target": {},
@@ -4586,7 +4675,7 @@
         }
       },
       "effects": [],
-      "folder": "rfiair0000000000",
+      "folder": "rf4b7df4b8a46471",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -4665,25 +4754,24 @@
           }
         },
         "activities": {
-          "rkiwingsofthepho": {
-            "_id": "rkiwingsofthepho",
+          "rf8cf541077676f7": {
+            "_id": "rf8cf541077676f7",
             "type": "utility",
             "name": "",
             "activation": {
               "type": "action",
-              "value": null,
+              "value": 1,
               "condition": ""
             },
             "consumption": {
               "targets": [],
               "scaling": {
-                "allowed": true,
+                "allowed": false,
                 "max": ""
               },
               "spellSlot": false
             },
             "description": {},
-            "duration": {},
             "effects": [],
             "range": {},
             "target": {},
@@ -4697,7 +4785,7 @@
         }
       },
       "effects": [],
-      "folder": "rfifire000000000",
+      "folder": "ra89f2d88ec7746e",
       "sort": 0,
       "flags": {
         "rokugan5e": {

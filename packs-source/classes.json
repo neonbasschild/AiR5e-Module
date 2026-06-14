@@ -1,8 +1,8 @@
 {
   "folders": [
     {
-      "_id": "rfkclasses000000",
-      "_key": "!folders!rfkclasses000000",
+      "_id": "r2a2b5631b8b0f86",
+      "_key": "!folders!r2a2b5631b8b0f86",
       "name": "Classes",
       "type": "Item",
       "sorting": "a",
@@ -11,8 +11,8 @@
       "sort": 0
     },
     {
-      "_id": "rfkbushiarchetyp",
-      "_key": "!folders!rfkbushiarchetyp",
+      "_id": "r4f82109592d4f7a",
+      "_key": "!folders!r4f82109592d4f7a",
       "name": "Bushi Archetypes",
       "type": "Item",
       "sorting": "a",
@@ -21,8 +21,8 @@
       "sort": 0
     },
     {
-      "_id": "rfkduelistarchet",
-      "_key": "!folders!rfkduelistarchet",
+      "_id": "r39932932beeac63",
+      "_key": "!folders!r39932932beeac63",
       "name": "Duelist Archetypes",
       "type": "Item",
       "sorting": "a",
@@ -31,8 +31,8 @@
       "sort": 0
     },
     {
-      "_id": "rfkcourtierarche",
-      "_key": "!folders!rfkcourtierarche",
+      "_id": "rba9c90e36c5712f",
+      "_key": "!folders!rba9c90e36c5712f",
       "name": "Courtier Archetypes",
       "type": "Item",
       "sorting": "a",
@@ -41,8 +41,8 @@
       "sort": 0
     },
     {
-      "_id": "rfkshinobiarchet",
-      "_key": "!folders!rfkshinobiarchet",
+      "_id": "rbacc1ad0af1daa0",
+      "_key": "!folders!rbacc1ad0af1daa0",
       "name": "Shinobi Archetypes",
       "type": "Item",
       "sorting": "a",
@@ -51,8 +51,8 @@
       "sort": 0
     },
     {
-      "_id": "rfkritualistarch",
-      "_key": "!folders!rfkritualistarch",
+      "_id": "rbb1cb8e0c922d43",
+      "_key": "!folders!rbb1cb8e0c922d43",
       "name": "Ritualist Archetypes",
       "type": "Item",
       "sorting": "a",
@@ -61,8 +61,8 @@
       "sort": 0
     },
     {
-      "_id": "rfkpilgrimarchet",
-      "_key": "!folders!rfkpilgrimarchet",
+      "_id": "r72ddbfd64ef9c5b",
+      "_key": "!folders!r72ddbfd64ef9c5b",
       "name": "Pilgrim Archetypes",
       "type": "Item",
       "sorting": "a",
@@ -71,8 +71,8 @@
       "sort": 0
     },
     {
-      "_id": "rfkacolytearchet",
-      "_key": "!folders!rfkacolytearchet",
+      "_id": "rdfa80555e8c8cfe",
+      "_key": "!folders!rdfa80555e8c8cfe",
       "name": "Acolyte Archetypes",
       "type": "Item",
       "sorting": "a",
@@ -83,8 +83,8 @@
   ],
   "entries": [
     {
-      "_id": "rcbushi000000000",
-      "_key": "!items!rcbushi000000000",
+      "_id": "r17dcb2f62cef245",
+      "_key": "!items!r17dcb2f62cef245",
       "name": "Bushi",
       "type": "class",
       "img": "systems/dnd5e/icons/svg/items/class.svg",
@@ -268,6 +268,118 @@
             "value": {}
           },
           {
+            "_id": "r5a294e8fdf4e053",
+            "type": "ItemChoice",
+            "title": "Techniques Known",
+            "configuration": {
+              "hint": "",
+              "choices": {
+                "1": {
+                  "count": 1,
+                  "replacement": false
+                },
+                "2": {
+                  "count": 1,
+                  "replacement": false
+                },
+                "5": {
+                  "count": 1,
+                  "replacement": false
+                },
+                "9": {
+                  "count": 1,
+                  "replacement": false
+                },
+                "11": {
+                  "count": 1,
+                  "replacement": false
+                },
+                "15": {
+                  "count": 1,
+                  "replacement": false
+                },
+                "18": {
+                  "count": 1,
+                  "replacement": false
+                }
+              },
+              "allowDrops": true,
+              "type": "feat",
+              "pool": [
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtcrashingwavecu"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtcrescentmoonde"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtcrimsonleavesb"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtfallingheavens"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtflashingsteelc"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtflowingwaterst"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtgripoflordhida"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtheartpiercingt"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtiaijutsucutcro"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtiaijutsucutris"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtironforestdefe"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtlaughingfoxdef"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtsnappingbranch"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtsparkingsteeld"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtsoaringthunder"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtsoulsunderings"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtswirlingvipers"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rttwinstreamsthr"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtvanishingworld"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtveiledmenaceth"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtwaspsspitevoll"
+                }
+              ],
+              "restriction": {
+                "type": "",
+                "subtype": "",
+                "level": ""
+              }
+            },
+            "value": {},
+            "level": 1
+          },
+          {
             "_id": "r2d8368eb2823ed9",
             "type": "Subclass",
             "level": 3,
@@ -355,15 +467,15 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfbushifocuspoi",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r19aee97b648578d",
                   "optional": false
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfbushimartialt",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r5bdf95579d87364",
                   "optional": false
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfbushifighting",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rc9ad0de0de371e0",
                   "optional": false
                 }
               ],
@@ -380,11 +492,11 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfbushicombatst",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rc2c759ae5e92c05",
                   "optional": false
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfbushisuddencl",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r1c3e229c93c83b4",
                   "optional": false
                 }
               ],
@@ -401,7 +513,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfbushiextraatt",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcdb396736dc63d8",
                   "optional": false
                 }
               ],
@@ -418,7 +530,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfbushiveterans",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rc90e65eb774bbb1",
                   "optional": false
                 }
               ],
@@ -435,7 +547,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfbushisuddencl",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.racfa05cb5c7ad27",
                   "optional": false
                 }
               ],
@@ -452,7 +564,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfbushiaddition",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rc00c3716bed1787",
                   "optional": false
                 }
               ],
@@ -469,7 +581,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfbushiextraatt",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rec3452ac88d9ae5",
                   "optional": false
                 }
               ],
@@ -486,7 +598,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfbushiveterans",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r65ff8d2d826efb4",
                   "optional": false
                 }
               ],
@@ -503,7 +615,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfbushiextraatt",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r32eef097ed81d25",
                   "optional": false
                 }
               ],
@@ -619,7 +731,7 @@
             "sort": 1200000,
             "requiresProficiency": false,
             "count": 20,
-            "key": "Compendium.rokugan5e.equipment.Item.rgwillowleafarro"
+            "key": "Compendium.rokugan5e.equipment.Item.r3eab20a524d28ea"
           },
           {
             "type": "linked",
@@ -628,7 +740,7 @@
             "sort": 1300000,
             "requiresProficiency": false,
             "count": null,
-            "key": "Compendium.rokugan5e.equipment.Item.rgarmorpiercinga"
+            "key": "Compendium.rokugan5e.equipment.Item.r4c1ae49c46fd9ad"
           },
           {
             "type": "linked",
@@ -637,7 +749,7 @@
             "sort": 1400000,
             "requiresProficiency": false,
             "count": null,
-            "key": "Compendium.rokugan5e.equipment.Item.rghummingbulbarr"
+            "key": "Compendium.rokugan5e.equipment.Item.rb33fbe168f0b0ec"
           },
           {
             "type": "OR",
@@ -693,7 +805,7 @@
         "wealth": ""
       },
       "effects": [],
-      "folder": "rfkclasses000000",
+      "folder": "r2a2b5631b8b0f86",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -701,8 +813,8 @@
       }
     },
     {
-      "_id": "rcduelist0000000",
-      "_key": "!items!rcduelist0000000",
+      "_id": "rb026c417b94e471",
+      "_key": "!items!rb026c417b94e471",
       "name": "Duelist",
       "type": "class",
       "img": "systems/dnd5e/icons/svg/items/class.svg",
@@ -891,6 +1003,118 @@
             "value": {}
           },
           {
+            "_id": "r2a5945d7ab469c5",
+            "type": "ItemChoice",
+            "title": "Techniques Known",
+            "configuration": {
+              "hint": "",
+              "choices": {
+                "1": {
+                  "count": 1,
+                  "replacement": false
+                },
+                "2": {
+                  "count": 1,
+                  "replacement": false
+                },
+                "5": {
+                  "count": 1,
+                  "replacement": false
+                },
+                "9": {
+                  "count": 1,
+                  "replacement": false
+                },
+                "11": {
+                  "count": 1,
+                  "replacement": false
+                },
+                "15": {
+                  "count": 1,
+                  "replacement": false
+                },
+                "18": {
+                  "count": 1,
+                  "replacement": false
+                }
+              },
+              "allowDrops": true,
+              "type": "feat",
+              "pool": [
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtcrashingwavecu"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtcrescentmoonde"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtcrimsonleavesb"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtfallingheavens"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtflashingsteelc"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtflowingwaterst"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtgripoflordhida"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtheartpiercingt"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtiaijutsucutcro"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtiaijutsucutris"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtironforestdefe"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtlaughingfoxdef"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtsnappingbranch"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtsparkingsteeld"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtsoaringthunder"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtsoulsunderings"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtswirlingvipers"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rttwinstreamsthr"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtvanishingworld"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtveiledmenaceth"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtwaspsspitevoll"
+                }
+              ],
+              "restriction": {
+                "type": "",
+                "subtype": "",
+                "level": ""
+              }
+            },
+            "value": {},
+            "level": 1
+          },
+          {
             "_id": "r53913228aa54f8a",
             "type": "Subclass",
             "level": 3,
@@ -978,15 +1202,15 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfduelistmartia",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.ra216929d4998e72",
                   "optional": false
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfduelistfocusp",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r7d40d4767240c49",
                   "optional": false
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfduelistduelis",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r8d3d146957802c9",
                   "optional": false
                 }
               ],
@@ -1003,11 +1227,11 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfduelistcombat",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r1804daee35e384a",
                   "optional": false
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfduelistlethal",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r6adcd8167e7ad71",
                   "optional": false
                 }
               ],
@@ -1024,7 +1248,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfduelistchalle",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rda057f5b54d4222",
                   "optional": false
                 }
               ],
@@ -1041,7 +1265,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfduelistextraa",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r8ac7fc464b727b0",
                   "optional": false
                 }
               ],
@@ -1058,7 +1282,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfduelistdecisi",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rd40905e42e60335",
                   "optional": false
                 }
               ],
@@ -1075,7 +1299,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfduelistswifte",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.reed7810b24f5c61",
                   "optional": false
                 }
               ],
@@ -1092,7 +1316,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfduelistadditi",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r795150ecd4ab0d8",
                   "optional": false
                 }
               ],
@@ -1109,7 +1333,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfduelistextraa",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.ra34cc82941603ac",
                   "optional": false
                 }
               ],
@@ -1126,7 +1350,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfduelistdecisi",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rfead9472b0f8876",
                   "optional": false
                 }
               ],
@@ -1143,7 +1367,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfduelistlethal",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r8ca7df6b2906f15",
                   "optional": false
                 }
               ],
@@ -1160,7 +1384,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfduelistextraa",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r30a4643a34a8ad1",
                   "optional": false
                 }
               ],
@@ -1301,7 +1525,7 @@
             "sort": 1500000,
             "requiresProficiency": false,
             "count": 20,
-            "key": "Compendium.rokugan5e.equipment.Item.rgwillowleafarro"
+            "key": "Compendium.rokugan5e.equipment.Item.r3eab20a524d28ea"
           },
           {
             "type": "linked",
@@ -1310,7 +1534,7 @@
             "sort": 1600000,
             "requiresProficiency": false,
             "count": null,
-            "key": "Compendium.rokugan5e.equipment.Item.rgarmorpiercinga"
+            "key": "Compendium.rokugan5e.equipment.Item.r4c1ae49c46fd9ad"
           },
           {
             "type": "linked",
@@ -1319,7 +1543,7 @@
             "sort": 1700000,
             "requiresProficiency": false,
             "count": null,
-            "key": "Compendium.rokugan5e.equipment.Item.rgfleshcutterarr"
+            "key": "Compendium.rokugan5e.equipment.Item.r0611bef36f056d5"
           },
           {
             "type": "AND",
@@ -1351,7 +1575,7 @@
             "sort": 2100000,
             "requiresProficiency": false,
             "count": null,
-            "key": "Compendium.rokugan5e.equipment.Item.rgbowyerskit0000"
+            "key": "Compendium.rokugan5e.equipment.Item.rbb96b57ecc301a5"
           },
           {
             "type": "linked",
@@ -1360,7 +1584,7 @@
             "sort": 2200000,
             "requiresProficiency": false,
             "count": null,
-            "key": "Compendium.rokugan5e.equipment.Item.rgswordmaintenan"
+            "key": "Compendium.rokugan5e.equipment.Item.r7be3091118a9a92"
           },
           {
             "type": "currency",
@@ -1375,7 +1599,7 @@
         "wealth": ""
       },
       "effects": [],
-      "folder": "rfkclasses000000",
+      "folder": "r2a2b5631b8b0f86",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -1383,8 +1607,8 @@
       }
     },
     {
-      "_id": "rccourtier000000",
-      "_key": "!items!rccourtier000000",
+      "_id": "r75ddce9044f4efd",
+      "_key": "!items!r75ddce9044f4efd",
       "name": "Courtier",
       "type": "class",
       "img": "systems/dnd5e/icons/svg/items/class.svg",
@@ -1595,6 +1819,185 @@
             "value": {}
           },
           {
+            "_id": "recd15a39515256b",
+            "type": "ScaleValue",
+            "title": "Intrigue Dice",
+            "configuration": {
+              "identifier": "intrigue-dice",
+              "type": "number",
+              "distance": {
+                "units": ""
+              },
+              "scale": {
+                "1": {
+                  "value": 2
+                },
+                "4": {
+                  "value": 3
+                },
+                "6": {
+                  "value": 4
+                },
+                "10": {
+                  "value": 5
+                },
+                "13": {
+                  "value": 6
+                },
+                "19": {
+                  "value": 7
+                },
+                "20": {
+                  "value": 8
+                }
+              }
+            },
+            "value": {}
+          },
+          {
+            "_id": "re4fd9097c2345ae",
+            "type": "ScaleValue",
+            "title": "Intrigue Die",
+            "configuration": {
+              "identifier": "intrigue-die",
+              "type": "dice",
+              "distance": {
+                "units": ""
+              },
+              "scale": {
+                "1": {
+                  "number": null,
+                  "faces": 6
+                },
+                "5": {
+                  "number": null,
+                  "faces": 8
+                },
+                "10": {
+                  "number": null,
+                  "faces": 10
+                },
+                "19": {
+                  "number": null,
+                  "faces": 12
+                }
+              }
+            },
+            "value": {}
+          },
+          {
+            "_id": "rac961cf881ffa49",
+            "type": "ItemChoice",
+            "title": "Techniques Known",
+            "configuration": {
+              "hint": "",
+              "choices": {
+                "1": {
+                  "count": 1,
+                  "replacement": false
+                },
+                "2": {
+                  "count": 1,
+                  "replacement": false
+                },
+                "5": {
+                  "count": 1,
+                  "replacement": false
+                },
+                "9": {
+                  "count": 1,
+                  "replacement": false
+                },
+                "11": {
+                  "count": 1,
+                  "replacement": false
+                },
+                "15": {
+                  "count": 1,
+                  "replacement": false
+                },
+                "18": {
+                  "count": 1,
+                  "replacement": false
+                }
+              },
+              "allowDrops": true,
+              "type": "feat",
+              "pool": [
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtcrashingwavecu"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtcrescentmoonde"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtcrimsonleavesb"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtfallingheavens"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtflashingsteelc"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtflowingwaterst"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtgripoflordhida"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtheartpiercingt"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtiaijutsucutcro"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtiaijutsucutris"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtironforestdefe"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtlaughingfoxdef"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtsnappingbranch"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtsparkingsteeld"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtsoaringthunder"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtsoulsunderings"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtswirlingvipers"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rttwinstreamsthr"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtvanishingworld"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtveiledmenaceth"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtwaspsspitevoll"
+                }
+              ],
+              "restriction": {
+                "type": "",
+                "subtype": "",
+                "level": ""
+              }
+            },
+            "value": {},
+            "level": 1
+          },
+          {
             "_id": "r42b2e10c3ceac11",
             "type": "Subclass",
             "level": 3,
@@ -1658,23 +2061,27 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfcourtierflour",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rd16f35be2499e12",
                   "optional": false
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfcourtierstrat",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r35714abcb08823e",
                   "optional": false
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfcourtierfocus",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rd08122e96020036",
                   "optional": false
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfcourtiercourt",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rdcfda4432160144",
                   "optional": false
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfcourtierrheto",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rec2f7131775b032",
+                  "optional": false
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rd7cbb326b28b4c0",
                   "optional": false
                 }
               ],
@@ -1691,7 +2098,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfcourtieraddit",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r474547603c2fc0f",
                   "optional": false
                 }
               ],
@@ -1708,7 +2115,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfcourtierintri",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r18f7ebc0dc7cfb4",
                   "optional": false
                 }
               ],
@@ -1725,7 +2132,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfcourtierextra",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r039a110a4f29608",
                   "optional": false
                 }
               ],
@@ -1742,7 +2149,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfcourtierrheto",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rdf004e890607f2e",
                   "optional": false
                 }
               ],
@@ -1759,7 +2166,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfcourtierstrat",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r73aa9cabeceb38c",
                   "optional": false
                 }
               ],
@@ -1776,7 +2183,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfcourtierextra",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rdcab1016a72b9ff",
                   "optional": false
                 }
               ],
@@ -1793,7 +2200,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfcourtierpract",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r0475e3995d6c1ba",
                   "optional": false
                 }
               ],
@@ -1810,7 +2217,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfcourtierrheto",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rc18111f95337be5",
                   "optional": false
                 }
               ],
@@ -1926,7 +2333,7 @@
             "sort": 1200000,
             "requiresProficiency": false,
             "count": 20,
-            "key": "Compendium.rokugan5e.equipment.Item.rgwillowleafarro"
+            "key": "Compendium.rokugan5e.equipment.Item.r3eab20a524d28ea"
           },
           {
             "type": "AND",
@@ -1982,7 +2389,7 @@
         "wealth": ""
       },
       "effects": [],
-      "folder": "rfkclasses000000",
+      "folder": "r2a2b5631b8b0f86",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -1990,8 +2397,8 @@
       }
     },
     {
-      "_id": "rcshinobi0000000",
-      "_key": "!items!rcshinobi0000000",
+      "_id": "r1ef478336dbb86e",
+      "_key": "!items!r1ef478336dbb86e",
       "name": "Shinobi",
       "type": "class",
       "img": "systems/dnd5e/icons/svg/items/class.svg",
@@ -2405,6 +2812,118 @@
             "value": {}
           },
           {
+            "_id": "r000fbb3ff89588c",
+            "type": "ItemChoice",
+            "title": "Techniques Known",
+            "configuration": {
+              "hint": "",
+              "choices": {
+                "1": {
+                  "count": 1,
+                  "replacement": false
+                },
+                "2": {
+                  "count": 1,
+                  "replacement": false
+                },
+                "5": {
+                  "count": 1,
+                  "replacement": false
+                },
+                "9": {
+                  "count": 1,
+                  "replacement": false
+                },
+                "11": {
+                  "count": 1,
+                  "replacement": false
+                },
+                "15": {
+                  "count": 1,
+                  "replacement": false
+                },
+                "18": {
+                  "count": 1,
+                  "replacement": false
+                }
+              },
+              "allowDrops": true,
+              "type": "feat",
+              "pool": [
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtcrashingwavecu"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtcrescentmoonde"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtcrimsonleavesb"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtfallingheavens"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtflashingsteelc"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtflowingwaterst"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtgripoflordhida"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtheartpiercingt"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtiaijutsucutcro"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtiaijutsucutris"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtironforestdefe"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtlaughingfoxdef"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtsnappingbranch"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtsparkingsteeld"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtsoaringthunder"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtsoulsunderings"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtswirlingvipers"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rttwinstreamsthr"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtvanishingworld"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtveiledmenaceth"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtwaspsspitevoll"
+                }
+              ],
+              "restriction": {
+                "type": "",
+                "subtype": "",
+                "level": ""
+              }
+            },
+            "value": {},
+            "level": 1
+          },
+          {
             "_id": "r21cd352bcb99e61",
             "type": "Subclass",
             "level": 3,
@@ -2492,23 +3011,23 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfshinobiexpert",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r7f46c6bf2da3d15",
                   "optional": false
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfshinobimercil",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r521913ac30c1171",
                   "optional": false
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfshinobininjut",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r39bfa40cdb11af7",
                   "optional": false
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfshinobifocusp",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r449e5a6beae529a",
                   "optional": false
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfshinobininjat",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.ra6010b52e435a86",
                   "optional": false
                 }
               ],
@@ -2525,7 +3044,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfshinobinimble",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r92f6f0e6ddfde15",
                   "optional": false
                 }
               ],
@@ -2542,7 +3061,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfshinobiquickh",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r60de234915837b8",
                   "optional": false
                 }
               ],
@@ -2559,7 +3078,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfshinobiescape",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rae2b57adeee1f83",
                   "optional": false
                 }
               ],
@@ -2576,7 +3095,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfshinobicresce",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rb150aad9523c1e0",
                   "optional": false
                 }
               ],
@@ -2593,7 +3112,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfshinobivigila",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r3bfef9fe9f2c447",
                   "optional": false
                 }
               ],
@@ -2610,7 +3129,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfshinobivenomt",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r55ffade3710a4cd",
                   "optional": false
                 }
               ],
@@ -2627,7 +3146,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfshinobicresce",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rb780a57a953cbaf",
                   "optional": false
                 }
               ],
@@ -2644,7 +3163,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfshinobideathm",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r8c654a2072e0e5f",
                   "optional": false
                 }
               ],
@@ -2661,7 +3180,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfshinobidefyde",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.ra1f409e8e56d39b",
                   "optional": false
                 }
               ],
@@ -2841,7 +3360,7 @@
             "sort": 2000000,
             "requiresProficiency": false,
             "count": null,
-            "key": "Compendium.rokugan5e.equipment.Item.rgdisguisekit000"
+            "key": "Compendium.rokugan5e.equipment.Item.r4ff664765766118"
           },
           {
             "type": "linked",
@@ -2850,7 +3369,7 @@
             "sort": 2100000,
             "requiresProficiency": false,
             "count": null,
-            "key": "Compendium.rokugan5e.equipment.Item.rginfiltratorseq"
+            "key": "Compendium.rokugan5e.equipment.Item.rae4319638ce5c61"
           },
           {
             "type": "currency",
@@ -2865,7 +3384,7 @@
         "wealth": ""
       },
       "effects": [],
-      "folder": "rfkclasses000000",
+      "folder": "r2a2b5631b8b0f86",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -2873,8 +3392,8 @@
       }
     },
     {
-      "_id": "rcritualist00000",
-      "_key": "!items!rcritualist00000",
+      "_id": "r727da1df765fda2",
+      "_key": "!items!r727da1df765fda2",
       "name": "Ritualist",
       "type": "class",
       "img": "systems/dnd5e/icons/svg/items/class.svg",
@@ -3129,6 +3648,279 @@
             "value": {}
           },
           {
+            "_id": "rdb00282d54c5ff5",
+            "type": "ItemChoice",
+            "title": "Invocations Known (Tier 1)",
+            "configuration": {
+              "hint": "",
+              "choices": {
+                "1": {
+                  "count": 2,
+                  "replacement": false
+                },
+                "2": {
+                  "count": 1,
+                  "replacement": false
+                },
+                "3": {
+                  "count": 1,
+                  "replacement": false
+                },
+                "4": {
+                  "count": 1,
+                  "replacement": false
+                },
+                "7": {
+                  "count": 1,
+                  "replacement": false
+                },
+                "9": {
+                  "count": 1,
+                  "replacement": false
+                },
+                "12": {
+                  "count": 1,
+                  "replacement": false
+                },
+                "15": {
+                  "count": 1,
+                  "replacement": false
+                },
+                "18": {
+                  "count": 1,
+                  "replacement": false
+                }
+              },
+              "allowDrops": true,
+              "type": "spell",
+              "pool": [
+                {
+                  "uuid": "Compendium.rokugan5e.invocations.Item.ribitingsteel000"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.invocations.Item.ribladeoftheelem"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.invocations.Item.ricallofcinders0"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.invocations.Item.ricaressofearth0"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.invocations.Item.ridanceofseasons"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.invocations.Item.riguardianofthes"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.invocations.Item.rijadestrike0000"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.invocations.Item.riladysunssmile0"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.invocations.Item.rimaskofwind0000"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.invocations.Item.rinaturestouch00"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.invocations.Item.ricastingtime000"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.invocations.Item.risinkholeshunge"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.invocations.Item.risparkingswarms"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.invocations.Item.ristrikeofthetsu"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.invocations.Item.risurgeofair0000"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.invocations.Item.ritokenofmemory0"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.invocations.Item.ricleansingrite0"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.invocations.Item.ricommunewiththe"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.invocations.Item.ridivinetheomens"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.invocations.Item.rithresholdbarri"
+                }
+              ],
+              "restriction": {
+                "type": "",
+                "subtype": "",
+                "level": ""
+              }
+            },
+            "value": {},
+            "level": 1
+          },
+          {
+            "_id": "rd5e897596641f51",
+            "type": "ItemChoice",
+            "title": "Invocations Known (Tier 2)",
+            "configuration": {
+              "hint": "",
+              "choices": {
+                "3": {
+                  "count": 1,
+                  "replacement": false
+                },
+                "5": {
+                  "count": 1,
+                  "replacement": false
+                },
+                "8": {
+                  "count": 1,
+                  "replacement": false
+                },
+                "10": {
+                  "count": 1,
+                  "replacement": false
+                },
+                "13": {
+                  "count": 1,
+                  "replacement": false
+                },
+                "16": {
+                  "count": 1,
+                  "replacement": false
+                },
+                "19": {
+                  "count": 1,
+                  "replacement": false
+                }
+              },
+              "allowDrops": true,
+              "type": "spell",
+              "pool": [
+                {
+                  "uuid": "Compendium.rokugan5e.invocations.Item.riarmorofstone00"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.invocations.Item.ribarricadeofear"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.invocations.Item.ridominionofwate"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.invocations.Item.riearthbecomessk"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.invocations.Item.rifuryofosanowo0"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.invocations.Item.rigentlerains000"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.invocations.Item.rihandsofthetide"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.invocations.Item.riinvigoratinghe"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.invocations.Item.rilordmoonsgaze0"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.invocations.Item.risearingbarrica"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.invocations.Item.risecretsonthewi"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.invocations.Item.risummonfog00000"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.invocations.Item.ritherushingwave"
+                }
+              ],
+              "restriction": {
+                "type": "",
+                "subtype": "",
+                "level": ""
+              }
+            },
+            "value": {},
+            "level": 1
+          },
+          {
+            "_id": "rfc60692442cbeca",
+            "type": "ItemChoice",
+            "title": "Invocations Known (Tier 3)",
+            "configuration": {
+              "hint": "",
+              "choices": {
+                "6": {
+                  "count": 1,
+                  "replacement": false
+                },
+                "11": {
+                  "count": 1,
+                  "replacement": false
+                },
+                "14": {
+                  "count": 1,
+                  "replacement": false
+                },
+                "17": {
+                  "count": 1,
+                  "replacement": false
+                },
+                "20": {
+                  "count": 1,
+                  "replacement": false
+                }
+              },
+              "allowDrops": true,
+              "type": "spell",
+              "pool": [
+                {
+                  "uuid": "Compendium.rokugan5e.invocations.Item.ribindtheshadow0"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.invocations.Item.ribreathofthefir"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.invocations.Item.riembraceoftheea"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.invocations.Item.rieverchangingwa"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.invocations.Item.rigraceoftheaird"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.invocations.Item.riheartofthewate"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.invocations.Item.rirealmofillusio"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.invocations.Item.ritheelementsris"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.invocations.Item.riwingsofthephoe"
+                }
+              ],
+              "restriction": {
+                "type": "",
+                "subtype": "",
+                "level": ""
+              }
+            },
+            "value": {},
+            "level": 1
+          },
+          {
             "_id": "r2dd339cf87a5254",
             "type": "Subclass",
             "level": 2,
@@ -3204,19 +3996,19 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfritualistinvo",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rad0b65a35989971",
                   "optional": false
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfritualistinvo",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rc4c49eb96ef515e",
                   "optional": false
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfritualistfavo",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r8d3d4ee12276bf3",
                   "optional": false
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfritualistritu",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r07eabb67f0c69aa",
                   "optional": false
                 }
               ],
@@ -3233,7 +4025,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfritualistchan",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rc20333dd0a6aeba",
                   "optional": false
                 }
               ],
@@ -3250,7 +4042,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfritualistinst",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.read4e375b64279b",
                   "optional": false
                 }
               ],
@@ -3267,7 +4059,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfritualistprac",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rfcf6169424c1a3d",
                   "optional": false
                 }
               ],
@@ -3284,7 +4076,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfritualistritu",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r57588f1c0d5390e",
                   "optional": false
                 }
               ],
@@ -3384,7 +4176,7 @@
             "sort": 1000000,
             "requiresProficiency": false,
             "count": 20,
-            "key": "Compendium.rokugan5e.equipment.Item.rgwillowleafarro"
+            "key": "Compendium.rokugan5e.equipment.Item.r3eab20a524d28ea"
           },
           {
             "type": "linked",
@@ -3440,7 +4232,7 @@
         "wealth": ""
       },
       "effects": [],
-      "folder": "rfkclasses000000",
+      "folder": "r2a2b5631b8b0f86",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -3448,8 +4240,8 @@
       }
     },
     {
-      "_id": "rcpilgrim0000000",
-      "_key": "!items!rcpilgrim0000000",
+      "_id": "rfaabe2892ef787e",
+      "_key": "!items!rfaabe2892ef787e",
       "name": "Pilgrim",
       "type": "class",
       "img": "systems/dnd5e/icons/svg/items/class.svg",
@@ -3608,6 +4400,138 @@
             "value": {}
           },
           {
+            "_id": "r0c579e8d93f31ea",
+            "type": "ScaleValue",
+            "title": "Externalizations Known",
+            "configuration": {
+              "identifier": "externalizations-known",
+              "type": "number",
+              "distance": {
+                "units": ""
+              },
+              "scale": {
+                "2": {
+                  "value": 1
+                },
+                "3": {
+                  "value": 2
+                },
+                "5": {
+                  "value": 3
+                },
+                "7": {
+                  "value": 4
+                },
+                "9": {
+                  "value": 5
+                },
+                "11": {
+                  "value": 6
+                },
+                "13": {
+                  "value": 7
+                },
+                "15": {
+                  "value": 8
+                },
+                "17": {
+                  "value": 9
+                }
+              }
+            },
+            "value": {}
+          },
+          {
+            "_id": "r2aeb2607ba6c40a",
+            "type": "ItemChoice",
+            "title": "Externalizations Known",
+            "configuration": {
+              "hint": "",
+              "choices": {
+                "2": {
+                  "count": 1,
+                  "replacement": false
+                },
+                "3": {
+                  "count": 1,
+                  "replacement": false
+                },
+                "5": {
+                  "count": 1,
+                  "replacement": false
+                },
+                "7": {
+                  "count": 1,
+                  "replacement": false
+                },
+                "9": {
+                  "count": 1,
+                  "replacement": false
+                },
+                "11": {
+                  "count": 1,
+                  "replacement": false
+                },
+                "13": {
+                  "count": 1,
+                  "replacement": false
+                },
+                "15": {
+                  "count": 1,
+                  "replacement": false
+                },
+                "17": {
+                  "count": 1,
+                  "replacement": false
+                }
+              },
+              "allowDrops": true,
+              "type": "feat",
+              "pool": [
+                {
+                  "uuid": "Compendium.rokugan5e.externalizations.Item.r254bbe61f5ac2ad"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.externalizations.Item.r185222976180ddb"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.externalizations.Item.rc4504026e210e28"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.externalizations.Item.r744c6a9f54b82d4"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.externalizations.Item.r6cdd5fa6bf07db3"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.externalizations.Item.r436ad2cbd343334"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.externalizations.Item.rb5858f5ae5fc351"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.externalizations.Item.rf0e11d5c9b8e548"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.externalizations.Item.rb8351683b162a64"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.externalizations.Item.r1d3849ee10fdc82"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.externalizations.Item.rf90dcfda0eaf38e"
+                }
+              ],
+              "restriction": {
+                "type": "",
+                "subtype": "",
+                "level": ""
+              }
+            },
+            "value": {},
+            "level": 1
+          },
+          {
             "_id": "rc388cf7ebd5121b",
             "type": "Subclass",
             "level": 2,
@@ -3683,7 +4607,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfpilgrimbodymi",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.ra6c79ba6fb79c2b",
                   "optional": false
                 }
               ],
@@ -3700,11 +4624,11 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfpilgrimyinand",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.reefa57d4b4ac6e1",
                   "optional": false
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfpilgrimextern",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rca17e2e339eed04",
                   "optional": false
                 }
               ],
@@ -3721,7 +4645,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfpilgrimbattle",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rbaa01fecefe492e",
                   "optional": false
                 }
               ],
@@ -3738,11 +4662,11 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfpilgrimboundl",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rdd0586f7725ec88",
                   "optional": false
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfpilgrimwellof",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r3a5bb4b7cbd1f71",
                   "optional": false
                 }
               ],
@@ -3759,7 +4683,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfpilgrimcosmic",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r16df9bbcf145bf6",
                   "optional": false
                 }
               ],
@@ -3776,7 +4700,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfpilgrimformso",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r984c0ba239265a8",
                   "optional": false
                 }
               ],
@@ -3793,7 +4717,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfpilgrimadvanc",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rebd7a79c0c8aa27",
                   "optional": false
                 }
               ],
@@ -3810,7 +4734,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfpilgrimwellof",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rbf8477ba0519c9f",
                   "optional": false
                 }
               ],
@@ -3827,7 +4751,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfpilgrimcosmic",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r7602421d791c56b",
                   "optional": false
                 }
               ],
@@ -3844,7 +4768,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfpilgrimtechni",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r2701499ad462d96",
                   "optional": false
                 }
               ],
@@ -3861,7 +4785,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfpilgrimeyesof",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rf33cb81caa07dcd",
                   "optional": false
                 }
               ],
@@ -3878,11 +4802,11 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfpilgrimbattle",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rfc912c2934fb3ea",
                   "optional": false
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfpilgrimcosmic",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r98dc238722025da",
                   "optional": false
                 }
               ],
@@ -3963,7 +4887,7 @@
         "wealth": ""
       },
       "effects": [],
-      "folder": "rfkclasses000000",
+      "folder": "r2a2b5631b8b0f86",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -3971,8 +4895,8 @@
       }
     },
     {
-      "_id": "rcacolyte0000000",
-      "_key": "!items!rcacolyte0000000",
+      "_id": "rc410f26feac4a6f",
+      "_key": "!items!rc410f26feac4a6f",
       "name": "Acolyte",
       "type": "class",
       "img": "systems/dnd5e/icons/svg/items/class.svg",
@@ -4156,6 +5080,169 @@
             "value": {}
           },
           {
+            "_id": "r56ef620c7eb87e5",
+            "type": "ScaleValue",
+            "title": "Night Damage",
+            "configuration": {
+              "identifier": "night-damage",
+              "type": "dice",
+              "distance": {
+                "units": ""
+              },
+              "scale": {
+                "1": {
+                  "number": 1,
+                  "faces": 4
+                },
+                "3": {
+                  "number": 2,
+                  "faces": 4
+                },
+                "6": {
+                  "number": 3,
+                  "faces": 4
+                },
+                "8": {
+                  "number": 4,
+                  "faces": 4
+                },
+                "10": {
+                  "number": 5,
+                  "faces": 4
+                },
+                "12": {
+                  "number": 6,
+                  "faces": 4
+                },
+                "14": {
+                  "number": 7,
+                  "faces": 4
+                },
+                "16": {
+                  "number": 8,
+                  "faces": 4
+                },
+                "18": {
+                  "number": 9,
+                  "faces": 4
+                }
+              }
+            },
+            "value": {}
+          },
+          {
+            "_id": "r012a9427d6d9dff",
+            "type": "ItemChoice",
+            "title": "Techniques Known",
+            "configuration": {
+              "hint": "",
+              "choices": {
+                "1": {
+                  "count": 1,
+                  "replacement": false
+                },
+                "2": {
+                  "count": 1,
+                  "replacement": false
+                },
+                "5": {
+                  "count": 1,
+                  "replacement": false
+                },
+                "9": {
+                  "count": 1,
+                  "replacement": false
+                },
+                "11": {
+                  "count": 1,
+                  "replacement": false
+                },
+                "15": {
+                  "count": 1,
+                  "replacement": false
+                },
+                "18": {
+                  "count": 1,
+                  "replacement": false
+                }
+              },
+              "allowDrops": true,
+              "type": "feat",
+              "pool": [
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtcrashingwavecu"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtcrescentmoonde"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtcrimsonleavesb"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtfallingheavens"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtflashingsteelc"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtflowingwaterst"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtgripoflordhida"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtheartpiercingt"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtiaijutsucutcro"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtiaijutsucutris"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtironforestdefe"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtlaughingfoxdef"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtsnappingbranch"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtsparkingsteeld"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtsoaringthunder"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtsoulsunderings"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtswirlingvipers"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rttwinstreamsthr"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtvanishingworld"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtveiledmenaceth"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.techniques.Item.rtwaspsspitevoll"
+                }
+              ],
+              "restriction": {
+                "type": "",
+                "subtype": "",
+                "level": ""
+              }
+            },
+            "value": {},
+            "level": 1
+          },
+          {
             "_id": "rdd6d1ed819ec0d1",
             "type": "Subclass",
             "level": 1,
@@ -4231,15 +5318,15 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfacolytefocusp",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r8493077f6b59c49",
                   "optional": false
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfacolytemartia",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.re2b2b75f04d3c04",
                   "optional": false
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfacolytesupern",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r6cd353dd2ed10a7",
                   "optional": false
                 }
               ],
@@ -4256,7 +5343,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfacolyteegosyn",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.ra2c94422b79f212",
                   "optional": false
                 }
               ],
@@ -4273,7 +5360,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfacolyterenewi",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcb82031f8bcb58a",
                   "optional": false
                 }
               ],
@@ -4290,11 +5377,11 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfacolyteegosyn",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r7f97ac00ba2e161",
                   "optional": false
                 },
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfacolyteeterna",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r9bf8fb2669cd083",
                   "optional": false
                 }
               ],
@@ -4311,7 +5398,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfacolytediscip",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rd5d51295c13dde8",
                   "optional": false
                 }
               ],
@@ -4328,7 +5415,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfacolyteexpand",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r2307eb8a9a517ff",
                   "optional": false
                 }
               ],
@@ -4345,7 +5432,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfacolyteagreat",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r2033d6a5c241a5e",
                   "optional": false
                 }
               ],
@@ -4362,7 +5449,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfacolytestreng",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rd3184ec0d85b4f3",
                   "optional": false
                 }
               ],
@@ -4379,7 +5466,7 @@
             "configuration": {
               "items": [
                 {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcfacolytetransc",
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r01aba75ffaa1d5f",
                   "optional": false
                 }
               ],
@@ -4485,7 +5572,7 @@
         "wealth": ""
       },
       "effects": [],
-      "folder": "rfkclasses000000",
+      "folder": "r2a2b5631b8b0f86",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -4493,39 +5580,8 @@
       }
     },
     {
-      "_id": "rscsamurai000000",
-      "_key": "!items!rscsamurai000000",
-      "name": "Samurai",
-      "type": "subclass",
-      "img": "systems/dnd5e/icons/svg/items/subclass.svg",
-      "system": {
-        "description": {
-          "value": "<p>Bushi archetype.</p><p>Archetype features and their levels: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 50.</em></p>",
-          "chat": ""
-        },
-        "source": {
-          "book": "Adventures in Rokugan",
-          "custom": "Adventures in Rokugan"
-        },
-        "identifier": "samurai",
-        "classIdentifier": "bushi",
-        "advancement": [],
-        "spellcasting": {
-          "progression": "none",
-          "ability": ""
-        }
-      },
-      "effects": [],
-      "folder": "rfkbushiarchetyp",
-      "sort": 0,
-      "flags": {},
-      "ownership": {
-        "default": 0
-      }
-    },
-    {
-      "_id": "rscprotector0000",
-      "_key": "!items!rscprotector0000",
+      "_id": "r5dfee55b3b9ab52",
+      "_key": "!items!r5dfee55b3b9ab52",
       "name": "Protector",
       "type": "subclass",
       "img": "systems/dnd5e/icons/svg/items/subclass.svg",
@@ -4540,14 +5596,163 @@
         },
         "identifier": "protector",
         "classIdentifier": "bushi",
-        "advancement": [],
+        "advancement": [
+          {
+            "_id": "r825d625c9312eeb",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r90bcfc0b0607d64",
+                  "optional": false
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r14e093dc9df1b6f",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 3,
+            "title": "Protector Features"
+          },
+          {
+            "_id": "r54e8c1d976dd6ff",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r5ce5f899dfc0036",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 5,
+            "title": "Protector Features"
+          },
+          {
+            "_id": "rb6bb8305d350725",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rb4534614a3fb6c3",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 7,
+            "title": "Protector Features"
+          },
+          {
+            "_id": "r52dd1d3a6adf39a",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r99f352162bff847",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 10,
+            "title": "Protector Features"
+          },
+          {
+            "_id": "r07b5d7a2cea7096",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r429c192f56980ce",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 13,
+            "title": "Protector Features"
+          },
+          {
+            "_id": "r77b81d16be4f32e",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r390b8f39c9f3c99",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 18,
+            "title": "Protector Features"
+          }
+        ],
         "spellcasting": {
           "progression": "none",
           "ability": ""
         }
       },
       "effects": [],
-      "folder": "rfkbushiarchetyp",
+      "folder": "r4f82109592d4f7a",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -4555,8 +5760,8 @@
       }
     },
     {
-      "_id": "rscvanguard00000",
-      "_key": "!items!rscvanguard00000",
+      "_id": "r36136a0b4f38d54",
+      "_key": "!items!r36136a0b4f38d54",
       "name": "Vanguard",
       "type": "subclass",
       "img": "systems/dnd5e/icons/svg/items/subclass.svg",
@@ -4571,14 +5776,163 @@
         },
         "identifier": "vanguard",
         "classIdentifier": "bushi",
-        "advancement": [],
+        "advancement": [
+          {
+            "_id": "r799425262d164a4",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rd0addcf632be8f3",
+                  "optional": false
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r78cfc4548a51063",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 3,
+            "title": "Vanguard Features"
+          },
+          {
+            "_id": "r052c01c53fee717",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rc17d2ce334823e9",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 5,
+            "title": "Vanguard Features"
+          },
+          {
+            "_id": "rf89f84dd7dbd6ac",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rbae5f542b89eb89",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 7,
+            "title": "Vanguard Features"
+          },
+          {
+            "_id": "rbb40e99af13d226",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rf7724ee0e5988d7",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 10,
+            "title": "Vanguard Features"
+          },
+          {
+            "_id": "r87b59260753c13e",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.re3d61bbb3ceafd2",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 13,
+            "title": "Vanguard Features"
+          },
+          {
+            "_id": "rc0deb2001e4d7fd",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r77da4a9def70b33",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 18,
+            "title": "Vanguard Features"
+          }
+        ],
         "spellcasting": {
           "progression": "none",
           "ability": ""
         }
       },
       "effects": [],
-      "folder": "rfkbushiarchetyp",
+      "folder": "r4f82109592d4f7a",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -4586,30 +5940,127 @@
       }
     },
     {
-      "_id": "rsccoilingserpen",
-      "_key": "!items!rsccoilingserpen",
-      "name": "Coiling Serpent",
+      "_id": "r9e806100be13eb2",
+      "_key": "!items!r9e806100be13eb2",
+      "name": "Samurai Armsmaster",
       "type": "subclass",
       "img": "systems/dnd5e/icons/svg/items/subclass.svg",
       "system": {
         "description": {
-          "value": "<p>Bushi archetype.</p><p>Archetype features and their levels: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 55.</em></p>",
+          "value": "<p>Bushi archetype.</p><p>Archetype features and their levels: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 50.</em></p>",
           "chat": ""
         },
         "source": {
           "book": "Adventures in Rokugan",
           "custom": "Adventures in Rokugan"
         },
-        "identifier": "coilingserpent",
+        "identifier": "samuraiarmsmaster",
         "classIdentifier": "bushi",
-        "advancement": [],
+        "advancement": [
+          {
+            "_id": "r236e689349a06c5",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rbad92521c069224",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 3,
+            "title": "Samurai Armsmaster Features"
+          },
+          {
+            "_id": "r1a12cb11b8ae814",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcd2ab74222d82ab",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 5,
+            "title": "Samurai Armsmaster Features"
+          },
+          {
+            "_id": "r15ac496a527b8d2",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r9684c4d8f6313d1",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 7,
+            "title": "Samurai Armsmaster Features"
+          },
+          {
+            "_id": "r96e871f35b4b015",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r77cd3005ce4593b",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 10,
+            "title": "Samurai Armsmaster Features"
+          }
+        ],
         "spellcasting": {
           "progression": "none",
           "ability": ""
         }
       },
       "effects": [],
-      "folder": "rfkbushiarchetyp",
+      "folder": "r4f82109592d4f7a",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -4617,8 +6068,8 @@
       }
     },
     {
-      "_id": "rscblademaster00",
-      "_key": "!items!rscblademaster00",
+      "_id": "ra0dd40c8af34d99",
+      "_key": "!items!ra0dd40c8af34d99",
       "name": "Blademaster",
       "type": "subclass",
       "img": "systems/dnd5e/icons/svg/items/subclass.svg",
@@ -4633,14 +6084,115 @@
         },
         "identifier": "blademaster",
         "classIdentifier": "duelist",
-        "advancement": [],
+        "advancement": [
+          {
+            "_id": "r54f6266a9eba98b",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rf320ae00aff197f",
+                  "optional": false
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r0eb330995197745",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 3,
+            "title": "Blademaster Features"
+          },
+          {
+            "_id": "r27497cff14e5a06",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r64d73d239e92e3e",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 7,
+            "title": "Blademaster Features"
+          },
+          {
+            "_id": "r406782380d137c1",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r1d01fd66da3c89f",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 11,
+            "title": "Blademaster Features"
+          },
+          {
+            "_id": "r86968db1aa528b3",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.re1c94a16f3a64c1",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 18,
+            "title": "Blademaster Features"
+          }
+        ],
         "spellcasting": {
           "progression": "none",
           "ability": ""
         }
       },
       "effects": [],
-      "folder": "rfkduelistarchet",
+      "folder": "r39932932beeac63",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -4648,8 +6200,8 @@
       }
     },
     {
-      "_id": "rscadept00000000",
-      "_key": "!items!rscadept00000000",
+      "_id": "r1eef55008b31a67",
+      "_key": "!items!r1eef55008b31a67",
       "name": "Adept",
       "type": "subclass",
       "img": "systems/dnd5e/icons/svg/items/subclass.svg",
@@ -4664,14 +6216,147 @@
         },
         "identifier": "adept",
         "classIdentifier": "duelist",
-        "advancement": [],
+        "advancement": [
+          {
+            "_id": "r4cf79fa53a3d54a",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rd96b228e83d0f2f",
+                  "optional": false
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r15795f461b3e173",
+                  "optional": false
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r24dd5ef8ff15aa0",
+                  "optional": false
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r800162091f8b19e",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 3,
+            "title": "Adept Features"
+          },
+          {
+            "_id": "rab8a9dd36e54cc6",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r691d91be0c98c1c",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 5,
+            "title": "Adept Features"
+          },
+          {
+            "_id": "r888219bf02b0def",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r5af4dfbfb8d71e2",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 7,
+            "title": "Adept Features"
+          },
+          {
+            "_id": "rdee97294093b95c",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r75cc2ba9ad1bc88",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 11,
+            "title": "Adept Features"
+          },
+          {
+            "_id": "r954660e17148cf9",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r6dd4c3838dac55c",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 18,
+            "title": "Adept Features"
+          }
+        ],
         "spellcasting": {
           "progression": "none",
           "ability": ""
         }
       },
       "effects": [],
-      "folder": "rfkduelistarchet",
+      "folder": "r39932932beeac63",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -4679,8 +6364,8 @@
       }
     },
     {
-      "_id": "rscdeathdancer00",
-      "_key": "!items!rscdeathdancer00",
+      "_id": "r1642644a13b6f90",
+      "_key": "!items!r1642644a13b6f90",
       "name": "Deathdancer",
       "type": "subclass",
       "img": "systems/dnd5e/icons/svg/items/subclass.svg",
@@ -4695,14 +6380,143 @@
         },
         "identifier": "deathdancer",
         "classIdentifier": "duelist",
-        "advancement": [],
+        "advancement": [
+          {
+            "_id": "r1c85b51a8320dc6",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r0285cbb0c9704a2",
+                  "optional": false
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rb6cca9b1b587f32",
+                  "optional": false
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r9837f886039ce93",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 3,
+            "title": "Deathdancer Features"
+          },
+          {
+            "_id": "rd97731aa89847cd",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.raefa7e625eb94bf",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 5,
+            "title": "Deathdancer Features"
+          },
+          {
+            "_id": "r44f9c40eac1c7c9",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.raea0ea02d9b0b2b",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 7,
+            "title": "Deathdancer Features"
+          },
+          {
+            "_id": "r40664239aca6dd3",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r0e1b604e8467527",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 11,
+            "title": "Deathdancer Features"
+          },
+          {
+            "_id": "r985129e1a22a843",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r4e70af17e347287",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 18,
+            "title": "Deathdancer Features"
+          }
+        ],
         "spellcasting": {
           "progression": "none",
           "ability": ""
         }
       },
       "effects": [],
-      "folder": "rfkduelistarchet",
+      "folder": "r39932932beeac63",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -4710,8 +6524,8 @@
       }
     },
     {
-      "_id": "rscdiplomat00000",
-      "_key": "!items!rscdiplomat00000",
+      "_id": "rb37385e536dd7ee",
+      "_key": "!items!rb37385e536dd7ee",
       "name": "Diplomat",
       "type": "subclass",
       "img": "systems/dnd5e/icons/svg/items/subclass.svg",
@@ -4726,14 +6540,115 @@
         },
         "identifier": "diplomat",
         "classIdentifier": "courtier",
-        "advancement": [],
+        "advancement": [
+          {
+            "_id": "r2417c8592afc935",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rc35cce7b87655f9",
+                  "optional": false
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rf6b3f1cbced15b1",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 3,
+            "title": "Diplomat Features"
+          },
+          {
+            "_id": "r0354408e215d800",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r202aa4f8926b34b",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 6,
+            "title": "Diplomat Features"
+          },
+          {
+            "_id": "raf01f49388c60fb",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rb5392b49b8b8ffd",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 9,
+            "title": "Diplomat Features"
+          },
+          {
+            "_id": "rc44b3d024335dd6",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.re9d4ab8843a6361",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 17,
+            "title": "Diplomat Features"
+          }
+        ],
         "spellcasting": {
           "progression": "none",
           "ability": ""
         }
       },
       "effects": [],
-      "folder": "rfkcourtierarche",
+      "folder": "rba9c90e36c5712f",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -4741,8 +6656,8 @@
       }
     },
     {
-      "_id": "rscinvestigator0",
-      "_key": "!items!rscinvestigator0",
+      "_id": "r917cbed9568b045",
+      "_key": "!items!r917cbed9568b045",
       "name": "Investigator",
       "type": "subclass",
       "img": "systems/dnd5e/icons/svg/items/subclass.svg",
@@ -4757,14 +6672,115 @@
         },
         "identifier": "investigator",
         "classIdentifier": "courtier",
-        "advancement": [],
+        "advancement": [
+          {
+            "_id": "r0a10642374f077c",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rdf0707a01b7bcec",
+                  "optional": false
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rd26f713e1e12ab2",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 3,
+            "title": "Investigator Features"
+          },
+          {
+            "_id": "r49930b37bb845a7",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r16d052c492d8ada",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 9,
+            "title": "Investigator Features"
+          },
+          {
+            "_id": "r8c556d77010f321",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r4ea5c306351825a",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 14,
+            "title": "Investigator Features"
+          },
+          {
+            "_id": "r92f25c7ae605372",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rfa2a22b89ec2d59",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 17,
+            "title": "Investigator Features"
+          }
+        ],
         "spellcasting": {
           "progression": "none",
           "ability": ""
         }
       },
       "effects": [],
-      "folder": "rfkcourtierarche",
+      "folder": "rba9c90e36c5712f",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -4772,8 +6788,8 @@
       }
     },
     {
-      "_id": "rscsaboteur00000",
-      "_key": "!items!rscsaboteur00000",
+      "_id": "r36b374ee43bfea0",
+      "_key": "!items!r36b374ee43bfea0",
       "name": "Saboteur",
       "type": "subclass",
       "img": "systems/dnd5e/icons/svg/items/subclass.svg",
@@ -4788,14 +6804,67 @@
         },
         "identifier": "saboteur",
         "classIdentifier": "shinobi",
-        "advancement": [],
+        "advancement": [
+          {
+            "_id": "r8657cdc2a89eee9",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r1c43158fef08055",
+                  "optional": false
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r7a61964a9025ccf",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 3,
+            "title": "Saboteur Features"
+          },
+          {
+            "_id": "rfa51307d51ebf7f",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rf595e4f11c30bff",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 9,
+            "title": "Saboteur Features"
+          }
+        ],
         "spellcasting": {
           "progression": "none",
           "ability": ""
         }
       },
       "effects": [],
-      "folder": "rfkshinobiarchet",
+      "folder": "rbacc1ad0af1daa0",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -4803,8 +6872,8 @@
       }
     },
     {
-      "_id": "rscinfiltrator00",
-      "_key": "!items!rscinfiltrator00",
+      "_id": "r181b15e3ece48b1",
+      "_key": "!items!r181b15e3ece48b1",
       "name": "Infiltrator",
       "type": "subclass",
       "img": "systems/dnd5e/icons/svg/items/subclass.svg",
@@ -4819,14 +6888,119 @@
         },
         "identifier": "infiltrator",
         "classIdentifier": "shinobi",
-        "advancement": [],
+        "advancement": [
+          {
+            "_id": "r31730367f8428fd",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rd373b9f72c45d94",
+                  "optional": false
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r489612d6c734d7a",
+                  "optional": false
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rf6fbddd54807d40",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 3,
+            "title": "Infiltrator Features"
+          },
+          {
+            "_id": "r9266442c80ca662",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r0f905ff0f2a840a",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 9,
+            "title": "Infiltrator Features"
+          },
+          {
+            "_id": "r8c7d1235c0e229d",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r83514115bb4d72a",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 13,
+            "title": "Infiltrator Features"
+          },
+          {
+            "_id": "r395fdc2d6525d36",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.re200c9a4a5e7eb0",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 18,
+            "title": "Infiltrator Features"
+          }
+        ],
         "spellcasting": {
           "progression": "none",
           "ability": ""
         }
       },
       "effects": [],
-      "folder": "rfkshinobiarchet",
+      "folder": "rbacc1ad0af1daa0",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -4834,8 +7008,8 @@
       }
     },
     {
-      "_id": "rscartisan000000",
-      "_key": "!items!rscartisan000000",
+      "_id": "ra7de376d571255c",
+      "_key": "!items!ra7de376d571255c",
       "name": "Artisan",
       "type": "subclass",
       "img": "systems/dnd5e/icons/svg/items/subclass.svg",
@@ -4850,14 +7024,63 @@
         },
         "identifier": "artisan",
         "classIdentifier": "ritualist",
-        "advancement": [],
+        "advancement": [
+          {
+            "_id": "r104d22180201af1",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r3a7dc83738e7e2e",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 5,
+            "title": "Artisan Features"
+          },
+          {
+            "_id": "r6cac62c868713f4",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r81bfc2bb2ba3652",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 9,
+            "title": "Artisan Features"
+          }
+        ],
         "spellcasting": {
           "progression": "none",
           "ability": ""
         }
       },
       "effects": [],
-      "folder": "rfkritualistarch",
+      "folder": "rbb1cb8e0c922d43",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -4865,8 +7088,8 @@
       }
     },
     {
-      "_id": "rscelementalist0",
-      "_key": "!items!rscelementalist0",
+      "_id": "r0b543f39547c3c7",
+      "_key": "!items!r0b543f39547c3c7",
       "name": "Elementalist",
       "type": "subclass",
       "img": "systems/dnd5e/icons/svg/items/subclass.svg",
@@ -4881,14 +7104,111 @@
         },
         "identifier": "elementalist",
         "classIdentifier": "ritualist",
-        "advancement": [],
+        "advancement": [
+          {
+            "_id": "r7384dd551868d42",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rf6833d967738c3c",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 3,
+            "title": "Elementalist Features"
+          },
+          {
+            "_id": "r078827b1c85b5ba",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rd5ed2611f38f196",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 5,
+            "title": "Elementalist Features"
+          },
+          {
+            "_id": "r5ec9e914412655d",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r414c66805d53b93",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 13,
+            "title": "Elementalist Features"
+          },
+          {
+            "_id": "r6a63a4c9752f281",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r9cc7f7828cd2bfe",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 20,
+            "title": "Elementalist Features"
+          }
+        ],
         "spellcasting": {
           "progression": "none",
           "ability": ""
         }
       },
       "effects": [],
-      "folder": "rfkritualistarch",
+      "folder": "rbb1cb8e0c922d43",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -4896,8 +7216,8 @@
       }
     },
     {
-      "_id": "rscmedium0000000",
-      "_key": "!items!rscmedium0000000",
+      "_id": "rd7fe2702f0961c1",
+      "_key": "!items!rd7fe2702f0961c1",
       "name": "Medium",
       "type": "subclass",
       "img": "systems/dnd5e/icons/svg/items/subclass.svg",
@@ -4912,14 +7232,87 @@
         },
         "identifier": "medium",
         "classIdentifier": "ritualist",
-        "advancement": [],
+        "advancement": [
+          {
+            "_id": "r50007845e047130",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r299fcd4a702b2d2",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 5,
+            "title": "Medium Features"
+          },
+          {
+            "_id": "rfdf076d6921974a",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rdc92bd32507aa7f",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 13,
+            "title": "Medium Features"
+          },
+          {
+            "_id": "re1705947764f26c",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r14c6457d55837bd",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 20,
+            "title": "Medium Features"
+          }
+        ],
         "spellcasting": {
           "progression": "none",
           "ability": ""
         }
       },
       "effects": [],
-      "folder": "rfkritualistarch",
+      "folder": "rbb1cb8e0c922d43",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -4927,8 +7320,8 @@
       }
     },
     {
-      "_id": "rscpathofredempt",
-      "_key": "!items!rscpathofredempt",
+      "_id": "rc9916d733a22cca",
+      "_key": "!items!rc9916d733a22cca",
       "name": "Path of Redemption",
       "type": "subclass",
       "img": "systems/dnd5e/icons/svg/items/subclass.svg",
@@ -4943,14 +7336,255 @@
         },
         "identifier": "pathofredemption",
         "classIdentifier": "pilgrim",
-        "advancement": [],
+        "advancement": [
+          {
+            "_id": "rff339ed437f9d78",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r97b323cf336a546",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 3,
+            "title": "Path of Redemption Features"
+          },
+          {
+            "_id": "r0f271dd5de87b2b",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r43c0ab2ce01d1bb",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 6,
+            "title": "Path of Redemption Features"
+          },
+          {
+            "_id": "rccfad263978a279",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r81e5373c0806cb8",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 11,
+            "title": "Path of Redemption Features"
+          },
+          {
+            "_id": "r31176378791539d",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.externalizations.Item.r7a7dde95997dee4",
+                  "optional": true
+                }
+              ],
+              "optional": true,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 2,
+            "title": "Path of Redemption Externalizations"
+          },
+          {
+            "_id": "r588abf480f77c22",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.externalizations.Item.r393ee92135ac844",
+                  "optional": true
+                }
+              ],
+              "optional": true,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 3,
+            "title": "Path of Redemption Externalizations"
+          },
+          {
+            "_id": "ra95bb9f4b2b8d9a",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.externalizations.Item.rba275fa941df504",
+                  "optional": true
+                }
+              ],
+              "optional": true,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 4,
+            "title": "Path of Redemption Externalizations"
+          },
+          {
+            "_id": "r1a308c241a14464",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.externalizations.Item.r5f00a59a3b0dfc3",
+                  "optional": true
+                }
+              ],
+              "optional": true,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 6,
+            "title": "Path of Redemption Externalizations"
+          },
+          {
+            "_id": "r0c1a663335cfcf3",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.externalizations.Item.rfa927a99dd77340",
+                  "optional": true
+                }
+              ],
+              "optional": true,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 7,
+            "title": "Path of Redemption Externalizations"
+          },
+          {
+            "_id": "rab83691cac143e6",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.externalizations.Item.r37331dd73a9e46e",
+                  "optional": true
+                }
+              ],
+              "optional": true,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 8,
+            "title": "Path of Redemption Externalizations"
+          },
+          {
+            "_id": "rf3909a36487cc4c",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.externalizations.Item.r34ad7a45c8ea27d",
+                  "optional": true
+                }
+              ],
+              "optional": true,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 10,
+            "title": "Path of Redemption Externalizations"
+          }
+        ],
         "spellcasting": {
           "progression": "none",
           "ability": ""
         }
       },
       "effects": [],
-      "folder": "rfkpilgrimarchet",
+      "folder": "r72ddbfd64ef9c5b",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -4958,8 +7592,8 @@
       }
     },
     {
-      "_id": "rscpathofharmony",
-      "_key": "!items!rscpathofharmony",
+      "_id": "rdc5468eb4e59d0b",
+      "_key": "!items!rdc5468eb4e59d0b",
       "name": "Path of Harmony",
       "type": "subclass",
       "img": "systems/dnd5e/icons/svg/items/subclass.svg",
@@ -4974,14 +7608,347 @@
         },
         "identifier": "pathofharmony",
         "classIdentifier": "pilgrim",
-        "advancement": [],
+        "advancement": [
+          {
+            "_id": "r690f9e935fe77ab",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r86406020ea570dd",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 2,
+            "title": "Path of Harmony Features"
+          },
+          {
+            "_id": "r0882778425742d0",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.ra8eb7e13a8f187d",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 3,
+            "title": "Path of Harmony Features"
+          },
+          {
+            "_id": "r123cf4578f86247",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r4600d1f5ed799b1",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 6,
+            "title": "Path of Harmony Features"
+          },
+          {
+            "_id": "rc987735bdd08dd4",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.externalizations.Item.r645233e6ab3e78b",
+                  "optional": true
+                }
+              ],
+              "optional": true,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 2,
+            "title": "Path of Harmony Externalizations"
+          },
+          {
+            "_id": "r63ec24a5a62a807",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.externalizations.Item.rcc00ad80bc0157d",
+                  "optional": true
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.externalizations.Item.r5c134500acc2e61",
+                  "optional": true
+                }
+              ],
+              "optional": true,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 3,
+            "title": "Path of Harmony Externalizations"
+          },
+          {
+            "_id": "re19458db866a3a5",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.externalizations.Item.r0f8dc0e46a52978",
+                  "optional": true
+                }
+              ],
+              "optional": true,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 4,
+            "title": "Path of Harmony Externalizations"
+          },
+          {
+            "_id": "rbefbb610e3854f8",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.externalizations.Item.r8a0241894c12d45",
+                  "optional": true
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.externalizations.Item.r6f37186ecf409ee",
+                  "optional": true
+                }
+              ],
+              "optional": true,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 5,
+            "title": "Path of Harmony Externalizations"
+          },
+          {
+            "_id": "r7a10bcaeca0de69",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.externalizations.Item.r2655e6180ef38d8",
+                  "optional": true
+                }
+              ],
+              "optional": true,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 6,
+            "title": "Path of Harmony Externalizations"
+          },
+          {
+            "_id": "r8ae05391b954817",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.externalizations.Item.r1ee60d5f566d416",
+                  "optional": true
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.externalizations.Item.r193fb33149df974",
+                  "optional": true
+                }
+              ],
+              "optional": true,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 7,
+            "title": "Path of Harmony Externalizations"
+          },
+          {
+            "_id": "rd6b48e24b33cdbb",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.externalizations.Item.r9fb31bf9f0fb89c",
+                  "optional": true
+                }
+              ],
+              "optional": true,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 8,
+            "title": "Path of Harmony Externalizations"
+          },
+          {
+            "_id": "rc05076f3d195524",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.externalizations.Item.r2a7ee912836893b",
+                  "optional": true
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.externalizations.Item.rf23df2e5aadb068",
+                  "optional": true
+                }
+              ],
+              "optional": true,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 9,
+            "title": "Path of Harmony Externalizations"
+          },
+          {
+            "_id": "ra19899efbfebe05",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.externalizations.Item.rf954f9d912e9211",
+                  "optional": true
+                }
+              ],
+              "optional": true,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 10,
+            "title": "Path of Harmony Externalizations"
+          },
+          {
+            "_id": "r832fb2ba2e179dd",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.externalizations.Item.r338cebd60f9b455",
+                  "optional": true
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.externalizations.Item.ra9557a2c3873fe9",
+                  "optional": true
+                }
+              ],
+              "optional": true,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 11,
+            "title": "Path of Harmony Externalizations"
+          }
+        ],
         "spellcasting": {
           "progression": "none",
           "ability": ""
         }
       },
       "effects": [],
-      "folder": "rfkpilgrimarchet",
+      "folder": "r72ddbfd64ef9c5b",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -4989,8 +7956,8 @@
       }
     },
     {
-      "_id": "rscpathofjustice",
-      "_key": "!items!rscpathofjustice",
+      "_id": "r0d762bd90b73731",
+      "_key": "!items!r0d762bd90b73731",
       "name": "Path of Justice",
       "type": "subclass",
       "img": "systems/dnd5e/icons/svg/items/subclass.svg",
@@ -5005,14 +7972,255 @@
         },
         "identifier": "pathofjustice",
         "classIdentifier": "pilgrim",
-        "advancement": [],
+        "advancement": [
+          {
+            "_id": "r447ff22626da7ee",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r1097ed362e4fc2f",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 3,
+            "title": "Path of Justice Features"
+          },
+          {
+            "_id": "r4be9eef5cdb1ad2",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rd614f60252a4e99",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 6,
+            "title": "Path of Justice Features"
+          },
+          {
+            "_id": "rbc0c132e50d64b3",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r440abeb0c5075bd",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 11,
+            "title": "Path of Justice Features"
+          },
+          {
+            "_id": "r38ef1a86a0f5609",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.externalizations.Item.rac4b2146f17d271",
+                  "optional": true
+                }
+              ],
+              "optional": true,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 2,
+            "title": "Path of Justice Externalizations"
+          },
+          {
+            "_id": "rcde0db46e548c50",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.externalizations.Item.rb4b1f2594c959c9",
+                  "optional": true
+                }
+              ],
+              "optional": true,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 3,
+            "title": "Path of Justice Externalizations"
+          },
+          {
+            "_id": "r4e3a9fb4dc70d5b",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.externalizations.Item.rb4e0a550c3e2083",
+                  "optional": true
+                }
+              ],
+              "optional": true,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 4,
+            "title": "Path of Justice Externalizations"
+          },
+          {
+            "_id": "r12f8205a02294cb",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.externalizations.Item.r79804166f9f392a",
+                  "optional": true
+                }
+              ],
+              "optional": true,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 6,
+            "title": "Path of Justice Externalizations"
+          },
+          {
+            "_id": "rda094d07eca66fa",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.externalizations.Item.rd661626657c2744",
+                  "optional": true
+                }
+              ],
+              "optional": true,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 7,
+            "title": "Path of Justice Externalizations"
+          },
+          {
+            "_id": "rc3682f11d352ca3",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.externalizations.Item.rb338b5cb04f609e",
+                  "optional": true
+                }
+              ],
+              "optional": true,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 8,
+            "title": "Path of Justice Externalizations"
+          },
+          {
+            "_id": "r552eb26597a11b9",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.externalizations.Item.rded2c911d5a5634",
+                  "optional": true
+                }
+              ],
+              "optional": true,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 10,
+            "title": "Path of Justice Externalizations"
+          }
+        ],
         "spellcasting": {
           "progression": "none",
           "ability": ""
         }
       },
       "effects": [],
-      "folder": "rfkpilgrimarchet",
+      "folder": "r72ddbfd64ef9c5b",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -5020,8 +8228,8 @@
       }
     },
     {
-      "_id": "rscacolyteoftoga",
-      "_key": "!items!rscacolyteoftoga",
+      "_id": "r346455b98bc0f45",
+      "_key": "!items!r346455b98bc0f45",
       "name": "Acolyte of Togashi",
       "type": "subclass",
       "img": "systems/dnd5e/icons/svg/items/subclass.svg",
@@ -5036,14 +8244,141 @@
         },
         "identifier": "acolyteoftogashi",
         "classIdentifier": "acolyte",
-        "advancement": [],
+        "advancement": [
+          {
+            "_id": "r3f4560a6cd044cd",
+            "type": "ItemChoice",
+            "title": "Mark of the Disciple (Major Tattoo)",
+            "configuration": {
+              "hint": "Gain one major tattoo.",
+              "choices": {
+                "2": {
+                  "count": 1,
+                  "replacement": false
+                }
+              },
+              "allowDrops": true,
+              "type": "feat",
+              "pool": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rd8fd3e3840b5645"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rbcdb2f5270bc77b"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r430428e1a065a0e"
+                }
+              ],
+              "restriction": {
+                "type": "",
+                "subtype": "",
+                "level": ""
+              }
+            },
+            "value": {},
+            "level": 2
+          },
+          {
+            "_id": "r8bb634bf42cf1c7",
+            "type": "ItemChoice",
+            "title": "Deepening Discipleship (Tattoo)",
+            "configuration": {
+              "hint": "Choose a major tattoo, or two minor tattoos, or a minor tattoo and an embellishment (see the book).",
+              "choices": {
+                "3": {
+                  "count": 1,
+                  "replacement": false
+                },
+                "6": {
+                  "count": 1,
+                  "replacement": false
+                },
+                "9": {
+                  "count": 1,
+                  "replacement": false
+                },
+                "14": {
+                  "count": 1,
+                  "replacement": false
+                },
+                "20": {
+                  "count": 1,
+                  "replacement": false
+                }
+              },
+              "allowDrops": true,
+              "type": "feat",
+              "pool": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rd8fd3e3840b5645"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rbcdb2f5270bc77b"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r430428e1a065a0e"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r7e5f0cc1f70cf88"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.ra6d7c799f5d2fc9"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rad640ed20074d02"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.ra5e5b5971cd283c"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r897d1fb71f9f259"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rd53c5c2e159664f"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rd37381429a75951"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r06521cf0bd5bc57"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r3e16dc65c01e1f9"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r9a1c2558e0a2c69"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r8d6f514de01ebeb"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.ra2deaf87bd428e8"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.recf1455630fda87"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r32bf51a14405f6d"
+                }
+              ],
+              "restriction": {
+                "type": "",
+                "subtype": "",
+                "level": ""
+              }
+            },
+            "value": {},
+            "level": 3
+          }
+        ],
         "spellcasting": {
           "progression": "none",
           "ability": ""
         }
       },
       "effects": [],
-      "folder": "rfkacolytearchet",
+      "folder": "rdfa80555e8c8cfe",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -5051,30 +8386,216 @@
       }
     },
     {
-      "_id": "rscacolytesofsha",
-      "_key": "!items!rscacolytesofsha",
-      "name": "Acolytes of Shadow",
+      "_id": "rc8725cf6361a0e1",
+      "_key": "!items!rc8725cf6361a0e1",
+      "name": "Acolyte of Shadows",
       "type": "subclass",
       "img": "systems/dnd5e/icons/svg/items/subclass.svg",
       "system": {
         "description": {
-          "value": "<p>Acolyte archetype.</p><p>Archetype features and their levels: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 120.</em></p>",
+          "value": "<p>Acolyte archetype.</p><p>Archetype features and their levels: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 116.</em></p>",
           "chat": ""
         },
         "source": {
           "book": "Adventures in Rokugan",
           "custom": "Adventures in Rokugan"
         },
-        "identifier": "acolytesofshadow",
+        "identifier": "acolyteofshadows",
         "classIdentifier": "acolyte",
-        "advancement": [],
+        "advancement": [
+          {
+            "_id": "r0c5a9251be71229",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r8da5cfcf60d4124",
+                  "optional": false
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r43fac0875f93374",
+                  "optional": false
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r041538bb27822a8",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 3,
+            "title": "Shadow Initiation"
+          },
+          {
+            "_id": "r2b8b6b0ab00a79d",
+            "type": "ItemChoice",
+            "title": "Shadow Brand",
+            "configuration": {
+              "hint": "Choose one shadow brand.",
+              "choices": {
+                "3": {
+                  "count": 1,
+                  "replacement": false
+                }
+              },
+              "allowDrops": true,
+              "type": "feat",
+              "pool": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rf508b66c7ac004e"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r7415727a3b62202"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r8b4573bf28c8780"
+                }
+              ],
+              "restriction": {
+                "type": "",
+                "subtype": "",
+                "level": ""
+              }
+            },
+            "value": {},
+            "level": 3
+          },
+          {
+            "_id": "r09ce1dd52a3614e",
+            "type": "ItemChoice",
+            "title": "Shadow Manipulation Specialty",
+            "configuration": {
+              "hint": "Choose a shadow manipulation feature (another at 11th level).",
+              "choices": {
+                "6": {
+                  "count": 1,
+                  "replacement": false
+                },
+                "11": {
+                  "count": 1,
+                  "replacement": false
+                }
+              },
+              "allowDrops": true,
+              "type": "feat",
+              "pool": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r9b7e8736852e3f7"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r603caf98a9a225d"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.re202c8fa0ae0c9d"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.re9d928a0587f0a6"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r093b41c43965439"
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r0d9bff9fe47a4f8"
+                }
+              ],
+              "restriction": {
+                "type": "",
+                "subtype": "",
+                "level": ""
+              }
+            },
+            "value": {},
+            "level": 6
+          },
+          {
+            "_id": "r8c66d7594ae8afe",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r51bd3b7dc306b8d",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 11,
+            "title": "Seething Shadows"
+          },
+          {
+            "_id": "rce23e1790ff2255",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r11fb79b133a9bc3",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 11,
+            "title": "Deepening Shadows"
+          },
+          {
+            "_id": "r46edd3b5e2ecf79",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.re2689824c9b7a6b",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 20,
+            "title": "Void Storm"
+          }
+        ],
         "spellcasting": {
           "progression": "none",
           "ability": ""
         }
       },
       "effects": [],
-      "folder": "rfkacolytearchet",
+      "folder": "rdfa80555e8c8cfe",
       "sort": 0,
       "flags": {},
       "ownership": {
