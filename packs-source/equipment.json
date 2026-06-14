@@ -139,6 +139,16 @@
       "color": null,
       "folder": null,
       "sort": 0
+    },
+    {
+      "_id": "r13dc9aaf03a2744",
+      "_key": "!folders!r13dc9aaf03a2744",
+      "name": "Unusual Weapons",
+      "type": "Item",
+      "sorting": "a",
+      "color": null,
+      "folder": null,
+      "sort": 0
     }
   ],
   "entries": [
@@ -6214,7 +6224,52 @@
         "properties": [],
         "proficient": null,
         "attuned": false,
-        "equipped": false
+        "equipped": false,
+        "activities": {
+          "re1302cb5df9f26b": {
+            "_id": "re1302cb5df9f26b",
+            "type": "utility",
+            "name": "Inspiring Presence",
+            "activation": {
+              "type": "bonus",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [
+                {
+                  "type": "itemUses",
+                  "value": "1",
+                  "target": "",
+                  "scaling": {
+                    "mode": "",
+                    "formula": ""
+                  }
+                }
+              ],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "1",
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "sr",
+              "type": "recoverAll"
+            }
+          ]
+        }
       },
       "effects": [],
       "folder": "rd940f8ac3e432ed",
@@ -9557,6 +9612,1566 @@
       },
       "effects": [],
       "folder": "r3d44d33b25c30ac",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r4ba5de873c02eff",
+      "_key": "!items!r4ba5de873c02eff",
+      "name": "Boat Oar",
+      "type": "weapon",
+      "img": "icons/weapons/improvised/improvised-club.webp",
+      "system": {
+        "description": {
+          "value": "<p>Unusual weapon (improvised object). With the Unusual Weapon Mastery feat, you treat this item as a martial weapon you are proficient with, gain its tool proficiency if relevant, and can spend 1 extra focus on your first martial technique with it each encounter.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 225.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "boatoar",
+        "type": {
+          "value": "martialM",
+          "baseItem": "boatoar"
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 6,
+            "types": [
+              "bludgeoning"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          },
+          "versatile": {
+            "number": 1,
+            "denomination": 8,
+            "types": [
+              "bludgeoning"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          }
+        },
+        "magicalBonus": null,
+        "magicAvailable": false,
+        "properties": [
+          "ver"
+        ],
+        "proficient": null,
+        "activities": {
+          "r9f8ece8a3088bf4": {
+            "_id": "r9f8ece8a3088bf4",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "price": {
+          "value": 1,
+          "denomination": "zeni"
+        },
+        "weight": {
+          "value": 1,
+          "units": "lb"
+        },
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "rarity": "",
+        "identified": true
+      },
+      "effects": [],
+      "folder": "r13dc9aaf03a2744",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rfae2c98ff46c461",
+      "_key": "!items!rfae2c98ff46c461",
+      "name": "Book",
+      "type": "weapon",
+      "img": "icons/weapons/improvised/improvised-club.webp",
+      "system": {
+        "description": {
+          "value": "<p>Unusual weapon (improvised object). With the Unusual Weapon Mastery feat, you treat this item as a martial weapon you are proficient with, gain its tool proficiency if relevant, and can spend 1 extra focus on your first martial technique with it each encounter.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 225.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "book",
+        "type": {
+          "value": "martialM",
+          "baseItem": "book"
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 4,
+            "types": [
+              "bludgeoning"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          },
+          "versatile": {}
+        },
+        "magicalBonus": null,
+        "magicAvailable": false,
+        "properties": [
+          "defensive"
+        ],
+        "proficient": null,
+        "activities": {
+          "r1073ea52190b44f": {
+            "_id": "r1073ea52190b44f",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "price": {
+          "value": 1,
+          "denomination": "zeni"
+        },
+        "weight": {
+          "value": 1,
+          "units": "lb"
+        },
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "rarity": "",
+        "identified": true
+      },
+      "effects": [],
+      "folder": "r13dc9aaf03a2744",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "ra449f8e241ed992",
+      "_key": "!items!ra449f8e241ed992",
+      "name": "Cooking Pan or Pot",
+      "type": "weapon",
+      "img": "icons/weapons/improvised/improvised-club.webp",
+      "system": {
+        "description": {
+          "value": "<p>Unusual weapon (improvised object). With the Unusual Weapon Mastery feat, you treat this item as a martial weapon you are proficient with, gain its tool proficiency if relevant, and can spend 1 extra focus on your first martial technique with it each encounter.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 225.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "cookingpanorpot",
+        "type": {
+          "value": "martialM",
+          "baseItem": "cookingpanorpot"
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 4,
+            "types": [
+              "bludgeoning"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          },
+          "versatile": {}
+        },
+        "magicalBonus": null,
+        "magicAvailable": false,
+        "properties": [
+          "defensive"
+        ],
+        "proficient": null,
+        "activities": {
+          "r0758fa9d8036f47": {
+            "_id": "r0758fa9d8036f47",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "price": {
+          "value": 1,
+          "denomination": "zeni"
+        },
+        "weight": {
+          "value": 1,
+          "units": "lb"
+        },
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "rarity": "",
+        "identified": true
+      },
+      "effects": [],
+      "folder": "r13dc9aaf03a2744",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rb676f4ade5bdff2",
+      "_key": "!items!rb676f4ade5bdff2",
+      "name": "Fishing Net",
+      "type": "weapon",
+      "img": "icons/weapons/improvised/improvised-club.webp",
+      "system": {
+        "description": {
+          "value": "<p>Unusual weapon (improvised object). With the Unusual Weapon Mastery feat, you treat this item as a martial weapon you are proficient with, gain its tool proficiency if relevant, and can spend 1 extra focus on your first martial technique with it each encounter.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 225.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "fishingnet",
+        "type": {
+          "value": "martialM",
+          "baseItem": "fishingnet"
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 4,
+            "types": [
+              "bludgeoning"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          },
+          "versatile": {}
+        },
+        "magicalBonus": null,
+        "magicAvailable": false,
+        "properties": [
+          "lgt",
+          "snaring"
+        ],
+        "proficient": null,
+        "activities": {
+          "r77195d770d0f20d": {
+            "_id": "r77195d770d0f20d",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "price": {
+          "value": 1,
+          "denomination": "zeni"
+        },
+        "weight": {
+          "value": 1,
+          "units": "lb"
+        },
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "rarity": "",
+        "identified": true
+      },
+      "effects": [],
+      "folder": "r13dc9aaf03a2744",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rc36b1c5c9c98b7b",
+      "_key": "!items!rc36b1c5c9c98b7b",
+      "name": "Fishing Rod",
+      "type": "weapon",
+      "img": "icons/weapons/improvised/improvised-club.webp",
+      "system": {
+        "description": {
+          "value": "<p>Unusual weapon (improvised object). With the Unusual Weapon Mastery feat, you treat this item as a martial weapon you are proficient with, gain its tool proficiency if relevant, and can spend 1 extra focus on your first martial technique with it each encounter.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 225.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "fishingrod",
+        "type": {
+          "value": "martialM",
+          "baseItem": "fishingrod"
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 6,
+            "types": [
+              "slashing"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          },
+          "versatile": {}
+        },
+        "magicalBonus": null,
+        "magicAvailable": false,
+        "properties": [
+          "rch",
+          "snaring",
+          "two"
+        ],
+        "proficient": null,
+        "activities": {
+          "r32308143612f793": {
+            "_id": "r32308143612f793",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "price": {
+          "value": 1,
+          "denomination": "zeni"
+        },
+        "weight": {
+          "value": 1,
+          "units": "lb"
+        },
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "rarity": "",
+        "identified": true
+      },
+      "effects": [],
+      "folder": "r13dc9aaf03a2744",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rfec303cdffb8b72",
+      "_key": "!items!rfec303cdffb8b72",
+      "name": "Flute",
+      "type": "weapon",
+      "img": "icons/weapons/improvised/improvised-club.webp",
+      "system": {
+        "description": {
+          "value": "<p>Unusual weapon (improvised object). With the Unusual Weapon Mastery feat, you treat this item as a martial weapon you are proficient with, gain its tool proficiency if relevant, and can spend 1 extra focus on your first martial technique with it each encounter.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 225.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "flute",
+        "type": {
+          "value": "martialM",
+          "baseItem": "flute"
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 4,
+            "types": [
+              "bludgeoning"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          },
+          "versatile": {}
+        },
+        "magicalBonus": null,
+        "magicAvailable": false,
+        "properties": [
+          "lgt",
+          "fin"
+        ],
+        "proficient": null,
+        "activities": {
+          "raa0f5505a49c47f": {
+            "_id": "raa0f5505a49c47f",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "price": {
+          "value": 1,
+          "denomination": "zeni"
+        },
+        "weight": {
+          "value": 1,
+          "units": "lb"
+        },
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "rarity": "",
+        "identified": true
+      },
+      "effects": [],
+      "folder": "r13dc9aaf03a2744",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r657280f8834f119",
+      "_key": "!items!r657280f8834f119",
+      "name": "Gardening Rake",
+      "type": "weapon",
+      "img": "icons/weapons/improvised/improvised-club.webp",
+      "system": {
+        "description": {
+          "value": "<p>Unusual weapon (improvised object). With the Unusual Weapon Mastery feat, you treat this item as a martial weapon you are proficient with, gain its tool proficiency if relevant, and can spend 1 extra focus on your first martial technique with it each encounter.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 225.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "gardeningrake",
+        "type": {
+          "value": "martialM",
+          "baseItem": "gardeningrake"
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 8,
+            "types": [
+              "piercing"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          },
+          "versatile": {}
+        },
+        "magicalBonus": null,
+        "magicAvailable": false,
+        "properties": [
+          "two"
+        ],
+        "proficient": null,
+        "activities": {
+          "r85314dd7d321430": {
+            "_id": "r85314dd7d321430",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "price": {
+          "value": 1,
+          "denomination": "zeni"
+        },
+        "weight": {
+          "value": 1,
+          "units": "lb"
+        },
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "rarity": "",
+        "identified": true
+      },
+      "effects": [],
+      "folder": "r13dc9aaf03a2744",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r057bc47d001043e",
+      "_key": "!items!r057bc47d001043e",
+      "name": "Lute",
+      "type": "weapon",
+      "img": "icons/weapons/improvised/improvised-club.webp",
+      "system": {
+        "description": {
+          "value": "<p>Unusual weapon (improvised object). With the Unusual Weapon Mastery feat, you treat this item as a martial weapon you are proficient with, gain its tool proficiency if relevant, and can spend 1 extra focus on your first martial technique with it each encounter.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 225.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "lute",
+        "type": {
+          "value": "martialM",
+          "baseItem": "lute"
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 6,
+            "types": [
+              "bludgeoning"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          },
+          "versatile": {
+            "number": 1,
+            "denomination": 8,
+            "types": [
+              "bludgeoning"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          }
+        },
+        "magicalBonus": null,
+        "magicAvailable": false,
+        "properties": [
+          "ver"
+        ],
+        "proficient": null,
+        "activities": {
+          "rb9e3a83fee47689": {
+            "_id": "rb9e3a83fee47689",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "price": {
+          "value": 1,
+          "denomination": "zeni"
+        },
+        "weight": {
+          "value": 1,
+          "units": "lb"
+        },
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "rarity": "",
+        "identified": true
+      },
+      "effects": [],
+      "folder": "r13dc9aaf03a2744",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r9c81c8aa7afedc9",
+      "_key": "!items!r9c81c8aa7afedc9",
+      "name": "Rope (10+ ft.)",
+      "type": "weapon",
+      "img": "icons/weapons/improvised/improvised-club.webp",
+      "system": {
+        "description": {
+          "value": "<p>Unusual weapon (improvised object). With the Unusual Weapon Mastery feat, you treat this item as a martial weapon you are proficient with, gain its tool proficiency if relevant, and can spend 1 extra focus on your first martial technique with it each encounter.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 225.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "rope10ft",
+        "type": {
+          "value": "martialM",
+          "baseItem": "rope10ft"
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 4,
+            "types": [
+              "slashing"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          },
+          "versatile": {}
+        },
+        "magicalBonus": null,
+        "magicAvailable": false,
+        "properties": [
+          "fin",
+          "snaring"
+        ],
+        "proficient": null,
+        "activities": {
+          "rfc6fdb45f7fb9c2": {
+            "_id": "rfc6fdb45f7fb9c2",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "price": {
+          "value": 1,
+          "denomination": "zeni"
+        },
+        "weight": {
+          "value": 1,
+          "units": "lb"
+        },
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "rarity": "",
+        "identified": true
+      },
+      "effects": [],
+      "folder": "r13dc9aaf03a2744",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rb830eaab07d42f4",
+      "_key": "!items!rb830eaab07d42f4",
+      "name": "Scroll",
+      "type": "weapon",
+      "img": "icons/weapons/improvised/improvised-club.webp",
+      "system": {
+        "description": {
+          "value": "<p>Unusual weapon (improvised object). With the Unusual Weapon Mastery feat, you treat this item as a martial weapon you are proficient with, gain its tool proficiency if relevant, and can spend 1 extra focus on your first martial technique with it each encounter.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 225.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "scroll",
+        "type": {
+          "value": "martialM",
+          "baseItem": "scroll"
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 4,
+            "types": [
+              "bludgeoning"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          },
+          "versatile": {}
+        },
+        "magicalBonus": null,
+        "magicAvailable": false,
+        "properties": [
+          "defensive"
+        ],
+        "proficient": null,
+        "activities": {
+          "rbf2fcb14e2b7f04": {
+            "_id": "rbf2fcb14e2b7f04",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "price": {
+          "value": 1,
+          "denomination": "zeni"
+        },
+        "weight": {
+          "value": 1,
+          "units": "lb"
+        },
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "rarity": "",
+        "identified": true
+      },
+      "effects": [],
+      "folder": "r13dc9aaf03a2744",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r632eb3fd18da5df",
+      "_key": "!items!r632eb3fd18da5df",
+      "name": "Trowel",
+      "type": "weapon",
+      "img": "icons/weapons/improvised/improvised-club.webp",
+      "system": {
+        "description": {
+          "value": "<p>Unusual weapon (improvised object). With the Unusual Weapon Mastery feat, you treat this item as a martial weapon you are proficient with, gain its tool proficiency if relevant, and can spend 1 extra focus on your first martial technique with it each encounter.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 225.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "trowel",
+        "type": {
+          "value": "martialM",
+          "baseItem": "trowel"
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 4,
+            "types": [
+              "piercing"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          },
+          "versatile": {}
+        },
+        "magicalBonus": null,
+        "magicAvailable": false,
+        "properties": [
+          "fin",
+          "lgt"
+        ],
+        "proficient": null,
+        "activities": {
+          "r1cc4e831cff41c7": {
+            "_id": "r1cc4e831cff41c7",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "price": {
+          "value": 1,
+          "denomination": "zeni"
+        },
+        "weight": {
+          "value": 1,
+          "units": "lb"
+        },
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "rarity": "",
+        "identified": true
+      },
+      "effects": [],
+      "folder": "r13dc9aaf03a2744",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r9f32a23ceb241fa",
+      "_key": "!items!r9f32a23ceb241fa",
+      "name": "Umbrella",
+      "type": "weapon",
+      "img": "icons/weapons/improvised/improvised-club.webp",
+      "system": {
+        "description": {
+          "value": "<p>Unusual weapon (improvised object). With the Unusual Weapon Mastery feat, you treat this item as a martial weapon you are proficient with, gain its tool proficiency if relevant, and can spend 1 extra focus on your first martial technique with it each encounter.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 225.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "umbrella",
+        "type": {
+          "value": "martialM",
+          "baseItem": "umbrella"
+        },
+        "damage": {
+          "base": {
+            "number": 1,
+            "denomination": 6,
+            "types": [
+              "bludgeoning"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          },
+          "versatile": {
+            "number": 1,
+            "denomination": 8,
+            "types": [
+              "bludgeoning"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          }
+        },
+        "magicalBonus": null,
+        "magicAvailable": false,
+        "properties": [
+          "ver"
+        ],
+        "proficient": null,
+        "activities": {
+          "r62a035168f2b178": {
+            "_id": "r62a035168f2b178",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "price": {
+          "value": 1,
+          "denomination": "zeni"
+        },
+        "weight": {
+          "value": 1,
+          "units": "lb"
+        },
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "rarity": "",
+        "identified": true
+      },
+      "effects": [],
+      "folder": "r13dc9aaf03a2744",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r7d1a1532893a08c",
+      "_key": "!items!r7d1a1532893a08c",
+      "name": "Zither",
+      "type": "weapon",
+      "img": "icons/weapons/improvised/improvised-club.webp",
+      "system": {
+        "description": {
+          "value": "<p>Unusual weapon (improvised object). With the Unusual Weapon Mastery feat, you treat this item as a martial weapon you are proficient with, gain its tool proficiency if relevant, and can spend 1 extra focus on your first martial technique with it each encounter.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 225.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "zither",
+        "type": {
+          "value": "martialM",
+          "baseItem": "zither"
+        },
+        "damage": {
+          "base": {
+            "number": 2,
+            "denomination": 4,
+            "types": [
+              "bludgeoning"
+            ],
+            "bonus": "",
+            "custom": {
+              "enabled": false,
+              "formula": ""
+            },
+            "scaling": {
+              "mode": "",
+              "number": null
+            }
+          },
+          "versatile": {}
+        },
+        "magicalBonus": null,
+        "magicAvailable": false,
+        "properties": [
+          "hvy",
+          "two"
+        ],
+        "proficient": null,
+        "activities": {
+          "r5f09fbb04fbe0ed": {
+            "_id": "r5f09fbb04fbe0ed",
+            "type": "attack",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "attack": {
+              "ability": "",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "melee",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": true,
+              "parts": []
+            },
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "price": {
+          "value": 1,
+          "denomination": "zeni"
+        },
+        "weight": {
+          "value": 1,
+          "units": "lb"
+        },
+        "attuned": false,
+        "attunement": "",
+        "equipped": false,
+        "rarity": "",
+        "identified": true
+      },
+      "effects": [],
+      "folder": "r13dc9aaf03a2744",
       "sort": 0,
       "flags": {},
       "ownership": {

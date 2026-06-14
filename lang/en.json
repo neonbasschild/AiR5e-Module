@@ -214,16 +214,16 @@
     "Condition": {
       "Disoriented": "Disoriented",
       "DisorientedDesc": "Cannot make opportunity attacks until the end of the afflicting creature's next turn.",
-      "Compromised": "Compromised",
-      "CompromisedDesc": "Suffers penalties to certain actions due to wounds, exhaustion, or loss of focus.",
-      "Miserable": "Miserable",
-      "MiserableDesc": "Suffering heavy shadow or social failures. Imposes disadvantage on certain Charisma checks.",
-      "Anguished": "Anguished",
-      "AnguishedDesc": "Deep psychological or spiritual crisis. Imposes disadvantage on Wisdom saving throws.",
       "MarkedForDeath": "Marked for Death",
       "MarkedForDeathDesc": "The next successful melee attack by the marking creature deals an additional 1d8 force damage.",
       "Bleeding": "Bleeding",
-      "BleedingDesc": "Takes 1d4 piercing damage at the start of each of its turns; removed after it regains HP."
+      "BleedingDesc": "Takes 1d4 piercing damage at the start of each of its turns; removed after it regains HP.",
+      "Distracted": "Distracted",
+      "Maimed": "Maimed",
+      "Provoked": "Provoked",
+      "DistractedDesc": "-2 AC.",
+      "MaimedDesc": "-10 ft. speed and disadvantage on Dexterity saving throws.",
+      "ProvokedDesc": "Disadvantage on attacks against creatures other than the provoker."
     },
     "Language": {
       "Rokugani": "Rokugani",

@@ -275,13 +275,67 @@ export class RokuganConfig {
   // New Conditions (from Adventures in Rokugan)
   // ----------------------------------------
 
+  // The four new conditions Adventures in Rokugan adds, with the automatable
+  // mechanical effect each applies (wired as an Active Effect change on the
+  // status effect so toggling the condition on a token applies it).
   static CONDITIONS = {
-    // Standard 5e conditions remain; Rokugan adds:
-    disoriented: "ROKUGAN.Condition.Disoriented",
-    compromised: "ROKUGAN.Condition.Compromised",
-    anguished: "ROKUGAN.Condition.Anguished",
-    miserable: "ROKUGAN.Condition.Miserable",
+    disoriented: {
+      label: "ROKUGAN.Condition.Disoriented",
+      icon: "icons/svg/daze.svg",
+      // Can't make opportunity attacks (no clean numeric key; descriptive).
+      changes: [],
+      hint: "Can't make opportunity attacks.",
+    },
+    distracted: {
+      label: "ROKUGAN.Condition.Distracted",
+      icon: "icons/svg/stoned.svg",
+      changes: [{ key: "system.attributes.ac.bonus", mode: 2, value: "-2", priority: 20 }],
+      hint: "-2 AC.",
+    },
+    maimed: {
+      label: "ROKUGAN.Condition.Maimed",
+      icon: "icons/svg/blood.svg",
+      changes: [
+        { key: "system.attributes.movement.walk", mode: 2, value: "-10", priority: 20 },
+        { key: "system.abilities.dex.bonuses.save", mode: 2, value: "-5", priority: 20 },
+      ],
+      hint: "-10 ft. speed and disadvantage on Dexterity saving throws (modeled as -5).",
+    },
+    provoked: {
+      label: "ROKUGAN.Condition.Provoked",
+      icon: "icons/svg/terror.svg",
+      // Disadvantage on attacks vs creatures other than the provoker (conditional).
+      changes: [],
+      hint: "Disadvantage on attacks against creatures other than the provoker.",
+    },
   };
+
+  // Register the new conditions as both dnd5e condition types and Foundry
+  // status effects so they appear as toggleable token effects.
+  static registerConditions() {
+    const cfg = CONFIG.DND5E;
+    if (cfg?.conditionTypes) {
+      for (const [key, data] of Object.entries(RokuganConfig.CONDITIONS)) {
+        cfg.conditionTypes[key] = {
+          label: game.i18n.localize(data.label),
+          icon: data.icon,
+          ...(data.changes?.length ? { changes: data.changes } : {}),
+        };
+      }
+    }
+    // Foundry core status effects (toggleable on tokens)
+    if (Array.isArray(CONFIG.statusEffects)) {
+      for (const [key, data] of Object.entries(RokuganConfig.CONDITIONS)) {
+        if (CONFIG.statusEffects.find(s => s.id === key)) continue;
+        CONFIG.statusEffects.push({
+          id: key,
+          name: game.i18n.localize(data.label),
+          img: data.icon,
+          ...(data.changes?.length ? { changes: data.changes } : {}),
+        });
+      }
+    }
+  }
 
   // ----------------------------------------
   // Skills (Rokugan doesn't remove skills but
@@ -431,9 +485,29 @@ export class RokuganConfig {
       cfg.toolProficiencies["subterfuge"] = "ROKUGAN.ToolCat.Subterfuge";
     }
 
+    // ----- Custom weapon properties (Adventures in Rokugan) -----
+    // AiR adds Defensive, Snaring, and Paired weapon properties used by several
+    // weapons. Register them so they display on weapon sheets and in filters.
+    if (cfg.itemProperties && cfg.validProperties?.weapon) {
+      const rokuganProps = {
+        defensive: { label: "ROKUGAN.WeaponProperty.Defensive" },
+        snaring: { label: "ROKUGAN.WeaponProperty.Snaring" },
+        paired: { label: "ROKUGAN.WeaponProperty.Paired" },
+      };
+      for (const [key, data] of Object.entries(rokuganProps)) {
+        cfg.itemProperties[key] = cfg.itemProperties[key] ?? {
+          label: game.i18n.localize(data.label),
+        };
+        cfg.validProperties.weapon.add(key);
+      }
+    }
+
     // Weapon/tool proficiency IDs are registered in registerProficiencies(),
     // called at both init and setup so they survive the dnd5e system's own setup.
     RokuganConfig.registerProficiencies();
+
+    // Register the four Adventures in Rokugan conditions as status effects.
+    RokuganConfig.registerConditions();
 
     console.log("Rokugan5E | CONFIG.DND5E patched successfully");
   }
