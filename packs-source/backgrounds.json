@@ -255,15 +255,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be000000000090c1",
+            "_id": "be0000000000d54f",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be000000000090c2",
-            "group": "be000000000090c1",
+            "_id": "be0000000000d550",
+            "group": "be0000000000d54f",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -271,8 +271,8 @@
           },
           {
             "type": "linked",
-            "_id": "be000000000090c3",
-            "group": "be000000000090c1",
+            "_id": "be0000000000d551",
+            "group": "be0000000000d54f",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -280,8 +280,8 @@
           },
           {
             "type": "linked",
-            "_id": "be000000000090c4",
-            "group": "be000000000090c1",
+            "_id": "be0000000000d552",
+            "group": "be0000000000d54f",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
@@ -415,22 +415,22 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be000000000124a7",
+            "_id": "be00000000008b63",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "OR",
-            "_id": "be000000000124a8",
-            "group": "be000000000124a7",
+            "_id": "be00000000008b64",
+            "group": "be00000000008b63",
             "sort": 200000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be000000000124a9",
-            "group": "be000000000124a8",
+            "_id": "be00000000008b65",
+            "group": "be00000000008b64",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -438,8 +438,8 @@
           },
           {
             "type": "linked",
-            "_id": "be000000000124aa",
-            "group": "be000000000124a8",
+            "_id": "be00000000008b66",
+            "group": "be00000000008b64",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
@@ -447,8 +447,8 @@
           },
           {
             "type": "linked",
-            "_id": "be000000000124ab",
-            "group": "be000000000124a7",
+            "_id": "be00000000008b67",
+            "group": "be00000000008b63",
             "sort": 500000,
             "requiresProficiency": false,
             "count": null,
@@ -456,8 +456,8 @@
           },
           {
             "type": "linked",
-            "_id": "be000000000124ac",
-            "group": "be000000000124a7",
+            "_id": "be00000000008b68",
+            "group": "be00000000008b63",
             "sort": 600000,
             "requiresProficiency": false,
             "count": null,
@@ -612,22 +612,22 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be000000000082a3",
+            "_id": "be00000000001fec",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "OR",
-            "_id": "be000000000082a4",
-            "group": "be000000000082a3",
+            "_id": "be00000000001fed",
+            "group": "be00000000001fec",
             "sort": 200000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be000000000082a5",
-            "group": "be000000000082a4",
+            "_id": "be00000000001fee",
+            "group": "be00000000001fed",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -635,8 +635,8 @@
           },
           {
             "type": "linked",
-            "_id": "be000000000082a6",
-            "group": "be000000000082a4",
+            "_id": "be00000000001fef",
+            "group": "be00000000001fed",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
@@ -644,8 +644,8 @@
           },
           {
             "type": "linked",
-            "_id": "be000000000082a7",
-            "group": "be000000000082a3",
+            "_id": "be00000000001ff0",
+            "group": "be00000000001fec",
             "sort": 500000,
             "requiresProficiency": false,
             "count": null,
@@ -653,8 +653,8 @@
           },
           {
             "type": "linked",
-            "_id": "be000000000082a8",
-            "group": "be000000000082a3",
+            "_id": "be00000000001ff1",
+            "group": "be00000000001fec",
             "sort": 600000,
             "requiresProficiency": false,
             "count": null,
@@ -787,22 +787,22 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be00000000001f7e",
+            "_id": "be00000000013c31",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "OR",
-            "_id": "be00000000001f7f",
-            "group": "be00000000001f7e",
+            "_id": "be00000000013c32",
+            "group": "be00000000013c31",
             "sort": 200000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be00000000001f80",
-            "group": "be00000000001f7f",
+            "_id": "be00000000013c33",
+            "group": "be00000000013c32",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -810,8 +810,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000001f81",
-            "group": "be00000000001f7f",
+            "_id": "be00000000013c34",
+            "group": "be00000000013c32",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
@@ -819,8 +819,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000001f82",
-            "group": "be00000000001f7e",
+            "_id": "be00000000013c35",
+            "group": "be00000000013c31",
             "sort": 500000,
             "requiresProficiency": false,
             "count": null,
@@ -828,8 +828,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000001f83",
-            "group": "be00000000001f7e",
+            "_id": "be00000000013c36",
+            "group": "be00000000013c31",
             "sort": 600000,
             "requiresProficiency": false,
             "count": null,
@@ -1004,15 +1004,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be000000000035a7",
+            "_id": "be000000000094e1",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be000000000035a8",
-            "group": "be000000000035a7",
+            "_id": "be000000000094e2",
+            "group": "be000000000094e1",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -1020,8 +1020,8 @@
           },
           {
             "type": "linked",
-            "_id": "be000000000035a9",
-            "group": "be000000000035a7",
+            "_id": "be000000000094e3",
+            "group": "be000000000094e1",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -1029,8 +1029,8 @@
           },
           {
             "type": "linked",
-            "_id": "be000000000035aa",
-            "group": "be000000000035a7",
+            "_id": "be000000000094e4",
+            "group": "be000000000094e1",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
@@ -1038,15 +1038,15 @@
           },
           {
             "type": "OR",
-            "_id": "be000000000035ab",
-            "group": "be000000000035a7",
+            "_id": "be000000000094e5",
+            "group": "be000000000094e1",
             "sort": 500000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be000000000035ac",
-            "group": "be000000000035ab",
+            "_id": "be000000000094e6",
+            "group": "be000000000094e5",
             "sort": 600000,
             "requiresProficiency": false,
             "count": null,
@@ -1054,8 +1054,8 @@
           },
           {
             "type": "linked",
-            "_id": "be000000000035ad",
-            "group": "be000000000035ab",
+            "_id": "be000000000094e7",
+            "group": "be000000000094e5",
             "sort": 700000,
             "requiresProficiency": false,
             "count": null,
@@ -1197,15 +1197,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be0000000001750c",
+            "_id": "be000000000065bd",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be0000000001750d",
-            "group": "be0000000001750c",
+            "_id": "be000000000065be",
+            "group": "be000000000065bd",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -1213,8 +1213,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000001750e",
-            "group": "be0000000001750c",
+            "_id": "be000000000065bf",
+            "group": "be000000000065bd",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -1353,15 +1353,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be00000000009bc1",
+            "_id": "be0000000000dc5e",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be00000000009bc2",
-            "group": "be00000000009bc1",
+            "_id": "be0000000000dc5f",
+            "group": "be0000000000dc5e",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -1369,8 +1369,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000009bc3",
-            "group": "be00000000009bc1",
+            "_id": "be0000000000dc60",
+            "group": "be0000000000dc5e",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -1378,8 +1378,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000009bc4",
-            "group": "be00000000009bc1",
+            "_id": "be0000000000dc61",
+            "group": "be0000000000dc5e",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
@@ -1387,8 +1387,8 @@
           },
           {
             "type": "currency",
-            "_id": "be00000000009bc5",
-            "group": "be00000000009bc1",
+            "_id": "be0000000000dc62",
+            "group": "be0000000000dc5e",
             "sort": 500000,
             "requiresProficiency": false,
             "count": 10,
@@ -1522,15 +1522,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be0000000000349f",
+            "_id": "be00000000011ef8",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be000000000034a0",
-            "group": "be0000000000349f",
+            "_id": "be00000000011ef9",
+            "group": "be00000000011ef8",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -1538,8 +1538,8 @@
           },
           {
             "type": "linked",
-            "_id": "be000000000034a1",
-            "group": "be0000000000349f",
+            "_id": "be00000000011efa",
+            "group": "be00000000011ef8",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -1547,8 +1547,8 @@
           },
           {
             "type": "linked",
-            "_id": "be000000000034a2",
-            "group": "be0000000000349f",
+            "_id": "be00000000011efb",
+            "group": "be00000000011ef8",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
@@ -1556,8 +1556,8 @@
           },
           {
             "type": "linked",
-            "_id": "be000000000034a3",
-            "group": "be0000000000349f",
+            "_id": "be00000000011efc",
+            "group": "be00000000011ef8",
             "sort": 500000,
             "requiresProficiency": false,
             "count": null,
@@ -1696,22 +1696,22 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be0000000000dc46",
+            "_id": "be0000000000b5d1",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "OR",
-            "_id": "be0000000000dc47",
-            "group": "be0000000000dc46",
+            "_id": "be0000000000b5d2",
+            "group": "be0000000000b5d1",
             "sort": 200000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be0000000000dc48",
-            "group": "be0000000000dc47",
+            "_id": "be0000000000b5d3",
+            "group": "be0000000000b5d2",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -1719,8 +1719,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000000dc49",
-            "group": "be0000000000dc47",
+            "_id": "be0000000000b5d4",
+            "group": "be0000000000b5d2",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
@@ -1728,8 +1728,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000000dc4a",
-            "group": "be0000000000dc46",
+            "_id": "be0000000000b5d5",
+            "group": "be0000000000b5d1",
             "sort": 500000,
             "requiresProficiency": false,
             "count": null,
@@ -1917,15 +1917,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be0000000000a51c",
+            "_id": "be00000000011a7a",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be0000000000a51d",
-            "group": "be0000000000a51c",
+            "_id": "be00000000011a7b",
+            "group": "be00000000011a7a",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -1933,8 +1933,8 @@
           },
           {
             "type": "currency",
-            "_id": "be0000000000a51e",
-            "group": "be0000000000a51c",
+            "_id": "be00000000011a7c",
+            "group": "be00000000011a7a",
             "sort": 300000,
             "requiresProficiency": false,
             "count": 8,
@@ -2083,15 +2083,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be00000000014fd6",
+            "_id": "be000000000002f4",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be00000000014fd7",
-            "group": "be00000000014fd6",
+            "_id": "be000000000002f5",
+            "group": "be000000000002f4",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -2099,8 +2099,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000014fd8",
-            "group": "be00000000014fd6",
+            "_id": "be000000000002f6",
+            "group": "be000000000002f4",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -2108,8 +2108,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000014fd9",
-            "group": "be00000000014fd6",
+            "_id": "be000000000002f7",
+            "group": "be000000000002f4",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
@@ -2117,8 +2117,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000014fda",
-            "group": "be00000000014fd6",
+            "_id": "be000000000002f8",
+            "group": "be000000000002f4",
             "sort": 500000,
             "requiresProficiency": false,
             "count": null,
@@ -2126,8 +2126,8 @@
           },
           {
             "type": "currency",
-            "_id": "be00000000014fdb",
-            "group": "be00000000014fd6",
+            "_id": "be000000000002f9",
+            "group": "be000000000002f4",
             "sort": 600000,
             "requiresProficiency": false,
             "count": 8,
@@ -2267,15 +2267,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be00000000004a23",
+            "_id": "be000000000069a8",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be00000000004a24",
-            "group": "be00000000004a23",
+            "_id": "be000000000069a9",
+            "group": "be000000000069a8",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -2283,8 +2283,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000004a25",
-            "group": "be00000000004a23",
+            "_id": "be000000000069aa",
+            "group": "be000000000069a8",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -2418,15 +2418,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be0000000000dd0c",
+            "_id": "be00000000007d5f",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be0000000000dd0d",
-            "group": "be0000000000dd0c",
+            "_id": "be00000000007d60",
+            "group": "be00000000007d5f",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -2434,8 +2434,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000000dd0e",
-            "group": "be0000000000dd0c",
+            "_id": "be00000000007d61",
+            "group": "be00000000007d5f",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -2443,8 +2443,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000000dd0f",
-            "group": "be0000000000dd0c",
+            "_id": "be00000000007d62",
+            "group": "be00000000007d5f",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
@@ -2577,15 +2577,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be0000000000ba30",
+            "_id": "be00000000016e3c",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be0000000000ba31",
-            "group": "be0000000000ba30",
+            "_id": "be00000000016e3d",
+            "group": "be00000000016e3c",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -2593,8 +2593,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000000ba32",
-            "group": "be0000000000ba30",
+            "_id": "be00000000016e3e",
+            "group": "be00000000016e3c",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -2602,8 +2602,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000000ba33",
-            "group": "be0000000000ba30",
+            "_id": "be00000000016e3f",
+            "group": "be00000000016e3c",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
@@ -2611,8 +2611,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000000ba34",
-            "group": "be0000000000ba30",
+            "_id": "be00000000016e40",
+            "group": "be00000000016e3c",
             "sort": 500000,
             "requiresProficiency": false,
             "count": null,
@@ -2620,8 +2620,8 @@
           },
           {
             "type": "currency",
-            "_id": "be0000000000ba35",
-            "group": "be0000000000ba30",
+            "_id": "be00000000016e41",
+            "group": "be00000000016e3c",
             "sort": 600000,
             "requiresProficiency": false,
             "count": 10,
@@ -2778,15 +2778,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be00000000003869",
+            "_id": "be000000000066e7",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be0000000000386a",
-            "group": "be00000000003869",
+            "_id": "be000000000066e8",
+            "group": "be000000000066e7",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -2794,8 +2794,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000000386b",
-            "group": "be00000000003869",
+            "_id": "be000000000066e9",
+            "group": "be000000000066e7",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -2803,8 +2803,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000000386c",
-            "group": "be00000000003869",
+            "_id": "be000000000066ea",
+            "group": "be000000000066e7",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
@@ -2960,15 +2960,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be0000000000e103",
+            "_id": "be00000000006eb7",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be0000000000e104",
-            "group": "be0000000000e103",
+            "_id": "be00000000006eb8",
+            "group": "be00000000006eb7",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -2976,8 +2976,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000000e105",
-            "group": "be0000000000e103",
+            "_id": "be00000000006eb9",
+            "group": "be00000000006eb7",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -2985,8 +2985,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000000e106",
-            "group": "be0000000000e103",
+            "_id": "be00000000006eba",
+            "group": "be00000000006eb7",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
@@ -3120,15 +3120,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be000000000032dc",
+            "_id": "be00000000011f17",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be000000000032dd",
-            "group": "be000000000032dc",
+            "_id": "be00000000011f18",
+            "group": "be00000000011f17",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -3136,8 +3136,8 @@
           },
           {
             "type": "linked",
-            "_id": "be000000000032de",
-            "group": "be000000000032dc",
+            "_id": "be00000000011f19",
+            "group": "be00000000011f17",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -3145,8 +3145,8 @@
           },
           {
             "type": "linked",
-            "_id": "be000000000032df",
-            "group": "be000000000032dc",
+            "_id": "be00000000011f1a",
+            "group": "be00000000011f17",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
@@ -3335,15 +3335,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be000000000040fb",
+            "_id": "be00000000012380",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be000000000040fc",
-            "group": "be000000000040fb",
+            "_id": "be00000000012381",
+            "group": "be00000000012380",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -3351,8 +3351,8 @@
           },
           {
             "type": "linked",
-            "_id": "be000000000040fd",
-            "group": "be000000000040fb",
+            "_id": "be00000000012382",
+            "group": "be00000000012380",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -3360,8 +3360,8 @@
           },
           {
             "type": "linked",
-            "_id": "be000000000040fe",
-            "group": "be000000000040fb",
+            "_id": "be00000000012383",
+            "group": "be00000000012380",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
@@ -3515,15 +3515,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be0000000001367d",
+            "_id": "be00000000018679",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be0000000001367e",
-            "group": "be0000000001367d",
+            "_id": "be0000000001867a",
+            "group": "be00000000018679",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -3531,8 +3531,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000001367f",
-            "group": "be0000000001367d",
+            "_id": "be0000000001867b",
+            "group": "be00000000018679",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -3670,15 +3670,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be000000000120ef",
+            "_id": "be0000000000d255",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be000000000120f0",
-            "group": "be000000000120ef",
+            "_id": "be0000000000d256",
+            "group": "be0000000000d255",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -3686,8 +3686,8 @@
           },
           {
             "type": "linked",
-            "_id": "be000000000120f1",
-            "group": "be000000000120ef",
+            "_id": "be0000000000d257",
+            "group": "be0000000000d255",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -3881,15 +3881,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be00000000000a48",
+            "_id": "be00000000016ffe",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be00000000000a49",
-            "group": "be00000000000a48",
+            "_id": "be00000000016fff",
+            "group": "be00000000016ffe",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -3897,8 +3897,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000000a4a",
-            "group": "be00000000000a48",
+            "_id": "be00000000017000",
+            "group": "be00000000016ffe",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -3906,8 +3906,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000000a4b",
-            "group": "be00000000000a48",
+            "_id": "be00000000017001",
+            "group": "be00000000016ffe",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
@@ -3915,8 +3915,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000000a4c",
-            "group": "be00000000000a48",
+            "_id": "be00000000017002",
+            "group": "be00000000016ffe",
             "sort": 500000,
             "requiresProficiency": false,
             "count": null,
@@ -3924,8 +3924,8 @@
           },
           {
             "type": "currency",
-            "_id": "be00000000000a4d",
-            "group": "be00000000000a48",
+            "_id": "be00000000017003",
+            "group": "be00000000016ffe",
             "sort": 600000,
             "requiresProficiency": false,
             "count": 10,
@@ -4113,15 +4113,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be000000000176b3",
+            "_id": "be000000000103a5",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be000000000176b4",
-            "group": "be000000000176b3",
+            "_id": "be000000000103a6",
+            "group": "be000000000103a5",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -4129,8 +4129,8 @@
           },
           {
             "type": "linked",
-            "_id": "be000000000176b5",
-            "group": "be000000000176b3",
+            "_id": "be000000000103a7",
+            "group": "be000000000103a5",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -4138,8 +4138,8 @@
           },
           {
             "type": "linked",
-            "_id": "be000000000176b6",
-            "group": "be000000000176b3",
+            "_id": "be000000000103a8",
+            "group": "be000000000103a5",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
@@ -4147,8 +4147,8 @@
           },
           {
             "type": "linked",
-            "_id": "be000000000176b7",
-            "group": "be000000000176b3",
+            "_id": "be000000000103a9",
+            "group": "be000000000103a5",
             "sort": 500000,
             "requiresProficiency": false,
             "count": null,
@@ -4156,8 +4156,8 @@
           },
           {
             "type": "linked",
-            "_id": "be000000000176b8",
-            "group": "be000000000176b3",
+            "_id": "be000000000103aa",
+            "group": "be000000000103a5",
             "sort": 600000,
             "requiresProficiency": false,
             "count": null,
@@ -4349,15 +4349,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be00000000001add",
+            "_id": "be000000000084f0",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be00000000001ade",
-            "group": "be00000000001add",
+            "_id": "be000000000084f1",
+            "group": "be000000000084f0",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -4365,8 +4365,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000001adf",
-            "group": "be00000000001add",
+            "_id": "be000000000084f2",
+            "group": "be000000000084f0",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -4374,8 +4374,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000001ae0",
-            "group": "be00000000001add",
+            "_id": "be000000000084f3",
+            "group": "be000000000084f0",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
@@ -4383,8 +4383,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000001ae1",
-            "group": "be00000000001add",
+            "_id": "be000000000084f4",
+            "group": "be000000000084f0",
             "sort": 500000,
             "requiresProficiency": false,
             "count": null,
@@ -4540,15 +4540,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be0000000000e15e",
+            "_id": "be00000000002d2c",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be0000000000e15f",
-            "group": "be0000000000e15e",
+            "_id": "be00000000002d2d",
+            "group": "be00000000002d2c",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -4556,8 +4556,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000000e160",
-            "group": "be0000000000e15e",
+            "_id": "be00000000002d2e",
+            "group": "be00000000002d2c",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -4565,8 +4565,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000000e161",
-            "group": "be0000000000e15e",
+            "_id": "be00000000002d2f",
+            "group": "be00000000002d2c",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
@@ -4574,8 +4574,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000000e162",
-            "group": "be0000000000e15e",
+            "_id": "be00000000002d30",
+            "group": "be00000000002d2c",
             "sort": 500000,
             "requiresProficiency": false,
             "count": null,
@@ -4714,15 +4714,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be0000000000e94b",
+            "_id": "be000000000084df",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be0000000000e94c",
-            "group": "be0000000000e94b",
+            "_id": "be000000000084e0",
+            "group": "be000000000084df",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -4730,8 +4730,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000000e94d",
-            "group": "be0000000000e94b",
+            "_id": "be000000000084e1",
+            "group": "be000000000084df",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -4739,15 +4739,15 @@
           },
           {
             "type": "OR",
-            "_id": "be0000000000e94e",
-            "group": "be0000000000e94b",
+            "_id": "be000000000084e2",
+            "group": "be000000000084df",
             "sort": 400000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be0000000000e94f",
-            "group": "be0000000000e94e",
+            "_id": "be000000000084e3",
+            "group": "be000000000084e2",
             "sort": 500000,
             "requiresProficiency": false,
             "count": null,
@@ -4755,8 +4755,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000000e950",
-            "group": "be0000000000e94e",
+            "_id": "be000000000084e4",
+            "group": "be000000000084e2",
             "sort": 600000,
             "requiresProficiency": false,
             "count": null,
@@ -4764,8 +4764,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000000e951",
-            "group": "be0000000000e94b",
+            "_id": "be000000000084e5",
+            "group": "be000000000084df",
             "sort": 700000,
             "requiresProficiency": false,
             "count": null,
@@ -4773,8 +4773,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000000e952",
-            "group": "be0000000000e94b",
+            "_id": "be000000000084e6",
+            "group": "be000000000084df",
             "sort": 800000,
             "requiresProficiency": false,
             "count": null,
@@ -4913,22 +4913,22 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be0000000001740f",
+            "_id": "be0000000000321b",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "OR",
-            "_id": "be00000000017410",
-            "group": "be0000000001740f",
+            "_id": "be0000000000321c",
+            "group": "be0000000000321b",
             "sort": 200000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be00000000017411",
-            "group": "be00000000017410",
+            "_id": "be0000000000321d",
+            "group": "be0000000000321c",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -4936,8 +4936,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000017412",
-            "group": "be00000000017410",
+            "_id": "be0000000000321e",
+            "group": "be0000000000321c",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
@@ -4945,15 +4945,15 @@
           },
           {
             "type": "OR",
-            "_id": "be00000000017413",
-            "group": "be0000000001740f",
+            "_id": "be0000000000321f",
+            "group": "be0000000000321b",
             "sort": 500000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be00000000017414",
-            "group": "be00000000017413",
+            "_id": "be00000000003220",
+            "group": "be0000000000321f",
             "sort": 600000,
             "requiresProficiency": false,
             "count": null,
@@ -4961,8 +4961,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000017415",
-            "group": "be00000000017413",
+            "_id": "be00000000003221",
+            "group": "be0000000000321f",
             "sort": 700000,
             "requiresProficiency": false,
             "count": null,
@@ -5102,15 +5102,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be0000000000371b",
+            "_id": "be00000000007fb7",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be0000000000371c",
-            "group": "be0000000000371b",
+            "_id": "be00000000007fb8",
+            "group": "be00000000007fb7",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -5118,8 +5118,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000000371d",
-            "group": "be0000000000371b",
+            "_id": "be00000000007fb9",
+            "group": "be00000000007fb7",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -5127,8 +5127,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000000371e",
-            "group": "be0000000000371b",
+            "_id": "be00000000007fba",
+            "group": "be00000000007fb7",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
@@ -5267,15 +5267,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be0000000000a096",
+            "_id": "be0000000000b693",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be0000000000a097",
-            "group": "be0000000000a096",
+            "_id": "be0000000000b694",
+            "group": "be0000000000b693",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -5283,15 +5283,15 @@
           },
           {
             "type": "OR",
-            "_id": "be0000000000a098",
-            "group": "be0000000000a096",
+            "_id": "be0000000000b695",
+            "group": "be0000000000b693",
             "sort": 300000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be0000000000a099",
-            "group": "be0000000000a098",
+            "_id": "be0000000000b696",
+            "group": "be0000000000b695",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
@@ -5299,8 +5299,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000000a09a",
-            "group": "be0000000000a098",
+            "_id": "be0000000000b697",
+            "group": "be0000000000b695",
             "sort": 500000,
             "requiresProficiency": false,
             "count": null,
@@ -5308,8 +5308,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000000a09b",
-            "group": "be0000000000a096",
+            "_id": "be0000000000b698",
+            "group": "be0000000000b693",
             "sort": 600000,
             "requiresProficiency": false,
             "count": null,
@@ -5317,8 +5317,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000000a09c",
-            "group": "be0000000000a096",
+            "_id": "be0000000000b699",
+            "group": "be0000000000b693",
             "sort": 700000,
             "requiresProficiency": false,
             "count": null,
@@ -5326,8 +5326,8 @@
           },
           {
             "type": "currency",
-            "_id": "be0000000000a09d",
-            "group": "be0000000000a096",
+            "_id": "be0000000000b69a",
+            "group": "be0000000000b693",
             "sort": 800000,
             "requiresProficiency": false,
             "count": 10,
@@ -5466,15 +5466,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be000000000177cd",
+            "_id": "be000000000160bd",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be000000000177ce",
-            "group": "be000000000177cd",
+            "_id": "be000000000160be",
+            "group": "be000000000160bd",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -5482,8 +5482,8 @@
           },
           {
             "type": "linked",
-            "_id": "be000000000177cf",
-            "group": "be000000000177cd",
+            "_id": "be000000000160bf",
+            "group": "be000000000160bd",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -5491,8 +5491,8 @@
           },
           {
             "type": "linked",
-            "_id": "be000000000177d0",
-            "group": "be000000000177cd",
+            "_id": "be000000000160c0",
+            "group": "be000000000160bd",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
@@ -5500,8 +5500,8 @@
           },
           {
             "type": "currency",
-            "_id": "be000000000177d1",
-            "group": "be000000000177cd",
+            "_id": "be000000000160c1",
+            "group": "be000000000160bd",
             "sort": 500000,
             "requiresProficiency": false,
             "count": 10,
@@ -5636,15 +5636,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be0000000000e4fa",
+            "_id": "be0000000000a3e6",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be0000000000e4fb",
-            "group": "be0000000000e4fa",
+            "_id": "be0000000000a3e7",
+            "group": "be0000000000a3e6",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -5652,8 +5652,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000000e4fc",
-            "group": "be0000000000e4fa",
+            "_id": "be0000000000a3e8",
+            "group": "be0000000000a3e6",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -5661,8 +5661,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000000e4fd",
-            "group": "be0000000000e4fa",
+            "_id": "be0000000000a3e9",
+            "group": "be0000000000a3e6",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
@@ -5670,8 +5670,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000000e4fe",
-            "group": "be0000000000e4fa",
+            "_id": "be0000000000a3ea",
+            "group": "be0000000000a3e6",
             "sort": 500000,
             "requiresProficiency": false,
             "count": null,
@@ -5827,15 +5827,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be00000000015fc9",
+            "_id": "be0000000000c964",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be00000000015fca",
-            "group": "be00000000015fc9",
+            "_id": "be0000000000c965",
+            "group": "be0000000000c964",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -5843,8 +5843,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000015fcb",
-            "group": "be00000000015fc9",
+            "_id": "be0000000000c966",
+            "group": "be0000000000c964",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -5852,8 +5852,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000015fcc",
-            "group": "be00000000015fc9",
+            "_id": "be0000000000c967",
+            "group": "be0000000000c964",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
@@ -5861,8 +5861,8 @@
           },
           {
             "type": "currency",
-            "_id": "be00000000015fcd",
-            "group": "be00000000015fc9",
+            "_id": "be0000000000c968",
+            "group": "be0000000000c964",
             "sort": 500000,
             "requiresProficiency": false,
             "count": 12,
@@ -6016,15 +6016,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be000000000097b1",
+            "_id": "be0000000000f567",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be000000000097b2",
-            "group": "be000000000097b1",
+            "_id": "be0000000000f568",
+            "group": "be0000000000f567",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -6032,8 +6032,8 @@
           },
           {
             "type": "linked",
-            "_id": "be000000000097b3",
-            "group": "be000000000097b1",
+            "_id": "be0000000000f569",
+            "group": "be0000000000f567",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -6041,8 +6041,8 @@
           },
           {
             "type": "linked",
-            "_id": "be000000000097b4",
-            "group": "be000000000097b1",
+            "_id": "be0000000000f56a",
+            "group": "be0000000000f567",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
@@ -6050,8 +6050,8 @@
           },
           {
             "type": "currency",
-            "_id": "be000000000097b5",
-            "group": "be000000000097b1",
+            "_id": "be0000000000f56b",
+            "group": "be0000000000f567",
             "sort": 500000,
             "requiresProficiency": false,
             "count": 12,
@@ -6217,22 +6217,22 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be000000000058a0",
+            "_id": "be00000000008b32",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "OR",
-            "_id": "be000000000058a1",
-            "group": "be000000000058a0",
+            "_id": "be00000000008b33",
+            "group": "be00000000008b32",
             "sort": 200000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be000000000058a2",
-            "group": "be000000000058a1",
+            "_id": "be00000000008b34",
+            "group": "be00000000008b33",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -6240,8 +6240,8 @@
           },
           {
             "type": "linked",
-            "_id": "be000000000058a3",
-            "group": "be000000000058a1",
+            "_id": "be00000000008b35",
+            "group": "be00000000008b33",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
@@ -6249,8 +6249,8 @@
           },
           {
             "type": "linked",
-            "_id": "be000000000058a4",
-            "group": "be000000000058a0",
+            "_id": "be00000000008b36",
+            "group": "be00000000008b32",
             "sort": 500000,
             "requiresProficiency": false,
             "count": null,
@@ -6258,8 +6258,8 @@
           },
           {
             "type": "linked",
-            "_id": "be000000000058a5",
-            "group": "be000000000058a0",
+            "_id": "be00000000008b37",
+            "group": "be00000000008b32",
             "sort": 600000,
             "requiresProficiency": false,
             "count": null,
@@ -6524,15 +6524,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be000000000134e4",
+            "_id": "be00000000002fad",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be000000000134e5",
-            "group": "be000000000134e4",
+            "_id": "be00000000002fae",
+            "group": "be00000000002fad",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -6540,8 +6540,8 @@
           },
           {
             "type": "linked",
-            "_id": "be000000000134e6",
-            "group": "be000000000134e4",
+            "_id": "be00000000002faf",
+            "group": "be00000000002fad",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -6549,8 +6549,8 @@
           },
           {
             "type": "linked",
-            "_id": "be000000000134e7",
-            "group": "be000000000134e4",
+            "_id": "be00000000002fb0",
+            "group": "be00000000002fad",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
@@ -6558,8 +6558,8 @@
           },
           {
             "type": "linked",
-            "_id": "be000000000134e8",
-            "group": "be000000000134e4",
+            "_id": "be00000000002fb1",
+            "group": "be00000000002fad",
             "sort": 500000,
             "requiresProficiency": false,
             "count": null,
@@ -6693,15 +6693,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be00000000008d8c",
+            "_id": "be00000000003c03",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be00000000008d8d",
-            "group": "be00000000008d8c",
+            "_id": "be00000000003c04",
+            "group": "be00000000003c03",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -6709,8 +6709,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000008d8e",
-            "group": "be00000000008d8c",
+            "_id": "be00000000003c05",
+            "group": "be00000000003c03",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -6718,8 +6718,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000008d8f",
-            "group": "be00000000008d8c",
+            "_id": "be00000000003c06",
+            "group": "be00000000003c03",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
@@ -6727,8 +6727,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000008d90",
-            "group": "be00000000008d8c",
+            "_id": "be00000000003c07",
+            "group": "be00000000003c03",
             "sort": 500000,
             "requiresProficiency": false,
             "count": null,
@@ -6881,15 +6881,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be0000000000e682",
+            "_id": "be00000000009bf4",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be0000000000e683",
-            "group": "be0000000000e682",
+            "_id": "be00000000009bf5",
+            "group": "be00000000009bf4",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -6897,8 +6897,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000000e684",
-            "group": "be0000000000e682",
+            "_id": "be00000000009bf6",
+            "group": "be00000000009bf4",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -6906,8 +6906,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000000e685",
-            "group": "be0000000000e682",
+            "_id": "be00000000009bf7",
+            "group": "be00000000009bf4",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
@@ -7039,15 +7039,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be00000000003c10",
+            "_id": "be00000000018651",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be00000000003c11",
-            "group": "be00000000003c10",
+            "_id": "be00000000018652",
+            "group": "be00000000018651",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -7055,8 +7055,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000003c12",
-            "group": "be00000000003c10",
+            "_id": "be00000000018653",
+            "group": "be00000000018651",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -7064,8 +7064,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000003c13",
-            "group": "be00000000003c10",
+            "_id": "be00000000018654",
+            "group": "be00000000018651",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
@@ -7225,15 +7225,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be0000000000ba70",
+            "_id": "be00000000016d71",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be0000000000ba71",
-            "group": "be0000000000ba70",
+            "_id": "be00000000016d72",
+            "group": "be00000000016d71",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -7241,8 +7241,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000000ba72",
-            "group": "be0000000000ba70",
+            "_id": "be00000000016d73",
+            "group": "be00000000016d71",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -7376,15 +7376,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be00000000004592",
+            "_id": "be00000000006199",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be00000000004593",
-            "group": "be00000000004592",
+            "_id": "be0000000000619a",
+            "group": "be00000000006199",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -7392,8 +7392,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000004594",
-            "group": "be00000000004592",
+            "_id": "be0000000000619b",
+            "group": "be00000000006199",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -7401,8 +7401,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000004595",
-            "group": "be00000000004592",
+            "_id": "be0000000000619c",
+            "group": "be00000000006199",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
@@ -7536,15 +7536,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be0000000000d6b1",
+            "_id": "be00000000008822",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be0000000000d6b2",
-            "group": "be0000000000d6b1",
+            "_id": "be00000000008823",
+            "group": "be00000000008822",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -7552,8 +7552,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000000d6b3",
-            "group": "be0000000000d6b1",
+            "_id": "be00000000008824",
+            "group": "be00000000008822",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -7561,8 +7561,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000000d6b4",
-            "group": "be0000000000d6b1",
+            "_id": "be00000000008825",
+            "group": "be00000000008822",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
@@ -7843,15 +7843,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be0000000000077d",
+            "_id": "be00000000014d3a",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be0000000000077e",
-            "group": "be0000000000077d",
+            "_id": "be00000000014d3b",
+            "group": "be00000000014d3a",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -7859,8 +7859,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000000077f",
-            "group": "be0000000000077d",
+            "_id": "be00000000014d3c",
+            "group": "be00000000014d3a",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -7868,15 +7868,15 @@
           },
           {
             "type": "OR",
-            "_id": "be00000000000780",
-            "group": "be0000000000077d",
+            "_id": "be00000000014d3d",
+            "group": "be00000000014d3a",
             "sort": 400000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be00000000000781",
-            "group": "be00000000000780",
+            "_id": "be00000000014d3e",
+            "group": "be00000000014d3d",
             "sort": 500000,
             "requiresProficiency": false,
             "count": null,
@@ -7884,8 +7884,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000000782",
-            "group": "be00000000000780",
+            "_id": "be00000000014d3f",
+            "group": "be00000000014d3d",
             "sort": 600000,
             "requiresProficiency": false,
             "count": null,
@@ -8023,15 +8023,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be00000000000453",
+            "_id": "be000000000143bb",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be00000000000454",
-            "group": "be00000000000453",
+            "_id": "be000000000143bc",
+            "group": "be000000000143bb",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -8039,8 +8039,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000000455",
-            "group": "be00000000000453",
+            "_id": "be000000000143bd",
+            "group": "be000000000143bb",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -8194,15 +8194,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be0000000000b8dd",
+            "_id": "be00000000000eed",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be0000000000b8de",
-            "group": "be0000000000b8dd",
+            "_id": "be00000000000eee",
+            "group": "be00000000000eed",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -8210,8 +8210,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000000b8df",
-            "group": "be0000000000b8dd",
+            "_id": "be00000000000eef",
+            "group": "be00000000000eed",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -8342,15 +8342,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be000000000070f3",
+            "_id": "be000000000078b6",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be000000000070f4",
-            "group": "be000000000070f3",
+            "_id": "be000000000078b7",
+            "group": "be000000000078b6",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -8358,15 +8358,15 @@
           },
           {
             "type": "OR",
-            "_id": "be000000000070f5",
-            "group": "be000000000070f3",
+            "_id": "be000000000078b8",
+            "group": "be000000000078b6",
             "sort": 300000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be000000000070f6",
-            "group": "be000000000070f5",
+            "_id": "be000000000078b9",
+            "group": "be000000000078b8",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
@@ -8374,8 +8374,8 @@
           },
           {
             "type": "linked",
-            "_id": "be000000000070f7",
-            "group": "be000000000070f5",
+            "_id": "be000000000078ba",
+            "group": "be000000000078b8",
             "sort": 500000,
             "requiresProficiency": false,
             "count": null,
@@ -8529,15 +8529,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be000000000174a8",
+            "_id": "be00000000006aee",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be000000000174a9",
-            "group": "be000000000174a8",
+            "_id": "be00000000006aef",
+            "group": "be00000000006aee",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -8545,8 +8545,8 @@
           },
           {
             "type": "linked",
-            "_id": "be000000000174aa",
-            "group": "be000000000174a8",
+            "_id": "be00000000006af0",
+            "group": "be00000000006aee",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -8677,22 +8677,22 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be000000000027da",
+            "_id": "be00000000000b79",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "OR",
-            "_id": "be000000000027db",
-            "group": "be000000000027da",
+            "_id": "be00000000000b7a",
+            "group": "be00000000000b79",
             "sort": 200000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be000000000027dc",
-            "group": "be000000000027db",
+            "_id": "be00000000000b7b",
+            "group": "be00000000000b7a",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -8700,8 +8700,8 @@
           },
           {
             "type": "linked",
-            "_id": "be000000000027dd",
-            "group": "be000000000027db",
+            "_id": "be00000000000b7c",
+            "group": "be00000000000b7a",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
@@ -8709,8 +8709,8 @@
           },
           {
             "type": "linked",
-            "_id": "be000000000027de",
-            "group": "be000000000027da",
+            "_id": "be00000000000b7d",
+            "group": "be00000000000b79",
             "sort": 500000,
             "requiresProficiency": false,
             "count": null,
@@ -8863,22 +8863,22 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be0000000001178c",
+            "_id": "be000000000004c9",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "OR",
-            "_id": "be0000000001178d",
-            "group": "be0000000001178c",
+            "_id": "be000000000004ca",
+            "group": "be000000000004c9",
             "sort": 200000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be0000000001178e",
-            "group": "be0000000001178d",
+            "_id": "be000000000004cb",
+            "group": "be000000000004ca",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -8886,8 +8886,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000001178f",
-            "group": "be0000000001178d",
+            "_id": "be000000000004cc",
+            "group": "be000000000004ca",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
@@ -8895,8 +8895,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000011790",
-            "group": "be0000000001178c",
+            "_id": "be000000000004cd",
+            "group": "be000000000004c9",
             "sort": 500000,
             "requiresProficiency": false,
             "count": null,
@@ -9065,22 +9065,22 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be0000000000f4e9",
+            "_id": "be00000000013ede",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "OR",
-            "_id": "be0000000000f4ea",
-            "group": "be0000000000f4e9",
+            "_id": "be00000000013edf",
+            "group": "be00000000013ede",
             "sort": 200000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be0000000000f4eb",
-            "group": "be0000000000f4ea",
+            "_id": "be00000000013ee0",
+            "group": "be00000000013edf",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -9088,8 +9088,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000000f4ec",
-            "group": "be0000000000f4ea",
+            "_id": "be00000000013ee1",
+            "group": "be00000000013edf",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
@@ -9097,8 +9097,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000000f4ed",
-            "group": "be0000000000f4e9",
+            "_id": "be00000000013ee2",
+            "group": "be00000000013ede",
             "sort": 500000,
             "requiresProficiency": false,
             "count": null,
@@ -9106,8 +9106,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000000f4ee",
-            "group": "be0000000000f4e9",
+            "_id": "be00000000013ee3",
+            "group": "be00000000013ede",
             "sort": 600000,
             "requiresProficiency": false,
             "count": null,
@@ -9228,22 +9228,22 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be0000000000573d",
+            "_id": "be00000000010a92",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "OR",
-            "_id": "be0000000000573e",
-            "group": "be0000000000573d",
+            "_id": "be00000000010a93",
+            "group": "be00000000010a92",
             "sort": 200000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be0000000000573f",
-            "group": "be0000000000573e",
+            "_id": "be00000000010a94",
+            "group": "be00000000010a93",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -9251,8 +9251,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000005740",
-            "group": "be0000000000573e",
+            "_id": "be00000000010a95",
+            "group": "be00000000010a93",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
@@ -9260,8 +9260,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000005741",
-            "group": "be0000000000573d",
+            "_id": "be00000000010a96",
+            "group": "be00000000010a92",
             "sort": 500000,
             "requiresProficiency": false,
             "count": null,
@@ -9383,15 +9383,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be000000000012f3",
+            "_id": "be000000000134d5",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be000000000012f4",
-            "group": "be000000000012f3",
+            "_id": "be000000000134d6",
+            "group": "be000000000134d5",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -9399,8 +9399,8 @@
           },
           {
             "type": "linked",
-            "_id": "be000000000012f5",
-            "group": "be000000000012f3",
+            "_id": "be000000000134d7",
+            "group": "be000000000134d5",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -9556,22 +9556,22 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be00000000003100",
+            "_id": "be00000000016473",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "OR",
-            "_id": "be00000000003101",
-            "group": "be00000000003100",
+            "_id": "be00000000016474",
+            "group": "be00000000016473",
             "sort": 200000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be00000000003102",
-            "group": "be00000000003101",
+            "_id": "be00000000016475",
+            "group": "be00000000016474",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -9579,8 +9579,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000003103",
-            "group": "be00000000003101",
+            "_id": "be00000000016476",
+            "group": "be00000000016474",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
@@ -9588,8 +9588,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000003104",
-            "group": "be00000000003100",
+            "_id": "be00000000016477",
+            "group": "be00000000016473",
             "sort": 500000,
             "requiresProficiency": false,
             "count": null,
@@ -9597,8 +9597,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000003105",
-            "group": "be00000000003100",
+            "_id": "be00000000016478",
+            "group": "be00000000016473",
             "sort": 600000,
             "requiresProficiency": false,
             "count": null,
@@ -9606,8 +9606,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000003106",
-            "group": "be00000000003100",
+            "_id": "be00000000016479",
+            "group": "be00000000016473",
             "sort": 700000,
             "requiresProficiency": false,
             "count": null,
@@ -9729,15 +9729,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be00000000005d37",
+            "_id": "be00000000002bd6",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be00000000005d38",
-            "group": "be00000000005d37",
+            "_id": "be00000000002bd7",
+            "group": "be00000000002bd6",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -9745,8 +9745,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000005d39",
-            "group": "be00000000005d37",
+            "_id": "be00000000002bd8",
+            "group": "be00000000002bd6",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -9867,15 +9867,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be0000000000d4bb",
+            "_id": "be000000000174c5",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be0000000000d4bc",
-            "group": "be0000000000d4bb",
+            "_id": "be000000000174c6",
+            "group": "be000000000174c5",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -9883,8 +9883,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000000d4bd",
-            "group": "be0000000000d4bb",
+            "_id": "be000000000174c7",
+            "group": "be000000000174c5",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -9892,8 +9892,8 @@
           },
           {
             "type": "linked",
-            "_id": "be0000000000d4be",
-            "group": "be0000000000d4bb",
+            "_id": "be000000000174c8",
+            "group": "be000000000174c5",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
@@ -10016,15 +10016,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be00000000004d0e",
+            "_id": "be00000000010f54",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be00000000004d0f",
-            "group": "be00000000004d0e",
+            "_id": "be00000000010f55",
+            "group": "be00000000010f54",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -10174,15 +10174,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be0000000001546f",
+            "_id": "be000000000120ed",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be00000000015470",
-            "group": "be0000000001546f",
+            "_id": "be000000000120ee",
+            "group": "be000000000120ed",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,
@@ -10190,8 +10190,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000015471",
-            "group": "be0000000001546f",
+            "_id": "be000000000120ef",
+            "group": "be000000000120ed",
             "sort": 300000,
             "requiresProficiency": false,
             "count": null,
@@ -10199,8 +10199,8 @@
           },
           {
             "type": "linked",
-            "_id": "be00000000015472",
-            "group": "be0000000001546f",
+            "_id": "be000000000120f0",
+            "group": "be000000000120ed",
             "sort": 400000,
             "requiresProficiency": false,
             "count": null,
@@ -10321,15 +10321,15 @@
         "startingEquipment": [
           {
             "type": "AND",
-            "_id": "be0000000001170e",
+            "_id": "be0000000001649f",
             "group": "",
             "sort": 100000,
             "requiresProficiency": false
           },
           {
             "type": "linked",
-            "_id": "be0000000001170f",
-            "group": "be0000000001170e",
+            "_id": "be000000000164a0",
+            "group": "be0000000001649f",
             "sort": 200000,
             "requiresProficiency": false,
             "count": null,

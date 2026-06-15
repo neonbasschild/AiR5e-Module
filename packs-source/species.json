@@ -1,5 +1,36 @@
 {
-  "folders": [],
+  "folders": [
+    {
+      "_id": "r59869dd20fd44f6",
+      "_key": "!folders!r59869dd20fd44f6",
+      "name": "Human",
+      "type": "Item",
+      "sorting": "a",
+      "color": "#8a6a3d",
+      "folder": null,
+      "sort": 0
+    },
+    {
+      "_id": "r23112ab9c647b8e",
+      "_key": "!folders!r23112ab9c647b8e",
+      "name": "Rokugani Peoples",
+      "type": "Item",
+      "sorting": "a",
+      "color": "#3d6b8a",
+      "folder": null,
+      "sort": 100
+    },
+    {
+      "_id": "rcd1138575d8b67e",
+      "_key": "!folders!rcd1138575d8b67e",
+      "name": "Yokai & Spirits",
+      "type": "Item",
+      "sorting": "a",
+      "color": "#5b3d8a",
+      "folder": null,
+      "sort": 200
+    }
+  ],
   "entries": [
     {
       "_id": "r0d079767ace0132",
@@ -74,7 +105,7 @@
         }
       },
       "effects": [],
-      "folder": null,
+      "folder": "r59869dd20fd44f6",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -363,7 +394,7 @@
         }
       },
       "effects": [],
-      "folder": null,
+      "folder": "r59869dd20fd44f6",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -436,7 +467,7 @@
         }
       },
       "effects": [],
-      "folder": null,
+      "folder": "r23112ab9c647b8e",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -509,7 +540,7 @@
         }
       },
       "effects": [],
-      "folder": null,
+      "folder": "r23112ab9c647b8e",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -582,7 +613,7 @@
         }
       },
       "effects": [],
-      "folder": null,
+      "folder": "rcd1138575d8b67e",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -655,7 +686,7 @@
         }
       },
       "effects": [],
-      "folder": null,
+      "folder": "rcd1138575d8b67e",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -728,7 +759,7 @@
         }
       },
       "effects": [],
-      "folder": null,
+      "folder": "rcd1138575d8b67e",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -801,7 +832,7 @@
         }
       },
       "effects": [],
-      "folder": null,
+      "folder": "rcd1138575d8b67e",
       "sort": 0,
       "flags": {},
       "ownership": {
@@ -874,7 +905,7 @@
         }
       },
       "effects": [],
-      "folder": null,
+      "folder": "rcd1138575d8b67e",
       "sort": 0,
       "flags": {},
       "ownership": {

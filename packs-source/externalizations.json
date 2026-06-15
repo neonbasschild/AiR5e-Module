@@ -11,13 +11,23 @@
       "sort": 0
     },
     {
+      "_id": "r919cd0872ffe8f7",
+      "_key": "!folders!r919cd0872ffe8f7",
+      "name": "Cosmic Path Externalizations",
+      "type": "Item",
+      "sorting": "a",
+      "color": "#5b3d8a",
+      "folder": null,
+      "sort": 1000
+    },
+    {
       "_id": "r836ec828af4a59b",
       "_key": "!folders!r836ec828af4a59b",
       "name": "Path of Redemption Externalizations",
       "type": "Item",
       "sorting": "a",
       "color": null,
-      "folder": null,
+      "folder": "r919cd0872ffe8f7",
       "sort": 0
     },
     {
@@ -27,7 +37,7 @@
       "type": "Item",
       "sorting": "a",
       "color": null,
-      "folder": null,
+      "folder": "r919cd0872ffe8f7",
       "sort": 0
     },
     {
@@ -37,7 +47,7 @@
       "type": "Item",
       "sorting": "a",
       "color": null,
-      "folder": null,
+      "folder": "r919cd0872ffe8f7",
       "sort": 0
     }
   ],

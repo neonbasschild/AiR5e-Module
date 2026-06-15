@@ -1,54 +1,174 @@
 {
   "folders": [
     {
-      "_id": "rf4b7df4b8a46471",
-      "_key": "!folders!rf4b7df4b8a46471",
+      "_id": "rf1002d206adfebe",
+      "_key": "!folders!rf1002d206adfebe",
+      "name": "Tier 1",
+      "type": "Item",
+      "sorting": "a",
+      "color": "#4a7c59",
+      "folder": null,
+      "sort": 1000
+    },
+    {
+      "_id": "rc555d8816e53fa0",
+      "_key": "!folders!rc555d8816e53fa0",
       "name": "Air",
       "type": "Item",
       "sorting": "a",
       "color": null,
-      "folder": null,
+      "folder": "rf1002d206adfebe",
       "sort": 0
     },
     {
-      "_id": "r02de384bbbed641",
-      "_key": "!folders!r02de384bbbed641",
+      "_id": "rdd21169310e978b",
+      "_key": "!folders!rdd21169310e978b",
       "name": "Earth",
       "type": "Item",
       "sorting": "a",
       "color": null,
-      "folder": null,
-      "sort": 0
+      "folder": "rf1002d206adfebe",
+      "sort": 100
     },
     {
-      "_id": "ra89f2d88ec7746e",
-      "_key": "!folders!ra89f2d88ec7746e",
+      "_id": "r8bf3f67a254215c",
+      "_key": "!folders!r8bf3f67a254215c",
       "name": "Fire",
       "type": "Item",
       "sorting": "a",
       "color": null,
-      "folder": null,
-      "sort": 0
+      "folder": "rf1002d206adfebe",
+      "sort": 200
     },
     {
-      "_id": "rfc774b1a633cae6",
-      "_key": "!folders!rfc774b1a633cae6",
+      "_id": "r40866de091a3cab",
+      "_key": "!folders!r40866de091a3cab",
       "name": "Water",
       "type": "Item",
       "sorting": "a",
       "color": null,
-      "folder": null,
-      "sort": 0
+      "folder": "rf1002d206adfebe",
+      "sort": 300
     },
     {
-      "_id": "r7b6576cabf1ddd1",
-      "_key": "!folders!r7b6576cabf1ddd1",
+      "_id": "r22bbe59dfa2bc6a",
+      "_key": "!folders!r22bbe59dfa2bc6a",
       "name": "Universal",
       "type": "Item",
       "sorting": "a",
       "color": null,
+      "folder": "rf1002d206adfebe",
+      "sort": 400
+    },
+    {
+      "_id": "r93de7dcbb4e6af5",
+      "_key": "!folders!r93de7dcbb4e6af5",
+      "name": "Tier 2",
+      "type": "Item",
+      "sorting": "a",
+      "color": "#3d6b8a",
       "folder": null,
+      "sort": 2000
+    },
+    {
+      "_id": "red287b295c26929",
+      "_key": "!folders!red287b295c26929",
+      "name": "Air",
+      "type": "Item",
+      "sorting": "a",
+      "color": null,
+      "folder": "r93de7dcbb4e6af5",
       "sort": 0
+    },
+    {
+      "_id": "r3ee17d2f3aa830e",
+      "_key": "!folders!r3ee17d2f3aa830e",
+      "name": "Earth",
+      "type": "Item",
+      "sorting": "a",
+      "color": null,
+      "folder": "r93de7dcbb4e6af5",
+      "sort": 100
+    },
+    {
+      "_id": "ra87aa9f6a2831c2",
+      "_key": "!folders!ra87aa9f6a2831c2",
+      "name": "Fire",
+      "type": "Item",
+      "sorting": "a",
+      "color": null,
+      "folder": "r93de7dcbb4e6af5",
+      "sort": 200
+    },
+    {
+      "_id": "r4fc56db2e959011",
+      "_key": "!folders!r4fc56db2e959011",
+      "name": "Water",
+      "type": "Item",
+      "sorting": "a",
+      "color": null,
+      "folder": "r93de7dcbb4e6af5",
+      "sort": 300
+    },
+    {
+      "_id": "rcf785067b0dbd0d",
+      "_key": "!folders!rcf785067b0dbd0d",
+      "name": "Tier 3",
+      "type": "Item",
+      "sorting": "a",
+      "color": "#8a3d5b",
+      "folder": null,
+      "sort": 3000
+    },
+    {
+      "_id": "r5a29a4923307f62",
+      "_key": "!folders!r5a29a4923307f62",
+      "name": "Air",
+      "type": "Item",
+      "sorting": "a",
+      "color": null,
+      "folder": "rcf785067b0dbd0d",
+      "sort": 0
+    },
+    {
+      "_id": "rbc32161415dfb65",
+      "_key": "!folders!rbc32161415dfb65",
+      "name": "Earth",
+      "type": "Item",
+      "sorting": "a",
+      "color": null,
+      "folder": "rcf785067b0dbd0d",
+      "sort": 100
+    },
+    {
+      "_id": "rf29d3b13c41c7f1",
+      "_key": "!folders!rf29d3b13c41c7f1",
+      "name": "Fire",
+      "type": "Item",
+      "sorting": "a",
+      "color": null,
+      "folder": "rcf785067b0dbd0d",
+      "sort": 200
+    },
+    {
+      "_id": "rd6c8da05ec53e04",
+      "_key": "!folders!rd6c8da05ec53e04",
+      "name": "Water",
+      "type": "Item",
+      "sorting": "a",
+      "color": null,
+      "folder": "rcf785067b0dbd0d",
+      "sort": 300
+    },
+    {
+      "_id": "re2468ca46bd4071",
+      "_key": "!folders!re2468ca46bd4071",
+      "name": "Universal",
+      "type": "Item",
+      "sorting": "a",
+      "color": null,
+      "folder": "rcf785067b0dbd0d",
+      "sort": 400
     }
   ],
   "entries": [
@@ -158,7 +278,7 @@
         }
       },
       "effects": [],
-      "folder": "r02de384bbbed641",
+      "folder": "r3ee17d2f3aa830e",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -268,7 +388,7 @@
         }
       },
       "effects": [],
-      "folder": "r02de384bbbed641",
+      "folder": "r3ee17d2f3aa830e",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -391,7 +511,7 @@
         }
       },
       "effects": [],
-      "folder": "r02de384bbbed641",
+      "folder": "rbc32161415dfb65",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -501,7 +621,7 @@
         }
       },
       "effects": [],
-      "folder": "ra89f2d88ec7746e",
+      "folder": "r8bf3f67a254215c",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -611,7 +731,7 @@
         }
       },
       "effects": [],
-      "folder": "r7b6576cabf1ddd1",
+      "folder": "r22bbe59dfa2bc6a",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -721,7 +841,7 @@
         }
       },
       "effects": [],
-      "folder": "ra89f2d88ec7746e",
+      "folder": "rf29d3b13c41c7f1",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -831,7 +951,7 @@
         }
       },
       "effects": [],
-      "folder": "ra89f2d88ec7746e",
+      "folder": "r8bf3f67a254215c",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -941,7 +1061,7 @@
         }
       },
       "effects": [],
-      "folder": "r02de384bbbed641",
+      "folder": "rdd21169310e978b",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -1051,7 +1171,7 @@
         }
       },
       "effects": [],
-      "folder": "r7b6576cabf1ddd1",
+      "folder": "r22bbe59dfa2bc6a",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -1161,7 +1281,7 @@
         }
       },
       "effects": [],
-      "folder": "r7b6576cabf1ddd1",
+      "folder": "r22bbe59dfa2bc6a",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -1284,7 +1404,7 @@
         }
       },
       "effects": [],
-      "folder": "rfc774b1a633cae6",
+      "folder": "r40866de091a3cab",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -1394,7 +1514,7 @@
         }
       },
       "effects": [],
-      "folder": "r7b6576cabf1ddd1",
+      "folder": "r22bbe59dfa2bc6a",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -1504,7 +1624,7 @@
         }
       },
       "effects": [],
-      "folder": "rfc774b1a633cae6",
+      "folder": "r4fc56db2e959011",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -1614,7 +1734,7 @@
         }
       },
       "effects": [],
-      "folder": "r02de384bbbed641",
+      "folder": "r3ee17d2f3aa830e",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -1724,7 +1844,7 @@
         }
       },
       "effects": [],
-      "folder": "r02de384bbbed641",
+      "folder": "rbc32161415dfb65",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -1834,7 +1954,7 @@
         }
       },
       "effects": [],
-      "folder": "rfc774b1a633cae6",
+      "folder": "rd6c8da05ec53e04",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -1944,7 +2064,7 @@
         }
       },
       "effects": [],
-      "folder": "ra89f2d88ec7746e",
+      "folder": "ra87aa9f6a2831c2",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -2054,7 +2174,7 @@
         }
       },
       "effects": [],
-      "folder": "rfc774b1a633cae6",
+      "folder": "r4fc56db2e959011",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -2177,7 +2297,7 @@
         }
       },
       "effects": [],
-      "folder": "rf4b7df4b8a46471",
+      "folder": "r5a29a4923307f62",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -2287,7 +2407,7 @@
         }
       },
       "effects": [],
-      "folder": "r02de384bbbed641",
+      "folder": "rdd21169310e978b",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -2410,7 +2530,7 @@
         }
       },
       "effects": [],
-      "folder": "rfc774b1a633cae6",
+      "folder": "r4fc56db2e959011",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -2520,7 +2640,7 @@
         }
       },
       "effects": [],
-      "folder": "rfc774b1a633cae6",
+      "folder": "rd6c8da05ec53e04",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -2630,7 +2750,7 @@
         }
       },
       "effects": [],
-      "folder": "ra89f2d88ec7746e",
+      "folder": "ra87aa9f6a2831c2",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -2740,7 +2860,7 @@
         }
       },
       "effects": [],
-      "folder": "r02de384bbbed641",
+      "folder": "rdd21169310e978b",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -2863,7 +2983,7 @@
         }
       },
       "effects": [],
-      "folder": "ra89f2d88ec7746e",
+      "folder": "r8bf3f67a254215c",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -2973,7 +3093,7 @@
         }
       },
       "effects": [],
-      "folder": "rf4b7df4b8a46471",
+      "folder": "red287b295c26929",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -3083,7 +3203,7 @@
         }
       },
       "effects": [],
-      "folder": "rf4b7df4b8a46471",
+      "folder": "rc555d8816e53fa0",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -3193,7 +3313,7 @@
         }
       },
       "effects": [],
-      "folder": "rf4b7df4b8a46471",
+      "folder": "rc555d8816e53fa0",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -3303,7 +3423,7 @@
         }
       },
       "effects": [],
-      "folder": "rfc774b1a633cae6",
+      "folder": "r40866de091a3cab",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -3426,7 +3546,7 @@
         }
       },
       "effects": [],
-      "folder": "rf4b7df4b8a46471",
+      "folder": "r5a29a4923307f62",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -3549,7 +3669,7 @@
         }
       },
       "effects": [],
-      "folder": "ra89f2d88ec7746e",
+      "folder": "ra87aa9f6a2831c2",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -3659,7 +3779,7 @@
         }
       },
       "effects": [],
-      "folder": "rf4b7df4b8a46471",
+      "folder": "red287b295c26929",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -3782,7 +3902,7 @@
         }
       },
       "effects": [],
-      "folder": "r02de384bbbed641",
+      "folder": "rdd21169310e978b",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -3892,7 +4012,7 @@
         }
       },
       "effects": [],
-      "folder": "ra89f2d88ec7746e",
+      "folder": "r8bf3f67a254215c",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -4002,7 +4122,7 @@
         }
       },
       "effects": [],
-      "folder": "rfc774b1a633cae6",
+      "folder": "r40866de091a3cab",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -4112,7 +4232,7 @@
         }
       },
       "effects": [],
-      "folder": "rf4b7df4b8a46471",
+      "folder": "red287b295c26929",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -4222,7 +4342,7 @@
         }
       },
       "effects": [],
-      "folder": "rf4b7df4b8a46471",
+      "folder": "rc555d8816e53fa0",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -4332,7 +4452,7 @@
         }
       },
       "effects": [],
-      "folder": "r7b6576cabf1ddd1",
+      "folder": "re2468ca46bd4071",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -4442,7 +4562,7 @@
         }
       },
       "effects": [],
-      "folder": "rfc774b1a633cae6",
+      "folder": "r4fc56db2e959011",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -4552,7 +4672,7 @@
         }
       },
       "effects": [],
-      "folder": "r7b6576cabf1ddd1",
+      "folder": "r22bbe59dfa2bc6a",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -4675,7 +4795,7 @@
         }
       },
       "effects": [],
-      "folder": "rf4b7df4b8a46471",
+      "folder": "rc555d8816e53fa0",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -4785,7 +4905,7 @@
         }
       },
       "effects": [],
-      "folder": "ra89f2d88ec7746e",
+      "folder": "rf29d3b13c41c7f1",
       "sort": 0,
       "flags": {
         "rokugan5e": {

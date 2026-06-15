@@ -1,73 +1,143 @@
 {
   "folders": [
     {
+      "_id": "reee2809a610ebab",
+      "_key": "!folders!reee2809a610ebab",
+      "name": "Bushi — Class Features",
+      "type": "Item",
+      "sorting": "a",
+      "color": "#8a3d3d",
+      "folder": null,
+      "sort": 0
+    },
+    {
+      "_id": "r4191b7b013ed09e",
+      "_key": "!folders!r4191b7b013ed09e",
+      "name": "Duelist — Class Features",
+      "type": "Item",
+      "sorting": "a",
+      "color": "#8a6a3d",
+      "folder": null,
+      "sort": 1000
+    },
+    {
+      "_id": "r616241d05c96fd3",
+      "_key": "!folders!r616241d05c96fd3",
+      "name": "Courtier — Class Features",
+      "type": "Item",
+      "sorting": "a",
+      "color": "#3d6b8a",
+      "folder": null,
+      "sort": 2000
+    },
+    {
+      "_id": "rfc1747e8779f233",
+      "_key": "!folders!rfc1747e8779f233",
+      "name": "Shinobi — Class Features",
+      "type": "Item",
+      "sorting": "a",
+      "color": "#3d3d3d",
+      "folder": null,
+      "sort": 3000
+    },
+    {
+      "_id": "rf7dd2287be5bbeb",
+      "_key": "!folders!rf7dd2287be5bbeb",
+      "name": "Ritualist — Class Features",
+      "type": "Item",
+      "sorting": "a",
+      "color": "#5b3d8a",
+      "folder": null,
+      "sort": 4000
+    },
+    {
+      "_id": "rc3366ced865fcc6",
+      "_key": "!folders!rc3366ced865fcc6",
+      "name": "Pilgrim — Class Features",
+      "type": "Item",
+      "sorting": "a",
+      "color": "#3d8a6b",
+      "folder": null,
+      "sort": 5000
+    },
+    {
+      "_id": "r47bf9731ab20aaf",
+      "_key": "!folders!r47bf9731ab20aaf",
+      "name": "Acolyte — Class Features",
+      "type": "Item",
+      "sorting": "a",
+      "color": "#8a3d6b",
+      "folder": null,
+      "sort": 6000
+    },
+    {
       "_id": "r9de7337a1114bfe",
       "_key": "!folders!r9de7337a1114bfe",
-      "name": "Bushi",
+      "name": "Bushi (Core)",
       "type": "Item",
       "sorting": "a",
       "color": null,
-      "folder": null,
+      "folder": "reee2809a610ebab",
       "sort": 0
     },
     {
       "_id": "r7f9ac44c234370d",
       "_key": "!folders!r7f9ac44c234370d",
-      "name": "Duelist",
+      "name": "Duelist (Core)",
       "type": "Item",
       "sorting": "a",
       "color": null,
-      "folder": null,
+      "folder": "r4191b7b013ed09e",
       "sort": 0
     },
     {
       "_id": "r8e43c657e0ce353",
       "_key": "!folders!r8e43c657e0ce353",
-      "name": "Courtier",
+      "name": "Courtier (Core)",
       "type": "Item",
       "sorting": "a",
       "color": null,
-      "folder": null,
+      "folder": "r616241d05c96fd3",
       "sort": 0
     },
     {
       "_id": "r6fa4c45f10ee205",
       "_key": "!folders!r6fa4c45f10ee205",
-      "name": "Shinobi",
+      "name": "Shinobi (Core)",
       "type": "Item",
       "sorting": "a",
       "color": null,
-      "folder": null,
+      "folder": "rfc1747e8779f233",
       "sort": 0
     },
     {
       "_id": "r3da80b9c07ae0c4",
       "_key": "!folders!r3da80b9c07ae0c4",
-      "name": "Ritualist",
+      "name": "Ritualist (Core)",
       "type": "Item",
       "sorting": "a",
       "color": null,
-      "folder": null,
+      "folder": "rf7dd2287be5bbeb",
       "sort": 0
     },
     {
       "_id": "r67d1abe04ad445a",
       "_key": "!folders!r67d1abe04ad445a",
-      "name": "Pilgrim",
+      "name": "Pilgrim (Core)",
       "type": "Item",
       "sorting": "a",
       "color": null,
-      "folder": null,
+      "folder": "rc3366ced865fcc6",
       "sort": 0
     },
     {
       "_id": "r5ea349cb06521f6",
       "_key": "!folders!r5ea349cb06521f6",
-      "name": "Acolyte",
+      "name": "Acolyte (Core)",
       "type": "Item",
       "sorting": "a",
       "color": null,
-      "folder": null,
+      "folder": "r47bf9731ab20aaf",
       "sort": 0
     },
     {
@@ -77,7 +147,7 @@
       "type": "Item",
       "sorting": "a",
       "color": null,
-      "folder": null,
+      "folder": "r47bf9731ab20aaf",
       "sort": 0
     },
     {
@@ -87,7 +157,7 @@
       "type": "Item",
       "sorting": "a",
       "color": null,
-      "folder": null,
+      "folder": "reee2809a610ebab",
       "sort": 0
     },
     {
@@ -97,7 +167,7 @@
       "type": "Item",
       "sorting": "a",
       "color": null,
-      "folder": null,
+      "folder": "r47bf9731ab20aaf",
       "sort": 0
     },
     {
@@ -107,7 +177,7 @@
       "type": "Item",
       "sorting": "a",
       "color": null,
-      "folder": null,
+      "folder": "reee2809a610ebab",
       "sort": 0
     },
     {
@@ -117,7 +187,7 @@
       "type": "Item",
       "sorting": "a",
       "color": null,
-      "folder": null,
+      "folder": "reee2809a610ebab",
       "sort": 0
     },
     {
@@ -127,7 +197,7 @@
       "type": "Item",
       "sorting": "a",
       "color": null,
-      "folder": null,
+      "folder": "reee2809a610ebab",
       "sort": 0
     },
     {
@@ -137,7 +207,7 @@
       "type": "Item",
       "sorting": "a",
       "color": null,
-      "folder": null,
+      "folder": "r4191b7b013ed09e",
       "sort": 0
     },
     {
@@ -147,7 +217,7 @@
       "type": "Item",
       "sorting": "a",
       "color": null,
-      "folder": null,
+      "folder": "r4191b7b013ed09e",
       "sort": 0
     },
     {
@@ -157,7 +227,7 @@
       "type": "Item",
       "sorting": "a",
       "color": null,
-      "folder": null,
+      "folder": "r4191b7b013ed09e",
       "sort": 0
     },
     {
@@ -167,7 +237,7 @@
       "type": "Item",
       "sorting": "a",
       "color": null,
-      "folder": null,
+      "folder": "r616241d05c96fd3",
       "sort": 0
     },
     {
@@ -177,7 +247,7 @@
       "type": "Item",
       "sorting": "a",
       "color": null,
-      "folder": null,
+      "folder": "r616241d05c96fd3",
       "sort": 0
     },
     {
@@ -187,7 +257,7 @@
       "type": "Item",
       "sorting": "a",
       "color": null,
-      "folder": null,
+      "folder": "rfc1747e8779f233",
       "sort": 0
     },
     {
@@ -197,7 +267,7 @@
       "type": "Item",
       "sorting": "a",
       "color": null,
-      "folder": null,
+      "folder": "rfc1747e8779f233",
       "sort": 0
     },
     {
@@ -207,7 +277,7 @@
       "type": "Item",
       "sorting": "a",
       "color": null,
-      "folder": null,
+      "folder": "rf7dd2287be5bbeb",
       "sort": 0
     },
     {
@@ -217,7 +287,7 @@
       "type": "Item",
       "sorting": "a",
       "color": null,
-      "folder": null,
+      "folder": "rf7dd2287be5bbeb",
       "sort": 0
     },
     {
@@ -227,7 +297,7 @@
       "type": "Item",
       "sorting": "a",
       "color": null,
-      "folder": null,
+      "folder": "rf7dd2287be5bbeb",
       "sort": 0
     },
     {
@@ -237,7 +307,7 @@
       "type": "Item",
       "sorting": "a",
       "color": null,
-      "folder": null,
+      "folder": "rc3366ced865fcc6",
       "sort": 0
     },
     {
@@ -247,7 +317,7 @@
       "type": "Item",
       "sorting": "a",
       "color": null,
-      "folder": null,
+      "folder": "rc3366ced865fcc6",
       "sort": 0
     },
     {
@@ -257,7 +327,7 @@
       "type": "Item",
       "sorting": "a",
       "color": null,
-      "folder": null,
+      "folder": "rc3366ced865fcc6",
       "sort": 0
     }
   ],

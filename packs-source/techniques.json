@@ -1,5 +1,36 @@
 {
-  "folders": [],
+  "folders": [
+    {
+      "_id": "r269ef3f6a27a5a4",
+      "_key": "!folders!r269ef3f6a27a5a4",
+      "name": "Focus 2 (Basic)",
+      "type": "Item",
+      "sorting": "a",
+      "color": "#4a7c59",
+      "folder": null,
+      "sort": 200
+    },
+    {
+      "_id": "rae40ee175bfd0e4",
+      "_key": "!folders!rae40ee175bfd0e4",
+      "name": "Focus 3 (Advanced)",
+      "type": "Item",
+      "sorting": "a",
+      "color": "#3d6b8a",
+      "folder": null,
+      "sort": 300
+    },
+    {
+      "_id": "r5ff8061c242e463",
+      "_key": "!folders!r5ff8061c242e463",
+      "name": "Focus 4 (Master)",
+      "type": "Item",
+      "sorting": "a",
+      "color": "#8a3d5b",
+      "folder": null,
+      "sort": 400
+    }
+  ],
   "entries": [
     {
       "_id": "rtcrashingwavecu",
@@ -56,7 +87,7 @@
         "activation": {}
       },
       "effects": [],
-      "folder": null,
+      "folder": "rae40ee175bfd0e4",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -129,7 +160,7 @@
         "activation": {}
       },
       "effects": [],
-      "folder": null,
+      "folder": "rae40ee175bfd0e4",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -202,7 +233,7 @@
         "activation": {}
       },
       "effects": [],
-      "folder": null,
+      "folder": "rae40ee175bfd0e4",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -275,7 +306,7 @@
         "activation": {}
       },
       "effects": [],
-      "folder": null,
+      "folder": "r269ef3f6a27a5a4",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -361,7 +392,7 @@
         "activation": {}
       },
       "effects": [],
-      "folder": null,
+      "folder": "r269ef3f6a27a5a4",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -434,7 +465,7 @@
         "activation": {}
       },
       "effects": [],
-      "folder": null,
+      "folder": "r269ef3f6a27a5a4",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -507,7 +538,7 @@
         "activation": {}
       },
       "effects": [],
-      "folder": null,
+      "folder": "rae40ee175bfd0e4",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -580,7 +611,7 @@
         "activation": {}
       },
       "effects": [],
-      "folder": null,
+      "folder": "rae40ee175bfd0e4",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -653,7 +684,7 @@
         "activation": {}
       },
       "effects": [],
-      "folder": null,
+      "folder": "r5ff8061c242e463",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -726,7 +757,7 @@
         "activation": {}
       },
       "effects": [],
-      "folder": null,
+      "folder": "rae40ee175bfd0e4",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -799,7 +830,7 @@
         "activation": {}
       },
       "effects": [],
-      "folder": null,
+      "folder": "rae40ee175bfd0e4",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -872,7 +903,7 @@
         "activation": {}
       },
       "effects": [],
-      "folder": null,
+      "folder": "rae40ee175bfd0e4",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -945,7 +976,7 @@
         "activation": {}
       },
       "effects": [],
-      "folder": null,
+      "folder": "r269ef3f6a27a5a4",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -1031,7 +1062,7 @@
         "activation": {}
       },
       "effects": [],
-      "folder": null,
+      "folder": "r269ef3f6a27a5a4",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -1117,7 +1148,7 @@
         "activation": {}
       },
       "effects": [],
-      "folder": null,
+      "folder": "r269ef3f6a27a5a4",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -1190,7 +1221,7 @@
         "activation": {}
       },
       "effects": [],
-      "folder": null,
+      "folder": "rae40ee175bfd0e4",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -1263,7 +1294,7 @@
         "activation": {}
       },
       "effects": [],
-      "folder": null,
+      "folder": "r269ef3f6a27a5a4",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -1336,7 +1367,7 @@
         "activation": {}
       },
       "effects": [],
-      "folder": null,
+      "folder": "r269ef3f6a27a5a4",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -1409,7 +1440,7 @@
         "activation": {}
       },
       "effects": [],
-      "folder": null,
+      "folder": "rae40ee175bfd0e4",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -1482,7 +1513,7 @@
         "activation": {}
       },
       "effects": [],
-      "folder": null,
+      "folder": "r269ef3f6a27a5a4",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -1568,7 +1599,7 @@
         "activation": {}
       },
       "effects": [],
-      "folder": null,
+      "folder": "r269ef3f6a27a5a4",
       "sort": 0,
       "flags": {
         "rokugan5e": {

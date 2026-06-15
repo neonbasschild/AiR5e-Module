@@ -6,9 +6,19 @@
       "name": "Classes",
       "type": "Item",
       "sorting": "a",
-      "color": null,
+      "color": "#6b4a8a",
       "folder": null,
       "sort": 0
+    },
+    {
+      "_id": "raca7feed7c991b5",
+      "_key": "!folders!raca7feed7c991b5",
+      "name": "Archetypes",
+      "type": "Item",
+      "sorting": "a",
+      "color": "#8a6a3d",
+      "folder": null,
+      "sort": 1000
     },
     {
       "_id": "r4f82109592d4f7a",
@@ -17,7 +27,7 @@
       "type": "Item",
       "sorting": "a",
       "color": null,
-      "folder": null,
+      "folder": "raca7feed7c991b5",
       "sort": 0
     },
     {
@@ -27,7 +37,7 @@
       "type": "Item",
       "sorting": "a",
       "color": null,
-      "folder": null,
+      "folder": "raca7feed7c991b5",
       "sort": 0
     },
     {
@@ -37,7 +47,7 @@
       "type": "Item",
       "sorting": "a",
       "color": null,
-      "folder": null,
+      "folder": "raca7feed7c991b5",
       "sort": 0
     },
     {
@@ -47,7 +57,7 @@
       "type": "Item",
       "sorting": "a",
       "color": null,
-      "folder": null,
+      "folder": "raca7feed7c991b5",
       "sort": 0
     },
     {
@@ -57,7 +67,7 @@
       "type": "Item",
       "sorting": "a",
       "color": null,
-      "folder": null,
+      "folder": "raca7feed7c991b5",
       "sort": 0
     },
     {
@@ -67,7 +77,7 @@
       "type": "Item",
       "sorting": "a",
       "color": null,
-      "folder": null,
+      "folder": "raca7feed7c991b5",
       "sort": 0
     },
     {
@@ -77,7 +87,7 @@
       "type": "Item",
       "sorting": "a",
       "color": null,
-      "folder": null,
+      "folder": "raca7feed7c991b5",
       "sort": 0
     }
   ],
