@@ -6191,7 +6191,7 @@
       "_key": "!items!roresplendentreg",
       "name": "Resplendent Regalia",
       "type": "equipment",
-      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
+      "img": "modules/rokugan5e/icons/game-icons/kimono.svg",
       "system": {
         "description": {
           "value": "<p>Bonus action: advantage on next Intimidation, Performance, and Persuasion check (recharges on short rest).</p><p>Cannot be worn with armor or a shield.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 189.</em></p>",
@@ -6284,7 +6284,7 @@
       "_key": "!items!rosanctifiedvest",
       "name": "Sanctified Vestments",
       "type": "equipment",
-      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
+      "img": "modules/rokugan5e/icons/game-icons/kimono.svg",
       "system": {
         "description": {
           "value": "<p>Resistance to damage from supernatural sources; advantage on related saving throws.</p><p>Cannot be worn with armor or a shield.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 189.</em></p>",
@@ -6332,7 +6332,7 @@
       "_key": "!items!rotravelingcloth",
       "name": "Traveling Clothes",
       "type": "equipment",
-      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
+      "img": "modules/rokugan5e/icons/game-icons/kimono.svg",
       "system": {
         "description": {
           "value": "<p>Hardy garments suited to the road and harsh climates.</p><p>Cannot be worn with armor or a shield.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 189.</em></p>",
@@ -6380,7 +6380,7 @@
       "_key": "!items!rounremarkablega",
       "name": "Unremarkable Garb",
       "type": "equipment",
-      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
+      "img": "modules/rokugan5e/icons/game-icons/kimono.svg",
       "system": {
         "description": {
           "value": "<p>Common clothing; helps the wearer pass without notice.</p><p>Cannot be worn with armor or a shield.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 189.</em></p>",
@@ -6605,7 +6605,7 @@
       "_key": "!items!rbfdc4269889a79d",
       "name": "Personal Seal or Chop",
       "type": "loot",
-      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
+      "img": "modules/rokugan5e/icons/game-icons/wave-crest.svg",
       "system": {
         "description": {
           "value": "<p>Stamps a personal mark in ink or wax.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 193.</em></p>",
@@ -6648,7 +6648,7 @@
       "_key": "!items!r3867a28cce464a6",
       "name": "Portable Tea Set",
       "type": "loot",
-      "img": "modules/rokugan5e/icons/game-icons/stone-crafting.svg",
+      "img": "modules/rokugan5e/icons/game-icons/teapot.svg",
       "system": {
         "description": {
           "value": "<p>Compact set for the tea ceremony on the road.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 193.</em></p>",
@@ -7172,7 +7172,7 @@
       "_key": "!items!r1d9869f740775d1",
       "name": "Fire-Blossom Arrows",
       "type": "consumable",
-      "img": "modules/rokugan5e/icons/game-icons/high-shot.svg",
+      "img": "modules/rokugan5e/icons/game-icons/lotus-flower.svg",
       "system": {
         "description": {
           "value": "<p>Burst into flame on impact.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 197.</em></p>",
@@ -7490,7 +7490,7 @@
       "_key": "!items!rd9953c9b0bb24f1",
       "name": "Ceremonial Tea Set",
       "type": "tool",
-      "img": "modules/rokugan5e/icons/game-icons/stone-crafting.svg",
+      "img": "modules/rokugan5e/icons/game-icons/teapot.svg",
       "system": {
         "description": {
           "value": "<p>Artisan tool.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 203.</em></p>",
@@ -9322,7 +9322,7 @@
       "_key": "!items!r283f9e10cc6a4bb",
       "name": "Basic Drink",
       "type": "loot",
-      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
+      "img": "modules/rokugan5e/icons/game-icons/sake-bottle.svg",
       "system": {
         "description": {
           "value": "<p>Local sake, shōchū, beer. City: 2 cp.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 211.</em></p>",
@@ -9365,7 +9365,7 @@
       "_key": "!items!rf99ca0509e910f8",
       "name": "Luxury Drink",
       "type": "loot",
-      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
+      "img": "modules/rokugan5e/icons/game-icons/sake-bottle.svg",
       "system": {
         "description": {
           "value": "<p>Premium/imported sake and wine. Countryside: 6 cp.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 211.</em></p>",
@@ -10338,7 +10338,7 @@
       "_key": "!items!r657280f8834f119",
       "name": "Gardening Rake",
       "type": "weapon",
-      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
+      "img": "modules/rokugan5e/icons/game-icons/bamboo.svg",
       "system": {
         "description": {
           "value": "<p>Unusual weapon (improvised object). With the Unusual Weapon Mastery feat, you treat this item as a martial weapon you are proficient with, gain its tool proficiency if relevant, and can spend 1 extra focus on your first martial technique with it each encounter.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 225.</em></p>",

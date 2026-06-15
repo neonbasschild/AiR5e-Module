@@ -1303,7 +1303,7 @@
       "_key": "!items!ridanceofseasons",
       "name": "Dance of Seasons",
       "type": "spell",
-      "img": "modules/rokugan5e/icons/game-icons/spell-book.svg",
+      "img": "modules/rokugan5e/icons/game-icons/wave-crest.svg",
       "system": {
         "description": {
           "value": "<p>Tier 1 water augmentation · Casting: 1 minute · Base Favor: 0 · Range: 30 feet · Duration: Instantaneous</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 269.</em></p>",
@@ -1866,7 +1866,7 @@
       "_key": "!items!rieverchangingwa",
       "name": "Ever-Changing Waves",
       "type": "spell",
-      "img": "modules/rokugan5e/icons/game-icons/water-drop.svg",
+      "img": "modules/rokugan5e/icons/game-icons/wave-crest.svg",
       "system": {
         "description": {
           "value": "<p>Tier 3 water augmentation · Casting: 1 action · Base Favor: 2 · Range: Self · Duration: Ongoing (1 favor per round)</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 271.</em></p>",
@@ -2429,7 +2429,7 @@
       "_key": "!items!rihandsofthetide",
       "name": "Hands of the Tide",
       "type": "spell",
-      "img": "modules/rokugan5e/icons/game-icons/water-drop.svg",
+      "img": "modules/rokugan5e/icons/game-icons/wave-crest.svg",
       "system": {
         "description": {
           "value": "<p>Tier 2 water augmentation · Casting: 1 action · Base Favor: 1 · Range: 30 feet · Duration: Instantaneous</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 274.</em></p>",
@@ -3568,7 +3568,7 @@
       "_key": "!items!risearingbarrica",
       "name": "Searing Barricade",
       "type": "spell",
-      "img": "modules/rokugan5e/icons/game-icons/spell-book.svg",
+      "img": "modules/rokugan5e/icons/game-icons/wave-crest.svg",
       "system": {
         "description": {
           "value": "<p>Tier 2 fire summoning · Casting: 1 action · Base Favor: 1 · Range: 20 feet · Duration: 1 minute</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 281.</em></p>",
@@ -4034,7 +4034,7 @@
       "_key": "!items!ristrikeofthetsu",
       "name": "Strike of the Tsunami",
       "type": "spell",
-      "img": "modules/rokugan5e/icons/game-icons/fist.svg",
+      "img": "modules/rokugan5e/icons/game-icons/wave-crest.svg",
       "system": {
         "description": {
           "value": "<p>Tier 1 water smite · Casting: 1 action · Base Favor: 0 · Range: Self (5-foot sweep) · Duration: Instantaneous</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 282.</em></p>",
@@ -4474,7 +4474,7 @@
       "_key": "!items!ritherushingwave",
       "name": "The Rushing Wave",
       "type": "spell",
-      "img": "modules/rokugan5e/icons/game-icons/water-drop.svg",
+      "img": "modules/rokugan5e/icons/game-icons/wave-crest.svg",
       "system": {
         "description": {
           "value": "<p>Tier 2 water augmentation · Casting: 1 bonus action · Base Favor: 1 · Range: Self · Duration: 1 minute</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 284.</em></p>",

@@ -661,7 +661,7 @@
       "_key": "!items!rf0e11d5c9b8e548",
       "name": "Entwine Destiny",
       "type": "feat",
-      "img": "modules/rokugan5e/icons/game-icons/meditation.svg",
+      "img": "modules/rokugan5e/icons/game-icons/sake-bottle.svg",
       "system": {
         "description": {
           "value": "<p>Pilgrim externalization. Costs 1 or more Hit Dice to activate. Energy shift: move toward the Yang apex (see effect). Attack modifier = proficiency + Constitution; save DC = 8 + proficiency + your cosmic path's attribute.</p><p>On your turn, you can spend an action to spend and roll up to two Hit Dice. Choose a number of creatures within range up to the total result of the Hit Dice. Each of those creatures can either make a Constitution saving throw, adding the higher Hit Die result to the DC, or choose to fail automatical</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
@@ -1286,7 +1286,7 @@
       "_key": "!items!r5f00a59a3b0dfc3",
       "name": "Beacon of Hope (Externalization)",
       "type": "feat",
-      "img": "modules/rokugan5e/icons/game-icons/spell-book.svg",
+      "img": "modules/rokugan5e/icons/game-icons/paper-lantern.svg",
       "system": {
         "description": {
           "value": "<p>Path of Redemption additional externalization. Cast the SRD spell <strong>Beacon of Hope</strong> by spending 3 Hit Dice. Requires Pilgrim level 6 and Yin/Yang value: Yin 4+. Energy shift: toward the Yang apex. The spell's effect is the SRD spell Beacon of Hope; see the dnd5e SRD spell compendium for its full rules.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
@@ -1618,7 +1618,7 @@
       "_key": "!items!r645233e6ab3e78b",
       "name": "Speak with Animals (Externalization)",
       "type": "feat",
-      "img": "modules/rokugan5e/icons/game-icons/spell-book.svg",
+      "img": "modules/rokugan5e/icons/game-icons/fuji.svg",
       "system": {
         "description": {
           "value": "<p>Path of Harmony additional externalization. Cast the SRD spell <strong>Speak with Animals</strong> by spending 1 Hit Dice. Requires Pilgrim level 2 and Yin/Yang value: Yin 2/Yang 2. Energy shift: toward the either apex (your choice). The spell's effect is the SRD spell Speak with Animals; see the dnd5e SRD spell compendium for its full rules.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",

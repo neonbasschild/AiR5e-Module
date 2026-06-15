@@ -1374,7 +1374,7 @@
       "_key": "!items!r73c28b1f642d1cb",
       "name": "Seasoned Rider",
       "type": "feat",
-      "img": "modules/rokugan5e/icons/game-icons/skills.svg",
+      "img": "modules/rokugan5e/icons/game-icons/wave-crest.svg",
       "system": {
         "description": {
           "value": "<p>Prerequisite: Unicorn Clan background or Dexterity</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 233.</em></p>",
@@ -1450,7 +1450,7 @@
       "_key": "!items!re75d4af89abf98c",
       "name": "Unwavering Heart",
       "type": "feat",
-      "img": "modules/rokugan5e/icons/game-icons/water-drop.svg",
+      "img": "modules/rokugan5e/icons/game-icons/wave-crest.svg",
       "system": {
         "description": {
           "value": "<p>Prerequisite: Unicorn Clan background or Wisdom</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 233.</em></p>",

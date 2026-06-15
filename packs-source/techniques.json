@@ -37,7 +37,7 @@
       "_key": "!items!rtcrashingwavecu",
       "name": "Crashing Wave Cut",
       "type": "feat",
-      "img": "modules/rokugan5e/icons/game-icons/katana.svg",
+      "img": "modules/rokugan5e/icons/game-icons/wave-crest.svg",
       "system": {
         "description": {
           "value": "<p>Activation: 1 Attack · Focus Cost: 3+ · Range: Self (wave: weapon’s range + 5 feet)</p><p>Mandatory Movement: 10 feet before the attack</p><p>Weapon Used: Any melee weapon or unarmed</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 253.</em></p>",
@@ -634,7 +634,7 @@
       "_key": "!items!rtiaijutsucutcro",
       "name": "Iaijutsu Cut: Crossing Blade",
       "type": "feat",
-      "img": "modules/rokugan5e/icons/game-icons/katana.svg",
+      "img": "modules/rokugan5e/icons/game-icons/japanese-bridge.svg",
       "system": {
         "description": {
           "value": "<p>Activation: 1 Action · Focus Cost: 4+ · Range: Self (sweep: weapon’s range)</p><p>Mandatory Movement: 5 feet</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 256.</em></p>",

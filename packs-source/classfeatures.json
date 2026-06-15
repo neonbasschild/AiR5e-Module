@@ -5165,7 +5165,7 @@
       "_key": "!items!r06521cf0bd5bc57",
       "name": "Mountain Tattoo",
       "type": "feat",
-      "img": "modules/rokugan5e/icons/game-icons/stone-tower.svg",
+      "img": "modules/rokugan5e/icons/game-icons/fuji.svg",
       "system": {
         "description": {
           "value": "<p>Minor tattoo (Acolyte of Togashi). Tattoo power save DC = 8 + proficiency + Strength; attack modifier = proficiency + Strength.</p><p>When you would take damage, you can use your reaction and this tattoo to reduce that damage by 2d6 + your Strength modifier. Embellishment: If you reduce the damage to 0 this way, each creature within 5 feet of you takes bludgeoning damage equal to 1d8 + your Strength modifier.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 119.</em></p>",
@@ -5779,7 +5779,7 @@
       "_key": "!items!r3c426674c60ee20",
       "name": "Mountain Stance",
       "type": "feat",
-      "img": "modules/rokugan5e/icons/game-icons/stone-tower.svg",
+      "img": "modules/rokugan5e/icons/game-icons/fuji.svg",
       "system": {
         "description": {
           "value": "<p>Bushi Combat Stance. While a hostile creature is within 5 ft: +2 AC and +2 Dex saves (half-cover). Adopt by enabling this stance's effect; you can have only one stance active at a time. Stances function only during combat.</p><p>You set your stance to protect against foes from multiple directions, using the fray of battle to guard the angles you must leave vulnerable. Stance Effects: When there is at least one hostile creature within 5 feet of you, you benefit from half-cover (+2 bonus to AC and Dexterity saving throws) against other hostile creatures' attacks, invocations, spells, and other negative effects. Focus Genera</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 49.</em></p>",
@@ -9261,7 +9261,7 @@
       "_key": "!items!r202aa4f8926b34b",
       "name": "Steady Reassurance",
       "type": "feat",
-      "img": "modules/rokugan5e/icons/game-icons/battle-gear.svg",
+      "img": "modules/rokugan5e/icons/game-icons/teapot.svg",
       "system": {
         "description": {
           "value": "<p>Diplomat archetype feature (level 6).</p><p>Starting at 6th level, when you use a support flourish, each creature you affect gains additional temporary hit points equal to your Wisdom modifier. Additionally, each disoriented, distracted, frightened, or provoked creature you affect this way can immediately make a DC 15 Wisdom saving throw. On success, it removes </p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 74.</em></p>",

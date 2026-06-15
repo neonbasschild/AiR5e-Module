@@ -137,7 +137,7 @@
       "_key": "!items!r8aee5e13135dc2d",
       "name": "Hida Family",
       "type": "background",
-      "img": "modules/rokugan5e/icons/game-icons/scroll-unfurled.svg",
+      "img": "modules/rokugan5e/icons/game-icons/crab.svg",
       "system": {
         "description": {
           "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 128.</em></p>",
@@ -303,7 +303,7 @@
       "_key": "!items!r9ab7261d366cd78",
       "name": "Hiruma Family",
       "type": "background",
-      "img": "modules/rokugan5e/icons/game-icons/scroll-unfurled.svg",
+      "img": "modules/rokugan5e/icons/game-icons/crab.svg",
       "system": {
         "description": {
           "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 130.</em></p>",
@@ -479,7 +479,7 @@
       "_key": "!items!r03abd6c97719dea",
       "name": "Kaiu Family",
       "type": "background",
-      "img": "modules/rokugan5e/icons/game-icons/scroll-unfurled.svg",
+      "img": "modules/rokugan5e/icons/game-icons/crab.svg",
       "system": {
         "description": {
           "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 130.</em></p>",
@@ -676,7 +676,7 @@
       "_key": "!items!rb9b80a3830c02e2",
       "name": "Kuni Family",
       "type": "background",
-      "img": "modules/rokugan5e/icons/game-icons/scroll-unfurled.svg",
+      "img": "modules/rokugan5e/icons/game-icons/crab.svg",
       "system": {
         "description": {
           "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 130.</em></p>",
@@ -851,7 +851,7 @@
       "_key": "!items!rdf8f8c02a10e586",
       "name": "Yasuki Family",
       "type": "background",
-      "img": "modules/rokugan5e/icons/game-icons/scroll-unfurled.svg",
+      "img": "modules/rokugan5e/icons/game-icons/crab.svg",
       "system": {
         "description": {
           "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 131.</em></p>",
@@ -1077,7 +1077,7 @@
       "_key": "!items!rb1096e85f0ca0ce",
       "name": "Asahina Family",
       "type": "background",
-      "img": "modules/rokugan5e/icons/game-icons/scroll-unfurled.svg",
+      "img": "modules/rokugan5e/icons/game-icons/paper-crane.svg",
       "system": {
         "description": {
           "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 133.</em></p>",
@@ -1236,7 +1236,7 @@
       "_key": "!items!rfb97db1818ac769",
       "name": "Daidoji Family",
       "type": "background",
-      "img": "modules/rokugan5e/icons/game-icons/scroll-unfurled.svg",
+      "img": "modules/rokugan5e/icons/game-icons/paper-crane.svg",
       "system": {
         "description": {
           "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 133.</em></p>",
@@ -1410,7 +1410,7 @@
       "_key": "!items!rd0b194d7fd40a7c",
       "name": "Doji Family",
       "type": "background",
-      "img": "modules/rokugan5e/icons/game-icons/scroll-unfurled.svg",
+      "img": "modules/rokugan5e/icons/game-icons/paper-crane.svg",
       "system": {
         "description": {
           "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 133.</em></p>",
@@ -1579,7 +1579,7 @@
       "_key": "!items!r9f8683bd5c5d594",
       "name": "Kakita Family",
       "type": "background",
-      "img": "modules/rokugan5e/icons/game-icons/stone-crafting.svg",
+      "img": "modules/rokugan5e/icons/game-icons/paper-crane.svg",
       "system": {
         "description": {
           "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 133.</em></p>",
@@ -1751,7 +1751,7 @@
       "_key": "!items!r192506ea6641ad4",
       "name": "Agasha Family",
       "type": "background",
-      "img": "modules/rokugan5e/icons/game-icons/scroll-unfurled.svg",
+      "img": "modules/rokugan5e/icons/game-icons/dragon-head.svg",
       "system": {
         "description": {
           "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 135.</em></p>",
@@ -1956,7 +1956,7 @@
       "_key": "!items!r98813d1f18fade2",
       "name": "Kitsuki Family",
       "type": "background",
-      "img": "modules/rokugan5e/icons/game-icons/stone-crafting.svg",
+      "img": "modules/rokugan5e/icons/game-icons/dragon-head.svg",
       "system": {
         "description": {
           "value": "<p>Also grants proficiency with: Any one tool of your choice (apply manually).</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 137.</em></p>",
@@ -2149,7 +2149,7 @@
       "_key": "!items!r4351f1d78768ede",
       "name": "Mirumoto Family",
       "type": "background",
-      "img": "modules/rokugan5e/icons/game-icons/scroll-unfurled.svg",
+      "img": "modules/rokugan5e/icons/game-icons/dragon-head.svg",
       "system": {
         "description": {
           "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 138.</em></p>",
@@ -2306,7 +2306,7 @@
       "_key": "!items!re56b1f2f9336493",
       "name": "Togashi Order",
       "type": "background",
-      "img": "modules/rokugan5e/icons/game-icons/scroll-unfurled.svg",
+      "img": "modules/rokugan5e/icons/game-icons/dragon-head.svg",
       "system": {
         "description": {
           "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 138.</em></p>",
@@ -2466,7 +2466,7 @@
       "_key": "!items!rbf1b1192e8af6d2",
       "name": "Akodo Family",
       "type": "background",
-      "img": "modules/rokugan5e/icons/game-icons/scroll-unfurled.svg",
+      "img": "modules/rokugan5e/icons/game-icons/lion.svg",
       "system": {
         "description": {
           "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 140.</em></p>",
@@ -2643,7 +2643,7 @@
       "_key": "!items!r27a8d55c81a31a1",
       "name": "Ikoma Family",
       "type": "background",
-      "img": "modules/rokugan5e/icons/game-icons/scroll-unfurled.svg",
+      "img": "modules/rokugan5e/icons/game-icons/lion.svg",
       "system": {
         "description": {
           "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 142.</em></p>",
@@ -2826,7 +2826,7 @@
       "_key": "!items!rf72b21fd9c47a72",
       "name": "Kitsu Family",
       "type": "background",
-      "img": "modules/rokugan5e/icons/game-icons/stone-crafting.svg",
+      "img": "modules/rokugan5e/icons/game-icons/lion.svg",
       "system": {
         "description": {
           "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 142.</em></p>",
@@ -3008,7 +3008,7 @@
       "_key": "!items!r480a0223522fbce",
       "name": "Matsu Family",
       "type": "background",
-      "img": "modules/rokugan5e/icons/game-icons/scroll-unfurled.svg",
+      "img": "modules/rokugan5e/icons/game-icons/lion.svg",
       "system": {
         "description": {
           "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 143.</em></p>",
@@ -3168,7 +3168,7 @@
       "_key": "!items!r93d6c9af99b3d68",
       "name": "Asako Family",
       "type": "background",
-      "img": "modules/rokugan5e/icons/game-icons/scroll-unfurled.svg",
+      "img": "modules/rokugan5e/icons/game-icons/feather.svg",
       "system": {
         "description": {
           "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 146.</em></p>",
@@ -3383,7 +3383,7 @@
       "_key": "!items!r09bd4e44a49cc56",
       "name": "Isawa Family",
       "type": "background",
-      "img": "modules/rokugan5e/icons/game-icons/scroll-unfurled.svg",
+      "img": "modules/rokugan5e/icons/game-icons/feather.svg",
       "system": {
         "description": {
           "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 146.</em></p>",
@@ -3554,7 +3554,7 @@
       "_key": "!items!r5763e6d8d193cd0",
       "name": "Shiba Family",
       "type": "background",
-      "img": "modules/rokugan5e/icons/game-icons/scroll-unfurled.svg",
+      "img": "modules/rokugan5e/icons/game-icons/feather.svg",
       "system": {
         "description": {
           "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 147.</em></p>",
@@ -3709,7 +3709,7 @@
       "_key": "!items!r5a22469502980b8",
       "name": "Bayushi Family",
       "type": "background",
-      "img": "modules/rokugan5e/icons/game-icons/scroll-unfurled.svg",
+      "img": "modules/rokugan5e/icons/game-icons/scorpion.svg",
       "system": {
         "description": {
           "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 149.</em></p>",
@@ -3947,7 +3947,7 @@
       "_key": "!items!r323df27cc56fd30",
       "name": "Shosuro Family",
       "type": "background",
-      "img": "modules/rokugan5e/icons/game-icons/scroll-unfurled.svg",
+      "img": "modules/rokugan5e/icons/game-icons/scorpion.svg",
       "system": {
         "description": {
           "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 149.</em></p>",
@@ -4179,7 +4179,7 @@
       "_key": "!items!r4984b12dc2f9ee4",
       "name": "Soshi Family",
       "type": "background",
-      "img": "modules/rokugan5e/icons/game-icons/scroll-unfurled.svg",
+      "img": "modules/rokugan5e/icons/game-icons/scorpion.svg",
       "system": {
         "description": {
           "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 151.</em></p>",
@@ -4406,7 +4406,7 @@
       "_key": "!items!ra37c203709acbb1",
       "name": "Yogo Family",
       "type": "background",
-      "img": "modules/rokugan5e/icons/game-icons/scroll-unfurled.svg",
+      "img": "modules/rokugan5e/icons/game-icons/scorpion.svg",
       "system": {
         "description": {
           "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 151.</em></p>",
@@ -4597,7 +4597,7 @@
       "_key": "!items!re73b6d1d5cfa54d",
       "name": "Ide Family",
       "type": "background",
-      "img": "modules/rokugan5e/icons/game-icons/scroll-unfurled.svg",
+      "img": "modules/rokugan5e/icons/game-icons/unicorn.svg",
       "system": {
         "description": {
           "value": "<p>Also grants proficiency with: mounts (apply manually).</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 152.</em></p>",
@@ -4796,7 +4796,7 @@
       "_key": "!items!rc22ab8ac9f365ca",
       "name": "Iuchi Family",
       "type": "background",
-      "img": "modules/rokugan5e/icons/game-icons/scroll-unfurled.svg",
+      "img": "modules/rokugan5e/icons/game-icons/unicorn.svg",
       "system": {
         "description": {
           "value": "<p>Also grants proficiency with: mounts (apply manually).</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 154.</em></p>",
@@ -4984,7 +4984,7 @@
       "_key": "!items!r518107970c8cf71",
       "name": "Moto Family",
       "type": "background",
-      "img": "modules/rokugan5e/icons/game-icons/scroll-unfurled.svg",
+      "img": "modules/rokugan5e/icons/game-icons/unicorn.svg",
       "system": {
         "description": {
           "value": "<p>Also grants proficiency with: mounts (apply manually).</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 154.</em></p>",
@@ -5150,7 +5150,7 @@
       "_key": "!items!r7a91f59030c43a3",
       "name": "Shinjo Family",
       "type": "background",
-      "img": "modules/rokugan5e/icons/game-icons/scroll-unfurled.svg",
+      "img": "modules/rokugan5e/icons/game-icons/unicorn.svg",
       "system": {
         "description": {
           "value": "<p>Also grants proficiency with: mounts (apply manually).</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 154.</em></p>",
@@ -5349,7 +5349,7 @@
       "_key": "!items!rba81fa0484f6d4c",
       "name": "Utaku Family",
       "type": "background",
-      "img": "modules/rokugan5e/icons/game-icons/scroll-unfurled.svg",
+      "img": "modules/rokugan5e/icons/game-icons/unicorn.svg",
       "system": {
         "description": {
           "value": "<p>Also grants proficiency with: mounts (apply manually).</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 155.</em></p>",
@@ -5523,7 +5523,7 @@
       "_key": "!items!r767ff364d5339d6",
       "name": "Hantei Family",
       "type": "background",
-      "img": "modules/rokugan5e/icons/game-icons/scroll-unfurled.svg",
+      "img": "modules/rokugan5e/icons/game-icons/samurai-helmet.svg",
       "system": {
         "description": {
           "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 155.</em></p>",
@@ -5693,7 +5693,7 @@
       "_key": "!items!r99fa6709d88a3fb",
       "name": "Miya Family",
       "type": "background",
-      "img": "modules/rokugan5e/icons/game-icons/scroll-unfurled.svg",
+      "img": "modules/rokugan5e/icons/game-icons/samurai-helmet.svg",
       "system": {
         "description": {
           "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 155.</em></p>",
@@ -5884,7 +5884,7 @@
       "_key": "!items!rbb9173fd952ff24",
       "name": "Otomo Family",
       "type": "background",
-      "img": "modules/rokugan5e/icons/game-icons/scroll-unfurled.svg",
+      "img": "modules/rokugan5e/icons/game-icons/samurai-helmet.svg",
       "system": {
         "description": {
           "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 155.</em></p>",
@@ -6073,7 +6073,7 @@
       "_key": "!items!r65298999661e64b",
       "name": "Families of the Fleet",
       "type": "background",
-      "img": "modules/rokugan5e/icons/game-icons/scroll-unfurled.svg",
+      "img": "modules/rokugan5e/icons/game-icons/paper-lantern.svg",
       "system": {
         "description": {
           "value": "<p>Also grants proficiency with: vehicles (ships) (apply manually).</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 159.</em></p>",
@@ -6281,7 +6281,7 @@
       "_key": "!items!r56037c4b4eb9eb2",
       "name": "Badger Clan",
       "type": "background",
-      "img": "modules/rokugan5e/icons/game-icons/scroll-unfurled.svg",
+      "img": "modules/rokugan5e/icons/game-icons/paper-lantern.svg",
       "system": {
         "description": {
           "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 160.</em></p>",
@@ -6393,7 +6393,7 @@
       "_key": "!items!r4438ca9db9f6a24",
       "name": "Cat Clan",
       "type": "background",
-      "img": "modules/rokugan5e/icons/game-icons/scroll-unfurled.svg",
+      "img": "modules/rokugan5e/icons/game-icons/paper-lantern.svg",
       "system": {
         "description": {
           "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 161.</em></p>",
@@ -6581,7 +6581,7 @@
       "_key": "!items!rfabf0777666d451",
       "name": "Centipede Clan",
       "type": "background",
-      "img": "modules/rokugan5e/icons/game-icons/spider-alt.svg",
+      "img": "modules/rokugan5e/icons/game-icons/paper-lantern.svg",
       "system": {
         "description": {
           "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 161.</em></p>",
@@ -6750,7 +6750,7 @@
       "_key": "!items!r98467e097639dc5",
       "name": "Deer Clan",
       "type": "background",
-      "img": "modules/rokugan5e/icons/game-icons/scroll-unfurled.svg",
+      "img": "modules/rokugan5e/icons/game-icons/paper-lantern.svg",
       "system": {
         "description": {
           "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 161.</em></p>",
@@ -6929,7 +6929,7 @@
       "_key": "!items!r2f1b5503303eb06",
       "name": "Falcon Clan",
       "type": "background",
-      "img": "modules/rokugan5e/icons/game-icons/scroll-unfurled.svg",
+      "img": "modules/rokugan5e/icons/game-icons/paper-lantern.svg",
       "system": {
         "description": {
           "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 163.</em></p>",
@@ -7087,7 +7087,7 @@
       "_key": "!items!r0802212e748ffe4",
       "name": "Fox Clan",
       "type": "background",
-      "img": "modules/rokugan5e/icons/game-icons/fox-head.svg",
+      "img": "modules/rokugan5e/icons/game-icons/paper-lantern.svg",
       "system": {
         "description": {
           "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 163.</em></p>",
@@ -7264,7 +7264,7 @@
       "_key": "!items!rbdb1f4c4d25d9b3",
       "name": "Hare Clan",
       "type": "background",
-      "img": "modules/rokugan5e/icons/game-icons/scroll-unfurled.svg",
+      "img": "modules/rokugan5e/icons/game-icons/paper-lantern.svg",
       "system": {
         "description": {
           "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 163.</em></p>",
@@ -7424,7 +7424,7 @@
       "_key": "!items!r24498f063f5efad",
       "name": "Moth Clan",
       "type": "background",
-      "img": "modules/rokugan5e/icons/game-icons/scroll-unfurled.svg",
+      "img": "modules/rokugan5e/icons/game-icons/paper-lantern.svg",
       "system": {
         "description": {
           "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 163.</em></p>",
@@ -7584,7 +7584,7 @@
       "_key": "!items!rbe701970050cc32",
       "name": "Sparrow Clan",
       "type": "background",
-      "img": "modules/rokugan5e/icons/game-icons/high-shot.svg",
+      "img": "modules/rokugan5e/icons/game-icons/paper-lantern.svg",
       "system": {
         "description": {
           "value": "<p>Also grants proficiency with: Any two of the following tools: cooking kit, drum, or flute (apply manually).</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 163.</em></p>",
@@ -7695,7 +7695,7 @@
       "_key": "!items!r103a5bc3bd2a5a8",
       "name": "Tortoise Clan",
       "type": "background",
-      "img": "modules/rokugan5e/icons/game-icons/turtle.svg",
+      "img": "modules/rokugan5e/icons/game-icons/paper-lantern.svg",
       "system": {
         "description": {
           "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 165.</em></p>",
@@ -7907,7 +7907,7 @@
       "_key": "!items!r155b78900cd931b",
       "name": "Wasp Clan",
       "type": "background",
-      "img": "modules/rokugan5e/icons/game-icons/spider-alt.svg",
+      "img": "modules/rokugan5e/icons/game-icons/paper-lantern.svg",
       "system": {
         "description": {
           "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 165.</em></p>",
@@ -8062,7 +8062,7 @@
       "_key": "!items!r07e0ad41a521e7a",
       "name": "Regimented Lifestyle",
       "type": "background",
-      "img": "modules/rokugan5e/icons/game-icons/health-potion.svg",
+      "img": "modules/rokugan5e/icons/game-icons/meditation.svg",
       "system": {
         "description": {
           "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 166.</em></p>",
@@ -8233,7 +8233,7 @@
       "_key": "!items!r8f1d8672812a1cc",
       "name": "Forest Hamlet",
       "type": "background",
-      "img": "modules/rokugan5e/icons/game-icons/bamboo.svg",
+      "img": "modules/rokugan5e/icons/game-icons/bowl-of-rice.svg",
       "system": {
         "description": {
           "value": "<p>Also grants proficiency with: Any one tool, mounts (apply manually).</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 168.</em></p>",
@@ -8397,7 +8397,7 @@
       "_key": "!items!r35dfcca55cfab7a",
       "name": "Mountain Village",
       "type": "background",
-      "img": "modules/rokugan5e/icons/game-icons/stone-tower.svg",
+      "img": "modules/rokugan5e/icons/game-icons/bowl-of-rice.svg",
       "system": {
         "description": {
           "value": "<p>Also grants proficiency with: Any one tool (apply manually).</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 168.</em></p>",
@@ -8568,7 +8568,7 @@
       "_key": "!items!r2ffef91be2f5727",
       "name": "Port Town",
       "type": "background",
-      "img": "modules/rokugan5e/icons/game-icons/scroll-unfurled.svg",
+      "img": "modules/rokugan5e/icons/game-icons/bowl-of-rice.svg",
       "system": {
         "description": {
           "value": "<p>Also grants proficiency with: Any one tool, vehicles (ships) (apply manually).</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 168.</em></p>",
@@ -8732,7 +8732,7 @@
       "_key": "!items!r1404cf418126845",
       "name": "Kinushima City",
       "type": "background",
-      "img": "modules/rokugan5e/icons/game-icons/scroll-unfurled.svg",
+      "img": "modules/rokugan5e/icons/game-icons/world.svg",
       "system": {
         "description": {
           "value": "<p>Also grants proficiency with: vehicles (ships) (apply manually).</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 177.</em></p>",
@@ -8918,7 +8918,7 @@
       "_key": "!items!r3c412cdde5ed9a9",
       "name": "Menoumori Island",
       "type": "background",
-      "img": "modules/rokugan5e/icons/game-icons/scroll-unfurled.svg",
+      "img": "modules/rokugan5e/icons/game-icons/world.svg",
       "system": {
         "description": {
           "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 177.</em></p>",
@@ -9129,7 +9129,7 @@
       "_key": "!items!r7c3fa776a520162",
       "name": "Saebyuksan",
       "type": "background",
-      "img": "modules/rokugan5e/icons/game-icons/scroll-unfurled.svg",
+      "img": "modules/rokugan5e/icons/game-icons/world.svg",
       "system": {
         "description": {
           "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 179.</em></p>",
@@ -9283,7 +9283,7 @@
       "_key": "!items!r1962125d77eb222",
       "name": "Kkachi Valley",
       "type": "background",
-      "img": "modules/rokugan5e/icons/game-icons/scroll-unfurled.svg",
+      "img": "modules/rokugan5e/icons/game-icons/world.svg",
       "system": {
         "description": {
           "value": "<p>Also grants proficiency with: vehicles (ships) (apply manually).</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 180.</em></p>",
@@ -9422,7 +9422,7 @@
       "_key": "!items!r70e3933b47caab6",
       "name": "Knotted Tails Tribe",
       "type": "background",
-      "img": "modules/rokugan5e/icons/game-icons/scroll-unfurled.svg",
+      "img": "modules/rokugan5e/icons/game-icons/oni.svg",
       "system": {
         "description": {
           "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 182.</em></p>",
@@ -9629,7 +9629,7 @@
       "_key": "!items!r9ae922c502afb2d",
       "name": "Snowfeather Aerie",
       "type": "background",
-      "img": "modules/rokugan5e/icons/game-icons/scroll-unfurled.svg",
+      "img": "modules/rokugan5e/icons/game-icons/oni.svg",
       "system": {
         "description": {
           "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 183.</em></p>",
@@ -9768,7 +9768,7 @@
       "_key": "!items!rfbf9b139a08cf03",
       "name": "Starfall Aerie",
       "type": "background",
-      "img": "modules/rokugan5e/icons/game-icons/ninja-star.svg",
+      "img": "modules/rokugan5e/icons/game-icons/oni.svg",
       "system": {
         "description": {
           "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 183.</em></p>",
@@ -9915,7 +9915,7 @@
       "_key": "!items!r2ba0b5d72ac7923",
       "name": "Court of the Animals’ Path",
       "type": "background",
-      "img": "modules/rokugan5e/icons/game-icons/horse-head.svg",
+      "img": "modules/rokugan5e/icons/game-icons/oni.svg",
       "system": {
         "description": {
           "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 183.</em></p>",
@@ -10046,7 +10046,7 @@
       "_key": "!items!r313255cbd644f63",
       "name": "The Realm of Waiting",
       "type": "background",
-      "img": "modules/rokugan5e/icons/game-icons/scroll-unfurled.svg",
+      "img": "modules/rokugan5e/icons/game-icons/oni.svg",
       "system": {
         "description": {
           "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 183.</em></p>",
@@ -10222,7 +10222,7 @@
       "_key": "!items!r3244ffe87b4cbed",
       "name": "The Realm of Slaughter",
       "type": "background",
-      "img": "modules/rokugan5e/icons/game-icons/scroll-unfurled.svg",
+      "img": "modules/rokugan5e/icons/game-icons/oni.svg",
       "system": {
         "description": {
           "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 183.</em></p>",
