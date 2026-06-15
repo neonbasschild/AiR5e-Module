@@ -2411,7 +2411,7 @@
       "_key": "!items!r1ef478336dbb86e",
       "name": "Shinobi",
       "type": "class",
-      "img": "modules/rokugan5e/icons/game-icons/ninja-mask.svg",
+      "img": "modules/rokugan5e/icons/game-icons/ninja-head.svg",
       "system": {
         "description": {
           "value": "<p>Spy and infiltrator; uses Focus and ninjutsu techniques.</p><p>Proficiencies, starting equipment, and full feature text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 76.</em></p>",
@@ -6802,7 +6802,7 @@
       "_key": "!items!r36b374ee43bfea0",
       "name": "Saboteur",
       "type": "subclass",
-      "img": "modules/rokugan5e/icons/game-icons/ninja-mask.svg",
+      "img": "modules/rokugan5e/icons/game-icons/ninja-head.svg",
       "system": {
         "description": {
           "value": "<p>Shinobi archetype.</p><p>Archetype features and their levels: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 81.</em></p>",
@@ -6886,7 +6886,7 @@
       "_key": "!items!r181b15e3ece48b1",
       "name": "Infiltrator",
       "type": "subclass",
-      "img": "modules/rokugan5e/icons/game-icons/ninja-mask.svg",
+      "img": "modules/rokugan5e/icons/game-icons/ninja-head.svg",
       "system": {
         "description": {
           "value": "<p>Shinobi archetype.</p><p>Archetype features and their levels: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 82.</em></p>",

@@ -80,4 +80,4 @@ Adventures in Rokugan is published by Edge Studio / Fantasy Flight Games. This m
 
 Compendium icons are from [game-icons.net](https://game-icons.net), used under the
 [Creative Commons Attribution 3.0 license](https://creativecommons.org/licenses/by/3.0/)
-(some are CC0). Icons made by: Carl Olsen, Delapouite, Lorc, Sbed, Skoll, Willdabeast.
+(some are CC0). Icons made by: Carl Olsen, DarkZaitzev, Delapouite, Faithtoken, Lorc, Sbed, Skoll, Willdabeast.

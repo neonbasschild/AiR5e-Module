@@ -2623,7 +2623,7 @@
       "_key": "!items!r39bfa40cdb11af7",
       "name": "Ninjutsu",
       "type": "feat",
-      "img": "modules/rokugan5e/icons/game-icons/battle-gear.svg",
+      "img": "modules/rokugan5e/icons/game-icons/ninja-head.svg",
       "system": {
         "description": {
           "value": "<p>Shinobi class feature (level 1).</p><p>Ninjutsu attack modifier = proficiency + Dexterity. Ninjutsu save DC = 8 + proficiency + Dexterity.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 79.</em></p>",
@@ -2699,7 +2699,7 @@
       "_key": "!items!ra6010b52e435a86",
       "name": "Ninja Tools",
       "type": "feat",
-      "img": "modules/rokugan5e/icons/game-icons/ninja-mask.svg",
+      "img": "modules/rokugan5e/icons/game-icons/ninja-head.svg",
       "system": {
         "description": {
           "value": "<p>Shinobi class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 84.</em></p>",
@@ -9830,7 +9830,7 @@
       "_key": "!items!re200c9a4a5e7eb0",
       "name": "Disappearing Act",
       "type": "feat",
-      "img": "modules/rokugan5e/icons/game-icons/battle-gear.svg",
+      "img": "modules/rokugan5e/icons/game-icons/hidden.svg",
       "system": {
         "description": {
           "value": "<p>Infiltrator archetype feature (level 18).</p><p>At 18th level, you get away clean after finishing your work. Once per turn, when you reduce a creature that you had marked for death to 0 hit points, you can immediately move up to half your speed. You do not provoke opportunity attacks with this movement, and if you end in a location of dim light, darkness, or other o</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 82.</em></p>",

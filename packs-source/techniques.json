@@ -1390,7 +1390,7 @@
       "_key": "!items!rtvanishingworld",
       "name": "Vanishing World Flurry",
       "type": "feat",
-      "img": "modules/rokugan5e/icons/game-icons/katana.svg",
+      "img": "modules/rokugan5e/icons/game-icons/hidden.svg",
       "system": {
         "description": {
           "value": "<p>Activation: 1 Action · Focus Cost: 3+ · Range: Self (slam: weapon’s range)</p><p>Mandatory Movement: 10 feet (before attacking)</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 259.</em></p>",

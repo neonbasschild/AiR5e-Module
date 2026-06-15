@@ -157,7 +157,7 @@
       "_key": "!items!rwcarpentershamm",
       "name": "Carpenter's Hammer",
       "type": "weapon",
-      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
+      "img": "modules/rokugan5e/icons/game-icons/flat-hammer.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Light, thrown (range 20/60).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
@@ -272,7 +272,7 @@
       "_key": "!items!rwclub0000000000",
       "name": "Club",
       "type": "weapon",
-      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
+      "img": "modules/rokugan5e/icons/game-icons/wood-club.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Light.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
@@ -386,7 +386,7 @@
       "_key": "!items!rwcudgel00000000",
       "name": "Cudgel",
       "type": "weapon",
-      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
+      "img": "modules/rokugan5e/icons/game-icons/wood-club.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Heavy, two-handed.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
@@ -501,7 +501,7 @@
       "_key": "!items!rwdagger00000000",
       "name": "Dagger",
       "type": "weapon",
-      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
+      "img": "modules/rokugan5e/icons/game-icons/plain-dagger.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Finesse, light, thrown (20/60).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
@@ -617,7 +617,7 @@
       "_key": "!items!rwhatchet0000000",
       "name": "Hatchet",
       "type": "weapon",
-      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
+      "img": "modules/rokugan5e/icons/game-icons/hatchet.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Light, thrown (range 20/60).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
@@ -847,7 +847,7 @@
       "_key": "!items!rwreinforcedpipe",
       "name": "Reinforced Pipe",
       "type": "weapon",
-      "img": "modules/rokugan5e/icons/game-icons/muscle-up.svg",
+      "img": "modules/rokugan5e/icons/game-icons/lead-pipe.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Defensive, finesse.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
@@ -962,7 +962,7 @@
       "_key": "!items!rwsickle00000000",
       "name": "Sickle",
       "type": "weapon",
-      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
+      "img": "modules/rokugan5e/icons/game-icons/sickle.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Finesse, light, paired, snaring (10).</p><p>Snaring (10 ft.)</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
@@ -1079,7 +1079,7 @@
       "_key": "!items!rwspear000000000",
       "name": "Spear",
       "type": "weapon",
-      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
+      "img": "modules/rokugan5e/icons/game-icons/barbed-spear.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Thrown (20/60), versatile (1d8).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
@@ -1208,7 +1208,7 @@
       "_key": "!items!rwstaff000000000",
       "name": "Staff",
       "type": "weapon",
-      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
+      "img": "modules/rokugan5e/icons/game-icons/bo.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Versatile (1d8).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
@@ -1336,7 +1336,7 @@
       "_key": "!items!rwwoodensword000",
       "name": "Wooden Sword",
       "type": "weapon",
-      "img": "modules/rokugan5e/icons/game-icons/katana.svg",
+      "img": "modules/rokugan5e/icons/game-icons/wood-stick.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Versatile (1d8).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
@@ -1464,7 +1464,7 @@
       "_key": "!items!rwhuntingbow0000",
       "name": "Hunting Bow",
       "type": "weapon",
-      "img": "modules/rokugan5e/icons/game-icons/high-shot.svg",
+      "img": "modules/rokugan5e/icons/game-icons/pocket-bow.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Ammunition (range 80/320), two-handed.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
@@ -1579,7 +1579,7 @@
       "_key": "!items!rwsling000000000",
       "name": "Sling",
       "type": "weapon",
-      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
+      "img": "modules/rokugan5e/icons/game-icons/sling.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Ammunition (range 30/120).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
@@ -1693,7 +1693,7 @@
       "_key": "!items!rwbattleaxe00000",
       "name": "Battleaxe",
       "type": "weapon",
-      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
+      "img": "modules/rokugan5e/icons/game-icons/battle-axe.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Versatile (1d10).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
@@ -1821,7 +1821,7 @@
       "_key": "!items!rwchainsickle000",
       "name": "Chain Sickle",
       "type": "weapon",
-      "img": "modules/rokugan5e/icons/game-icons/sword-array.svg",
+      "img": "modules/rokugan5e/icons/game-icons/kusarigama.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Finesse, reach, snaring (15), two-handed.</p><p>Snaring (15 ft.)</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
@@ -1938,7 +1938,7 @@
       "_key": "!items!rwcrescenthalber",
       "name": "Crescent Halberd",
       "type": "weapon",
-      "img": "modules/rokugan5e/icons/game-icons/sword-spin.svg",
+      "img": "modules/rokugan5e/icons/game-icons/halberd.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Heavy, reach, versatile (1d10).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
@@ -2068,7 +2068,7 @@
       "_key": "!items!rwbroadsaber0000",
       "name": "Broad Saber",
       "type": "weapon",
-      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
+      "img": "modules/rokugan5e/icons/game-icons/machete.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Finesse, light, paired.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
@@ -2184,7 +2184,7 @@
       "_key": "!items!rwcurvedsaber000",
       "name": "Curved Saber",
       "type": "weapon",
-      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
+      "img": "modules/rokugan5e/icons/game-icons/machete.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Special.</p><p>Special property</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
@@ -2298,7 +2298,7 @@
       "_key": "!items!rwhookedspear000",
       "name": "Hooked Spear",
       "type": "weapon",
-      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
+      "img": "modules/rokugan5e/icons/game-icons/spear-hook.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Snaring (10), versatile (1d10).</p><p>Snaring (10 ft.)</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
@@ -2427,7 +2427,7 @@
       "_key": "!items!rwhorsecleavingb",
       "name": "Horsecleaving Blade",
       "type": "weapon",
-      "img": "modules/rokugan5e/icons/game-icons/katana.svg",
+      "img": "modules/rokugan5e/icons/game-icons/machete.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Heavy, special, two-handed.</p><p>Special property</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
@@ -2543,7 +2543,7 @@
       "_key": "!items!rwironstuddedclu",
       "name": "Iron-Studded Club",
       "type": "weapon",
-      "img": "modules/rokugan5e/icons/game-icons/stone-tower.svg",
+      "img": "modules/rokugan5e/icons/game-icons/spiked-mace.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Heavy, two-handed.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
@@ -2787,7 +2787,7 @@
       "_key": "!items!rwmallet00000000",
       "name": "Mallet",
       "type": "weapon",
-      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
+      "img": "modules/rokugan5e/icons/game-icons/flat-hammer.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Heavy, versatile (1d10).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
@@ -2916,7 +2916,7 @@
       "_key": "!items!rwmeteorhammer00",
       "name": "Meteor Hammer",
       "type": "weapon",
-      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
+      "img": "modules/rokugan5e/icons/game-icons/flail.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Reach, snaring (15), two-handed.</p><p>Snaring (15 ft.)</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
@@ -3032,7 +3032,7 @@
       "_key": "!items!rwnaginata000000",
       "name": "Naginata",
       "type": "weapon",
-      "img": "modules/rokugan5e/icons/game-icons/spear-hook.svg",
+      "img": "modules/rokugan5e/icons/game-icons/glaive.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Defensive, finesse, reach, two-handed.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
@@ -3149,7 +3149,7 @@
       "_key": "!items!rwgreatsword0000",
       "name": "Greatsword",
       "type": "weapon",
-      "img": "modules/rokugan5e/icons/game-icons/katana.svg",
+      "img": "modules/rokugan5e/icons/game-icons/two-handed-sword.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Heavy, two-handed.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
@@ -3497,7 +3497,7 @@
       "_key": "!items!rwspikedmace0000",
       "name": "Spiked Mace",
       "type": "weapon",
-      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
+      "img": "modules/rokugan5e/icons/game-icons/spiked-mace.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Heavy, versatile (1d12).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
@@ -3886,7 +3886,7 @@
       "_key": "!items!rwswordbreaker00",
       "name": "Swordbreaker",
       "type": "weapon",
-      "img": "modules/rokugan5e/icons/game-icons/katana.svg",
+      "img": "modules/rokugan5e/icons/game-icons/bat-blade.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Defensive, light, snaring (10).</p><p>Snaring (10 ft.)</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
@@ -4002,7 +4002,7 @@
       "_key": "!items!rwtigerhooksword",
       "name": "Tiger Hook Swords",
       "type": "weapon",
-      "img": "modules/rokugan5e/icons/game-icons/katana.svg",
+      "img": "modules/rokugan5e/icons/game-icons/hook.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Light, paired, snaring (10).</p><p>Snaring (10 ft.)</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
@@ -4118,7 +4118,7 @@
       "_key": "!items!rwthreesectionst",
       "name": "Three-Section Staff",
       "type": "weapon",
-      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
+      "img": "modules/rokugan5e/icons/game-icons/bo.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Reach, snaring (10), two-handed.</p><p>Snaring (10 ft.)</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
@@ -4234,7 +4234,7 @@
       "_key": "!items!rwtridentpolearm",
       "name": "Trident Polearm",
       "type": "weapon",
-      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
+      "img": "modules/rokugan5e/icons/game-icons/trident.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Thrown (10/30), versatile (1d10).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
@@ -4479,7 +4479,7 @@
       "_key": "!items!rwwarspear000000",
       "name": "Warspear",
       "type": "weapon",
-      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
+      "img": "modules/rokugan5e/icons/game-icons/barbed-spear.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Reach, two-handed.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
@@ -4594,7 +4594,7 @@
       "_key": "!items!rwwhipsword00000",
       "name": "Whip Sword",
       "type": "weapon",
-      "img": "modules/rokugan5e/icons/game-icons/katana.svg",
+      "img": "modules/rokugan5e/icons/game-icons/whip.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Reach, special.</p><p>Special property</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
@@ -4709,7 +4709,7 @@
       "_key": "!items!rwballista000000",
       "name": "Ballista",
       "type": "weapon",
-      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
+      "img": "modules/rokugan5e/icons/game-icons/ballista.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Loading, special.</p><p>Special property</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 199.</em></p>",
@@ -4940,7 +4940,7 @@
       "_key": "!items!rwcrossbow000000",
       "name": "Crossbow",
       "type": "weapon",
-      "img": "modules/rokugan5e/icons/game-icons/high-shot.svg",
+      "img": "modules/rokugan5e/icons/game-icons/crossbow.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Ammunition (range 30/120), loading, two-handed.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 199.</em></p>",
@@ -5173,7 +5173,7 @@
       "_key": "!items!rwheavycrossbow0",
       "name": "Heavy Crossbow",
       "type": "weapon",
-      "img": "modules/rokugan5e/icons/game-icons/high-shot.svg",
+      "img": "modules/rokugan5e/icons/game-icons/crossbow.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Ammunition (range 100/400), loading, two-handed.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 199.</em></p>",
@@ -5405,7 +5405,7 @@
       "_key": "!items!rwrepeatingcross",
       "name": "Repeating Crossbow",
       "type": "weapon",
-      "img": "modules/rokugan5e/icons/game-icons/high-shot.svg",
+      "img": "modules/rokugan5e/icons/game-icons/crossbow.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Ammunition (range 30/120), loading, special.</p><p>Special property</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 199.</em></p>",
@@ -5521,7 +5521,7 @@
       "_key": "!items!rwshinjohorsebow",
       "name": "Shinjo Horsebow",
       "type": "weapon",
-      "img": "modules/rokugan5e/icons/game-icons/high-shot.svg",
+      "img": "modules/rokugan5e/icons/game-icons/pocket-bow.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Ammunition (range 100/400), special, two-handed.</p><p>Special property</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 199.</em></p>",
@@ -5637,7 +5637,7 @@
       "_key": "!items!rwshuriken000000",
       "name": "Shuriken",
       "type": "weapon",
-      "img": "modules/rokugan5e/icons/game-icons/thrown-spear.svg",
+      "img": "modules/rokugan5e/icons/game-icons/ninja-star.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Ammunition (range 15/60), finesse, light.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 199.</em></p>",
@@ -7307,7 +7307,7 @@
       "_key": "!items!r196648df7e57f35",
       "name": "Soul-Star Arrows",
       "type": "consumable",
-      "img": "modules/rokugan5e/icons/game-icons/high-shot.svg",
+      "img": "modules/rokugan5e/icons/game-icons/ninja-star.svg",
       "system": {
         "description": {
           "value": "<p>Strike spirits and the incorporeal.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 197.</em></p>",
@@ -8456,7 +8456,7 @@
       "_key": "!items!rae4319638ce5c61",
       "name": "Infiltrator's Equipment",
       "type": "tool",
-      "img": "modules/rokugan5e/icons/game-icons/ninja-mask.svg",
+      "img": "modules/rokugan5e/icons/game-icons/ninja-head.svg",
       "system": {
         "description": {
           "value": "<p>Subterfuge tool.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 203.</em></p>",
