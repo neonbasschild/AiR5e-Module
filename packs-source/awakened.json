@@ -17,7 +17,7 @@
       "_key": "!items!r52e9a70ee6e597c",
       "name": "Awakened Weapon (Level 1)",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/sparkles.svg",
       "system": {
         "description": {
           "value": "<p>Awakening level 1 weapon enhancement. Grants a +1 magical bonus. Requires attunement. Apply this to a character wielding/wearing the awakened item.</p><p>Add 1d6 to critical hits inflicted with this weapon.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 213.</em></p>",
@@ -104,7 +104,7 @@
       "_key": "!items!r26604a57d04b38f",
       "name": "Awakened Weapon (Level 2)",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/sparkles.svg",
       "system": {
         "description": {
           "value": "<p>Awakening level 2 weapon enhancement. Grants a +2 magical bonus. Requires attunement. Apply this to a character wielding/wearing the awakened item.</p><p>Choose a motivation for the weapon. Once per long rest, when you miss an attack while wielding it in service of its motivation, you gain inspiration.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 213.</em></p>",
@@ -191,7 +191,7 @@
       "_key": "!items!r0e17be6c5b3359a",
       "name": "Awakened Weapon (Level 3)",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/sparkles.svg",
       "system": {
         "description": {
           "value": "<p>Awakening level 3 weapon enhancement. Grants a +3 magical bonus. Requires attunement. Apply this to a character wielding/wearing the awakened item.</p><p>Choose a smite invocation; it becomes a bound invocation in the weapon.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 213.</em></p>",
@@ -278,7 +278,7 @@
       "_key": "!items!rf4a7a3e71bd528f",
       "name": "Awakened Weapon (Level 4)",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/sparkles.svg",
       "system": {
         "description": {
           "value": "<p>Awakening level 4 weapon enhancement. Grants a +4 magical bonus. Requires attunement. Apply this to a character wielding/wearing the awakened item.</p><p>Add 3d6 to critical hits inflicted with this weapon instead of 1d6.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 213.</em></p>",
@@ -365,7 +365,7 @@
       "_key": "!items!rd4b08107d40ba97",
       "name": "Awakened Weapon (Level 5)",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/sparkles.svg",
       "system": {
         "description": {
           "value": "<p>Awakening level 5 weapon enhancement. Grants a +5 magical bonus. Requires attunement. Apply this to a character wielding/wearing the awakened item.</p><p>When performing the bound invocation, you can spend inspiration to gain 4 favor for its empowerments (lost if not spent).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 213.</em></p>",
@@ -452,7 +452,7 @@
       "_key": "!items!rc4cebeb5128cbb9",
       "name": "Awakened Armor (Level 1)",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/sparkles.svg",
       "system": {
         "description": {
           "value": "<p>Awakening level 1 armor enhancement. Grants a +1 magical bonus. Requires attunement. Apply this to a character wielding/wearing the awakened item.</p><p>Proficiency on Charisma saving throws while wearing the armor.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 213.</em></p>",
@@ -539,7 +539,7 @@
       "_key": "!items!r16e9e98df8fac3b",
       "name": "Awakened Armor (Level 2)",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/sparkles.svg",
       "system": {
         "description": {
           "value": "<p>Awakening level 2 armor enhancement. Grants a +2 magical bonus. Requires attunement. Apply this to a character wielding/wearing the awakened item.</p><p>Choose a motivation for the armor. Once per long rest, when you suffer damage while fighting in service of its motivation, you gain inspiration.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 213.</em></p>",
@@ -608,7 +608,7 @@
       "_key": "!items!r2be529513579311",
       "name": "Awakened Armor (Level 3)",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/sparkles.svg",
       "system": {
         "description": {
           "value": "<p>Awakening level 3 armor enhancement. Grants a +3 magical bonus. Requires attunement. Apply this to a character wielding/wearing the awakened item.</p><p>Choose an augmentation invocation; it becomes a bound invocation in the item.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 213.</em></p>",
@@ -677,7 +677,7 @@
       "_key": "!items!r96e0d80cf38adaf",
       "name": "Awakened Armor (Level 4)",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/sparkles.svg",
       "system": {
         "description": {
           "value": "<p>Awakening level 4 armor enhancement. Grants a +4 magical bonus. Requires attunement. Apply this to a character wielding/wearing the awakened item.</p><p>Once per long rest, the first critical hit the wearer suffers becomes a normal hit.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 213.</em></p>",
@@ -746,7 +746,7 @@
       "_key": "!items!r57b12a422b3b732",
       "name": "Awakened Armor (Level 5)",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/sparkles.svg",
       "system": {
         "description": {
           "value": "<p>Awakening level 5 armor enhancement. Grants a +5 magical bonus. Requires attunement. Apply this to a character wielding/wearing the awakened item.</p><p>Choose an ability score; you have advantage on saving throws of that ability while wearing the armor.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 213.</em></p>",
@@ -815,7 +815,7 @@
       "_key": "!items!r4a37ba1b557eb6a",
       "name": "Awakened Item (Level 1)",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/sparkles.svg",
       "system": {
         "description": {
           "value": "<p>Awakening level 1 item enhancement. Grants a +1 magical bonus. Requires attunement. Apply this to a character wielding/wearing the awakened item.</p><p>Choose a summoning invocation; it becomes a bound invocation in the item.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 213.</em></p>",
@@ -877,7 +877,7 @@
       "_key": "!items!r3102114fb9109cb",
       "name": "Awakened Item (Level 2)",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/sparkles.svg",
       "system": {
         "description": {
           "value": "<p>Awakening level 2 item enhancement. Grants a +2 magical bonus. Requires attunement. Apply this to a character wielding/wearing the awakened item.</p><p>Choose a motivation for the item; gain inspiration once per long rest when acting in its service.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 213.</em></p>",
@@ -939,7 +939,7 @@
       "_key": "!items!r8bcd3983bb5bf4d",
       "name": "Awakened Item (Level 3)",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/sparkles.svg",
       "system": {
         "description": {
           "value": "<p>Awakening level 3 item enhancement. Grants a +3 magical bonus. Requires attunement. Apply this to a character wielding/wearing the awakened item.</p><p>Choose a summoning invocation; it becomes a second bound invocation in the item.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 213.</em></p>",
@@ -1001,7 +1001,7 @@
       "_key": "!items!r1a57138ff1e0c45",
       "name": "Awakened Item (Level 4)",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/sparkles.svg",
       "system": {
         "description": {
           "value": "<p>Awakening level 4 item enhancement. Grants a +4 magical bonus. Requires attunement. Apply this to a character wielding/wearing the awakened item.</p><p>When performing a bound invocation, gain 3 additional favor to spend (lost if not spent).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 213.</em></p>",
@@ -1063,7 +1063,7 @@
       "_key": "!items!rff4304bf015a77e",
       "name": "Awakened Item (Level 5)",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/sparkles.svg",
       "system": {
         "description": {
           "value": "<p>Awakening level 5 item enhancement. Grants a +5 magical bonus. Requires attunement. Apply this to a character wielding/wearing the awakened item.</p><p>Choose a summoning invocation; it becomes a third bound invocation in the item.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 213.</em></p>",

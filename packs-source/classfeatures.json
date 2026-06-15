@@ -337,7 +337,7 @@
       "_key": "!items!r19aee97b648578d",
       "name": "Focus Points",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/meditation.svg",
       "system": {
         "description": {
           "value": "<p>Bushi class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 47.</em></p>",
@@ -375,7 +375,7 @@
       "_key": "!items!r5bdf95579d87364",
       "name": "Martial Techniques",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/battle-gear.svg",
       "system": {
         "description": {
           "value": "<p>Bushi class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 47.</em></p>",
@@ -413,7 +413,7 @@
       "_key": "!items!rc2c759ae5e92c05",
       "name": "Combat Stance",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/battle-gear.svg",
       "system": {
         "description": {
           "value": "<p>Bushi class feature (level 2).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 49.</em></p>",
@@ -513,7 +513,7 @@
       "_key": "!items!r1c3e229c93c83b4",
       "name": "Sudden Clarity",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/brain.svg",
       "system": {
         "description": {
           "value": "<p>Bushi class feature (level 2).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 50.</em></p>",
@@ -551,7 +551,7 @@
       "_key": "!items!rcdb396736dc63d8",
       "name": "Extra Attack",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/sword-clash.svg",
       "system": {
         "description": {
           "value": "<p>Bushi class feature (level 5).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 50.</em></p>",
@@ -589,7 +589,7 @@
       "_key": "!items!rc90e65eb774bbb1",
       "name": "Veteran's Instincts",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/fast-forward-button.svg",
       "system": {
         "description": {
           "value": "<p>Bushi class feature (level 6).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 50.</em></p>",
@@ -627,7 +627,7 @@
       "_key": "!items!racfa05cb5c7ad27",
       "name": "Sudden Clarity (Improved)",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/brain.svg",
       "system": {
         "description": {
           "value": "<p>Bushi class feature (level 9).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 44.</em></p>",
@@ -665,7 +665,7 @@
       "_key": "!items!rc00c3716bed1787",
       "name": "Additional Combat stance",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/guards.svg",
       "system": {
         "description": {
           "value": "<p>Bushi class feature (level 10).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 44.</em></p>",
@@ -703,7 +703,7 @@
       "_key": "!items!rec3452ac88d9ae5",
       "name": "Extra Attack (2)",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/sword-clash.svg",
       "system": {
         "description": {
           "value": "<p>Bushi class feature (level 11).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 44.</em></p>",
@@ -741,7 +741,7 @@
       "_key": "!items!r65ff8d2d826efb4",
       "name": "Veteran's Instincts (two uses)",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/fast-forward-button.svg",
       "system": {
         "description": {
           "value": "<p>Bushi class feature (level 15).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 44.</em></p>",
@@ -779,7 +779,7 @@
       "_key": "!items!r32eef097ed81d25",
       "name": "Extra Attack (3)",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/sword-clash.svg",
       "system": {
         "description": {
           "value": "<p>Bushi class feature (level 20).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 44.</em></p>",
@@ -817,7 +817,7 @@
       "_key": "!items!rc9ad0de0de371e0",
       "name": "Fighting Style",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/battle-gear.svg",
       "system": {
         "description": {
           "value": "<p>Bushi class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 44.</em></p>",
@@ -855,7 +855,7 @@
       "_key": "!items!ra216929d4998e72",
       "name": "Martial Techniques",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/battle-gear.svg",
       "system": {
         "description": {
           "value": "<p>Duelist class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 47.</em></p>",
@@ -893,7 +893,7 @@
       "_key": "!items!r1804daee35e384a",
       "name": "Combat Stances",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/guards.svg",
       "system": {
         "description": {
           "value": "<p>Duelist class feature (level 2).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 54.</em></p>",
@@ -931,7 +931,7 @@
       "_key": "!items!r6adcd8167e7ad71",
       "name": "Lethal Instinct",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/fast-forward-button.svg",
       "system": {
         "description": {
           "value": "<p>Duelist class feature (level 2).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 59.</em></p>",
@@ -969,7 +969,7 @@
       "_key": "!items!rda057f5b54d4222",
       "name": "Challenge of Steel",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/battle-gear.svg",
       "system": {
         "description": {
           "value": "<p>Duelist class feature (level 3).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 59.</em></p>",
@@ -1007,7 +1007,7 @@
       "_key": "!items!r8ac7fc464b727b0",
       "name": "Extra Attack",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/sword-clash.svg",
       "system": {
         "description": {
           "value": "<p>Duelist class feature (level 5).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 50.</em></p>",
@@ -1045,7 +1045,7 @@
       "_key": "!items!rd40905e42e60335",
       "name": "Decisive Blade",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/katana.svg",
       "system": {
         "description": {
           "value": "<p>Duelist class feature (level 6).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 60.</em></p>",
@@ -1083,7 +1083,7 @@
       "_key": "!items!reed7810b24f5c61",
       "name": "Swift Evasion",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/run.svg",
       "system": {
         "description": {
           "value": "<p>Duelist class feature (level 9).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 60.</em></p>",
@@ -1145,7 +1145,7 @@
       "_key": "!items!r795150ecd4ab0d8",
       "name": "Additional Combat Stance",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/guards.svg",
       "system": {
         "description": {
           "value": "<p>Duelist class feature (level 10).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 50.</em></p>",
@@ -1183,7 +1183,7 @@
       "_key": "!items!ra34cc82941603ac",
       "name": "Extra Attack (2)",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/sword-clash.svg",
       "system": {
         "description": {
           "value": "<p>Duelist class feature (level 13).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 54.</em></p>",
@@ -1221,7 +1221,7 @@
       "_key": "!items!rfead9472b0f8876",
       "name": "Decisive Blade (Improved)",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/upgrade.svg",
       "system": {
         "description": {
           "value": "<p>Duelist class feature (level 14).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 54.</em></p>",
@@ -1259,7 +1259,7 @@
       "_key": "!items!r8ca7df6b2906f15",
       "name": "Lethal Instinct (Improved)",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/upgrade.svg",
       "system": {
         "description": {
           "value": "<p>Duelist class feature (level 15).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 54.</em></p>",
@@ -1297,7 +1297,7 @@
       "_key": "!items!r30a4643a34a8ad1",
       "name": "Extra Attack (3)",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/sword-clash.svg",
       "system": {
         "description": {
           "value": "<p>Duelist class feature (level 20).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 54.</em></p>",
@@ -1335,7 +1335,7 @@
       "_key": "!items!r7d40d4767240c49",
       "name": "Focus Points",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/meditation.svg",
       "system": {
         "description": {
           "value": "<p>Duelist class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 47.</em></p>",
@@ -1373,7 +1373,7 @@
       "_key": "!items!r8d3d146957802c9",
       "name": "Duelist's Poise",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/sword-brandish.svg",
       "system": {
         "description": {
           "value": "<p>Duelist class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 54.</em></p>",
@@ -1411,7 +1411,7 @@
       "_key": "!items!rd16f35be2499e12",
       "name": "Flourishes",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/sword-brandish.svg",
       "system": {
         "description": {
           "value": "<p>Courtier class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 67.</em></p>",
@@ -1449,7 +1449,7 @@
       "_key": "!items!r35714abcb08823e",
       "name": "Strategic Opening",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/battle-gear.svg",
       "system": {
         "description": {
           "value": "<p>Courtier class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 67.</em></p>",
@@ -1492,7 +1492,7 @@
       "_key": "!items!r474547603c2fc0f",
       "name": "Additional Rhetorical Flourishes",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/sword-brandish.svg",
       "system": {
         "description": {
           "value": "<p>Courtier class feature (level 2).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 64.</em></p>",
@@ -1530,7 +1530,7 @@
       "_key": "!items!r18f7ebc0dc7cfb4",
       "name": "Intrigue Dice (Improved)",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/upgrade.svg",
       "system": {
         "description": {
           "value": "<p>Courtier class feature (level 5).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 66.</em></p>",
@@ -1568,7 +1568,7 @@
       "_key": "!items!r039a110a4f29608",
       "name": "Extra Reaction (two reactions)",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/sword-clash.svg",
       "system": {
         "description": {
           "value": "<p>Courtier class feature (level 6).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 64.</em></p>",
@@ -1606,7 +1606,7 @@
       "_key": "!items!rdf004e890607f2e",
       "name": "Rhetorical Mastery",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/upgrade.svg",
       "system": {
         "description": {
           "value": "<p>Courtier class feature (level 11).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 73.</em></p>",
@@ -1644,7 +1644,7 @@
       "_key": "!items!r73aa9cabeceb38c",
       "name": "Strategic Opening (Improved)",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/upgrade.svg",
       "system": {
         "description": {
           "value": "<p>Courtier class feature (level 13).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 64.</em></p>",
@@ -1682,7 +1682,7 @@
       "_key": "!items!rdcab1016a72b9ff",
       "name": "Extra Reaction (three reactions)",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/sword-clash.svg",
       "system": {
         "description": {
           "value": "<p>Courtier class feature (level 15).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 64.</em></p>",
@@ -1720,7 +1720,7 @@
       "_key": "!items!r0475e3995d6c1ba",
       "name": "Practiced Presence",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/sword-brandish.svg",
       "system": {
         "description": {
           "value": "<p>Courtier class feature (level 16).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 73.</em></p>",
@@ -1758,7 +1758,7 @@
       "_key": "!items!rc18111f95337be5",
       "name": "Rhetorical Mastery (Improved)",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/upgrade.svg",
       "system": {
         "description": {
           "value": "<p>Courtier class feature (level 18).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 64.</em></p>",
@@ -1796,7 +1796,7 @@
       "_key": "!items!rd08122e96020036",
       "name": "Focus Points",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/meditation.svg",
       "system": {
         "description": {
           "value": "<p>Courtier class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 47.</em></p>",
@@ -1834,7 +1834,7 @@
       "_key": "!items!rdcfda4432160144",
       "name": "Courtly Techniques",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/battle-gear.svg",
       "system": {
         "description": {
           "value": "<p>Courtier class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 64.</em></p>",
@@ -1872,7 +1872,7 @@
       "_key": "!items!rec2f7131775b032",
       "name": "Rhetoric",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/scroll-unfurled.svg",
       "system": {
         "description": {
           "value": "<p>Courtier class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 64.</em></p>",
@@ -1910,7 +1910,7 @@
       "_key": "!items!rd7cbb326b28b4c0",
       "name": "Intrigue Dice",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/rolling-dice-cup.svg",
       "system": {
         "description": {
           "value": "<p>Courtier class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 67.</em></p>",
@@ -1958,7 +1958,7 @@
       "_key": "!items!r7f46c6bf2da3d15",
       "name": "Expert Prowler",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/run.svg",
       "system": {
         "description": {
           "value": "<p>Shinobi class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 81.</em></p>",
@@ -1996,7 +1996,7 @@
       "_key": "!items!r92f6f0e6ddfde15",
       "name": "Nimble",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/run.svg",
       "system": {
         "description": {
           "value": "<p>Shinobi class feature (level 2).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 81.</em></p>",
@@ -2086,7 +2086,7 @@
       "_key": "!items!r60de234915837b8",
       "name": "Quick Hands",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/run.svg",
       "system": {
         "description": {
           "value": "<p>Shinobi class feature (level 5).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 81.</em></p>",
@@ -2148,7 +2148,7 @@
       "_key": "!items!rae2b57adeee1f83",
       "name": "Escape Artist",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/run.svg",
       "system": {
         "description": {
           "value": "<p>Shinobi class feature (level 6).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 81.</em></p>",
@@ -2207,7 +2207,7 @@
       "_key": "!items!rb150aad9523c1e0",
       "name": "Crescent Slash",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/sword-spin.svg",
       "system": {
         "description": {
           "value": "<p>Shinobi class feature (level 7).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 81.</em></p>",
@@ -2269,7 +2269,7 @@
       "_key": "!items!r3bfef9fe9f2c447",
       "name": "Vigilant Mind",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/brain.svg",
       "system": {
         "description": {
           "value": "<p>Shinobi class feature (level 11).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 81.</em></p>",
@@ -2307,7 +2307,7 @@
       "_key": "!items!r55ffade3710a4cd",
       "name": "Venom-Tested Constitution",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/poison-bottle.svg",
       "system": {
         "description": {
           "value": "<p>Shinobi class feature (level 14).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 81.</em></p>",
@@ -2363,7 +2363,7 @@
       "_key": "!items!rb780a57a953cbaf",
       "name": "Crescent Slash (two uses)",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/sword-spin.svg",
       "system": {
         "description": {
           "value": "<p>Shinobi class feature (level 15).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 74.</em></p>",
@@ -2401,7 +2401,7 @@
       "_key": "!items!r8c654a2072e0e5f",
       "name": "Deathmark",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/grim-reaper.svg",
       "system": {
         "description": {
           "value": "<p>Shinobi class feature (level 17).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 81.</em></p>",
@@ -2481,7 +2481,7 @@
       "_key": "!items!ra1f409e8e56d39b",
       "name": "Defy Death",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/grim-reaper.svg",
       "system": {
         "description": {
           "value": "<p>Shinobi class feature (level 20).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 82.</em></p>",
@@ -2543,7 +2543,7 @@
       "_key": "!items!r521913ac30c1171",
       "name": "Merciless Strikes",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/fist.svg",
       "system": {
         "description": {
           "value": "<p>Shinobi class feature (level 1).</p><p>Add this much extra damage per negative condition on the target (max three instances), once per creature per turn. Damage type matches the triggering attack.</p><p>Per-condition damage scales by level (see @scale.shinobi.merciless-strikes).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 79.</em></p>",
@@ -2623,7 +2623,7 @@
       "_key": "!items!r39bfa40cdb11af7",
       "name": "Ninjutsu",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/battle-gear.svg",
       "system": {
         "description": {
           "value": "<p>Shinobi class feature (level 1).</p><p>Ninjutsu attack modifier = proficiency + Dexterity. Ninjutsu save DC = 8 + proficiency + Dexterity.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 79.</em></p>",
@@ -2661,7 +2661,7 @@
       "_key": "!items!r449e5a6beae529a",
       "name": "Focus Points",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/meditation.svg",
       "system": {
         "description": {
           "value": "<p>Shinobi class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 47.</em></p>",
@@ -2699,7 +2699,7 @@
       "_key": "!items!ra6010b52e435a86",
       "name": "Ninja Tools",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/ninja-mask.svg",
       "system": {
         "description": {
           "value": "<p>Shinobi class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 84.</em></p>",
@@ -2761,7 +2761,7 @@
       "_key": "!items!rad0b65a35989971",
       "name": "Invocations and Favor",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/spell-book.svg",
       "system": {
         "description": {
           "value": "<p>Ritualist class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 89.</em></p>",
@@ -2799,7 +2799,7 @@
       "_key": "!items!rc20333dd0a6aeba",
       "name": "Channeling",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/aura.svg",
       "system": {
         "description": {
           "value": "<p>Ritualist class feature (level 3).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 88.</em></p>",
@@ -2837,7 +2837,7 @@
       "_key": "!items!read4e375b64279b",
       "name": "Instinctive Invocation",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/fast-forward-button.svg",
       "system": {
         "description": {
           "value": "<p>Ritualist class feature (level 10).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 91.</em></p>",
@@ -2875,7 +2875,7 @@
       "_key": "!items!rfcf6169424c1a3d",
       "name": "Practiced Appeals",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/scroll-unfurled.svg",
       "system": {
         "description": {
           "value": "<p>Ritualist class feature (level 18).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 91.</em></p>",
@@ -2937,7 +2937,7 @@
       "_key": "!items!r57588f1c0d5390e",
       "name": "Ritualist Tradition Feature",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/spell-book.svg",
       "system": {
         "description": {
           "value": "<p>Ritualist class feature (level 20).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 88.</em></p>",
@@ -2975,7 +2975,7 @@
       "_key": "!items!rc4c49eb96ef515e",
       "name": "Invocations",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/spell-book.svg",
       "system": {
         "description": {
           "value": "<p>Ritualist class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 88.</em></p>",
@@ -3013,7 +3013,7 @@
       "_key": "!items!r8d3d4ee12276bf3",
       "name": "Favor",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/prayer-beads.svg",
       "system": {
         "description": {
           "value": "<p>Ritualist class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 89.</em></p>",
@@ -3051,7 +3051,7 @@
       "_key": "!items!r07eabb67f0c69aa",
       "name": "Ritual Casting",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/spell-book.svg",
       "system": {
         "description": {
           "value": "<p>Ritualist class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 88.</em></p>",
@@ -3089,7 +3089,7 @@
       "_key": "!items!ra6c79ba6fb79c2b",
       "name": "Body, Mind, and Spirit",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/brain.svg",
       "system": {
         "description": {
           "value": "<p>Pilgrim class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 99.</em></p>",
@@ -3127,7 +3127,7 @@
       "_key": "!items!reefa57d4b4ac6e1",
       "name": "Yin and Yang",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/yin-yang.svg",
       "system": {
         "description": {
           "value": "<p>Pilgrim class feature (level 2).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 100.</em></p>",
@@ -3165,7 +3165,7 @@
       "_key": "!items!rca17e2e339eed04",
       "name": "Externalizations",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/spell-book.svg",
       "system": {
         "description": {
           "value": "<p>Pilgrim class feature (level 2).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 101.</em></p>",
@@ -3203,7 +3203,7 @@
       "_key": "!items!rbaa01fecefe492e",
       "name": "Battle Meditation",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/meditation.svg",
       "system": {
         "description": {
           "value": "<p>Pilgrim class feature (level 3).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 100.</em></p>",
@@ -3265,7 +3265,7 @@
       "_key": "!items!rdd0586f7725ec88",
       "name": "Boundless Vitality",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/health-potion.svg",
       "system": {
         "description": {
           "value": "<p>Pilgrim class feature (level 5).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 101.</em></p>",
@@ -3303,7 +3303,7 @@
       "_key": "!items!r3a5bb4b7cbd1f71",
       "name": "Well of Strength",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/muscle-up.svg",
       "system": {
         "description": {
           "value": "<p>Pilgrim class feature (level 5).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 101.</em></p>",
@@ -3341,7 +3341,7 @@
       "_key": "!items!r16df9bbcf145bf6",
       "name": "Cosmic Path Feature",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/battle-gear.svg",
       "system": {
         "description": {
           "value": "<p>Pilgrim class feature (level 6).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 99.</em></p>",
@@ -3379,7 +3379,7 @@
       "_key": "!items!r984c0ba239265a8",
       "name": "Forms of Enlightenment",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/enlightenment.svg",
       "system": {
         "description": {
           "value": "<p>Pilgrim class feature (level 7).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 101.</em></p>",
@@ -3441,7 +3441,7 @@
       "_key": "!items!rebd7a79c0c8aa27",
       "name": "Advanced Externalizations",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/spell-book.svg",
       "system": {
         "description": {
           "value": "<p>Pilgrim class feature (level 9).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 103.</em></p>",
@@ -3503,7 +3503,7 @@
       "_key": "!items!rbf8477ba0519c9f",
       "name": "Well of Strength Improvement",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/muscle-up.svg",
       "system": {
         "description": {
           "value": "<p>Pilgrim class feature (level 10).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 99.</em></p>",
@@ -3541,7 +3541,7 @@
       "_key": "!items!r7602421d791c56b",
       "name": "Cosmic Path Feature (Improved)",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/upgrade.svg",
       "system": {
         "description": {
           "value": "<p>Pilgrim class feature (level 12).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 98.</em></p>",
@@ -3579,7 +3579,7 @@
       "_key": "!items!r2701499ad462d96",
       "name": "Technique Chaining",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/sword-array.svg",
       "system": {
         "description": {
           "value": "<p>Pilgrim class feature (level 13).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 104.</em></p>",
@@ -3641,7 +3641,7 @@
       "_key": "!items!rf33cb81caa07dcd",
       "name": "Eyes of Dawn and Dusk",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/all-seeing-eye.svg",
       "system": {
         "description": {
           "value": "<p>Pilgrim class feature (level 14).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 104.</em></p>",
@@ -3718,7 +3718,7 @@
       "_key": "!items!rfc912c2934fb3ea",
       "name": "Battle Meditation Improvement",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/upgrade.svg",
       "system": {
         "description": {
           "value": "<p>Pilgrim class feature (level 20).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 99.</em></p>",
@@ -3756,7 +3756,7 @@
       "_key": "!items!r98dc238722025da",
       "name": "Cosmic Path Feature Improvement",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/upgrade.svg",
       "system": {
         "description": {
           "value": "<p>Pilgrim class feature (level 20).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 98.</em></p>",
@@ -3794,7 +3794,7 @@
       "_key": "!items!ra2c94422b79f212",
       "name": "Ego Synthesis",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/enlightenment.svg",
       "system": {
         "description": {
           "value": "<p>Acolyte class feature (level 2).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 116.</em></p>",
@@ -3832,7 +3832,7 @@
       "_key": "!items!rcb82031f8bcb58a",
       "name": "Renewing Purpose",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/enlightenment.svg",
       "system": {
         "description": {
           "value": "<p>Acolyte class feature (level 3).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 116.</em></p>",
@@ -3870,7 +3870,7 @@
       "_key": "!items!r7f97ac00ba2e161",
       "name": "Ego Synthesis (Improved)",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/upgrade.svg",
       "system": {
         "description": {
           "value": "<p>Acolyte class feature (level 5).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 112.</em></p>",
@@ -3908,7 +3908,7 @@
       "_key": "!items!r9bf8fb2669cd083",
       "name": "Eternal Student",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/book-cover.svg",
       "system": {
         "description": {
           "value": "<p>Acolyte class feature (level 5).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 116.</em></p>",
@@ -3946,7 +3946,7 @@
       "_key": "!items!rd5d51295c13dde8",
       "name": "Disciplined Approach",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/brain.svg",
       "system": {
         "description": {
           "value": "<p>Acolyte class feature (level 7).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 116.</em></p>",
@@ -3984,7 +3984,7 @@
       "_key": "!items!r2307eb8a9a517ff",
       "name": "Expanded Mind",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/brain.svg",
       "system": {
         "description": {
           "value": "<p>Acolyte class feature (level 10).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 116.</em></p>",
@@ -4022,7 +4022,7 @@
       "_key": "!items!r2033d6a5c241a5e",
       "name": "A Greater Purpose",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/upgrade.svg",
       "system": {
         "description": {
           "value": "<p>Acolyte class feature (level 13).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 116.</em></p>",
@@ -4117,7 +4117,7 @@
       "_key": "!items!rd3184ec0d85b4f3",
       "name": "Strength in Clarity",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/brain.svg",
       "system": {
         "description": {
           "value": "<p>Acolyte class feature (level 15).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 116.</em></p>",
@@ -4155,7 +4155,7 @@
       "_key": "!items!r01aba75ffaa1d5f",
       "name": "Transcendent Surge",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/enlightenment.svg",
       "system": {
         "description": {
           "value": "<p>Acolyte class feature (level 18).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 116.</em></p>",
@@ -4222,7 +4222,7 @@
       "_key": "!items!r8493077f6b59c49",
       "name": "Focus Points",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/meditation.svg",
       "system": {
         "description": {
           "value": "<p>Acolyte class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 47.</em></p>",
@@ -4260,7 +4260,7 @@
       "_key": "!items!re2b2b75f04d3c04",
       "name": "Martial Techniques",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/battle-gear.svg",
       "system": {
         "description": {
           "value": "<p>Acolyte class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 47.</em></p>",
@@ -4298,7 +4298,7 @@
       "_key": "!items!r6cd353dd2ed10a7",
       "name": "Supernatural Mark",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/battle-gear.svg",
       "system": {
         "description": {
           "value": "<p>Acolyte class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 112.</em></p>",
@@ -4336,7 +4336,7 @@
       "_key": "!items!rd8fd3e3840b5645",
       "name": "Dragon Tattoo",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/dragon-head.svg",
       "system": {
         "description": {
           "value": "<p>Major tattoo (Acolyte of Togashi). Cannot be used while wearing medium or heavy armor, or using a shield. Tattoo power save DC = 8 + proficiency + Strength; attack modifier = proficiency + Strength.</p><p>When you gain the dragon tattoo, choose one of the following dragons for it to depict: Air, Earth, Fire, Water, or Void. You can spend your action to exhale destructive energy in a 20-foot-wave (see page 250) in front of you. Each creature in this area must make a saving throw based on the chart below, with DC equal to your tattoo power saving throw. Roll a number of d6 equal to your proficiency b</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 118.</em></p>",
@@ -4441,7 +4441,7 @@
       "_key": "!items!rbcdb2f5270bc77b",
       "name": "Catastrophe Tattoo",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/tribal-mask.svg",
       "system": {
         "description": {
           "value": "<p>Major tattoo (Acolyte of Togashi). Cannot be used while wearing medium or heavy armor, or using a shield. Tattoo power save DC = 8 + proficiency + Strength; attack modifier = proficiency + Strength.</p><p>When you gain the catastrophe tattoo, choose one of the following for it to depict: Avalanche, Tsunami, Typhoon or Volcano. When you take the Attack action, you can unleash a catastrophic flurry. Instead of making the normal number of attacks you would be allowed, you can make a number of unarmed attacks equal to your proficiency bonus. When you hit a creature with one of these attacks, it takes 1</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 118.</em></p>",
@@ -4518,7 +4518,7 @@
       "_key": "!items!r430428e1a065a0e",
       "name": "Centipede Tattoo",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/spider-alt.svg",
       "system": {
         "description": {
           "value": "<p>Major tattoo (Acolyte of Togashi). Cannot be used while wearing medium or heavy armor, or using a shield. Tattoo power save DC = 8 + proficiency + Strength; attack modifier = proficiency + Strength.</p><p>When you move, you can activate your centipede tattoo to gain the following effects until the start of your next turn: $ Your walking speed is increased by 30 feet. $ You have advantage on Dexterity saving throws. $ The first time you move adjacent to a creature that hasn't been affected by this feature this turn, you can force it to make a Dexterity saving throw. A creature takes piercing damage </p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 119.</em></p>",
@@ -4595,7 +4595,7 @@
       "_key": "!items!r7e5f0cc1f70cf88",
       "name": "Bamboo Tattoo",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/bamboo.svg",
       "system": {
         "description": {
           "value": "<p>Minor tattoo (Acolyte of Togashi). Tattoo power save DC = 8 + proficiency + Strength; attack modifier = proficiency + Strength.</p><p>When you or another creature within 15 feet of you makes a saving throw, you can use this tattoo to roll 1d4 and add it to the result. Embellishment: Roll 2d4 instead.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 119.</em></p>",
@@ -4672,7 +4672,7 @@
       "_key": "!items!ra6d7c799f5d2fc9",
       "name": "Carp Tattoo",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/tribal-mask.svg",
       "system": {
         "description": {
           "value": "<p>Minor tattoo (Acolyte of Togashi). Tattoo power save DC = 8 + proficiency + Strength; attack modifier = proficiency + Strength.</p><p>When you make a skill check, after you roll the die, you can use this tattoo to add +3 to the roll. Embellishment: Add +6 to the roll instead.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 119.</em></p>",
@@ -4749,7 +4749,7 @@
       "_key": "!items!rad640ed20074d02",
       "name": "Chameleon Tattoo",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/tribal-mask.svg",
       "system": {
         "description": {
           "value": "<p>Minor tattoo (Acolyte of Togashi). Tattoo power save DC = 8 + proficiency + Strength; attack modifier = proficiency + Strength.</p><p>You can spend 1 hour and use this tattoo to change your appearance to that of another Medium-sized humanoid being you have encountered. The transformation persists for 4 hours, and does not change your ability scores or other traits. Creatures who encounter you are fooled by your disguise unless the</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 119.</em></p>",
@@ -4839,7 +4839,7 @@
       "_key": "!items!ra5e5b5971cd283c",
       "name": "Chrysanthemum Tattoo",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/tribal-mask.svg",
       "system": {
         "description": {
           "value": "<p>Minor tattoo (Acolyte of Togashi). Tattoo power save DC = 8 + proficiency + Strength; attack modifier = proficiency + Strength.</p><p>While in direct sunlight, you can use a bonus action and this tattoo to regain hit points equal to 3d6 + your Wisdom modifier. Embellishment: Each character within 5 feet of you also regains hit points equal to 1d6 + your Wisdom modifier.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 119.</em></p>",
@@ -4934,7 +4934,7 @@
       "_key": "!items!r897d1fb71f9f259",
       "name": "Cricket Tattoo",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/tribal-mask.svg",
       "system": {
         "description": {
           "value": "<p>Minor tattoo (Acolyte of Togashi). Tattoo power save DC = 8 + proficiency + Strength; attack modifier = proficiency + Strength.</p><p>You can use your bonus action and this tattoo to leap to a location up to 20 feet away. Creatures within 5 feet of the place you land take bludgeoning damage equal to 1d4 + your Strength modifier. Embellishment: Each creature you damage with this tattoo must make a Constitution saving throw with DC </p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 119.</em></p>",
@@ -5011,7 +5011,7 @@
       "_key": "!items!rd53c5c2e159664f",
       "name": "Diamond Tattoo",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/tribal-mask.svg",
       "system": {
         "description": {
           "value": "<p>Minor tattoo (Acolyte of Togashi). Tattoo power save DC = 8 + proficiency + Strength; attack modifier = proficiency + Strength.</p><p>When you are hit by an attack, you can use your reaction and this tattoo to gain a +3 bonus to your AC until the end of your next turn, including against the triggering attack. Embellishment: You also gain temporary hit points equal to 1d8 + your acolyte level.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 119.</em></p>",
@@ -5088,7 +5088,7 @@
       "_key": "!items!rd37381429a75951",
       "name": "Hummingbird Tattoo",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/feather.svg",
       "system": {
         "description": {
           "value": "<p>Minor tattoo (Acolyte of Togashi). Tattoo power save DC = 8 + proficiency + Strength; attack modifier = proficiency + Strength.</p><p>When you take a bonus action on your turn, you can use this tattoo to treat it as a free action instead. Embellishment: Alternately, if it is not your turn, you can use this tattoo to gain an additional reaction.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 119.</em></p>",
@@ -5165,7 +5165,7 @@
       "_key": "!items!r06521cf0bd5bc57",
       "name": "Mountain Tattoo",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/stone-tower.svg",
       "system": {
         "description": {
           "value": "<p>Minor tattoo (Acolyte of Togashi). Tattoo power save DC = 8 + proficiency + Strength; attack modifier = proficiency + Strength.</p><p>When you would take damage, you can use your reaction and this tattoo to reduce that damage by 2d6 + your Strength modifier. Embellishment: If you reduce the damage to 0 this way, each creature within 5 feet of you takes bludgeoning damage equal to 1d8 + your Strength modifier.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 119.</em></p>",
@@ -5242,7 +5242,7 @@
       "_key": "!items!r3e16dc65c01e1f9",
       "name": "Porcupine Tattoo",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/tribal-mask.svg",
       "system": {
         "description": {
           "value": "<p>Minor tattoo (Acolyte of Togashi). Tattoo power save DC = 8 + proficiency + Strength; attack modifier = proficiency + Strength.</p><p>When you take damage, you can use your reaction and this tattoo. If you do, each other creature within 5 feet takes piercing damage equal to 1d6 + your Strength modifier. Embellishment: Each creature that takes damage this way also suffers the maimed condition (–10 ft. speed and disadvantage on Dext</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 119.</em></p>",
@@ -5319,7 +5319,7 @@
       "_key": "!items!r9a1c2558e0a2c69",
       "name": "Snake Tattoo",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/snake.svg",
       "system": {
         "description": {
           "value": "<p>Minor tattoo (Acolyte of Togashi). Tattoo power save DC = 8 + proficiency + Strength; attack modifier = proficiency + Strength.</p><p>When you deal damage with an unarmed attack, you can use this tattoo to force the creature you damaged to make a Constitution saving throw with DC equal to your tattoo power saving throw. If the creature fails, it takes an additional 2d4 poison damage. Embellishment: A creature that fails the saving</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 119.</em></p>",
@@ -5409,7 +5409,7 @@
       "_key": "!items!r8d6f514de01ebeb",
       "name": "Tiger Tattoo",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/tiger-head.svg",
       "system": {
         "description": {
           "value": "<p>Minor tattoo (Acolyte of Togashi). Tattoo power save DC = 8 + proficiency + Strength; attack modifier = proficiency + Strength.</p><p>On your turn, you can use a bonus action and this tattoo to change your unarmed attack damage to 2d4 slashing damage until the end of your turn. Embellishment: Increase the damage to 2d4 + 2 slashing damage.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 119.</em></p>",
@@ -5486,7 +5486,7 @@
       "_key": "!items!ra2deaf87bd428e8",
       "name": "Tortoise Tattoo",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/turtle.svg",
       "system": {
         "description": {
           "value": "<p>Minor tattoo (Acolyte of Togashi). Tattoo power save DC = 8 + proficiency + Strength; attack modifier = proficiency + Strength.</p><p>You tap directly into unremembered past lives. As a free action, you can choose one skill or tool. For 30 minutes, you count as having proficiency with the chosen skill or tool. Embellishment: When you add your ability score modifier for checks made with that skill or tool, you can use your Wisdom m</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 119.</em></p>",
@@ -5563,7 +5563,7 @@
       "_key": "!items!recf1455630fda87",
       "name": "Wellspring Tattoo",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/aura.svg",
       "system": {
         "description": {
           "value": "<p>Minor tattoo (Acolyte of Togashi). Tattoo power save DC = 8 + proficiency + Strength; attack modifier = proficiency + Strength.</p><p>When you give yourself inspiration from one of your acolyte features, you can use this tattoo to give a creature within thirty feet of you inspiration as well. Embellishment: That creature also regains hit points equal to 1d4 + your Wisdom modifier.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 119.</em></p>",
@@ -5640,7 +5640,7 @@
       "_key": "!items!r32bf51a14405f6d",
       "name": "Wolf Tattoo",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/wolf-head.svg",
       "system": {
         "description": {
           "value": "<p>Minor tattoo (Acolyte of Togashi). Tattoo power save DC = 8 + proficiency + Strength; attack modifier = proficiency + Strength.</p><p>When a creature within 5 feet of you is attacked and you aren't the attacker, you can use your reaction and this tattoo to grant the attack roll advantage. Embellishment: If the attack hits, it deals an additional 2d4 slashing damage. Acolyte of Shadows Acolytes of Shadow are infused with the primor</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 119.</em></p>",
@@ -5717,7 +5717,7 @@
       "_key": "!items!r40f9662d550015d",
       "name": "Ember Stance",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/flame.svg",
       "system": {
         "description": {
           "value": "<p>Bushi Combat Stance. Reaction: mark a creature for death (1d8 force on next melee hit). Adopt by enabling this stance's effect; you can have only one stance active at a time. Stances function only during combat.</p><p>You adopt a menacing stance that makes your foes think twice about approaching you. Stance Effects: When a hostile creature that you can perceive ends its movement within 10 feet of you, you can spend your reaction to have it suffer the marked for death condition (your next successful melee attack against it deals an additional 1d8 force damage) for 1 minute. Focus Generation: At the end of your t</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 49.</em></p>",
@@ -5779,7 +5779,7 @@
       "_key": "!items!r3c426674c60ee20",
       "name": "Mountain Stance",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/stone-tower.svg",
       "system": {
         "description": {
           "value": "<p>Bushi Combat Stance. While a hostile creature is within 5 ft: +2 AC and +2 Dex saves (half-cover). Adopt by enabling this stance's effect; you can have only one stance active at a time. Stances function only during combat.</p><p>You set your stance to protect against foes from multiple directions, using the fray of battle to guard the angles you must leave vulnerable. Stance Effects: When there is at least one hostile creature within 5 feet of you, you benefit from half-cover (+2 bonus to AC and Dexterity saving throws) against other hostile creatures' attacks, invocations, spells, and other negative effects. Focus Genera</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 49.</em></p>",
@@ -5844,7 +5844,7 @@
       "_key": "!items!r72ad1fc912cb2e7",
       "name": "River Stance",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/water-drop.svg",
       "system": {
         "description": {
           "value": "<p>Bushi Combat Stance. +5 ft speed; bonus action to Dash/Disengage/Help/Search. Adopt by enabling this stance's effect; you can have only one stance active at a time. Stances function only during combat.</p><p>You keep mobile, swirling past your foes with a flowing stance. Stance Effects: Your movement speed is increased by +5 feet. Additionally, on your turn, you can spend a bonus action to perform a Dash, Disengage, Help, or Search action. Focus Generation: At the end of your turn, gain 1 additional focus point for each of the following actions that you performed: Dash, Disengage, Help, or Search. Wil</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 49.</em></p>",
@@ -5927,7 +5927,7 @@
       "_key": "!items!r6a7f335544eb88c",
       "name": "Willow Stance",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/guards.svg",
       "system": {
         "description": {
           "value": "<p>Bushi Combat Stance. Bonus action: grapple or shove (may use Dex/Acrobatics). Adopt by enabling this stance's effect; you can have only one stance active at a time. Stances function only during combat.</p><p>You maintain a loose stance that lets you throw sudden, unexpected strikes to catch your foes off-balance. Stance Effects: During your turn, you can spend your bonus action to grapple or shove one creature within 5 feet of you. You can use Dexterity (Acrobatics) 49 CHAPTER 2: CL ASSES instead of Strength (Athletics) for any contested checks you make as part of this action, Focus Generation: At the</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 49.</em></p>",
@@ -5989,7 +5989,7 @@
       "_key": "!items!r8da5cfcf60d4124",
       "name": "Mark of Shadow",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/cultist.svg",
       "system": {
         "description": {
           "value": "<p>Acolytes of Shadow archetype feature (level 3).</p><p>At 2nd level, you are marked with a shadow brand, a tenebrous symbol that connects you to the Nothing and gives you an infinitesimal sliver of the unearthly powers of uncreation. You gain several features associated with your archetype. Shadow Brand. You gain a shadow brand of your choice (see below). You can benefit from this shadow brand only if </p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 120.</em></p>",
@@ -6051,7 +6051,7 @@
       "_key": "!items!rf508b66c7ac004e",
       "name": "Brand of Dire Might",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/battle-gear.svg",
       "system": {
         "description": {
           "value": "<p>Acolytes of Shadow archetype feature (level 3).</p><p>Appearing as a stylized vine, octopus, or insect emblem somewhere on the body, the brand of dire might lets you manipulate your form in terrifying ways. You can spend a bonus action on your turn to manifest arms of shadow from your back for 1 minute. These arms can be humanoid arms, insectoid limbs, or even ribbons of shadow. You must be in an area</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 121.</em></p>",
@@ -6126,7 +6126,7 @@
       "_key": "!items!r7415727a3b62202",
       "name": "Brand of Division",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/all-seeing-eye.svg",
       "system": {
         "description": {
           "value": "<p>Acolytes of Shadow archetype feature (level 3).</p><p>Appearing as a stylized flower dropping petals, tree branch, or cloud emblem somewhere on the body, the brand of division allows your shadow to separate from you and step into three-dimensional space as a shadow clone. If you are in an area of dim light or darkness, you can spend an action to split off your shadow as a shadow clone, which is an ext</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 121.</em></p>",
@@ -6216,7 +6216,7 @@
       "_key": "!items!r8b4573bf28c8780",
       "name": "Brand of Shifting Night",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/cultist.svg",
       "system": {
         "description": {
           "value": "<p>Acolytes of Shadow archetype feature (level 3). Your next attack after teleporting deals additional cold damage that scales by level (see @scale.acolyte.night-damage).</p><p>Appearing as a stylized willow, serpent, or starry sky emblem somewhere on the body, the brand of shifting night allows you to melt into darkness on command. You can spend your reaction when you are attacked by a melee or ranged attack or fail a Dexterity (Stealth) check or an action during your turn to vanish into shadow. You must be in an area of</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 121.</em></p>",
@@ -6293,7 +6293,7 @@
       "_key": "!items!r43fac0875f93374",
       "name": "Sting of Night",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/cultist.svg",
       "system": {
         "description": {
           "value": "<p>Acolytes of Shadow archetype feature (level 1).</p><p>Starting at 1st level, once per round when you deal damage using the Attack action and are not in direct or magical sunlight, you can deal 1d4 additional cold damage. This amount increases to 2d4 at 17th level.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 121.</em></p>",
@@ -6355,7 +6355,7 @@
       "_key": "!items!r041538bb27822a8",
       "name": "Eyes of Twilight",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/all-seeing-eye.svg",
       "system": {
         "description": {
           "value": "<p>Acolytes of Shadow archetype feature (level 3).</p><p>Starting at 3rd level, your darkvision increases in range by 40 feet (to 100 feet). Additionally, as a bonus action you open yourself to the shadows around you. You gain the ability to perceive all areas of dim light and darkness within 100 feet of you until the start of your next turn, even if they are blocked from your line of sight or otherwise </p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 121.</em></p>",
@@ -6453,7 +6453,7 @@
       "_key": "!items!rabb737b16764e37",
       "name": "Shadow Manipulation Specialty",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/cultist.svg",
       "system": {
         "description": {
           "value": "<p>Acolytes of Shadow archetype feature (level 6).</p><p>At 6th level, you gain your choice of the following features. At 11th level, you can pick an additional feature from this list.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 121.</em></p>",
@@ -6515,7 +6515,7 @@
       "_key": "!items!r9b7e8736852e3f7",
       "name": "Distort Fate",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/battle-gear.svg",
       "system": {
         "description": {
           "value": "<p>Acolytes of Shadow archetype feature (level 6).</p><p>While in dim light or darkness, when you are targeted by an invocation or spell, you can spend your reaction to make a Wisdom saving throw with DC equal to the caster's invocation or spell save DC. If you succeed, choose another creature within 10 feet of you. That creature takes any damage and suffers any other effects that you would have suffered</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 121.</em></p>",
@@ -6590,7 +6590,7 @@
       "_key": "!items!r603caf98a9a225d",
       "name": "Gravitational Rift",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/battle-gear.svg",
       "system": {
         "description": {
           "value": "<p>Acolytes of Shadow archetype feature (level 6).</p><p>While in dim light or darkness, you can spend your action to emit a field of gravity-distorting darkness in a sphere with a 5-foot-radius around you. An identical sphere is created around each of your shadow clones. For the next 5 minutes, or until you use a bonus action to dismiss it, this area of darkness follows you and your clones. Gravity in t</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 121.</em></p>",
@@ -6680,7 +6680,7 @@
       "_key": "!items!re202c8fa0ae0c9d",
       "name": "Tenebrous Treachery",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/battle-gear.svg",
       "system": {
         "description": {
           "value": "<p>Acolytes of Shadow archetype feature (level 6).</p><p>While in dim light or darkness, you can spend your action to seize control of the shadow of a creature within 30 feet of you or your shadow clone. You can immediately have that creature's shadow make an attack against the creature using one of the weapons that creature is wielding or an unarmed attack. You add your proficiency bonus to the attack r</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 123.</em></p>",
@@ -6757,7 +6757,7 @@
       "_key": "!items!re9d928a0587f0a6",
       "name": "Unwind the Threads",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/wind-slap.svg",
       "system": {
         "description": {
           "value": "<p>Acolytes of Shadow archetype feature (level 6).</p><p>While in dim light or darkness, after you fail a saving throw, you can spend your reaction to succeed on the saving throw instead. If you selected the brand of shifting night, you can also teleport as if you had just used that feature. Once you use this feature, you can't use it again until you complete a short or long rest.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 123.</em></p>",
@@ -6834,7 +6834,7 @@
       "_key": "!items!r093b41c43965439",
       "name": "Vengeful Shadows",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/cultist.svg",
       "system": {
         "description": {
           "value": "<p>Acolytes of Shadow archetype feature (level 6).</p><p>While in dim light or darkness, when you or your shadow clone would take damage, you can use your reaction to roll a number of d4s equal to your proficiency bonus. Reduce the damage you take by that amount + your Wisdom modifier. If the source of the damage is a creature within 100 feet, it then takes cold damage equal to the amount of damage preve</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 123.</em></p>",
@@ -6911,7 +6911,7 @@
       "_key": "!items!r0d9bff9fe47a4f8",
       "name": "Weapon of Shadow",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/cultist.svg",
       "system": {
         "description": {
           "value": "<p>Acolytes of Shadow archetype feature (level 6).</p><p>While in dim light or darkness, you can spend a bonus action to draw a blade of hungering unmaking into your hand. This weapon can be any weapon in which you are proficient. When you make an attack with this weapon, you gain a bonus to hit equal to your Wisdom modifier. If the weapon becomes separated from you, you can spend a bonus action to resum</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 123.</em></p>",
@@ -6988,7 +6988,7 @@
       "_key": "!items!r51bd3b7dc306b8d",
       "name": "Seething Shadows",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/cultist.svg",
       "system": {
         "description": {
           "value": "<p>Acolytes of Shadow archetype feature (level 11).</p><p>At 9th level, you exude wrath when the universe scorns you. Once per round when you roll a 1 on any die, you can choose one creature within 5 feet of at least one of your shadow clones. It suffers 1d4 psychic damage per clone within 10 feet of it, and an additional 1d8 psychic damage if you are also within 10 feet of it.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 123.</em></p>",
@@ -7050,7 +7050,7 @@
       "_key": "!items!r11fb79b133a9bc3",
       "name": "Deepening Shadows",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/cultist.svg",
       "system": {
         "description": {
           "value": "<p>Acolytes of Shadow archetype feature (level 11).</p><p>At 14th level, you may choose to gain another shadow brand or to enhance your existing one. If you choose to gain another shadow brand, gain the other brand option you did not choose at 1st level. If you choose to enhance your existing brand, you gain the following effect depending on your initial choice. Brand of Dire Might: Nightmare Incarnation </p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 123.</em></p>",
@@ -7125,7 +7125,7 @@
       "_key": "!items!re2689824c9b7a6b",
       "name": "Void Storm",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/wind-slap.svg",
       "system": {
         "description": {
           "value": "<p>Acolytes of Shadow archetype feature (level 20).</p><p>At 20th level, your strikes draw the target ever-onward to the teetering brink of the abyss. When you roll a result of 1 on a damage die, you deal an additional 1d4 cold damage. If that die also results in a 1, you repeat this process until you roll another result. Once you use this feature, you can't use it again until you complete a short or long</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 123.</em></p>",
@@ -7202,7 +7202,7 @@
       "_key": "!items!r90bcfc0b0607d64",
       "name": "Heavy Armor Proficiency",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/lamellar.svg",
       "system": {
         "description": {
           "value": "<p>Protector archetype feature (level 3).</p><p>Starting at 3rd level, you gain proficiency in heavy armor.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 51.</em></p>",
@@ -7258,7 +7258,7 @@
       "_key": "!items!r14e093dc9df1b6f",
       "name": "Oak Stance",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/guards.svg",
       "system": {
         "description": {
           "value": "<p>Protector archetype feature (level 3). This feature grants a combat stance (toggle its effect to adopt it; see description).</p><p>Starting at 3rd level, you master a new stance, described below. Oak Stance You keep a wide stance that reduces your mobility but lets you shield yourself and your comrades. Stance Effects: You and each other friendly creature within 10 feet gain a +1 bonus to Armor Class. A creature can't benefit from multiple increas</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 51.</em></p>",
@@ -7296,7 +7296,7 @@
       "_key": "!items!r5ce5f899dfc0036",
       "name": "Swift Intercession",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/run.svg",
       "system": {
         "description": {
           "value": "<p>Protector archetype feature (level 5).</p><p>Starting at 5th level, you become adept at putting yourself between your allies and harm. You gain the swift intercession martial technique, below. Swift Intercession Seeing an ally in peril, you heroically leap forward to take the blow on their behalf. Activation Time: 1 reaction Focus Cost: 1+ (you must spend at leas</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 51.</em></p>",
@@ -7358,7 +7358,7 @@
       "_key": "!items!rb4534614a3fb6c3",
       "name": "Vengeful Guardian",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/guards.svg",
       "system": {
         "description": {
           "value": "<p>Protector archetype feature (level 7).</p><p>Starting at 7th level, you deliver doom to those who harm your allies. When you enter Mountain stance or use your swift intercession martial technique, you can designate a friendly creature within 10 feet as protected by you. You can have only one creature designated as protected by you at a time. Whenever a creature p</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 52.</em></p>",
@@ -7396,7 +7396,7 @@
       "_key": "!items!r99f352162bff847",
       "name": "Hard to Ignore",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/battle-gear.svg",
       "system": {
         "description": {
           "value": "<p>Protector archetype feature (level 10).</p><p>Starting at 10th level, your battlefield presence demands attention. When you use your swift intercession martial technique, you inflict the provoked condition (disadvantage on attack rolls targeting creatures other than you) until the end of its next turn.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 52.</em></p>",
@@ -7434,7 +7434,7 @@
       "_key": "!items!r429c192f56980ce",
       "name": "Trampling Charge",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/battle-gear.svg",
       "system": {
         "description": {
           "value": "<p>Protector archetype feature (level 13).</p><p>Starting at 13th level, you are adept at moving in heavy wargear and throwing your weight around. When you take the Dash action or a use martial technique that causes you to move, if you are wearing heavy armor or wielding a heavy weapon, you overrun each creature that makes an opportunity attack against you. Immediate</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 52.</em></p>",
@@ -7472,7 +7472,7 @@
       "_key": "!items!r390b8f39c9f3c99",
       "name": "Legendary Determination",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/battle-gear.svg",
       "system": {
         "description": {
           "value": "<p>Protector archetype feature (level 18).</p><p>Starting at 18th level, your combat instincts and grit kick in when your life is in peril. When you succeed on a death saving throw or suffer a critical hit, you can spend any number of Hit Dice. Roll those Hit Dice and immediately regain hit points equal to their total result. Then you gain focus points equal to the h</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 52.</em></p>",
@@ -7510,7 +7510,7 @@
       "_key": "!items!rd0addcf632be8f3",
       "name": "Thicket Stance",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/guards.svg",
       "system": {
         "description": {
           "value": "<p>Vanguard archetype feature (level 3). This feature grants a combat stance (toggle its effect to adopt it; see description).</p><p>Starting at 3rd level, you master a new stance, described below. Thicket Stance You set a stance that lets you quickly switch between weapons and foes, presenting threats in all directions. Stance Effects: When you perform the Attack action or use a martial technique, you can use your bonus action make an attack agains</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 52.</em></p>",
@@ -7572,7 +7572,7 @@
       "_key": "!items!r78cfc4548a51063",
       "name": "Saving Throw Proficiency",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/battle-gear.svg",
       "system": {
         "description": {
           "value": "<p>Vanguard archetype feature (level 3).</p><p>At 3rd level, you gain proficiency in Dexterity saving throws.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 52.</em></p>",
@@ -7628,7 +7628,7 @@
       "_key": "!items!rc17d2ce334823e9",
       "name": "Versatility of Form",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/battle-gear.svg",
       "system": {
         "description": {
           "value": "<p>Vanguard archetype feature (level 5).</p><p>At 5th level, when you hit with a standard attack using a weapon that deals damage of a particular type (bludgeoning, piercing, or slashing), you can inflict a condition on a target of the attack: $ Devastating Force (Bludgeoning): The creature suffers the distracted condition (–2 AC, removed after it is hit by an atta</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 52.</em></p>",
@@ -7666,7 +7666,7 @@
       "_key": "!items!rbae5f542b89eb89",
       "name": "Coiling Serpent Grasp",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/snake.svg",
       "system": {
         "description": {
           "value": "<p>Vanguard archetype feature (level 7).</p><p>Starting at 7th level, you can swiftly and fluidly take control of weapons in battle. You gain the coiling serpent grasp martial technique, below.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 53.</em></p>",
@@ -7704,7 +7704,7 @@
       "_key": "!items!rf7724ee0e5988d7",
       "name": "Whirlwind Onslaught",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/sword-clash.svg",
       "system": {
         "description": {
           "value": "<p>Vanguard archetype feature (level 10).</p><p>At 10th level, you attack with an impressive fervor, spotting weaknesses to dispatch several foes in quick succession. At the end of your turn, you can use this feature to have each creature you attacked this turn suffer the marked for death condition (your next successful melee attack against it deals an additional 1d</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 53.</em></p>",
@@ -7781,7 +7781,7 @@
       "_key": "!items!re3d61bbb3ceafd2",
       "name": "Stance Mastery",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/upgrade.svg",
       "system": {
         "description": {
           "value": "<p>Vanguard archetype feature (level 13).</p><p>Starting at 13th level, you master one additional combat stance from the bushi list. Additionally, at the start of your turn, you can assume a new stance as a free action. After you assume a new stance this way, you cannot do so again until you have completed a short or long rest.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 53.</em></p>",
@@ -7858,7 +7858,7 @@
       "_key": "!items!r77da4a9def70b33",
       "name": "Lead by Example",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/battle-gear.svg",
       "system": {
         "description": {
           "value": "<p>Vanguard archetype feature (level 18).</p><p>Starting at 18th level, you call targets with expert precision for your allies to fell. When a friendly creature who can perceive you hits a creature you have marked for death, the target takes 1d8 additional force damage. This does not remove your marked for death condition. Coiling Serpent Grasp With deft handwork, y</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 53.</em></p>",
@@ -7920,7 +7920,7 @@
       "_key": "!items!rbad92521c069224",
       "name": "Defensive Proficiency",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/guards.svg",
       "system": {
         "description": {
           "value": "<p>Samurai Armsmaster archetype feature (level 3).</p><p>At 3rd level, you have been trained in wearing the lacquered armor used by many of Rokugan's samurai. Gain proficiency in lacquered armor (see page 189) and Dexterity saving throws. The Six Great Weapons of Akodo At 3rd level, your technique is flawless when wielding the six traditional weapons of Rokugani warfare: the</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 50.</em></p>",
@@ -7977,7 +7977,7 @@
       "_key": "!items!rcd2ab74222d82ab",
       "name": "Heroic Presence",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/sword-brandish.svg",
       "system": {
         "description": {
           "value": "<p>Samurai Armsmaster archetype feature (level 5).</p><p>At 5th level, you become adept at inspiring others to follow you on the field through your courageous deeds. When you reduce a creature to 0 hit points with a weapon attack, you can have each friendly character who can perceive you gain temporary hit points equal to the creature's number of hit dice plus your Charisma </p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 50.</em></p>",
@@ -8015,7 +8015,7 @@
       "_key": "!items!r9684c4d8f6313d1",
       "name": "Martial Regimen",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/battle-gear.svg",
       "system": {
         "description": {
           "value": "<p>Samurai Armsmaster archetype feature (level 7).</p><p>At 7th level, you have honed your body and mind to peak fighting condition. You become proficient in animal handling, athletics, and history, and double your proficiency bonus for these skills.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 51.</em></p>",
@@ -8053,7 +8053,7 @@
       "_key": "!items!r77cd3005ce4593b",
       "name": "Honed Senses",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/battle-gear.svg",
       "system": {
         "description": {
           "value": "<p>Samurai Armsmaster archetype feature (level 10).</p><p>At 10th level, your training lets you react to danger instinctively. At the start of any combat encounter, before the first character acts, you can perform a Dodge action. You can do this even if you are surprised. Commander's Call At 13th level, you become skilled at giving orders while even as you strike down your fo</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 51.</em></p>",
@@ -8115,7 +8115,7 @@
       "_key": "!items!rf320ae00aff197f",
       "name": "Severing Cut",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/katana.svg",
       "system": {
         "description": {
           "value": "<p>Blademaster archetype feature (level 3).</p><p>Starting at 3rd level, your honed form makes your strikes especially lethal. When you are wielding a weapon in two hands, you gain a bonus to damage rolls with that weapon equal to your Wisdom modifier. If that weapon is versatile, you also inflict a critical hit on a roll of 19 or 20. 60 CHAPTER 2: CL ASSES</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 60.</em></p>",
@@ -8153,7 +8153,7 @@
       "_key": "!items!r0eb330995197745",
       "name": "Heron Stance",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/feather.svg",
       "system": {
         "description": {
           "value": "<p>Blademaster archetype feature (level 3). This feature grants a combat stance (toggle its effect to adopt it; see description).</p><p>At 3rd level, you master the following stance: Heron Stance You assume a stance that lets you counterattack with lethal elegance, seizing the brief gap in your foe's attacks to deliver a telling cut. Stance Effects: You gain a +1 bonus to your Armor Class. After a creature you can perceive misses you with an attack, yo</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 61.</em></p>",
@@ -8215,7 +8215,7 @@
       "_key": "!items!r64d73d239e92e3e",
       "name": "Signature Strike",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/fist.svg",
       "system": {
         "description": {
           "value": "<p>Blademaster archetype feature (level 7).</p><p>At 7th level, your skill with a single martial technique becomes exceptionally keen. Choose a martial technique you know. When you resolve the effect and bonus effects of that martial technique, you can resolve them as if you had spent 2 additional focus points. You must still pay the base focus point cost to use the t</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 61.</em></p>",
@@ -8253,7 +8253,7 @@
       "_key": "!items!r1d01fd66da3c89f",
       "name": "Know Death without Fear",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/grim-reaper.svg",
       "system": {
         "description": {
           "value": "<p>Blademaster archetype feature (level 11).</p><p>At 11th level, you have been in many life-and-death battles and are well acquainted with mortality. When you are forced to make a Wisdom saving throw during a combat encounter or duel, you can spend your reaction to automatically succeed as if you had rolled a 20. If you do, you immediately gain focus points equal to y</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 61.</em></p>",
@@ -8330,7 +8330,7 @@
       "_key": "!items!re1c94a16f3a64c1",
       "name": "Matchless Reflexes",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/fast-forward-button.svg",
       "system": {
         "description": {
           "value": "<p>Blademaster archetype feature (level 18).</p><p>At 18th level, your reaction speed becomes almost peerless among mortals. When you make a Dexterity check for initiative, the roll has advantage. Additionally, when you roll a 19 or 20 on your initiative roll, you immediately gain 1d4 focus points, and can act in a surprise round at the start of the combat (even if you</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 61.</em></p>",
@@ -8392,7 +8392,7 @@
       "_key": "!items!rd96b228e83d0f2f",
       "name": "Battlefield Training",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/water-drop.svg",
       "system": {
         "description": {
           "value": "<p>Adept archetype feature (level 3).</p><p>Starting at 3rd level, your experience in skirmishes lets you maneuver and duel more effectively in armor. You gain proficiency in light and medium armor.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 61.</em></p>",
@@ -8430,7 +8430,7 @@
       "_key": "!items!r15795f461b3e173",
       "name": "Dual Strikes",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/fist.svg",
       "system": {
         "description": {
           "value": "<p>Adept archetype feature (level 3).</p><p>Starting at 3rd level, you develop your ability to wield heavier weapons in tandem. When you engage in two-weapon fighting, you can treat one versatile weapon you wield as being light as long as the other weapon you wield is light. Additionally, you treat them as having the paired property (allowing you to add your pro</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 61.</em></p>",
@@ -8468,7 +8468,7 @@
       "_key": "!items!r24dd5ef8ff15aa0",
       "name": "Dragon Stance",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/dragon-head.svg",
       "system": {
         "description": {
           "value": "<p>Adept archetype feature (level 3). This feature grants a combat stance (toggle its effect to adopt it; see description).</p><p>At 3rd level, you master the following stance. Dragon Stance The dragon presents a threat with its head and with its tail, and so too does your stance allow you to menace your foes with both your main and offhand weapon, or even a single weapon used alongside a bare hand. Stance Effect: When a creature you can perceive</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 61.</em></p>",
@@ -8530,7 +8530,7 @@
       "_key": "!items!r800162091f8b19e",
       "name": "Improvised Attacks",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/sword-clash.svg",
       "system": {
         "description": {
           "value": "<p>Adept archetype feature (level 3).</p><p>Starting at 3rd level, you can wield objects found in your environment to deadly effect. As a bonus action on your turn, you can choose one weapon-shaped item you are holding and spend 1 focus point. Treat that item as a martial melee weapon of your choice until the end of the encounter. On the first attack you make wi</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 61.</em></p>",
@@ -8592,7 +8592,7 @@
       "_key": "!items!r691d91be0c98c1c",
       "name": "Calculated Ferocity",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/battle-gear.svg",
       "system": {
         "description": {
           "value": "<p>Adept archetype feature (level 5).</p><p>Starting at 5th level, you can angle your attacks to open your opponent's guard and expose them to even deadlier strikes. When you attack a creature that you have already attacked at least once this turn, you gain a bonus to damage equal to your Intelligence modifier.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 61.</em></p>",
@@ -8630,7 +8630,7 @@
       "_key": "!items!r5af4dfbfb8d71e2",
       "name": "Mind Like Bared Steel",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/brain.svg",
       "system": {
         "description": {
           "value": "<p>Adept archetype feature (level 7).</p><p>Starting at 7th level, you become extremely difficult to take unawares, and you see patterns as they form. Increase your passive Perception score by your Intelligence modifier. Additionally, when a creature you are dueling uses the same martial technique, invocation, spell, or externalization during two consecutive rou</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 61.</em></p>",
@@ -8668,7 +8668,7 @@
       "_key": "!items!r75cc2ba9ad1bc88",
       "name": "Stance Mastery",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/upgrade.svg",
       "system": {
         "description": {
           "value": "<p>Adept archetype feature (level 11).</p><p>Starting at 11th level, you master one additional combat stance from the duelist list. Additionally, at the start of your turn, you can assume a new stance as a free action. After you assume a new stance this way, you cannot do so again until you have completed a short or long rest.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 53.</em></p>",
@@ -8745,7 +8745,7 @@
       "_key": "!items!r6dd4c3838dac55c",
       "name": "Flow of Battle",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/water-drop.svg",
       "system": {
         "description": {
           "value": "<p>Adept archetype feature (level 18).</p><p>Starting at 18th level, your uncanny sense of tempo allows you to press the attack unexpectedly. On your turn, if you have 0 focus points, you can perform one martial technique you know without spending focus points, resolving it as if you spent focus points equal to your Intelligence modifier. After you use this featu</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 61.</em></p>",
@@ -8822,7 +8822,7 @@
       "_key": "!items!r0285cbb0c9704a2",
       "name": "Confident Demeanor",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/battle-gear.svg",
       "system": {
         "description": {
           "value": "<p>Deathdancer archetype feature (level 3).</p><p>Starting at 3rd level, you become skilled at maintaining an air of braggadocio or icy competence as the situation demands. You gain proficiency on Charisma saving throws.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 63.</em></p>",
@@ -8878,7 +8878,7 @@
       "_key": "!items!rb6cca9b1b587f32",
       "name": "Edge of Fear",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/battle-gear.svg",
       "system": {
         "description": {
           "value": "<p>Deathdancer archetype feature (level 3).</p><p>Starting at 3rd level, you study the ways of using fear to your advantage in battle. While you are dueling, when your foe would be assigned a d6 danger die, that foe is assigned a d8 danger die instead if it is not frightened of you, or a d10 danger die instead if it is frightened of you.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 63.</em></p>",
@@ -8916,7 +8916,7 @@
       "_key": "!items!r9837f886039ce93",
       "name": "Spider Stance",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/spider-alt.svg",
       "system": {
         "description": {
           "value": "<p>Deathdancer archetype feature (level 3). This feature grants a combat stance (toggle its effect to adopt it; see description).</p><p>At 3rd level, you master the following stance. Spider Stance You adopt a neutral stance that projects almost undue confidence, forcing your foe to consider complex patterns of attack you might take and where you could have set deadly snares for them in your footwork, your balance, or the wielding of your blade. Stance </p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 63.</em></p>",
@@ -8954,7 +8954,7 @@
       "_key": "!items!raefa7e625eb94bf",
       "name": "Encroaching Dismay",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/battle-gear.svg",
       "system": {
         "description": {
           "value": "<p>Deathdancer archetype feature (level 5).</p><p>Starting at 5th level, you become skilled at turning your foes' trepidation into dread, and even unnatural creatures pause at your presence. If you aren't proficient in Intimidation, you become proficient in it. You double your proficiency bonus for Charisma (Intimidation) checks. Further, creatures within 5 feet of yo</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 63.</em></p>",
@@ -9016,7 +9016,7 @@
       "_key": "!items!raea0ea02d9b0b2b",
       "name": "Prey on Panic",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/battle-gear.svg",
       "system": {
         "description": {
           "value": "<p>Deathdancer archetype feature (level 7).</p><p>Starting at 7th level, you learn to take full advantage of your target's fear. When you attack a frightened creature, you gain a bonus to your damage roll equal to your Charisma modifier. Additionally, whenever you cause a creature you are dueling to become frightened, it gains two d10 danger dice.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 63.</em></p>",
@@ -9054,7 +9054,7 @@
       "_key": "!items!r0e1b604e8467527",
       "name": "Gruesome End",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/battle-gear.svg",
       "system": {
         "description": {
           "value": "<p>Deathdancer archetype feature (level 11).</p><p>Starting at 11th level, you don't just end a fight, you send a message. When you make a weapon attack that inflicts a critical strike or reduces one or more creatures to 0 hit points, you can spend your bonus action to have each hostile creature that can perceive you make a Wisdom saving throw with DC equal to 10 + you</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 63.</em></p>",
@@ -9129,7 +9129,7 @@
       "_key": "!items!r4e70af17e347287",
       "name": "Dread Enforcer",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/muscle-up.svg",
       "system": {
         "description": {
           "value": "<p>Deathdancer archetype feature (level 18).</p><p>Starting at 18th level, your presence thoroughly unnerves even things that should not fear. Creatures within 50 feet that can perceive you lose condition immunity to being frightened by you. Additionally, when a frightened creature makes an opportunity attack against you, you can choose whether the attack hits or misse</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 63.</em></p>",
@@ -9167,7 +9167,7 @@
       "_key": "!items!rc35cce7b87655f9",
       "name": "Align Interests",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/battle-gear.svg",
       "system": {
         "description": {
           "value": "<p>Diplomat archetype feature (level 3).</p><p>Starting at 3rd level, you can sweep others along with your force of personality. You gain the following scheme flourish (increasing your number of known flourishes to four): 73 Align Interests (scheme, action). You can sway others with sheer strength of rhetoric and confidence, convincing them that a particular course</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 73.</em></p>",
@@ -9205,7 +9205,7 @@
       "_key": "!items!rf6b3f1cbced15b1",
       "name": "Stirring Words",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/scroll-unfurled.svg",
       "system": {
         "description": {
           "value": "<p>Diplomat archetype feature (level 3).</p><p>Starting at 3rd level, you exude a certainty of purpose that bolsters yourself and your allies. You gain proficiency on Charisma saving throws. Additionally, when all of your intrigue dice are spent, you can still perform the timely advice flourish, rolling a d4 in place of an intrigue die. You cannot recover intrigue </p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 74.</em></p>",
@@ -9261,7 +9261,7 @@
       "_key": "!items!r202aa4f8926b34b",
       "name": "Steady Reassurance",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/battle-gear.svg",
       "system": {
         "description": {
           "value": "<p>Diplomat archetype feature (level 6).</p><p>Starting at 6th level, when you use a support flourish, each creature you affect gains additional temporary hit points equal to your Wisdom modifier. Additionally, each disoriented, distracted, frightened, or provoked creature you affect this way can immediately make a DC 15 Wisdom saving throw. On success, it removes </p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 74.</em></p>",
@@ -9299,7 +9299,7 @@
       "_key": "!items!rb5392b49b8b8ffd",
       "name": "Forceful Oration",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/muscle-up.svg",
       "system": {
         "description": {
           "value": "<p>Diplomat archetype feature (level 9).</p><p>Starting at 9th level, you know the subtle social levers to control the flow of a conversation or a battle, building your argument step by step. When performing a rhetorical flourish, if you roll two or more intrigue dice, you can choose one intrigue die and remove it from the roll, then add an amount equal to its resu</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 74.</em></p>",
@@ -9376,7 +9376,7 @@
       "_key": "!items!re9d4ab8843a6361",
       "name": "Overwhelming Charisma",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/battle-gear.svg",
       "system": {
         "description": {
           "value": "<p>Diplomat archetype feature (level 17).</p><p>Starting at 17th level, your persuasion becomes very hard to resist. Any creature charmed by you is not only unwilling to attack you, but is also willing to act to help you (as long as it doesn't clearly hurt that creature or directly conflict with its motivation). At their discretion, the GM may call for additional De</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 74.</em></p>",
@@ -9414,7 +9414,7 @@
       "_key": "!items!rdf0707a01b7bcec",
       "name": "Betray the Heart",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/battle-gear.svg",
       "system": {
         "description": {
           "value": "<p>Investigator archetype feature (level 3).</p><p>Starting at 3rd level, you can learn volumes about a person by studying them. You gain the following intuition flourish (increasing your number of known flourishes to four): Eyes Betray the Heart (intuition, reaction). When a creature you perceive takes an action or makes a statement, you can attempt to learn key detai</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 74.</em></p>",
@@ -9452,7 +9452,7 @@
       "_key": "!items!rd26f713e1e12ab2",
       "name": "Analytical Approach",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/battle-gear.svg",
       "system": {
         "description": {
           "value": "<p>Investigator archetype feature (level 3).</p><p>At 3rd level you are skilled at analyzing and formulating plans of attack to best exploit weaknesses. You gain proficiency in Intelligence saving throws. Additionally, for each unique clue you have discovered about a creature this encounter, you increase the damage bonus provided by your Strategic Opening feature by 1.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 74.</em></p>",
@@ -9508,7 +9508,7 @@
       "_key": "!items!r16d052c492d8ada",
       "name": "Deadly Flaw",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/grim-reaper.svg",
       "system": {
         "description": {
           "value": "<p>Investigator archetype feature (level 9).</p><p>Starting at 9th level, you find the subtle ways in which even seemingly invulnerable foes can be felled. As an action, if you have gathered three or more unique clues about a creature this encounter, you can reveal a key flaw in its defense. Choose a damage type. If it has immunity to that damage type, it loses it and </p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 74.</em></p>",
@@ -9546,7 +9546,7 @@
       "_key": "!items!r4ea5c306351825a",
       "name": "Insufferably Correct",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/battle-gear.svg",
       "system": {
         "description": {
           "value": "<p>Investigator archetype feature (level 14).</p><p>Starting at 14th level, your mental acumen is uncanny and you can draw accurate conclusions from seemingly inconsequential details. When you use an intuition rhetorical flourish, for each result of 8 or higher among your intrigue dice, you learn one additional clue from the list, even if you fail the check to gain info</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 74.</em></p>",
@@ -9584,7 +9584,7 @@
       "_key": "!items!rfa2a22b89ec2d59",
       "name": "Logical Conclusion",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/battle-gear.svg",
       "system": {
         "description": {
           "value": "<p>Investigator archetype feature (level 17).</p><p>Starting at 17th level, you can predict your foes once you've unraveled their motivations. When you know a creature's motivation, you gain a bonus to your Armor Class against its attacks and your saving throws against its effects equal to 2 + the number of clues you have uncovered about it this encounter. Additionally,</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 74.</em></p>",
@@ -9622,7 +9622,7 @@
       "_key": "!items!rd373b9f72c45d94",
       "name": "Acute Recall",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/katana.svg",
       "system": {
         "description": {
           "value": "<p>Infiltrator archetype feature (level 3).</p><p>Starting at 3rd level, you have trained your mind to perfectly recall details such as troop amounts, guard patrol routes, castle layouts, and the contents of documents that you have seen or read at least once. Additionally, you notice and can imitate even the most minor mannerisms and regional speech patterns from indi</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 82.</em></p>",
@@ -9660,7 +9660,7 @@
       "_key": "!items!r489612d6c734d7a",
       "name": "Hide in Plain Sight",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/all-seeing-eye.svg",
       "system": {
         "description": {
           "value": "<p>Infiltrator archetype feature (level 3).</p><p>Starting at 3rd level, you become excellent at blending into a crowd or maintaining a hidden identity. You gain proficiency in Charisma saving throws, and you can add your Charisma modifier to your Dexterity (Stealth) checks to hide in crowded areas. Additionally, your proficiency bonus is doubled when making checks to</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 82.</em></p>",
@@ -9716,7 +9716,7 @@
       "_key": "!items!rf6fbddd54807d40",
       "name": "Overwhelming Assault",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/sword-clash.svg",
       "system": {
         "description": {
           "value": "<p>Infiltrator archetype feature (level 3).</p><p>Starting at 3rd level, you give opponents little to no time to react when ambushing them. When you make an attack against a creature that isn't aware of your presence, views you as an ally, or when attacking a creature in the first round of combat or during a surprise round, that creature must make a Wisdom saving thro</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 82.</em></p>",
@@ -9754,7 +9754,7 @@
       "_key": "!items!r0f905ff0f2a840a",
       "name": "Interrogation Resistance",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/guards.svg",
       "system": {
         "description": {
           "value": "<p>Infiltrator archetype feature (level 9).</p><p>At 9th level, you have trained your mind to resist persuasion, mind altering effects, and sorcerous deceptions. You can add your Charisma modifier when making saving throws against effects that would modify your memories, charm you, put you to sleep, force you to tell the truth, detect you, cause you to believe illusio</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 82.</em></p>",
@@ -9792,7 +9792,7 @@
       "_key": "!items!r83514115bb4d72a",
       "name": "Deflect Suspicion",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/battle-gear.svg",
       "system": {
         "description": {
           "value": "<p>Infiltrator archetype feature (level 13).</p><p>At 13th level, you are skilled at forging documents, spreading rumors, and creating subtle clues that lead people to conclusions of your own design. Your proficiency bonus is doubled when creating forgeries, spreading rumors, planting evidence, or threatening others with blackmail. Additionally, when you roll initiativ</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 82.</em></p>",
@@ -9830,7 +9830,7 @@
       "_key": "!items!re200c9a4a5e7eb0",
       "name": "Disappearing Act",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/battle-gear.svg",
       "system": {
         "description": {
           "value": "<p>Infiltrator archetype feature (level 18).</p><p>At 18th level, you get away clean after finishing your work. Once per turn, when you reduce a creature that you had marked for death to 0 hit points, you can immediately move up to half your speed. You do not provoke opportunity attacks with this movement, and if you end in a location of dim light, darkness, or other o</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 82.</em></p>",
@@ -9868,7 +9868,7 @@
       "_key": "!items!r1c43158fef08055",
       "name": "Deadly Preparations",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/grim-reaper.svg",
       "system": {
         "description": {
           "value": "<p>Saboteur archetype feature (level 3).</p><p>At 3rd level, your machinations are especially pernicious, your traps laden with multiple toxins and your devices prepared with fail-safes. You gain proficiency making Intelligence saving throws. Additionally, when a creature makes a saving throw against your ninjutsu save DC, before it rolls, you can increase the DC b</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 83.</em></p>",
@@ -9963,7 +9963,7 @@
       "_key": "!items!r7a61964a9025ccf",
       "name": "Contingency Plans",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/battle-gear.svg",
       "system": {
         "description": {
           "value": "<p>Saboteur archetype feature (level 3).</p><p>Starting at 3rd level, you develop a habit of preparing secret traps and supply stashes. You can use your reaction to reveal that you had previously placed a trap or device from the contingency plan list. This trap or device must be in a location within 100 feet of you. You can only use this feature at locations in whi</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 83.</em></p>",
@@ -10025,7 +10025,7 @@
       "_key": "!items!rf595e4f11c30bff",
       "name": "Assassination Preference",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/battle-gear.svg",
       "system": {
         "description": {
           "value": "<p>Saboteur archetype feature (level 9).</p><p>At 9th level, you develop a specialization in trapping and hunting certain types of foes. When you gain this feature, choose between: beasts, Lost creatures, undead, or samurai from one of the Great Clans of your choice. Your weapon attacks score critical hits on a roll of 18, 19, or 20 when attacking targets of the ch</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 84.</em></p>",
@@ -10063,7 +10063,7 @@
       "_key": "!items!r3a7dc83738e7e2e",
       "name": "Mystic Arsenal",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/battle-gear.svg",
       "system": {
         "description": {
           "value": "<p>Artisan archetype feature (level 5).</p><p>Starting at 5th level, you can have up to two additional magic items (such as awakened items, described on page 213) attuned to you. At 20th level, this increases to four additional magic items.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 94.</em></p>",
@@ -10101,7 +10101,7 @@
       "_key": "!items!r81bfc2bb2ba3652",
       "name": "Stir the Spirit",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/meditation.svg",
       "system": {
         "description": {
           "value": "<p>Artisan archetype feature (level 9).</p><p>Starting at 9th level, you can help to awaken the spirit within an item by regaling it with tales of the achievements its wielder accomplished with its help. This allows you to enhance items into awakened items (see page 213). Whenever you or another player character gains a level, they can designate one weapon, armor,</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 94.</em></p>",
@@ -10139,7 +10139,7 @@
       "_key": "!items!rf6833d967738c3c",
       "name": "Elemental Alignment",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/brain.svg",
       "system": {
         "description": {
           "value": "<p>Elementalist archetype feature (level 3).</p><p>Select an elemental alignment: Air, Earth, Fire, or Water. When you spend 2 or more favor on an invocation of this element, you gain bonus 1 favor to spend to empower that invocation's effects. At 9th level, you can choose a second elemental alignment.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 94.</em></p>",
@@ -10177,7 +10177,7 @@
       "_key": "!items!rd5ed2611f38f196",
       "name": "Rhythm of Elements",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/battle-gear.svg",
       "system": {
         "description": {
           "value": "<p>Elementalist archetype feature (level 5).</p><p>At 5th level, you have studied the flow of the elements and how they change states and flow into one another. After you perform an invocation, you can perform another invocation by spending 1 favor and a bonus action. The second invocation can't share the element of the first. After you use this feature, you can't use </p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 94.</em></p>",
@@ -10254,7 +10254,7 @@
       "_key": "!items!r414c66805d53b93",
       "name": "Forceful Dismissal",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/muscle-up.svg",
       "system": {
         "description": {
           "value": "<p>Elementalist archetype feature (level 13).</p><p>At 13th level, you can break the mystic concentration of others with your own words of power. When a creature you can perceive performs an invocation or spell within 60 feet of you, you can spend your reaction and a number of favor up to your Intelligence modifier. The creature must make a Constitution saving throw wit</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 94.</em></p>",
@@ -10344,7 +10344,7 @@
       "_key": "!items!r9cc7f7828cd2bfe",
       "name": "Interconnected Understanding",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/battle-gear.svg",
       "system": {
         "description": {
           "value": "<p>Elementalist archetype feature (level 20).</p><p>At 20th level, you can perfectly perceive how the elements flow into one another. Whenever you perform an invocation, if it has a different element from the last invocation you performed this encounter, you gain 2 bonus favor to spend on its empowerments.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 94.</em></p>",
@@ -10382,7 +10382,7 @@
       "_key": "!items!r299fcd4a702b2d2",
       "name": "Spiritual Guardian",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/guards.svg",
       "system": {
         "description": {
           "value": "<p>Medium archetype feature (level 5).</p><p>Starting at 5th level, friendly spirits are especially inclined to protect and aid you—and you can use some of your own life force to sustain them. When you are targeted by an attack, you can spend your reaction to have one of your summoned creatures or your animal companion (see the feat on page 232) within 5 feet int</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 94.</em></p>",
@@ -10444,7 +10444,7 @@
       "_key": "!items!rdc92bd32507aa7f",
       "name": "Quiet Rest",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/battle-gear.svg",
       "system": {
         "description": {
           "value": "<p>Medium archetype feature (level 13).</p><p>Starting at 13th level, you become especially adept at soothing spirits, which you can use to heal spiritual allies or set troubled specters to rest. When one of your invocations heals or deals damage to a beast, elemental, or undead creature, you can increase the healing or damage dealt by your Wisdom modifier.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 94.</em></p>",
@@ -10482,7 +10482,7 @@
       "_key": "!items!r14c6457d55837bd",
       "name": "Unison of Purpose",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/enlightenment.svg",
       "system": {
         "description": {
           "value": "<p>Medium archetype feature (level 20).</p><p>Starting at 20th level, creatures you have summoned to assist you can intuit your actions on the battlefield. On your turn, you can spend a bonus action to have each of your summoned creatures or your animal companion perform one of its actions or move up to its speed. 95 CHAPTER 2: CL ASSES Pilgrim On occasion, an ind</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 94.</em></p>",
@@ -10544,7 +10544,7 @@
       "_key": "!items!r97b323cf336a546",
       "name": "Chilling Strikes",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/fist.svg",
       "system": {
         "description": {
           "value": "<p>Path of Redemption archetype feature (level 3).</p><p>Starting at 3rd level, your strikes seem to linger, weighing down upon your foe's mind. When you make an unarmed attack, you can have it deal an additional 1d4 psychic damage. At 12th level, this increases to 1d6 additional psychic damage.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 106.</em></p>",
@@ -10582,7 +10582,7 @@
       "_key": "!items!r43c0ab2ce01d1bb",
       "name": "Flowing Defense",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/water-drop.svg",
       "system": {
         "description": {
           "value": "<p>Path of Redemption archetype feature (level 6).</p><p>At 6th level, your calm demeanor and elegant motions frustrate attackers. When a creature misses you with an attack, you can use your reaction, then spend and roll one Hit Die; on a result of 5 or higher, move your energy one step toward the Yang apex. Then the creature must make a Wisdom saving throw, adding the resul</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 106.</em></p>",
@@ -10657,7 +10657,7 @@
       "_key": "!items!r81e5373c0806cb8",
       "name": "Yin Specialization",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/battle-gear.svg",
       "system": {
         "description": {
           "value": "<p>Path of Redemption archetype feature (level 11).</p><p>Starting at 11th level, if your Yin value is higher than</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 106.</em></p>",
@@ -10695,7 +10695,7 @@
       "_key": "!items!r86406020ea570dd",
       "name": "Sage's Arsenal",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/battle-gear.svg",
       "system": {
         "description": {
           "value": "<p>Path of Harmony archetype feature (level 2).</p><p>At 2nd level, you gain greater insight into balancing your inner energy's tendencies towards both Yin and Yang. Cosmic Path Ability Modifier Your cosmic path ability modifier is Wisdom, which is used to calculate your externalization save DC (see page 101). New Externalizations You learn the entwine destiny and force o</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 107.</em></p>",
@@ -10733,7 +10733,7 @@
       "_key": "!items!ra8eb7e13a8f187d",
       "name": "Deep Reservoir",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/battle-gear.svg",
       "system": {
         "description": {
           "value": "<p>Path of Harmony archetype feature (level 3).</p><p>Starting at 3rd level, your pool of stamina refills much more quickly thanks to your endurance training. After you complete a short rest, you can recover two spent Hit Dice. At 12th level, this increases to four spent Hit Dice. 108 CHAPTER 2: CL ASSES</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 108.</em></p>",
@@ -10771,7 +10771,7 @@
       "_key": "!items!r4600d1f5ed799b1",
       "name": "One with the Elements",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/battle-gear.svg",
       "system": {
         "description": {
           "value": "<p>Path of Harmony archetype feature (level 6).</p><p>Starting at 6th level, you can resonate your energy with</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 109.</em></p>",
@@ -10809,7 +10809,7 @@
       "_key": "!items!r1097ed362e4fc2f",
       "name": "Blazing Strikes",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/fist.svg",
       "system": {
         "description": {
           "value": "<p>Path of Justice archetype feature (level 3).</p><p>At 3rd level, your strikes overflow with brilliant energy. When you make an unarmed attack, you can have it deal an additional 1d4 radiant damage. At 12th level, this increases to 1d6 additional radiant damage.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 111.</em></p>",
@@ -10847,7 +10847,7 @@
       "_key": "!items!rd614f60252a4e99",
       "name": "Forceful Defense",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/muscle-up.svg",
       "system": {
         "description": {
           "value": "<p>Path of Justice archetype feature (level 6).</p><p>At 6th level you have become especially adept at counterattacking. When a creature within 5 feet hits you with an attack, you can use your reaction spend and roll one Hit Die; move one step toward the Yin apex if its result is 5 or higher. Reduce the damage you take by the result of the Hit Die. Then you can make an un</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 111.</em></p>",
@@ -10909,7 +10909,7 @@
       "_key": "!items!r440abeb0c5075bd",
       "name": "Yang Specialization",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/battle-gear.svg",
       "system": {
         "description": {
           "value": "<p>Path of Justice archetype feature (level 11).</p><p>Starting at 11th level, if your Yang value is higher than your Yin value, when you use an externalization that rolls Hit Dice, you can replace one of the Hit Die with a d10. Starting at 20th level, you can replace up to two of the Hit Dice with d12s instead.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 111.</em></p>",

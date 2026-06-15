@@ -75,3 +75,9 @@ Module settings (under **Configure Settings → Adventures in Rokugan 5E**) incl
 ## Credits
 
 Adventures in Rokugan is published by Edge Studio / Fantasy Flight Games. This module is an unofficial, fan-made framework and is not affiliated with or endorsed by the publisher. You must own the *Adventures in Rokugan* book to use this module as intended.
+
+### Icons
+
+Compendium icons are from [game-icons.net](https://game-icons.net), used under the
+[Creative Commons Attribution 3.0 license](https://creativecommons.org/licenses/by/3.0/)
+(some are CC0). Icons made by: Carl Olsen, Delapouite, Lorc, Sbed, Skoll, Willdabeast.

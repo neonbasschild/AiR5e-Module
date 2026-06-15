@@ -37,7 +37,7 @@
       "_key": "!items!re9afff2add30b5b",
       "name": "Ancient Mountains Charm",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/stone-tower.svg",
       "system": {
         "description": {
           "value": "<p>Rank 1 charm. Blessing of the Fortune of Longevity. Offering to recharge at a shrine: 1 gp. Recharges on a long rest.</p><p>When another character damages you with an attack, use this charm and your reaction to reduce the damage by 1d6 + your proficiency bonus.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 217.</em></p>",
@@ -139,7 +139,7 @@
       "_key": "!items!re66139af196a54a",
       "name": "Discernment Charm",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/rabbit.svg",
       "system": {
         "description": {
           "value": "<p>Rank 1 charm. Blessing of the Fortune of Rhetoric and Performance. Offering to recharge at a shrine: 1 gp. Recharges on a long rest.</p><p>When another character you can perceive makes a Charisma check against you, use this charm to learn their motivation.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 217.</em></p>",
@@ -223,7 +223,7 @@
       "_key": "!items!r2c9d07241026367",
       "name": "Imbuement Charm",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/rabbit.svg",
       "system": {
         "description": {
           "value": "<p>Rank 1 charm. Blessing of the Fortune of Blessed Art. Offering to recharge at a shrine: 1 gp. Recharges on a long rest.</p><p>Use this charm and a bonus action to treat your weapon and unarmed attacks as magical for overcoming resistances and immunities until the end of your turn.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 217.</em></p>",
@@ -307,7 +307,7 @@
       "_key": "!items!rb28ad94f7afc2cd",
       "name": "Obstinacy Charm",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/rabbit.svg",
       "system": {
         "description": {
           "value": "<p>Rank 1 charm. Blessing of the Fortune of Wisdom and Mercy. Offering to recharge at a shrine: 1 gp. Recharges on a long rest.</p><p>If you are charmed or frightened, use this charm and a bonus action to remove that condition.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 217.</em></p>",
@@ -391,7 +391,7 @@
       "_key": "!items!r4e59f816a23ac4f",
       "name": "Preservation Charm",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/rabbit.svg",
       "system": {
         "description": {
           "value": "<p>Rank 1 charm. Blessing of the Fortune of Midday Sun. Offering to recharge at a shrine: 1 gp. Recharges on a long rest.</p><p>When you make a death saving throw, before rolling, use this charm to automatically succeed.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 217.</em></p>",
@@ -475,7 +475,7 @@
       "_key": "!items!r321f2b5a26015ff",
       "name": "Protection Charm",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/rabbit.svg",
       "system": {
         "description": {
           "value": "<p>Rank 1 charm. Blessing of the Fortune of Physical Mastery. Offering to recharge at a shrine: 1 gp. Recharges on a long rest.</p><p>Choose a damage type (bludgeoning, cold, fire, force, lightning, thunder) when acquired. Use this charm and your action to gain resistance to that type until the start of your next turn.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 217.</em></p>",
@@ -559,7 +559,7 @@
       "_key": "!items!r2fa2c2840c392ff",
       "name": "Purification Charm",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/rabbit.svg",
       "system": {
         "description": {
           "value": "<p>Rank 1 charm. Blessing of the Fortune of Clear Waters. Offering to recharge at a shrine: 1 gp. Recharges on a long rest.</p><p>If you are poisoned, use this charm and a bonus action to remove that condition.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 217.</em></p>",
@@ -643,7 +643,7 @@
       "_key": "!items!r0bc059cb9820b4b",
       "name": "Restoration Charm",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/health-potion.svg",
       "system": {
         "description": {
           "value": "<p>Rank 1 charm. Blessing of the Fortune of Healing and Medicine. Offering to recharge at a shrine: 1 gp. Recharges on a long rest.</p><p>When you are healed for 1+ hit points, use this charm to heal additional hit points equal to 1d6 + your proficiency bonus.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 217.</em></p>",
@@ -743,7 +743,7 @@
       "_key": "!items!reb3947fbea8d4f6",
       "name": "Drifting Cloud Charm",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/wind-slap.svg",
       "system": {
         "description": {
           "value": "<p>Rank 2 charm. Blessing of the Fortune of Open Skies. Offering to recharge at a shrine: 1 gp. Recharges on a long rest.</p><p>On your turn, spend this charm to increase one of your movement speeds by +5 feet until the end of your turn.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 217.</em></p>",
@@ -827,7 +827,7 @@
       "_key": "!items!r9984986f66254df",
       "name": "Flowing River Charm",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/water-drop.svg",
       "system": {
         "description": {
           "value": "<p>Rank 2 charm. Blessing of the Fortune of Longevity. Offering to recharge at a shrine: 5 gp. Recharges on a long rest.</p><p>Spend your action, this charm, and one Hit Die to regain hit points equal to that Hit Die's maximum value.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 217.</em></p>",
@@ -911,7 +911,7 @@
       "_key": "!items!r06fa130ebdc9dd8",
       "name": "Foresight Charm",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/all-seeing-eye.svg",
       "system": {
         "description": {
           "value": "<p>Rank 2 charm. Blessing of the Fortune of Fateful Encounters. Offering to recharge at a shrine: 5 gp. Recharges on a long rest.</p><p>After you use your reaction, spend this charm to gain an additional reaction before the start of your next turn.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 217.</em></p>",
@@ -995,7 +995,7 @@
       "_key": "!items!r72b47d656f3db73",
       "name": "Inner Strength Charm",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/muscle-up.svg",
       "system": {
         "description": {
           "value": "<p>Rank 2 charm. Blessing of the Fortune of Persistence. Offering to recharge at a shrine: 5 gp. Recharges on a long rest.</p><p>Choose favor or focus when acquired. On your turn, spend this charm to gain 1 of that resource.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 217.</em></p>",
@@ -1079,7 +1079,7 @@
       "_key": "!items!rbc8745c12ed90dc",
       "name": "Observation Charm",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/rabbit.svg",
       "system": {
         "description": {
           "value": "<p>Rank 2 charm. Blessing of the Fortune of Wisdom and Mercy. Offering to recharge at a shrine: 5 gp. Recharges on a long rest.</p><p>Spend a bonus action and this charm to learn the CR, AC, highest ability score, or motivation of a character you can perceive.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 217.</em></p>",
@@ -1163,7 +1163,7 @@
       "_key": "!items!r6e523ffb3c5acb5",
       "name": "Prosperity Charm",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/rabbit.svg",
       "system": {
         "description": {
           "value": "<p>Rank 2 charm. Blessing of the Fortune of Wealth. Offering to recharge at a shrine: 5 gp. Recharges on a long rest.</p><p>When acquiring money by any means other than payment for a job, receive 10% more.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 217.</em></p>",
@@ -1232,7 +1232,7 @@
       "_key": "!items!r9f002d673cc883a",
       "name": "Iron Skin Charm",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/stone-tower.svg",
       "system": {
         "description": {
           "value": "<p>Rank 3 charm. Blessing of the Fortune of Mountains and Caves. Narrative reward only; provides a passive benefit and a once-per-long-rest active benefit.</p><p>Passive: +1 AC. Active: use this charm and a bonus action to gain advantage on Con and Str saving throws until the start of your next turn.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 218.</em></p>",
@@ -1337,7 +1337,7 @@
       "_key": "!items!r4638d609850f400",
       "name": "Mastery Charm",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/upgrade.svg",
       "system": {
         "description": {
           "value": "<p>Rank 3 charm. Blessing of the Fortune of Craft. Narrative reward only; provides a passive benefit and a once-per-long-rest active benefit.</p><p>Choose an ability score when acquired; you gain proficiency in its saving throws. After failing a save of that type, use your reaction and this charm to gain temp HP equal to 2d8 + your proficiency bonus.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 218.</em></p>",
@@ -1421,7 +1421,7 @@
       "_key": "!items!r568700445633d29",
       "name": "Ultimate Imbuement Charm",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/rabbit.svg",
       "system": {
         "description": {
           "value": "<p>Rank 3 charm. Blessing of the Fortune of Blessed Art. Narrative reward only; provides a passive benefit and a once-per-long-rest active benefit.</p><p>Passive: your unarmed and weapon attacks count as magical. Active: when you hit with an attack, use this charm to increase the damage by 1d6 + your proficiency bonus.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 218.</em></p>",
@@ -1523,7 +1523,7 @@
       "_key": "!items!r4865de036f03af3",
       "name": "Ultimate Preservation Charm",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/rabbit.svg",
       "system": {
         "description": {
           "value": "<p>Rank 3 charm. Blessing of the Fortune of Midday Sun. Narrative reward only; provides a passive benefit and a once-per-long-rest active benefit.</p><p>Passive: you cannot be killed by Instant Death. Active: after you succeed on a death saving throw, use this charm to regain 1 hit point.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 218.</em></p>",
@@ -1607,7 +1607,7 @@
       "_key": "!items!r818fb1ee458eaee",
       "name": "Ultimate Protection Charm",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/rabbit.svg",
       "system": {
         "description": {
           "value": "<p>Rank 3 charm. Blessing of the Fortune of Physical Mastery. Narrative reward only; provides a passive benefit and a once-per-long-rest active benefit.</p><p>Passive: advantage on checks and saves to remove conditions. Active: on your turn, use this charm to remove one condition from yourself or a character within 15 feet.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 218.</em></p>",

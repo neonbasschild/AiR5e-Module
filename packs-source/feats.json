@@ -47,7 +47,7 @@
       "_key": "!items!r34615d91c15f88a",
       "name": "Clarity in Solace",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/brain.svg",
       "system": {
         "description": {
           "value": "<p>Prerequisite: You must be capable of performing invocations</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 222.</em></p>",
@@ -102,7 +102,7 @@
       "_key": "!items!r0cbac6686943969",
       "name": "Forbidden Sorcery",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/skills.svg",
       "system": {
         "description": {
           "value": "<p>Prerequisite: You must have a forbidden text or a practitioner of forbidden arts who can train you</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 222.</em></p>",
@@ -140,7 +140,7 @@
       "_key": "!items!r591de3613232501",
       "name": "Graceful Combatant",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/sword-brandish.svg",
       "system": {
         "description": {
           "value": "<p>Prerequisite: Dexterity 13 or higher</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 224.</em></p>",
@@ -196,7 +196,7 @@
       "_key": "!items!r0ca1f9097ea4950",
       "name": "Paragon",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/skills.svg",
       "system": {
         "description": {
           "value": "<p>Prerequisite: Charisma 13 or higher</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 224.</em></p>",
@@ -234,7 +234,7 @@
       "_key": "!items!rec9b9056ec89720",
       "name": "Shadowlands Might",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/cultist.svg",
       "system": {
         "description": {
           "value": "<p>Prerequisite: You can choose this feat only if you have come into contact with a Lost creature, traveled in the Shadowlands, or otherwise been exposed to its</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 224.</em></p>",
@@ -272,7 +272,7 @@
       "_key": "!items!r273de48e83caf36",
       "name": "Unusual Weapon Mastery",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/upgrade.svg",
       "system": {
         "description": {
           "value": "<p>Prerequisite: Dexterity 13 or higher</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 225.</em></p>",
@@ -310,7 +310,7 @@
       "_key": "!items!rd234ea08748bf29",
       "name": "Ceaseless Vigilance",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/skills.svg",
       "system": {
         "description": {
           "value": "<p>Prerequisite: Crab Clan background or Wisdom</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 226.</em></p>",
@@ -348,7 +348,7 @@
       "_key": "!items!ra29cb1f989436ce",
       "name": "Endurance Training",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/water-drop.svg",
       "system": {
         "description": {
           "value": "<p>Prerequisite: Crab Clan background or Constitution</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 226.</em></p>",
@@ -386,7 +386,7 @@
       "_key": "!items!rbb36345873302a2",
       "name": "Engineering Experience",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/skills.svg",
       "system": {
         "description": {
           "value": "<p>Prerequisite: Crab Clan background or Intelligence</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 226.</em></p>",
@@ -424,7 +424,7 @@
       "_key": "!items!rf02b09fe5f097a9",
       "name": "Fell Strikes",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/fist.svg",
       "system": {
         "description": {
           "value": "<p>Prerequisite: Crab Clan background or Strength</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 226.</em></p>",
@@ -462,7 +462,7 @@
       "_key": "!items!r6d93a22829c9115",
       "name": "Cautious Rhetorician",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/scroll-unfurled.svg",
       "system": {
         "description": {
           "value": "<p>Prerequisite: Crane Clan background or Wisdom</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 227.</em></p>",
@@ -500,7 +500,7 @@
       "_key": "!items!r4315a5082d95937",
       "name": "Poise and Purpose",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/sword-brandish.svg",
       "system": {
         "description": {
           "value": "<p>Prerequisite: Crane Clan background or Dexterity</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 227.</em></p>",
@@ -538,7 +538,7 @@
       "_key": "!items!r4d6b66e6bf7a8f9",
       "name": "Resolve of Iron",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/stone-tower.svg",
       "system": {
         "description": {
           "value": "<p>Prerequisite: Crane Clan background or Wisdom</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 227.</em></p>",
@@ -576,7 +576,7 @@
       "_key": "!items!r257cd51f458a6f2",
       "name": "Well-Connected",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/aura.svg",
       "system": {
         "description": {
           "value": "<p>Prerequisite: Crane Clan background or Charisma</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 227.</em></p>",
@@ -614,7 +614,7 @@
       "_key": "!items!re4967a7603fd638",
       "name": "Adaptable Strategy",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/skills.svg",
       "system": {
         "description": {
           "value": "<p>Prerequisite: Dragon Clan background or Wisdom</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 228.</em></p>",
@@ -652,7 +652,7 @@
       "_key": "!items!r9096bb71b125ed3",
       "name": "Altitude Training",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/water-drop.svg",
       "system": {
         "description": {
           "value": "<p>Prerequisite: Dragon Clan background or Constitution</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 228.</em></p>",
@@ -690,7 +690,7 @@
       "_key": "!items!r81efc79bff23f89",
       "name": "Disruptive Strikes",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/fist.svg",
       "system": {
         "description": {
           "value": "<p>Prerequisite: Dragon Clan background or Wisdom</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 228.</em></p>",
@@ -746,7 +746,7 @@
       "_key": "!items!ra37ae28f2bb1e02",
       "name": "Keen Study",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/book-cover.svg",
       "system": {
         "description": {
           "value": "<p>Prerequisite: Dragon Clan background or Intelligence</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 228.</em></p>",
@@ -784,7 +784,7 @@
       "_key": "!items!r477a7faeb97b39b",
       "name": "Combat Drill",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/skills.svg",
       "system": {
         "description": {
           "value": "<p>Prerequisite: Lion Clan background or Strength</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 228.</em></p>",
@@ -845,7 +845,7 @@
       "_key": "!items!r342c10537dc7400",
       "name": "Field Medicine",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/skills.svg",
       "system": {
         "description": {
           "value": "<p>Prerequisite: Lion Clan background or Wisdom</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 228.</em></p>",
@@ -901,7 +901,7 @@
       "_key": "!items!r80a1507c32daf6a",
       "name": "Marching Stamina",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/skills.svg",
       "system": {
         "description": {
           "value": "<p>Prerequisite: Lion Clan background or Constitution</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 228.</em></p>",
@@ -939,7 +939,7 @@
       "_key": "!items!r39c7e5dc2b7b288",
       "name": "Motivating Storyteller",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/skills.svg",
       "system": {
         "description": {
           "value": "<p>Prerequisite: Lion Clan background or Charisma</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 228.</em></p>",
@@ -996,7 +996,7 @@
       "_key": "!items!r18264145a452ae4",
       "name": "Apprentice Ritualist",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/spell-book.svg",
       "system": {
         "description": {
           "value": "<p>Prerequisite: Phoenix Clan background or Wisdom</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 230.</em></p>",
@@ -1052,7 +1052,7 @@
       "_key": "!items!r5a69dc399891641",
       "name": "Elemental Alignment",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/brain.svg",
       "system": {
         "description": {
           "value": "<p>Prerequisite: Phoenix Clan background or Intelligence</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 230.</em></p>",
@@ -1090,7 +1090,7 @@
       "_key": "!items!r83e248fe5e9f8bc",
       "name": "Loremaster",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/battle-gear.svg",
       "system": {
         "description": {
           "value": "<p>Prerequisite: Phoenix Clan background or Intelligence</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 230.</em></p>",
@@ -1128,7 +1128,7 @@
       "_key": "!items!r9b2b6bb612dbdb6",
       "name": "Valorous Bodyguard",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/guards.svg",
       "system": {
         "description": {
           "value": "<p>Prerequisite: Phoenix Clan background or Strength</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 230.</em></p>",
@@ -1184,7 +1184,7 @@
       "_key": "!items!rf9cc2fc440686da",
       "name": "Secrets upon Secrets",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/skills.svg",
       "system": {
         "description": {
           "value": "<p>Prerequisite: Scorpion Clan background or Charisma</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 231.</em></p>",
@@ -1222,7 +1222,7 @@
       "_key": "!items!rfb83a7e22588be5",
       "name": "Tenebrous Arts",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/skills.svg",
       "system": {
         "description": {
           "value": "<p>Prerequisite: Scorpion Clan background or Dexterity</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 231.</em></p>",
@@ -1260,7 +1260,7 @@
       "_key": "!items!r68dc04c09af5505",
       "name": "Tread Lightly",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/skills.svg",
       "system": {
         "description": {
           "value": "<p>Prerequisite: Scorpion Clan background or Charisma</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 231.</em></p>",
@@ -1298,7 +1298,7 @@
       "_key": "!items!r7aad0df22ce893f",
       "name": "Weakness as Strength",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/muscle-up.svg",
       "system": {
         "description": {
           "value": "<p>Prerequisite: Scorpion Clan background or Intelligence 15 or higher</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 232.</em></p>",
@@ -1336,7 +1336,7 @@
       "_key": "!items!reaf139f11c8d4e7",
       "name": "Animal Companion",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/horse-head.svg",
       "system": {
         "description": {
           "value": "<p>Prerequisite: Unicorn Clan or Charisma 13 or higher</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 232.</em></p>",
@@ -1374,7 +1374,7 @@
       "_key": "!items!r73c28b1f642d1cb",
       "name": "Seasoned Rider",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/skills.svg",
       "system": {
         "description": {
           "value": "<p>Prerequisite: Unicorn Clan background or Dexterity</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 233.</em></p>",
@@ -1412,7 +1412,7 @@
       "_key": "!items!rbbf08f3dcdbe206",
       "name": "Trade Expert",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/skills.svg",
       "system": {
         "description": {
           "value": "<p>Prerequisite: Unicorn Clan background or Intelligence</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 233.</em></p>",
@@ -1450,7 +1450,7 @@
       "_key": "!items!re75d4af89abf98c",
       "name": "Unwavering Heart",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/water-drop.svg",
       "system": {
         "description": {
           "value": "<p>Prerequisite: Unicorn Clan background or Wisdom</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 233.</em></p>",
@@ -1507,7 +1507,7 @@
       "_key": "!items!r2064804664cc827",
       "name": "Celestial Authority",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/skills.svg",
       "system": {
         "description": {
           "value": "<p>Prerequisite: Imperial Family background or Charisma</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 233.</em></p>",
@@ -1545,7 +1545,7 @@
       "_key": "!items!r6c4d56d7a6ca81d",
       "name": "Dreamscape Journey",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/skills.svg",
       "system": {
         "description": {
           "value": "<p>Prerequisite: Moth Clan background or proficiency in Religion</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 233.</em></p>",
@@ -1583,7 +1583,7 @@
       "_key": "!items!r61e9bc68fbab415",
       "name": "Exorcist’s Sight",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/all-seeing-eye.svg",
       "system": {
         "description": {
           "value": "<p>Prerequisite: Falcon Clan background or proficiency in Arcana</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 233.</em></p>",
@@ -1621,7 +1621,7 @@
       "_key": "!items!r0f59666e1915abf",
       "name": "Favor of Lady Sun",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/skills.svg",
       "system": {
         "description": {
           "value": "<p>Prerequisite: Centipede Clan background or proficiency in Religion, must be able to perform invocations</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 233.</em></p>",
@@ -1659,7 +1659,7 @@
       "_key": "!items!ra5ff4d1289c55e6",
       "name": "Hearty Boast",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/skills.svg",
       "system": {
         "description": {
           "value": "<p>Prerequisite: Mantis Clan background or proficiency in</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 233.</em></p>",
@@ -1697,7 +1697,7 @@
       "_key": "!items!r223bbd08414d27b",
       "name": "Innocuous Presence",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/sword-brandish.svg",
       "system": {
         "description": {
           "value": "<p>Prerequisite: Deer Clan background or proficiency in Stealth</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 233.</em></p>",
@@ -1735,7 +1735,7 @@
       "_key": "!items!rd7dc4fe43b026c2",
       "name": "Killing Grip",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/skills.svg",
       "system": {
         "description": {
           "value": "<p>Prerequisite: Badger Clan background or proficiency in Athletics</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 233.</em></p>",
@@ -1773,7 +1773,7 @@
       "_key": "!items!r8480a3410f7f0f5",
       "name": "Obfuscating Demeanor",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/skills.svg",
       "system": {
         "description": {
           "value": "<p>Prerequisite: Dragonfly Clan background or proficiency in Charisma saving throws</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 233.</em></p>",
@@ -1811,7 +1811,7 @@
       "_key": "!items!r5d2675b3946a7df",
       "name": "Phantom Thief",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/skills.svg",
       "system": {
         "description": {
           "value": "<p>Prerequisite: Cat Clan background or proficiency in sleight of hand</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 236.</em></p>",
@@ -1849,7 +1849,7 @@
       "_key": "!items!r9d241904375dd74",
       "name": "Sling Specialist",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/skills.svg",
       "system": {
         "description": {
           "value": "<p>Prerequisite: Sparrow Clan background or proficiency in Survival</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 236.</em></p>",
@@ -1887,7 +1887,7 @@
       "_key": "!items!r60f49c5a1236ab8",
       "name": "Spiritual Evasion",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/run.svg",
       "system": {
         "description": {
           "value": "<p>Prerequisite: Hare Clan background or proficiency in Religion</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 236.</em></p>",
@@ -1925,7 +1925,7 @@
       "_key": "!items!rec4f1e4a914ea58",
       "name": "Spiritual Mediator",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/meditation.svg",
       "system": {
         "description": {
           "value": "<p>Prerequisite: Fox Clan background or proficiency in Nature</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 236.</em></p>",
@@ -1963,7 +1963,7 @@
       "_key": "!items!r40a68a3808c48ca",
       "name": "Sting of Agony",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/skills.svg",
       "system": {
         "description": {
           "value": "<p>Prerequisite: Wasp Clan background or proficiency in</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 236.</em></p>",
@@ -2001,7 +2001,7 @@
       "_key": "!items!r4cd6ca3ba14eb00",
       "name": "Artisan’s Ingenuity",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/skills.svg",
       "system": {
         "description": {
           "value": "<p>Prerequisite: Non-samurai background or Charisma</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 237.</em></p>",
@@ -2039,7 +2039,7 @@
       "_key": "!items!r53ed3d2833a0cec",
       "name": "Brawler’s Edge",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/skills.svg",
       "system": {
         "description": {
           "value": "<p>Prerequisite: Non-samurai background or Strength</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 237.</em></p>",
@@ -2077,7 +2077,7 @@
       "_key": "!items!rcd6a5160b986d47",
       "name": "Laborer’s Endurance",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/skills.svg",
       "system": {
         "description": {
           "value": "<p>Prerequisite: Non-samurai background or Constitution</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 237.</em></p>",
@@ -2136,7 +2136,7 @@
       "_key": "!items!r21039caa69cd683",
       "name": "Merchant’s Streetwise",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/bamboo.svg",
       "system": {
         "description": {
           "value": "<p>Prerequisite: Non-samurai background or Dexterity</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 237.</em></p>",
@@ -2174,7 +2174,7 @@
       "_key": "!items!r7b0e3797e50bf06",
       "name": "Survivalist’s Eye",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/skills.svg",
       "system": {
         "description": {
           "value": "<p>Prerequisite: Non-samurai background or Wisdom</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 238.</em></p>",
@@ -2212,7 +2212,7 @@
       "_key": "!items!r9ebe7461a9a7726",
       "name": "Translator’s Knowledge",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/book-cover.svg",
       "system": {
         "description": {
           "value": "<p>Prerequisite: Non-samurai background or Intelligence</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 238.</em></p>",
@@ -2250,7 +2250,7 @@
       "_key": "!items!rc59a088e90e7942",
       "name": "Constriction",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/skills.svg",
       "system": {
         "description": {
           "value": "<p>Prerequisite: Naga species</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 238.</em></p>",
@@ -2305,7 +2305,7 @@
       "_key": "!items!raf31cfed7b4e889",
       "name": "Transformation",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/skills.svg",
       "system": {
         "description": {
           "value": "<p>Prerequisite: Oni species</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 238.</em></p>",
@@ -2360,7 +2360,7 @@
       "_key": "!items!ree8e0fcb523f627",
       "name": "Haunting Phenomena",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/skills.svg",
       "system": {
         "description": {
           "value": "<p>Prerequisite: Specter species</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 238.</em></p>",
@@ -2415,7 +2415,7 @@
       "_key": "!items!rcd19f760779e581",
       "name": "Nimble Glider",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/run.svg",
       "system": {
         "description": {
           "value": "<p>Prerequisite: Tengu species</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 239.</em></p>",
@@ -2491,7 +2491,7 @@
       "_key": "!items!rf8ada9928708181",
       "name": "Persistence",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/skills.svg",
       "system": {
         "description": {
           "value": "<p>Prerequisite: Human species</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 239.</em></p>",
@@ -2529,7 +2529,7 @@
       "_key": "!items!ref669d75a8791c3",
       "name": "Scamper",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/skills.svg",
       "system": {
         "description": {
           "value": "<p>Prerequisite: Nezumi species</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 239.</em></p>",
@@ -2605,7 +2605,7 @@
       "_key": "!items!r645f0283fdec778",
       "name": "Charm Connoisseur",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/rabbit.svg",
       "system": {
         "description": {
           "value": "<p>You have visited numerous shrines and taken a deep interest in the creation and use of charms. You gain the following benefits: $ Increase your Intelligence score by 1, to a maximum of 20. $ You gain proficiency in the calligraphy set artisan tool. $ You can create copies of basic charms. This process takes 2 hours of focused work and 5 sp of consecrated paper and ink, at the end of which you must</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 222.</em></p>",
@@ -2660,7 +2660,7 @@
       "_key": "!items!ra138f28f0c22df1",
       "name": "Fashionable",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/skills.svg",
       "system": {
         "description": {
           "value": "<p>You have insight into what various outfits say about their wearers, and always keep up with the latest trends. Gain the following benefits: $ Increase your Charisma score by 1, to a maximum of 20. $ When you spend at least 5 minutes in a place inhabited by sentient creatures, you can tell what the local fashions are, and how best to blend in (or stand out). $ As part of a long rest or by spending </p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 222.</em></p>",
@@ -2715,7 +2715,7 @@
       "_key": "!items!r7c56581e77fd47f",
       "name": "Genuine Idealist",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/skills.svg",
       "system": {
         "description": {
           "value": "<p>You can maintain a sunny attitude in almost any circumstance, granting you the following benefits: $ Increase your Constitution score by 1, to a maximum of 20. $ When the GM gives you inspiration, you can choose a friendly character who can perceive you to gain inspiration as well. If you already have inspiration, you can choose two friendly characters who can perceive you to gain inspiration inst</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 224.</em></p>",
@@ -2770,7 +2770,7 @@
       "_key": "!items!r34fb31eb222958d",
       "name": "Enhanced Demonic Transformation",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/upgrade.svg",
       "system": {
         "description": {
           "value": "<p>Prerequisite: Oni species. Prerequisite: Oni species You can wield more of your demonic power in the Mortal Realm, granting you the following benefits: $ Increase your Strength score by 1. $ Choose 1 new demonic form feature. You gain this feature while transformed. $ When you transform into your demonic form, roll 1d4 and increase the number of rounds you can maintain that transformation by a number of rounds equal to the </p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 222.</em></p>",
@@ -2825,7 +2825,7 @@
       "_key": "!items!rb00f137e92c1667",
       "name": "Skilled Shapeshifter",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/skills.svg",
       "system": {
         "description": {
           "value": "<p>You become more skilled at controlling your transformations. You gain the ability to perform the ever-changing waves invocation (see page 271) without spending favor. When you do, you gain bonus favor to spend on its empowerments equal to half your proficiency bonus, rounded up. After performing this invocation, you cannot perform it again this way until you complete a long rest or spend at least </p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 239.</em></p>",

@@ -97,7 +97,7 @@
       "_key": "!items!r17dcb2f62cef245",
       "name": "Bushi",
       "type": "class",
-      "img": "systems/dnd5e/icons/svg/items/class.svg",
+      "img": "modules/rokugan5e/icons/game-icons/samurai-helmet.svg",
       "system": {
         "description": {
           "value": "<p>Front-line warrior using Focus and martial techniques.</p><p>Proficiencies, starting equipment, and full feature text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 44.</em></p>",
@@ -827,7 +827,7 @@
       "_key": "!items!rb026c417b94e471",
       "name": "Duelist",
       "type": "class",
-      "img": "systems/dnd5e/icons/svg/items/class.svg",
+      "img": "modules/rokugan5e/icons/game-icons/katana.svg",
       "system": {
         "description": {
           "value": "<p>Master of the blade and the duel; uses Focus and techniques.</p><p>Proficiencies, starting equipment, and full feature text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 53.</em></p>",
@@ -1621,7 +1621,7 @@
       "_key": "!items!r75ddce9044f4efd",
       "name": "Courtier",
       "type": "class",
-      "img": "systems/dnd5e/icons/svg/items/class.svg",
+      "img": "modules/rokugan5e/icons/game-icons/scroll-unfurled.svg",
       "system": {
         "description": {
           "value": "<p>Diplomat and intriguer; uses Focus and social techniques.</p><p>Proficiencies, starting equipment, and full feature text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 64.</em></p>",
@@ -2411,7 +2411,7 @@
       "_key": "!items!r1ef478336dbb86e",
       "name": "Shinobi",
       "type": "class",
-      "img": "systems/dnd5e/icons/svg/items/class.svg",
+      "img": "modules/rokugan5e/icons/game-icons/ninja-mask.svg",
       "system": {
         "description": {
           "value": "<p>Spy and infiltrator; uses Focus and ninjutsu techniques.</p><p>Proficiencies, starting equipment, and full feature text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 76.</em></p>",
@@ -3406,7 +3406,7 @@
       "_key": "!items!r727da1df765fda2",
       "name": "Ritualist",
       "type": "class",
-      "img": "systems/dnd5e/icons/svg/items/class.svg",
+      "img": "modules/rokugan5e/icons/game-icons/yin-yang.svg",
       "system": {
         "description": {
           "value": "<p>Priest who entreats the spirits; uses Favor and invocations.</p><p>Proficiencies, starting equipment, and full feature text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 86.</em></p>",
@@ -4254,7 +4254,7 @@
       "_key": "!items!rfaabe2892ef787e",
       "name": "Pilgrim",
       "type": "class",
-      "img": "systems/dnd5e/icons/svg/items/class.svg",
+      "img": "modules/rokugan5e/icons/game-icons/meditation.svg",
       "system": {
         "description": {
           "value": "<p>Seeker of balance; channels Yin/Yang energy and externalizations.</p><p>Proficiencies, starting equipment, and full feature text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 96.</em></p>",
@@ -4909,7 +4909,7 @@
       "_key": "!items!rc410f26feac4a6f",
       "name": "Acolyte",
       "type": "class",
-      "img": "systems/dnd5e/icons/svg/items/class.svg",
+      "img": "modules/rokugan5e/icons/game-icons/praying-mantis.svg",
       "system": {
         "description": {
           "value": "<p>Bearer of a supernatural mark; uses Focus and techniques.</p><p>Proficiencies, starting equipment, and full feature text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 111.</em></p>",
@@ -5594,7 +5594,7 @@
       "_key": "!items!r5dfee55b3b9ab52",
       "name": "Protector",
       "type": "subclass",
-      "img": "systems/dnd5e/icons/svg/items/subclass.svg",
+      "img": "modules/rokugan5e/icons/game-icons/guards.svg",
       "system": {
         "description": {
           "value": "<p>Bushi archetype.</p><p>Archetype features and their levels: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 51.</em></p>",
@@ -5774,7 +5774,7 @@
       "_key": "!items!r36136a0b4f38d54",
       "name": "Vanguard",
       "type": "subclass",
-      "img": "systems/dnd5e/icons/svg/items/subclass.svg",
+      "img": "modules/rokugan5e/icons/game-icons/guards.svg",
       "system": {
         "description": {
           "value": "<p>Bushi archetype.</p><p>Archetype features and their levels: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 52.</em></p>",
@@ -5954,7 +5954,7 @@
       "_key": "!items!r9e806100be13eb2",
       "name": "Samurai Armsmaster",
       "type": "subclass",
-      "img": "systems/dnd5e/icons/svg/items/subclass.svg",
+      "img": "modules/rokugan5e/icons/game-icons/battle-gear.svg",
       "system": {
         "description": {
           "value": "<p>Bushi archetype.</p><p>Archetype features and their levels: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 50.</em></p>",
@@ -6082,7 +6082,7 @@
       "_key": "!items!ra0dd40c8af34d99",
       "name": "Blademaster",
       "type": "subclass",
-      "img": "systems/dnd5e/icons/svg/items/subclass.svg",
+      "img": "modules/rokugan5e/icons/game-icons/katana.svg",
       "system": {
         "description": {
           "value": "<p>Duelist archetype.</p><p>Archetype features and their levels: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 60.</em></p>",
@@ -6214,7 +6214,7 @@
       "_key": "!items!r1eef55008b31a67",
       "name": "Adept",
       "type": "subclass",
-      "img": "systems/dnd5e/icons/svg/items/subclass.svg",
+      "img": "modules/rokugan5e/icons/game-icons/samurai-helmet.svg",
       "system": {
         "description": {
           "value": "<p>Duelist archetype.</p><p>Archetype features and their levels: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 62.</em></p>",
@@ -6378,7 +6378,7 @@
       "_key": "!items!r1642644a13b6f90",
       "name": "Deathdancer",
       "type": "subclass",
-      "img": "systems/dnd5e/icons/svg/items/subclass.svg",
+      "img": "modules/rokugan5e/icons/game-icons/grim-reaper.svg",
       "system": {
         "description": {
           "value": "<p>Duelist archetype.</p><p>Archetype features and their levels: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 63.</em></p>",
@@ -6538,7 +6538,7 @@
       "_key": "!items!rb37385e536dd7ee",
       "name": "Diplomat",
       "type": "subclass",
-      "img": "systems/dnd5e/icons/svg/items/subclass.svg",
+      "img": "modules/rokugan5e/icons/game-icons/scroll-unfurled.svg",
       "system": {
         "description": {
           "value": "<p>Courtier archetype.</p><p>Archetype features and their levels: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 73.</em></p>",
@@ -6670,7 +6670,7 @@
       "_key": "!items!r917cbed9568b045",
       "name": "Investigator",
       "type": "subclass",
-      "img": "systems/dnd5e/icons/svg/items/subclass.svg",
+      "img": "modules/rokugan5e/icons/game-icons/samurai-helmet.svg",
       "system": {
         "description": {
           "value": "<p>Courtier archetype.</p><p>Archetype features and their levels: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 75.</em></p>",
@@ -6802,7 +6802,7 @@
       "_key": "!items!r36b374ee43bfea0",
       "name": "Saboteur",
       "type": "subclass",
-      "img": "systems/dnd5e/icons/svg/items/subclass.svg",
+      "img": "modules/rokugan5e/icons/game-icons/ninja-mask.svg",
       "system": {
         "description": {
           "value": "<p>Shinobi archetype.</p><p>Archetype features and their levels: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 81.</em></p>",
@@ -6886,7 +6886,7 @@
       "_key": "!items!r181b15e3ece48b1",
       "name": "Infiltrator",
       "type": "subclass",
-      "img": "systems/dnd5e/icons/svg/items/subclass.svg",
+      "img": "modules/rokugan5e/icons/game-icons/ninja-mask.svg",
       "system": {
         "description": {
           "value": "<p>Shinobi archetype.</p><p>Archetype features and their levels: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 82.</em></p>",
@@ -7022,7 +7022,7 @@
       "_key": "!items!ra7de376d571255c",
       "name": "Artisan",
       "type": "subclass",
-      "img": "systems/dnd5e/icons/svg/items/subclass.svg",
+      "img": "modules/rokugan5e/icons/game-icons/samurai-helmet.svg",
       "system": {
         "description": {
           "value": "<p>Ritualist archetype.</p><p>Archetype features and their levels: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 91.</em></p>",
@@ -7102,7 +7102,7 @@
       "_key": "!items!r0b543f39547c3c7",
       "name": "Elementalist",
       "type": "subclass",
-      "img": "systems/dnd5e/icons/svg/items/subclass.svg",
+      "img": "modules/rokugan5e/icons/game-icons/brain.svg",
       "system": {
         "description": {
           "value": "<p>Ritualist archetype.</p><p>Archetype features and their levels: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 95.</em></p>",
@@ -7230,7 +7230,7 @@
       "_key": "!items!rd7fe2702f0961c1",
       "name": "Medium",
       "type": "subclass",
-      "img": "systems/dnd5e/icons/svg/items/subclass.svg",
+      "img": "modules/rokugan5e/icons/game-icons/samurai-helmet.svg",
       "system": {
         "description": {
           "value": "<p>Ritualist archetype.</p><p>Archetype features and their levels: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 95.</em></p>",
@@ -7334,7 +7334,7 @@
       "_key": "!items!rc9916d733a22cca",
       "name": "Path of Redemption",
       "type": "subclass",
-      "img": "systems/dnd5e/icons/svg/items/subclass.svg",
+      "img": "modules/rokugan5e/icons/game-icons/samurai-helmet.svg",
       "system": {
         "description": {
           "value": "<p>Pilgrim archetype.</p><p>Archetype features and their levels: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 104.</em></p>",
@@ -7606,7 +7606,7 @@
       "_key": "!items!rdc5468eb4e59d0b",
       "name": "Path of Harmony",
       "type": "subclass",
-      "img": "systems/dnd5e/icons/svg/items/subclass.svg",
+      "img": "modules/rokugan5e/icons/game-icons/meditation.svg",
       "system": {
         "description": {
           "value": "<p>Pilgrim archetype.</p><p>Archetype features and their levels: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 107.</em></p>",
@@ -7970,7 +7970,7 @@
       "_key": "!items!r0d762bd90b73731",
       "name": "Path of Justice",
       "type": "subclass",
-      "img": "systems/dnd5e/icons/svg/items/subclass.svg",
+      "img": "modules/rokugan5e/icons/game-icons/samurai-helmet.svg",
       "system": {
         "description": {
           "value": "<p>Pilgrim archetype.</p><p>Archetype features and their levels: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 110.</em></p>",
@@ -8242,7 +8242,7 @@
       "_key": "!items!r346455b98bc0f45",
       "name": "Acolyte of Togashi",
       "type": "subclass",
-      "img": "systems/dnd5e/icons/svg/items/subclass.svg",
+      "img": "modules/rokugan5e/icons/game-icons/samurai-helmet.svg",
       "system": {
         "description": {
           "value": "<p>Acolyte archetype.</p><p>Archetype features and their levels: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 117.</em></p>",
@@ -8400,7 +8400,7 @@
       "_key": "!items!rc8725cf6361a0e1",
       "name": "Acolyte of Shadows",
       "type": "subclass",
-      "img": "systems/dnd5e/icons/svg/items/subclass.svg",
+      "img": "modules/rokugan5e/icons/game-icons/cultist.svg",
       "system": {
         "description": {
           "value": "<p>Acolyte archetype.</p><p>Archetype features and their levels: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 116.</em></p>",

@@ -37,7 +37,7 @@
       "_key": "!items!r0d079767ace0132",
       "name": "Human (Standard)",
       "type": "race",
-      "img": "systems/dnd5e/icons/svg/items/race.svg",
+      "img": "modules/rokugan5e/icons/game-icons/person.svg",
       "system": {
         "description": {
           "value": "<p>Adaptable and ambitious; the most numerous people of Rokugan. Standard option: every ability score increases by 1.</p><p>Ability Score Increase: each ability score increases by 1.</p><p>Traits: Age, Size, Speed, Language.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 29.</em></p>",
@@ -117,7 +117,7 @@
       "_key": "!items!r45ded04574460f7",
       "name": "Human (Versatile)",
       "type": "race",
-      "img": "systems/dnd5e/icons/svg/items/race.svg",
+      "img": "modules/rokugan5e/icons/game-icons/person.svg",
       "system": {
         "description": {
           "value": "<p>Adaptable and ambitious; the most numerous people of Rokugan. Versatile option: two different ability scores increase by 1, and you gain one feat.</p><p>Ability Score Increase: increase two different ability scores by 1.</p><p>Traits: Age, Size, Speed, Amphibious, Expanded Senses, Serpentine Charming, Language.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 29.</em></p>",
@@ -406,7 +406,7 @@
       "_key": "!items!re3e107fbc3d4c6c",
       "name": "Naga",
       "type": "race",
-      "img": "systems/dnd5e/icons/svg/items/race.svg",
+      "img": "modules/rokugan5e/icons/game-icons/person.svg",
       "system": {
         "description": {
           "value": "<p>Ancient serpentfolk, fifteen feet or longer from head to tail.</p><p>Ability Score Increase: 2 points, max +1 to one score.</p><p>Traits: Age, Size, Speed, Sharp Senses, Skitter, Language.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 26.</em></p>",
@@ -479,7 +479,7 @@
       "_key": "!items!r76439a8f407f011",
       "name": "Nezumi",
       "type": "race",
-      "img": "systems/dnd5e/icons/svg/items/race.svg",
+      "img": "modules/rokugan5e/icons/game-icons/person.svg",
       "system": {
         "description": {
           "value": "<p>Quick, resilient ratfolk of the Shadowlands ruins.</p><p>Ability Score Increase: 3 points, max +2 to one score.</p><p>Traits: Age, Size, Speed, Darkvision, Demonic True Form, Language, Inverted Weight, Spiritual Force, Strange Physiology.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 31.</em></p>",
@@ -552,7 +552,7 @@
       "_key": "!items!rc3d4f13f701ce74",
       "name": "Mazoku",
       "type": "race",
-      "img": "systems/dnd5e/icons/svg/items/race.svg",
+      "img": "modules/rokugan5e/icons/game-icons/person.svg",
       "system": {
         "description": {
           "value": "<p>A reformed denizen of the Realm of Torment in mortal guise.</p><p>Ability Score Increase: 3 points, max +2 to one score.</p><p>Traits: Age, Size, Speed, Ghostly Dispersal, Spiritual Anchor, Watchful Presence, Language.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 34.</em></p>",
@@ -625,7 +625,7 @@
       "_key": "!items!r1c6fcc2d487b318",
       "name": "Specter",
       "type": "race",
-      "img": "systems/dnd5e/icons/svg/items/race.svg",
+      "img": "modules/rokugan5e/icons/game-icons/person.svg",
       "system": {
         "description": {
           "value": "<p>A returned spirit, roughly the size they were in life.</p><p>Ability Score Increase: 2 points, max +1 to one score.</p><p>Traits: Age, Size, Speed, Language, Animals.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 36.</em></p>",
@@ -698,7 +698,7 @@
       "_key": "!items!r02850f150ee696c",
       "name": "Tengu",
       "type": "race",
-      "img": "systems/dnd5e/icons/svg/items/race.svg",
+      "img": "modules/rokugan5e/icons/game-icons/person.svg",
       "system": {
         "description": {
           "value": "<p>Crow-folk of the high mountains; gliding flight.</p><p>Ability Score Increase: 2 points, max +1 to one score.</p><p>Traits: Age, See Innate Shapeshifting, Speed, Innate Shapeshifting, Language, Dreamwalker, Illusory Tricks.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 36.</em></p>",
@@ -771,7 +771,7 @@
       "_key": "!items!rfec87c602a08618",
       "name": "Animal Yokai",
       "type": "race",
-      "img": "systems/dnd5e/icons/svg/items/race.svg",
+      "img": "modules/rokugan5e/icons/game-icons/horse-head.svg",
       "system": {
         "description": {
           "value": "<p>An awakened animal spirit; size varies by form.</p><p>Ability Score Increase: 3 points, max +2 to one score.</p><p>Traits: Age, Size, Speed, Unbound Potential, Unmistakable Presence, Language, Game Content.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 40.</em></p>",
@@ -844,7 +844,7 @@
       "_key": "!items!re82c8a9ef571015",
       "name": "Unique Existence",
       "type": "race",
-      "img": "systems/dnd5e/icons/svg/items/race.svg",
+      "img": "modules/rokugan5e/icons/game-icons/person.svg",
       "system": {
         "description": {
           "value": "<p>A one-of-a-kind being; size matches the chosen species.</p><p>Ability Score Increase: 3 points, max +2 to one score.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 41.</em></p>",

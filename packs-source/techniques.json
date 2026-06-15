@@ -37,7 +37,7 @@
       "_key": "!items!rtcrashingwavecu",
       "name": "Crashing Wave Cut",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/katana.svg",
       "system": {
         "description": {
           "value": "<p>Activation: 1 Attack · Focus Cost: 3+ · Range: Self (wave: weapon’s range + 5 feet)</p><p>Mandatory Movement: 10 feet before the attack</p><p>Weapon Used: Any melee weapon or unarmed</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 253.</em></p>",
@@ -110,7 +110,7 @@
       "_key": "!items!rtcrescentmoonde",
       "name": "Crescent Moon Defense",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/sword-spin.svg",
       "system": {
         "description": {
           "value": "<p>Activation: 1 Reaction · Focus Cost: 3 · Range: Weapon’s range</p><p>Weapon Used: Any melee weapon or unarmed</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 254.</em></p>",
@@ -183,7 +183,7 @@
       "_key": "!items!rtcrimsonleavesb",
       "name": "Crimson Leaves Blow",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/bamboo.svg",
       "system": {
         "description": {
           "value": "<p>Activation: 1 Attack · Focus Cost: 3+ · Range: Self (slam: weapon’s range)</p><p>Mandatory Movement: 5 feet before attacking</p><p>Weapon Used: Any melee weapon or unarmed</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 254.</em></p>",
@@ -256,7 +256,7 @@
       "_key": "!items!rtfallingheavens",
       "name": "Falling Heavens Shot",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/high-shot.svg",
       "system": {
         "description": {
           "value": "<p>Activation: 1 Action · Focus Cost: 2+ · Range: Weapon’s short range</p><p>Weapon Used: Any ranged or thrown weapon</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 254.</em></p>",
@@ -329,7 +329,7 @@
       "_key": "!items!rtflashingsteelc",
       "name": "Flashing Steel Cut",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/katana.svg",
       "system": {
         "description": {
           "value": "<p>Activation: 1 Attack · Focus Cost: 2+ · Range: Weapon’s range</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 255.</em></p>",
@@ -415,7 +415,7 @@
       "_key": "!items!rtflowingwaterst",
       "name": "Flowing Water Strike",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/fist.svg",
       "system": {
         "description": {
           "value": "<p>Activation: 1 Attack · Focus Cost: 2+ · Range: Self (sweep: weapon’s range)</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 255.</em></p>",
@@ -488,7 +488,7 @@
       "_key": "!items!rtgripoflordhida",
       "name": "Grip of Lord Hida",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/katana.svg",
       "system": {
         "description": {
           "value": "<p>Activation: 1 Attack · Focus Cost: 3 · Range: Touch</p><p>Mandatory Movement: 10 feet</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 255.</em></p>",
@@ -561,7 +561,7 @@
       "_key": "!items!rtheartpiercingt",
       "name": "Heartpiercing Thrust",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/barbed-spear.svg",
       "system": {
         "description": {
           "value": "<p>Activation: 1 Attack · Focus Cost: 3+ · Range: Self (Line: weapon’s range + 5 feet)</p><p>Mandatory Movement: 10 feet (before attacking)</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 255.</em></p>",
@@ -634,7 +634,7 @@
       "_key": "!items!rtiaijutsucutcro",
       "name": "Iaijutsu Cut: Crossing Blade",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/katana.svg",
       "system": {
         "description": {
           "value": "<p>Activation: 1 Action · Focus Cost: 4+ · Range: Self (sweep: weapon’s range)</p><p>Mandatory Movement: 5 feet</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 256.</em></p>",
@@ -707,7 +707,7 @@
       "_key": "!items!rtiaijutsucutris",
       "name": "Iaijutsu Cut: Rising Blade",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/katana.svg",
       "system": {
         "description": {
           "value": "<p>Activation: 1 Reaction · Focus Cost: 3 · Range: Weapon’s range</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 256.</em></p>",
@@ -780,7 +780,7 @@
       "_key": "!items!rtironforestdefe",
       "name": "Iron Forest Defense",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/stone-tower.svg",
       "system": {
         "description": {
           "value": "<p>Activation: 1 Reaction · Focus Cost: 3 · Range: Weapon’s range</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 256.</em></p>",
@@ -853,7 +853,7 @@
       "_key": "!items!rtlaughingfoxdef",
       "name": "Laughing Fox Defense",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/fox-head.svg",
       "system": {
         "description": {
           "value": "<p>Activation: 1 Reaction · Focus Cost: 3+ · Range: Weapon’s range</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 256.</em></p>",
@@ -926,7 +926,7 @@
       "_key": "!items!rtsnappingbranch",
       "name": "Snapping Branch Strike",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/fist.svg",
       "system": {
         "description": {
           "value": "<p>Activation: 1 Attack · Focus Cost: 2+ · Range: Self (slam: weapon’s range)</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 256.</em></p>",
@@ -999,7 +999,7 @@
       "_key": "!items!rtsparkingsteeld",
       "name": "Sparking Steel Defense",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/guards.svg",
       "system": {
         "description": {
           "value": "<p>Activation: 1 Reaction · Focus Cost: 2+ · Range: Self</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 256.</em></p>",
@@ -1085,7 +1085,7 @@
       "_key": "!items!rtsoaringthunder",
       "name": "Soaring Thunderbolt Strike",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/fist.svg",
       "system": {
         "description": {
           "value": "<p>Activation: 1 Action · Focus Cost: 2+ · Range: 20 feet, minimum 10 feet from you</p><p>Mandatory Movement: 10 feet (before attacking)</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 258.</em></p>",
@@ -1171,7 +1171,7 @@
       "_key": "!items!rtsoulsunderings",
       "name": "Soul-Sundering Strike",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/fist.svg",
       "system": {
         "description": {
           "value": "<p>Activation: 1 attack · Focus Cost: 3+ · Range: Weapon’s range</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 258.</em></p>",
@@ -1244,7 +1244,7 @@
       "_key": "!items!rtswirlingvipers",
       "name": "Swirling Viper Shot",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/high-shot.svg",
       "system": {
         "description": {
           "value": "<p>Activation: 1 Attack · Focus Cost: 2+ · Range: Weapon’s short range</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 258.</em></p>",
@@ -1317,7 +1317,7 @@
       "_key": "!items!rttwinstreamsthr",
       "name": "Twin Streams Thrust",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/barbed-spear.svg",
       "system": {
         "description": {
           "value": "<p>Activation: 1 Action and 1 Bonus Action · Focus Cost: 2+ · Range: Self (line: 5 feet)</p><p>Mandatory Movement: 10 feet (before attacking)</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 259.</em></p>",
@@ -1390,7 +1390,7 @@
       "_key": "!items!rtvanishingworld",
       "name": "Vanishing World Flurry",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/katana.svg",
       "system": {
         "description": {
           "value": "<p>Activation: 1 Action · Focus Cost: 3+ · Range: Self (slam: weapon’s range)</p><p>Mandatory Movement: 10 feet (before attacking)</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 259.</em></p>",
@@ -1463,7 +1463,7 @@
       "_key": "!items!rtveiledmenaceth",
       "name": "Veiled Menace Thrust",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/barbed-spear.svg",
       "system": {
         "description": {
           "value": "<p>Activation: 1 Attack · Focus Cost: 2 · Range: Weapon’s range</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 259.</em></p>",
@@ -1536,7 +1536,7 @@
       "_key": "!items!rtwaspsspitevoll",
       "name": "Wasp’s Spite Volley",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/high-shot.svg",
       "system": {
         "description": {
           "value": "<p>Activation: 1 Action · Focus Cost: 2+ · Range: Weapon’s short range, minimum 10 feet</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 259.</em></p>",

@@ -57,7 +57,7 @@
       "_key": "!items!r254bbe61f5ac2ad",
       "name": "Impetus of Rejuvenation",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/health-potion.svg",
       "system": {
         "description": {
           "value": "<p>Pilgrim externalization. Costs 1 or more Hit Dice to activate. Energy shift: move toward the Yang apex (see effect). Attack modifier = proficiency + Constitution; save DC = 8 + proficiency + your cosmic path's attribute.</p><p>You can spend your action to choose yourself or another creature within range. If you chose yourself, you can spend and roll a number of your Hit Dice up to your Yin value and immediately regain hit points equal to the total value of those Hit Dice + your Constitution modifier. Alternately, if you c</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
@@ -135,7 +135,7 @@
       "_key": "!items!r185222976180ddb",
       "name": "Resonating Strike",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/fist.svg",
       "system": {
         "description": {
           "value": "<p>Pilgrim externalization. Costs 1 or more Hit Dice to activate. Energy shift: move toward the Yin apex (see effect). Attack modifier = proficiency + Constitution; save DC = 8 + proficiency + your cosmic path's attribute.</p><p>You can spend your action to make an unarmed attack against a creature in range. On a hit, you can roll and spend a number of Hit Dice up to your Yang value. At the end of its next turn, your target suffers radiant damage equal to 1d6 + your Constitution modifier. It suffers this radiant damage agai</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
@@ -226,7 +226,7 @@
       "_key": "!items!rc4504026e210e28",
       "name": "Cleansing Touch",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/meditation.svg",
       "system": {
         "description": {
           "value": "<p>Pilgrim externalization. Costs 1 or more Hit Dice to activate. Energy shift: move toward the Yang apex (see effect). Attack modifier = proficiency + Constitution; save DC = 8 + proficiency + your cosmic path's attribute.</p><p>You can spend your action to choose a number of creatures in range up to your Constitution modifier. Spend and roll a number of Hit Dice up to your Yin value. For each die that is of the listed value or higher, you can remove one of the following conditions from a chosen character: $ 4 or higher: bl</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
@@ -304,7 +304,7 @@
       "_key": "!items!r744c6a9f54b82d4",
       "name": "Fearsome Leap",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/meditation.svg",
       "system": {
         "description": {
           "value": "<p>Pilgrim externalization. Costs 1 or more Hit Dice to activate. Energy shift: move toward the Yin apex (see effect). Attack modifier = proficiency + Constitution; save DC = 8 + proficiency + your cosmic path's attribute.</p><p>You can spend your bonus action on your turn to make a heroic leap or extend a jump you already began as part of an action (or any other way). Spend and roll a number of Hit Dice up to your Yang value. You leap 10 feet + 5 feet for each Hit Die with a result of 5 or higher, or extend your leap by th</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
@@ -395,7 +395,7 @@
       "_key": "!items!r6cdd5fa6bf07db3",
       "name": "Infuse Energy",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/meditation.svg",
       "system": {
         "description": {
           "value": "<p>Pilgrim externalization. Costs 1 or more Hit Dice to activate. Energy shift: move toward the Yin apex (see effect). Attack modifier = proficiency + Constitution; save DC = 8 + proficiency + your cosmic path's attribute.</p><p>You can spend your bonus action to choose yourself or another creature within 5 feet. Spend and roll a number of Hit Dice up to your Yang value. The chosen creature's next attack roll or multitarget attack roll before the end of its next turn has advantage, and the creature gains a bonus to damage e</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
@@ -492,7 +492,7 @@
       "_key": "!items!r436ad2cbd343334",
       "name": "Breath of Life",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/health-potion.svg",
       "system": {
         "description": {
           "value": "<p>Pilgrim externalization. Costs 1 or more Hit Dice to activate. Energy shift: move toward the Yang apex (see effect). Attack modifier = proficiency + Constitution; save DC = 8 + proficiency + your cosmic path's attribute.</p><p>On your turn, you can spend your bonus action to choose a number of creatures up to your Yin value within range. Spend and roll Hit Dice up to your Yin value, then divide the results among the chosen creatures. Each chosen creature must be assigned at least one Hit Die result this way. Each chosen c</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
@@ -570,7 +570,7 @@
       "_key": "!items!rb5858f5ae5fc351",
       "name": "Challenging Grasp",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/meditation.svg",
       "system": {
         "description": {
           "value": "<p>Pilgrim externalization. Costs 1 or more Hit Dice to activate. Energy shift: move toward the Yang apex (see effect). Attack modifier = proficiency + Constitution; save DC = 8 + proficiency + your cosmic path's attribute.</p><p>You can spend your action to choose one creature within range that can perceive you. Spend and roll Hit Dice up to your Yin value. The chosen creature must make a Wisdom saving throw with DC increased by the highest result among the Hit Dice you rolled. If you are within 5 feet of this creature, it </p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
@@ -661,7 +661,7 @@
       "_key": "!items!rf0e11d5c9b8e548",
       "name": "Entwine Destiny",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/meditation.svg",
       "system": {
         "description": {
           "value": "<p>Pilgrim externalization. Costs 1 or more Hit Dice to activate. Energy shift: move toward the Yang apex (see effect). Attack modifier = proficiency + Constitution; save DC = 8 + proficiency + your cosmic path's attribute.</p><p>On your turn, you can spend an action to spend and roll up to two Hit Dice. Choose a number of creatures within range up to the total result of the Hit Dice. Each of those creatures can either make a Constitution saving throw, adding the higher Hit Die result to the DC, or choose to fail automatical</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
@@ -752,7 +752,7 @@
       "_key": "!items!rb8351683b162a64",
       "name": "Force of Nature",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/muscle-up.svg",
       "system": {
         "description": {
           "value": "<p>Pilgrim externalization. Costs 1 or more Hit Dice to activate. Energy shift: move toward the Yang apex (see effect). Attack modifier = proficiency + Constitution; save DC = 8 + proficiency + your cosmic path's attribute.</p><p>You can spend your action to unleash a whirlwind sweep. Spend and roll a number of Hit Dice up to the lower of your Yin or Yang value, then make an unarmed multitarget attack against each creature in range. Each creature you hit takes additional force damage equal to the highest result among the Hit</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
@@ -843,7 +843,7 @@
       "_key": "!items!r1d3849ee10fdc82",
       "name": "Consuming Strike",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/fist.svg",
       "system": {
         "description": {
           "value": "<p>Pilgrim externalization. Costs 1 or more Hit Dice to activate. Energy shift: move toward the Yin apex (see effect). Attack modifier = proficiency + Constitution; save DC = 8 + proficiency + your cosmic path's attribute.</p><p>You can spend your action to make an unarmed attack against a creature within range. If it hits, you can spend and roll a number of Hit Dice up to your Yang value. The attack deals bonus radiant damage equal to three times the result of the highest rolled Hit Die.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
@@ -940,7 +940,7 @@
       "_key": "!items!rf90dcfda0eaf38e",
       "name": "Storm of Fists",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/fist.svg",
       "system": {
         "description": {
           "value": "<p>Pilgrim externalization. Costs 1 or more Hit Dice to activate. Energy shift: move toward the Yin apex (see effect). Attack modifier = proficiency + Constitution; save DC = 8 + proficiency + your cosmic path's attribute.</p><p>You can spend your action and a number of Hit Dice up to your Yang value to make that many unarmed attacks against creatures in range. You can add the result of up to one Hit Die of your choice to either the attack roll or damage roll for each attack. Each Hit Die result can be added to only one rol</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
@@ -1037,7 +1037,7 @@
       "_key": "!items!r7a7dde95997dee4",
       "name": "Darkness (Externalization)",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/cultist.svg",
       "system": {
         "description": {
           "value": "<p>Path of Redemption additional externalization. Cast the SRD spell <strong>Darkness</strong> by spending 1 Hit Dice. Requires Pilgrim level 2 and Yin/Yang value: Yin 2+. Energy shift: toward the Yang apex. The spell's effect is the SRD spell Darkness; see the dnd5e SRD spell compendium for its full rules.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
@@ -1120,7 +1120,7 @@
       "_key": "!items!r393ee92135ac844",
       "name": "Calm Emotions (Externalization)",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/spell-book.svg",
       "system": {
         "description": {
           "value": "<p>Path of Redemption additional externalization. Cast the SRD spell <strong>Calm Emotions</strong> by spending 2 Hit Dice. Requires Pilgrim level 3 and Yin/Yang value: Yin 3+. Energy shift: toward the Yang apex. The spell's effect is the SRD spell Calm Emotions; see the dnd5e SRD spell compendium for its full rules.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
@@ -1203,7 +1203,7 @@
       "_key": "!items!rba275fa941df504",
       "name": "Suggestion (Externalization)",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/spell-book.svg",
       "system": {
         "description": {
           "value": "<p>Path of Redemption additional externalization. Cast the SRD spell <strong>Suggestion</strong> by spending 2 Hit Dice. Requires Pilgrim level 4 and Yin/Yang value: Yin 3+. Energy shift: toward the Yang apex. The spell's effect is the SRD spell Suggestion; see the dnd5e SRD spell compendium for its full rules.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
@@ -1286,7 +1286,7 @@
       "_key": "!items!r5f00a59a3b0dfc3",
       "name": "Beacon of Hope (Externalization)",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/spell-book.svg",
       "system": {
         "description": {
           "value": "<p>Path of Redemption additional externalization. Cast the SRD spell <strong>Beacon of Hope</strong> by spending 3 Hit Dice. Requires Pilgrim level 6 and Yin/Yang value: Yin 4+. Energy shift: toward the Yang apex. The spell's effect is the SRD spell Beacon of Hope; see the dnd5e SRD spell compendium for its full rules.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
@@ -1369,7 +1369,7 @@
       "_key": "!items!rfa927a99dd77340",
       "name": "Revivify (Externalization)",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/spell-book.svg",
       "system": {
         "description": {
           "value": "<p>Path of Redemption additional externalization. Cast the SRD spell <strong>Revivify</strong> by spending 3 Hit Dice. Requires Pilgrim level 7 and Yin/Yang value: Yin 3+. Energy shift: toward the Yang apex. The spell's effect is the SRD spell Revivify; see the dnd5e SRD spell compendium for its full rules.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
@@ -1452,7 +1452,7 @@
       "_key": "!items!r37331dd73a9e46e",
       "name": "Compulsion (Externalization)",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/spell-book.svg",
       "system": {
         "description": {
           "value": "<p>Path of Redemption additional externalization. Cast the SRD spell <strong>Compulsion</strong> by spending 4 Hit Dice. Requires Pilgrim level 8 and Yin/Yang value: Yin 4+. Energy shift: toward the Yang apex. The spell's effect is the SRD spell Compulsion; see the dnd5e SRD spell compendium for its full rules.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
@@ -1535,7 +1535,7 @@
       "_key": "!items!r34ad7a45c8ea27d",
       "name": "Geas (Externalization)",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/spell-book.svg",
       "system": {
         "description": {
           "value": "<p>Path of Redemption additional externalization. Cast the SRD spell <strong>Geas</strong> by spending 4 Hit Dice. Requires Pilgrim level 10 and Yin/Yang value: Yin 4+. Energy shift: toward the Yang apex. The spell's effect is the SRD spell Geas; see the dnd5e SRD spell compendium for its full rules.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
@@ -1618,7 +1618,7 @@
       "_key": "!items!r645233e6ab3e78b",
       "name": "Speak with Animals (Externalization)",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/spell-book.svg",
       "system": {
         "description": {
           "value": "<p>Path of Harmony additional externalization. Cast the SRD spell <strong>Speak with Animals</strong> by spending 1 Hit Dice. Requires Pilgrim level 2 and Yin/Yang value: Yin 2/Yang 2. Energy shift: toward the either apex (your choice). The spell's effect is the SRD spell Speak with Animals; see the dnd5e SRD spell compendium for its full rules.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
@@ -1701,7 +1701,7 @@
       "_key": "!items!rcc00ad80bc0157d",
       "name": "Entangle (Externalization)",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/spell-book.svg",
       "system": {
         "description": {
           "value": "<p>Path of Harmony additional externalization. Cast the SRD spell <strong>Entangle</strong> by spending 2 Hit Dice. Requires Pilgrim level 3 and Yin/Yang value: Yang 3+. Energy shift: toward the Yin apex. The spell's effect is the SRD spell Entangle; see the dnd5e SRD spell compendium for its full rules.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
@@ -1784,7 +1784,7 @@
       "_key": "!items!r5c134500acc2e61",
       "name": "Silence (Externalization)",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/spell-book.svg",
       "system": {
         "description": {
           "value": "<p>Path of Harmony additional externalization. Cast the SRD spell <strong>Silence</strong> by spending 2 Hit Dice. Requires Pilgrim level 3 and Yin/Yang value: Yin 3+. Energy shift: toward the Yang apex. The spell's effect is the SRD spell Silence; see the dnd5e SRD spell compendium for its full rules.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
@@ -1867,7 +1867,7 @@
       "_key": "!items!r0f8dc0e46a52978",
       "name": "Commune with Nature (Externalization)",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/spell-book.svg",
       "system": {
         "description": {
           "value": "<p>Path of Harmony additional externalization. Cast the SRD spell <strong>Commune with Nature</strong> by spending 3 Hit Dice. Requires Pilgrim level 4 and Yin/Yang value: Yin 2/Yang 2. Energy shift: toward the either apex (your choice). The spell's effect is the SRD spell Commune with Nature; see the dnd5e SRD spell compendium for its full rules.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
@@ -1950,7 +1950,7 @@
       "_key": "!items!r8a0241894c12d45",
       "name": "Haste (Externalization)",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/spell-book.svg",
       "system": {
         "description": {
           "value": "<p>Path of Harmony additional externalization. Cast the SRD spell <strong>Haste</strong> by spending 3 Hit Dice. Requires Pilgrim level 5 and Yin/Yang value: Yang 3+. Energy shift: toward the Yin apex. The spell's effect is the SRD spell Haste; see the dnd5e SRD spell compendium for its full rules.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
@@ -2033,7 +2033,7 @@
       "_key": "!items!r6f37186ecf409ee",
       "name": "Slow (Externalization)",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/spell-book.svg",
       "system": {
         "description": {
           "value": "<p>Path of Harmony additional externalization. Cast the SRD spell <strong>Slow</strong> by spending 3 Hit Dice. Requires Pilgrim level 5 and Yin/Yang value: Yin 3+. Energy shift: toward the Yang apex. The spell's effect is the SRD spell Slow; see the dnd5e SRD spell compendium for its full rules.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
@@ -2116,7 +2116,7 @@
       "_key": "!items!r2655e6180ef38d8",
       "name": "Locate Creature (Externalization)",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/spell-book.svg",
       "system": {
         "description": {
           "value": "<p>Path of Harmony additional externalization. Cast the SRD spell <strong>Locate Creature</strong> by spending 3 Hit Dice. Requires Pilgrim level 6 and Yin/Yang value: Yin 2/Yang 2. Energy shift: toward the either apex (your choice). The spell's effect is the SRD spell Locate Creature; see the dnd5e SRD spell compendium for its full rules.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
@@ -2199,7 +2199,7 @@
       "_key": "!items!r1ee60d5f566d416",
       "name": "Fire Shield (Warm Shield) (Externalization)",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/flame.svg",
       "system": {
         "description": {
           "value": "<p>Path of Harmony additional externalization. Cast the SRD spell <strong>Fire Shield (Warm Shield)</strong> by spending 3 Hit Dice. Requires Pilgrim level 7 and Yin/Yang value: Yang 3+. Energy shift: toward the Yin apex. The spell's effect is the SRD spell Fire Shield (Warm Shield); see the dnd5e SRD spell compendium for its full rules.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
@@ -2282,7 +2282,7 @@
       "_key": "!items!r193fb33149df974",
       "name": "Fire Shield (Chill Shield) (Externalization)",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/flame.svg",
       "system": {
         "description": {
           "value": "<p>Path of Harmony additional externalization. Cast the SRD spell <strong>Fire Shield (Chill Shield)</strong> by spending 3 Hit Dice. Requires Pilgrim level 7 and Yin/Yang value: Yin 3+. Energy shift: toward the Yang apex. The spell's effect is the SRD spell Fire Shield (Chill Shield); see the dnd5e SRD spell compendium for its full rules.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
@@ -2365,7 +2365,7 @@
       "_key": "!items!r9fb31bf9f0fb89c",
       "name": "Freedom of Movement (Externalization)",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/spell-book.svg",
       "system": {
         "description": {
           "value": "<p>Path of Harmony additional externalization. Cast the SRD spell <strong>Freedom of Movement</strong> by spending 3 Hit Dice. Requires Pilgrim level 8 and Yin/Yang value: Yin 2/Yang 2. Energy shift: toward the either apex (your choice). The spell's effect is the SRD spell Freedom of Movement; see the dnd5e SRD spell compendium for its full rules.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
@@ -2448,7 +2448,7 @@
       "_key": "!items!r2a7ee912836893b",
       "name": "Awaken (Externalization)",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/spell-book.svg",
       "system": {
         "description": {
           "value": "<p>Path of Harmony additional externalization. Cast the SRD spell <strong>Awaken</strong> by spending 4 Hit Dice. Requires Pilgrim level 9 and Yin/Yang value: Yang 4+. Energy shift: toward the Yin apex. The spell's effect is the SRD spell Awaken; see the dnd5e SRD spell compendium for its full rules.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
@@ -2531,7 +2531,7 @@
       "_key": "!items!rf23df2e5aadb068",
       "name": "Modify Memory (Externalization)",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/spell-book.svg",
       "system": {
         "description": {
           "value": "<p>Path of Harmony additional externalization. Cast the SRD spell <strong>Modify Memory</strong> by spending 4 Hit Dice. Requires Pilgrim level 9 and Yin/Yang value: Yin 4+. Energy shift: toward the Yang apex. The spell's effect is the SRD spell Modify Memory; see the dnd5e SRD spell compendium for its full rules.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
@@ -2614,7 +2614,7 @@
       "_key": "!items!rf954f9d912e9211",
       "name": "Find the Path (Externalization)",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/spell-book.svg",
       "system": {
         "description": {
           "value": "<p>Path of Harmony additional externalization. Cast the SRD spell <strong>Find the Path</strong> by spending 5 Hit Dice. Requires Pilgrim level 10 and Yin/Yang value: Yin 2/Yang 2. Energy shift: toward the either apex (your choice). The spell's effect is the SRD spell Find the Path; see the dnd5e SRD spell compendium for its full rules.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
@@ -2697,7 +2697,7 @@
       "_key": "!items!r338cebd60f9b455",
       "name": "Insect Plague (Externalization)",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/spider-alt.svg",
       "system": {
         "description": {
           "value": "<p>Path of Harmony additional externalization. Cast the SRD spell <strong>Insect Plague</strong> by spending 6 Hit Dice. Requires Pilgrim level 11 and Yin/Yang value: Yang 4+. Energy shift: toward the Yin apex. The spell's effect is the SRD spell Insect Plague; see the dnd5e SRD spell compendium for its full rules.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
@@ -2780,7 +2780,7 @@
       "_key": "!items!ra9557a2c3873fe9",
       "name": "Tree Stride (Externalization)",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/bamboo.svg",
       "system": {
         "description": {
           "value": "<p>Path of Harmony additional externalization. Cast the SRD spell <strong>Tree Stride</strong> by spending 6 Hit Dice. Requires Pilgrim level 11 and Yin/Yang value: Yin 4+. Energy shift: toward the Yang apex. The spell's effect is the SRD spell Tree Stride; see the dnd5e SRD spell compendium for its full rules.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
@@ -2863,7 +2863,7 @@
       "_key": "!items!rac4b2146f17d271",
       "name": "Continual Flame (Externalization)",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/flame.svg",
       "system": {
         "description": {
           "value": "<p>Path of Justice additional externalization. Cast the SRD spell <strong>Continual Flame</strong> by spending 1 Hit Dice. Requires Pilgrim level 2 and Yin/Yang value: Yang 2+. Energy shift: toward the Yin apex. The spell's effect is the SRD spell Continual Flame; see the dnd5e SRD spell compendium for its full rules.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
@@ -2946,7 +2946,7 @@
       "_key": "!items!rb4b1f2594c959c9",
       "name": "Hold Person (Externalization)",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/spell-book.svg",
       "system": {
         "description": {
           "value": "<p>Path of Justice additional externalization. Cast the SRD spell <strong>Hold Person</strong> by spending 2 Hit Dice. Requires Pilgrim level 3 and Yin/Yang value: Yang 3+. Energy shift: toward the Yin apex. The spell's effect is the SRD spell Hold Person; see the dnd5e SRD spell compendium for its full rules.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
@@ -3029,7 +3029,7 @@
       "_key": "!items!rb4e0a550c3e2083",
       "name": "Zone of Truth (Externalization)",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/spell-book.svg",
       "system": {
         "description": {
           "value": "<p>Path of Justice additional externalization. Cast the SRD spell <strong>Zone of Truth</strong> by spending 2 Hit Dice. Requires Pilgrim level 4 and Yin/Yang value: Yang 3+. Energy shift: toward the Yin apex. The spell's effect is the SRD spell Zone of Truth; see the dnd5e SRD spell compendium for its full rules.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
@@ -3112,7 +3112,7 @@
       "_key": "!items!r79804166f9f392a",
       "name": "Counterspell (Externalization)",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/fast-forward-button.svg",
       "system": {
         "description": {
           "value": "<p>Path of Justice additional externalization. Cast the SRD spell <strong>Counterspell</strong> by spending 3 Hit Dice. Requires Pilgrim level 6 and Yin/Yang value: Yang 4+. Energy shift: toward the Yin apex. The spell's effect is the SRD spell Counterspell; see the dnd5e SRD spell compendium for its full rules.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
@@ -3195,7 +3195,7 @@
       "_key": "!items!rd661626657c2744",
       "name": "Daylight (Externalization)",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/spell-book.svg",
       "system": {
         "description": {
           "value": "<p>Path of Justice additional externalization. Cast the SRD spell <strong>Daylight</strong> by spending 3 Hit Dice. Requires Pilgrim level 7 and Yin/Yang value: Yang 3+. Energy shift: toward the Yin apex. The spell's effect is the SRD spell Daylight; see the dnd5e SRD spell compendium for its full rules.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
@@ -3278,7 +3278,7 @@
       "_key": "!items!rb338b5cb04f609e",
       "name": "Banishment (Externalization)",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/spell-book.svg",
       "system": {
         "description": {
           "value": "<p>Path of Justice additional externalization. Cast the SRD spell <strong>Banishment</strong> by spending 4 Hit Dice. Requires Pilgrim level 8 and Yin/Yang value: Yang 4+. Energy shift: toward the Yin apex. The spell's effect is the SRD spell Banishment; see the dnd5e SRD spell compendium for its full rules.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
@@ -3361,7 +3361,7 @@
       "_key": "!items!rded2c911d5a5634",
       "name": "Hold Monster (Externalization)",
       "type": "feat",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "img": "modules/rokugan5e/icons/game-icons/spell-book.svg",
       "system": {
         "description": {
           "value": "<p>Path of Justice additional externalization. Cast the SRD spell <strong>Hold Monster</strong> by spending 4 Hit Dice. Requires Pilgrim level 10 and Yin/Yang value: Yang 4+. Energy shift: toward the Yin apex. The spell's effect is the SRD spell Hold Monster; see the dnd5e SRD spell compendium for its full rules.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",

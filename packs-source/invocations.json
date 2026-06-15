@@ -177,7 +177,7 @@
       "_key": "!items!riarmorofstone00",
       "name": "Armor of Stone",
       "type": "spell",
-      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "img": "modules/rokugan5e/icons/game-icons/stone-tower.svg",
       "system": {
         "description": {
           "value": "<p>Tier 2 earth summoning · Casting: 1 action · Base Favor: 1 · Range: Self · Duration: Ongoing (1 favor per round)</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 261.</em></p>",
@@ -300,7 +300,7 @@
       "_key": "!items!ribarricadeofear",
       "name": "Barricade of Earth",
       "type": "spell",
-      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "img": "modules/rokugan5e/icons/game-icons/stone-tower.svg",
       "system": {
         "description": {
           "value": "<p>Tier 2 earth summoning · Casting: 1 minute · Base Favor: 1 · Range: 30 feet · Duration: 1 hour</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 261.</em></p>",
@@ -410,7 +410,7 @@
       "_key": "!items!ribindtheshadow0",
       "name": "Bind the Shadow",
       "type": "spell",
-      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "img": "modules/rokugan5e/icons/game-icons/cultist.svg",
       "system": {
         "description": {
           "value": "<p>Tier 3 earth purification · Casting: 1 minute · Base Favor: 2 · Range: 10 feet · Duration: 1 hour</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 264.</em></p>",
@@ -533,7 +533,7 @@
       "_key": "!items!ribitingsteel000",
       "name": "Biting Steel",
       "type": "spell",
-      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "img": "modules/rokugan5e/icons/game-icons/spell-book.svg",
       "system": {
         "description": {
           "value": "<p>Tier 1 fire augmentation · Casting: 1 action · Base Favor: 0 · Range: Touch · Duration: 1 minute</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 265.</em></p>",
@@ -643,7 +643,7 @@
       "_key": "!items!ribladeoftheelem",
       "name": "Blade of the Elements",
       "type": "spell",
-      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "img": "modules/rokugan5e/icons/game-icons/katana.svg",
       "system": {
         "description": {
           "value": "<p>Tier 1 any element · Casting: 1 action · Base Favor: 0 · Range: Self · Duration: 1 minute, or until the end of any turn in</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 265.</em></p>",
@@ -753,7 +753,7 @@
       "_key": "!items!ribreathofthefir",
       "name": "Breath of the Fire Dragon",
       "type": "spell",
-      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "img": "modules/rokugan5e/icons/game-icons/flame.svg",
       "system": {
         "description": {
           "value": "<p>Tier 3 fire smite · Casting: 1 action · Base Favor: 2 · Range: Self · Duration: Ongoing (1 favor per round)</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 266.</em></p>",
@@ -863,7 +863,7 @@
       "_key": "!items!ricallofcinders0",
       "name": "Call of Cinders",
       "type": "spell",
-      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "img": "modules/rokugan5e/icons/game-icons/flame.svg",
       "system": {
         "description": {
           "value": "<p>Tier 1 fire smite · Casting: 1 action · Base Favor: 0 · Range: 30 feet · Duration: Instantaneous</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 267.</em></p>",
@@ -973,7 +973,7 @@
       "_key": "!items!ricaressofearth0",
       "name": "Caress of Earth",
       "type": "spell",
-      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "img": "modules/rokugan5e/icons/game-icons/stone-tower.svg",
       "system": {
         "description": {
           "value": "<p>Tier 1 earth mending · Casting: 10 minutes · Base Favor: 0 · Range: Touch · Duration: Instantaneous</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 267.</em></p>",
@@ -1083,7 +1083,7 @@
       "_key": "!items!ricleansingrite0",
       "name": "Cleansing Rite",
       "type": "spell",
-      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "img": "modules/rokugan5e/icons/game-icons/spell-book.svg",
       "system": {
         "description": {
           "value": "<p>Tier 0 any element · Casting: 1 minute · Base Favor: 0 · Range: Touch · Duration: Instantaneous</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 267.</em></p>",
@@ -1193,7 +1193,7 @@
       "_key": "!items!ricommunewiththe",
       "name": "Commune with the Spirits",
       "type": "spell",
-      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "img": "modules/rokugan5e/icons/game-icons/meditation.svg",
       "system": {
         "description": {
           "value": "<p>Tier 0 any element · Casting: 1 minute · Base Favor: 0 · Range: 30 feet · Duration: Instantaneous</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 267.</em></p>",
@@ -1303,7 +1303,7 @@
       "_key": "!items!ridanceofseasons",
       "name": "Dance of Seasons",
       "type": "spell",
-      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "img": "modules/rokugan5e/icons/game-icons/spell-book.svg",
       "system": {
         "description": {
           "value": "<p>Tier 1 water augmentation · Casting: 1 minute · Base Favor: 0 · Range: 30 feet · Duration: Instantaneous</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 269.</em></p>",
@@ -1426,7 +1426,7 @@
       "_key": "!items!ridivinetheomens",
       "name": "Divine the Omens",
       "type": "spell",
-      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "img": "modules/rokugan5e/icons/game-icons/spell-book.svg",
       "system": {
         "description": {
           "value": "<p>Tier 0 any element · Casting: 10 minutes · Base Favor: 0 · Range: 5 feet · Duration: Instantaneous</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 269.</em></p>",
@@ -1536,7 +1536,7 @@
       "_key": "!items!ridominionofwate",
       "name": "Dominion of Water",
       "type": "spell",
-      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "img": "modules/rokugan5e/icons/game-icons/water-drop.svg",
       "system": {
         "description": {
           "value": "<p>Tier 2 water scrying · Casting: 1 minute · Base Favor: 1 · Range: Touch · Duration: 1 minute</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 270.</em></p>",
@@ -1646,7 +1646,7 @@
       "_key": "!items!riearthbecomessk",
       "name": "Earth Becomes Sky",
       "type": "spell",
-      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "img": "modules/rokugan5e/icons/game-icons/stone-tower.svg",
       "system": {
         "description": {
           "value": "<p>Tier 2 earth smite · Casting: 1 action · Base Favor: 1 · Range: Self (10-foot slam) · Duration: Instantaneous</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 270.</em></p>",
@@ -1756,7 +1756,7 @@
       "_key": "!items!riembraceoftheea",
       "name": "Embrace of the Earth Dragon",
       "type": "spell",
-      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "img": "modules/rokugan5e/icons/game-icons/stone-tower.svg",
       "system": {
         "description": {
           "value": "<p>Tier 3 earth augmentation · Casting: 1 action · Base Favor: 1 · Range: 10 feet · Duration: 1 minute</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 271.</em></p>",
@@ -1866,7 +1866,7 @@
       "_key": "!items!rieverchangingwa",
       "name": "Ever-Changing Waves",
       "type": "spell",
-      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "img": "modules/rokugan5e/icons/game-icons/water-drop.svg",
       "system": {
         "description": {
           "value": "<p>Tier 3 water augmentation · Casting: 1 action · Base Favor: 2 · Range: Self · Duration: Ongoing (1 favor per round)</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 271.</em></p>",
@@ -1976,7 +1976,7 @@
       "_key": "!items!rifuryofosanowo0",
       "name": "Fury of Osano-wō",
       "type": "spell",
-      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "img": "modules/rokugan5e/icons/game-icons/spell-book.svg",
       "system": {
         "description": {
           "value": "<p>Tier 2 fire smite · Casting: 1 action · Base Favor: 1 · Range: 60 feet · Duration: Instantaneous</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 271.</em></p>",
@@ -2086,7 +2086,7 @@
       "_key": "!items!rigentlerains000",
       "name": "Gentle Rains",
       "type": "spell",
-      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "img": "modules/rokugan5e/icons/game-icons/water-drop.svg",
       "system": {
         "description": {
           "value": "<p>Tier 2 water mending · Casting: 1 action · Base Favor: 1 · Range: Self (20-foot sweep) · Duration: Ongoing (1 favor per round)</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 273.</em></p>",
@@ -2196,7 +2196,7 @@
       "_key": "!items!rigraceoftheaird",
       "name": "Grace of the Air Dragon",
       "type": "spell",
-      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "img": "modules/rokugan5e/icons/game-icons/sword-brandish.svg",
       "system": {
         "description": {
           "value": "<p>Tier 3 air augmentation · Casting: 1 bonus action · Base Favor: 2 · Range: 10 feet · Duration: 1 minute</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 273.</em></p>",
@@ -2319,7 +2319,7 @@
       "_key": "!items!riguardianofthes",
       "name": "Guardian of the Sacred Gate",
       "type": "spell",
-      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "img": "modules/rokugan5e/icons/game-icons/guards.svg",
       "system": {
         "description": {
           "value": "<p>Tier 1 earth summoning · Casting: 1 minute · Base Favor: 0 · Range: 10 feet · Duration: Ongoing (1 favor per round)</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 274.</em></p>",
@@ -2429,7 +2429,7 @@
       "_key": "!items!rihandsofthetide",
       "name": "Hands of the Tide",
       "type": "spell",
-      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "img": "modules/rokugan5e/icons/game-icons/water-drop.svg",
       "system": {
         "description": {
           "value": "<p>Tier 2 water augmentation · Casting: 1 action · Base Favor: 1 · Range: 30 feet · Duration: Instantaneous</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 274.</em></p>",
@@ -2552,7 +2552,7 @@
       "_key": "!items!riheartofthewate",
       "name": "Heart of the Water Dragon",
       "type": "spell",
-      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "img": "modules/rokugan5e/icons/game-icons/water-drop.svg",
       "system": {
         "description": {
           "value": "<p>Tier 3 water augmentation · Casting: 1 action · Base Favor: 2 · Range: 10 feet · Duration: 1 minute</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 274.</em></p>",
@@ -2662,7 +2662,7 @@
       "_key": "!items!riinvigoratinghe",
       "name": "Invigorating Heat",
       "type": "spell",
-      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "img": "modules/rokugan5e/icons/game-icons/spell-book.svg",
       "system": {
         "description": {
           "value": "<p>Tier 2 fire mending · Casting: 1 action · Base Favor: 1 · Range: Touch · Duration: 1 minute</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 276.</em></p>",
@@ -2772,7 +2772,7 @@
       "_key": "!items!rijadestrike0000",
       "name": "Jade Strike",
       "type": "spell",
-      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "img": "modules/rokugan5e/icons/game-icons/fist.svg",
       "system": {
         "description": {
           "value": "<p>Tier 1 earth purification · Casting: 1 action · Base Favor: 0 · Range: 10 feet · Duration: Instantaneous</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 276.</em></p>",
@@ -2882,7 +2882,7 @@
       "_key": "!items!riladysunssmile0",
       "name": "Lady Sun's Smile",
       "type": "spell",
-      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "img": "modules/rokugan5e/icons/game-icons/spell-book.svg",
       "system": {
         "description": {
           "value": "<p>Tier 1 fire purification · Casting: 1 minute · Base Favor: 0 · Range: Self (30-foot line) · Duration: 1 minute</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 277.</em></p>",
@@ -3005,7 +3005,7 @@
       "_key": "!items!rilordmoonsgaze0",
       "name": "Lord Moon's Gaze",
       "type": "spell",
-      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "img": "modules/rokugan5e/icons/game-icons/spell-book.svg",
       "system": {
         "description": {
           "value": "<p>Tier 2 air scrying · Casting: 1 minute · Base Favor: 1 · Range: Self (30-foot line) · Duration: 1 minute</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 277.</em></p>",
@@ -3115,7 +3115,7 @@
       "_key": "!items!rimaskofwind0000",
       "name": "Mask of Wind",
       "type": "spell",
-      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "img": "modules/rokugan5e/icons/game-icons/wind-slap.svg",
       "system": {
         "description": {
           "value": "<p>Tier 1 air illusion · Casting: 10 minutes · Base Favor: 0 · Range: Touch · Duration: Ongoing (1 favor per round)</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 278.</em></p>",
@@ -3225,7 +3225,7 @@
       "_key": "!items!rinaturestouch00",
       "name": "Nature's Touch",
       "type": "spell",
-      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "img": "modules/rokugan5e/icons/game-icons/spell-book.svg",
       "system": {
         "description": {
           "value": "<p>Tier 1 air augmentation · Casting: 1 action · Base Favor: 0 · Range: Touch · Duration: 1 hour</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 278.</em></p>",
@@ -3335,7 +3335,7 @@
       "_key": "!items!ricastingtime000",
       "name": "Casting Time",
       "type": "spell",
-      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "img": "modules/rokugan5e/icons/game-icons/spell-book.svg",
       "system": {
         "description": {
           "value": "<p>Tier 1 water mending · Casting: — · Base Favor: 1 · Range: — · Duration: —</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 260.</em></p>",
@@ -3445,7 +3445,7 @@
       "_key": "!items!rirealmofillusio",
       "name": "Realm of Illusion",
       "type": "spell",
-      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "img": "modules/rokugan5e/icons/game-icons/spell-book.svg",
       "system": {
         "description": {
           "value": "<p>Tier 3 air illusion · Casting: 10 minutes · Base Favor: 2 · Range: Self (30-foot sphere) · Duration: 1 hour, or until you leave the sphere</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 280.</em></p>",
@@ -3568,7 +3568,7 @@
       "_key": "!items!risearingbarrica",
       "name": "Searing Barricade",
       "type": "spell",
-      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "img": "modules/rokugan5e/icons/game-icons/spell-book.svg",
       "system": {
         "description": {
           "value": "<p>Tier 2 fire summoning · Casting: 1 action · Base Favor: 1 · Range: 20 feet · Duration: 1 minute</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 281.</em></p>",
@@ -3691,7 +3691,7 @@
       "_key": "!items!risecretsonthewi",
       "name": "Secrets on the Wind",
       "type": "spell",
-      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "img": "modules/rokugan5e/icons/game-icons/wind-slap.svg",
       "system": {
         "description": {
           "value": "<p>Tier 2 air scrying · Casting: 1 minute · Base Favor: 1 · Range: Self (10-foot sphere) · Duration: 10 hours</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 281.</em></p>",
@@ -3801,7 +3801,7 @@
       "_key": "!items!risinkholeshunge",
       "name": "Sinkhole’s Hunger",
       "type": "spell",
-      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "img": "modules/rokugan5e/icons/game-icons/spell-book.svg",
       "system": {
         "description": {
           "value": "<p>Tier 1 earth smite · Casting: 1 action · Base Favor: 0 · Range: Self (10-foot line) · Duration: Instantaneous</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 282.</em></p>",
@@ -3924,7 +3924,7 @@
       "_key": "!items!risparkingswarms",
       "name": "Sparking Swarms",
       "type": "spell",
-      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "img": "modules/rokugan5e/icons/game-icons/spell-book.svg",
       "system": {
         "description": {
           "value": "<p>Tier 1 fire summoning · Casting: 1 action · Base Favor: 0 · Range: Self · Duration: 1 minute</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 282.</em></p>",
@@ -4034,7 +4034,7 @@
       "_key": "!items!ristrikeofthetsu",
       "name": "Strike of the Tsunami",
       "type": "spell",
-      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "img": "modules/rokugan5e/icons/game-icons/fist.svg",
       "system": {
         "description": {
           "value": "<p>Tier 1 water smite · Casting: 1 action · Base Favor: 0 · Range: Self (5-foot sweep) · Duration: Instantaneous</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 282.</em></p>",
@@ -4144,7 +4144,7 @@
       "_key": "!items!risummonfog00000",
       "name": "Summon Fog",
       "type": "spell",
-      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "img": "modules/rokugan5e/icons/game-icons/spell-book.svg",
       "system": {
         "description": {
           "value": "<p>Tier 2 air summoning · Casting: 1 action · Base Favor: 1 · Range: 10 feet · Duration: 1 minute</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 282.</em></p>",
@@ -4254,7 +4254,7 @@
       "_key": "!items!risurgeofair0000",
       "name": "Surge of Air",
       "type": "spell",
-      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "img": "modules/rokugan5e/icons/game-icons/wind-slap.svg",
       "system": {
         "description": {
           "value": "<p>Tier 1 air smite · Casting: 1 action · Base Favor: 0 · Range: Self (30-foot line) · Duration: Instantaneous</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 284.</em></p>",
@@ -4364,7 +4364,7 @@
       "_key": "!items!ritheelementsris",
       "name": "The Elements Rise",
       "type": "spell",
-      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "img": "modules/rokugan5e/icons/game-icons/spell-book.svg",
       "system": {
         "description": {
           "value": "<p>Tier 3 any element · Casting: 1 minute · Base Favor: 2 · Range: 10 feet · Duration: Ongoing (2 favor per round)</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 284.</em></p>",
@@ -4474,7 +4474,7 @@
       "_key": "!items!ritherushingwave",
       "name": "The Rushing Wave",
       "type": "spell",
-      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "img": "modules/rokugan5e/icons/game-icons/water-drop.svg",
       "system": {
         "description": {
           "value": "<p>Tier 2 water augmentation · Casting: 1 bonus action · Base Favor: 1 · Range: Self · Duration: 1 minute</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 284.</em></p>",
@@ -4584,7 +4584,7 @@
       "_key": "!items!rithresholdbarri",
       "name": "Threshold Barrier",
       "type": "spell",
-      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "img": "modules/rokugan5e/icons/game-icons/spell-book.svg",
       "system": {
         "description": {
           "value": "<p>Tier 0 any element · Casting: 10 minutes · Base Favor: 0 · Range: Self (15-foot line) · Duration: 1 hour</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 286.</em></p>",
@@ -4694,7 +4694,7 @@
       "_key": "!items!ritokenofmemory0",
       "name": "Token of Memory",
       "type": "spell",
-      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "img": "modules/rokugan5e/icons/game-icons/spell-book.svg",
       "system": {
         "description": {
           "value": "<p>Tier 1 air illusion · Casting: 1 minute · Base Favor: 0 · Range: Touch · Duration: 1 hour</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 286.</em></p>",
@@ -4817,7 +4817,7 @@
       "_key": "!items!riwingsofthephoe",
       "name": "Wings of the Phoenix",
       "type": "spell",
-      "img": "systems/dnd5e/icons/svg/items/spell.svg",
+      "img": "modules/rokugan5e/icons/game-icons/spell-book.svg",
       "system": {
         "description": {
           "value": "<p>Tier 3 fire augmentation · Casting: 1 action · Base Favor: 2 · Range: Self · Duration: 1 minute</p><p>Resonances available (bonus favor) — see book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 287.</em></p>",

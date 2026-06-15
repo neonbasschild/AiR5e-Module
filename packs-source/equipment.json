@@ -157,7 +157,7 @@
       "_key": "!items!rwcarpentershamm",
       "name": "Carpenter's Hammer",
       "type": "weapon",
-      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Light, thrown (range 20/60).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
@@ -272,7 +272,7 @@
       "_key": "!items!rwclub0000000000",
       "name": "Club",
       "type": "weapon",
-      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Light.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
@@ -386,7 +386,7 @@
       "_key": "!items!rwcudgel00000000",
       "name": "Cudgel",
       "type": "weapon",
-      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Heavy, two-handed.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
@@ -501,7 +501,7 @@
       "_key": "!items!rwdagger00000000",
       "name": "Dagger",
       "type": "weapon",
-      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Finesse, light, thrown (20/60).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
@@ -617,7 +617,7 @@
       "_key": "!items!rwhatchet0000000",
       "name": "Hatchet",
       "type": "weapon",
-      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Light, thrown (range 20/60).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
@@ -732,7 +732,7 @@
       "_key": "!items!rwironfan0000000",
       "name": "Iron Fan",
       "type": "weapon",
-      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "img": "modules/rokugan5e/icons/game-icons/war-pick.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Defensive, light.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
@@ -847,7 +847,7 @@
       "_key": "!items!rwreinforcedpipe",
       "name": "Reinforced Pipe",
       "type": "weapon",
-      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "img": "modules/rokugan5e/icons/game-icons/muscle-up.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Defensive, finesse.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
@@ -962,7 +962,7 @@
       "_key": "!items!rwsickle00000000",
       "name": "Sickle",
       "type": "weapon",
-      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Finesse, light, paired, snaring (10).</p><p>Snaring (10 ft.)</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
@@ -1079,7 +1079,7 @@
       "_key": "!items!rwspear000000000",
       "name": "Spear",
       "type": "weapon",
-      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Thrown (20/60), versatile (1d8).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
@@ -1208,7 +1208,7 @@
       "_key": "!items!rwstaff000000000",
       "name": "Staff",
       "type": "weapon",
-      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Versatile (1d8).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
@@ -1336,7 +1336,7 @@
       "_key": "!items!rwwoodensword000",
       "name": "Wooden Sword",
       "type": "weapon",
-      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "img": "modules/rokugan5e/icons/game-icons/katana.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Versatile (1d8).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
@@ -1464,7 +1464,7 @@
       "_key": "!items!rwhuntingbow0000",
       "name": "Hunting Bow",
       "type": "weapon",
-      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "img": "modules/rokugan5e/icons/game-icons/high-shot.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Ammunition (range 80/320), two-handed.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
@@ -1579,7 +1579,7 @@
       "_key": "!items!rwsling000000000",
       "name": "Sling",
       "type": "weapon",
-      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Ammunition (range 30/120).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
@@ -1693,7 +1693,7 @@
       "_key": "!items!rwbattleaxe00000",
       "name": "Battleaxe",
       "type": "weapon",
-      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Versatile (1d10).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
@@ -1821,7 +1821,7 @@
       "_key": "!items!rwchainsickle000",
       "name": "Chain Sickle",
       "type": "weapon",
-      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "img": "modules/rokugan5e/icons/game-icons/sword-array.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Finesse, reach, snaring (15), two-handed.</p><p>Snaring (15 ft.)</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
@@ -1938,7 +1938,7 @@
       "_key": "!items!rwcrescenthalber",
       "name": "Crescent Halberd",
       "type": "weapon",
-      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "img": "modules/rokugan5e/icons/game-icons/sword-spin.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Heavy, reach, versatile (1d10).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
@@ -2068,7 +2068,7 @@
       "_key": "!items!rwbroadsaber0000",
       "name": "Broad Saber",
       "type": "weapon",
-      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Finesse, light, paired.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
@@ -2184,7 +2184,7 @@
       "_key": "!items!rwcurvedsaber000",
       "name": "Curved Saber",
       "type": "weapon",
-      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Special.</p><p>Special property</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
@@ -2298,7 +2298,7 @@
       "_key": "!items!rwhookedspear000",
       "name": "Hooked Spear",
       "type": "weapon",
-      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Snaring (10), versatile (1d10).</p><p>Snaring (10 ft.)</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
@@ -2427,7 +2427,7 @@
       "_key": "!items!rwhorsecleavingb",
       "name": "Horsecleaving Blade",
       "type": "weapon",
-      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "img": "modules/rokugan5e/icons/game-icons/katana.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Heavy, special, two-handed.</p><p>Special property</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
@@ -2543,7 +2543,7 @@
       "_key": "!items!rwironstuddedclu",
       "name": "Iron-Studded Club",
       "type": "weapon",
-      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "img": "modules/rokugan5e/icons/game-icons/stone-tower.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Heavy, two-handed.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
@@ -2658,7 +2658,7 @@
       "_key": "!items!rwkatana00000000",
       "name": "Katana",
       "type": "weapon",
-      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "img": "modules/rokugan5e/icons/game-icons/katana.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Finesse, versatile (1d10).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
@@ -2787,7 +2787,7 @@
       "_key": "!items!rwmallet00000000",
       "name": "Mallet",
       "type": "weapon",
-      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Heavy, versatile (1d10).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
@@ -2916,7 +2916,7 @@
       "_key": "!items!rwmeteorhammer00",
       "name": "Meteor Hammer",
       "type": "weapon",
-      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Reach, snaring (15), two-handed.</p><p>Snaring (15 ft.)</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
@@ -3032,7 +3032,7 @@
       "_key": "!items!rwnaginata000000",
       "name": "Naginata",
       "type": "weapon",
-      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "img": "modules/rokugan5e/icons/game-icons/spear-hook.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Defensive, finesse, reach, two-handed.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
@@ -3149,7 +3149,7 @@
       "_key": "!items!rwgreatsword0000",
       "name": "Greatsword",
       "type": "weapon",
-      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "img": "modules/rokugan5e/icons/game-icons/katana.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Heavy, two-handed.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
@@ -3264,7 +3264,7 @@
       "_key": "!items!rwnunchaku000000",
       "name": "Nunchaku",
       "type": "weapon",
-      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "img": "modules/rokugan5e/icons/game-icons/nunchaku.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Finesse, snaring (15).</p><p>Snaring (15 ft.)</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
@@ -3379,7 +3379,7 @@
       "_key": "!items!rwsai00000000000",
       "name": "Sai",
       "type": "weapon",
-      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "img": "modules/rokugan5e/icons/game-icons/sai.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Finesse, light, paired, snaring (10), thrown (10/30).</p><p>Snaring (10 ft.)</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
@@ -3497,7 +3497,7 @@
       "_key": "!items!rwspikedmace0000",
       "name": "Spiked Mace",
       "type": "weapon",
-      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Heavy, versatile (1d12).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
@@ -3626,7 +3626,7 @@
       "_key": "!items!rwstraightswordd",
       "name": "Straightsword, Double-Edged",
       "type": "weapon",
-      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "img": "modules/rokugan5e/icons/game-icons/katana.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Finesse, special, versatile (1d8).</p><p>Special property</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
@@ -3758,7 +3758,7 @@
       "_key": "!items!rwstraightswords",
       "name": "Straightsword, Single-Edged",
       "type": "weapon",
-      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "img": "modules/rokugan5e/icons/game-icons/katana.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Versatile (1d10).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
@@ -3886,7 +3886,7 @@
       "_key": "!items!rwswordbreaker00",
       "name": "Swordbreaker",
       "type": "weapon",
-      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "img": "modules/rokugan5e/icons/game-icons/katana.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Defensive, light, snaring (10).</p><p>Snaring (10 ft.)</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
@@ -4002,7 +4002,7 @@
       "_key": "!items!rwtigerhooksword",
       "name": "Tiger Hook Swords",
       "type": "weapon",
-      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "img": "modules/rokugan5e/icons/game-icons/katana.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Light, paired, snaring (10).</p><p>Snaring (10 ft.)</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
@@ -4118,7 +4118,7 @@
       "_key": "!items!rwthreesectionst",
       "name": "Three-Section Staff",
       "type": "weapon",
-      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Reach, snaring (10), two-handed.</p><p>Snaring (10 ft.)</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
@@ -4234,7 +4234,7 @@
       "_key": "!items!rwtridentpolearm",
       "name": "Trident Polearm",
       "type": "weapon",
-      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Thrown (10/30), versatile (1d10).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
@@ -4363,7 +4363,7 @@
       "_key": "!items!rwwakizashi00000",
       "name": "Wakizashi",
       "type": "weapon",
-      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "img": "modules/rokugan5e/icons/game-icons/katana.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Finesse, light, thrown (10/30).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
@@ -4479,7 +4479,7 @@
       "_key": "!items!rwwarspear000000",
       "name": "Warspear",
       "type": "weapon",
-      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Reach, two-handed.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
@@ -4594,7 +4594,7 @@
       "_key": "!items!rwwhipsword00000",
       "name": "Whip Sword",
       "type": "weapon",
-      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "img": "modules/rokugan5e/icons/game-icons/katana.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Reach, special.</p><p>Special property</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
@@ -4709,7 +4709,7 @@
       "_key": "!items!rwballista000000",
       "name": "Ballista",
       "type": "weapon",
-      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Loading, special.</p><p>Special property</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 199.</em></p>",
@@ -4824,7 +4824,7 @@
       "_key": "!items!rwblowgun0000000",
       "name": "Blowgun",
       "type": "weapon",
-      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "img": "modules/rokugan5e/icons/game-icons/dart.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Ammunition (25/100), loading.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 199.</em></p>",
@@ -4940,7 +4940,7 @@
       "_key": "!items!rwcrossbow000000",
       "name": "Crossbow",
       "type": "weapon",
-      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "img": "modules/rokugan5e/icons/game-icons/high-shot.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Ammunition (range 30/120), loading, two-handed.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 199.</em></p>",
@@ -5056,7 +5056,7 @@
       "_key": "!items!rwgreatbow000000",
       "name": "Greatbow",
       "type": "weapon",
-      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "img": "modules/rokugan5e/icons/game-icons/high-shot.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Ammunition (range 150/600), heavy, special, two-handed.</p><p>Special property</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 199.</em></p>",
@@ -5173,7 +5173,7 @@
       "_key": "!items!rwheavycrossbow0",
       "name": "Heavy Crossbow",
       "type": "weapon",
-      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "img": "modules/rokugan5e/icons/game-icons/high-shot.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Ammunition (range 100/400), loading, two-handed.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 199.</em></p>",
@@ -5289,7 +5289,7 @@
       "_key": "!items!rwlongbow0000000",
       "name": "Longbow",
       "type": "weapon",
-      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "img": "modules/rokugan5e/icons/game-icons/high-shot.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Ammunition (range 150/600), heavy, two-handed.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 199.</em></p>",
@@ -5405,7 +5405,7 @@
       "_key": "!items!rwrepeatingcross",
       "name": "Repeating Crossbow",
       "type": "weapon",
-      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "img": "modules/rokugan5e/icons/game-icons/high-shot.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Ammunition (range 30/120), loading, special.</p><p>Special property</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 199.</em></p>",
@@ -5521,7 +5521,7 @@
       "_key": "!items!rwshinjohorsebow",
       "name": "Shinjo Horsebow",
       "type": "weapon",
-      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "img": "modules/rokugan5e/icons/game-icons/high-shot.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Ammunition (range 100/400), special, two-handed.</p><p>Special property</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 199.</em></p>",
@@ -5637,7 +5637,7 @@
       "_key": "!items!rwshuriken000000",
       "name": "Shuriken",
       "type": "weapon",
-      "img": "systems/dnd5e/icons/svg/items/weapon.svg",
+      "img": "modules/rokugan5e/icons/game-icons/thrown-spear.svg",
       "system": {
         "description": {
           "value": "<p>Properties: Ammunition (range 15/60), finesse, light.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 199.</em></p>",
@@ -5753,7 +5753,7 @@
       "_key": "!items!raconcealedarmor",
       "name": "Concealed Armor",
       "type": "equipment",
-      "img": "systems/dnd5e/icons/svg/items/equipment.svg",
+      "img": "modules/rokugan5e/icons/game-icons/kimono.svg",
       "system": {
         "description": {
           "value": "<p>Hidden beneath clothing: DC 15 Perception check to detect.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 190.</em></p>",
@@ -5801,7 +5801,7 @@
       "_key": "!items!rasharkleatherar",
       "name": "Shark Leather Armor",
       "type": "equipment",
-      "img": "systems/dnd5e/icons/svg/items/equipment.svg",
+      "img": "modules/rokugan5e/icons/game-icons/leather-armor.svg",
       "system": {
         "description": {
           "value": "<p>Wearer reduces nonmagical slashing damage taken by 3.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 190.</em></p>",
@@ -5849,7 +5849,7 @@
       "_key": "!items!rasilkarmor00000",
       "name": "Silk Armor",
       "type": "equipment",
-      "img": "systems/dnd5e/icons/svg/items/equipment.svg",
+      "img": "modules/rokugan5e/icons/game-icons/robe.svg",
       "system": {
         "description": {
           "value": "<p>Wearer reduces nonmagical piercing damage taken by 3.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 190.</em></p>",
@@ -5897,7 +5897,7 @@
       "_key": "!items!raanimalhidearmo",
       "name": "Animal-Hide Armor",
       "type": "equipment",
-      "img": "systems/dnd5e/icons/svg/items/equipment.svg",
+      "img": "modules/rokugan5e/icons/game-icons/leather-armor.svg",
       "system": {
         "description": {
           "value": "<p>Resistance to nonmagical cold damage; reduce magical cold damage taken by 2.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 190.</em></p>",
@@ -5945,7 +5945,7 @@
       "_key": "!items!rafieldgear00000",
       "name": "Field Gear",
       "type": "equipment",
-      "img": "systems/dnd5e/icons/svg/items/equipment.svg",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>No additional effects.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 190.</em></p>",
@@ -5995,7 +5995,7 @@
       "_key": "!items!ralacqueredarmor",
       "name": "Lacquered Armor",
       "type": "equipment",
-      "img": "systems/dnd5e/icons/svg/items/equipment.svg",
+      "img": "modules/rokugan5e/icons/game-icons/lamellar.svg",
       "system": {
         "description": {
           "value": "<p>No additional effects.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 190.</em></p>",
@@ -6045,7 +6045,7 @@
       "_key": "!items!rasegmentedplate",
       "name": "Segmented Plate",
       "type": "equipment",
-      "img": "systems/dnd5e/icons/svg/items/equipment.svg",
+      "img": "modules/rokugan5e/icons/game-icons/lamellar.svg",
       "system": {
         "description": {
           "value": "<p>Disadvantage on Acrobatics checks.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 190.</em></p>",
@@ -6095,7 +6095,7 @@
       "_key": "!items!raroundshield000",
       "name": "Round Shield",
       "type": "equipment",
-      "img": "systems/dnd5e/icons/svg/items/equipment.svg",
+      "img": "modules/rokugan5e/icons/game-icons/round-shield.svg",
       "system": {
         "description": {
           "value": "<p>No additional effects.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 190.</em></p>",
@@ -6143,7 +6143,7 @@
       "_key": "!items!rawallshield0000",
       "name": "Wall Shield",
       "type": "equipment",
-      "img": "systems/dnd5e/icons/svg/items/equipment.svg",
+      "img": "modules/rokugan5e/icons/game-icons/shield.svg",
       "system": {
         "description": {
           "value": "<p>Partial cover vs. ranged attacks; -10 ft. speed; disadvantage on Acrobatics, Athletics, and Stealth.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 190.</em></p>",
@@ -6191,7 +6191,7 @@
       "_key": "!items!roresplendentreg",
       "name": "Resplendent Regalia",
       "type": "equipment",
-      "img": "systems/dnd5e/icons/svg/items/equipment.svg",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>Bonus action: advantage on next Intimidation, Performance, and Persuasion check (recharges on short rest).</p><p>Cannot be worn with armor or a shield.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 189.</em></p>",
@@ -6284,7 +6284,7 @@
       "_key": "!items!rosanctifiedvest",
       "name": "Sanctified Vestments",
       "type": "equipment",
-      "img": "systems/dnd5e/icons/svg/items/equipment.svg",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>Resistance to damage from supernatural sources; advantage on related saving throws.</p><p>Cannot be worn with armor or a shield.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 189.</em></p>",
@@ -6332,7 +6332,7 @@
       "_key": "!items!rotravelingcloth",
       "name": "Traveling Clothes",
       "type": "equipment",
-      "img": "systems/dnd5e/icons/svg/items/equipment.svg",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>Hardy garments suited to the road and harsh climates.</p><p>Cannot be worn with armor or a shield.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 189.</em></p>",
@@ -6380,7 +6380,7 @@
       "_key": "!items!rounremarkablega",
       "name": "Unremarkable Garb",
       "type": "equipment",
-      "img": "systems/dnd5e/icons/svg/items/equipment.svg",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>Common clothing; helps the wearer pass without notice.</p><p>Cannot be worn with armor or a shield.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 189.</em></p>",
@@ -6428,7 +6428,7 @@
       "_key": "!items!r33527401697f0b8",
       "name": "Book",
       "type": "loot",
-      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>Price ranges 5 cp to 5 gp by quality.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 193.</em></p>",
@@ -6471,7 +6471,7 @@
       "_key": "!items!r7564a742651656e",
       "name": "Field Medicine Kit",
       "type": "consumable",
-      "img": "systems/dnd5e/icons/svg/items/consumable.svg",
+      "img": "modules/rokugan5e/icons/game-icons/stone-crafting.svg",
       "system": {
         "description": {
           "value": "<p>Ten uses; stabilize or treat wounds in the field.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 193.</em></p>",
@@ -6519,7 +6519,7 @@
       "_key": "!items!r647e720702658b6",
       "name": "Finger of Jade",
       "type": "loot",
-      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>Small jade charm; wards against the Shadowlands Taint.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 193.</em></p>",
@@ -6562,7 +6562,7 @@
       "_key": "!items!r5bb8e9408bd975e",
       "name": "Mask",
       "type": "loot",
-      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>Price 5 sp to 10 gp by craftsmanship; theatrical or concealing.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 193.</em></p>",
@@ -6605,7 +6605,7 @@
       "_key": "!items!rbfdc4269889a79d",
       "name": "Personal Seal or Chop",
       "type": "loot",
-      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>Stamps a personal mark in ink or wax.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 193.</em></p>",
@@ -6648,7 +6648,7 @@
       "_key": "!items!r3867a28cce464a6",
       "name": "Portable Tea Set",
       "type": "loot",
-      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "img": "modules/rokugan5e/icons/game-icons/stone-crafting.svg",
       "system": {
         "description": {
           "value": "<p>Compact set for the tea ceremony on the road.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 193.</em></p>",
@@ -6691,7 +6691,7 @@
       "_key": "!items!r4d724f6afc21a58",
       "name": "Quiver",
       "type": "container",
-      "img": "systems/dnd5e/icons/svg/items/container.svg",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>Holds 20 arrows.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 193.</em></p>",
@@ -6735,7 +6735,7 @@
       "_key": "!items!raa55401518bf492",
       "name": "Ritual Pouch",
       "type": "container",
-      "img": "systems/dnd5e/icons/svg/items/container.svg",
+      "img": "modules/rokugan5e/icons/game-icons/spell-book.svg",
       "system": {
         "description": {
           "value": "<p>Holds an invoker's ritual focuses and offerings.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 193.</em></p>",
@@ -6779,7 +6779,7 @@
       "_key": "!items!rb3e7d0db279cb33",
       "name": "Rope (per foot)",
       "type": "loot",
-      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>Priced per foot; 5 cp/ft.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 193.</em></p>",
@@ -6822,7 +6822,7 @@
       "_key": "!items!rf1d0021f9a407ef",
       "name": "Tent, Small",
       "type": "loot",
-      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>Sleeps two.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 193.</em></p>",
@@ -6865,7 +6865,7 @@
       "_key": "!items!r30d1d992662eef6",
       "name": "Tent, Medium",
       "type": "loot",
-      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>Sleeps several.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 193.</em></p>",
@@ -6908,7 +6908,7 @@
       "_key": "!items!rd5026a4ddf72b8e",
       "name": "Tent, Large",
       "type": "loot",
-      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>Chomchong; sleeps up to a dozen, needs pack animals.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 193.</em></p>",
@@ -6951,7 +6951,7 @@
       "_key": "!items!r7f9fe09139f71f4",
       "name": "Umbrella",
       "type": "loot",
-      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>Wicker and silk; keeps off sun and rain.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 193.</em></p>",
@@ -6994,7 +6994,7 @@
       "_key": "!items!rf1cf782c91b7440",
       "name": "Whetstone",
       "type": "loot",
-      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "img": "modules/rokugan5e/icons/game-icons/stone-tower.svg",
       "system": {
         "description": {
           "value": "<p>Sharpens most bladed weapons (not katana/wakizashi).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 193.</em></p>",
@@ -7037,7 +7037,7 @@
       "_key": "!items!r3eab20a524d28ea",
       "name": "Willow-Leaf Arrows",
       "type": "consumable",
-      "img": "systems/dnd5e/icons/svg/items/ammo.svg",
+      "img": "modules/rokugan5e/icons/game-icons/high-shot.svg",
       "system": {
         "description": {
           "value": "<p>Standard arrows (20).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 197.</em></p>",
@@ -7082,7 +7082,7 @@
       "_key": "!items!r4c1ae49c46fd9ad",
       "name": "Armor-Piercing Arrows",
       "type": "consumable",
-      "img": "systems/dnd5e/icons/svg/items/ammo.svg",
+      "img": "modules/rokugan5e/icons/game-icons/high-shot.svg",
       "system": {
         "description": {
           "value": "<p>Designed to punch through armor.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 195.</em></p>",
@@ -7127,7 +7127,7 @@
       "_key": "!items!r34ceb9a16537ad9",
       "name": "Demon-Breaking Arrows",
       "type": "consumable",
-      "img": "systems/dnd5e/icons/svg/items/ammo.svg",
+      "img": "modules/rokugan5e/icons/game-icons/high-shot.svg",
       "system": {
         "description": {
           "value": "<p>Blessed against creatures of the Shadowlands.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 197.</em></p>",
@@ -7172,7 +7172,7 @@
       "_key": "!items!r1d9869f740775d1",
       "name": "Fire-Blossom Arrows",
       "type": "consumable",
-      "img": "systems/dnd5e/icons/svg/items/ammo.svg",
+      "img": "modules/rokugan5e/icons/game-icons/high-shot.svg",
       "system": {
         "description": {
           "value": "<p>Burst into flame on impact.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 197.</em></p>",
@@ -7217,7 +7217,7 @@
       "_key": "!items!r0611bef36f056d5",
       "name": "Flesh-Cutter Arrows",
       "type": "consumable",
-      "img": "systems/dnd5e/icons/svg/items/ammo.svg",
+      "img": "modules/rokugan5e/icons/game-icons/katana.svg",
       "system": {
         "description": {
           "value": "<p>Broad heads for grievous wounds.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 197.</em></p>",
@@ -7262,7 +7262,7 @@
       "_key": "!items!rb33fbe168f0b0ec",
       "name": "Humming-Bulb Arrows",
       "type": "consumable",
-      "img": "systems/dnd5e/icons/svg/items/ammo.svg",
+      "img": "modules/rokugan5e/icons/game-icons/high-shot.svg",
       "system": {
         "description": {
           "value": "<p>Whistle in flight to signal or unnerve.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 197.</em></p>",
@@ -7307,7 +7307,7 @@
       "_key": "!items!r196648df7e57f35",
       "name": "Soul-Star Arrows",
       "type": "consumable",
-      "img": "systems/dnd5e/icons/svg/items/ammo.svg",
+      "img": "modules/rokugan5e/icons/game-icons/high-shot.svg",
       "system": {
         "description": {
           "value": "<p>Strike spirits and the incorporeal.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 197.</em></p>",
@@ -7352,7 +7352,7 @@
       "_key": "!items!r0a689717e40dee8",
       "name": "Blacksmith's Kit",
       "type": "tool",
-      "img": "systems/dnd5e/icons/svg/items/tool.svg",
+      "img": "modules/rokugan5e/icons/game-icons/stone-crafting.svg",
       "system": {
         "description": {
           "value": "<p>Artisan tool.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 203.</em></p>",
@@ -7398,7 +7398,7 @@
       "_key": "!items!rbb96b57ecc301a5",
       "name": "Bowyer's Kit",
       "type": "tool",
-      "img": "systems/dnd5e/icons/svg/items/tool.svg",
+      "img": "modules/rokugan5e/icons/game-icons/high-shot.svg",
       "system": {
         "description": {
           "value": "<p>Artisan tool.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 203.</em></p>",
@@ -7444,7 +7444,7 @@
       "_key": "!items!r5383cc2169c1ede",
       "name": "Calligraphy Set",
       "type": "tool",
-      "img": "systems/dnd5e/icons/svg/items/tool.svg",
+      "img": "modules/rokugan5e/icons/game-icons/stone-crafting.svg",
       "system": {
         "description": {
           "value": "<p>Artisan tool.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 203.</em></p>",
@@ -7490,7 +7490,7 @@
       "_key": "!items!rd9953c9b0bb24f1",
       "name": "Ceremonial Tea Set",
       "type": "tool",
-      "img": "systems/dnd5e/icons/svg/items/tool.svg",
+      "img": "modules/rokugan5e/icons/game-icons/stone-crafting.svg",
       "system": {
         "description": {
           "value": "<p>Artisan tool.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 203.</em></p>",
@@ -7536,7 +7536,7 @@
       "_key": "!items!r0bec2beac33b603",
       "name": "Chemist's Kit",
       "type": "tool",
-      "img": "systems/dnd5e/icons/svg/items/tool.svg",
+      "img": "modules/rokugan5e/icons/game-icons/stone-crafting.svg",
       "system": {
         "description": {
           "value": "<p>Artisan tool.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 203.</em></p>",
@@ -7582,7 +7582,7 @@
       "_key": "!items!rd573568afa1c403",
       "name": "Cooking Kit",
       "type": "tool",
-      "img": "systems/dnd5e/icons/svg/items/tool.svg",
+      "img": "modules/rokugan5e/icons/game-icons/stone-crafting.svg",
       "system": {
         "description": {
           "value": "<p>Artisan tool.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 203.</em></p>",
@@ -7628,7 +7628,7 @@
       "_key": "!items!r4b7d8c91ef49dca",
       "name": "Fishing Kit",
       "type": "tool",
-      "img": "systems/dnd5e/icons/svg/items/tool.svg",
+      "img": "modules/rokugan5e/icons/game-icons/stone-crafting.svg",
       "system": {
         "description": {
           "value": "<p>Artisan tool.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 203.</em></p>",
@@ -7674,7 +7674,7 @@
       "_key": "!items!r028f5e6e5d45b00",
       "name": "Makeup Kit",
       "type": "tool",
-      "img": "systems/dnd5e/icons/svg/items/tool.svg",
+      "img": "modules/rokugan5e/icons/game-icons/stone-crafting.svg",
       "system": {
         "description": {
           "value": "<p>Artisan tool.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 203.</em></p>",
@@ -7720,7 +7720,7 @@
       "_key": "!items!rd8eeb89c5e9e131",
       "name": "Mason's Kit",
       "type": "tool",
-      "img": "systems/dnd5e/icons/svg/items/tool.svg",
+      "img": "modules/rokugan5e/icons/game-icons/stone-crafting.svg",
       "system": {
         "description": {
           "value": "<p>Artisan tool.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 203.</em></p>",
@@ -7766,7 +7766,7 @@
       "_key": "!items!r2177bbd10cc65c7",
       "name": "Painter's Tools",
       "type": "tool",
-      "img": "systems/dnd5e/icons/svg/items/tool.svg",
+      "img": "modules/rokugan5e/icons/game-icons/stone-crafting.svg",
       "system": {
         "description": {
           "value": "<p>Artisan tool.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 203.</em></p>",
@@ -7812,7 +7812,7 @@
       "_key": "!items!r2241f7a0d2bb1bd",
       "name": "Potter's Set",
       "type": "tool",
-      "img": "systems/dnd5e/icons/svg/items/tool.svg",
+      "img": "modules/rokugan5e/icons/game-icons/stone-crafting.svg",
       "system": {
         "description": {
           "value": "<p>Artisan tool.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 203.</em></p>",
@@ -7858,7 +7858,7 @@
       "_key": "!items!r7be3091118a9a92",
       "name": "Sword Maintenance Kit",
       "type": "tool",
-      "img": "systems/dnd5e/icons/svg/items/tool.svg",
+      "img": "modules/rokugan5e/icons/game-icons/katana.svg",
       "system": {
         "description": {
           "value": "<p>Artisan tool.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 203.</em></p>",
@@ -7904,7 +7904,7 @@
       "_key": "!items!r777cd51a952d587",
       "name": "Tailor's Kit",
       "type": "tool",
-      "img": "systems/dnd5e/icons/svg/items/tool.svg",
+      "img": "modules/rokugan5e/icons/game-icons/stone-crafting.svg",
       "system": {
         "description": {
           "value": "<p>Artisan tool.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 203.</em></p>",
@@ -7950,7 +7950,7 @@
       "_key": "!items!r6e73465bddae339",
       "name": "Tattoo Set",
       "type": "tool",
-      "img": "systems/dnd5e/icons/svg/items/tool.svg",
+      "img": "modules/rokugan5e/icons/game-icons/tribal-mask.svg",
       "system": {
         "description": {
           "value": "<p>Artisan tool.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 203.</em></p>",
@@ -7996,7 +7996,7 @@
       "_key": "!items!r73cc3680ab3ef11",
       "name": "Weaver's Kit",
       "type": "tool",
-      "img": "systems/dnd5e/icons/svg/items/tool.svg",
+      "img": "modules/rokugan5e/icons/game-icons/stone-crafting.svg",
       "system": {
         "description": {
           "value": "<p>Artisan tool.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 203.</em></p>",
@@ -8042,7 +8042,7 @@
       "_key": "!items!r8406593258b5689",
       "name": "Board or Card Game",
       "type": "tool",
-      "img": "systems/dnd5e/icons/svg/items/tool.svg",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>Gaming tool.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 203.</em></p>",
@@ -8088,7 +8088,7 @@
       "_key": "!items!r4f132c75d7e4d68",
       "name": "Dice and Cup",
       "type": "tool",
-      "img": "systems/dnd5e/icons/svg/items/tool.svg",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>Gaming tool.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 203.</em></p>",
@@ -8134,7 +8134,7 @@
       "_key": "!items!r9afa27e3f292b5a",
       "name": "Drums",
       "type": "tool",
-      "img": "systems/dnd5e/icons/svg/items/tool.svg",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>Musical tool.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 203.</em></p>",
@@ -8180,7 +8180,7 @@
       "_key": "!items!raf150bb234f44e3",
       "name": "Flute",
       "type": "tool",
-      "img": "systems/dnd5e/icons/svg/items/tool.svg",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>Musical tool.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 203.</em></p>",
@@ -8226,7 +8226,7 @@
       "_key": "!items!r86f503315a82961",
       "name": "Lute",
       "type": "tool",
-      "img": "systems/dnd5e/icons/svg/items/tool.svg",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>Musical tool.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 203.</em></p>",
@@ -8272,7 +8272,7 @@
       "_key": "!items!rfb9130587eec4d1",
       "name": "Zither",
       "type": "tool",
-      "img": "systems/dnd5e/icons/svg/items/tool.svg",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>Musical tool.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 203.</em></p>",
@@ -8318,7 +8318,7 @@
       "_key": "!items!r8b01e3cc5e6e375",
       "name": "Alchemist's Kit",
       "type": "tool",
-      "img": "systems/dnd5e/icons/svg/items/tool.svg",
+      "img": "modules/rokugan5e/icons/game-icons/stone-crafting.svg",
       "system": {
         "description": {
           "value": "<p>Mystic tool.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 203.</em></p>",
@@ -8364,7 +8364,7 @@
       "_key": "!items!r5ccb4b290ff78e6",
       "name": "Divination Kit",
       "type": "tool",
-      "img": "systems/dnd5e/icons/svg/items/tool.svg",
+      "img": "modules/rokugan5e/icons/game-icons/stone-crafting.svg",
       "system": {
         "description": {
           "value": "<p>Mystic tool.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 203.</em></p>",
@@ -8410,7 +8410,7 @@
       "_key": "!items!r4ff664765766118",
       "name": "Disguise Kit",
       "type": "tool",
-      "img": "systems/dnd5e/icons/svg/items/tool.svg",
+      "img": "modules/rokugan5e/icons/game-icons/stone-crafting.svg",
       "system": {
         "description": {
           "value": "<p>Subterfuge tool.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 203.</em></p>",
@@ -8456,7 +8456,7 @@
       "_key": "!items!rae4319638ce5c61",
       "name": "Infiltrator's Equipment",
       "type": "tool",
-      "img": "systems/dnd5e/icons/svg/items/tool.svg",
+      "img": "modules/rokugan5e/icons/game-icons/ninja-mask.svg",
       "system": {
         "description": {
           "value": "<p>Subterfuge tool.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 203.</em></p>",
@@ -8502,7 +8502,7 @@
       "_key": "!items!r14f77c734171ee6",
       "name": "Invisible Ink Set",
       "type": "tool",
-      "img": "systems/dnd5e/icons/svg/items/tool.svg",
+      "img": "modules/rokugan5e/icons/game-icons/stone-crafting.svg",
       "system": {
         "description": {
           "value": "<p>Subterfuge tool.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 203.</em></p>",
@@ -8548,7 +8548,7 @@
       "_key": "!items!r46e05129bf7b487",
       "name": "Camel",
       "type": "loot",
-      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>Speed 50 ft.; carrying capacity 480 lb.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 207.</em></p>",
@@ -8591,7 +8591,7 @@
       "_key": "!items!r9fe92672cf207ee",
       "name": "Elephant",
       "type": "loot",
-      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>Speed 40 ft.; carrying capacity 1,320 lb.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 207.</em></p>",
@@ -8634,7 +8634,7 @@
       "_key": "!items!r8179defb580ef90",
       "name": "Ox",
       "type": "loot",
-      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>Speed 30 ft.; draft animal.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 207.</em></p>",
@@ -8677,7 +8677,7 @@
       "_key": "!items!rc398715ac7d4cc0",
       "name": "Pony",
       "type": "loot",
-      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>Speed 40 ft.; carrying capacity 225 lb.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 207.</em></p>",
@@ -8720,7 +8720,7 @@
       "_key": "!items!rcc600a6c3e2933d",
       "name": "Warhorse",
       "type": "loot",
-      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>Speed 60 ft.; trained for battle.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 207.</em></p>",
@@ -8763,7 +8763,7 @@
       "_key": "!items!rf1fcba6a48c2c86",
       "name": "Utaku Steed",
       "type": "loot",
-      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>Legendary Unicorn warhorse; profile on p. 419.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 207.</em></p>",
@@ -8806,7 +8806,7 @@
       "_key": "!items!re0fef6fffc31604",
       "name": "Saddle, Common",
       "type": "loot",
-      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p><em>Full text: <em>Adventures in Rokugan</em>, p. 207.</em></p>",
@@ -8849,7 +8849,7 @@
       "_key": "!items!r2a972532d4e7d01",
       "name": "Saddle, Stirruped",
       "type": "loot",
-      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>Military saddle with stirrups.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 207.</em></p>",
@@ -8892,7 +8892,7 @@
       "_key": "!items!r33121bc306c756c",
       "name": "Cart, Drawn",
       "type": "loot",
-      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>Animal-drawn cart.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 207.</em></p>",
@@ -8935,7 +8935,7 @@
       "_key": "!items!rf0129a0dd43ba4e",
       "name": "Cart, Personal",
       "type": "loot",
-      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>Hand-pulled cart.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 207.</em></p>",
@@ -8978,7 +8978,7 @@
       "_key": "!items!r1e5b201ba8f9b4c",
       "name": "Palanquin",
       "type": "loot",
-      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>Carried litter for nobles.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 207.</em></p>",
@@ -9021,7 +9021,7 @@
       "_key": "!items!r69bfd17845647c0",
       "name": "Ferry Raft",
       "type": "loot",
-      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>River crossing.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 207.</em></p>",
@@ -9064,7 +9064,7 @@
       "_key": "!items!raf1e17db63fa30c",
       "name": "Mantis Trading Ship",
       "type": "loot",
-      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>Oceangoing merchant vessel.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 207.</em></p>",
@@ -9107,7 +9107,7 @@
       "_key": "!items!r1a0e33cc42d5ae0",
       "name": "Performer's Boat",
       "type": "loot",
-      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>River pleasure craft.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 207.</em></p>",
@@ -9150,7 +9150,7 @@
       "_key": "!items!rc9072928aa4e58f",
       "name": "Water-Spider",
       "type": "loot",
-      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "img": "modules/rokugan5e/icons/game-icons/water-drop.svg",
       "system": {
         "description": {
           "value": "<p>Small skimming boat.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 207.</em></p>",
@@ -9193,7 +9193,7 @@
       "_key": "!items!r3aa869e155d0232",
       "name": "Tub-Boat",
       "type": "loot",
-      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>One-person round boat.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 207.</em></p>",
@@ -9236,7 +9236,7 @@
       "_key": "!items!rfa8478a7b56096b",
       "name": "Basic Foods (per day)",
       "type": "loot",
-      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>Rice, barley, vegetables, local fish/game. City: 3 cp.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 211.</em></p>",
@@ -9279,7 +9279,7 @@
       "_key": "!items!re59b9b2e9418a14",
       "name": "Luxury Foods (per day)",
       "type": "loot",
-      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>Spices, pastries, imported fruit, seafood. Countryside: 2 sp.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 211.</em></p>",
@@ -9322,7 +9322,7 @@
       "_key": "!items!r283f9e10cc6a4bb",
       "name": "Basic Drink",
       "type": "loot",
-      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>Local sake, shōchū, beer. City: 2 cp.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 211.</em></p>",
@@ -9365,7 +9365,7 @@
       "_key": "!items!rf99ca0509e910f8",
       "name": "Luxury Drink",
       "type": "loot",
-      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>Premium/imported sake and wine. Countryside: 6 cp.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 211.</em></p>",
@@ -9408,7 +9408,7 @@
       "_key": "!items!r3b068525c405f95",
       "name": "Basic Consumer Goods",
       "type": "loot",
-      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>Tatami mats, futons. City: 3 sp.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 211.</em></p>",
@@ -9451,7 +9451,7 @@
       "_key": "!items!ra180b4bddc7e025",
       "name": "Luxury Consumer Goods",
       "type": "loot",
-      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>Shōji screens, artwork, hangings. Countryside: 6 sp.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 211.</em></p>",
@@ -9494,7 +9494,7 @@
       "_key": "!items!r50cf99204931e85",
       "name": "Inn Stay, Humble (per day)",
       "type": "loot",
-      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>City: 7 cp.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 211.</em></p>",
@@ -9537,7 +9537,7 @@
       "_key": "!items!r46241e1fe3f4d2a",
       "name": "Inn Stay, Secure (per day)",
       "type": "loot",
-      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>City: 3 sp.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 211.</em></p>",
@@ -9580,7 +9580,7 @@
       "_key": "!items!r48fa54c1b6983be",
       "name": "Inn Stay, Lavish (per day)",
       "type": "loot",
-      "img": "systems/dnd5e/icons/svg/items/loot.svg",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>City: 3 gp.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 211.</em></p>",
@@ -9623,7 +9623,7 @@
       "_key": "!items!r4ba5de873c02eff",
       "name": "Boat Oar",
       "type": "weapon",
-      "img": "icons/weapons/improvised/improvised-club.webp",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>Unusual weapon (improvised object). With the Unusual Weapon Mastery feat, you treat this item as a martial weapon you are proficient with, gain its tool proficiency if relevant, and can spend 1 extra focus on your first martial technique with it each encounter.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 225.</em></p>",
@@ -9754,7 +9754,7 @@
       "_key": "!items!rfae2c98ff46c461",
       "name": "Book",
       "type": "weapon",
-      "img": "icons/weapons/improvised/improvised-club.webp",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>Unusual weapon (improvised object). With the Unusual Weapon Mastery feat, you treat this item as a martial weapon you are proficient with, gain its tool proficiency if relevant, and can spend 1 extra focus on your first martial technique with it each encounter.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 225.</em></p>",
@@ -9870,7 +9870,7 @@
       "_key": "!items!ra449f8e241ed992",
       "name": "Cooking Pan or Pot",
       "type": "weapon",
-      "img": "icons/weapons/improvised/improvised-club.webp",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>Unusual weapon (improvised object). With the Unusual Weapon Mastery feat, you treat this item as a martial weapon you are proficient with, gain its tool proficiency if relevant, and can spend 1 extra focus on your first martial technique with it each encounter.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 225.</em></p>",
@@ -9986,7 +9986,7 @@
       "_key": "!items!rb676f4ade5bdff2",
       "name": "Fishing Net",
       "type": "weapon",
-      "img": "icons/weapons/improvised/improvised-club.webp",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>Unusual weapon (improvised object). With the Unusual Weapon Mastery feat, you treat this item as a martial weapon you are proficient with, gain its tool proficiency if relevant, and can spend 1 extra focus on your first martial technique with it each encounter.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 225.</em></p>",
@@ -10103,7 +10103,7 @@
       "_key": "!items!rc36b1c5c9c98b7b",
       "name": "Fishing Rod",
       "type": "weapon",
-      "img": "icons/weapons/improvised/improvised-club.webp",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>Unusual weapon (improvised object). With the Unusual Weapon Mastery feat, you treat this item as a martial weapon you are proficient with, gain its tool proficiency if relevant, and can spend 1 extra focus on your first martial technique with it each encounter.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 225.</em></p>",
@@ -10221,7 +10221,7 @@
       "_key": "!items!rfec303cdffb8b72",
       "name": "Flute",
       "type": "weapon",
-      "img": "icons/weapons/improvised/improvised-club.webp",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>Unusual weapon (improvised object). With the Unusual Weapon Mastery feat, you treat this item as a martial weapon you are proficient with, gain its tool proficiency if relevant, and can spend 1 extra focus on your first martial technique with it each encounter.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 225.</em></p>",
@@ -10338,7 +10338,7 @@
       "_key": "!items!r657280f8834f119",
       "name": "Gardening Rake",
       "type": "weapon",
-      "img": "icons/weapons/improvised/improvised-club.webp",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>Unusual weapon (improvised object). With the Unusual Weapon Mastery feat, you treat this item as a martial weapon you are proficient with, gain its tool proficiency if relevant, and can spend 1 extra focus on your first martial technique with it each encounter.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 225.</em></p>",
@@ -10454,7 +10454,7 @@
       "_key": "!items!r057bc47d001043e",
       "name": "Lute",
       "type": "weapon",
-      "img": "icons/weapons/improvised/improvised-club.webp",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>Unusual weapon (improvised object). With the Unusual Weapon Mastery feat, you treat this item as a martial weapon you are proficient with, gain its tool proficiency if relevant, and can spend 1 extra focus on your first martial technique with it each encounter.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 225.</em></p>",
@@ -10585,7 +10585,7 @@
       "_key": "!items!r9c81c8aa7afedc9",
       "name": "Rope (10+ ft.)",
       "type": "weapon",
-      "img": "icons/weapons/improvised/improvised-club.webp",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>Unusual weapon (improvised object). With the Unusual Weapon Mastery feat, you treat this item as a martial weapon you are proficient with, gain its tool proficiency if relevant, and can spend 1 extra focus on your first martial technique with it each encounter.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 225.</em></p>",
@@ -10702,7 +10702,7 @@
       "_key": "!items!rb830eaab07d42f4",
       "name": "Scroll",
       "type": "weapon",
-      "img": "icons/weapons/improvised/improvised-club.webp",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>Unusual weapon (improvised object). With the Unusual Weapon Mastery feat, you treat this item as a martial weapon you are proficient with, gain its tool proficiency if relevant, and can spend 1 extra focus on your first martial technique with it each encounter.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 225.</em></p>",
@@ -10818,7 +10818,7 @@
       "_key": "!items!r632eb3fd18da5df",
       "name": "Trowel",
       "type": "weapon",
-      "img": "icons/weapons/improvised/improvised-club.webp",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>Unusual weapon (improvised object). With the Unusual Weapon Mastery feat, you treat this item as a martial weapon you are proficient with, gain its tool proficiency if relevant, and can spend 1 extra focus on your first martial technique with it each encounter.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 225.</em></p>",
@@ -10935,7 +10935,7 @@
       "_key": "!items!r9f32a23ceb241fa",
       "name": "Umbrella",
       "type": "weapon",
-      "img": "icons/weapons/improvised/improvised-club.webp",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>Unusual weapon (improvised object). With the Unusual Weapon Mastery feat, you treat this item as a martial weapon you are proficient with, gain its tool proficiency if relevant, and can spend 1 extra focus on your first martial technique with it each encounter.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 225.</em></p>",
@@ -11066,7 +11066,7 @@
       "_key": "!items!r7d1a1532893a08c",
       "name": "Zither",
       "type": "weapon",
-      "img": "icons/weapons/improvised/improvised-club.webp",
+      "img": "modules/rokugan5e/icons/game-icons/swap-bag.svg",
       "system": {
         "description": {
           "value": "<p>Unusual weapon (improvised object). With the Unusual Weapon Mastery feat, you treat this item as a martial weapon you are proficient with, gain its tool proficiency if relevant, and can spend 1 extra focus on your first martial technique with it each encounter.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 225.</em></p>",
