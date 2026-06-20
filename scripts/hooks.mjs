@@ -67,6 +67,20 @@ export class RokuganHooks {
     Hooks.on("renderCharacterActorSheet", (app, element) => dispatchActor(app, element));
     Hooks.on("renderNPCActorSheet", (app, element) => dispatchActor(app, element));
     Hooks.on("renderItemSheet5e", (app, element) => dispatchItem(app, element));
+
+    // The Settings sidebar tab renders during startup, before onReady runs, so
+    // its hook is registered early in registerCopyrightNotice() (called at init).
+    // Re-render any already-open Settings panel now so the notice appears without
+    // requiring the user to reopen the tab.
+    ui.sidebar?.tabs?.settings?.render?.(false);
+  }
+
+  /**
+   * Register the Settings-sidebar copyright hook. Called at init so it is
+   * listening before the sidebar first renders.
+   */
+  static registerCopyrightNotice() {
+    Hooks.on("renderSettings", (app, html) => RokuganHooks.onRenderSettings(app, html));
   }
 
   // ----------------------------------------
@@ -439,4 +453,38 @@ export class RokuganHooks {
       if (changed) node.textContent = text;
     }
   }
+
+  /**
+   * Append the Edge Studio licensing notice to the bottom of the module's
+   * section in the Configure Settings window. This is the rights-holder's
+   * required attribution for the Adventures in Rokugan license.
+   */
+  static onRenderSettings(app, html) {
+    const root = html instanceof HTMLElement ? html : html?.[0];
+    if (!root) return;
+    if (root.querySelector(".rokugan-copyright-notice")) return;
+
+    const notice = document.createElement("div");
+    notice.className = "rokugan-copyright-notice";
+    notice.innerHTML = `<hr><p>${game.i18n.localize("ROKUGAN.Credits.Copyright")}</p>`;
+
+    // Place the notice at the very bottom of the Settings tab. The tab is a
+    // vertical stack of grouped <section>s (Settings, Help, Game Access); the
+    // notice must follow the LAST one. Append to the outermost scroll/flex
+    // container as its final child, after whichever section sits lowest.
+    const groups = root.querySelectorAll("section");
+    if (groups.length) {
+      const last = groups[groups.length - 1];
+      // Insert as the next sibling after the last section so it sits below it.
+      last.parentElement.insertBefore(notice, last.nextSibling);
+    } else {
+      // No sections found: fall back to the outermost content wrapper.
+      const container =
+        root.querySelector(".window-content") ??
+        root.querySelector(".flexcol") ??
+        root;
+      container.appendChild(notice);
+    }
+  }
+
 }

@@ -1,0 +1,1325 @@
+{
+  "folders": [
+    {
+      "_id": "ref9d0f443d6a312",
+      "_key": "!folders!ref9d0f443d6a312",
+      "name": "Physiology Templates",
+      "type": "Item",
+      "sorting": "a",
+      "color": "#5b3d8a",
+      "folder": null,
+      "sort": 0
+    },
+    {
+      "_id": "r989f03ace822a97",
+      "_key": "!folders!r989f03ace822a97",
+      "name": "Faction Templates",
+      "type": "Item",
+      "sorting": "a",
+      "color": "#8a3d3d",
+      "folder": null,
+      "sort": 100
+    },
+    {
+      "_id": "r27aaaf1290357a6",
+      "_key": "!folders!r27aaaf1290357a6",
+      "name": "Role Templates",
+      "type": "Item",
+      "sorting": "a",
+      "color": "#3d6b8a",
+      "folder": null,
+      "sort": 200
+    },
+    {
+      "_id": "ra6788beb22727f0",
+      "_key": "!folders!ra6788beb22727f0",
+      "name": "Shadowlands Powers",
+      "type": "Item",
+      "sorting": "a",
+      "color": "#6a1b1b",
+      "folder": null,
+      "sort": 300
+    }
+  ],
+  "entries": [
+    {
+      "_id": "re981f3822faaec9",
+      "_key": "!items!re981f3822faaec9",
+      "name": "Hateful Resilience",
+      "type": "feat",
+      "img": "modules/rokugan5e/icons/game-icons/electrical-resistance.svg",
+      "system": {
+        "description": {
+          "value": "<p><strong>Lost template ability</strong> (CR +1). The first time damage would reduce this creature to 0 hit points, it is reduced to 1 hit point instead, then regains hit points equal to 1d12 + its Constitution modifier, and gains one Shadowlands power of the GM's selection. It cannot use this ability again until it completes a long rest or kills a living creature.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "Lost template",
+        "identifier": "hateful-resilience",
+        "source": {
+          "book": "Adventures in Rokugan",
+          "page": "388",
+          "custom": ""
+        },
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "ref9d0f443d6a312",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "modifier": {
+            "template": "Lost",
+            "crAdj": "+1"
+          }
+        }
+      }
+    },
+    {
+      "_id": "r86825a6e786d6c5",
+      "_key": "!items!r86825a6e786d6c5",
+      "name": "Desecrating Presence",
+      "type": "feat",
+      "img": "modules/rokugan5e/icons/game-icons/burning-skull.svg",
+      "system": {
+        "description": {
+          "value": "<p><strong>Zombified template ability</strong> (CR +1). Any Medium humanoid creature that is killed within 10 feet of this creature rises as an undying warrior one minute later. Other creatures may be affected at the GM's discretion, rising as a creature with its own profile and the zombified template. Nezumi are unaffected by this ability.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "Zombified template",
+        "identifier": "desecrating-presence",
+        "source": {
+          "book": "Adventures in Rokugan",
+          "page": "388",
+          "custom": ""
+        },
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "ref9d0f443d6a312",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "modifier": {
+            "template": "Zombified",
+            "crAdj": "+1"
+          }
+        }
+      }
+    },
+    {
+      "_id": "r3577fd9db6c9bb8",
+      "_key": "!items!r3577fd9db6c9bb8",
+      "name": "Hold the Line",
+      "type": "feat",
+      "img": "modules/rokugan5e/icons/game-icons/defensive-wall.svg",
+      "system": {
+        "description": {
+          "value": "<p><strong>Crab Clan Samurai template ability</strong> (CR +1). When this creature's current hit points are less than or equal to half its maximum hit points, it gains resistance to bludgeoning, piercing, and slashing damage from nonmagical sources.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "Crab Clan Samurai template",
+        "identifier": "hold-the-line",
+        "source": {
+          "book": "Adventures in Rokugan",
+          "page": "388",
+          "custom": ""
+        },
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "r989f03ace822a97",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "modifier": {
+            "template": "Crab Clan Samurai",
+            "crAdj": "+1"
+          }
+        }
+      }
+    },
+    {
+      "_id": "r591f60bf9672651",
+      "_key": "!items!r591f60bf9672651",
+      "name": "Speak without Words",
+      "type": "feat",
+      "img": "modules/rokugan5e/icons/game-icons/conversation.svg",
+      "system": {
+        "description": {
+          "value": "<p><strong>Crane Clan Samurai template ability</strong> (CR +1). As an action, this creature gains advantage on its passive Perception (granting it a +5 bonus) until the end of its next turn. If any rhetorical flourish used against this creature does not equal or exceed its passive Perception during this time, it learns one of the motivations of the character in question.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "Crane Clan Samurai template",
+        "identifier": "speak-without-words",
+        "source": {
+          "book": "Adventures in Rokugan",
+          "page": "388",
+          "custom": ""
+        },
+        "properties": [],
+        "activities": {
+          "rf1ccf8bbc11208e": {
+            "_id": "rf1ccf8bbc11208e",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "r989f03ace822a97",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "modifier": {
+            "template": "Crane Clan Samurai",
+            "crAdj": "+1"
+          }
+        }
+      }
+    },
+    {
+      "_id": "r262aa9006a806c0",
+      "_key": "!items!r262aa9006a806c0",
+      "name": "Adaptability",
+      "type": "feat",
+      "img": "modules/rokugan5e/icons/game-icons/transform.svg",
+      "system": {
+        "description": {
+          "value": "<p><strong>Dragon Clan Samurai template ability</strong> (CR +1). When this creature makes a roll with disadvantage, it can roll 1d6 and add it to both results.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "Dragon Clan Samurai template",
+        "identifier": "adaptability",
+        "source": {
+          "book": "Adventures in Rokugan",
+          "page": "388",
+          "custom": ""
+        },
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "r989f03ace822a97",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "modifier": {
+            "template": "Dragon Clan Samurai",
+            "crAdj": "+1"
+          }
+        }
+      }
+    },
+    {
+      "_id": "r47a1823b3482f65",
+      "_key": "!items!r47a1823b3482f65",
+      "name": "Tactical Command",
+      "type": "feat",
+      "img": "modules/rokugan5e/icons/game-icons/trumpet.svg",
+      "system": {
+        "description": {
+          "value": "<p><strong>Lion Clan Samurai template ability</strong> (CR +1). As an action, this creature commands up to 5 other NPCs to make a coordinated reposition. Each one can immediately move 10 feet without provoking opportunity attacks. Once used, this ability cannot be used again until this creature completes a short rest.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "Lion Clan Samurai template",
+        "identifier": "tactical-command",
+        "source": {
+          "book": "Adventures in Rokugan",
+          "page": "388",
+          "custom": ""
+        },
+        "properties": [],
+        "activities": {
+          "rbdedec49c94abf7": {
+            "_id": "rbdedec49c94abf7",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "1",
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "sr",
+              "type": "recoverAll"
+            }
+          ]
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "r989f03ace822a97",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "modifier": {
+            "template": "Lion Clan Samurai",
+            "crAdj": "+1"
+          }
+        }
+      }
+    },
+    {
+      "_id": "r1934ef24934d40e",
+      "_key": "!items!r1934ef24934d40e",
+      "name": "Cryptic Goals",
+      "type": "feat",
+      "img": "modules/rokugan5e/icons/game-icons/cloak.svg",
+      "system": {
+        "description": {
+          "value": "<p><strong>Scorpion Clan Samurai template ability</strong> (CR +1). Select a cover motivation for this NPC. When another creature learns this NPC's motivation, this NPC can make a Charisma saving throw with DC equal to the other character's passive Perception score. On success, the other creature learns the cover motivation instead of the true one.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "Scorpion Clan Samurai template",
+        "identifier": "cryptic-goals",
+        "source": {
+          "book": "Adventures in Rokugan",
+          "page": "388",
+          "custom": ""
+        },
+        "properties": [],
+        "activities": {
+          "r36ce1ca835242b1": {
+            "_id": "r36ce1ca835242b1",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "reaction",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "r989f03ace822a97",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "modifier": {
+            "template": "Scorpion Clan Samurai",
+            "crAdj": "+1"
+          }
+        }
+      }
+    },
+    {
+      "_id": "re7a0ff37b5eb7a7",
+      "_key": "!items!re7a0ff37b5eb7a7",
+      "name": "Lore of the Elements",
+      "type": "feat",
+      "img": "modules/rokugan5e/icons/game-icons/aura.svg",
+      "system": {
+        "description": {
+          "value": "<p><strong>Phoenix Clan Samurai template ability</strong> (CR +1). When targeted by an attack or failing a saving throw, as a reaction, this creature grants itself resistance to one of the following damage types: bludgeoning, cold, fire, or thunder.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "Phoenix Clan Samurai template",
+        "identifier": "lore-of-the-elements",
+        "source": {
+          "book": "Adventures in Rokugan",
+          "page": "388",
+          "custom": ""
+        },
+        "properties": [],
+        "activities": {
+          "re596e37ba4f68bd": {
+            "_id": "re596e37ba4f68bd",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "reaction",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "r989f03ace822a97",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "modifier": {
+            "template": "Phoenix Clan Samurai",
+            "crAdj": "+1"
+          }
+        }
+      }
+    },
+    {
+      "_id": "re94634c0dc051ba",
+      "_key": "!items!re94634c0dc051ba",
+      "name": "Born in the Saddle",
+      "type": "feat",
+      "img": "modules/rokugan5e/icons/game-icons/cavalry.svg",
+      "system": {
+        "description": {
+          "value": "<p><strong>Unicorn Clan Samurai template ability</strong> (CR +1). While mounted, this creature makes attack rolls and saving throws with advantage.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "Unicorn Clan Samurai template",
+        "identifier": "born-in-the-saddle",
+        "source": {
+          "book": "Adventures in Rokugan",
+          "page": "388",
+          "custom": ""
+        },
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "r989f03ace822a97",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "modifier": {
+            "template": "Unicorn Clan Samurai",
+            "crAdj": "+1"
+          }
+        }
+      }
+    },
+    {
+      "_id": "r535ad9f0ac2d882",
+      "_key": "!items!r535ad9f0ac2d882",
+      "name": "Devastating Force",
+      "type": "feat",
+      "img": "modules/rokugan5e/icons/game-icons/crush.svg",
+      "system": {
+        "description": {
+          "value": "<p><strong>Bruiser template ability</strong> (CR +1). When making a melee weapon attack, if this creature's attack roll exceeds the target's AC by 5 or more, it can apply one of the following conditions for one minute: bleeding (1d4 piercing damage at the start of each of the target's turns, removed after it regains HP), distracted (-2 AC, removed after it is hit), or maimed (-10 ft. speed and disadvantage on Dexterity saving throws, removed after it regains HP).</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "Bruiser template",
+        "identifier": "devastating-force",
+        "source": {
+          "book": "Adventures in Rokugan",
+          "page": "388",
+          "custom": ""
+        },
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "r27aaaf1290357a6",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "modifier": {
+            "template": "Bruiser",
+            "crAdj": "+1"
+          }
+        }
+      }
+    },
+    {
+      "_id": "rc3c4c61a30c8a72",
+      "_key": "!items!rc3c4c61a30c8a72",
+      "name": "Illuminating Truth",
+      "type": "feat",
+      "img": "modules/rokugan5e/icons/game-icons/candle-light.svg",
+      "system": {
+        "description": {
+          "value": "<p><strong>Investigator template ability</strong> (CR +1). Other creatures within 5 feet of this creature have disadvantage on Deception checks.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "Investigator template",
+        "identifier": "illuminating-truth",
+        "source": {
+          "book": "Adventures in Rokugan",
+          "page": "388",
+          "custom": ""
+        },
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "r27aaaf1290357a6",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "modifier": {
+            "template": "Investigator",
+            "crAdj": "+1"
+          }
+        }
+      }
+    },
+    {
+      "_id": "r33ceaa330807b3b",
+      "_key": "!items!r33ceaa330807b3b",
+      "name": "Innate Mysticism",
+      "type": "feat",
+      "img": "modules/rokugan5e/icons/game-icons/spell-book.svg",
+      "system": {
+        "description": {
+          "value": "<p><strong>Sage template ability</strong> (CR +1). This creature can perform the following spells from the SRD. At will: spare the dying. 1/day each: prayer of healing, protection from energy.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "Sage template",
+        "identifier": "innate-mysticism",
+        "source": {
+          "book": "Adventures in Rokugan",
+          "page": "388",
+          "custom": ""
+        },
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "r27aaaf1290357a6",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "modifier": {
+            "template": "Sage",
+            "crAdj": "+1"
+          }
+        }
+      }
+    },
+    {
+      "_id": "rb90dd450112b55e",
+      "_key": "!items!rb90dd450112b55e",
+      "name": "Cutting Remark",
+      "type": "feat",
+      "img": "modules/rokugan5e/icons/game-icons/charm.svg",
+      "system": {
+        "description": {
+          "value": "<p><strong>Socialite template ability</strong> (CR +1). When another creature within 20 feet fails an attack roll or skill check, this creature can have it take 1d6 psychic damage. If the creature suffers 4 or more damage this way, it makes its next check with advantage. This ability can be used a number of times up to this creature's Charisma modifier, and recovers after a long rest.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "Socialite template",
+        "identifier": "cutting-remark",
+        "source": {
+          "book": "Adventures in Rokugan",
+          "page": "388",
+          "custom": ""
+        },
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": [
+            {
+              "period": "lr",
+              "type": "recoverAll"
+            }
+          ]
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "r27aaaf1290357a6",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "modifier": {
+            "template": "Socialite",
+            "crAdj": "+1"
+          }
+        }
+      }
+    },
+    {
+      "_id": "r467580f5262bea0",
+      "_key": "!items!r467580f5262bea0",
+      "name": "Spiritual Potency",
+      "type": "feat",
+      "img": "modules/rokugan5e/icons/game-icons/inspiration.svg",
+      "system": {
+        "description": {
+          "value": "<p><strong>Spiritualist template ability</strong> (CR +1). This creature can perform the following invocations at will: call of cinders, caress of earth, commune with the spirits, path to inner peace, token of memory, threshold barrier (see Adventures in Rokugan for invocation details). Additionally, this creature has favor equal to 3 + its Wisdom modifier, regained after a long rest or after visiting a shrine for at least four hours.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "Spiritualist template",
+        "identifier": "spiritual-potency",
+        "source": {
+          "book": "Adventures in Rokugan",
+          "page": "388",
+          "custom": ""
+        },
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "r27aaaf1290357a6",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "modifier": {
+            "template": "Spiritualist",
+            "crAdj": "+1"
+          }
+        }
+      }
+    },
+    {
+      "_id": "r04f3e0bd918b385",
+      "_key": "!items!r04f3e0bd918b385",
+      "name": "Smooth Talker",
+      "type": "feat",
+      "img": "modules/rokugan5e/icons/game-icons/talk.svg",
+      "system": {
+        "description": {
+          "value": "<p><strong>Trickster template ability</strong> (CR +1). When this creature fails a Charisma (Deception) check, it can make a Charisma saving throw. On success, the creatures it was trying to deceive cannot discern the reason behind the ruse, even if they identify it as such, nor feel certain that the trickery was intentional.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "Trickster template",
+        "identifier": "smooth-talker",
+        "source": {
+          "book": "Adventures in Rokugan",
+          "page": "388",
+          "custom": ""
+        },
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "r27aaaf1290357a6",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "modifier": {
+            "template": "Trickster",
+            "crAdj": "+1"
+          }
+        }
+      }
+    },
+    {
+      "_id": "r18dfea2bcefcb70",
+      "_key": "!items!r18dfea2bcefcb70",
+      "name": "Scent of Weakness",
+      "type": "feat",
+      "img": "modules/rokugan5e/icons/game-icons/sniffing-dog.svg",
+      "system": {
+        "description": {
+          "value": "<p><strong>Shadowlands Power 1</strong> (CR +0). As a bonus action on its turn, this horror can choose one creature it can perceive and learn one of that creature's motivations.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "Shadowlands Power (roll 1)",
+        "identifier": "scent-of-weakness",
+        "source": {
+          "book": "Adventures in Rokugan",
+          "page": "410",
+          "custom": ""
+        },
+        "properties": [],
+        "activation": {
+          "type": "bonus",
+          "value": 1,
+          "condition": ""
+        },
+        "activities": {},
+        "uses": {},
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "ra6788beb22727f0",
+      "sort": 10,
+      "flags": {
+        "rokugan5e": {
+          "shadowlandsPower": {
+            "roll": 1,
+            "crAdj": "+0"
+          }
+        }
+      }
+    },
+    {
+      "_id": "refec8ec12bfb87f",
+      "_key": "!items!refec8ec12bfb87f",
+      "name": "Bony Carapace",
+      "type": "feat",
+      "img": "modules/rokugan5e/icons/game-icons/abdominal-armor.svg",
+      "system": {
+        "description": {
+          "value": "<p><strong>Shadowlands Power 2</strong> (CR +1). The horror gains resistance to piercing and slashing damage from nonmagical attacks, or gains resistance to all piercing and slashing damage if it already had that resistance.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "Shadowlands Power (roll 2)",
+        "identifier": "bony-carapace",
+        "source": {
+          "book": "Adventures in Rokugan",
+          "page": "410",
+          "custom": ""
+        },
+        "properties": [],
+        "activation": {
+          "type": "none",
+          "value": null,
+          "condition": ""
+        },
+        "activities": {},
+        "uses": {},
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "ra6788beb22727f0",
+      "sort": 20,
+      "flags": {
+        "rokugan5e": {
+          "shadowlandsPower": {
+            "roll": 2,
+            "crAdj": "+1"
+          }
+        }
+      }
+    },
+    {
+      "_id": "r6fb661ec0d9fac0",
+      "_key": "!items!r6fb661ec0d9fac0",
+      "name": "Captivating Voice",
+      "type": "feat",
+      "img": "modules/rokugan5e/icons/game-icons/charm.svg",
+      "system": {
+        "description": {
+          "value": "<p><strong>Shadowlands Power 3</strong> (CR +1). When making a Charisma-based check against another creature, this horror has advantage if it knows one or more of that creature's motivations. Additionally, its spellcasting ability is Charisma, and it can cast the following spells. 1/day: charm person, hold person.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "Shadowlands Power (roll 3)",
+        "identifier": "captivating-voice",
+        "source": {
+          "book": "Adventures in Rokugan",
+          "page": "410",
+          "custom": ""
+        },
+        "properties": [],
+        "activation": {
+          "type": "none",
+          "value": null,
+          "condition": ""
+        },
+        "activities": {},
+        "uses": {},
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "ra6788beb22727f0",
+      "sort": 30,
+      "flags": {
+        "rokugan5e": {
+          "shadowlandsPower": {
+            "roll": 3,
+            "crAdj": "+1"
+          }
+        }
+      }
+    },
+    {
+      "_id": "r7c95b2483406e8c",
+      "_key": "!items!r7c95b2483406e8c",
+      "name": "Dark Puppet",
+      "type": "feat",
+      "img": "modules/rokugan5e/icons/game-icons/shadow-follower.svg",
+      "system": {
+        "description": {
+          "value": "<p><strong>Shadowlands Power 4</strong> (CR +1). As a bonus action, the horror can move its proxy form (shadow, reflection, or representational form) to a surface it can inhabit within 60 feet. On its turn, it can spend its action to have its proxy perform an action. If it has legendary actions, it can spend 1 legendary action at the end of another creature's turn to have its proxy use one of its actions.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "Shadowlands Power (roll 4)",
+        "identifier": "dark-puppet",
+        "source": {
+          "book": "Adventures in Rokugan",
+          "page": "410",
+          "custom": ""
+        },
+        "properties": [],
+        "activation": {
+          "type": "bonus",
+          "value": 1,
+          "condition": ""
+        },
+        "activities": {},
+        "uses": {},
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "ra6788beb22727f0",
+      "sort": 40,
+      "flags": {
+        "rokugan5e": {
+          "shadowlandsPower": {
+            "roll": 4,
+            "crAdj": "+1"
+          }
+        }
+      }
+    },
+    {
+      "_id": "r86f8d9f0f1f62a6",
+      "_key": "!items!r86f8d9f0f1f62a6",
+      "name": "Dread Feeder",
+      "type": "feat",
+      "img": "modules/rokugan5e/icons/game-icons/despair.svg",
+      "system": {
+        "description": {
+          "value": "<p><strong>Shadowlands Power 5</strong> (CR +1). When this creature causes another creature to fail a Wisdom or Charisma saving throw, it regains 1d12 hit points.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "Shadowlands Power (roll 5)",
+        "identifier": "dread-feeder",
+        "source": {
+          "book": "Adventures in Rokugan",
+          "page": "410",
+          "custom": ""
+        },
+        "properties": [],
+        "activation": {
+          "type": "none",
+          "value": null,
+          "condition": ""
+        },
+        "activities": {},
+        "uses": {},
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "ra6788beb22727f0",
+      "sort": 50,
+      "flags": {
+        "rokugan5e": {
+          "shadowlandsPower": {
+            "roll": 5,
+            "crAdj": "+1"
+          }
+        }
+      }
+    },
+    {
+      "_id": "rd11f64c2e31af41",
+      "_key": "!items!rd11f64c2e31af41",
+      "name": "Obsidian Jaws",
+      "type": "feat",
+      "img": "modules/rokugan5e/icons/game-icons/fangs.svg",
+      "system": {
+        "description": {
+          "value": "<p><strong>Shadowlands Power 6</strong> (CR +1). The horror's bite attack inflicts an additional 1d12 necrotic damage and scores a critical hit on a roll of 19 or 20.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "Shadowlands Power (roll 6)",
+        "identifier": "obsidian-jaws",
+        "source": {
+          "book": "Adventures in Rokugan",
+          "page": "410",
+          "custom": ""
+        },
+        "properties": [],
+        "activation": {
+          "type": "none",
+          "value": null,
+          "condition": ""
+        },
+        "activities": {},
+        "uses": {},
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "ra6788beb22727f0",
+      "sort": 60,
+      "flags": {
+        "rokugan5e": {
+          "shadowlandsPower": {
+            "roll": 6,
+            "crAdj": "+1"
+          }
+        }
+      }
+    },
+    {
+      "_id": "rdf6d94d2ec98edd",
+      "_key": "!items!rdf6d94d2ec98edd",
+      "name": "Shadowlands Venom",
+      "type": "feat",
+      "img": "modules/rokugan5e/icons/game-icons/poison-bottle.svg",
+      "system": {
+        "description": {
+          "value": "<p><strong>Shadowlands Power 7</strong> (CR +1). When this creature inflicts a critical hit on another creature, its target must make a DC 20 Constitution saving throw. On failure, it suffers 3d6 poison damage and the poisoned condition.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "Shadowlands Power (roll 7)",
+        "identifier": "shadowlands-venom",
+        "source": {
+          "book": "Adventures in Rokugan",
+          "page": "410",
+          "custom": ""
+        },
+        "properties": [],
+        "activation": {
+          "type": "none",
+          "value": null,
+          "condition": ""
+        },
+        "activities": {},
+        "uses": {},
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "ra6788beb22727f0",
+      "sort": 70,
+      "flags": {
+        "rokugan5e": {
+          "shadowlandsPower": {
+            "roll": 7,
+            "crAdj": "+1"
+          }
+        }
+      }
+    },
+    {
+      "_id": "r3909e7a76a4285a",
+      "_key": "!items!r3909e7a76a4285a",
+      "name": "Winged",
+      "type": "feat",
+      "img": "modules/rokugan5e/icons/game-icons/evil-wings.svg",
+      "system": {
+        "description": {
+          "value": "<p><strong>Shadowlands Power 8</strong> (CR +2). The horror gains a fly (hover) speed of 90 ft.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "Shadowlands Power (roll 8)",
+        "identifier": "winged",
+        "source": {
+          "book": "Adventures in Rokugan",
+          "page": "410",
+          "custom": ""
+        },
+        "properties": [],
+        "activation": {
+          "type": "none",
+          "value": null,
+          "condition": ""
+        },
+        "activities": {},
+        "uses": {},
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "ra6788beb22727f0",
+      "sort": 80,
+      "flags": {
+        "rokugan5e": {
+          "shadowlandsPower": {
+            "roll": 8,
+            "crAdj": "+2"
+          }
+        }
+      }
+    },
+    {
+      "_id": "r1e0501920609895",
+      "_key": "!items!r1e0501920609895",
+      "name": "Foul Separation",
+      "type": "feat",
+      "img": "modules/rokugan5e/icons/game-icons/split-body.svg",
+      "system": {
+        "description": {
+          "value": "<p><strong>Shadowlands Power 9</strong> (CR +2). On its turn as an action, the horror can spend its action and 4d6 hit points to create 2 lesser horrors. These lesser horrors have all of its Shadowlands powers except this one, and take their turns immediately after the main body's turn. The main horror can devour lesser horrors within 5 feet to regain 2d6 hit points per horror devoured.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "Shadowlands Power (roll 9)",
+        "identifier": "foul-separation",
+        "source": {
+          "book": "Adventures in Rokugan",
+          "page": "410",
+          "custom": ""
+        },
+        "properties": [],
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": ""
+        },
+        "activities": {},
+        "uses": {},
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "ra6788beb22727f0",
+      "sort": 90,
+      "flags": {
+        "rokugan5e": {
+          "shadowlandsPower": {
+            "roll": 9,
+            "crAdj": "+2"
+          }
+        }
+      }
+    },
+    {
+      "_id": "r2fcdc4b12aff4b9",
+      "_key": "!items!r2fcdc4b12aff4b9",
+      "name": "Illusion Master",
+      "type": "feat",
+      "img": "modules/rokugan5e/icons/game-icons/magic-portal.svg",
+      "system": {
+        "description": {
+          "value": "<p><strong>Shadowlands Power 10</strong> (CR +2). The horror's spellcasting ability is Charisma (spell save DC 16 for lesser horror, 12 for horrific brute, 20 for lord of dread). At will: disguise self, invisibility, minor illusion. 1/day each: blur, dream, fear, hypnotic pattern.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "Shadowlands Power (roll 10)",
+        "identifier": "illusion-master",
+        "source": {
+          "book": "Adventures in Rokugan",
+          "page": "410",
+          "custom": ""
+        },
+        "properties": [],
+        "activation": {
+          "type": "none",
+          "value": null,
+          "condition": ""
+        },
+        "activities": {},
+        "uses": {},
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "ra6788beb22727f0",
+      "sort": 100,
+      "flags": {
+        "rokugan5e": {
+          "shadowlandsPower": {
+            "roll": 10,
+            "crAdj": "+2"
+          }
+        }
+      }
+    },
+    {
+      "_id": "r21b6500753dcc51",
+      "_key": "!items!r21b6500753dcc51",
+      "name": "Necromantic Secrets",
+      "type": "feat",
+      "img": "modules/rokugan5e/icons/game-icons/death-note.svg",
+      "system": {
+        "description": {
+          "value": "<p><strong>Shadowlands Power 11</strong> (CR +2). The horror's spellcasting ability is Intelligence (spell save DC 16 for lesser horror, 12 for horrific brute, 20 for lord of dread). At will: bestow curse, mark of desecration, speak with dead. 1/day each: contagion, inflict wounds, vampiric touch.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "Shadowlands Power (roll 11)",
+        "identifier": "necromantic-secrets",
+        "source": {
+          "book": "Adventures in Rokugan",
+          "page": "410",
+          "custom": ""
+        },
+        "properties": [],
+        "activation": {
+          "type": "none",
+          "value": null,
+          "condition": ""
+        },
+        "activities": {},
+        "uses": {},
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "ra6788beb22727f0",
+      "sort": 110,
+      "flags": {
+        "rokugan5e": {
+          "shadowlandsPower": {
+            "roll": 11,
+            "crAdj": "+2"
+          }
+        }
+      }
+    },
+    {
+      "_id": "r1b4297eba3bec72",
+      "_key": "!items!r1b4297eba3bec72",
+      "name": "Vile Depredation",
+      "type": "feat",
+      "img": "modules/rokugan5e/icons/game-icons/regeneration.svg",
+      "system": {
+        "description": {
+          "value": "<p><strong>Shadowlands Power 12</strong> (CR +2). The horror regains 1d12 hit points at the start of its turn if it has at least 1 hit point. When it inflicts a critical hit on another creature, it immediately regains 3d10 hit points.</p>",
+          "chat": ""
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "requirements": "Shadowlands Power (roll 12)",
+        "identifier": "vile-depredation",
+        "source": {
+          "book": "Adventures in Rokugan",
+          "page": "410",
+          "custom": ""
+        },
+        "properties": [],
+        "activation": {
+          "type": "none",
+          "value": null,
+          "condition": ""
+        },
+        "activities": {},
+        "uses": {},
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "ra6788beb22727f0",
+      "sort": 120,
+      "flags": {
+        "rokugan5e": {
+          "shadowlandsPower": {
+            "roll": 12,
+            "crAdj": "+2"
+          }
+        }
+      }
+    }
+  ]
+}

@@ -901,3 +901,22 @@ h3.rokugan-panel-header .panel-info {
     grid-template-columns: 1fr;
   }
 }
+
+/* Edge Studio licensing notice at the bottom of the Settings sidebar tab */
+.rokugan-copyright-notice {
+  margin: 1rem 0.5rem 0.5rem;
+  padding-top: 0.5rem;
+}
+.rokugan-copyright-notice hr {
+  border: none;
+  border-top: 1px solid var(--color-border-dark, rgba(255, 255, 255, 0.1));
+  margin: 0 0 0.5rem;
+}
+.rokugan-copyright-notice p {
+  font-size: 10px;
+  line-height: 1.4;
+  color: var(--color-text-light-7, #9b9a93);
+  opacity: 0.8;
+  text-align: justify;
+  margin: 0;
+}

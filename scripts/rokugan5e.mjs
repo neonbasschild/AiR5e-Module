@@ -126,6 +126,10 @@ Hooks.once("init", () => {
 
   // Apply Rokugan config changes to CONFIG.DND5E
   RokuganConfig.apply();
+
+  // Register the Settings-sidebar copyright hook now (at init) so it is
+  // listening before the sidebar first renders during startup.
+  RokuganHooks.registerCopyrightNotice();
 });
 
 Hooks.once("i18nInit", () => {

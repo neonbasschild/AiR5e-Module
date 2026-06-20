@@ -160,7 +160,7 @@
       "img": "modules/rokugan5e/icons/game-icons/flat-hammer.svg",
       "system": {
         "description": {
-          "value": "<p>Properties: Light, thrown (range 20/60).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "value": "<p>A simple melee weapon dealing 1d4 bludgeoning on a hit.</p><p><strong>Properties</strong></p><ul><li><strong>Light.</strong> Small and easy to handle, suitable for two-weapon fighting.</li><li><strong>Thrown.</strong> Can be thrown to make a ranged attack using the same ability modifier.</li></ul><p><em>See <em>Adventures in Rokugan</em>, p. 198 for the full description.</em></p>",
           "chat": ""
         },
         "source": {
@@ -275,7 +275,7 @@
       "img": "modules/rokugan5e/icons/game-icons/wood-club.svg",
       "system": {
         "description": {
-          "value": "<p>Properties: Light.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "value": "<p>A simple melee weapon dealing 1d4 bludgeoning on a hit.</p><p><strong>Properties</strong></p><ul><li><strong>Light.</strong> Small and easy to handle, suitable for two-weapon fighting.</li></ul><p><em>See <em>Adventures in Rokugan</em>, p. 198 for the full description.</em></p>",
           "chat": ""
         },
         "source": {
@@ -389,7 +389,7 @@
       "img": "modules/rokugan5e/icons/game-icons/wood-club.svg",
       "system": {
         "description": {
-          "value": "<p>Properties: Heavy, two-handed.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "value": "<p>A simple melee weapon dealing 1d8 bludgeoning on a hit.</p><p><strong>Properties</strong></p><ul><li><strong>Heavy.</strong> Small creatures have disadvantage on attack rolls with it.</li><li><strong>Two-Handed.</strong> Requires two hands when attacking with it.</li></ul><p><em>See <em>Adventures in Rokugan</em>, p. 198 for the full description.</em></p>",
           "chat": ""
         },
         "source": {
@@ -504,7 +504,7 @@
       "img": "modules/rokugan5e/icons/game-icons/plain-dagger.svg",
       "system": {
         "description": {
-          "value": "<p>Properties: Finesse, light, thrown (20/60).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "value": "<p>A simple melee weapon dealing 1d4 piercing on a hit.</p><p><strong>Properties</strong></p><ul><li><strong>Finesse.</strong> Use Strength or Dexterity for attack and damage rolls.</li><li><strong>Light.</strong> Small and easy to handle, suitable for two-weapon fighting.</li><li><strong>Thrown.</strong> Can be thrown to make a ranged attack using the same ability modifier.</li></ul><p><em>See <em>Adventures in Rokugan</em>, p. 198 for the full description.</em></p>",
           "chat": ""
         },
         "source": {
@@ -620,7 +620,7 @@
       "img": "modules/rokugan5e/icons/game-icons/hatchet.svg",
       "system": {
         "description": {
-          "value": "<p>Properties: Light, thrown (range 20/60).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "value": "<p>A simple melee weapon dealing 1d6 slashing on a hit.</p><p><strong>Properties</strong></p><ul><li><strong>Light.</strong> Small and easy to handle, suitable for two-weapon fighting.</li><li><strong>Thrown.</strong> Can be thrown to make a ranged attack using the same ability modifier.</li></ul><p><em>See <em>Adventures in Rokugan</em>, p. 198 for the full description.</em></p>",
           "chat": ""
         },
         "source": {
@@ -735,7 +735,7 @@
       "img": "modules/rokugan5e/icons/game-icons/war-pick.svg",
       "system": {
         "description": {
-          "value": "<p>Properties: Defensive, light.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "value": "<p>A simple melee weapon dealing 1d4 bludgeoning on a hit.</p><p><strong>Properties</strong></p><ul><li><strong>Defensive.</strong> Grants a bonus to AC while wielded (Adventures in Rokugan).</li><li><strong>Light.</strong> Small and easy to handle, suitable for two-weapon fighting.</li></ul><p><em>See <em>Adventures in Rokugan</em>, p. 198 for the full description.</em></p>",
           "chat": ""
         },
         "source": {
@@ -850,7 +850,7 @@
       "img": "modules/rokugan5e/icons/game-icons/lead-pipe.svg",
       "system": {
         "description": {
-          "value": "<p>Properties: Defensive, finesse.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "value": "<p>A simple melee weapon dealing 1d4 bludgeoning on a hit.</p><p><strong>Properties</strong></p><ul><li><strong>Defensive.</strong> Grants a bonus to AC while wielded (Adventures in Rokugan).</li><li><strong>Finesse.</strong> Use Strength or Dexterity for attack and damage rolls.</li></ul><p><em>See <em>Adventures in Rokugan</em>, p. 198 for the full description.</em></p>",
           "chat": ""
         },
         "source": {
@@ -965,7 +965,7 @@
       "img": "modules/rokugan5e/icons/game-icons/sickle.svg",
       "system": {
         "description": {
-          "value": "<p>Properties: Finesse, light, paired, snaring (10).</p><p>Snaring (10 ft.)</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "value": "<p>A simple melee weapon dealing 1d4 slashing on a hit.</p><p><strong>Properties</strong></p><ul><li><strong>Finesse.</strong> Use Strength or Dexterity for attack and damage rolls.</li><li><strong>Light.</strong> Small and easy to handle, suitable for two-weapon fighting.</li><li><strong>Paired.</strong> Designed to be wielded as a matched pair (Adventures in Rokugan).</li><li><strong>Snaring.</strong> Can catch or entangle a target (Adventures in Rokugan).</li></ul><p><em>See <em>Adventures in Rokugan</em>, p. 198 for the full description.</em></p>",
           "chat": ""
         },
         "source": {
@@ -1082,7 +1082,7 @@
       "img": "modules/rokugan5e/icons/game-icons/barbed-spear.svg",
       "system": {
         "description": {
-          "value": "<p>Properties: Thrown (20/60), versatile (1d8).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "value": "<p>A simple melee weapon dealing 1d6 piercing (1d8 two-handed) on a hit.</p><p><strong>Properties</strong></p><ul><li><strong>Thrown.</strong> Can be thrown to make a ranged attack using the same ability modifier.</li><li><strong>Versatile.</strong> Can be used one- or two-handed, dealing more damage when used two-handed.</li></ul><p><em>See <em>Adventures in Rokugan</em>, p. 198 for the full description.</em></p>",
           "chat": ""
         },
         "source": {
@@ -1211,7 +1211,7 @@
       "img": "modules/rokugan5e/icons/game-icons/bo.svg",
       "system": {
         "description": {
-          "value": "<p>Properties: Versatile (1d8).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "value": "<p>A simple melee weapon dealing 1d6 bludgeoning (1d8 two-handed) on a hit.</p><p><strong>Properties</strong></p><ul><li><strong>Versatile.</strong> Can be used one- or two-handed, dealing more damage when used two-handed.</li></ul><p><em>See <em>Adventures in Rokugan</em>, p. 198 for the full description.</em></p>",
           "chat": ""
         },
         "source": {
@@ -1339,7 +1339,7 @@
       "img": "modules/rokugan5e/icons/game-icons/wood-stick.svg",
       "system": {
         "description": {
-          "value": "<p>Properties: Versatile (1d8).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "value": "<p>A simple melee weapon dealing 1d6 bludgeoning (1d8 two-handed) on a hit.</p><p><strong>Properties</strong></p><ul><li><strong>Versatile.</strong> Can be used one- or two-handed, dealing more damage when used two-handed.</li></ul><p><em>See <em>Adventures in Rokugan</em>, p. 198 for the full description.</em></p>",
           "chat": ""
         },
         "source": {
@@ -1467,7 +1467,7 @@
       "img": "modules/rokugan5e/icons/game-icons/pocket-bow.svg",
       "system": {
         "description": {
-          "value": "<p>Properties: Ammunition (range 80/320), two-handed.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "value": "<p>A simple ranged weapon dealing 1d6 piercing on a hit.</p><p><strong>Properties</strong></p><ul><li><strong>Ammunition.</strong> Requires ammunition to make a ranged attack.</li><li><strong>Two-Handed.</strong> Requires two hands when attacking with it.</li></ul><p><em>See <em>Adventures in Rokugan</em>, p. 198 for the full description.</em></p>",
           "chat": ""
         },
         "source": {
@@ -1582,7 +1582,7 @@
       "img": "modules/rokugan5e/icons/game-icons/sling.svg",
       "system": {
         "description": {
-          "value": "<p>Properties: Ammunition (range 30/120).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "value": "<p>A simple ranged weapon dealing 1d4 bludgeoning on a hit.</p><p><strong>Properties</strong></p><ul><li><strong>Ammunition.</strong> Requires ammunition to make a ranged attack.</li></ul><p><em>See <em>Adventures in Rokugan</em>, p. 198 for the full description.</em></p>",
           "chat": ""
         },
         "source": {
@@ -1696,7 +1696,7 @@
       "img": "modules/rokugan5e/icons/game-icons/battle-axe.svg",
       "system": {
         "description": {
-          "value": "<p>Properties: Versatile (1d10).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "value": "<p>A martial melee weapon dealing 1d8 slashing (1d10 two-handed) on a hit.</p><p><strong>Properties</strong></p><ul><li><strong>Versatile.</strong> Can be used one- or two-handed, dealing more damage when used two-handed.</li></ul><p><em>See <em>Adventures in Rokugan</em>, p. 198 for the full description.</em></p>",
           "chat": ""
         },
         "source": {
@@ -1824,7 +1824,7 @@
       "img": "modules/rokugan5e/icons/game-icons/kusarigama.svg",
       "system": {
         "description": {
-          "value": "<p>Properties: Finesse, reach, snaring (15), two-handed.</p><p>Snaring (15 ft.)</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "value": "<p>A martial melee weapon dealing 1d6 slashing on a hit.</p><p><strong>Properties</strong></p><ul><li><strong>Finesse.</strong> Use Strength or Dexterity for attack and damage rolls.</li><li><strong>Reach.</strong> Adds 5 feet to your reach when you attack with it.</li><li><strong>Snaring.</strong> Can catch or entangle a target (Adventures in Rokugan).</li><li><strong>Two-Handed.</strong> Requires two hands when attacking with it.</li></ul><p><em>See <em>Adventures in Rokugan</em>, p. 198 for the full description.</em></p>",
           "chat": ""
         },
         "source": {
@@ -1941,7 +1941,7 @@
       "img": "modules/rokugan5e/icons/game-icons/halberd.svg",
       "system": {
         "description": {
-          "value": "<p>Properties: Heavy, reach, versatile (1d10).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "value": "<p>A martial melee weapon dealing 1d8 slashing (1d10 two-handed) on a hit.</p><p><strong>Properties</strong></p><ul><li><strong>Heavy.</strong> Small creatures have disadvantage on attack rolls with it.</li><li><strong>Reach.</strong> Adds 5 feet to your reach when you attack with it.</li><li><strong>Versatile.</strong> Can be used one- or two-handed, dealing more damage when used two-handed.</li></ul><p><em>See <em>Adventures in Rokugan</em>, p. 198 for the full description.</em></p>",
           "chat": ""
         },
         "source": {
@@ -2071,7 +2071,7 @@
       "img": "modules/rokugan5e/icons/game-icons/machete.svg",
       "system": {
         "description": {
-          "value": "<p>Properties: Finesse, light, paired.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "value": "<p>A martial melee weapon dealing 1d6 slashing on a hit.</p><p><strong>Properties</strong></p><ul><li><strong>Finesse.</strong> Use Strength or Dexterity for attack and damage rolls.</li><li><strong>Light.</strong> Small and easy to handle, suitable for two-weapon fighting.</li><li><strong>Paired.</strong> Designed to be wielded as a matched pair (Adventures in Rokugan).</li></ul><p><em>See <em>Adventures in Rokugan</em>, p. 198 for the full description.</em></p>",
           "chat": ""
         },
         "source": {
@@ -2187,7 +2187,7 @@
       "img": "modules/rokugan5e/icons/game-icons/machete.svg",
       "system": {
         "description": {
-          "value": "<p>Properties: Special.</p><p>Special property</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "value": "<p>A martial melee weapon dealing 1d8 slashing on a hit.</p><p><strong>Properties</strong></p><ul><li><strong>Special.</strong> Carries special rules governing its use.</li></ul><p><em>See <em>Adventures in Rokugan</em>, p. 198 for the full description.</em></p>",
           "chat": ""
         },
         "source": {
@@ -2301,7 +2301,7 @@
       "img": "modules/rokugan5e/icons/game-icons/spear-hook.svg",
       "system": {
         "description": {
-          "value": "<p>Properties: Snaring (10), versatile (1d10).</p><p>Snaring (10 ft.)</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "value": "<p>A martial melee weapon dealing 1d8 piercing (1d10 two-handed) on a hit.</p><p><strong>Properties</strong></p><ul><li><strong>Snaring.</strong> Can catch or entangle a target (Adventures in Rokugan).</li><li><strong>Versatile.</strong> Can be used one- or two-handed, dealing more damage when used two-handed.</li></ul><p><em>See <em>Adventures in Rokugan</em>, p. 198 for the full description.</em></p>",
           "chat": ""
         },
         "source": {
@@ -2430,7 +2430,7 @@
       "img": "modules/rokugan5e/icons/game-icons/machete.svg",
       "system": {
         "description": {
-          "value": "<p>Properties: Heavy, special, two-handed.</p><p>Special property</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "value": "<p>A martial melee weapon dealing 2d8 slashing on a hit.</p><p><strong>Properties</strong></p><ul><li><strong>Heavy.</strong> Small creatures have disadvantage on attack rolls with it.</li><li><strong>Special.</strong> Carries special rules governing its use.</li><li><strong>Two-Handed.</strong> Requires two hands when attacking with it.</li></ul><p><em>See <em>Adventures in Rokugan</em>, p. 198 for the full description.</em></p>",
           "chat": ""
         },
         "source": {
@@ -2546,7 +2546,7 @@
       "img": "modules/rokugan5e/icons/game-icons/spiked-mace.svg",
       "system": {
         "description": {
-          "value": "<p>Properties: Heavy, two-handed.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "value": "<p>A martial melee weapon dealing 2d6 bludgeoning on a hit.</p><p><strong>Properties</strong></p><ul><li><strong>Heavy.</strong> Small creatures have disadvantage on attack rolls with it.</li><li><strong>Two-Handed.</strong> Requires two hands when attacking with it.</li></ul><p><em>See <em>Adventures in Rokugan</em>, p. 198 for the full description.</em></p>",
           "chat": ""
         },
         "source": {
@@ -2661,7 +2661,7 @@
       "img": "modules/rokugan5e/icons/game-icons/katana.svg",
       "system": {
         "description": {
-          "value": "<p>Properties: Finesse, versatile (1d10).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "value": "<p>A martial melee weapon dealing 1d8 slashing (1d10 two-handed) on a hit.</p><p><strong>Properties</strong></p><ul><li><strong>Finesse.</strong> Use Strength or Dexterity for attack and damage rolls.</li><li><strong>Versatile.</strong> Can be used one- or two-handed, dealing more damage when used two-handed.</li></ul><p><em>See <em>Adventures in Rokugan</em>, p. 198 for the full description.</em></p>",
           "chat": ""
         },
         "source": {
@@ -2790,7 +2790,7 @@
       "img": "modules/rokugan5e/icons/game-icons/flat-hammer.svg",
       "system": {
         "description": {
-          "value": "<p>Properties: Heavy, versatile (1d10).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "value": "<p>A martial melee weapon dealing 1d8 bludgeoning (1d10 two-handed) on a hit.</p><p><strong>Properties</strong></p><ul><li><strong>Heavy.</strong> Small creatures have disadvantage on attack rolls with it.</li><li><strong>Versatile.</strong> Can be used one- or two-handed, dealing more damage when used two-handed.</li></ul><p><em>See <em>Adventures in Rokugan</em>, p. 198 for the full description.</em></p>",
           "chat": ""
         },
         "source": {
@@ -2919,7 +2919,7 @@
       "img": "modules/rokugan5e/icons/game-icons/flail.svg",
       "system": {
         "description": {
-          "value": "<p>Properties: Reach, snaring (15), two-handed.</p><p>Snaring (15 ft.)</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "value": "<p>A martial melee weapon dealing 1d6 bludgeoning on a hit.</p><p><strong>Properties</strong></p><ul><li><strong>Reach.</strong> Adds 5 feet to your reach when you attack with it.</li><li><strong>Snaring.</strong> Can catch or entangle a target (Adventures in Rokugan).</li><li><strong>Two-Handed.</strong> Requires two hands when attacking with it.</li></ul><p><em>See <em>Adventures in Rokugan</em>, p. 198 for the full description.</em></p>",
           "chat": ""
         },
         "source": {
@@ -3035,7 +3035,7 @@
       "img": "modules/rokugan5e/icons/game-icons/glaive.svg",
       "system": {
         "description": {
-          "value": "<p>Properties: Defensive, finesse, reach, two-handed.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "value": "<p>A martial melee weapon dealing 1d10 slashing on a hit.</p><p><strong>Properties</strong></p><ul><li><strong>Defensive.</strong> Grants a bonus to AC while wielded (Adventures in Rokugan).</li><li><strong>Finesse.</strong> Use Strength or Dexterity for attack and damage rolls.</li><li><strong>Reach.</strong> Adds 5 feet to your reach when you attack with it.</li><li><strong>Two-Handed.</strong> Requires two hands when attacking with it.</li></ul><p><em>See <em>Adventures in Rokugan</em>, p. 198 for the full description.</em></p>",
           "chat": ""
         },
         "source": {
@@ -3152,7 +3152,7 @@
       "img": "modules/rokugan5e/icons/game-icons/two-handed-sword.svg",
       "system": {
         "description": {
-          "value": "<p>Properties: Heavy, two-handed.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "value": "<p>A martial melee weapon dealing 2d6 slashing on a hit.</p><p><strong>Properties</strong></p><ul><li><strong>Heavy.</strong> Small creatures have disadvantage on attack rolls with it.</li><li><strong>Two-Handed.</strong> Requires two hands when attacking with it.</li></ul><p><em>See <em>Adventures in Rokugan</em>, p. 198 for the full description.</em></p>",
           "chat": ""
         },
         "source": {
@@ -3267,7 +3267,7 @@
       "img": "modules/rokugan5e/icons/game-icons/nunchaku.svg",
       "system": {
         "description": {
-          "value": "<p>Properties: Finesse, snaring (15).</p><p>Snaring (15 ft.)</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "value": "<p>A martial melee weapon dealing 1d6 bludgeoning on a hit.</p><p><strong>Properties</strong></p><ul><li><strong>Finesse.</strong> Use Strength or Dexterity for attack and damage rolls.</li><li><strong>Snaring.</strong> Can catch or entangle a target (Adventures in Rokugan).</li></ul><p><em>See <em>Adventures in Rokugan</em>, p. 198 for the full description.</em></p>",
           "chat": ""
         },
         "source": {
@@ -3500,7 +3500,7 @@
       "img": "modules/rokugan5e/icons/game-icons/spiked-mace.svg",
       "system": {
         "description": {
-          "value": "<p>Properties: Heavy, versatile (1d12).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "value": "<p>A martial melee weapon dealing 1d8 bludgeoning (1d12 two-handed) on a hit.</p><p><strong>Properties</strong></p><ul><li><strong>Heavy.</strong> Small creatures have disadvantage on attack rolls with it.</li><li><strong>Versatile.</strong> Can be used one- or two-handed, dealing more damage when used two-handed.</li></ul><p><em>See <em>Adventures in Rokugan</em>, p. 198 for the full description.</em></p>",
           "chat": ""
         },
         "source": {
@@ -3629,7 +3629,7 @@
       "img": "modules/rokugan5e/icons/game-icons/katana.svg",
       "system": {
         "description": {
-          "value": "<p>Properties: Finesse, special, versatile (1d8).</p><p>Special property</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "value": "<p>A martial melee weapon dealing 1d6 piercing (1d8 two-handed) on a hit.</p><p><strong>Properties</strong></p><ul><li><strong>Finesse.</strong> Use Strength or Dexterity for attack and damage rolls.</li><li><strong>Special.</strong> Carries special rules governing its use.</li><li><strong>Versatile.</strong> Can be used one- or two-handed, dealing more damage when used two-handed.</li></ul><p><em>See <em>Adventures in Rokugan</em>, p. 198 for the full description.</em></p>",
           "chat": ""
         },
         "source": {
@@ -3761,7 +3761,7 @@
       "img": "modules/rokugan5e/icons/game-icons/katana.svg",
       "system": {
         "description": {
-          "value": "<p>Properties: Versatile (1d10).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "value": "<p>A martial melee weapon dealing 1d8 slashing (1d10 two-handed) on a hit.</p><p><strong>Properties</strong></p><ul><li><strong>Versatile.</strong> Can be used one- or two-handed, dealing more damage when used two-handed.</li></ul><p><em>See <em>Adventures in Rokugan</em>, p. 198 for the full description.</em></p>",
           "chat": ""
         },
         "source": {
@@ -3889,7 +3889,7 @@
       "img": "modules/rokugan5e/icons/game-icons/bat-blade.svg",
       "system": {
         "description": {
-          "value": "<p>Properties: Defensive, light, snaring (10).</p><p>Snaring (10 ft.)</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "value": "<p>A martial melee weapon dealing 1d4 bludgeoning on a hit.</p><p><strong>Properties</strong></p><ul><li><strong>Defensive.</strong> Grants a bonus to AC while wielded (Adventures in Rokugan).</li><li><strong>Light.</strong> Small and easy to handle, suitable for two-weapon fighting.</li><li><strong>Snaring.</strong> Can catch or entangle a target (Adventures in Rokugan).</li></ul><p><em>See <em>Adventures in Rokugan</em>, p. 198 for the full description.</em></p>",
           "chat": ""
         },
         "source": {
@@ -4005,7 +4005,7 @@
       "img": "modules/rokugan5e/icons/game-icons/hook.svg",
       "system": {
         "description": {
-          "value": "<p>Properties: Light, paired, snaring (10).</p><p>Snaring (10 ft.)</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "value": "<p>A martial melee weapon dealing 1d6 slashing on a hit.</p><p><strong>Properties</strong></p><ul><li><strong>Light.</strong> Small and easy to handle, suitable for two-weapon fighting.</li><li><strong>Paired.</strong> Designed to be wielded as a matched pair (Adventures in Rokugan).</li><li><strong>Snaring.</strong> Can catch or entangle a target (Adventures in Rokugan).</li></ul><p><em>See <em>Adventures in Rokugan</em>, p. 198 for the full description.</em></p>",
           "chat": ""
         },
         "source": {
@@ -4121,7 +4121,7 @@
       "img": "modules/rokugan5e/icons/game-icons/bo.svg",
       "system": {
         "description": {
-          "value": "<p>Properties: Reach, snaring (10), two-handed.</p><p>Snaring (10 ft.)</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "value": "<p>A martial melee weapon dealing 1d8 bludgeoning on a hit.</p><p><strong>Properties</strong></p><ul><li><strong>Reach.</strong> Adds 5 feet to your reach when you attack with it.</li><li><strong>Snaring.</strong> Can catch or entangle a target (Adventures in Rokugan).</li><li><strong>Two-Handed.</strong> Requires two hands when attacking with it.</li></ul><p><em>See <em>Adventures in Rokugan</em>, p. 198 for the full description.</em></p>",
           "chat": ""
         },
         "source": {
@@ -4237,7 +4237,7 @@
       "img": "modules/rokugan5e/icons/game-icons/trident.svg",
       "system": {
         "description": {
-          "value": "<p>Properties: Thrown (10/30), versatile (1d10).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "value": "<p>A martial melee weapon dealing 1d8 piercing (1d10 two-handed) on a hit.</p><p><strong>Properties</strong></p><ul><li><strong>Thrown.</strong> Can be thrown to make a ranged attack using the same ability modifier.</li><li><strong>Versatile.</strong> Can be used one- or two-handed, dealing more damage when used two-handed.</li></ul><p><em>See <em>Adventures in Rokugan</em>, p. 198 for the full description.</em></p>",
           "chat": ""
         },
         "source": {
@@ -4366,7 +4366,7 @@
       "img": "modules/rokugan5e/icons/game-icons/katana.svg",
       "system": {
         "description": {
-          "value": "<p>Properties: Finesse, light, thrown (10/30).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "value": "<p>A martial melee weapon dealing 1d6 slashing on a hit.</p><p><strong>Properties</strong></p><ul><li><strong>Finesse.</strong> Use Strength or Dexterity for attack and damage rolls.</li><li><strong>Light.</strong> Small and easy to handle, suitable for two-weapon fighting.</li><li><strong>Thrown.</strong> Can be thrown to make a ranged attack using the same ability modifier.</li></ul><p><em>See <em>Adventures in Rokugan</em>, p. 198 for the full description.</em></p>",
           "chat": ""
         },
         "source": {
@@ -4482,7 +4482,7 @@
       "img": "modules/rokugan5e/icons/game-icons/barbed-spear.svg",
       "system": {
         "description": {
-          "value": "<p>Properties: Reach, two-handed.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "value": "<p>A martial melee weapon dealing 1d10 piercing on a hit.</p><p><strong>Properties</strong></p><ul><li><strong>Reach.</strong> Adds 5 feet to your reach when you attack with it.</li><li><strong>Two-Handed.</strong> Requires two hands when attacking with it.</li></ul><p><em>See <em>Adventures in Rokugan</em>, p. 198 for the full description.</em></p>",
           "chat": ""
         },
         "source": {
@@ -4597,7 +4597,7 @@
       "img": "modules/rokugan5e/icons/game-icons/whip.svg",
       "system": {
         "description": {
-          "value": "<p>Properties: Reach, special.</p><p>Special property</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 198.</em></p>",
+          "value": "<p>A martial melee weapon dealing 1d6 slashing on a hit.</p><p><strong>Properties</strong></p><ul><li><strong>Reach.</strong> Adds 5 feet to your reach when you attack with it.</li><li><strong>Special.</strong> Carries special rules governing its use.</li></ul><p><em>See <em>Adventures in Rokugan</em>, p. 198 for the full description.</em></p>",
           "chat": ""
         },
         "source": {
@@ -4712,7 +4712,7 @@
       "img": "modules/rokugan5e/icons/game-icons/ballista.svg",
       "system": {
         "description": {
-          "value": "<p>Properties: Loading, special.</p><p>Special property</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 199.</em></p>",
+          "value": "<p>A martial ranged weapon dealing 3d8 piercing on a hit.</p><p><strong>Properties</strong></p><ul><li><strong>Loading.</strong> Fires only once per action, regardless of attacks available.</li><li><strong>Special.</strong> Carries special rules governing its use.</li></ul><p><em>See <em>Adventures in Rokugan</em>, p. 199 for the full description.</em></p>",
           "chat": ""
         },
         "source": {
@@ -4827,7 +4827,7 @@
       "img": "modules/rokugan5e/icons/game-icons/dart.svg",
       "system": {
         "description": {
-          "value": "<p>Properties: Ammunition (25/100), loading.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 199.</em></p>",
+          "value": "<p>A martial ranged weapon.</p><p><strong>Properties</strong></p><ul><li><strong>Ammunition.</strong> Requires ammunition to make a ranged attack.</li><li><strong>Loading.</strong> Fires only once per action, regardless of attacks available.</li></ul><p><em>See <em>Adventures in Rokugan</em>, p. 199 for the full description.</em></p>",
           "chat": ""
         },
         "source": {
@@ -4943,7 +4943,7 @@
       "img": "modules/rokugan5e/icons/game-icons/crossbow.svg",
       "system": {
         "description": {
-          "value": "<p>Properties: Ammunition (range 30/120), loading, two-handed.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 199.</em></p>",
+          "value": "<p>A martial ranged weapon dealing 1d8 piercing on a hit.</p><p><strong>Properties</strong></p><ul><li><strong>Ammunition.</strong> Requires ammunition to make a ranged attack.</li><li><strong>Loading.</strong> Fires only once per action, regardless of attacks available.</li><li><strong>Two-Handed.</strong> Requires two hands when attacking with it.</li></ul><p><em>See <em>Adventures in Rokugan</em>, p. 199 for the full description.</em></p>",
           "chat": ""
         },
         "source": {
@@ -5176,7 +5176,7 @@
       "img": "modules/rokugan5e/icons/game-icons/crossbow.svg",
       "system": {
         "description": {
-          "value": "<p>Properties: Ammunition (range 100/400), loading, two-handed.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 199.</em></p>",
+          "value": "<p>A martial ranged weapon dealing 1d10 piercing on a hit.</p><p><strong>Properties</strong></p><ul><li><strong>Ammunition.</strong> Requires ammunition to make a ranged attack.</li><li><strong>Loading.</strong> Fires only once per action, regardless of attacks available.</li><li><strong>Two-Handed.</strong> Requires two hands when attacking with it.</li></ul><p><em>See <em>Adventures in Rokugan</em>, p. 199 for the full description.</em></p>",
           "chat": ""
         },
         "source": {
@@ -5292,7 +5292,7 @@
       "img": "modules/rokugan5e/icons/game-icons/high-shot.svg",
       "system": {
         "description": {
-          "value": "<p>Properties: Ammunition (range 150/600), heavy, two-handed.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 199.</em></p>",
+          "value": "<p>A martial ranged weapon dealing 1d8 piercing on a hit.</p><p><strong>Properties</strong></p><ul><li><strong>Ammunition.</strong> Requires ammunition to make a ranged attack.</li><li><strong>Heavy.</strong> Small creatures have disadvantage on attack rolls with it.</li><li><strong>Two-Handed.</strong> Requires two hands when attacking with it.</li></ul><p><em>See <em>Adventures in Rokugan</em>, p. 199 for the full description.</em></p>",
           "chat": ""
         },
         "source": {
@@ -5408,7 +5408,7 @@
       "img": "modules/rokugan5e/icons/game-icons/crossbow.svg",
       "system": {
         "description": {
-          "value": "<p>Properties: Ammunition (range 30/120), loading, special.</p><p>Special property</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 199.</em></p>",
+          "value": "<p>A martial ranged weapon dealing 1d8 piercing on a hit.</p><p><strong>Properties</strong></p><ul><li><strong>Ammunition.</strong> Requires ammunition to make a ranged attack.</li><li><strong>Loading.</strong> Fires only once per action, regardless of attacks available.</li><li><strong>Special.</strong> Carries special rules governing its use.</li></ul><p><em>See <em>Adventures in Rokugan</em>, p. 199 for the full description.</em></p>",
           "chat": ""
         },
         "source": {
@@ -5524,7 +5524,7 @@
       "img": "modules/rokugan5e/icons/game-icons/pocket-bow.svg",
       "system": {
         "description": {
-          "value": "<p>Properties: Ammunition (range 100/400), special, two-handed.</p><p>Special property</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 199.</em></p>",
+          "value": "<p>A martial ranged weapon dealing 1d6 piercing on a hit.</p><p><strong>Properties</strong></p><ul><li><strong>Ammunition.</strong> Requires ammunition to make a ranged attack.</li><li><strong>Special.</strong> Carries special rules governing its use.</li><li><strong>Two-Handed.</strong> Requires two hands when attacking with it.</li></ul><p><em>See <em>Adventures in Rokugan</em>, p. 199 for the full description.</em></p>",
           "chat": ""
         },
         "source": {
@@ -5640,7 +5640,7 @@
       "img": "modules/rokugan5e/icons/game-icons/ninja-star.svg",
       "system": {
         "description": {
-          "value": "<p>Properties: Ammunition (range 15/60), finesse, light.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 199.</em></p>",
+          "value": "<p>A martial ranged weapon dealing 1d4 piercing on a hit.</p><p><strong>Properties</strong></p><ul><li><strong>Ammunition.</strong> Requires ammunition to make a ranged attack.</li><li><strong>Finesse.</strong> Use Strength or Dexterity for attack and damage rolls.</li><li><strong>Light.</strong> Small and easy to handle, suitable for two-weapon fighting.</li></ul><p><em>See <em>Adventures in Rokugan</em>, p. 199 for the full description.</em></p>",
           "chat": ""
         },
         "source": {

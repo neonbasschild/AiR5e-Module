@@ -17,10 +17,10 @@
 export class RokuganPacks {
 
   /** Bump to force a reseed on the next world load. */
-  static DATA_VERSION = "1.20.0";
+  static DATA_VERSION = "1.22.3";
 
   static PACKS = ["classes", "classfeatures", "species", "backgrounds", "feats",
-                  "equipment", "techniques", "invocations", "externalizations", "charms", "awakened"];
+                  "equipment", "techniques", "invocations", "externalizations", "charms", "awakened", "npcs", "modifiers"];
 
   /**
    * Seed all packs if the stored data version is stale.
@@ -59,10 +59,14 @@ export class RokuganPacks {
 
         await pack.configure({ locked: false });
 
+        // Use the document class matching the pack type (Actor packs need
+        // Actor.createDocuments; everything else is an Item pack).
+        const DocClass = pack.documentName === "Actor" ? Actor : Item;
+
         // Clear existing documents AND folders for a clean reseed
         const existing = pack.index.map(e => e._id);
         if (existing.length) {
-          await Item.deleteDocuments(existing, { pack: pack.collection });
+          await DocClass.deleteDocuments(existing, { pack: pack.collection });
         }
         const oldFolders = pack.folders?.map(f => f.id) ?? [];
         if (oldFolders.length) {
@@ -74,7 +78,7 @@ export class RokuganPacks {
             { pack: pack.collection, keepId: true });
         }
         const data = entries.map(({ _key, ...d }) => d);
-        await Item.createDocuments(data, { pack: pack.collection, keepId: true });
+        await DocClass.createDocuments(data, { pack: pack.collection, keepId: true });
 
         await pack.configure({ locked: true });
         total += data.length;

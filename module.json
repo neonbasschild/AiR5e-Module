@@ -2,7 +2,7 @@
   "id": "rokugan5e",
   "title": "Adventures in Rokugan 5E",
   "description": "Adapts the dnd5e system for Adventures in Rokugan: classes, species, backgrounds, weapons, armor, terminology, and the full AiR magic system (Focus, Favor, and Yin/Yang resource tracking with automatic spending). Requires Foundry VTT v13+ and dnd5e 5.x.",
-  "version": "1.20.0",
+  "version": "1.27.3",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
@@ -27,7 +27,7 @@
   ],
   "url": "https://github.com/neonbasschild/AiR5e-Module",
   "manifest": "https://github.com/neonbasschild/AiR5e-Module/releases/latest/download/module.json",
-  "download": "https://github.com/neonbasschild/AiR5e-Module/releases/download/v1.20.0/module.zip",
+  "download": "https://github.com/neonbasschild/AiR5e-Module/releases/download/v1.27.3/module.zip",
   "esmodules": [
     "scripts/rokugan5e.mjs"
   ],
@@ -158,6 +158,28 @@
       "name": "awakened",
       "label": "AiR Awakened Items",
       "path": "packs/awakened",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "npcs",
+      "label": "AiR Adversaries & NPCs",
+      "path": "packs/npcs",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "modifiers",
+      "label": "AiR NPC Modifiers",
+      "path": "packs/modifiers",
       "type": "Item",
       "system": "dnd5e",
       "ownership": {

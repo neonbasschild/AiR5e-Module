@@ -1,0 +1,157 @@
+{
+  "Amalgamation Oni": {
+    "category": "Monsters & Oni",
+    "cr": "6",
+    "biography": ""
+  },
+  "Tentacle Horror": {
+    "category": "Monsters & Oni",
+    "cr": "1/8",
+    "biography": ""
+  },
+  "Lesser Horror": {
+    "category": "Monsters & Oni",
+    "cr": "1",
+    "biography": ""
+  },
+  "Horrific Brute": {
+    "category": "Monsters & Oni",
+    "cr": "5",
+    "biography": ""
+  },
+  "Lord of Dread": {
+    "category": "Monsters & Oni",
+    "cr": "17",
+    "biography": ""
+  },
+  "Ancient Troll": {
+    "category": "Monsters & Oni",
+    "cr": "3",
+    "biography": ""
+  },
+  "Demonwind Steed": {
+    "category": "Mounts & Beasts",
+    "cr": "2",
+    "biography": ""
+  },
+  "Utaku Steed": {
+    "category": "Mounts & Beasts",
+    "cr": "1",
+    "biography": ""
+  },
+  "Soldier": {
+    "category": "NPC Templates",
+    "cr": "1/4",
+    "biography": ""
+  },
+  "Wandering Duelist": {
+    "category": "NPC Templates",
+    "cr": "2",
+    "biography": ""
+  },
+  "Experienced Ritualist": {
+    "category": "NPC Templates",
+    "cr": "3",
+    "biography": ""
+  },
+  "Seasoned Courtier": {
+    "category": "NPC Templates",
+    "cr": "1/8",
+    "biography": ""
+  },
+  "Provincial Lord": {
+    "category": "NPC Templates",
+    "cr": "3",
+    "biography": ""
+  },
+  "Ruffian": {
+    "category": "NPC Templates",
+    "cr": "1/8",
+    "biography": ""
+  },
+  "Crime Boss": {
+    "category": "NPC Templates",
+    "cr": "2",
+    "biography": ""
+  },
+  "Wicked Sorcerer": {
+    "category": "NPC Templates",
+    "cr": "10",
+    "biography": ""
+  },
+  "Sword Saint (Elite)": {
+    "category": "Notable NPCs",
+    "cr": "4",
+    "biography": ""
+  },
+  "Kitsu Ichika": {
+    "category": "Notable NPCs",
+    "cr": "3",
+    "biography": ""
+  },
+  "Sword Saint": {
+    "category": "Notable NPCs",
+    "cr": "10",
+    "biography": ""
+  },
+  "Forest Protector": {
+    "category": "Spirits & Kami",
+    "cr": "3",
+    "biography": ""
+  },
+  "Air Spirit": {
+    "category": "Spirits & Kami",
+    "cr": "4",
+    "biography": ""
+  },
+  "Earth Spirit": {
+    "category": "Spirits & Kami",
+    "cr": "4",
+    "biography": ""
+  },
+  "Fire Spirit": {
+    "category": "Spirits & Kami",
+    "cr": "4",
+    "biography": ""
+  },
+  "Water Spirit": {
+    "category": "Spirits & Kami",
+    "cr": "4",
+    "biography": ""
+  },
+  "Shikigami": {
+    "category": "Spirits & Kami",
+    "cr": "1/8",
+    "biography": ""
+  },
+  "Undying Defender": {
+    "category": "Undead",
+    "cr": "1/2",
+    "biography": ""
+  },
+  "Undying Purifier": {
+    "category": "Undead",
+    "cr": "1",
+    "biography": ""
+  },
+  "Lost Samurai": {
+    "category": "Undead",
+    "cr": "1/2",
+    "biography": ""
+  },
+  "Undying Warrior": {
+    "category": "Undead",
+    "cr": "1/4",
+    "biography": ""
+  },
+  "Lost Champion": {
+    "category": "Undead",
+    "cr": "5",
+    "biography": ""
+  },
+  "Spectral Trooper": {
+    "category": "Undead",
+    "cr": "1/2",
+    "biography": ""
+  }
+}

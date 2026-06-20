@@ -169,6 +169,16 @@
       "color": null,
       "folder": "rcf785067b0dbd0d",
       "sort": 400
+    },
+    {
+      "_id": "rfbde8a673668bcb",
+      "_key": "!folders!rfbde8a673668bcb",
+      "name": "Heretical Sorcery",
+      "type": "Item",
+      "sorting": "a",
+      "color": "#4a0e0e",
+      "folder": null,
+      "sort": 9999
     }
   ],
   "entries": [
@@ -4920,6 +4930,81 @@
       },
       "ownership": {
         "default": 0
+      }
+    },
+    {
+      "_id": "r1233db94909009f",
+      "_key": "!items!r1233db94909009f",
+      "name": "Mark of Desecration",
+      "type": "spell",
+      "img": "modules/rokugan5e/icons/game-icons/burning-skull.svg",
+      "system": {
+        "description": {
+          "value": "<p><em>1st-level necromancy</em></p><p>You perform a heretical rite upon a number of Small, Medium, or Large corpses up to your Intelligence modifier, placing ominous masks over their faces and whispering dark words. Each corpse rises as an undying warrior. At the GM's discretion, a creature may instead be revived as a version of the creature it was in life with the Zombified template.</p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "page": "403",
+          "custom": ""
+        },
+        "identifier": "mark-of-desecration",
+        "level": 1,
+        "school": "nec",
+        "materials": {
+          "value": "a vial of blood",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "preparation": {
+          "mode": "innate",
+          "prepared": true
+        },
+        "properties": [
+          "vocal",
+          "somatic",
+          "material"
+        ],
+        "sourceClass": "",
+        "activation": {
+          "type": "minute",
+          "value": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "",
+          "units": "inst",
+          "special": ""
+        },
+        "range": {
+          "value": 30,
+          "units": "ft",
+          "special": ""
+        },
+        "target": {
+          "affects": {
+            "type": "creature",
+            "count": "",
+            "choice": false,
+            "special": "up to INT modifier corpses"
+          },
+          "template": {
+            "units": "ft",
+            "contiguous": false,
+            "type": ""
+          }
+        },
+        "activities": {},
+        "uses": {}
+      },
+      "effects": [],
+      "folder": "rfbde8a673668bcb",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "customSpell": true
+        }
       }
     }
   ]

@@ -416,7 +416,7 @@
       "img": "modules/rokugan5e/icons/game-icons/battle-gear.svg",
       "system": {
         "description": {
-          "value": "<p>Bushi class feature (level 2).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 49.</em></p>",
+          "value": "<p>Activated using a special trigger.</p><p><em>See <em>Adventures in Rokugan</em>, p. 49 for the full description.</em></p>",
           "chat": ""
         },
         "source": {
@@ -1086,7 +1086,7 @@
       "img": "modules/rokugan5e/icons/game-icons/run.svg",
       "system": {
         "description": {
-          "value": "<p>Duelist class feature (level 9).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 60.</em></p>",
+          "value": "<p>Activated using a reaction.</p><p><em>See <em>Adventures in Rokugan</em>, p. 60 for the full description.</em></p>",
           "chat": ""
         },
         "source": {
@@ -1452,7 +1452,7 @@
       "img": "modules/rokugan5e/icons/game-icons/battle-gear.svg",
       "system": {
         "description": {
-          "value": "<p>Courtier class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 67.</em></p>",
+          "value": "<p>Limited to 1 use(s), recovering on a round.</p><p><em>See <em>Adventures in Rokugan</em>, p. 67 for the full description.</em></p>",
           "chat": ""
         },
         "source": {
@@ -1913,7 +1913,7 @@
       "img": "modules/rokugan5e/icons/game-icons/rolling-dice-cup.svg",
       "system": {
         "description": {
-          "value": "<p>Courtier class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 67.</em></p>",
+          "value": "<p>Has a limited pool of uses that scales as you gain levels, recovering on a long rest.</p><p><em>See <em>Adventures in Rokugan</em>, p. 67 for the full description.</em></p>",
           "chat": ""
         },
         "source": {
@@ -1999,7 +1999,7 @@
       "img": "modules/rokugan5e/icons/game-icons/run.svg",
       "system": {
         "description": {
-          "value": "<p>Shinobi class feature (level 2).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 81.</em></p>",
+          "value": "<p>Requires an action and forces a Intelligence saving throw. Limited to 1 use(s), recovering on a turn.</p><p><em>See <em>Adventures in Rokugan</em>, p. 81 for the full description.</em></p>",
           "chat": ""
         },
         "source": {
@@ -2089,7 +2089,7 @@
       "img": "modules/rokugan5e/icons/game-icons/run.svg",
       "system": {
         "description": {
-          "value": "<p>Shinobi class feature (level 5).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 81.</em></p>",
+          "value": "<p>Activated using a bonus action.</p><p><em>See <em>Adventures in Rokugan</em>, p. 81 for the full description.</em></p>",
           "chat": ""
         },
         "source": {
@@ -2210,7 +2210,7 @@
       "img": "modules/rokugan5e/icons/game-icons/sword-spin.svg",
       "system": {
         "description": {
-          "value": "<p>Shinobi class feature (level 7).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 81.</em></p>",
+          "value": "<p>Activated using a special trigger.</p><p><em>See <em>Adventures in Rokugan</em>, p. 81 for the full description.</em></p>",
           "chat": ""
         },
         "source": {
@@ -2404,7 +2404,7 @@
       "img": "modules/rokugan5e/icons/game-icons/grim-reaper.svg",
       "system": {
         "description": {
-          "value": "<p>Shinobi class feature (level 17).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 81.</em></p>",
+          "value": "<p>Deals damage (1d8) using a special trigger.</p><p><em>See <em>Adventures in Rokugan</em>, p. 81 for the full description.</em></p>",
           "chat": ""
         },
         "source": {
@@ -2484,7 +2484,7 @@
       "img": "modules/rokugan5e/icons/game-icons/grim-reaper.svg",
       "system": {
         "description": {
-          "value": "<p>Shinobi class feature (level 20).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 82.</em></p>",
+          "value": "<p>Activated using a reaction.</p><p><em>See <em>Adventures in Rokugan</em>, p. 82 for the full description.</em></p>",
           "chat": ""
         },
         "source": {
@@ -2546,7 +2546,7 @@
       "img": "modules/rokugan5e/icons/game-icons/fist.svg",
       "system": {
         "description": {
-          "value": "<p>Shinobi class feature (level 1).</p><p>Add this much extra damage per negative condition on the target (max three instances), once per creature per turn. Damage type matches the triggering attack.</p><p>Per-condition damage scales by level (see @scale.shinobi.merciless-strikes).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 79.</em></p>",
+          "value": "<p>Shinobi class feature (level 1).</p><p>Add this much extra damage per negative condition on the target (max three instances), once per creature per turn. Damage type matches the triggering attack.</p><p>Per-condition damage scales by level (see a scaling amount (increasing as you gain levels)).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 79.</em></p>",
           "chat": ""
         },
         "source": {
@@ -2702,7 +2702,7 @@
       "img": "modules/rokugan5e/icons/game-icons/ninja-head.svg",
       "system": {
         "description": {
-          "value": "<p>Shinobi class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 84.</em></p>",
+          "value": "<p>Activated using an action.</p><p><em>See <em>Adventures in Rokugan</em>, p. 84 for the full description.</em></p>",
           "chat": ""
         },
         "source": {
@@ -2878,7 +2878,7 @@
       "img": "modules/rokugan5e/icons/game-icons/scroll-unfurled.svg",
       "system": {
         "description": {
-          "value": "<p>Ritualist class feature (level 18).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 91.</em></p>",
+          "value": "<p>Activated using an action.</p><p><em>See <em>Adventures in Rokugan</em>, p. 91 for the full description.</em></p>",
           "chat": ""
         },
         "source": {
@@ -3206,7 +3206,7 @@
       "img": "modules/rokugan5e/icons/game-icons/meditation.svg",
       "system": {
         "description": {
-          "value": "<p>Pilgrim class feature (level 3).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 100.</em></p>",
+          "value": "<p>Activated using a bonus action.</p><p><em>See <em>Adventures in Rokugan</em>, p. 100 for the full description.</em></p>",
           "chat": ""
         },
         "source": {
@@ -3382,7 +3382,7 @@
       "img": "modules/rokugan5e/icons/game-icons/enlightenment.svg",
       "system": {
         "description": {
-          "value": "<p>Pilgrim class feature (level 7).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 101.</em></p>",
+          "value": "<p>Activated using a bonus action.</p><p><em>See <em>Adventures in Rokugan</em>, p. 101 for the full description.</em></p>",
           "chat": ""
         },
         "source": {
@@ -3444,7 +3444,7 @@
       "img": "modules/rokugan5e/icons/game-icons/spell-book.svg",
       "system": {
         "description": {
-          "value": "<p>Pilgrim class feature (level 9).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 103.</em></p>",
+          "value": "<p>Activated using an action.</p><p><em>See <em>Adventures in Rokugan</em>, p. 103 for the full description.</em></p>",
           "chat": ""
         },
         "source": {
@@ -3582,7 +3582,7 @@
       "img": "modules/rokugan5e/icons/game-icons/sword-array.svg",
       "system": {
         "description": {
-          "value": "<p>Pilgrim class feature (level 13).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 104.</em></p>",
+          "value": "<p>Activated using a special trigger.</p><p><em>See <em>Adventures in Rokugan</em>, p. 104 for the full description.</em></p>",
           "chat": ""
         },
         "source": {
@@ -4025,7 +4025,7 @@
       "img": "modules/rokugan5e/icons/game-icons/upgrade.svg",
       "system": {
         "description": {
-          "value": "<p>Acolyte class feature (level 13).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 116.</em></p>",
+          "value": "<p>Deals damage (1d10 + @abilities.wis.mod) using a special trigger. Limited to 1 use(s), recovering on a long rest.</p><p><em>See <em>Adventures in Rokugan</em>, p. 116 for the full description.</em></p>",
           "chat": ""
         },
         "source": {
@@ -4158,7 +4158,7 @@
       "img": "modules/rokugan5e/icons/game-icons/enlightenment.svg",
       "system": {
         "description": {
-          "value": "<p>Acolyte class feature (level 18).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 116.</em></p>",
+          "value": "<p>Activated using a special trigger. Limited to 1 use(s), recovering on a short rest.</p><p><em>See <em>Adventures in Rokugan</em>, p. 116 for the full description.</em></p>",
           "chat": ""
         },
         "source": {
@@ -6219,7 +6219,7 @@
       "img": "modules/rokugan5e/icons/game-icons/cultist.svg",
       "system": {
         "description": {
-          "value": "<p>Acolytes of Shadow archetype feature (level 3). Your next attack after teleporting deals additional cold damage that scales by level (see @scale.acolyte.night-damage).</p><p>Appearing as a stylized willow, serpent, or starry sky emblem somewhere on the body, the brand of shifting night allows you to melt into darkness on command. You can spend your reaction when you are attacked by a melee or ranged attack or fail a Dexterity (Stealth) check or an action during your turn to vanish into shadow. You must be in an area of</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 121.</em></p>",
+          "value": "<p>Activated using a reaction. Limited to 1 use(s), recovering on a short rest.</p><p><em>See <em>Adventures in Rokugan</em>, p. 121 for the full description.</em></p>",
           "chat": ""
         },
         "source": {

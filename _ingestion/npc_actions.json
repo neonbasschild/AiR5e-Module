@@ -1,0 +1,255 @@
+{
+  "Amalgamation Oni": {
+    "_category": "Monsters & Oni",
+    "_cr": "6",
+    "multiattack": "",
+    "weapon_attacks": [],
+    "special_abilities": []
+  },
+  "Tentacle Horror": {
+    "_category": "Monsters & Oni",
+    "_cr": "1/8",
+    "multiattack": "",
+    "weapon_attacks": [],
+    "special_abilities": []
+  },
+  "Lesser Horror": {
+    "_category": "Monsters & Oni",
+    "_cr": "1",
+    "multiattack": "",
+    "weapon_attacks": [],
+    "special_abilities": []
+  },
+  "Horrific Brute": {
+    "_category": "Monsters & Oni",
+    "_cr": "5",
+    "multiattack": "",
+    "weapon_attacks": [],
+    "special_abilities": []
+  },
+  "Lord of Dread": {
+    "_category": "Monsters & Oni",
+    "_cr": "17",
+    "multiattack": "",
+    "weapon_attacks": [],
+    "special_abilities": []
+  },
+  "Ancient Troll": {
+    "_category": "Monsters & Oni",
+    "_cr": "3",
+    "multiattack": "",
+    "weapon_attacks": [],
+    "special_abilities": []
+  },
+  "Demonwind Steed": {
+    "_category": "Mounts & Beasts",
+    "_cr": "2",
+    "multiattack": "",
+    "weapon_attacks": [],
+    "special_abilities": []
+  },
+  "Utaku Steed": {
+    "_category": "Mounts & Beasts",
+    "_cr": "1",
+    "multiattack": "",
+    "weapon_attacks": [],
+    "special_abilities": []
+  },
+  "Soldier": {
+    "_category": "NPC Templates",
+    "_cr": "1/4",
+    "multiattack": "",
+    "weapon_attacks": [
+      {
+        "name": "Warspear",
+        "kind": "melee",
+        "to_hit": 3,
+        "reach_or_range": "10 ft.",
+        "damage": "1d10 + 2",
+        "damage_type": "piercing",
+        "description": ""
+      },
+      {
+        "name": "Longbow",
+        "kind": "ranged",
+        "to_hit": 3,
+        "reach_or_range": "150/600 ft.",
+        "damage": "1d8 + 2",
+        "damage_type": "piercing",
+        "description": ""
+      }
+    ],
+    "special_abilities": [
+      {
+        "name": "Rank Fighting",
+        "recharge": "",
+        "save_dc": 0,
+        "save_ability": "",
+        "damage": "",
+        "description": "When the soldier makes a melee weapon attack and misses, it can choose a friendly creature within 10 feet; that creature deals an extra 1d6 damage with its next melee weapon attack."
+      },
+      {
+        "name": "Volley Fire",
+        "recharge": "",
+        "save_dc": 0,
+        "save_ability": "",
+        "damage": "",
+        "description": "When the soldier makes a ranged weapon attack and misses, the target gains the distracted condition (-2 AC, removed once it is hit by an attack) until the end of its next turn."
+      }
+    ]
+  },
+  "Wandering Duelist": {
+    "_category": "NPC Templates",
+    "_cr": "2",
+    "multiattack": "",
+    "weapon_attacks": [],
+    "special_abilities": []
+  },
+  "Experienced Ritualist": {
+    "_category": "NPC Templates",
+    "_cr": "3",
+    "multiattack": "",
+    "weapon_attacks": [],
+    "special_abilities": []
+  },
+  "Seasoned Courtier": {
+    "_category": "NPC Templates",
+    "_cr": "1/8",
+    "multiattack": "",
+    "weapon_attacks": [],
+    "special_abilities": []
+  },
+  "Provincial Lord": {
+    "_category": "NPC Templates",
+    "_cr": "3",
+    "multiattack": "",
+    "weapon_attacks": [],
+    "special_abilities": []
+  },
+  "Ruffian": {
+    "_category": "NPC Templates",
+    "_cr": "1/8",
+    "multiattack": "",
+    "weapon_attacks": [],
+    "special_abilities": []
+  },
+  "Crime Boss": {
+    "_category": "NPC Templates",
+    "_cr": "2",
+    "multiattack": "",
+    "weapon_attacks": [],
+    "special_abilities": []
+  },
+  "Wicked Sorcerer": {
+    "_category": "NPC Templates",
+    "_cr": "10",
+    "multiattack": "",
+    "weapon_attacks": [],
+    "special_abilities": []
+  },
+  "Sword Saint (Elite)": {
+    "_category": "Notable NPCs",
+    "_cr": "4",
+    "multiattack": "",
+    "weapon_attacks": [],
+    "special_abilities": []
+  },
+  "Kitsu Ichika": {
+    "_category": "Notable NPCs",
+    "_cr": "3",
+    "multiattack": "",
+    "weapon_attacks": [],
+    "special_abilities": []
+  },
+  "Sword Saint": {
+    "_category": "Notable NPCs",
+    "_cr": "10",
+    "multiattack": "",
+    "weapon_attacks": [],
+    "special_abilities": []
+  },
+  "Forest Protector": {
+    "_category": "Spirits & Kami",
+    "_cr": "3",
+    "multiattack": "",
+    "weapon_attacks": [],
+    "special_abilities": []
+  },
+  "Air Spirit": {
+    "_category": "Spirits & Kami",
+    "_cr": "4",
+    "multiattack": "",
+    "weapon_attacks": [],
+    "special_abilities": []
+  },
+  "Earth Spirit": {
+    "_category": "Spirits & Kami",
+    "_cr": "4",
+    "multiattack": "",
+    "weapon_attacks": [],
+    "special_abilities": []
+  },
+  "Fire Spirit": {
+    "_category": "Spirits & Kami",
+    "_cr": "4",
+    "multiattack": "",
+    "weapon_attacks": [],
+    "special_abilities": []
+  },
+  "Water Spirit": {
+    "_category": "Spirits & Kami",
+    "_cr": "4",
+    "multiattack": "",
+    "weapon_attacks": [],
+    "special_abilities": []
+  },
+  "Shikigami": {
+    "_category": "Spirits & Kami",
+    "_cr": "1/8",
+    "multiattack": "",
+    "weapon_attacks": [],
+    "special_abilities": []
+  },
+  "Undying Defender": {
+    "_category": "Undead",
+    "_cr": "1/2",
+    "multiattack": "",
+    "weapon_attacks": [],
+    "special_abilities": []
+  },
+  "Undying Purifier": {
+    "_category": "Undead",
+    "_cr": "1",
+    "multiattack": "",
+    "weapon_attacks": [],
+    "special_abilities": []
+  },
+  "Lost Samurai": {
+    "_category": "Undead",
+    "_cr": "1/2",
+    "multiattack": "",
+    "weapon_attacks": [],
+    "special_abilities": []
+  },
+  "Undying Warrior": {
+    "_category": "Undead",
+    "_cr": "1/4",
+    "multiattack": "",
+    "weapon_attacks": [],
+    "special_abilities": []
+  },
+  "Lost Champion": {
+    "_category": "Undead",
+    "_cr": "5",
+    "multiattack": "",
+    "weapon_attacks": [],
+    "special_abilities": []
+  },
+  "Spectral Trooper": {
+    "_category": "Undead",
+    "_cr": "1/2",
+    "multiattack": "",
+    "weapon_attacks": [],
+    "special_abilities": []
+  }
+}
