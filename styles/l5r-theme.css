@@ -140,6 +140,46 @@
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.55);
 }
 
+/* ----------------------------------------
+   Card / list names — contrast fix.
+   dnd5e colors document names with --dnd5e-color-gold, which we retarget to
+   the L5R gold. On a light "paper" card the gold is too pale to read, and on
+   any card whose surface didn't pick up the dark-mode variables the mismatch
+   is worse. Force names rendered on a paper surface to use ink (dark) text,
+   independent of the gold heading color, so they are always legible.
+   ---------------------------------------- */
+.rokugan-theme .card .name,
+.rokugan-theme .card .title,
+.rokugan-theme .card .document-name,
+.rokugan-theme filigree-box .name,
+.rokugan-theme filigree-box .title,
+.rokugan-theme .items-section .name,
+.rokugan-theme .item-name .name,
+.rokugan-theme .item-name .title {
+  color: var(--l5r-ink, #2b2620);
+  text-shadow: none;
+}
+
+/* In true dark mode the card surface is dark, so names take the light ink. */
+.rokugan-theme.theme-dark .card .name,
+.rokugan-theme.theme-dark .card .title,
+.rokugan-theme.theme-dark .card .document-name,
+.rokugan-theme.theme-dark filigree-box .name,
+.rokugan-theme.theme-dark filigree-box .title,
+.rokugan-theme.theme-dark .items-section .name,
+.rokugan-theme.theme-dark .item-name .name,
+.rokugan-theme.theme-dark .item-name .title,
+.theme-dark .rokugan-theme .card .name,
+.theme-dark .rokugan-theme .card .title,
+.theme-dark .rokugan-theme .card .document-name,
+.theme-dark .rokugan-theme filigree-box .name,
+.theme-dark .rokugan-theme filigree-box .title,
+.theme-dark .rokugan-theme .items-section .name,
+.theme-dark .rokugan-theme .item-name .name,
+.theme-dark .rokugan-theme .item-name .title {
+  color: var(--l5r-text, #d9d2c0);
+}
+
 /* Portrait framed like a hanging scroll: gold inner frame on lacquer */
 .rokugan-theme .sheet-header img.portrait,
 .rokugan-theme .portrait img,
@@ -316,4 +356,41 @@
 
 .rokugan-theme ::-webkit-scrollbar-track {
   background: transparent;
+}
+
+/* ----------------------------------------
+   dnd5e chat-card sender names — contrast fix.
+   These are chat messages: li.chat-message.dnd5e2 > header.message-header
+   > h4.message-sender > span.name-stacked > span.title ("Thumper").
+   The card body already renders light with dark text; only the sender name
+   was washing out (it followed a theme color). Rather than paint a separate
+   panel behind the header — which created a two-tone band against the body —
+   the header stays transparent and inherits the card's own surface, and only
+   the name/subtitle text is forced to ink so it reads in both modes.
+   The chat log is not inside .rokugan-theme, so this targets the dnd5e chat
+   message class directly.
+   ---------------------------------------- */
+
+/* Header blends with the card body (no separate background band). */
+.chat-message.dnd5e2 .message-header {
+  background: none;
+}
+
+/* Sender name + subtitle — ink, readable on the card's light surface. */
+.chat-message.dnd5e2 .message-sender .name-stacked .title,
+.chat-message.dnd5e2 .message-sender .title,
+.dnd5e2.chat-message .message-sender .title {
+  color: #2e2a26 !important;
+  text-shadow: none !important;
+}
+.chat-message.dnd5e2 .message-sender .name-stacked .subtitle,
+.chat-message.dnd5e2 .message-sender .subtitle,
+.chat-message.dnd5e2 .message-metadata {
+  color: #4a443c !important;
+}
+
+/* The roll formula / result inside dnd5e chat cards stays readable ink. */
+.chat-message.dnd5e2 .dice-roll .dice-total,
+.chat-message.dnd5e2 .dice-formula {
+  color: #2e2a26 !important;
 }

@@ -108,12 +108,15 @@ Hooks.once("init", () => {
     config: true,
     type: Boolean,
     default: true,
-    onChange: () => {
+    onChange: (value) => {
       // Re-render open sheets so the theme class is applied/removed live
       for (const app of foundry.applications.instances.values()) {
         const doc = app.document ?? app.actor ?? app.item;
         if (doc?.documentName === "Actor" || doc?.documentName === "Item") app.render();
       }
+      // Toggle the body-level class that scopes chat-card theming (chat
+      // messages live outside any sheet, so they need a global hook).
+      document.body?.classList.toggle("rokugan-chat-theme", !!value);
     }
   });
 
