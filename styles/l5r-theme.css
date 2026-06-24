@@ -1,3 +1,9 @@
+/* NOTE: The "brushtipTexe" font is registered via CONFIG.fontDefinitions in
+   scripts/rokugan5e.mjs (absolute module path) and force-loaded at the ready
+   hook. A hand-written @font-face here previously duplicated that family with
+   a relative URL that could fail to load in desktop/Electron Foundry, leaving
+   a broken face that poisoned the family — so it has been removed. */
+
 /* ============================================================
    Adventures in Rokugan 5E - "Rokugan" Sheet Theme
    Feudal-Japanese fantasy reskin of the dnd5e 5.x sheets.
@@ -14,6 +20,19 @@
    Light mode: washi paper, sumi ink, vermillion lacquer, gold.
    Dark mode: night lacquer, gilded gold, ember vermillion.
    ============================================================ */
+
+/* ----------------------------------------
+   Display / brush headline font — defined at :root so it is available both to
+   .rokugan-theme sheets and to .rokugan-journal-theme journal windows (which
+   deliberately do NOT inherit the full sheet palette, only the header font).
+   "brushtipTexe" is the registered AiR brush face; the rest are graceful
+   fallbacks (installed JP mincho serifs, then dnd5e's Modesto, then serif).
+   ---------------------------------------- */
+:root {
+  --l5r-font-display: "brushtipTexe", "Shippori Mincho", "Yu Mincho", "YuMincho",
+    "Hiragino Mincho ProN", "Noto Serif JP", "Source Han Serif",
+    "Modesto Condensed", serif;
+}
 
 /* ----------------------------------------
    Palette + dnd5e variable overrides — LIGHT
@@ -40,12 +59,23 @@
   --dnd5e-color-groove: var(--l5r-paper-deep);
   --dnd5e-color-blue: var(--l5r-indigo);
 
-  /* Headline font: Japanese mincho serifs where installed,
-     falling back through the dnd5e display font. */
-  --l5r-font-display: "Shippori Mincho", "Yu Mincho", "YuMincho",
-    "Hiragino Mincho ProN", "Noto Serif JP", "Source Han Serif",
-    var(--dnd5e-font-modesto, "Modesto Condensed"), serif;
+  /* Headline font is defined at :root (see top of file) so it is also
+     available to themed journal windows, which receive only the lightweight
+     .rokugan-journal-theme class rather than this full palette. */
+
+  /* Route only dnd5e's title/header-specific font variables through the
+     display font. IMPORTANT: do NOT retarget --dnd5e-font-roboto-condensed or
+     --dnd5e-font-roboto-slab here. Despite the name, roboto-condensed is
+     dnd5e's general condensed-UI font — it styles skill names, trait pills,
+     and ability labels in addition to section headers — so retargeting the
+     whole family brushes nearly the entire sheet. Section/block headers are
+     instead brushed surgically by element/class selectors further down
+     (.filigree-box > .title, filigree-box h3, .block-header, .card > .header,
+     etc.), which hits the headers without touching body labels. modesto
+     (sheet name / big display titles) and block-header-font are genuinely
+     header-scoped, so they stay retargeted. */
   --dnd5e-font-modesto: var(--l5r-font-display);
+  --dnd5e-block-header-font: var(--l5r-font-display);
 
   /* Decorative patterns (original SVG, traditional motifs) */
   --l5r-seigaiha: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='20'%3E%3Cg fill='none' stroke='%23a4282d' stroke-opacity='0.10'%3E%3Ccircle cx='0' cy='20' r='18'/%3E%3Ccircle cx='0' cy='20' r='12'/%3E%3Ccircle cx='0' cy='20' r='6'/%3E%3Ccircle cx='40' cy='20' r='18'/%3E%3Ccircle cx='40' cy='20' r='12'/%3E%3Ccircle cx='40' cy='20' r='6'/%3E%3Ccircle cx='20' cy='30' r='18'/%3E%3Ccircle cx='20' cy='30' r='12'/%3E%3Ccircle cx='20' cy='30' r='6'/%3E%3C/g%3E%3C/svg%3E");
@@ -135,9 +165,36 @@
 .rokugan-theme .sheet-header input[name="name"],
 .rokugan-theme .sheet-header .name,
 .rokugan-theme .sheet-header .title {
-  font-family: var(--l5r-font-display);
+  font-family: var(--l5r-font-display) !important;
   letter-spacing: 1.5px;
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.55);
+}
+
+/* Force the display font directly on every dnd5e header element, with
+   !important, so it wins over dnd5e's own element-level font-family rules
+   (which resolve --dnd5e-font-* from :root and can otherwise shadow the
+   theme's variable retargeting). Scoped to .rokugan-theme so only themed
+   sheets are affected; body text is left alone. */
+.rokugan-theme .document-name,
+.rokugan-theme input.document-name,
+.rokugan-theme .window-header h1,
+.rokugan-theme .sheet-header h1,
+.rokugan-theme .sheet-header h2,
+.rokugan-theme h1.title,
+.rokugan-theme h2.title,
+.rokugan-theme .items-header .item-name,
+.rokugan-theme .filigree-box > .title {
+  font-family: var(--l5r-font-display) !important;
+}
+
+/* dnd5e block / section headers (SKILLS, SAVING THROWS, journal headings). */
+.rokugan-theme .block-header,
+.rokugan-theme .items-section > .items-header,
+.rokugan-theme .pseudo-header,
+.rokugan-theme h3.icon,
+.rokugan-theme .card > .header,
+.rokugan-theme .inventory-header {
+  font-family: var(--l5r-font-display) !important;
 }
 
 /* ----------------------------------------
@@ -226,6 +283,17 @@
 .rokugan-theme .items-section .items-header {
   font-family: var(--l5r-font-display);
   letter-spacing: 1px;
+}
+
+/* dnd5e wraps filigree section titles as:
+     <filigree-box><h3><i class="fa…"></i><span class="roboto-upper">TITLE</span></h3>
+   The .roboto-upper span sets its own font-family (base roboto), which
+   overrides the brush font inherited from the <h3> above — so the title text
+   reverts unless we target the span itself. The sibling <i> Font Awesome icon
+   is deliberately NOT matched, so its glyph is preserved. */
+.rokugan-theme filigree-box > h3 > span,
+.rokugan-theme filigree-box > h3 > .roboto-upper {
+  font-family: var(--l5r-font-display) !important;
 }
 
 .rokugan-theme .card,
@@ -424,4 +492,51 @@
 .dnd5e-tooltip.dnd5e2 .subtitle,
 .dnd5e2.dnd5e-tooltip .subtitle {
   color: #4a443c !important;
+}
+
+/* ----------------------------------------
+   Journal page-list sidebar — contrast fix.
+   The journal's left page list lives in .dnd5e2-journal .journal-sidebar and
+   renders page links as a.journal-entry-page-link. Over the light parchment
+   sidebar those titles wash out in the light theme (they follow a theme color
+   that does not contrast with the parchment). Force the page titles to ink so
+   they read, with the active/hover page using the gold accent. The journal is
+   not inside .rokugan-theme, so this targets the dnd5e journal classes.
+   ---------------------------------------- */
+.dnd5e2-journal .journal-sidebar .journal-entry-page-link,
+.dnd5e2-journal .journal-sidebar .directory-item .journal-entry-page-link,
+.dnd5e2-journal .journal-sidebar li a,
+.dnd5e2-journal .journal-sidebar .page-heading {
+  color: #2e2a26 !important;
+  text-shadow: none !important;
+  opacity: 1;
+}
+
+/* Active / hovered page entry — gold accent for clear state. */
+.dnd5e2-journal .journal-sidebar li a:hover,
+.dnd5e2-journal .journal-sidebar .directory-item.active .journal-entry-page-link,
+.dnd5e2-journal .journal-sidebar li.active a {
+  color: #6a4e16 !important;
+}
+
+/* Page index numbers stay a softer ink. */
+.dnd5e2-journal .journal-sidebar .page-number,
+.dnd5e2-journal .journal-sidebar .number {
+  color: #4a443c !important;
+}
+
+/* ----------------------------------------
+   Journals — brush headline font on headers only.
+   Journal windows receive the lightweight .rokugan-journal-theme class (applied
+   by a render hook in hooks.mjs), NOT the full .rokugan-theme palette, so this
+   restyles headers without recoloring journal content. Covers the page title
+   (.journal-header .title, normally --dnd5e-font-modesto) and the in-page
+   content headings, in both the entry "book" view (.journal-entry-content) and
+   the single-page view (.journal-entry-page .window-content).
+   ---------------------------------------- */
+.rokugan-journal-theme .journal-header .title,
+.rokugan-journal-theme .journal-entry-content :is(h1, h2, h3),
+.rokugan-journal-theme .journal-entry-page .window-content :is(h1, h2, h3) {
+  font-family: var(--l5r-font-display) !important;
+  letter-spacing: 1px;
 }

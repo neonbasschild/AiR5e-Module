@@ -213,7 +213,7 @@
     },
     "Condition": {
       "Disoriented": "Disoriented",
-      "DisorientedDesc": "Cannot make opportunity attacks until the end of the afflicting creature's next turn.",
+      "DisorientedDesc": "Can't make opportunity attacks.",
       "MarkedForDeath": "Marked for Death",
       "MarkedForDeathDesc": "The next successful melee attack by the marking creature deals an additional 1d8 force damage.",
       "Bleeding": "Bleeding",
@@ -221,9 +221,11 @@
       "Distracted": "Distracted",
       "Maimed": "Maimed",
       "Provoked": "Provoked",
-      "DistractedDesc": "-2 AC.",
-      "MaimedDesc": "-10 ft. speed and disadvantage on Dexterity saving throws.",
-      "ProvokedDesc": "Disadvantage on attacks against creatures other than the provoker."
+      "Weakened": "Weakened",
+      "DistractedDesc": "-2 AC; ends after an attack hits the creature.",
+      "MaimedDesc": "-10 ft. speed and disadvantage on Dexterity saving throws; ends once it regains hit points.",
+      "ProvokedDesc": "Disadvantage on attacks against creatures other than the provoker.",
+      "WeakenedDesc": "Loses its damage resistances, and its damage immunities become resistances."
     },
     "Language": {
       "Rokugani": "Rokugani",

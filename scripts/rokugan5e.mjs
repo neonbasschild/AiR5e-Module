@@ -133,12 +133,25 @@ Hooks.once("init", () => {
   // Register the Settings-sidebar copyright hook now (at init) so it is
   // listening before the sidebar first renders during startup.
   RokuganHooks.registerCopyrightNotice();
+
+  // Register the brush display font via CONFIG.fontDefinitions. This is the
+  // documented mechanism Foundry uses to actually load the FontFace and make
+  // it available to document.fonts and the font picker. Registering here (at
+  // init, before setup) ensures it loads during world initialization. The
+  // family name must exactly match the @font-face/--l5r-font-display name.
+  CONFIG.fontDefinitions["brushtipTexe"] = {
+    editor: true,
+    fonts: [
+      { urls: ["modules/rokugan5e/fonts/BrushtipTexe.ttf"], weight: 400, style: "normal" }
+    ]
+  };
 });
 
 Hooks.once("i18nInit", () => {
-  // Languages are registered here (not at init) so their labels can be
-  // localized; registering at init left them showing as raw keys.
+  // Languages and conditions are registered here (not at init) so their labels
+  // can be localized; registering at init left them showing as raw keys.
   RokuganConfig.registerLanguages();
+  RokuganConfig.registerConditions();
 });
 
 Hooks.once("setup", () => {
@@ -150,6 +163,18 @@ Hooks.once("setup", () => {
 
 Hooks.once("ready", () => {
   console.log("Rokugan5E | Ready");
+
+  // Force the brush display font to download now. CONFIG.fontDefinitions
+  // registers the FontFace, but the browser may not actually fetch the file
+  // until something visibly uses it — and a lazy/unloaded face makes the font
+  // resolve to a fallback and document.fonts.check() return false. Explicitly
+  // loading it guarantees it is available before sheets render.
+  if (document.fonts?.load) {
+    document.fonts.load('400 16px "brushtipTexe"').then(() => {
+      console.log("Rokugan5E | brushtipTexe loaded:",
+        document.fonts.check('16px "brushtipTexe"'));
+    }).catch(err => console.warn("Rokugan5E | brushtipTexe failed to load:", err));
+  }
 
   // Sheet rendering hooks (AppV1 + AppV2, normalized in hooks.mjs)
   RokuganHooks.onReady();

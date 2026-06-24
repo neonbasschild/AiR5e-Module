@@ -10,6 +10,7 @@
  */
 
 import { toJQuery, getSheetDocument } from "./compat.mjs";
+import { RokuganConfig } from "./config.mjs";
 import { RokuganResourcePanel } from "./resource-panel.mjs";
 import { RokuganItems } from "./items.mjs";
 
@@ -33,6 +34,10 @@ export class RokuganHooks {
 
     const dispatchActor = (app, html) => {
       applyTheme(app);
+      // Inject plain-text tooltips onto the custom AiR conditions so hovering
+      // shows the rule text instead of a perpetual loading spinner.
+      const root = app.element instanceof HTMLElement ? app.element : app.element?.[0];
+      RokuganConfig.patchConditionTooltips(root);
       const $html = toJQuery(html);
       const doc = getSheetDocument(app);
       if (!doc || doc.documentName !== "Actor") return;
@@ -67,6 +72,24 @@ export class RokuganHooks {
     Hooks.on("renderCharacterActorSheet", (app, element) => dispatchActor(app, element));
     Hooks.on("renderNPCActorSheet", (app, element) => dispatchActor(app, element));
     Hooks.on("renderItemSheet5e", (app, element) => dispatchItem(app, element));
+
+    // ----------------------------------------
+    // Journal windows. dnd5e 5.x journal sheets are ApplicationV2, so each fires
+    // render<ClassName> (confirmed from dnd5e.mjs sheet registration):
+    //   - applications.journal.JournalEntrySheet5e → renderJournalEntrySheet5e
+    //   - applications.journal.JournalSheet5e      → renderJournalSheet5e (legacy)
+    // We attach only a lightweight class (.rokugan-journal-theme) that restyles
+    // headers to the brush font WITHOUT importing the full sheet palette, so
+    // journal body content keeps its normal dnd5e appearance. Gated by the same
+    // l5rSheetTheme setting as the sheet theme for consistent opt-in behavior.
+    // ----------------------------------------
+    const applyJournalTheme = (app) => {
+      const root = app.element instanceof HTMLElement ? app.element : app.element?.[0];
+      root?.classList.toggle("rokugan-journal-theme",
+        !!game.settings.get("rokugan5e", "l5rSheetTheme"));
+    };
+    Hooks.on("renderJournalEntrySheet5e", (app) => applyJournalTheme(app));
+    Hooks.on("renderJournalSheet5e", (app) => applyJournalTheme(app));
 
     // The Settings sidebar tab renders during startup, before onReady runs, so
     // its hook is registered early in registerCopyrightNotice() (called at init).

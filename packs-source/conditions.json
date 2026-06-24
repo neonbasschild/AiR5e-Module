@@ -1,0 +1,94 @@
+{
+  "folders": [],
+  "entries": [
+    {
+      "_id": "RokuganConditns1",
+      "_key": "!journal!RokuganConditns1",
+      "name": "Adventures in Rokugan: Conditions",
+      "folder": null,
+      "sort": 0,
+      "ownership": { "default": 0 },
+      "flags": { "rokugan5e": { "conditions": true } },
+      "pages": [
+        {
+          "_id": "RokCondDisorien1",
+          "name": "Disoriented",
+          "type": "text",
+          "title": { "show": true, "level": 1 },
+          "sort": 100000,
+          "ownership": { "default": -1 },
+          "flags": {},
+          "text": {
+            "format": 1,
+            "content": "<p>A disoriented creature can't make opportunity attacks. The duration depends on the ability that imposed the condition.</p><p><em>Adventures in Rokugan, p. 251.</em></p>"
+          }
+        },
+        {
+          "_id": "RokCondDistract1",
+          "name": "Distracted",
+          "type": "text",
+          "title": { "show": true, "level": 1 },
+          "sort": 200000,
+          "ownership": { "default": -1 },
+          "flags": {},
+          "text": {
+            "format": 1,
+            "content": "<p>A distracted creature takes a -2 penalty to its Armor Class. The condition ends after an attack hits the creature, or when its listed duration ends.</p><p><em>Adventures in Rokugan, p. 251.</em></p>"
+          }
+        },
+        {
+          "_id": "RokCondMaimed001",
+          "name": "Maimed",
+          "type": "text",
+          "title": { "show": true, "level": 1 },
+          "sort": 300000,
+          "ownership": { "default": -1 },
+          "flags": {},
+          "text": {
+            "format": 1,
+            "content": "<p>A maimed creature's speed is reduced by 10 feet and it has disadvantage on Dexterity saving throws. The condition ends once the creature regains any hit points, or when its listed duration ends.</p><p><em>Adventures in Rokugan, p. 251.</em></p>"
+          }
+        },
+        {
+          "_id": "RokCondProvoked1",
+          "name": "Provoked",
+          "type": "text",
+          "title": { "show": true, "level": 1 },
+          "sort": 400000,
+          "ownership": { "default": -1 },
+          "flags": {},
+          "text": {
+            "format": 1,
+            "content": "<p>A provoked creature has disadvantage on attack rolls against any creature other than the one that provoked it. The duration depends on the ability that imposed the condition.</p><p><em>Adventures in Rokugan, p. 251.</em></p>"
+          }
+        },
+        {
+          "_id": "RokCondMarkedDt1",
+          "name": "Marked for Death",
+          "type": "text",
+          "title": { "show": true, "level": 1 },
+          "sort": 500000,
+          "ownership": { "default": -1 },
+          "flags": {},
+          "text": {
+            "format": 1,
+            "content": "<p>The next time the creature that marked it lands a melee attack on the marked creature, that attack deals an extra 1d8 force damage. The condition ends once the bonus damage is dealt, or when its listed duration ends.</p><p><em>Adventures in Rokugan, p. 251.</em></p>"
+          }
+        },
+        {
+          "_id": "RokCondWeakened1",
+          "name": "Weakened",
+          "type": "text",
+          "title": { "show": true, "level": 1 },
+          "sort": 600000,
+          "ownership": { "default": -1 },
+          "flags": {},
+          "text": {
+            "format": 1,
+            "content": "<p>A weakened creature loses its damage resistances, and its damage immunities become resistances instead. The duration depends on the ability that imposed the condition.</p><p><em>Adventures in Rokugan, p. 251.</em></p>"
+          }
+        }
+      ]
+    }
+  ]
+}

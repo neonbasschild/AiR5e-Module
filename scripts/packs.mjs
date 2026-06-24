@@ -17,10 +17,11 @@
 export class RokuganPacks {
 
   /** Bump to force a reseed on the next world load. */
-  static DATA_VERSION = "1.22.3";
+  static DATA_VERSION = "1.29.0";
 
   static PACKS = ["classes", "classfeatures", "species", "backgrounds", "feats",
-                  "equipment", "techniques", "invocations", "externalizations", "charms", "awakened", "npcs", "modifiers"];
+                  "equipment", "techniques", "invocations", "externalizations", "charms", "awakened", "npcs", "modifiers",
+                  "conditions"];
 
   /**
    * Seed all packs if the stored data version is stale.
@@ -59,9 +60,12 @@ export class RokuganPacks {
 
         await pack.configure({ locked: false });
 
-        // Use the document class matching the pack type (Actor packs need
-        // Actor.createDocuments; everything else is an Item pack).
-        const DocClass = pack.documentName === "Actor" ? Actor : Item;
+        // Use the document class matching the pack type. Actor packs need
+        // Actor.createDocuments, JournalEntry packs (e.g. conditions) need
+        // JournalEntry.createDocuments; everything else is an Item pack.
+        const DocClass = pack.documentName === "Actor" ? Actor
+          : pack.documentName === "JournalEntry" ? JournalEntry
+          : Item;
 
         // Clear existing documents AND folders for a clean reseed
         const existing = pack.index.map(e => e._id);

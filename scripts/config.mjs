@@ -278,35 +278,57 @@ export class RokuganConfig {
   // The four new conditions Adventures in Rokugan adds, with the automatable
   // mechanical effect each applies (wired as an Active Effect change on the
   // status effect so toggling the condition on a token applies it).
+  // AiR "New Conditions" (Adventures in Rokugan, p. 251). `icon`/`label` are the
+  // module's internal field names; registerConditions() maps them to dnd5e's
+  // expected `img`/`name`. Hover tooltips are injected directly into the sheet's
+  // conditions panel by patchConditionTooltips() (see below) using the localized
+  // *Desc strings, rather than via a journal `reference` — a direct tooltip can't
+  // fail to resolve or hang on a loading spinner. Bleeding is intentionally
+  // omitted: dnd5e already ships a `bleeding` status with the same 1d4 mechanic.
   static CONDITIONS = {
     disoriented: {
       label: "ROKUGAN.Condition.Disoriented",
-      icon: "icons/svg/daze.svg",
+      icon: "modules/rokugan5e/icons/game-icons/star-swirl.svg",
       // Can't make opportunity attacks (no clean numeric key; descriptive).
       changes: [],
       hint: "Can't make opportunity attacks.",
     },
     distracted: {
       label: "ROKUGAN.Condition.Distracted",
-      icon: "icons/svg/stoned.svg",
+      icon: "modules/rokugan5e/icons/game-icons/divert.svg",
       changes: [{ key: "system.attributes.ac.bonus", mode: 2, value: "-2", priority: 20 }],
-      hint: "-2 AC.",
+      hint: "-2 AC; ends after an attack hits the creature.",
     },
     maimed: {
       label: "ROKUGAN.Condition.Maimed",
-      icon: "icons/svg/blood.svg",
+      icon: "modules/rokugan5e/icons/game-icons/broken-bone.svg",
       changes: [
         { key: "system.attributes.movement.walk", mode: 2, value: "-10", priority: 20 },
         { key: "system.abilities.dex.bonuses.save", mode: 2, value: "-5", priority: 20 },
       ],
-      hint: "-10 ft. speed and disadvantage on Dexterity saving throws (modeled as -5).",
+      hint: "-10 ft. speed and disadvantage on Dexterity saving throws (modeled as -5); ends once HP is recovered.",
     },
     provoked: {
       label: "ROKUGAN.Condition.Provoked",
-      icon: "icons/svg/terror.svg",
+      icon: "modules/rokugan5e/icons/game-icons/enrage.svg",
       // Disadvantage on attacks vs creatures other than the provoker (conditional).
       changes: [],
       hint: "Disadvantage on attacks against creatures other than the provoker.",
+    },
+    markedForDeath: {
+      label: "ROKUGAN.Condition.MarkedForDeath",
+      icon: "modules/rokugan5e/icons/game-icons/death-note.svg",
+      // Conditional bonus damage on the marker's next melee hit; not modelable
+      // as a passive Active Effect change.
+      changes: [],
+      hint: "Takes an extra 1d8 force damage the next time the marking creature hits it with a melee attack.",
+    },
+    weakened: {
+      label: "ROKUGAN.Condition.Weakened",
+      icon: "modules/rokugan5e/icons/game-icons/cracked-shield.svg",
+      // Resistance/immunity downgrade can't be expressed via a numeric AE change.
+      changes: [],
+      hint: "Loses damage resistances; damage immunities become resistances.",
     },
   };
 
@@ -316,9 +338,16 @@ export class RokuganConfig {
     const cfg = CONFIG.DND5E;
     if (cfg?.conditionTypes) {
       for (const [key, data] of Object.entries(RokuganConfig.CONDITIONS)) {
+        // dnd5e 5.x reads `name` (the localized label) and `img` (the icon).
+        // The sheet conditions panel (base-actor-sheet.mjs) renders blank slots
+        // if these exact field names are absent, which was the original bug:
+        // the entries used `label`/`icon`. We intentionally do NOT set
+        // `reference` — the panel uses it to async-load a journal tooltip, and
+        // an unresolved reference leaves a permanent loading spinner. Tooltips
+        // are injected directly instead (patchConditionTooltips).
         cfg.conditionTypes[key] = {
-          label: game.i18n.localize(data.label),
-          icon: data.icon,
+          name: game.i18n.localize(data.label),
+          img: data.icon,
           ...(data.changes?.length ? { changes: data.changes } : {}),
         };
       }
@@ -335,6 +364,35 @@ export class RokuganConfig {
         });
       }
     }
+  }
+
+  /**
+   * Inject plain-text hover tooltips onto the custom AiR conditions in an
+   * actor sheet's conditions panel. dnd5e's template always seeds each
+   * condition <li> with a "loading spinner" data-tooltip that it expects a
+   * journal `reference` to replace; our conditions have no reference, so we
+   * overwrite that placeholder with the localized rule text directly and strip
+   * the content-link/data-uuid so no async loader engages. Runs on every sheet
+   * render, so it re-applies after re-renders (e.g. toggling a condition).
+   * @param {HTMLElement} root  The rendered sheet's root element.
+   */
+  static patchConditionTooltips(root) {
+    if (!root?.querySelectorAll) return;
+    const apply = () => {
+      for (const [key, data] of Object.entries(RokuganConfig.CONDITIONS)) {
+        const li = root.querySelector(`.condition[data-condition-id="${key}"]`);
+        if (!li) continue;
+        const name = game.i18n.localize(data.label);
+        const desc = game.i18n.localize(`${data.label}Desc`);
+        li.classList.remove("content-link");
+        li.removeAttribute("data-uuid");
+        li.dataset.tooltip = `<strong>${name}</strong><br>${desc}`;
+        li.dataset.tooltipDirection ??= "RIGHT";
+      }
+    };
+    apply();
+    // Re-apply next frame in case the conditions panel populates asynchronously.
+    requestAnimationFrame(apply);
   }
 
   // ----------------------------------------
@@ -506,8 +564,9 @@ export class RokuganConfig {
     // called at both init and setup so they survive the dnd5e system's own setup.
     RokuganConfig.registerProficiencies();
 
-    // Register the four Adventures in Rokugan conditions as status effects.
-    RokuganConfig.registerConditions();
+    // NOTE: conditions are registered in the i18nInit hook (rokugan5e.mjs), not
+    // here, because apply() runs at init before translations load — localizing
+    // condition names here returned raw keys.
 
     console.log("Rokugan5E | CONFIG.DND5E patched successfully");
   }
