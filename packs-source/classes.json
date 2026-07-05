@@ -5414,6 +5414,78 @@
             "value": {},
             "level": 10,
             "title": "Samurai Armsmaster Features"
+          },
+          {
+            "_id": "r39cb3ed7f9344ff",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r160480e50e8ee76",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 3,
+            "title": "The Six Great Weapons of Akodo"
+          },
+          {
+            "_id": "r99636a8b28b0469",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r56cf37a3471b5fe",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 13,
+            "title": "Commander's Call"
+          },
+          {
+            "_id": "r6ff716e29c10091",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r20ea39b08b8370d",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 18,
+            "title": "Akodo's Final Lesson"
           }
         ],
         "spellcasting": {
@@ -5546,6 +5618,54 @@
             "value": {},
             "level": 18,
             "title": "Blademaster Features"
+          },
+          {
+            "_id": "r3ee130263df1377",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r844e0e50d87e640",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 3,
+            "title": "Mind's Edge"
+          },
+          {
+            "_id": "r7f4d154cc04fbf3",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r5d2e7bd5c011e11",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 5,
+            "title": "Battle-Tempered Insight"
           }
         ],
         "spellcasting": {
@@ -6002,6 +6122,30 @@
             "value": {},
             "level": 17,
             "title": "Diplomat Features"
+          },
+          {
+            "_id": "rade7efdb5ada75c",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r5e4d31c4c51ce4b",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 14,
+            "title": "Sagacity"
           }
         ],
         "spellcasting": {
@@ -6134,6 +6278,30 @@
             "value": {},
             "level": 17,
             "title": "Investigator Features"
+          },
+          {
+            "_id": "rd6b07fa14ba836a",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rc5433088b2b48f8",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 6,
+            "title": "Keen Eyes, Clear Mind"
           }
         ],
         "spellcasting": {
@@ -6218,6 +6386,30 @@
             "value": {},
             "level": 9,
             "title": "Saboteur Features"
+          },
+          {
+            "_id": "r475e091f50374a4",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rfbadf5b6d222944",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 18,
+            "title": "Finality"
           }
         ],
         "spellcasting": {
@@ -6434,6 +6626,30 @@
             "value": {},
             "level": 9,
             "title": "Artisan Features"
+          },
+          {
+            "_id": "r129928b0226c915",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rbb0fbd553dab473",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 2,
+            "title": "Arcane Appraisal"
           }
         ],
         "spellcasting": {
@@ -6938,6 +7154,78 @@
             "value": {},
             "level": 10,
             "title": "Path of Redemption Externalizations"
+          },
+          {
+            "_id": "r5e6ca858756f53c",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rc4e03bb74ef2325",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 2,
+            "title": "Yin Alignment"
+          },
+          {
+            "_id": "r93d52c466646d30",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.reba43a6a56f6e56",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 2,
+            "title": "Advocate's Arsenal"
+          },
+          {
+            "_id": "r07c4272e080749d",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rff60a1e097ca257",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 17,
+            "title": "Expanded Soul"
           }
         ],
         "spellcasting": {
@@ -7302,6 +7590,54 @@
             "value": {},
             "level": 11,
             "title": "Path of Harmony Externalizations"
+          },
+          {
+            "_id": "r9e830981c81a789",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rbf7adeece183d08",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 11,
+            "title": "Balance Specialization"
+          },
+          {
+            "_id": "rbc558cc4c77fce2",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r95a3fe904df6817",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 17,
+            "title": "Mirrored Soul"
           }
         ],
         "spellcasting": {
@@ -7574,6 +7910,78 @@
             "value": {},
             "level": 10,
             "title": "Path of Justice Externalizations"
+          },
+          {
+            "_id": "r4fba87c69a253fe",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rcdceb7b981eedd6",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 2,
+            "title": "Yang Alignment"
+          },
+          {
+            "_id": "r231329a484c6de6",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r063c43ee32d6ab0",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 2,
+            "title": "Philosopher's Arsenal"
+          },
+          {
+            "_id": "rf503e4b2bdb29d8",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rf3a58c2c6ceab85",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 17,
+            "title": "Reinforced Soul"
           }
         ],
         "spellcasting": {
@@ -7627,9 +8035,6 @@
                 },
                 {
                   "uuid": "Compendium.rokugan5e.classfeatures.Item.rbcdb2f5270bc77b"
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r430428e1a065a0e"
                 }
               ],
               "restriction": {
@@ -7756,6 +8161,78 @@
             "value": {},
             "level": 1,
             "title": "Body and Mind"
+          },
+          {
+            "_id": "r50211670eae679f",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.reee65f53e9421ce",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 2,
+            "title": "Mark of the Disciple"
+          },
+          {
+            "_id": "r9c200661fccd268",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r02e8d28a79023c3",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 3,
+            "title": "Deepening Discipleship"
+          },
+          {
+            "_id": "r6e64dc3cd608906",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.ra29a0d347301ef5",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 11,
+            "title": "Inherited Power"
           }
         ],
         "spellcasting": {
@@ -8064,6 +8541,30 @@
             "value": {},
             "level": 20,
             "title": ""
+          },
+          {
+            "_id": "r5d47f6318dbbc40",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rb9437b223e9ee35",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 1,
+            "title": "Penumbra"
           }
         ],
         "spellcasting": {

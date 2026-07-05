@@ -4012,8 +4012,8 @@
         "requirements": "Acolyte of Togashi",
         "properties": [],
         "activities": {
-          "re827b359ecd8e22": {
-            "_id": "re827b359ecd8e22",
+          "7281b6d2141a7102": {
+            "_id": "7281b6d2141a7102",
             "type": "save",
             "name": "",
             "activation": {
@@ -4022,23 +4022,18 @@
               "condition": ""
             },
             "consumption": {
-              "targets": [
-                {
-                  "type": "itemUses",
-                  "value": "1",
-                  "target": "",
-                  "scaling": {
-                    "mode": "",
-                    "formula": ""
-                  }
-                }
-              ],
+              "targets": [],
               "scaling": {
                 "allowed": false,
                 "max": ""
               },
               "spellSlot": false
             },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {},
             "damage": {
               "onSave": "half",
               "parts": [
@@ -4046,7 +4041,9 @@
                   "number": null,
                   "denomination": null,
                   "bonus": "",
-                  "types": [],
+                  "types": [
+                    "fire"
+                  ],
                   "custom": {
                     "enabled": true,
                     "formula": "(@prof)d6"
@@ -4060,18 +4057,13 @@
             },
             "save": {
               "ability": [
-                "dex"
+                "str"
               ],
               "dc": {
-                "calculation": "spellcasting",
+                "calculation": "str",
                 "formula": ""
               }
-            },
-            "description": {},
-            "effects": [],
-            "range": {},
-            "target": {},
-            "uses": {}
+            }
           }
         },
         "uses": {
@@ -4179,7 +4171,7 @@
       "img": "modules/rokugan5e/icons/game-icons/spider-alt.svg",
       "system": {
         "description": {
-          "value": "<p>Major tattoo (Acolyte of Togashi). Cannot be used while wearing medium or heavy armor, or using a shield. Tattoo power save DC = 8 + proficiency + Strength; attack modifier = proficiency + Strength.</p><p>When you move, you can activate your centipede tattoo to gain the following effects until the start of your next turn: $ Your walking speed is increased by 30 feet. $ You have advantage on Dexterity saving throws. $ The first time you move adjacent to a creature that hasn't been affected by this feature this turn, you can force it to make a Dexterity saving throw. A creature takes piercing damage </p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 119.</em></p>",
+          "value": "<p>Minor tattoo (Acolyte of Togashi). Tattoo power save DC = 8 + proficiency + Strength; attack modifier = proficiency + Strength.</p><p>When you move, you can activate your centipede tattoo to gain the following effects until the start of your next turn: $ Your walking speed is increased by 30 feet. $ You have advantage on Dexterity saving throws. $ The first time you move adjacent to a creature that hasn't been affected by this feature this turn, you can force it to make a Dexterity saving throw. A creature takes piercing damage </p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 119.</em></p>",
           "chat": ""
         },
         "source": {
@@ -4194,35 +4186,29 @@
         "requirements": "Acolyte of Togashi",
         "properties": [],
         "activities": {
-          "r19206886cb35575": {
-            "_id": "r19206886cb35575",
+          "7221bc1d1f25d3c1": {
+            "_id": "7221bc1d1f25d3c1",
             "type": "utility",
             "name": "",
             "activation": {
-              "type": "special",
-              "value": null,
+              "type": "bonus",
+              "value": 1,
               "condition": ""
             },
             "consumption": {
-              "targets": [
-                {
-                  "type": "itemUses",
-                  "value": "1",
-                  "target": "",
-                  "scaling": {
-                    "mode": "",
-                    "formula": ""
-                  }
-                }
-              ],
+              "targets": [],
               "scaling": {
                 "allowed": false,
                 "max": ""
               },
               "spellSlot": false
             },
+            "effects": [
+              {
+                "_id": "56e6a0257a959aac"
+              }
+            ],
             "description": {},
-            "effects": [],
             "range": {},
             "target": {},
             "uses": {}
@@ -4240,7 +4226,32 @@
         },
         "advancement": []
       },
-      "effects": [],
+      "effects": [
+        {
+          "_id": "56e6a0257a959aac",
+          "name": "Centipede Tattoo",
+          "img": "modules/rokugan5e/icons/game-icons/spider-alt.svg",
+          "changes": [
+            {
+              "key": "system.attributes.movement.walk",
+              "mode": 2,
+              "value": "30",
+              "priority": 20
+            }
+          ],
+          "disabled": false,
+          "transfer": false,
+          "description": "",
+          "origin": null,
+          "duration": {
+            "rounds": 1,
+            "turns": null,
+            "seconds": null
+          },
+          "statuses": [],
+          "flags": {}
+        }
+      ],
       "folder": "r286f717e35cedf3",
       "sort": 0,
       "flags": {},
@@ -4515,9 +4526,9 @@
         "requirements": "Acolyte of Togashi",
         "properties": [],
         "activities": {
-          "rfdf86285ac56cd5": {
-            "_id": "rfdf86285ac56cd5",
-            "type": "damage",
+          "09c97d8bc9f44fce": {
+            "_id": "09c97d8bc9f44fce",
+            "type": "heal",
             "name": "",
             "activation": {
               "type": "bonus",
@@ -4525,46 +4536,34 @@
               "condition": ""
             },
             "consumption": {
-              "targets": [
-                {
-                  "type": "itemUses",
-                  "value": "1",
-                  "target": "",
-                  "scaling": {
-                    "mode": "",
-                    "formula": ""
-                  }
-                }
-              ],
+              "targets": [],
               "scaling": {
                 "allowed": false,
                 "max": ""
               },
               "spellSlot": false
             },
-            "damage": {
-              "parts": [
-                {
-                  "number": null,
-                  "denomination": null,
-                  "bonus": "",
-                  "types": [],
-                  "custom": {
-                    "enabled": true,
-                    "formula": "3d6 + @abilities.wis.mod"
-                  },
-                  "scaling": {
-                    "mode": "",
-                    "number": null
-                  }
-                }
-              ]
-            },
             "description": {},
             "effects": [],
             "range": {},
             "target": {},
-            "uses": {}
+            "uses": {},
+            "healing": {
+              "number": null,
+              "denomination": null,
+              "bonus": "",
+              "types": [
+                "healing"
+              ],
+              "custom": {
+                "enabled": true,
+                "formula": "3d6 + @abilities.wis.mod"
+              },
+              "scaling": {
+                "mode": "",
+                "number": null
+              }
+            }
           }
         },
         "uses": {
@@ -4610,27 +4609,17 @@
         "requirements": "Acolyte of Togashi",
         "properties": [],
         "activities": {
-          "r259fa100c909ce4": {
-            "_id": "r259fa100c909ce4",
-            "type": "utility",
+          "4b7bebf234883135": {
+            "_id": "4b7bebf234883135",
+            "type": "damage",
             "name": "",
             "activation": {
-              "type": "special",
-              "value": null,
+              "type": "bonus",
+              "value": 1,
               "condition": ""
             },
             "consumption": {
-              "targets": [
-                {
-                  "type": "itemUses",
-                  "value": "1",
-                  "target": "",
-                  "scaling": {
-                    "mode": "",
-                    "formula": ""
-                  }
-                }
-              ],
+              "targets": [],
               "scaling": {
                 "allowed": false,
                 "max": ""
@@ -4641,7 +4630,30 @@
             "effects": [],
             "range": {},
             "target": {},
-            "uses": {}
+            "uses": {},
+            "damage": {
+              "critical": {
+                "allowed": false
+              },
+              "parts": [
+                {
+                  "number": null,
+                  "denomination": null,
+                  "bonus": "",
+                  "types": [
+                    "bludgeoning"
+                  ],
+                  "custom": {
+                    "enabled": true,
+                    "formula": "1d4 + @abilities.str.mod"
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": null
+                  }
+                }
+              ]
+            }
           }
         },
         "uses": {
@@ -4687,35 +4699,29 @@
         "requirements": "Acolyte of Togashi",
         "properties": [],
         "activities": {
-          "rff2c6f92409444e": {
-            "_id": "rff2c6f92409444e",
+          "d0ec01d866402c79": {
+            "_id": "d0ec01d866402c79",
             "type": "utility",
             "name": "",
             "activation": {
-              "type": "special",
-              "value": null,
+              "type": "reaction",
+              "value": 1,
               "condition": ""
             },
             "consumption": {
-              "targets": [
-                {
-                  "type": "itemUses",
-                  "value": "1",
-                  "target": "",
-                  "scaling": {
-                    "mode": "",
-                    "formula": ""
-                  }
-                }
-              ],
+              "targets": [],
               "scaling": {
                 "allowed": false,
                 "max": ""
               },
               "spellSlot": false
             },
+            "effects": [
+              {
+                "_id": "dd69bb19ff54c54d"
+              }
+            ],
             "description": {},
-            "effects": [],
             "range": {},
             "target": {},
             "uses": {}
@@ -4733,7 +4739,32 @@
         },
         "advancement": []
       },
-      "effects": [],
+      "effects": [
+        {
+          "_id": "dd69bb19ff54c54d",
+          "name": "Diamond Tattoo",
+          "img": "modules/rokugan5e/icons/game-icons/tribal-mask.svg",
+          "changes": [
+            {
+              "key": "system.attributes.ac.bonus",
+              "mode": 2,
+              "value": "3",
+              "priority": 20
+            }
+          ],
+          "disabled": false,
+          "transfer": false,
+          "description": "",
+          "origin": null,
+          "duration": {
+            "rounds": 1,
+            "turns": null,
+            "seconds": null
+          },
+          "statuses": [],
+          "flags": {}
+        }
+      ],
       "folder": "r286f717e35cedf3",
       "sort": 0,
       "flags": {},
@@ -4918,9 +4949,9 @@
         "requirements": "Acolyte of Togashi",
         "properties": [],
         "activities": {
-          "r3a69be33b9cf9ef": {
-            "_id": "r3a69be33b9cf9ef",
-            "type": "utility",
+          "43aa686eb7f89a1c": {
+            "_id": "43aa686eb7f89a1c",
+            "type": "damage",
             "name": "",
             "activation": {
               "type": "reaction",
@@ -4928,17 +4959,7 @@
               "condition": ""
             },
             "consumption": {
-              "targets": [
-                {
-                  "type": "itemUses",
-                  "value": "1",
-                  "target": "",
-                  "scaling": {
-                    "mode": "",
-                    "formula": ""
-                  }
-                }
-              ],
+              "targets": [],
               "scaling": {
                 "allowed": false,
                 "max": ""
@@ -4949,7 +4970,30 @@
             "effects": [],
             "range": {},
             "target": {},
-            "uses": {}
+            "uses": {},
+            "damage": {
+              "critical": {
+                "allowed": false
+              },
+              "parts": [
+                {
+                  "number": null,
+                  "denomination": null,
+                  "bonus": "",
+                  "types": [
+                    "piercing"
+                  ],
+                  "custom": {
+                    "enabled": true,
+                    "formula": "1d6 + @abilities.str.mod"
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": null
+                  }
+                }
+              ]
+            }
           }
         },
         "uses": {
@@ -4995,51 +5039,58 @@
         "requirements": "Acolyte of Togashi",
         "properties": [],
         "activities": {
-          "r3b61562cba458e1": {
-            "_id": "r3b61562cba458e1",
+          "af8a1aaa5a0b9f70": {
+            "_id": "af8a1aaa5a0b9f70",
             "type": "save",
             "name": "",
             "activation": {
-              "type": "special",
-              "value": null,
+              "type": "action",
+              "value": 1,
               "condition": ""
             },
             "consumption": {
-              "targets": [
-                {
-                  "type": "itemUses",
-                  "value": "1",
-                  "target": "",
-                  "scaling": {
-                    "mode": "",
-                    "formula": ""
-                  }
-                }
-              ],
+              "targets": [],
               "scaling": {
                 "allowed": false,
                 "max": ""
               },
               "spellSlot": false
             },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {},
             "damage": {
-              "onSave": "half",
-              "parts": []
+              "onSave": "none",
+              "parts": [
+                {
+                  "number": 2,
+                  "denomination": 4,
+                  "bonus": "",
+                  "types": [
+                    "poison"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": null
+                  }
+                }
+              ]
             },
             "save": {
               "ability": [
                 "con"
               ],
               "dc": {
-                "calculation": "spellcasting",
+                "calculation": "str",
                 "formula": ""
               }
-            },
-            "description": {},
-            "effects": [],
-            "range": {},
-            "target": {},
-            "uses": {}
+            }
           }
         },
         "uses": {
@@ -5969,12 +6020,12 @@
         "requirements": "Acolyte of Shadows",
         "properties": [],
         "activities": {
-          "r6c76d7b724f8e21": {
-            "_id": "r6c76d7b724f8e21",
-            "type": "utility",
+          "48d0bf9e74d585f8": {
+            "_id": "48d0bf9e74d585f8",
+            "type": "damage",
             "name": "",
             "activation": {
-              "type": "action",
+              "type": "special",
               "value": 1,
               "condition": ""
             },
@@ -5985,6 +6036,29 @@
                 "max": ""
               },
               "spellSlot": false
+            },
+            "damage": {
+              "critical": {
+                "allowed": false
+              },
+              "parts": [
+                {
+                  "number": null,
+                  "denomination": null,
+                  "bonus": "",
+                  "types": [
+                    "cold"
+                  ],
+                  "custom": {
+                    "enabled": true,
+                    "formula": "1d4"
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": null
+                  }
+                }
+              ]
             },
             "description": {},
             "effects": [],
@@ -6903,7 +6977,28 @@
           }
         ]
       },
-      "effects": [],
+      "effects": [
+        {
+          "_id": "ee8c63a206a7c912",
+          "name": "Heavy Armor Proficiency",
+          "img": "modules/rokugan5e/icons/game-icons/lamellar.svg",
+          "changes": [
+            {
+              "key": "system.traits.armorProf.value",
+              "mode": 2,
+              "value": "hvy",
+              "priority": 20
+            }
+          ],
+          "disabled": false,
+          "transfer": true,
+          "description": "",
+          "origin": null,
+          "duration": {},
+          "statuses": [],
+          "flags": {}
+        }
+      ],
       "folder": "r7deb954e4b99df9",
       "sort": 0,
       "flags": {},
@@ -7273,7 +7368,28 @@
           }
         ]
       },
-      "effects": [],
+      "effects": [
+        {
+          "_id": "04ef5fec5e881fb8",
+          "name": "Saving Throw Proficiency",
+          "img": "modules/rokugan5e/icons/game-icons/battle-gear.svg",
+          "changes": [
+            {
+              "key": "system.abilities.dex.proficient",
+              "mode": 5,
+              "value": "1",
+              "priority": 20
+            }
+          ],
+          "disabled": false,
+          "transfer": true,
+          "description": "",
+          "origin": null,
+          "duration": {},
+          "statuses": [],
+          "flags": {}
+        }
+      ],
       "folder": "rf32e5e393496f38",
       "sort": 0,
       "flags": {},
@@ -7622,7 +7738,28 @@
           }
         ]
       },
-      "effects": [],
+      "effects": [
+        {
+          "_id": "ae9b4f36b5bbae52",
+          "name": "Defensive Proficiency",
+          "img": "modules/rokugan5e/icons/game-icons/guards.svg",
+          "changes": [
+            {
+              "key": "system.traits.armorProf.value",
+              "mode": 2,
+              "value": "med",
+              "priority": 20
+            }
+          ],
+          "disabled": false,
+          "transfer": true,
+          "description": "",
+          "origin": null,
+          "duration": {},
+          "statuses": [],
+          "flags": {}
+        }
+      ],
       "folder": "r44a45ff6b5c17b0",
       "sort": 0,
       "flags": {},
@@ -8313,7 +8450,28 @@
         },
         "advancement": []
       },
-      "effects": [],
+      "effects": [
+        {
+          "_id": "10abb9c01fdf57b0",
+          "name": "Mind Like Bared Steel",
+          "img": "modules/rokugan5e/icons/game-icons/brain.svg",
+          "changes": [
+            {
+              "key": "system.skills.prc.passive",
+              "mode": 2,
+              "value": "@abilities.int.mod",
+              "priority": 20
+            }
+          ],
+          "disabled": false,
+          "transfer": true,
+          "description": "",
+          "origin": null,
+          "duration": {},
+          "statuses": [],
+          "flags": {}
+        }
+      ],
       "folder": "rc81d2625b45382a",
       "sort": 0,
       "flags": {},
@@ -9153,7 +9311,28 @@
           }
         ]
       },
-      "effects": [],
+      "effects": [
+        {
+          "_id": "ab13b8e5ad1b8010",
+          "name": "Analytical Approach",
+          "img": "modules/rokugan5e/icons/game-icons/battle-gear.svg",
+          "changes": [
+            {
+              "key": "system.abilities.int.proficient",
+              "mode": 5,
+              "value": "1",
+              "priority": 20
+            }
+          ],
+          "disabled": false,
+          "transfer": true,
+          "description": "",
+          "origin": null,
+          "duration": {},
+          "statuses": [],
+          "flags": {}
+        }
+      ],
       "folder": "r69258fece4554cc",
       "sort": 0,
       "flags": {},
@@ -9361,7 +9540,28 @@
           }
         ]
       },
-      "effects": [],
+      "effects": [
+        {
+          "_id": "005c2f778c9fe5f0",
+          "name": "Hide in Plain Sight",
+          "img": "modules/rokugan5e/icons/game-icons/all-seeing-eye.svg",
+          "changes": [
+            {
+              "key": "system.abilities.cha.proficient",
+              "mode": 5,
+              "value": "1",
+              "priority": 20
+            }
+          ],
+          "disabled": false,
+          "transfer": true,
+          "description": "",
+          "origin": null,
+          "duration": {},
+          "statuses": [],
+          "flags": {}
+        }
+      ],
       "folder": "r3e58bf057d5e3a9",
       "sort": 0,
       "flags": {},
@@ -9624,7 +9824,7 @@
       "img": "modules/rokugan5e/icons/game-icons/battle-gear.svg",
       "system": {
         "description": {
-          "value": "<p>Saboteur archetype feature (level 3).</p><p>Starting at 3rd level, you develop a habit of preparing secret traps and supply stashes. You can use your reaction to reveal that you had previously placed a trap or device from the contingency plan list. This trap or device must be in a location within 100 feet of you. You can only use this feature at locations in whi</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 83.</em></p>",
+          "value": "<p>Saboteur archetype feature (level 3).</p><p>Starting at 3rd level, you develop a habit of preparing secret traps and supply stashes. You can use your reaction to reveal that you had previously placed a trap or device from the contingency plan list. This trap or device must be in a location within 100 feet of you. You can only use this feature at locations in whi At 13th level, your contingency plans automatically gain an upgrade effect as detailed in their descriptions.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 83.</em></p>",
           "chat": ""
         },
         "source": {
@@ -10219,7 +10419,54 @@
         },
         "requirements": "Path of Redemption 3",
         "properties": [],
-        "activities": {},
+        "activities": {
+          "5ebdf507cd408b2d": {
+            "_id": "5ebdf507cd408b2d",
+            "type": "damage",
+            "name": "",
+            "activation": {
+              "type": "special",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "damage": {
+              "critical": {
+                "allowed": false
+              },
+              "parts": [
+                {
+                  "number": null,
+                  "denomination": null,
+                  "bonus": "",
+                  "types": [
+                    "psychic"
+                  ],
+                  "custom": {
+                    "enabled": true,
+                    "formula": "1d4"
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": null
+                  }
+                }
+              ]
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
         "uses": {
           "max": "",
           "spent": 0,
@@ -10484,7 +10731,54 @@
         },
         "requirements": "Path of Justice 3",
         "properties": [],
-        "activities": {},
+        "activities": {
+          "cc65fb01dd3122ca": {
+            "_id": "cc65fb01dd3122ca",
+            "type": "damage",
+            "name": "",
+            "activation": {
+              "type": "special",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "damage": {
+              "critical": {
+                "allowed": false
+              },
+              "parts": [
+                {
+                  "number": null,
+                  "denomination": null,
+                  "bonus": "",
+                  "types": [
+                    "radiant"
+                  ],
+                  "custom": {
+                    "enabled": true,
+                    "formula": "1d4"
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": null
+                  }
+                }
+              ]
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
         "uses": {
           "max": "",
           "spent": 0,
@@ -10668,8 +10962,827 @@
         },
         "advancement": []
       },
+      "effects": [
+        {
+          "_id": "042f3aad49b0cf61",
+          "name": "Body and Mind",
+          "img": "modules/rokugan5e/icons/game-icons/fist.svg",
+          "changes": [
+            {
+              "key": "system.abilities.str.proficient",
+              "mode": 5,
+              "value": "1",
+              "priority": 20
+            }
+          ],
+          "disabled": false,
+          "transfer": true,
+          "description": "",
+          "origin": null,
+          "duration": {},
+          "statuses": [],
+          "flags": {}
+        }
+      ],
+      "folder": "r5ea349cb06521f6",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "reee65f53e9421ce",
+      "_key": "!items!reee65f53e9421ce",
+      "name": "Mark of the Disciple",
+      "type": "feat",
+      "img": "modules/rokugan5e/icons/game-icons/charm.svg",
+      "system": {
+        "description": {
+          "value": "<p>Acolyte of Togashi feature (level 2).</p><p>You gain a major tattoo (select one from the Tattoos list). Your tattoo power save DC = 8 + your proficiency bonus + your Strength modifier, and your tattoo attack modifier = your proficiency bonus + your Strength modifier.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 117.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "acolytetogashimarkofthedisciple",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Acolyte of Togashi 2",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
       "effects": [],
       "folder": "r5ea349cb06521f6",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r02e8d28a79023c3",
+      "_key": "!items!r02e8d28a79023c3",
+      "name": "Deepening Discipleship",
+      "type": "feat",
+      "img": "modules/rokugan5e/icons/game-icons/meditation.svg",
+      "system": {
+        "description": {
+          "value": "<p>Acolyte of Togashi feature (level 3).</p><p>At 3rd level and again at 6th, 9th, 14th, and 20th level, you gain one additional major tattoo, two minor tattoos, or one minor tattoo and one embellishment for a tattoo you have. You can't select the same tattoo or embellishment twice.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 117.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "acolytetogashideepeningdiscipleship",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Acolyte of Togashi 3",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "r5ea349cb06521f6",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "ra29a0d347301ef5",
+      "_key": "!items!ra29a0d347301ef5",
+      "name": "Inherited Power",
+      "type": "feat",
+      "img": "modules/rokugan5e/icons/game-icons/enlightenment.svg",
+      "system": {
+        "description": {
+          "value": "<p>Acolyte of Togashi feature (level 11).</p><p>When you use your Renewing Purpose feature to regain the use of a major tattoo, you can also regain the use of one minor tattoo. Once you use this on a given minor tattoo, you can't do so again for that tattoo until you finish a short or long rest.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 117.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "acolytetogashiinheritedpower",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Acolyte of Togashi 11",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "r5ea349cb06521f6",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r160480e50e8ee76",
+      "_key": "!items!r160480e50e8ee76",
+      "name": "The Six Great Weapons of Akodo",
+      "type": "feat",
+      "img": "modules/rokugan5e/icons/game-icons/sword-clash.svg",
+      "system": {
+        "description": {
+          "value": "<p>Samurai Armsmaster feature (level 3).</p><p>Your technique is flawless with the six traditional weapons of Rokugani warfare; you gain proficiency and added benefits when wielding them.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 50.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "thesixgreatweaponsofakodo",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Samurai Armsmaster 3",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "r44a45ff6b5c17b0",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r56cf37a3471b5fe",
+      "_key": "!items!r56cf37a3471b5fe",
+      "name": "Commander's Call",
+      "type": "feat",
+      "img": "modules/rokugan5e/icons/game-icons/sword-clash.svg",
+      "system": {
+        "description": {
+          "value": "<p>Samurai Armsmaster feature (level 13).</p><p>You can give orders even as you strike down your foes, directing an ally to act during your turn.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 51.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "commanderscall",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Samurai Armsmaster 13",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "r44a45ff6b5c17b0",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r20ea39b08b8370d",
+      "_key": "!items!r20ea39b08b8370d",
+      "name": "Akodo's Final Lesson",
+      "type": "feat",
+      "img": "modules/rokugan5e/icons/game-icons/enlightenment.svg",
+      "system": {
+        "description": {
+          "value": "<p>Samurai Armsmaster feature (level 18).</p><p>You learn when to be unyielding and when to be flexible, gaining a powerful defensive and tactical benefit.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 51.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "akodosfinallesson",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Samurai Armsmaster 18",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "r44a45ff6b5c17b0",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r844e0e50d87e640",
+      "_key": "!items!r844e0e50d87e640",
+      "name": "Mind's Edge",
+      "type": "feat",
+      "img": "modules/rokugan5e/icons/game-icons/all-seeing-eye.svg",
+      "system": {
+        "description": {
+          "value": "<p>Blademaster feature (level 3).</p><p>Your brushes with lethal combat make you acutely aware of subtle emotional shifts in yourself and others; you gain the listed benefits.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 60.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "mindsedge",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Blademaster 3",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "r6dcdfab9d1f2e77",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r5d2e7bd5c011e11",
+      "_key": "!items!r5d2e7bd5c011e11",
+      "name": "Battle-Tempered Insight",
+      "type": "feat",
+      "img": "modules/rokugan5e/icons/game-icons/all-seeing-eye.svg",
+      "system": {
+        "description": {
+          "value": "<p>Blademaster feature (level 5).</p><p>You can ascertain the truth of an enemy by crossing blades. At the start of your turn you can read a foe you are dueling.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 61.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "battletemperedinsight",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Blademaster 5",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "r6dcdfab9d1f2e77",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r5e4d31c4c51ce4b",
+      "_key": "!items!r5e4d31c4c51ce4b",
+      "name": "Sagacity",
+      "type": "feat",
+      "img": "modules/rokugan5e/icons/game-icons/charm.svg",
+      "system": {
+        "description": {
+          "value": "<p>Diplomat feature (level 14).</p><p>You can be as pithy or long-winded as needed. On your turn, you can spend a bonus action to sway or reinforce those who hear you.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 74.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "sagacity",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Diplomat 14",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "r460302142428dcd",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rc5433088b2b48f8",
+      "_key": "!items!rc5433088b2b48f8",
+      "name": "Keen Eyes, Clear Mind",
+      "type": "feat",
+      "img": "modules/rokugan5e/icons/game-icons/all-seeing-eye.svg",
+      "system": {
+        "description": {
+          "value": "<p>Investigator feature (level 6).</p><p>Almost nothing gets past your notice. When you make an Intelligence check or saving throw, you gain a bonus and resist deception.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 75.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "keeneyesclearmind",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Investigator 6",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "r69258fece4554cc",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rfbadf5b6d222944",
+      "_key": "!items!rfbadf5b6d222944",
+      "name": "Finality",
+      "type": "feat",
+      "img": "modules/rokugan5e/icons/game-icons/ninja-star.svg",
+      "system": {
+        "description": {
+          "value": "<p>Saboteur feature (level 18).</p><p>Your traps are built to finish the job. When a creature you have marked for death triggers your preparations, it suffers devastating effects.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 84.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "finality",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Saboteur 18",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "rd6201a8430f1a4c",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rc4e03bb74ef2325",
+      "_key": "!items!rc4e03bb74ef2325",
+      "name": "Yin Alignment",
+      "type": "feat",
+      "img": "modules/rokugan5e/icons/game-icons/yin-yang.svg",
+      "system": {
+        "description": {
+          "value": "<p>Path of Redemption feature (level 2).</p><p>Your innate energy shifts toward Yin, moving your resting energy position and shaping your externalizations toward restoration and control.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 104.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "yinalignment",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Path of Redemption 2",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "r684167ec57f750d",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "reba43a6a56f6e56",
+      "_key": "!items!reba43a6a56f6e56",
+      "name": "Advocate's Arsenal",
+      "type": "feat",
+      "img": "modules/rokugan5e/icons/game-icons/aura.svg",
+      "system": {
+        "description": {
+          "value": "<p>Path of Redemption feature (level 2).</p><p>You become skilled in externalizations that entrap and confuse your foes while shielding your allies.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 105.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "advocatesarsenal",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Path of Redemption 2",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "r684167ec57f750d",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rff60a1e097ca257",
+      "_key": "!items!rff60a1e097ca257",
+      "name": "Expanded Soul",
+      "type": "feat",
+      "img": "modules/rokugan5e/icons/game-icons/aura.svg",
+      "system": {
+        "description": {
+          "value": "<p>Path of Redemption feature (level 17).</p><p>You can share your palliative energy with others. When you regain hit points, you can distribute healing to nearby allies.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 106.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "expandedsoul",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Path of Redemption 17",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "r684167ec57f750d",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rcdceb7b981eedd6",
+      "_key": "!items!rcdceb7b981eedd6",
+      "name": "Yang Alignment",
+      "type": "feat",
+      "img": "modules/rokugan5e/icons/game-icons/yin-yang.svg",
+      "system": {
+        "description": {
+          "value": "<p>Path of Justice feature (level 2).</p><p>Your innate energy shifts toward Yang, moving your resting energy position and shaping your externalizations toward direct power.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 109.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "yangalignment",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Path of Justice 2",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "r00588ba07faea0a",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r063c43ee32d6ab0",
+      "_key": "!items!r063c43ee32d6ab0",
+      "name": "Philosopher's Arsenal",
+      "type": "feat",
+      "img": "modules/rokugan5e/icons/game-icons/aura.svg",
+      "system": {
+        "description": {
+          "value": "<p>Path of Justice feature (level 2).</p><p>You become skilled in externalizations that overwhelm your foes with direct power.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 110.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "philosophersarsenal",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Path of Justice 2",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "r00588ba07faea0a",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rf3a58c2c6ceab85",
+      "_key": "!items!rf3a58c2c6ceab85",
+      "name": "Reinforced Soul",
+      "type": "feat",
+      "img": "modules/rokugan5e/icons/game-icons/aura.svg",
+      "system": {
+        "description": {
+          "value": "<p>Path of Justice feature (level 17).</p><p>You become exceptionally durable thanks to your Yang energy. When you fail a saving throw, you can bolster yourself against the effect.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 111.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "reinforcedsoul",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Path of Justice 17",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "r00588ba07faea0a",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rbf7adeece183d08",
+      "_key": "!items!rbf7adeece183d08",
+      "name": "Balance Specialization",
+      "type": "feat",
+      "img": "modules/rokugan5e/icons/game-icons/yin-yang.svg",
+      "system": {
+        "description": {
+          "value": "<p>Path of Harmony feature (level 11).</p><p>You find additional power in balance. When your energy is centered or balanced, your externalizations gain enhanced effects.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 109.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "balancespecialization",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Path of Harmony 11",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "rffdef62cfdceff9",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r95a3fe904df6817",
+      "_key": "!items!r95a3fe904df6817",
+      "name": "Mirrored Soul",
+      "type": "feat",
+      "img": "modules/rokugan5e/icons/game-icons/aura.svg",
+      "system": {
+        "description": {
+          "value": "<p>Path of Harmony feature (level 17).</p><p>You can invert your energy. As a bonus action, you can spend resources to swap your Yin and Yang values for powerful effects.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 109.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "mirroredsoul",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Path of Harmony 17",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "rffdef62cfdceff9",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rb9437b223e9ee35",
+      "_key": "!items!rb9437b223e9ee35",
+      "name": "Penumbra",
+      "type": "feat",
+      "img": "modules/rokugan5e/icons/game-icons/aura.svg",
+      "system": {
+        "description": {
+          "value": "<p>Acolyte of Shadows feature (level 1).</p><p>You take on the aspect of shadows, fading slightly when in darkness. While in dim light or darkness you gain concealment benefits.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 120.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "penumbra",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Acolyte of Shadows 1",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "rb7f7ea234a7d899",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rbb0fbd553dab473",
+      "_key": "!items!rbb0fbd553dab473",
+      "name": "Arcane Appraisal",
+      "type": "feat",
+      "img": "modules/rokugan5e/icons/game-icons/all-seeing-eye.svg",
+      "system": {
+        "description": {
+          "value": "<p>Artisan feature (level 2).</p><p>You have a deep understanding of the spirits residing within items and can study an item to learn its magical properties and how to use it.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 92.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "arcaneappraisal",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Artisan 2",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "r84562ee201f1740",
       "sort": 0,
       "flags": {},
       "ownership": {

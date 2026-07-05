@@ -1650,9 +1650,9 @@
         "requirements": "Ninja tool",
         "properties": [],
         "activities": {
-          "r38332e04f046585": {
-            "_id": "r38332e04f046585",
-            "type": "utility",
+          "8221bf1a665c18ba": {
+            "_id": "8221bf1a665c18ba",
+            "type": "save",
             "name": "",
             "activation": {
               "type": "action",
@@ -1671,7 +1671,37 @@
             "effects": [],
             "range": {},
             "target": {},
-            "uses": {}
+            "uses": {},
+            "damage": {
+              "onSave": "none",
+              "parts": [
+                {
+                  "number": 1,
+                  "denomination": 4,
+                  "bonus": "",
+                  "types": [
+                    "piercing"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": null
+                  }
+                }
+              ]
+            },
+            "save": {
+              "ability": [
+                "dex"
+              ],
+              "dc": {
+                "calculation": "dex",
+                "formula": ""
+              }
+            }
           }
         },
         "uses": {
@@ -1718,9 +1748,9 @@
         "requirements": "Ninja tool",
         "properties": [],
         "activities": {
-          "rdcc8bb8309b927c": {
-            "_id": "rdcc8bb8309b927c",
-            "type": "utility",
+          "07853ffde1b4ae2c": {
+            "_id": "07853ffde1b4ae2c",
+            "type": "save",
             "name": "",
             "activation": {
               "type": "action",
@@ -1739,7 +1769,20 @@
             "effects": [],
             "range": {},
             "target": {},
-            "uses": {}
+            "uses": {},
+            "damage": {
+              "onSave": "none",
+              "parts": []
+            },
+            "save": {
+              "ability": [
+                "dex"
+              ],
+              "dc": {
+                "calculation": "dex",
+                "formula": ""
+              }
+            }
           }
         },
         "uses": {
@@ -1786,9 +1829,9 @@
         "requirements": "Ninja tool",
         "properties": [],
         "activities": {
-          "rf7e8322547ad5a1": {
-            "_id": "rf7e8322547ad5a1",
-            "type": "utility",
+          "f3f4d472716079fd": {
+            "_id": "f3f4d472716079fd",
+            "type": "attack",
             "name": "",
             "activation": {
               "type": "action",
@@ -1807,7 +1850,43 @@
             "effects": [],
             "range": {},
             "target": {},
-            "uses": {}
+            "uses": {},
+            "attack": {
+              "ability": "dex",
+              "bonus": "",
+              "critical": {
+                "threshold": null
+              },
+              "flat": false,
+              "type": {
+                "value": "ranged",
+                "classification": "weapon"
+              }
+            },
+            "damage": {
+              "critical": {
+                "bonus": ""
+              },
+              "includeBase": false,
+              "parts": [
+                {
+                  "number": 1,
+                  "denomination": 6,
+                  "bonus": "@abilities.dex.mod",
+                  "types": [
+                    "piercing"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": null
+                  }
+                }
+              ]
+            }
           }
         },
         "uses": {
@@ -1922,9 +2001,9 @@
         "requirements": "Ninja tool",
         "properties": [],
         "activities": {
-          "r9110233ca2f7be1": {
-            "_id": "r9110233ca2f7be1",
-            "type": "utility",
+          "861dbfabbb5b2c40": {
+            "_id": "861dbfabbb5b2c40",
+            "type": "save",
             "name": "",
             "activation": {
               "type": "action",
@@ -1943,7 +2022,37 @@
             "effects": [],
             "range": {},
             "target": {},
-            "uses": {}
+            "uses": {},
+            "damage": {
+              "onSave": "half",
+              "parts": [
+                {
+                  "number": 1,
+                  "denomination": 6,
+                  "bonus": "",
+                  "types": [
+                    "poison"
+                  ],
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "scaling": {
+                    "mode": "",
+                    "number": null
+                  }
+                }
+              ]
+            },
+            "save": {
+              "ability": [
+                "con"
+              ],
+              "dc": {
+                "calculation": "dex",
+                "formula": ""
+              }
+            }
           }
         },
         "uses": {
