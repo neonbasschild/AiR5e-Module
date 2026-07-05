@@ -17,7 +17,7 @@
 export class RokuganPacks {
 
   /** Bump to force a reseed on the next world load. */
-  static DATA_VERSION = "1.29.0";
+  static DATA_VERSION = "1.31.7";
 
   static PACKS = ["classes", "classfeatures", "species", "backgrounds", "feats",
                   "equipment", "techniques", "invocations", "externalizations", "charms", "awakened", "npcs", "modifiers",

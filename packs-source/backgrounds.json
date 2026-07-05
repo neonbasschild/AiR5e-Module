@@ -10345,6 +10345,3293 @@
       "ownership": {
         "default": 0
       }
+    },
+    {
+      "_id": "r7ac6d5fa106d9ac",
+      "_key": "!items!r7ac6d5fa106d9ac",
+      "name": "Kaito Family",
+      "type": "background",
+      "img": "modules/rokugan5e/icons/game-icons/feather.svg",
+      "system": {
+        "description": {
+          "value": "<p>Also grants proficiency with: Any one other artisan tool (apply manually).</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 147.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "kaitofamily",
+        "advancement": [
+          {
+            "_id": "rb5acb9c6b3dc2bc",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": true,
+              "grants": [
+                "skills:nat"
+              ],
+              "choices": []
+            },
+            "level": 1,
+            "title": "Skill Proficiencies",
+            "value": {
+              "chosen": []
+            }
+          },
+          {
+            "_id": "rc90b3e75ae86212",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "skills:ani",
+                    "skills:ins",
+                    "skills:med",
+                    "skills:prc",
+                    "skills:sur"
+                  ]
+                }
+              ]
+            },
+            "level": 1,
+            "title": "Skill Proficiency",
+            "value": {
+              "chosen": []
+            }
+          },
+          {
+            "_id": "rd1066396ea0ad71",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "weapon:sim:huntingbow"
+              ],
+              "choices": []
+            },
+            "level": 1,
+            "title": "Weapon Proficiency",
+            "value": {
+              "chosen": []
+            }
+          },
+          {
+            "_id": "r96551fe0fb88241",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "tool:bowyerskit"
+              ],
+              "choices": []
+            },
+            "level": 1,
+            "title": "Tool Proficiency",
+            "value": {
+              "chosen": []
+            }
+          },
+          {
+            "_id": "r5a26e814db1d941",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned"
+              ],
+              "choices": []
+            },
+            "level": 1,
+            "title": "Languages",
+            "value": {
+              "chosen": []
+            }
+          },
+          {
+            "_id": "rebc26b8664fcd85",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "languages:rokugan:courtlyRokugani",
+                    "languages:rokugan:ivindi",
+                    "languages:rokugan:jindallaean",
+                    "languages:rokugan:leafRustle",
+                    "languages:rokugan:qamari",
+                    "languages:rokugan:riverSpeech",
+                    "languages:rokugan:skySpeech",
+                    "languages:rokugan:stoneClick",
+                    "languages:rokugan:ujik",
+                    "languages:rokugan:yunFengWen",
+                    "languages:rokugan:animalSpeech",
+                    "languages:rokugan:battleArgot"
+                  ]
+                }
+              ]
+            },
+            "level": 1,
+            "title": "Language",
+            "value": {
+              "chosen": []
+            }
+          }
+        ],
+        "startingEquipment": [
+          {
+            "type": "AND",
+            "_id": "be00000000000001",
+            "group": "",
+            "sort": 100000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "linked",
+            "_id": "be00000000000002",
+            "group": "be00000000000001",
+            "sort": 200000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rosanctifiedvest"
+          },
+          {
+            "type": "linked",
+            "_id": "be00000000000003",
+            "group": "be00000000000001",
+            "sort": 300000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rwwakizashi00000"
+          },
+          {
+            "type": "linked",
+            "_id": "be00000000000004",
+            "group": "be00000000000001",
+            "sort": 400000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rwhuntingbow0000"
+          },
+          {
+            "type": "linked",
+            "_id": "be00000000000005",
+            "group": "be00000000000001",
+            "sort": 500000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.r4d724f6afc21a58"
+          },
+          {
+            "type": "linked",
+            "_id": "be00000000000006",
+            "group": "be00000000000001",
+            "sort": 600000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rbb96b57ecc301a5"
+          },
+          {
+            "type": "currency",
+            "_id": "be00000000000007",
+            "group": "be00000000000001",
+            "sort": 700000,
+            "requiresProficiency": false,
+            "count": 10,
+            "key": "gp"
+          }
+        ],
+        "wealth": ""
+      },
+      "effects": [],
+      "folder": "r39ff3ab17402dd3",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rdaef62224b8c007",
+      "_key": "!items!rdaef62224b8c007",
+      "name": "Seppun Family",
+      "type": "background",
+      "img": "modules/rokugan5e/icons/game-icons/samurai-helmet.svg",
+      "system": {
+        "description": {
+          "value": "<p>Also grants proficiency with: Any one mystic implement or tool of subterfuge (apply manually).</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 158.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "seppunfamily",
+        "advancement": [
+          {
+            "_id": "rb79ecc487c2e0a2",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": true,
+              "grants": [
+                "skills:prc"
+              ],
+              "choices": []
+            },
+            "level": 1,
+            "title": "Skill Proficiencies",
+            "value": {
+              "chosen": []
+            }
+          },
+          {
+            "_id": "r8fc41c6e3791f6b",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "skills:arc",
+                    "skills:his",
+                    "skills:inv",
+                    "skills:nat",
+                    "skills:rel"
+                  ]
+                }
+              ]
+            },
+            "level": 1,
+            "title": "Skill Proficiency",
+            "value": {
+              "chosen": []
+            }
+          },
+          {
+            "_id": "ra8341f9044e2fe0",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "weapon:mar:wakizashi"
+              ],
+              "choices": []
+            },
+            "level": 1,
+            "title": "Weapon Proficiency",
+            "value": {
+              "chosen": []
+            }
+          },
+          {
+            "_id": "r565771eec9a0db3",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "tool:calligraphyset"
+              ],
+              "choices": []
+            },
+            "level": 1,
+            "title": "Tool Proficiency",
+            "value": {
+              "chosen": []
+            }
+          },
+          {
+            "_id": "r5209656325c71d7",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned",
+                "languages:rokugan:courtlyRokugani"
+              ],
+              "choices": []
+            },
+            "level": 1,
+            "title": "Languages",
+            "value": {
+              "chosen": []
+            }
+          }
+        ],
+        "startingEquipment": [
+          {
+            "type": "AND",
+            "_id": "be00000000000008",
+            "group": "",
+            "sort": 100000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "linked",
+            "_id": "be00000000000009",
+            "group": "be00000000000008",
+            "sort": 200000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.roresplendentreg"
+          },
+          {
+            "type": "linked",
+            "_id": "be0000000000000a",
+            "group": "be00000000000008",
+            "sort": 300000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rwwakizashi00000"
+          },
+          {
+            "type": "linked",
+            "_id": "be0000000000000b",
+            "group": "be00000000000008",
+            "sort": 400000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.r5383cc2169c1ede"
+          },
+          {
+            "type": "currency",
+            "_id": "be0000000000000c",
+            "group": "be00000000000008",
+            "sort": 500000,
+            "requiresProficiency": false,
+            "count": 12,
+            "key": "gp"
+          }
+        ],
+        "wealth": ""
+      },
+      "effects": [],
+      "folder": "r8b896411a65b7e8",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r7d5468cfa2b65f8",
+      "_key": "!items!r7d5468cfa2b65f8",
+      "name": "Dragonfly Clan (Tonbo Family)",
+      "type": "background",
+      "img": "modules/rokugan5e/icons/game-icons/paper-lantern.svg",
+      "system": {
+        "description": {
+          "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 162.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "dragonflyclantonbofamily",
+        "advancement": [
+          {
+            "_id": "r13c8940d9fb1a01",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": true,
+              "grants": [
+                "skills:ins"
+              ],
+              "choices": []
+            },
+            "level": 1,
+            "title": "Skill Proficiencies",
+            "value": {
+              "chosen": []
+            }
+          },
+          {
+            "_id": "r21bddcf50f562d6",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "skills:arc",
+                    "skills:his",
+                    "skills:inv",
+                    "skills:nat",
+                    "skills:rel"
+                  ]
+                }
+              ]
+            },
+            "level": 1,
+            "title": "Skill Proficiency",
+            "value": {
+              "chosen": []
+            }
+          },
+          {
+            "_id": "r25d7275d0d93a91",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "tool:calligraphyset"
+              ],
+              "choices": []
+            },
+            "level": 1,
+            "title": "Tool Proficiency",
+            "value": {
+              "chosen": []
+            }
+          },
+          {
+            "_id": "rfba0ba6301cc1c0",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned"
+              ],
+              "choices": []
+            },
+            "level": 1,
+            "title": "Languages",
+            "value": {
+              "chosen": []
+            }
+          },
+          {
+            "_id": "r1de2ae62ebb1443",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "languages:rokugan:courtlyRokugani",
+                    "languages:rokugan:ivindi",
+                    "languages:rokugan:jindallaean",
+                    "languages:rokugan:leafRustle",
+                    "languages:rokugan:qamari",
+                    "languages:rokugan:riverSpeech",
+                    "languages:rokugan:skySpeech",
+                    "languages:rokugan:stoneClick",
+                    "languages:rokugan:ujik",
+                    "languages:rokugan:yunFengWen",
+                    "languages:rokugan:animalSpeech",
+                    "languages:rokugan:battleArgot"
+                  ]
+                }
+              ]
+            },
+            "level": 1,
+            "title": "Language",
+            "value": {
+              "chosen": []
+            }
+          }
+        ],
+        "startingEquipment": [
+          {
+            "type": "AND",
+            "_id": "be0000000000000d",
+            "group": "",
+            "sort": 100000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "linked",
+            "_id": "be0000000000000e",
+            "group": "be0000000000000d",
+            "sort": 200000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.roresplendentreg"
+          },
+          {
+            "type": "linked",
+            "_id": "be0000000000000f",
+            "group": "be0000000000000d",
+            "sort": 300000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rwwakizashi00000"
+          },
+          {
+            "type": "linked",
+            "_id": "be00000000000010",
+            "group": "be0000000000000d",
+            "sort": 400000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.r5383cc2169c1ede"
+          },
+          {
+            "type": "currency",
+            "_id": "be00000000000011",
+            "group": "be0000000000000d",
+            "sort": 500000,
+            "requiresProficiency": false,
+            "count": 3,
+            "key": "gp"
+          }
+        ],
+        "wealth": ""
+      },
+      "effects": [],
+      "folder": "r5bb7d6e2f9b589e",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rfde4ccc528a4888",
+      "_key": "!items!rfde4ccc528a4888",
+      "name": "City",
+      "type": "background",
+      "img": "modules/rokugan5e/icons/game-icons/bowl-of-rice.svg",
+      "system": {
+        "description": {
+          "value": "<p>Also grants proficiency with: Any one tool, Vehicles (ground) (apply manually).</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 167.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "city",
+        "advancement": [
+          {
+            "_id": "r28f84364541017b",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": true,
+              "grants": [
+                "skills:per"
+              ],
+              "choices": []
+            },
+            "level": 1,
+            "title": "Skill Proficiencies",
+            "value": {
+              "chosen": []
+            }
+          },
+          {
+            "_id": "r3962dcc265b6173",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "skills:acr",
+                    "skills:slt",
+                    "skills:ste"
+                  ]
+                }
+              ]
+            },
+            "level": 1,
+            "title": "Skill Proficiency",
+            "value": {
+              "chosen": []
+            }
+          },
+          {
+            "_id": "r9a9a918daa2881a",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned"
+              ],
+              "choices": []
+            },
+            "level": 1,
+            "title": "Languages",
+            "value": {
+              "chosen": []
+            }
+          },
+          {
+            "_id": "r14dffa5c0e26c96",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "languages:rokugan:courtlyRokugani",
+                    "languages:rokugan:ivindi",
+                    "languages:rokugan:jindallaean",
+                    "languages:rokugan:leafRustle",
+                    "languages:rokugan:qamari",
+                    "languages:rokugan:riverSpeech",
+                    "languages:rokugan:skySpeech",
+                    "languages:rokugan:stoneClick",
+                    "languages:rokugan:ujik",
+                    "languages:rokugan:yunFengWen",
+                    "languages:rokugan:animalSpeech",
+                    "languages:rokugan:battleArgot"
+                  ]
+                }
+              ]
+            },
+            "level": 1,
+            "title": "Language",
+            "value": {
+              "chosen": []
+            }
+          }
+        ],
+        "startingEquipment": [
+          {
+            "type": "AND",
+            "_id": "be00000000000012",
+            "group": "",
+            "sort": 100000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "OR",
+            "_id": "be00000000000013",
+            "group": "be00000000000012",
+            "sort": 200000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "linked",
+            "_id": "be00000000000014",
+            "group": "be00000000000013",
+            "sort": 300000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.roresplendentreg"
+          },
+          {
+            "type": "linked",
+            "_id": "be00000000000015",
+            "group": "be00000000000013",
+            "sort": 400000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rounremarkablega"
+          },
+          {
+            "type": "OR",
+            "_id": "be00000000000016",
+            "group": "be00000000000012",
+            "sort": 500000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "linked",
+            "_id": "be00000000000017",
+            "group": "be00000000000016",
+            "sort": 600000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rwclub0000000000"
+          },
+          {
+            "type": "linked",
+            "_id": "be00000000000018",
+            "group": "be00000000000016",
+            "sort": 700000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rwdagger00000000"
+          },
+          {
+            "type": "currency",
+            "_id": "be00000000000019",
+            "group": "be00000000000012",
+            "sort": 800000,
+            "requiresProficiency": false,
+            "count": 2,
+            "key": "gp"
+          }
+        ],
+        "wealth": ""
+      },
+      "effects": [],
+      "folder": "r67d818d5a56d859",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r9e50aec17f5f895",
+      "_key": "!items!r9e50aec17f5f895",
+      "name": "Haunted Region",
+      "type": "background",
+      "img": "modules/rokugan5e/icons/game-icons/bowl-of-rice.svg",
+      "system": {
+        "description": {
+          "value": "<p>Also grants proficiency with: Any one tool (apply manually).</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 168.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "hauntedregion",
+        "advancement": [
+          {
+            "_id": "r3354bd434cbd092",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": true,
+              "grants": [
+                "skills:arc"
+              ],
+              "choices": []
+            },
+            "level": 1,
+            "title": "Skill Proficiencies",
+            "value": {
+              "chosen": []
+            }
+          },
+          {
+            "_id": "rcce03174720110a",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "skills:acr",
+                    "skills:slt",
+                    "skills:ste"
+                  ]
+                }
+              ]
+            },
+            "level": 1,
+            "title": "Skill Proficiency",
+            "value": {
+              "chosen": []
+            }
+          },
+          {
+            "_id": "r4a799a9ca51c3dd",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "tool:divinationkit"
+              ],
+              "choices": []
+            },
+            "level": 1,
+            "title": "Tool Proficiency",
+            "value": {
+              "chosen": []
+            }
+          },
+          {
+            "_id": "rc7e2705c8a8e520",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned"
+              ],
+              "choices": []
+            },
+            "level": 1,
+            "title": "Languages",
+            "value": {
+              "chosen": []
+            }
+          },
+          {
+            "_id": "r8ae097fc3b1078e",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "languages:rokugan:courtlyRokugani",
+                    "languages:rokugan:ivindi",
+                    "languages:rokugan:jindallaean",
+                    "languages:rokugan:leafRustle",
+                    "languages:rokugan:qamari",
+                    "languages:rokugan:riverSpeech",
+                    "languages:rokugan:skySpeech",
+                    "languages:rokugan:stoneClick",
+                    "languages:rokugan:ujik",
+                    "languages:rokugan:yunFengWen",
+                    "languages:rokugan:animalSpeech",
+                    "languages:rokugan:battleArgot"
+                  ]
+                }
+              ]
+            },
+            "level": 1,
+            "title": "Language",
+            "value": {
+              "chosen": []
+            }
+          }
+        ],
+        "startingEquipment": [
+          {
+            "type": "AND",
+            "_id": "be0000000000001a",
+            "group": "",
+            "sort": 100000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "linked",
+            "_id": "be0000000000001b",
+            "group": "be0000000000001a",
+            "sort": 200000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rotravelingcloth"
+          },
+          {
+            "type": "OR",
+            "_id": "be0000000000001c",
+            "group": "be0000000000001a",
+            "sort": 300000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "linked",
+            "_id": "be0000000000001d",
+            "group": "be0000000000001c",
+            "sort": 400000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rwdagger00000000"
+          },
+          {
+            "type": "linked",
+            "_id": "be0000000000001e",
+            "group": "be0000000000001c",
+            "sort": 500000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rwspear000000000"
+          },
+          {
+            "type": "linked",
+            "_id": "be0000000000001f",
+            "group": "be0000000000001a",
+            "sort": 600000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.r5ccb4b290ff78e6"
+          },
+          {
+            "type": "currency",
+            "_id": "be00000000000020",
+            "group": "be0000000000001a",
+            "sort": 700000,
+            "requiresProficiency": false,
+            "count": 5,
+            "key": "sp"
+          }
+        ],
+        "wealth": ""
+      },
+      "effects": [],
+      "folder": "r67d818d5a56d859",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r474534b8258d8d0",
+      "_key": "!items!r474534b8258d8d0",
+      "name": "Rural Farmland Town",
+      "type": "background",
+      "img": "modules/rokugan5e/icons/game-icons/bowl-of-rice.svg",
+      "system": {
+        "description": {
+          "value": "<p>Also grants proficiency with: Any one tool, Any one artisan tool (apply manually).</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 169.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "ruralfarmlandtown",
+        "advancement": [
+          {
+            "_id": "rf9cedd14a3ca377",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": true,
+              "grants": [
+                "skills:sur"
+              ],
+              "choices": []
+            },
+            "level": 1,
+            "title": "Skill Proficiencies",
+            "value": {
+              "chosen": []
+            }
+          },
+          {
+            "_id": "rb85e7a3f9213676",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "skills:arc",
+                    "skills:his",
+                    "skills:inv",
+                    "skills:nat",
+                    "skills:rel"
+                  ]
+                }
+              ]
+            },
+            "level": 1,
+            "title": "Skill Proficiency",
+            "value": {
+              "chosen": []
+            }
+          },
+          {
+            "_id": "rdd310470bf162a4",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned"
+              ],
+              "choices": []
+            },
+            "level": 1,
+            "title": "Languages",
+            "value": {
+              "chosen": []
+            }
+          },
+          {
+            "_id": "ra8ae83e93116882",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "languages:rokugan:courtlyRokugani",
+                    "languages:rokugan:ivindi",
+                    "languages:rokugan:jindallaean",
+                    "languages:rokugan:leafRustle",
+                    "languages:rokugan:qamari",
+                    "languages:rokugan:riverSpeech",
+                    "languages:rokugan:skySpeech",
+                    "languages:rokugan:stoneClick",
+                    "languages:rokugan:ujik",
+                    "languages:rokugan:yunFengWen",
+                    "languages:rokugan:animalSpeech",
+                    "languages:rokugan:battleArgot"
+                  ]
+                }
+              ]
+            },
+            "level": 1,
+            "title": "Language",
+            "value": {
+              "chosen": []
+            }
+          }
+        ],
+        "startingEquipment": [
+          {
+            "type": "AND",
+            "_id": "be00000000000021",
+            "group": "",
+            "sort": 100000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "linked",
+            "_id": "be00000000000022",
+            "group": "be00000000000021",
+            "sort": 200000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rotravelingcloth"
+          },
+          {
+            "type": "linked",
+            "_id": "be00000000000023",
+            "group": "be00000000000021",
+            "sort": 300000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rwdagger00000000"
+          },
+          {
+            "type": "currency",
+            "_id": "be00000000000024",
+            "group": "be00000000000021",
+            "sort": 400000,
+            "requiresProficiency": false,
+            "count": 6,
+            "key": "sp"
+          }
+        ],
+        "wealth": ""
+      },
+      "effects": [],
+      "folder": "r67d818d5a56d859",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "ra3a1426f6bd5767",
+      "_key": "!items!ra3a1426f6bd5767",
+      "name": "Bhavyatapura, the City of Splendor",
+      "type": "background",
+      "img": "modules/rokugan5e/icons/game-icons/world.svg",
+      "system": {
+        "description": {
+          "value": "<p>Also grants proficiency with: Any one tool, Vehicles (land) (apply manually).</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 172.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "bhavyatapurathecityofsplendor",
+        "advancement": [
+          {
+            "_id": "rd68f98c385aafe4",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": true,
+              "grants": [
+                "skills:per"
+              ],
+              "choices": []
+            },
+            "level": 1,
+            "title": "Skill Proficiencies",
+            "value": {
+              "chosen": []
+            }
+          },
+          {
+            "_id": "rd8e49b1af284995",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "skills:arc",
+                    "skills:his",
+                    "skills:inv",
+                    "skills:nat",
+                    "skills:rel"
+                  ]
+                }
+              ]
+            },
+            "level": 1,
+            "title": "Skill Proficiency",
+            "value": {
+              "chosen": []
+            }
+          },
+          {
+            "_id": "r8c5a7ba0be7afd7",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned",
+                "languages:rokugan:ivindi"
+              ],
+              "choices": []
+            },
+            "level": 1,
+            "title": "Languages",
+            "value": {
+              "chosen": []
+            }
+          },
+          {
+            "_id": "r47b8649fc189a05",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "languages:rokugan:courtlyRokugani",
+                    "languages:rokugan:ivindi",
+                    "languages:rokugan:jindallaean",
+                    "languages:rokugan:leafRustle",
+                    "languages:rokugan:qamari",
+                    "languages:rokugan:riverSpeech",
+                    "languages:rokugan:skySpeech",
+                    "languages:rokugan:stoneClick",
+                    "languages:rokugan:ujik",
+                    "languages:rokugan:yunFengWen",
+                    "languages:rokugan:animalSpeech",
+                    "languages:rokugan:battleArgot"
+                  ]
+                }
+              ]
+            },
+            "level": 1,
+            "title": "Language",
+            "value": {
+              "chosen": []
+            }
+          }
+        ],
+        "startingEquipment": [
+          {
+            "type": "AND",
+            "_id": "be00000000000025",
+            "group": "",
+            "sort": 100000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "OR",
+            "_id": "be00000000000026",
+            "group": "be00000000000025",
+            "sort": 200000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "linked",
+            "_id": "be00000000000027",
+            "group": "be00000000000026",
+            "sort": 300000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.roresplendentreg"
+          },
+          {
+            "type": "linked",
+            "_id": "be00000000000028",
+            "group": "be00000000000026",
+            "sort": 400000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rosanctifiedvest"
+          },
+          {
+            "type": "linked",
+            "_id": "be00000000000029",
+            "group": "be00000000000026",
+            "sort": 500000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rotravelingcloth"
+          },
+          {
+            "type": "linked",
+            "_id": "be0000000000002a",
+            "group": "be00000000000026",
+            "sort": 600000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rounremarkablega"
+          },
+          {
+            "type": "linked",
+            "_id": "be0000000000002b",
+            "group": "be00000000000025",
+            "sort": 700000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rwdagger00000000"
+          },
+          {
+            "type": "currency",
+            "_id": "be0000000000002c",
+            "group": "be00000000000025",
+            "sort": 800000,
+            "requiresProficiency": false,
+            "count": 7,
+            "key": "gp"
+          }
+        ],
+        "wealth": ""
+      },
+      "effects": [],
+      "folder": "rec1c7f40d6b95a8",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rfcea7a92af70043",
+      "_key": "!items!rfcea7a92af70043",
+      "name": "The Ghostlands",
+      "type": "background",
+      "img": "modules/rokugan5e/icons/game-icons/world.svg",
+      "system": {
+        "description": {
+          "value": "<p>Also grants proficiency with: Any one mystic implement, Mounts (apply manually).</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 172.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "theghostlands",
+        "advancement": [
+          {
+            "_id": "r0b5fa3939c1e8fd",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": true,
+              "grants": [
+                "skills:ste"
+              ],
+              "choices": []
+            },
+            "level": 1,
+            "title": "Skill Proficiencies",
+            "value": {
+              "chosen": []
+            }
+          },
+          {
+            "_id": "ra974f9d0eadcbf2",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "skills:ani",
+                    "skills:ins",
+                    "skills:med",
+                    "skills:prc",
+                    "skills:sur"
+                  ]
+                }
+              ]
+            },
+            "level": 1,
+            "title": "Skill Proficiency",
+            "value": {
+              "chosen": []
+            }
+          },
+          {
+            "_id": "rf83fab17ed33236",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned",
+                "languages:rokugan:ivindi",
+                "languages:rokugan:battleArgot"
+              ],
+              "choices": []
+            },
+            "level": 1,
+            "title": "Languages",
+            "value": {
+              "chosen": []
+            }
+          }
+        ],
+        "startingEquipment": [
+          {
+            "type": "AND",
+            "_id": "be0000000000002d",
+            "group": "",
+            "sort": 100000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "OR",
+            "_id": "be0000000000002e",
+            "group": "be0000000000002d",
+            "sort": 200000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "linked",
+            "_id": "be0000000000002f",
+            "group": "be0000000000002e",
+            "sort": 300000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rosanctifiedvest"
+          },
+          {
+            "type": "linked",
+            "_id": "be00000000000030",
+            "group": "be0000000000002e",
+            "sort": 400000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rotravelingcloth"
+          },
+          {
+            "type": "linked",
+            "_id": "be00000000000031",
+            "group": "be0000000000002d",
+            "sort": 500000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rwdagger00000000"
+          },
+          {
+            "type": "currency",
+            "_id": "be00000000000032",
+            "group": "be0000000000002d",
+            "sort": 600000,
+            "requiresProficiency": false,
+            "count": 3,
+            "key": "gp"
+          }
+        ],
+        "wealth": ""
+      },
+      "effects": [],
+      "folder": "rec1c7f40d6b95a8",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r5eed8006a7a0f47",
+      "_key": "!items!r5eed8006a7a0f47",
+      "name": "Al-Zawira, the City of Books",
+      "type": "background",
+      "img": "modules/rokugan5e/icons/game-icons/world.svg",
+      "system": {
+        "description": {
+          "value": "<p>Also grants proficiency with: Any one other artisan tool or mystic implement, Two other Qamarist languages (apply manually).</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 173.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "alzawirathecityofbooks",
+        "advancement": [
+          {
+            "_id": "rb68b8c45807d902",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": true,
+              "grants": [
+                "skills:his"
+              ],
+              "choices": []
+            },
+            "level": 1,
+            "title": "Skill Proficiencies",
+            "value": {
+              "chosen": []
+            }
+          },
+          {
+            "_id": "rfd7bda7a6257a33",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "skills:arc",
+                    "skills:inv",
+                    "skills:nat",
+                    "skills:rel"
+                  ]
+                }
+              ]
+            },
+            "level": 1,
+            "title": "Skill Proficiency",
+            "value": {
+              "chosen": []
+            }
+          },
+          {
+            "_id": "rd245a167d6c3777",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "tool:calligraphyset"
+              ],
+              "choices": []
+            },
+            "level": 1,
+            "title": "Tool Proficiency",
+            "value": {
+              "chosen": []
+            }
+          },
+          {
+            "_id": "rab97fa212de203b",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned",
+                "languages:rokugan:qamari"
+              ],
+              "choices": []
+            },
+            "level": 1,
+            "title": "Languages",
+            "value": {
+              "chosen": []
+            }
+          }
+        ],
+        "startingEquipment": [
+          {
+            "type": "AND",
+            "_id": "be00000000000033",
+            "group": "",
+            "sort": 100000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "OR",
+            "_id": "be00000000000034",
+            "group": "be00000000000033",
+            "sort": 200000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "linked",
+            "_id": "be00000000000035",
+            "group": "be00000000000034",
+            "sort": 300000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.roresplendentreg"
+          },
+          {
+            "type": "linked",
+            "_id": "be00000000000036",
+            "group": "be00000000000034",
+            "sort": 400000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rotravelingcloth"
+          },
+          {
+            "type": "linked",
+            "_id": "be00000000000037",
+            "group": "be00000000000033",
+            "sort": 500000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rwdagger00000000"
+          },
+          {
+            "type": "linked",
+            "_id": "be00000000000038",
+            "group": "be00000000000033",
+            "sort": 600000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.r5383cc2169c1ede"
+          },
+          {
+            "type": "currency",
+            "_id": "be00000000000039",
+            "group": "be00000000000033",
+            "sort": 700000,
+            "requiresProficiency": false,
+            "count": 10,
+            "key": "gp"
+          }
+        ],
+        "wealth": ""
+      },
+      "effects": [],
+      "folder": "rec1c7f40d6b95a8",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rc666137888a56ef",
+      "_key": "!items!rc666137888a56ef",
+      "name": "The Hidden Valley of the Ganzu",
+      "type": "background",
+      "img": "modules/rokugan5e/icons/game-icons/world.svg",
+      "system": {
+        "description": {
+          "value": "<p>Also grants proficiency with: Ganzu (language), Nehiri (language), Any one tool, Mounts (apply manually).</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 174.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "thehiddenvalleyoftheganzu",
+        "advancement": [
+          {
+            "_id": "r82494d8dfb02470",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": true,
+              "grants": [
+                "skills:prc"
+              ],
+              "choices": []
+            },
+            "level": 1,
+            "title": "Skill Proficiencies",
+            "value": {
+              "chosen": []
+            }
+          },
+          {
+            "_id": "r7c1758578f618af",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "skills:ani",
+                    "skills:med",
+                    "skills:sur"
+                  ]
+                }
+              ]
+            },
+            "level": 1,
+            "title": "Skill Proficiency",
+            "value": {
+              "chosen": []
+            }
+          },
+          {
+            "_id": "rf0cea389229e881",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned"
+              ],
+              "choices": []
+            },
+            "level": 1,
+            "title": "Languages",
+            "value": {
+              "chosen": []
+            }
+          }
+        ],
+        "startingEquipment": [
+          {
+            "type": "AND",
+            "_id": "be0000000000003a",
+            "group": "",
+            "sort": 100000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "linked",
+            "_id": "be0000000000003b",
+            "group": "be0000000000003a",
+            "sort": 200000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rotravelingcloth"
+          },
+          {
+            "type": "linked",
+            "_id": "be0000000000003c",
+            "group": "be0000000000003a",
+            "sort": 300000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rwhatchet0000000"
+          },
+          {
+            "type": "currency",
+            "_id": "be0000000000003d",
+            "group": "be0000000000003a",
+            "sort": 400000,
+            "requiresProficiency": false,
+            "count": 3,
+            "key": "gp"
+          }
+        ],
+        "wealth": ""
+      },
+      "effects": [],
+      "folder": "rec1c7f40d6b95a8",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rd27685c86b74d6d",
+      "_key": "!items!rd27685c86b74d6d",
+      "name": "Calamac Ordu",
+      "type": "background",
+      "img": "modules/rokugan5e/icons/game-icons/world.svg",
+      "system": {
+        "description": {
+          "value": "<p>Also grants proficiency with: Nehiri (language), Any one artisan tool, Mounts (apply manually).</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 175.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "calamacordu",
+        "advancement": [
+          {
+            "_id": "r42433de1c2b0d1c",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": true,
+              "grants": [
+                "skills:ani"
+              ],
+              "choices": []
+            },
+            "level": 1,
+            "title": "Skill Proficiencies",
+            "value": {
+              "chosen": []
+            }
+          },
+          {
+            "_id": "r1c7da88a6e154ae",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "skills:arc",
+                    "skills:his",
+                    "skills:inv",
+                    "skills:nat",
+                    "skills:rel"
+                  ]
+                }
+              ]
+            },
+            "level": 1,
+            "title": "Skill Proficiency",
+            "value": {
+              "chosen": []
+            }
+          },
+          {
+            "_id": "r7123154cab37edd",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "weapon:sim:huntingbow"
+              ],
+              "choices": []
+            },
+            "level": 1,
+            "title": "Weapon Proficiency",
+            "value": {
+              "chosen": []
+            }
+          },
+          {
+            "_id": "r9c57a4b8696a4ae",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned",
+                "languages:rokugan:ujik"
+              ],
+              "choices": []
+            },
+            "level": 1,
+            "title": "Languages",
+            "value": {
+              "chosen": []
+            }
+          }
+        ],
+        "startingEquipment": [
+          {
+            "type": "AND",
+            "_id": "be0000000000003e",
+            "group": "",
+            "sort": 100000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "OR",
+            "_id": "be0000000000003f",
+            "group": "be0000000000003e",
+            "sort": 200000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "linked",
+            "_id": "be00000000000040",
+            "group": "be0000000000003f",
+            "sort": 300000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.roresplendentreg"
+          },
+          {
+            "type": "linked",
+            "_id": "be00000000000041",
+            "group": "be0000000000003f",
+            "sort": 400000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rotravelingcloth"
+          },
+          {
+            "type": "linked",
+            "_id": "be00000000000042",
+            "group": "be0000000000003e",
+            "sort": 500000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rwdagger00000000"
+          },
+          {
+            "type": "linked",
+            "_id": "be00000000000043",
+            "group": "be0000000000003e",
+            "sort": 600000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rwhuntingbow0000"
+          },
+          {
+            "type": "linked",
+            "_id": "be00000000000044",
+            "group": "be0000000000003e",
+            "sort": 700000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.r4d724f6afc21a58"
+          },
+          {
+            "type": "linked",
+            "_id": "be00000000000045",
+            "group": "be0000000000003e",
+            "sort": 800000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.r3eab20a524d28ea"
+          },
+          {
+            "type": "currency",
+            "_id": "be00000000000046",
+            "group": "be0000000000003e",
+            "sort": 900000,
+            "requiresProficiency": false,
+            "count": 5,
+            "key": "gp"
+          }
+        ],
+        "wealth": ""
+      },
+      "effects": [],
+      "folder": "rec1c7f40d6b95a8",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r1517b560e945d8a",
+      "_key": "!items!r1517b560e945d8a",
+      "name": "Menghes Ordu",
+      "type": "background",
+      "img": "modules/rokugan5e/icons/game-icons/world.svg",
+      "system": {
+        "description": {
+          "value": "<p>Also grants proficiency with: Any one artisan tool, Mounts (apply manually).</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 175.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "menghesordu",
+        "advancement": [
+          {
+            "_id": "r2d6e5e100e8d487",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": true,
+              "grants": [
+                "skills:ani"
+              ],
+              "choices": []
+            },
+            "level": 1,
+            "title": "Skill Proficiencies",
+            "value": {
+              "chosen": []
+            }
+          },
+          {
+            "_id": "r5a4a99fbb808b8f",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "skills:ins",
+                    "skills:med",
+                    "skills:prc",
+                    "skills:sur"
+                  ]
+                }
+              ]
+            },
+            "level": 1,
+            "title": "Skill Proficiency",
+            "value": {
+              "chosen": []
+            }
+          },
+          {
+            "_id": "r46c442737aadb56",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "weapon:sim:huntingbow"
+              ],
+              "choices": []
+            },
+            "level": 1,
+            "title": "Weapon Proficiency",
+            "value": {
+              "chosen": []
+            }
+          },
+          {
+            "_id": "r909b8f1b7258947",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned",
+                "languages:rokugan:ujik"
+              ],
+              "choices": []
+            },
+            "level": 1,
+            "title": "Languages",
+            "value": {
+              "chosen": []
+            }
+          },
+          {
+            "_id": "r89622916d3c1c4e",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "languages:rokugan:courtlyRokugani",
+                    "languages:rokugan:ivindi",
+                    "languages:rokugan:jindallaean",
+                    "languages:rokugan:leafRustle",
+                    "languages:rokugan:qamari",
+                    "languages:rokugan:riverSpeech",
+                    "languages:rokugan:skySpeech",
+                    "languages:rokugan:stoneClick",
+                    "languages:rokugan:ujik",
+                    "languages:rokugan:yunFengWen",
+                    "languages:rokugan:animalSpeech",
+                    "languages:rokugan:battleArgot"
+                  ]
+                }
+              ]
+            },
+            "level": 1,
+            "title": "Language",
+            "value": {
+              "chosen": []
+            }
+          }
+        ],
+        "startingEquipment": [
+          {
+            "type": "AND",
+            "_id": "be00000000000047",
+            "group": "",
+            "sort": 100000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "OR",
+            "_id": "be00000000000048",
+            "group": "be00000000000047",
+            "sort": 200000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "linked",
+            "_id": "be00000000000049",
+            "group": "be00000000000048",
+            "sort": 300000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.roresplendentreg"
+          },
+          {
+            "type": "linked",
+            "_id": "be0000000000004a",
+            "group": "be00000000000048",
+            "sort": 400000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rotravelingcloth"
+          },
+          {
+            "type": "linked",
+            "_id": "be0000000000004b",
+            "group": "be00000000000047",
+            "sort": 500000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rwdagger00000000"
+          },
+          {
+            "type": "linked",
+            "_id": "be0000000000004c",
+            "group": "be00000000000047",
+            "sort": 600000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rwhuntingbow0000"
+          },
+          {
+            "type": "linked",
+            "_id": "be0000000000004d",
+            "group": "be00000000000047",
+            "sort": 700000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.r4d724f6afc21a58"
+          },
+          {
+            "type": "linked",
+            "_id": "be0000000000004e",
+            "group": "be00000000000047",
+            "sort": 800000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.r3eab20a524d28ea"
+          },
+          {
+            "type": "currency",
+            "_id": "be0000000000004f",
+            "group": "be00000000000047",
+            "sort": 900000,
+            "requiresProficiency": false,
+            "count": 5,
+            "key": "gp"
+          }
+        ],
+        "wealth": ""
+      },
+      "effects": [],
+      "folder": "rec1c7f40d6b95a8",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r2c632196f863074",
+      "_key": "!items!r2c632196f863074",
+      "name": "Guardian Domain",
+      "type": "background",
+      "img": "modules/rokugan5e/icons/game-icons/world.svg",
+      "system": {
+        "description": {
+          "value": "<p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 177.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "guardiandomain",
+        "advancement": [
+          {
+            "_id": "r3f5f54bab0829d2",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": true,
+              "grants": [
+                "skills:med"
+              ],
+              "choices": []
+            },
+            "level": 1,
+            "title": "Skill Proficiencies",
+            "value": {
+              "chosen": []
+            }
+          },
+          {
+            "_id": "r362da2a6e3eca5c",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "skills:arc",
+                    "skills:his",
+                    "skills:inv",
+                    "skills:nat",
+                    "skills:rel"
+                  ]
+                }
+              ]
+            },
+            "level": 1,
+            "title": "Skill Proficiency",
+            "value": {
+              "chosen": []
+            }
+          },
+          {
+            "_id": "r721f05184610f9a",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "weapon:sim:huntingbow"
+              ],
+              "choices": []
+            },
+            "level": 1,
+            "title": "Weapon Proficiency",
+            "value": {
+              "chosen": []
+            }
+          },
+          {
+            "_id": "r645403753f2775d",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "tool:bowyerskit",
+                "tool:alchemistskit"
+              ],
+              "choices": []
+            },
+            "level": 1,
+            "title": "Tool Proficiency",
+            "value": {
+              "chosen": []
+            }
+          },
+          {
+            "_id": "r2cc664a05b68c5d",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned",
+                "languages:rokugan:yunFengWen"
+              ],
+              "choices": []
+            },
+            "level": 1,
+            "title": "Languages",
+            "value": {
+              "chosen": []
+            }
+          },
+          {
+            "_id": "rdc308934fd9a430",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "languages:rokugan:courtlyRokugani",
+                    "languages:rokugan:ivindi",
+                    "languages:rokugan:jindallaean",
+                    "languages:rokugan:leafRustle",
+                    "languages:rokugan:qamari",
+                    "languages:rokugan:riverSpeech",
+                    "languages:rokugan:skySpeech",
+                    "languages:rokugan:stoneClick",
+                    "languages:rokugan:ujik",
+                    "languages:rokugan:yunFengWen",
+                    "languages:rokugan:animalSpeech",
+                    "languages:rokugan:battleArgot"
+                  ]
+                }
+              ]
+            },
+            "level": 1,
+            "title": "Language",
+            "value": {
+              "chosen": []
+            }
+          }
+        ],
+        "startingEquipment": [
+          {
+            "type": "AND",
+            "_id": "be00000000000050",
+            "group": "",
+            "sort": 100000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "OR",
+            "_id": "be00000000000051",
+            "group": "be00000000000050",
+            "sort": 200000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "linked",
+            "_id": "be00000000000052",
+            "group": "be00000000000051",
+            "sort": 300000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.roresplendentreg"
+          },
+          {
+            "type": "linked",
+            "_id": "be00000000000053",
+            "group": "be00000000000051",
+            "sort": 400000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rotravelingcloth"
+          },
+          {
+            "type": "OR",
+            "_id": "be00000000000054",
+            "group": "be00000000000050",
+            "sort": 500000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "linked",
+            "_id": "be00000000000055",
+            "group": "be00000000000054",
+            "sort": 600000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rwdagger00000000"
+          },
+          {
+            "type": "linked",
+            "_id": "be00000000000056",
+            "group": "be00000000000054",
+            "sort": 700000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rwstaff000000000"
+          },
+          {
+            "type": "linked",
+            "_id": "be00000000000057",
+            "group": "be00000000000050",
+            "sort": 800000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rwhuntingbow0000"
+          },
+          {
+            "type": "linked",
+            "_id": "be00000000000058",
+            "group": "be00000000000050",
+            "sort": 900000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.r4d724f6afc21a58"
+          },
+          {
+            "type": "linked",
+            "_id": "be00000000000059",
+            "group": "be00000000000050",
+            "sort": 1000000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.r3eab20a524d28ea"
+          },
+          {
+            "type": "linked",
+            "_id": "be0000000000005a",
+            "group": "be00000000000050",
+            "sort": 1100000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rbb96b57ecc301a5"
+          },
+          {
+            "type": "linked",
+            "_id": "be0000000000005b",
+            "group": "be00000000000050",
+            "sort": 1200000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.r8b01e3cc5e6e375"
+          },
+          {
+            "type": "currency",
+            "_id": "be0000000000005c",
+            "group": "be00000000000050",
+            "sort": 1300000,
+            "requiresProficiency": false,
+            "count": 8,
+            "key": "gp"
+          }
+        ],
+        "wealth": ""
+      },
+      "effects": [],
+      "folder": "rec1c7f40d6b95a8",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r0afbe871df913ac",
+      "_key": "!items!r0afbe871df913ac",
+      "name": "Xiē Lóng Gǔ, the Immortal",
+      "type": "background",
+      "img": "modules/rokugan5e/icons/game-icons/world.svg",
+      "system": {
+        "description": {
+          "value": "<p>Also grants proficiency with: Any one simple weapon, Any one artisan tool, Vehicles (land) (apply manually).</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 177.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "xielonggutheimmortal",
+        "advancement": [
+          {
+            "_id": "rb23e0f0b8a845c1",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": true,
+              "grants": [
+                "skills:arc"
+              ],
+              "choices": []
+            },
+            "level": 1,
+            "title": "Skill Proficiencies",
+            "value": {
+              "chosen": []
+            }
+          },
+          {
+            "_id": "r2e589553929587b",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "skills:ani",
+                    "skills:ins",
+                    "skills:med",
+                    "skills:prc",
+                    "skills:sur"
+                  ]
+                }
+              ]
+            },
+            "level": 1,
+            "title": "Skill Proficiency",
+            "value": {
+              "chosen": []
+            }
+          },
+          {
+            "_id": "rfe0796a38a0013b",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned",
+                "languages:rokugan:yunFengWen"
+              ],
+              "choices": []
+            },
+            "level": 1,
+            "title": "Languages",
+            "value": {
+              "chosen": []
+            }
+          },
+          {
+            "_id": "r9befab89474233b",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "languages:rokugan:courtlyRokugani",
+                    "languages:rokugan:ivindi",
+                    "languages:rokugan:jindallaean",
+                    "languages:rokugan:leafRustle",
+                    "languages:rokugan:qamari",
+                    "languages:rokugan:riverSpeech",
+                    "languages:rokugan:skySpeech",
+                    "languages:rokugan:stoneClick",
+                    "languages:rokugan:ujik",
+                    "languages:rokugan:yunFengWen",
+                    "languages:rokugan:animalSpeech",
+                    "languages:rokugan:battleArgot"
+                  ]
+                }
+              ]
+            },
+            "level": 1,
+            "title": "Language",
+            "value": {
+              "chosen": []
+            }
+          }
+        ],
+        "startingEquipment": [
+          {
+            "type": "AND",
+            "_id": "be0000000000005d",
+            "group": "",
+            "sort": 100000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "OR",
+            "_id": "be0000000000005e",
+            "group": "be0000000000005d",
+            "sort": 200000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "linked",
+            "_id": "be0000000000005f",
+            "group": "be0000000000005e",
+            "sort": 300000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.roresplendentreg"
+          },
+          {
+            "type": "linked",
+            "_id": "be00000000000060",
+            "group": "be0000000000005e",
+            "sort": 400000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rosanctifiedvest"
+          },
+          {
+            "type": "currency",
+            "_id": "be00000000000061",
+            "group": "be0000000000005d",
+            "sort": 500000,
+            "requiresProficiency": false,
+            "count": 8,
+            "key": "gp"
+          }
+        ],
+        "wealth": ""
+      },
+      "effects": [],
+      "folder": "rec1c7f40d6b95a8",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r033888bf818b0f5",
+      "_key": "!items!r033888bf818b0f5",
+      "name": "Ivory Kingdoms Naga",
+      "type": "background",
+      "img": "modules/rokugan5e/icons/game-icons/oni.svg",
+      "system": {
+        "description": {
+          "value": "<p>Also grants proficiency with: Any one artisan tool (apply manually).</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 181.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "ivorykingdomsnaga",
+        "advancement": [
+          {
+            "_id": "rc49147c677eb4f2",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": true,
+              "grants": [
+                "skills:arc"
+              ],
+              "choices": []
+            },
+            "level": 1,
+            "title": "Skill Proficiencies",
+            "value": {
+              "chosen": []
+            }
+          },
+          {
+            "_id": "rcc61b96d598050b",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "skills:dec",
+                    "skills:itm",
+                    "skills:prf",
+                    "skills:per"
+                  ]
+                }
+              ]
+            },
+            "level": 1,
+            "title": "Skill Proficiency",
+            "value": {
+              "chosen": []
+            }
+          },
+          {
+            "_id": "r917c6e7b00eda90",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned",
+                "languages:rokugan:riverSpeech"
+              ],
+              "choices": []
+            },
+            "level": 1,
+            "title": "Languages",
+            "value": {
+              "chosen": []
+            }
+          },
+          {
+            "_id": "r371cdcfa28af256",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "languages:rokugan:courtlyRokugani",
+                    "languages:rokugan:ivindi",
+                    "languages:rokugan:jindallaean",
+                    "languages:rokugan:leafRustle",
+                    "languages:rokugan:qamari",
+                    "languages:rokugan:riverSpeech",
+                    "languages:rokugan:skySpeech",
+                    "languages:rokugan:stoneClick",
+                    "languages:rokugan:ujik",
+                    "languages:rokugan:yunFengWen",
+                    "languages:rokugan:animalSpeech",
+                    "languages:rokugan:battleArgot"
+                  ]
+                }
+              ]
+            },
+            "level": 1,
+            "title": "Language",
+            "value": {
+              "chosen": []
+            }
+          }
+        ],
+        "startingEquipment": [
+          {
+            "type": "AND",
+            "_id": "be00000000000062",
+            "group": "",
+            "sort": 100000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "currency",
+            "_id": "be00000000000063",
+            "group": "be00000000000062",
+            "sort": 200000,
+            "requiresProficiency": false,
+            "count": 5,
+            "key": "gp"
+          }
+        ],
+        "wealth": ""
+      },
+      "effects": [],
+      "folder": "rd45c5edd8fbff76",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r7a428c81732668f",
+      "_key": "!items!r7a428c81732668f",
+      "name": "Shinomen Naga",
+      "type": "background",
+      "img": "modules/rokugan5e/icons/game-icons/oni.svg",
+      "system": {
+        "description": {
+          "value": "<p>Also grants proficiency with: Any one artisan tool (apply manually).</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 181.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "shinomennaga",
+        "advancement": [
+          {
+            "_id": "r334de22c64b2d2d",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": true,
+              "grants": [
+                "skills:prc"
+              ],
+              "choices": []
+            },
+            "level": 1,
+            "title": "Skill Proficiencies",
+            "value": {
+              "chosen": []
+            }
+          },
+          {
+            "_id": "r8926fa8cd76eca3",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "skills:ani",
+                    "skills:ins",
+                    "skills:med",
+                    "skills:sur"
+                  ]
+                }
+              ]
+            },
+            "level": 1,
+            "title": "Skill Proficiency",
+            "value": {
+              "chosen": []
+            }
+          },
+          {
+            "_id": "r27835c28fbb5433",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned",
+                "languages:rokugan:riverSpeech"
+              ],
+              "choices": []
+            },
+            "level": 1,
+            "title": "Languages",
+            "value": {
+              "chosen": []
+            }
+          },
+          {
+            "_id": "r4e252eb2f133ce1",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "languages:rokugan:courtlyRokugani",
+                    "languages:rokugan:ivindi",
+                    "languages:rokugan:jindallaean",
+                    "languages:rokugan:leafRustle",
+                    "languages:rokugan:qamari",
+                    "languages:rokugan:riverSpeech",
+                    "languages:rokugan:skySpeech",
+                    "languages:rokugan:stoneClick",
+                    "languages:rokugan:ujik",
+                    "languages:rokugan:yunFengWen",
+                    "languages:rokugan:animalSpeech",
+                    "languages:rokugan:battleArgot"
+                  ]
+                }
+              ]
+            },
+            "level": 1,
+            "title": "Language",
+            "value": {
+              "chosen": []
+            }
+          }
+        ],
+        "startingEquipment": [
+          {
+            "type": "AND",
+            "_id": "be00000000000064",
+            "group": "",
+            "sort": 100000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "currency",
+            "_id": "be00000000000065",
+            "group": "be00000000000064",
+            "sort": 200000,
+            "requiresProficiency": false,
+            "count": 5,
+            "key": "gp"
+          }
+        ],
+        "wealth": ""
+      },
+      "effects": [],
+      "folder": "rd45c5edd8fbff76",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r001f0d62ae13c4a",
+      "_key": "!items!r001f0d62ae13c4a",
+      "name": "Tattered Ear Tribe",
+      "type": "background",
+      "img": "modules/rokugan5e/icons/game-icons/oni.svg",
+      "system": {
+        "description": {
+          "value": "<p>Also grants proficiency with: Any one artisan tool or musical instrument (apply manually).</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 182.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "tatteredeartribe",
+        "advancement": [
+          {
+            "_id": "rc510497f4a53fff",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": true,
+              "grants": [
+                "skills:ste"
+              ],
+              "choices": []
+            },
+            "level": 1,
+            "title": "Skill Proficiencies",
+            "value": {
+              "chosen": []
+            }
+          },
+          {
+            "_id": "re08eda2b3f213bb",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "skills:ani",
+                    "skills:ins",
+                    "skills:med",
+                    "skills:prc",
+                    "skills:sur"
+                  ]
+                }
+              ]
+            },
+            "level": 1,
+            "title": "Skill Proficiency",
+            "value": {
+              "chosen": []
+            }
+          },
+          {
+            "_id": "r8b18542383f8e3e",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned",
+                "languages:rokugan:leafRustle"
+              ],
+              "choices": []
+            },
+            "level": 1,
+            "title": "Languages",
+            "value": {
+              "chosen": []
+            }
+          },
+          {
+            "_id": "rb1d1471ea13c467",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "languages:rokugan:courtlyRokugani",
+                    "languages:rokugan:ivindi",
+                    "languages:rokugan:jindallaean",
+                    "languages:rokugan:leafRustle",
+                    "languages:rokugan:qamari",
+                    "languages:rokugan:riverSpeech",
+                    "languages:rokugan:skySpeech",
+                    "languages:rokugan:stoneClick",
+                    "languages:rokugan:ujik",
+                    "languages:rokugan:yunFengWen",
+                    "languages:rokugan:animalSpeech",
+                    "languages:rokugan:battleArgot"
+                  ]
+                }
+              ]
+            },
+            "level": 1,
+            "title": "Language",
+            "value": {
+              "chosen": []
+            }
+          }
+        ],
+        "startingEquipment": [
+          {
+            "type": "AND",
+            "_id": "be00000000000066",
+            "group": "",
+            "sort": 100000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "linked",
+            "_id": "be00000000000067",
+            "group": "be00000000000066",
+            "sort": 200000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rotravelingcloth"
+          },
+          {
+            "type": "linked",
+            "_id": "be00000000000068",
+            "group": "be00000000000066",
+            "sort": 300000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rwdagger00000000"
+          },
+          {
+            "type": "currency",
+            "_id": "be00000000000069",
+            "group": "be00000000000066",
+            "sort": 400000,
+            "requiresProficiency": false,
+            "count": 3,
+            "key": "gp"
+          }
+        ],
+        "wealth": ""
+      },
+      "effects": [],
+      "folder": "rd45c5edd8fbff76",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rdfe084930f01e2f",
+      "_key": "!items!rdfe084930f01e2f",
+      "name": "Court of the Path of Mischief (or Illusion)",
+      "type": "background",
+      "img": "modules/rokugan5e/icons/game-icons/oni.svg",
+      "system": {
+        "description": {
+          "value": "<p>Also grants proficiency with: Any one tool of subterfuge (apply manually).</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 185.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "courtofthepathofmischief",
+        "advancement": [
+          {
+            "_id": "r57a5a9aadd380de",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": true,
+              "grants": [
+                "skills:dec"
+              ],
+              "choices": []
+            },
+            "level": 1,
+            "title": "Skill Proficiencies",
+            "value": {
+              "chosen": []
+            }
+          },
+          {
+            "_id": "r4aac9b1a016804a",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "skills:acr",
+                    "skills:slt",
+                    "skills:ste"
+                  ]
+                }
+              ]
+            },
+            "level": 1,
+            "title": "Skill Proficiency",
+            "value": {
+              "chosen": []
+            }
+          },
+          {
+            "_id": "r4a872530498e94d",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned",
+                "languages:rokugan:animalSpeech"
+              ],
+              "choices": []
+            },
+            "level": 1,
+            "title": "Languages",
+            "value": {
+              "chosen": []
+            }
+          }
+        ],
+        "startingEquipment": [
+          {
+            "type": "AND",
+            "_id": "be0000000000006a",
+            "group": "",
+            "sort": 100000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "currency",
+            "_id": "be0000000000006b",
+            "group": "be0000000000006a",
+            "sort": 200000,
+            "requiresProficiency": false,
+            "count": 10,
+            "key": "gp"
+          }
+        ],
+        "wealth": ""
+      },
+      "effects": [],
+      "folder": "rd45c5edd8fbff76",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r820a224949512d0",
+      "_key": "!items!r820a224949512d0",
+      "name": "The Realm of the Hungry Dead",
+      "type": "background",
+      "img": "modules/rokugan5e/icons/game-icons/oni.svg",
+      "system": {
+        "description": {
+          "value": "<p>Also grants proficiency with: Any one gaming set or musical instrument (apply manually).</p><p>Feature and full text: see the book.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 185.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "therealmofthehungrydead",
+        "advancement": [
+          {
+            "_id": "redbe2f3bdeca475",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": true,
+              "grants": [
+                "skills:dec"
+              ],
+              "choices": []
+            },
+            "level": 1,
+            "title": "Skill Proficiencies",
+            "value": {
+              "chosen": []
+            }
+          },
+          {
+            "_id": "rc013dcfd4a43ca8",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "skills:ani",
+                    "skills:ins",
+                    "skills:med",
+                    "skills:prc",
+                    "skills:sur"
+                  ]
+                }
+              ]
+            },
+            "level": 1,
+            "title": "Skill Proficiency",
+            "value": {
+              "chosen": []
+            }
+          },
+          {
+            "_id": "re4d035b0c2273ec",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [
+                "languages:rokugan:rokugani",
+                "languages:rokugan:rokuganiSigned",
+                "languages:rokugan:courtlyRokugani"
+              ],
+              "choices": []
+            },
+            "level": 1,
+            "title": "Languages",
+            "value": {
+              "chosen": []
+            }
+          },
+          {
+            "_id": "rfd564271dc27f59",
+            "type": "Trait",
+            "configuration": {
+              "mode": "default",
+              "allowReplacements": false,
+              "grants": [],
+              "choices": [
+                {
+                  "count": 1,
+                  "pool": [
+                    "languages:rokugan:courtlyRokugani",
+                    "languages:rokugan:ivindi",
+                    "languages:rokugan:jindallaean",
+                    "languages:rokugan:leafRustle",
+                    "languages:rokugan:qamari",
+                    "languages:rokugan:riverSpeech",
+                    "languages:rokugan:skySpeech",
+                    "languages:rokugan:stoneClick",
+                    "languages:rokugan:ujik",
+                    "languages:rokugan:yunFengWen",
+                    "languages:rokugan:animalSpeech",
+                    "languages:rokugan:battleArgot"
+                  ]
+                }
+              ]
+            },
+            "level": 1,
+            "title": "Language",
+            "value": {
+              "chosen": []
+            }
+          }
+        ],
+        "startingEquipment": [
+          {
+            "type": "AND",
+            "_id": "be0000000000006c",
+            "group": "",
+            "sort": 100000,
+            "requiresProficiency": false
+          },
+          {
+            "type": "linked",
+            "_id": "be0000000000006d",
+            "group": "be0000000000006c",
+            "sort": 200000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rounremarkablega"
+          },
+          {
+            "type": "linked",
+            "_id": "be0000000000006e",
+            "group": "be0000000000006c",
+            "sort": 300000,
+            "requiresProficiency": false,
+            "count": null,
+            "key": "Compendium.rokugan5e.equipment.Item.rwdagger00000000"
+          },
+          {
+            "type": "currency",
+            "_id": "be0000000000006f",
+            "group": "be0000000000006c",
+            "sort": 400000,
+            "requiresProficiency": false,
+            "count": 5,
+            "key": "cp"
+          }
+        ],
+        "wealth": ""
+      },
+      "effects": [],
+      "folder": "rd45c5edd8fbff76",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
     }
   ]
 }

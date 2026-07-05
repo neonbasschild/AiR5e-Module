@@ -813,44 +813,6 @@
       }
     },
     {
-      "_id": "rc9ad0de0de371e0",
-      "_key": "!items!rc9ad0de0de371e0",
-      "name": "Fighting Style",
-      "type": "feat",
-      "img": "modules/rokugan5e/icons/game-icons/battle-gear.svg",
-      "system": {
-        "description": {
-          "value": "<p>Bushi class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 44.</em></p>",
-          "chat": ""
-        },
-        "source": {
-          "book": "Adventures in Rokugan",
-          "custom": "Adventures in Rokugan"
-        },
-        "identifier": "bushifightingstyle",
-        "type": {
-          "value": "class",
-          "subtype": ""
-        },
-        "requirements": "Bushi 1",
-        "properties": [],
-        "activities": {},
-        "uses": {
-          "max": "",
-          "spent": 0,
-          "recovery": []
-        },
-        "advancement": []
-      },
-      "effects": [],
-      "folder": "r9de7337a1114bfe",
-      "sort": 0,
-      "flags": {},
-      "ownership": {
-        "default": 0
-      }
-    },
-    {
       "_id": "ra216929d4998e72",
       "_key": "!items!ra216929d4998e72",
       "name": "Martial Techniques",
@@ -1371,19 +1333,19 @@
     {
       "_id": "r8d3d146957802c9",
       "_key": "!items!r8d3d146957802c9",
-      "name": "Duelist's Poise",
+      "name": "Evasive Footwork",
       "type": "feat",
       "img": "modules/rokugan5e/icons/game-icons/sword-brandish.svg",
       "system": {
         "description": {
-          "value": "<p>Duelist class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 54.</em></p>",
+          "value": "<p>Duelist class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 56.</em></p>",
           "chat": ""
         },
         "source": {
           "book": "Adventures in Rokugan",
           "custom": "Adventures in Rokugan"
         },
-        "identifier": "duelistduelistspoise",
+        "identifier": "duelistevasivefootwork",
         "type": {
           "value": "class",
           "subtype": ""
@@ -1409,19 +1371,19 @@
     {
       "_id": "rd16f35be2499e12",
       "_key": "!items!rd16f35be2499e12",
-      "name": "Flourishes",
+      "name": "Rhetorical Flourishes",
       "type": "feat",
       "img": "modules/rokugan5e/icons/game-icons/sword-brandish.svg",
       "system": {
         "description": {
-          "value": "<p>Courtier class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 67.</em></p>",
+          "value": "<p>Courtier class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 68.</em></p>",
           "chat": ""
         },
         "source": {
           "book": "Adventures in Rokugan",
           "custom": "Adventures in Rokugan"
         },
-        "identifier": "courtierflourishes",
+        "identifier": "courtierrhetoricalflourishes",
         "type": {
           "value": "class",
           "subtype": ""
@@ -1774,120 +1736,6 @@
           "subtype": ""
         },
         "requirements": "Courtier 18",
-        "properties": [],
-        "activities": {},
-        "uses": {
-          "max": "",
-          "spent": 0,
-          "recovery": []
-        },
-        "advancement": []
-      },
-      "effects": [],
-      "folder": "r8e43c657e0ce353",
-      "sort": 0,
-      "flags": {},
-      "ownership": {
-        "default": 0
-      }
-    },
-    {
-      "_id": "rd08122e96020036",
-      "_key": "!items!rd08122e96020036",
-      "name": "Focus Points",
-      "type": "feat",
-      "img": "modules/rokugan5e/icons/game-icons/meditation.svg",
-      "system": {
-        "description": {
-          "value": "<p>Courtier class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 47.</em></p>",
-          "chat": ""
-        },
-        "source": {
-          "book": "Adventures in Rokugan",
-          "custom": "Adventures in Rokugan"
-        },
-        "identifier": "courtierfocuspoints",
-        "type": {
-          "value": "class",
-          "subtype": ""
-        },
-        "requirements": "Courtier 1",
-        "properties": [],
-        "activities": {},
-        "uses": {
-          "max": "",
-          "spent": 0,
-          "recovery": []
-        },
-        "advancement": []
-      },
-      "effects": [],
-      "folder": "r8e43c657e0ce353",
-      "sort": 0,
-      "flags": {},
-      "ownership": {
-        "default": 0
-      }
-    },
-    {
-      "_id": "rdcfda4432160144",
-      "_key": "!items!rdcfda4432160144",
-      "name": "Courtly Techniques",
-      "type": "feat",
-      "img": "modules/rokugan5e/icons/game-icons/battle-gear.svg",
-      "system": {
-        "description": {
-          "value": "<p>Courtier class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 64.</em></p>",
-          "chat": ""
-        },
-        "source": {
-          "book": "Adventures in Rokugan",
-          "custom": "Adventures in Rokugan"
-        },
-        "identifier": "courtiercourtlytechniques",
-        "type": {
-          "value": "class",
-          "subtype": ""
-        },
-        "requirements": "Courtier 1",
-        "properties": [],
-        "activities": {},
-        "uses": {
-          "max": "",
-          "spent": 0,
-          "recovery": []
-        },
-        "advancement": []
-      },
-      "effects": [],
-      "folder": "r8e43c657e0ce353",
-      "sort": 0,
-      "flags": {},
-      "ownership": {
-        "default": 0
-      }
-    },
-    {
-      "_id": "rec2f7131775b032",
-      "_key": "!items!rec2f7131775b032",
-      "name": "Rhetoric",
-      "type": "feat",
-      "img": "modules/rokugan5e/icons/game-icons/scroll-unfurled.svg",
-      "system": {
-        "description": {
-          "value": "<p>Courtier class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 64.</em></p>",
-          "chat": ""
-        },
-        "source": {
-          "book": "Adventures in Rokugan",
-          "custom": "Adventures in Rokugan"
-        },
-        "identifier": "courtierrhetoric",
-        "type": {
-          "value": "class",
-          "subtype": ""
-        },
-        "requirements": "Courtier 1",
         "properties": [],
         "activities": {},
         "uses": {
@@ -2657,44 +2505,6 @@
       }
     },
     {
-      "_id": "r449e5a6beae529a",
-      "_key": "!items!r449e5a6beae529a",
-      "name": "Focus Points",
-      "type": "feat",
-      "img": "modules/rokugan5e/icons/game-icons/meditation.svg",
-      "system": {
-        "description": {
-          "value": "<p>Shinobi class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 47.</em></p>",
-          "chat": ""
-        },
-        "source": {
-          "book": "Adventures in Rokugan",
-          "custom": "Adventures in Rokugan"
-        },
-        "identifier": "shinobifocuspoints",
-        "type": {
-          "value": "class",
-          "subtype": ""
-        },
-        "requirements": "Shinobi 1",
-        "properties": [],
-        "activities": {},
-        "uses": {
-          "max": "",
-          "spent": 0,
-          "recovery": []
-        },
-        "advancement": []
-      },
-      "effects": [],
-      "folder": "r6fa4c45f10ee205",
-      "sort": 0,
-      "flags": {},
-      "ownership": {
-        "default": 0
-      }
-    },
-    {
       "_id": "ra6010b52e435a86",
       "_key": "!items!ra6010b52e435a86",
       "name": "Ninja Tools",
@@ -3047,59 +2857,21 @@
       }
     },
     {
-      "_id": "r07eabb67f0c69aa",
-      "_key": "!items!r07eabb67f0c69aa",
-      "name": "Ritual Casting",
-      "type": "feat",
-      "img": "modules/rokugan5e/icons/game-icons/spell-book.svg",
-      "system": {
-        "description": {
-          "value": "<p>Ritualist class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 88.</em></p>",
-          "chat": ""
-        },
-        "source": {
-          "book": "Adventures in Rokugan",
-          "custom": "Adventures in Rokugan"
-        },
-        "identifier": "ritualistritualcasting",
-        "type": {
-          "value": "class",
-          "subtype": ""
-        },
-        "requirements": "Ritualist 1",
-        "properties": [],
-        "activities": {},
-        "uses": {
-          "max": "",
-          "spent": 0,
-          "recovery": []
-        },
-        "advancement": []
-      },
-      "effects": [],
-      "folder": "r3da80b9c07ae0c4",
-      "sort": 0,
-      "flags": {},
-      "ownership": {
-        "default": 0
-      }
-    },
-    {
       "_id": "ra6c79ba6fb79c2b",
       "_key": "!items!ra6c79ba6fb79c2b",
-      "name": "Body, Mind, and Spirit",
+      "name": "Strength of Body and Spirit",
       "type": "feat",
       "img": "modules/rokugan5e/icons/game-icons/brain.svg",
       "system": {
         "description": {
-          "value": "<p>Pilgrim class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 99.</em></p>",
+          "value": "<p>Pilgrim class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 100.</em></p>",
           "chat": ""
         },
         "source": {
           "book": "Adventures in Rokugan",
           "custom": "Adventures in Rokugan"
         },
-        "identifier": "pilgrimbodymindandspirit",
+        "identifier": "pilgrimstrengthofbodyandspirit",
         "type": {
           "value": "class",
           "subtype": ""
@@ -4206,120 +3978,6 @@
               "type": "recoverAll"
             }
           ]
-        },
-        "advancement": []
-      },
-      "effects": [],
-      "folder": "r5ea349cb06521f6",
-      "sort": 0,
-      "flags": {},
-      "ownership": {
-        "default": 0
-      }
-    },
-    {
-      "_id": "r8493077f6b59c49",
-      "_key": "!items!r8493077f6b59c49",
-      "name": "Focus Points",
-      "type": "feat",
-      "img": "modules/rokugan5e/icons/game-icons/meditation.svg",
-      "system": {
-        "description": {
-          "value": "<p>Acolyte class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 47.</em></p>",
-          "chat": ""
-        },
-        "source": {
-          "book": "Adventures in Rokugan",
-          "custom": "Adventures in Rokugan"
-        },
-        "identifier": "acolytefocuspoints",
-        "type": {
-          "value": "class",
-          "subtype": ""
-        },
-        "requirements": "Acolyte 1",
-        "properties": [],
-        "activities": {},
-        "uses": {
-          "max": "",
-          "spent": 0,
-          "recovery": []
-        },
-        "advancement": []
-      },
-      "effects": [],
-      "folder": "r5ea349cb06521f6",
-      "sort": 0,
-      "flags": {},
-      "ownership": {
-        "default": 0
-      }
-    },
-    {
-      "_id": "re2b2b75f04d3c04",
-      "_key": "!items!re2b2b75f04d3c04",
-      "name": "Martial Techniques",
-      "type": "feat",
-      "img": "modules/rokugan5e/icons/game-icons/battle-gear.svg",
-      "system": {
-        "description": {
-          "value": "<p>Acolyte class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 47.</em></p>",
-          "chat": ""
-        },
-        "source": {
-          "book": "Adventures in Rokugan",
-          "custom": "Adventures in Rokugan"
-        },
-        "identifier": "acolytemartialtechniques",
-        "type": {
-          "value": "class",
-          "subtype": ""
-        },
-        "requirements": "Acolyte 1",
-        "properties": [],
-        "activities": {},
-        "uses": {
-          "max": "",
-          "spent": 0,
-          "recovery": []
-        },
-        "advancement": []
-      },
-      "effects": [],
-      "folder": "r5ea349cb06521f6",
-      "sort": 0,
-      "flags": {},
-      "ownership": {
-        "default": 0
-      }
-    },
-    {
-      "_id": "r6cd353dd2ed10a7",
-      "_key": "!items!r6cd353dd2ed10a7",
-      "name": "Supernatural Mark",
-      "type": "feat",
-      "img": "modules/rokugan5e/icons/game-icons/battle-gear.svg",
-      "system": {
-        "description": {
-          "value": "<p>Acolyte class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 112.</em></p>",
-          "chat": ""
-        },
-        "source": {
-          "book": "Adventures in Rokugan",
-          "custom": "Adventures in Rokugan"
-        },
-        "identifier": "acolytesupernaturalmark",
-        "type": {
-          "value": "class",
-          "subtype": ""
-        },
-        "requirements": "Acolyte 1",
-        "properties": [],
-        "activities": {},
-        "uses": {
-          "max": "",
-          "spent": 0,
-          "recovery": []
         },
         "advancement": []
       },
@@ -10936,6 +10594,82 @@
       },
       "effects": [],
       "folder": "r00588ba07faea0a",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rCultivPotentia1",
+      "_key": "!items!rCultivPotentia1",
+      "name": "Cultivated Potential",
+      "type": "feat",
+      "img": "modules/rokugan5e/icons/game-icons/brain.svg",
+      "system": {
+        "description": {
+          "value": "<p>Pilgrim class feature (level 1).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 99.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "pilgrimcultivatedpotential",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Pilgrim 1",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "r67d1abe04ad445a",
+      "sort": 0,
+      "flags": {},
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r25dcdd05d54fec7",
+      "_key": "!items!r25dcdd05d54fec7",
+      "name": "Body and Mind",
+      "type": "feat",
+      "img": "modules/rokugan5e/icons/game-icons/fist.svg",
+      "system": {
+        "description": {
+          "value": "<p>Acolyte of Togashi feature (level 1).</p><p>When you take the Attack action, you can make one unarmed strike as a bonus action. You use a d4 for your unarmed strikes, and you gain proficiency in Strength saving throws.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 117.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "acolytetogashibodyandmind",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Acolyte of Togashi 1",
+        "properties": [],
+        "activities": {},
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "advancement": []
+      },
+      "effects": [],
+      "folder": "r5ea349cb06521f6",
       "sort": 0,
       "flags": {},
       "ownership": {

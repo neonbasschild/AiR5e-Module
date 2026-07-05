@@ -420,6 +420,28 @@
     },
     "Credits": {
       "Copyright": "© 2022 Edge Studio under licence of Fantasy Flight Games. Legend of the Five Rings, the L5R logo, and the white FFG logo are trademarks of Fantasy Flight Games. Fantasy Flight Games and the FFG logo are registered trademarks of Fantasy Flight Games. Published by Edge Studio - Asmodee Group. 18 rue Jacqueline Auriol, Quartier Villaroy, BP 40119 Guyancourt Cedex, France. Any reproduction or unauthorized use of the material or artwork contained herein is prohibited without the express written permission of Edge Studio."
+    },
+    "Ninja": {
+      "NinjaTools": "Ninja Tools",
+      "Ninjutsu": "Ninjutsu",
+      "MercilessStrike": "Merciless Strike",
+      "Use": "Use 1 Ninja Tool",
+      "Prepare": "Prepare 1 Ninja Tool",
+      "Refresh": "Refresh",
+      "RefreshNotif": "Ninja tools prepared (full set).",
+      "LongRestNote": "Ninja tools are prepared during a long rest and are expended when used. Merciless Strike damage scales with your shinobi level."
+    },
+    "Intrigue": {
+      "IntrigueDice": "Intrigue Dice",
+      "IntrigueDie": "Intrigue Die",
+      "Flourishes": "Flourishes Known",
+      "Spend": "Spend 1 Intrigue Die",
+      "Gain": "Regain 1 Intrigue Die",
+      "ShortRest": "Short rest: regain half of expended intrigue dice (rounded down)",
+      "ShortRestShort": "Short Rest",
+      "LongRest": "Long rest: regain all intrigue dice",
+      "LongRestShort": "Long Rest",
+      "RecoveryNote": "Intrigue dice fuel your rhetorical flourishes. You regain half of your expended dice on a short rest, and all of them on a long rest."
     }
   },
   "DND5E": {

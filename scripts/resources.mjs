@@ -43,6 +43,8 @@ export class RokuganResources {
         ...ROKUGAN_TABLES.focusClasses,
         ...ROKUGAN_TABLES.favorClasses,
         ...ROKUGAN_TABLES.yinYangClasses,
+        ...ROKUGAN_TABLES.ninjaClasses,
+        ...ROKUGAN_TABLES.intrigueClasses,
       ];
 
       for (const rClass of allClasses) {
@@ -63,6 +65,8 @@ export class RokuganResources {
     if (ROKUGAN_TABLES.focusClasses.includes(cls.className))  return "focus";
     if (ROKUGAN_TABLES.favorClasses.includes(cls.className))  return "favor";
     if (ROKUGAN_TABLES.yinYangClasses.includes(cls.className)) return "yinyang";
+    if (ROKUGAN_TABLES.ninjaClasses.includes(cls.className))  return "ninja";
+    if (ROKUGAN_TABLES.intrigueClasses.includes(cls.className)) return "intrigue";
     return null;
   }
 
@@ -83,6 +87,22 @@ export class RokuganResources {
     const table = ROKUGAN_TABLES.ritualist;
     const row = table[Math.min(level, 20)];
     return row?.favorMax ?? 0;
+  }
+
+  // ----------------------------------------
+  // NINJA: Max prepared ninja tools for shinobi level
+  // ----------------------------------------
+  static getNinjaMax(level) {
+    const row = ROKUGAN_TABLES.shinobi?.[Math.min(level, 20)];
+    return row?.ninjaTools ?? 0;
+  }
+
+  // ----------------------------------------
+  // INTRIGUE: Max intrigue dice for courtier level
+  // ----------------------------------------
+  static getIntrigueMax(level) {
+    const row = ROKUGAN_TABLES.courtier?.[Math.min(level, 20)];
+    return row?.intrigueDice ?? 0;
   }
 
   // ----------------------------------------
@@ -171,6 +191,48 @@ export class RokuganResources {
   }
 
   // ----------------------------------------
+  // NINJA: Get ninja-tools data for a shinobi actor
+  // ----------------------------------------
+  static getNinjaData(actor) {
+    const cls = RokuganResources.getRokuganClass(actor);
+    if (!cls || !ROKUGAN_TABLES.ninjaClasses.includes(cls.className)) return null;
+
+    const max = RokuganResources.getNinjaMax(cls.level);
+    const res = RokuganResources.get(actor);
+    const current = res.ninja?.current ?? max; // prepared full after a long rest
+
+    return {
+      current: Math.min(current, max),
+      max,
+      className: cls.className,
+      level: cls.level,
+      mercStrike: ROKUGAN_TABLES.shinobi?.[Math.min(cls.level, 20)]?.mercStrike ?? "",
+    };
+  }
+
+  // ----------------------------------------
+  // INTRIGUE: Get intrigue-dice data for a courtier actor
+  // ----------------------------------------
+  static getIntrigueData(actor) {
+    const cls = RokuganResources.getRokuganClass(actor);
+    if (!cls || !ROKUGAN_TABLES.intrigueClasses.includes(cls.className)) return null;
+
+    const row = ROKUGAN_TABLES.courtier?.[Math.min(cls.level, 20)];
+    const max = row?.intrigueDice ?? 0;
+    const res = RokuganResources.get(actor);
+    const current = res.intrigue?.current ?? max; // start full
+
+    return {
+      current: Math.min(current, max),
+      max,
+      die: row?.intrigueDie ?? "d6",
+      flourishes: row?.flourishes ?? 0,
+      className: cls.className,
+      level: cls.level,
+    };
+  }
+
+  // ----------------------------------------
   // SETTERS
   // ----------------------------------------
 
@@ -180,6 +242,26 @@ export class RokuganResources {
     const clamped = Math.max(0, Math.min(value, focusData.max));
     const res = foundry.utils.deepClone(RokuganResources.get(actor));
     res.focus = { ...res.focus, current: clamped };
+    await actor.setFlag(RokuganResources.FLAG_SCOPE, RokuganResources.FLAG_KEY, res);
+    return clamped;
+  }
+
+  static async setNinja(actor, value) {
+    const ninjaData = RokuganResources.getNinjaData(actor);
+    if (!ninjaData) return;
+    const clamped = Math.max(0, Math.min(value, ninjaData.max));
+    const res = foundry.utils.deepClone(RokuganResources.get(actor));
+    res.ninja = { ...res.ninja, current: clamped };
+    await actor.setFlag(RokuganResources.FLAG_SCOPE, RokuganResources.FLAG_KEY, res);
+    return clamped;
+  }
+
+  static async setIntrigue(actor, value) {
+    const data = RokuganResources.getIntrigueData(actor);
+    if (!data) return;
+    const clamped = Math.max(0, Math.min(value, data.max));
+    const res = foundry.utils.deepClone(RokuganResources.get(actor));
+    res.intrigue = { ...res.intrigue, current: clamped };
     await actor.setFlag(RokuganResources.FLAG_SCOPE, RokuganResources.FLAG_KEY, res);
     return clamped;
   }

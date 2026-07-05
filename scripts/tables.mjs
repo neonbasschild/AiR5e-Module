@@ -65,82 +65,60 @@ export const ROKUGAN_TABLES = {
   },
 
   // ----------------------------------------
-  // Courtier: Focus Maximum & Techniques Known
-  // (slightly lower focus ceiling than Bushi)
+  // Courtier: Intrigue Dice (a spendable pool that fuels rhetorical flourishes;
+  // regain half on a short rest, all on a long rest), the Intrigue Die size, and
+  // Total Flourishes Known (Adventures in Rokugan, Table 2-3, p. 66). Courtiers
+  // do NOT use Focus.
   // ----------------------------------------
   courtier: {
-    1:  { focusMax: 3,  techniques: 1 },
-    2:  { focusMax: 3,  techniques: 2 },
-    3:  { focusMax: 3,  techniques: 2 },
-    4:  { focusMax: 4,  techniques: 2 },
-    5:  { focusMax: 4,  techniques: 3 },
-    6:  { focusMax: 4,  techniques: 3 },
-    7:  { focusMax: 5,  techniques: 3 },
-    8:  { focusMax: 5,  techniques: 3 },
-    9:  { focusMax: 5,  techniques: 4 },
-    10: { focusMax: 6,  techniques: 4 },
-    11: { focusMax: 6,  techniques: 4 },
-    12: { focusMax: 6,  techniques: 5 },
-    13: { focusMax: 7,  techniques: 5 },
-    14: { focusMax: 7,  techniques: 5 },
-    15: { focusMax: 7,  techniques: 6 },
-    16: { focusMax: 8,  techniques: 6 },
-    17: { focusMax: 8,  techniques: 6 },
-    18: { focusMax: 8,  techniques: 7 },
-    19: { focusMax: 9,  techniques: 7 },
-    20: { focusMax: 9,  techniques: 7 },
+    1:  { intrigueDice: 2, intrigueDie: "d6",  flourishes: 1 },
+    2:  { intrigueDice: 2, intrigueDie: "d6",  flourishes: 3 },
+    3:  { intrigueDice: 3, intrigueDie: "d6",  flourishes: 4 },
+    4:  { intrigueDice: 3, intrigueDie: "d6",  flourishes: 4 },
+    5:  { intrigueDice: 3, intrigueDie: "d8",  flourishes: 4 },
+    6:  { intrigueDice: 4, intrigueDie: "d8",  flourishes: 5 },
+    7:  { intrigueDice: 4, intrigueDie: "d8",  flourishes: 5 },
+    8:  { intrigueDice: 4, intrigueDie: "d8",  flourishes: 5 },
+    9:  { intrigueDice: 5, intrigueDie: "d8",  flourishes: 6 },
+    10: { intrigueDice: 5, intrigueDie: "d10", flourishes: 6 },
+    11: { intrigueDice: 5, intrigueDie: "d10", flourishes: 6 },
+    12: { intrigueDice: 5, intrigueDie: "d10", flourishes: 7 },
+    13: { intrigueDice: 6, intrigueDie: "d10", flourishes: 7 },
+    14: { intrigueDice: 6, intrigueDie: "d10", flourishes: 7 },
+    15: { intrigueDice: 6, intrigueDie: "d10", flourishes: 8 },
+    16: { intrigueDice: 6, intrigueDie: "d10", flourishes: 8 },
+    17: { intrigueDice: 7, intrigueDie: "d10", flourishes: 8 },
+    18: { intrigueDice: 7, intrigueDie: "d10", flourishes: 9 },
+    19: { intrigueDice: 7, intrigueDie: "d12", flourishes: 9 },
+    20: { intrigueDice: 8, intrigueDie: "d12", flourishes: 10 },
   },
 
   // ----------------------------------------
-  // Shinobi: Focus Maximum & Techniques Known
+  // Shinobi: Ninja Tools (prepared, expended on use, refreshed on a long rest)
+  // & Merciless Strike damage (Adventures in Rokugan, Table 2-4, p. 78). The
+  // shinobi's system is Ninjutsu (Dexterity-based); they do NOT use Focus.
   // ----------------------------------------
   shinobi: {
-    1:  { focusMax: 4,  techniques: 1 },
-    2:  { focusMax: 4,  techniques: 2 },
-    3:  { focusMax: 4,  techniques: 2 },
-    4:  { focusMax: 5,  techniques: 2 },
-    5:  { focusMax: 5,  techniques: 3 },
-    6:  { focusMax: 5,  techniques: 3 },
-    7:  { focusMax: 6,  techniques: 3 },
-    8:  { focusMax: 6,  techniques: 3 },
-    9:  { focusMax: 6,  techniques: 4 },
-    10: { focusMax: 7,  techniques: 4 },
-    11: { focusMax: 7,  techniques: 4 },
-    12: { focusMax: 7,  techniques: 5 },
-    13: { focusMax: 8,  techniques: 5 },
-    14: { focusMax: 8,  techniques: 5 },
-    15: { focusMax: 8,  techniques: 6 },
-    16: { focusMax: 9,  techniques: 6 },
-    17: { focusMax: 9,  techniques: 6 },
-    18: { focusMax: 9,  techniques: 7 },
-    19: { focusMax: 10, techniques: 7 },
-    20: { focusMax: 10, techniques: 7 },
-  },
-
-  // ----------------------------------------
-  // Acolyte: Focus Maximum & Techniques Known
-  // ----------------------------------------
-  acolyte: {
-    1:  { focusMax: 3,  techniques: 1 },
-    2:  { focusMax: 3,  techniques: 2 },
-    3:  { focusMax: 3,  techniques: 2 },
-    4:  { focusMax: 4,  techniques: 2 },
-    5:  { focusMax: 4,  techniques: 3 },
-    6:  { focusMax: 4,  techniques: 3 },
-    7:  { focusMax: 5,  techniques: 3 },
-    8:  { focusMax: 5,  techniques: 3 },
-    9:  { focusMax: 5,  techniques: 4 },
-    10: { focusMax: 6,  techniques: 4 },
-    11: { focusMax: 6,  techniques: 4 },
-    12: { focusMax: 6,  techniques: 5 },
-    13: { focusMax: 7,  techniques: 5 },
-    14: { focusMax: 7,  techniques: 5 },
-    15: { focusMax: 7,  techniques: 6 },
-    16: { focusMax: 8,  techniques: 6 },
-    17: { focusMax: 8,  techniques: 6 },
-    18: { focusMax: 8,  techniques: 7 },
-    19: { focusMax: 9,  techniques: 7 },
-    20: { focusMax: 9,  techniques: 7 },
+    1:  { ninjaTools: 2, mercStrike: "1d4 (max 2d4)" },
+    2:  { ninjaTools: 2, mercStrike: "1d4 (max 2d4)" },
+    3:  { ninjaTools: 2, mercStrike: "2d4 (max 4d4)" },
+    4:  { ninjaTools: 2, mercStrike: "2d4 (max 4d4)" },
+    5:  { ninjaTools: 2, mercStrike: "2d4 (max 6d4)" },
+    6:  { ninjaTools: 3, mercStrike: "2d4 (max 6d4)" },
+    7:  { ninjaTools: 3, mercStrike: "2d6 (max 6d6)" },
+    8:  { ninjaTools: 3, mercStrike: "2d6 (max 6d6)" },
+    9:  { ninjaTools: 3, mercStrike: "3d4 (max 9d4)" },
+    10: { ninjaTools: 3, mercStrike: "3d4 (max 9d4)" },
+    11: { ninjaTools: 4, mercStrike: "2d8 (max 6d8)" },
+    12: { ninjaTools: 4, mercStrike: "2d8 (max 6d8)" },
+    13: { ninjaTools: 4, mercStrike: "3d6 (max 9d6)" },
+    14: { ninjaTools: 4, mercStrike: "3d6 (max 9d6)" },
+    15: { ninjaTools: 4, mercStrike: "3d6 (max 12d6)" },
+    16: { ninjaTools: 5, mercStrike: "3d6 (max 12d6)" },
+    17: { ninjaTools: 5, mercStrike: "3d8 (max 12d8)" },
+    18: { ninjaTools: 5, mercStrike: "3d8 (max 12d8)" },
+    19: { ninjaTools: 5, mercStrike: "4d6 (max 16d6)" },
+    20: { ninjaTools: 5, mercStrike: "4d6 (max 16d6)" },
   },
 
   // ----------------------------------------
@@ -261,7 +239,9 @@ export const ROKUGAN_TABLES = {
   // ----------------------------------------
   // Martial classes that use Focus
   // ----------------------------------------
-  focusClasses: ["bushi", "duelist", "courtier", "shinobi", "acolyte"],
+  focusClasses: ["bushi", "duelist"],
+  ninjaClasses: ["shinobi"],
+  intrigueClasses: ["courtier"],
 
   // ----------------------------------------
   // Classes that use Favor

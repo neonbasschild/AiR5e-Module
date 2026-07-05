@@ -179,6 +179,26 @@
       "color": "#4a0e0e",
       "folder": null,
       "sort": 9999
+    },
+    {
+      "_id": "r39ee4a346dc7c2a",
+      "_key": "!folders!r39ee4a346dc7c2a",
+      "name": "Tier 0",
+      "type": "Item",
+      "sorting": "a",
+      "color": "#8a7a3d",
+      "folder": null,
+      "sort": 500
+    },
+    {
+      "_id": "r8ce321fb9408e3f",
+      "_key": "!folders!r8ce321fb9408e3f",
+      "name": "Universal",
+      "type": "Item",
+      "sorting": "a",
+      "color": null,
+      "folder": "r39ee4a346dc7c2a",
+      "sort": 0
     }
   ],
   "entries": [
@@ -1181,7 +1201,7 @@
         }
       },
       "effects": [],
-      "folder": "r22bbe59dfa2bc6a",
+      "folder": "r8ce321fb9408e3f",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -1291,7 +1311,7 @@
         }
       },
       "effects": [],
-      "folder": "r22bbe59dfa2bc6a",
+      "folder": "r8ce321fb9408e3f",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -1524,7 +1544,7 @@
         }
       },
       "effects": [],
-      "folder": "r22bbe59dfa2bc6a",
+      "folder": "r8ce321fb9408e3f",
       "sort": 0,
       "flags": {
         "rokugan5e": {
@@ -4682,7 +4702,7 @@
         }
       },
       "effects": [],
-      "folder": "r22bbe59dfa2bc6a",
+      "folder": "r8ce321fb9408e3f",
       "sort": 0,
       "flags": {
         "rokugan5e": {

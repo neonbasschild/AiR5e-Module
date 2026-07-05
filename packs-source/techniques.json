@@ -29,6 +29,16 @@
       "color": "#8a3d5b",
       "folder": null,
       "sort": 400
+    },
+    {
+      "_id": "r91f0a6efb48eca7",
+      "_key": "!folders!r91f0a6efb48eca7",
+      "name": "Ninja Tools",
+      "type": "Item",
+      "sorting": "a",
+      "color": "#2e2a26",
+      "folder": null,
+      "sort": 500
     }
   ],
   "entries": [
@@ -1610,6 +1620,346 @@
             "mandatoryMovement": "None",
             "requiredWeapon": "",
             "multitarget": false
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r4f1141f93076d49",
+      "_key": "!items!r4f1141f93076d49",
+      "name": "Agonizing Caltrops",
+      "type": "feat",
+      "img": "modules/rokugan5e/icons/game-icons/spiked-mace.svg",
+      "system": {
+        "description": {
+          "value": "<p>Use Time: 1 Action · Range: Self (10-foot-sweep)</p><p>Scatter caltrops that turn the area into difficult terrain. Each creature entering or moving through it makes a Dexterity saving throw or takes 1d4 piercing damage and is maimed for 1 minute (1d10 piercing instead if already maimed). Creatures proficient with ninja tools automatically succeed.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 84.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "agonizingcaltrops",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Ninja tool",
+        "properties": [],
+        "activities": {
+          "r38332e04f046585": {
+            "_id": "r38332e04f046585",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "activation": {}
+      },
+      "effects": [],
+      "folder": "r91f0a6efb48eca7",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "magic": {
+            "kind": "ninjatool"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "rab94fd5020f7824",
+      "_key": "!items!rab94fd5020f7824",
+      "name": "Inflammatory Powder",
+      "type": "feat",
+      "img": "modules/rokugan5e/icons/game-icons/sparkles.svg",
+      "system": {
+        "description": {
+          "value": "<p>Use Time: 1 Action · Range: Self (15-foot-wave)</p><p>Spray an irritating powder. Each creature in range makes a Dexterity saving throw or is blinded for 1 minute, and can repeat the save (Constitution) at the end of each of its turns to end the effect.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 85.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "inflammatorypowder",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Ninja tool",
+        "properties": [],
+        "activities": {
+          "rdcc8bb8309b927c": {
+            "_id": "rdcc8bb8309b927c",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "activation": {}
+      },
+      "effects": [],
+      "folder": "r91f0a6efb48eca7",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "magic": {
+            "kind": "ninjatool"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r8a88f0c083479e5",
+      "_key": "!items!r8a88f0c083479e5",
+      "name": "Shower of Kunai",
+      "type": "feat",
+      "img": "modules/rokugan5e/icons/game-icons/ninja-star.svg",
+      "system": {
+        "description": {
+          "value": "<p>Use Time: 1 Action · Range: 30 feet</p><p>Make a multitarget ninjutsu attack against a number of creatures up to your Dexterity modifier. On a hit, a creature takes 1d6 + your Dexterity modifier piercing damage and suffers bleeding (1d4) for 1 minute.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 85.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "showerofkunai",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Ninja tool",
+        "properties": [],
+        "activities": {
+          "rf7e8322547ad5a1": {
+            "_id": "rf7e8322547ad5a1",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "activation": {}
+      },
+      "effects": [],
+      "folder": "r91f0a6efb48eca7",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "magic": {
+            "kind": "ninjatool"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r0f3db66bb0e083a",
+      "_key": "!items!r0f3db66bb0e083a",
+      "name": "Smoke Screen",
+      "type": "feat",
+      "img": "modules/rokugan5e/icons/game-icons/star-swirl.svg",
+      "system": {
+        "description": {
+          "value": "<p>Use Time: 1 Action · Range: 30 feet</p><p>Detonate a smoke grenade creating a 10-foot-radius heavily obscured sphere for 2 minutes. Thrown at your feet, you may Hide as a free action. Creatures proficient with ninja tools ignore the smoke's attack penalties.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 85.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "smokescreen",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Ninja tool",
+        "properties": [],
+        "activities": {
+          "r30bb30eae893a97": {
+            "_id": "r30bb30eae893a97",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "activation": {}
+      },
+      "effects": [],
+      "folder": "r91f0a6efb48eca7",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "magic": {
+            "kind": "ninjatool"
+          }
+        }
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "r987f5cf3eabcbff",
+      "_key": "!items!r987f5cf3eabcbff",
+      "name": "Venom Vial",
+      "type": "feat",
+      "img": "modules/rokugan5e/icons/game-icons/poison-bottle.svg",
+      "system": {
+        "description": {
+          "value": "<p>Use Time: 1 Action · Range: Self</p><p>Coat a weapon in poison. The next successful attack forces the target to make a Constitution saving throw, taking 1d6 poison damage and the poisoned condition for 1 minute (half damage on a success). A vial holds three uses and loses potency after 4 hours.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 85.</em></p>",
+          "chat": ""
+        },
+        "source": {
+          "book": "Adventures in Rokugan",
+          "custom": "Adventures in Rokugan"
+        },
+        "identifier": "venomvial",
+        "type": {
+          "value": "class",
+          "subtype": ""
+        },
+        "requirements": "Ninja tool",
+        "properties": [],
+        "activities": {
+          "r9110233ca2f7be1": {
+            "_id": "r9110233ca2f7be1",
+            "type": "utility",
+            "name": "",
+            "activation": {
+              "type": "action",
+              "value": 1,
+              "condition": ""
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": false
+            },
+            "description": {},
+            "effects": [],
+            "range": {},
+            "target": {},
+            "uses": {}
+          }
+        },
+        "uses": {
+          "max": "",
+          "spent": 0,
+          "recovery": []
+        },
+        "activation": {}
+      },
+      "effects": [],
+      "folder": "r91f0a6efb48eca7",
+      "sort": 0,
+      "flags": {
+        "rokugan5e": {
+          "magic": {
+            "kind": "ninjatool"
           }
         }
       },

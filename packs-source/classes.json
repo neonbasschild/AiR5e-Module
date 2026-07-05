@@ -483,10 +483,6 @@
                 {
                   "uuid": "Compendium.rokugan5e.classfeatures.Item.r5bdf95579d87364",
                   "optional": false
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rc9ad0de0de371e0",
-                  "optional": false
                 }
               ],
               "optional": false,
@@ -1757,78 +1753,6 @@
             }
           },
           {
-            "_id": "r14f3069021a3a75",
-            "type": "ScaleValue",
-            "title": "Focus Maximum",
-            "configuration": {
-              "identifier": "focus-maximum",
-              "type": "number",
-              "distance": {
-                "units": ""
-              },
-              "scale": {
-                "1": {
-                  "value": 3
-                },
-                "4": {
-                  "value": 4
-                },
-                "7": {
-                  "value": 5
-                },
-                "10": {
-                  "value": 6
-                },
-                "13": {
-                  "value": 7
-                },
-                "16": {
-                  "value": 8
-                },
-                "19": {
-                  "value": 9
-                }
-              }
-            },
-            "value": {}
-          },
-          {
-            "_id": "rdd79a47e1b2f334",
-            "type": "ScaleValue",
-            "title": "Techniques Known",
-            "configuration": {
-              "identifier": "techniques-known",
-              "type": "number",
-              "distance": {
-                "units": ""
-              },
-              "scale": {
-                "1": {
-                  "value": 1
-                },
-                "2": {
-                  "value": 2
-                },
-                "5": {
-                  "value": 3
-                },
-                "9": {
-                  "value": 4
-                },
-                "11": {
-                  "value": 5
-                },
-                "15": {
-                  "value": 6
-                },
-                "18": {
-                  "value": 7
-                }
-              }
-            },
-            "value": {}
-          },
-          {
             "_id": "recd15a39515256b",
             "type": "ScaleValue",
             "title": "Intrigue Dice",
@@ -1894,118 +1818,6 @@
               }
             },
             "value": {}
-          },
-          {
-            "_id": "rac961cf881ffa49",
-            "type": "ItemChoice",
-            "title": "Techniques Known",
-            "configuration": {
-              "hint": "",
-              "choices": {
-                "1": {
-                  "count": 1,
-                  "replacement": false
-                },
-                "2": {
-                  "count": 1,
-                  "replacement": false
-                },
-                "5": {
-                  "count": 1,
-                  "replacement": false
-                },
-                "9": {
-                  "count": 1,
-                  "replacement": false
-                },
-                "11": {
-                  "count": 1,
-                  "replacement": false
-                },
-                "15": {
-                  "count": 1,
-                  "replacement": false
-                },
-                "18": {
-                  "count": 1,
-                  "replacement": false
-                }
-              },
-              "allowDrops": true,
-              "type": "feat",
-              "pool": [
-                {
-                  "uuid": "Compendium.rokugan5e.techniques.Item.rtcrashingwavecu"
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.techniques.Item.rtcrescentmoonde"
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.techniques.Item.rtcrimsonleavesb"
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.techniques.Item.rtfallingheavens"
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.techniques.Item.rtflashingsteelc"
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.techniques.Item.rtflowingwaterst"
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.techniques.Item.rtgripoflordhida"
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.techniques.Item.rtheartpiercingt"
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.techniques.Item.rtiaijutsucutcro"
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.techniques.Item.rtiaijutsucutris"
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.techniques.Item.rtironforestdefe"
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.techniques.Item.rtlaughingfoxdef"
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.techniques.Item.rtsnappingbranch"
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.techniques.Item.rtsparkingsteeld"
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.techniques.Item.rtsoaringthunder"
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.techniques.Item.rtsoulsunderings"
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.techniques.Item.rtswirlingvipers"
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.techniques.Item.rttwinstreamsthr"
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.techniques.Item.rtvanishingworld"
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.techniques.Item.rtveiledmenaceth"
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.techniques.Item.rtwaspsspitevoll"
-                }
-              ],
-              "restriction": {
-                "type": "",
-                "subtype": "",
-                "level": ""
-              }
-            },
-            "value": {},
-            "level": 1
           },
           {
             "_id": "r42b2e10c3ceac11",
@@ -2076,18 +1888,6 @@
                 },
                 {
                   "uuid": "Compendium.rokugan5e.classfeatures.Item.r35714abcb08823e",
-                  "optional": false
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rd08122e96020036",
-                  "optional": false
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rdcfda4432160144",
-                  "optional": false
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rec2f7131775b032",
                   "optional": false
                 },
                 {
@@ -2580,78 +2380,6 @@
             }
           },
           {
-            "_id": "r14f3069021a3a75",
-            "type": "ScaleValue",
-            "title": "Focus Maximum",
-            "configuration": {
-              "identifier": "focus-maximum",
-              "type": "number",
-              "distance": {
-                "units": ""
-              },
-              "scale": {
-                "1": {
-                  "value": 4
-                },
-                "4": {
-                  "value": 5
-                },
-                "7": {
-                  "value": 6
-                },
-                "10": {
-                  "value": 7
-                },
-                "13": {
-                  "value": 8
-                },
-                "16": {
-                  "value": 9
-                },
-                "19": {
-                  "value": 10
-                }
-              }
-            },
-            "value": {}
-          },
-          {
-            "_id": "rdd79a47e1b2f334",
-            "type": "ScaleValue",
-            "title": "Techniques Known",
-            "configuration": {
-              "identifier": "techniques-known",
-              "type": "number",
-              "distance": {
-                "units": ""
-              },
-              "scale": {
-                "1": {
-                  "value": 1
-                },
-                "2": {
-                  "value": 2
-                },
-                "5": {
-                  "value": 3
-                },
-                "9": {
-                  "value": 4
-                },
-                "11": {
-                  "value": 5
-                },
-                "15": {
-                  "value": 6
-                },
-                "18": {
-                  "value": 7
-                }
-              }
-            },
-            "value": {}
-          },
-          {
             "_id": "rc4ac8e382ace056",
             "type": "ScaleValue",
             "title": "Merciless Strikes",
@@ -2822,118 +2550,6 @@
             "value": {}
           },
           {
-            "_id": "r000fbb3ff89588c",
-            "type": "ItemChoice",
-            "title": "Techniques Known",
-            "configuration": {
-              "hint": "",
-              "choices": {
-                "1": {
-                  "count": 1,
-                  "replacement": false
-                },
-                "2": {
-                  "count": 1,
-                  "replacement": false
-                },
-                "5": {
-                  "count": 1,
-                  "replacement": false
-                },
-                "9": {
-                  "count": 1,
-                  "replacement": false
-                },
-                "11": {
-                  "count": 1,
-                  "replacement": false
-                },
-                "15": {
-                  "count": 1,
-                  "replacement": false
-                },
-                "18": {
-                  "count": 1,
-                  "replacement": false
-                }
-              },
-              "allowDrops": true,
-              "type": "feat",
-              "pool": [
-                {
-                  "uuid": "Compendium.rokugan5e.techniques.Item.rtcrashingwavecu"
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.techniques.Item.rtcrescentmoonde"
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.techniques.Item.rtcrimsonleavesb"
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.techniques.Item.rtfallingheavens"
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.techniques.Item.rtflashingsteelc"
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.techniques.Item.rtflowingwaterst"
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.techniques.Item.rtgripoflordhida"
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.techniques.Item.rtheartpiercingt"
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.techniques.Item.rtiaijutsucutcro"
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.techniques.Item.rtiaijutsucutris"
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.techniques.Item.rtironforestdefe"
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.techniques.Item.rtlaughingfoxdef"
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.techniques.Item.rtsnappingbranch"
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.techniques.Item.rtsparkingsteeld"
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.techniques.Item.rtsoaringthunder"
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.techniques.Item.rtsoulsunderings"
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.techniques.Item.rtswirlingvipers"
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.techniques.Item.rttwinstreamsthr"
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.techniques.Item.rtvanishingworld"
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.techniques.Item.rtveiledmenaceth"
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.techniques.Item.rtwaspsspitevoll"
-                }
-              ],
-              "restriction": {
-                "type": "",
-                "subtype": "",
-                "level": ""
-              }
-            },
-            "value": {},
-            "level": 1
-          },
-          {
             "_id": "r21cd352bcb99e61",
             "type": "Subclass",
             "level": 3,
@@ -3030,10 +2646,6 @@
                 },
                 {
                   "uuid": "Compendium.rokugan5e.classfeatures.Item.r39bfa40cdb11af7",
-                  "optional": false
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r449e5a6beae529a",
                   "optional": false
                 },
                 {
@@ -4016,10 +3628,6 @@
                 {
                   "uuid": "Compendium.rokugan5e.classfeatures.Item.r8d3d4ee12276bf3",
                   "optional": false
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r07eabb67f0c69aa",
-                  "optional": false
                 }
               ],
               "optional": false,
@@ -4619,6 +4227,10 @@
                 {
                   "uuid": "Compendium.rokugan5e.classfeatures.Item.ra6c79ba6fb79c2b",
                   "optional": false
+                },
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.rCultivPotentia1",
+                  "optional": false
                 }
               ],
               "optional": false,
@@ -5018,241 +4630,6 @@
             }
           },
           {
-            "_id": "r14f3069021a3a75",
-            "type": "ScaleValue",
-            "title": "Focus Maximum",
-            "configuration": {
-              "identifier": "focus-maximum",
-              "type": "number",
-              "distance": {
-                "units": ""
-              },
-              "scale": {
-                "1": {
-                  "value": 3
-                },
-                "4": {
-                  "value": 4
-                },
-                "7": {
-                  "value": 5
-                },
-                "10": {
-                  "value": 6
-                },
-                "13": {
-                  "value": 7
-                },
-                "16": {
-                  "value": 8
-                },
-                "19": {
-                  "value": 9
-                }
-              }
-            },
-            "value": {}
-          },
-          {
-            "_id": "rdd79a47e1b2f334",
-            "type": "ScaleValue",
-            "title": "Techniques Known",
-            "configuration": {
-              "identifier": "techniques-known",
-              "type": "number",
-              "distance": {
-                "units": ""
-              },
-              "scale": {
-                "1": {
-                  "value": 1
-                },
-                "2": {
-                  "value": 2
-                },
-                "5": {
-                  "value": 3
-                },
-                "9": {
-                  "value": 4
-                },
-                "11": {
-                  "value": 5
-                },
-                "15": {
-                  "value": 6
-                },
-                "18": {
-                  "value": 7
-                }
-              }
-            },
-            "value": {}
-          },
-          {
-            "_id": "r56ef620c7eb87e5",
-            "type": "ScaleValue",
-            "title": "Night Damage",
-            "configuration": {
-              "identifier": "night-damage",
-              "type": "dice",
-              "distance": {
-                "units": ""
-              },
-              "scale": {
-                "1": {
-                  "number": 1,
-                  "faces": 4
-                },
-                "3": {
-                  "number": 2,
-                  "faces": 4
-                },
-                "6": {
-                  "number": 3,
-                  "faces": 4
-                },
-                "8": {
-                  "number": 4,
-                  "faces": 4
-                },
-                "10": {
-                  "number": 5,
-                  "faces": 4
-                },
-                "12": {
-                  "number": 6,
-                  "faces": 4
-                },
-                "14": {
-                  "number": 7,
-                  "faces": 4
-                },
-                "16": {
-                  "number": 8,
-                  "faces": 4
-                },
-                "18": {
-                  "number": 9,
-                  "faces": 4
-                }
-              }
-            },
-            "value": {}
-          },
-          {
-            "_id": "r012a9427d6d9dff",
-            "type": "ItemChoice",
-            "title": "Techniques Known",
-            "configuration": {
-              "hint": "",
-              "choices": {
-                "1": {
-                  "count": 1,
-                  "replacement": false
-                },
-                "2": {
-                  "count": 1,
-                  "replacement": false
-                },
-                "5": {
-                  "count": 1,
-                  "replacement": false
-                },
-                "9": {
-                  "count": 1,
-                  "replacement": false
-                },
-                "11": {
-                  "count": 1,
-                  "replacement": false
-                },
-                "15": {
-                  "count": 1,
-                  "replacement": false
-                },
-                "18": {
-                  "count": 1,
-                  "replacement": false
-                }
-              },
-              "allowDrops": true,
-              "type": "feat",
-              "pool": [
-                {
-                  "uuid": "Compendium.rokugan5e.techniques.Item.rtcrashingwavecu"
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.techniques.Item.rtcrescentmoonde"
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.techniques.Item.rtcrimsonleavesb"
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.techniques.Item.rtfallingheavens"
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.techniques.Item.rtflashingsteelc"
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.techniques.Item.rtflowingwaterst"
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.techniques.Item.rtgripoflordhida"
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.techniques.Item.rtheartpiercingt"
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.techniques.Item.rtiaijutsucutcro"
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.techniques.Item.rtiaijutsucutris"
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.techniques.Item.rtironforestdefe"
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.techniques.Item.rtlaughingfoxdef"
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.techniques.Item.rtsnappingbranch"
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.techniques.Item.rtsparkingsteeld"
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.techniques.Item.rtsoaringthunder"
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.techniques.Item.rtsoulsunderings"
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.techniques.Item.rtswirlingvipers"
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.techniques.Item.rttwinstreamsthr"
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.techniques.Item.rtvanishingworld"
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.techniques.Item.rtveiledmenaceth"
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.techniques.Item.rtwaspsspitevoll"
-                }
-              ],
-              "restriction": {
-                "type": "",
-                "subtype": "",
-                "level": ""
-              }
-            },
-            "value": {},
-            "level": 1
-          },
-          {
             "_id": "rdd6d1ed819ec0d1",
             "type": "Subclass",
             "level": 1,
@@ -5317,31 +4694,6 @@
               "points": 2,
               "fixed": {},
               "cap": 2
-            },
-            "value": {}
-          },
-          {
-            "_id": "r735ef9a73399fa2",
-            "type": "ItemGrant",
-            "level": 1,
-            "title": "Features",
-            "configuration": {
-              "items": [
-                {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r8493077f6b59c49",
-                  "optional": false
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.re2b2b75f04d3c04",
-                  "optional": false
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r6cd353dd2ed10a7",
-                  "optional": false
-                }
-              ],
-              "optional": false,
-              "spell": null
             },
             "value": {}
           },
@@ -8380,6 +7732,30 @@
             },
             "value": {},
             "level": 3
+          },
+          {
+            "_id": "r5a32016abd8a9ca",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r25dcdd05d54fec7",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 1,
+            "title": "Body and Mind"
           }
         ],
         "spellcasting": {
@@ -8413,38 +7789,6 @@
         "identifier": "acolyteofshadows",
         "classIdentifier": "acolyte",
         "advancement": [
-          {
-            "_id": "r0c5a9251be71229",
-            "type": "ItemGrant",
-            "configuration": {
-              "items": [
-                {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r8da5cfcf60d4124",
-                  "optional": false
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r43fac0875f93374",
-                  "optional": false
-                },
-                {
-                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r041538bb27822a8",
-                  "optional": false
-                }
-              ],
-              "optional": false,
-              "spell": {
-                "ability": [],
-                "preparation": "",
-                "uses": {
-                  "max": "",
-                  "per": ""
-                }
-              }
-            },
-            "value": {},
-            "level": 3,
-            "title": "Shadow Initiation"
-          },
           {
             "_id": "r2b8b6b0ab00a79d",
             "type": "ItemChoice",
@@ -8527,7 +7871,130 @@
             "level": 6
           },
           {
-            "_id": "r8c66d7594ae8afe",
+            "_id": "r7556c5d3abe14bd",
+            "type": "ScaleValue",
+            "title": "Night Damage",
+            "configuration": {
+              "identifier": "night-damage",
+              "type": "dice",
+              "distance": {
+                "units": ""
+              },
+              "scale": {
+                "1": {
+                  "number": 1,
+                  "faces": 4
+                },
+                "3": {
+                  "number": 2,
+                  "faces": 4
+                },
+                "6": {
+                  "number": 3,
+                  "faces": 4
+                },
+                "8": {
+                  "number": 4,
+                  "faces": 4
+                },
+                "10": {
+                  "number": 5,
+                  "faces": 4
+                },
+                "12": {
+                  "number": 6,
+                  "faces": 4
+                },
+                "14": {
+                  "number": 7,
+                  "faces": 4
+                },
+                "16": {
+                  "number": 8,
+                  "faces": 4
+                },
+                "18": {
+                  "number": 9,
+                  "faces": 4
+                }
+              }
+            },
+            "value": {}
+          },
+          {
+            "_id": "r74bf20f876ffc47",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r43fac0875f93374",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 1,
+            "title": ""
+          },
+          {
+            "_id": "r4c0251908fcdce4",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r8da5cfcf60d4124",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 2,
+            "title": ""
+          },
+          {
+            "_id": "rb314f68d9dcbd7a",
+            "type": "ItemGrant",
+            "configuration": {
+              "items": [
+                {
+                  "uuid": "Compendium.rokugan5e.classfeatures.Item.r041538bb27822a8",
+                  "optional": false
+                }
+              ],
+              "optional": false,
+              "spell": {
+                "ability": [],
+                "preparation": "",
+                "uses": {
+                  "max": "",
+                  "per": ""
+                }
+              }
+            },
+            "value": {},
+            "level": 3,
+            "title": ""
+          },
+          {
+            "_id": "r085a368932ff2b2",
             "type": "ItemGrant",
             "configuration": {
               "items": [
@@ -8547,11 +8014,11 @@
               }
             },
             "value": {},
-            "level": 11,
-            "title": "Seething Shadows"
+            "level": 9,
+            "title": ""
           },
           {
-            "_id": "rce23e1790ff2255",
+            "_id": "rd409dd311ca8719",
             "type": "ItemGrant",
             "configuration": {
               "items": [
@@ -8571,11 +8038,11 @@
               }
             },
             "value": {},
-            "level": 11,
-            "title": "Deepening Shadows"
+            "level": 14,
+            "title": ""
           },
           {
-            "_id": "r46edd3b5e2ecf79",
+            "_id": "r02316d9841aab4c",
             "type": "ItemGrant",
             "configuration": {
               "items": [
@@ -8596,7 +8063,7 @@
             },
             "value": {},
             "level": 20,
-            "title": "Void Storm"
+            "title": ""
           }
         ],
         "spellcasting": {

@@ -40,6 +40,8 @@ export class RokuganResourcePanel {
       case "focus":   panelHTML = RokuganResourcePanel._buildFocusPanel(actor); break;
       case "favor":   panelHTML = RokuganResourcePanel._buildFavorPanel(actor); break;
       case "yinyang": panelHTML = RokuganResourcePanel._buildYinYangPanel(actor); break;
+      case "ninja":   panelHTML = RokuganResourcePanel._buildNinjaPanel(actor); break;
+      case "intrigue": panelHTML = RokuganResourcePanel._buildIntriguePanel(actor); break;
     }
 
     if (!panelHTML) return;
@@ -105,6 +107,28 @@ export class RokuganResourcePanel {
         <button type="button" class="dock-btn dock-inc" aria-label="+1"><i class="fas fa-plus"></i></button>`;
     }
 
+    if (type === "ninja") {
+      const d = RokuganResources.getNinjaData(actor);
+      if (!d) return "";
+      return `${toggle}
+        <i class="fas fa-user-ninja dock-icon"></i>
+        <span class="dock-label">${game.i18n.localize("ROKUGAN.Ninja.NinjaTools")}</span>
+        <button type="button" class="dock-btn dock-dec" aria-label="-1"><i class="fas fa-minus"></i></button>
+        <span class="dock-value">${d.current}</span><span class="dock-sep">/</span><span class="dock-max">${d.max}</span>
+        <button type="button" class="dock-btn dock-inc" aria-label="+1"><i class="fas fa-plus"></i></button>`;
+    }
+
+    if (type === "intrigue") {
+      const d = RokuganResources.getIntrigueData(actor);
+      if (!d) return "";
+      return `${toggle}
+        <i class="fas fa-comments dock-icon"></i>
+        <span class="dock-label">${game.i18n.localize("ROKUGAN.Intrigue.IntrigueDice")}</span>
+        <button type="button" class="dock-btn dock-dec" aria-label="-1"><i class="fas fa-minus"></i></button>
+        <span class="dock-value">${d.current}</span><span class="dock-sep">/</span><span class="dock-max">${d.max}${d.die}</span>
+        <button type="button" class="dock-btn dock-inc" aria-label="+1"><i class="fas fa-plus"></i></button>`;
+    }
+
     const d = RokuganResources.getYinYangData(actor);
     if (!d) return "";
     return `${toggle}
@@ -144,6 +168,28 @@ export class RokuganResourcePanel {
       dock.find(".dock-inc").on("click", async () => {
         const d = RokuganResources.getFavorData(actor);
         await RokuganResources.setFavor(actor, d.current + 1);
+        RokuganResourcePanel._refreshPanel(actor);
+      });
+    } else if (type === "ninja") {
+      dock.find(".dock-dec").on("click", async () => {
+        const d = RokuganResources.getNinjaData(actor);
+        await RokuganResources.setNinja(actor, d.current - 1);
+        RokuganResourcePanel._refreshPanel(actor);
+      });
+      dock.find(".dock-inc").on("click", async () => {
+        const d = RokuganResources.getNinjaData(actor);
+        await RokuganResources.setNinja(actor, d.current + 1);
+        RokuganResourcePanel._refreshPanel(actor);
+      });
+    } else if (type === "intrigue") {
+      dock.find(".dock-dec").on("click", async () => {
+        const d = RokuganResources.getIntrigueData(actor);
+        await RokuganResources.setIntrigue(actor, d.current - 1);
+        RokuganResourcePanel._refreshPanel(actor);
+      });
+      dock.find(".dock-inc").on("click", async () => {
+        const d = RokuganResources.getIntrigueData(actor);
+        await RokuganResources.setIntrigue(actor, d.current + 1);
         RokuganResourcePanel._refreshPanel(actor);
       });
     } else if (type === "yinyang") {
@@ -204,6 +250,109 @@ export class RokuganResourcePanel {
         <div class="focus-encounter-note">
           <i class="fas fa-info-circle"></i>
           ${game.i18n.localize("ROKUGAN.Focus.EncounterNote")}
+        </div>
+      </div>
+    `;
+  }
+
+  // ----------------------------------------
+  // Ninja Panel (Shinobi — Ninja Tools + Merciless Strike)
+  // Reuses the focus-* visual classes; ninja tools are a prepared pool,
+  // expended on use and refreshed on a long rest.
+  // ----------------------------------------
+
+  static _buildNinjaPanel(actor) {
+    const data = RokuganResources.getNinjaData(actor);
+    if (!data) return "";
+
+    const pips = Array.from({ length: data.max }, (_, i) => {
+      const filled = i < data.current;
+      return `<div class="focus-pip ${filled ? "filled" : ""}" data-index="${i}" title="${game.i18n.localize("ROKUGAN.Ninja.NinjaTools")} ${i + 1}/${data.max}"></div>`;
+    }).join("");
+
+    const className = game.i18n.localize(`ROKUGAN.Class.${data.className.charAt(0).toUpperCase() + data.className.slice(1)}`);
+
+    return `
+      <div class="rokugan-panel-inner rokugan-ninja-inner">
+        <h3 class="rokugan-panel-header icon">
+          <i class="fas fa-user-ninja"></i>
+          <span class="roboto-upper panel-title">${game.i18n.localize("ROKUGAN.Ninja.NinjaTools")}</span>
+          <span class="panel-subtitle">${className} ${game.i18n.localize("ROKUGAN.Focus.Level")} ${data.level}</span>
+          <span class="panel-info">${game.i18n.localize("ROKUGAN.Ninja.MercilessStrike")}: ${data.mercStrike}</span>
+        </h3>
+        <div class="focus-pips-row">
+          ${pips}
+        </div>
+        <div class="focus-controls">
+          <button class="focus-btn focus-decrease" title="${game.i18n.localize("ROKUGAN.Ninja.Use")}">
+            <i class="fas fa-minus"></i>
+          </button>
+          <span class="focus-value">${data.current}</span>
+          <span class="focus-sep">/</span>
+          <span class="focus-max">${data.max}</span>
+          <button class="focus-btn focus-increase" title="${game.i18n.localize("ROKUGAN.Ninja.Prepare")}">
+            <i class="fas fa-plus"></i>
+          </button>
+          <button class="focus-btn focus-reset" title="${game.i18n.localize("ROKUGAN.Ninja.Refresh")}">
+            <i class="fas fa-redo"></i> ${game.i18n.localize("ROKUGAN.Ninja.Refresh")}
+          </button>
+        </div>
+        <div class="focus-encounter-note">
+          <i class="fas fa-info-circle"></i>
+          ${game.i18n.localize("ROKUGAN.Ninja.LongRestNote")}
+        </div>
+      </div>
+    `;
+  }
+
+  // ----------------------------------------
+  // Intrigue Panel (Courtier — Intrigue Dice + Flourishes Known)
+  // Intrigue dice are a spendable pool of a given die size; regain half on a
+  // short rest and all on a long rest. Reuses the focus-* visual classes.
+  // ----------------------------------------
+
+  static _buildIntriguePanel(actor) {
+    const data = RokuganResources.getIntrigueData(actor);
+    if (!data) return "";
+
+    const pips = Array.from({ length: data.max }, (_, i) => {
+      const filled = i < data.current;
+      return `<div class="focus-pip ${filled ? "filled" : ""}" data-index="${i}" title="${game.i18n.localize("ROKUGAN.Intrigue.IntrigueDie")} (${data.die}) ${i + 1}/${data.max}"></div>`;
+    }).join("");
+
+    const className = game.i18n.localize(`ROKUGAN.Class.${data.className.charAt(0).toUpperCase() + data.className.slice(1)}`);
+
+    return `
+      <div class="rokugan-panel-inner rokugan-intrigue-inner">
+        <h3 class="rokugan-panel-header icon">
+          <i class="fas fa-comments"></i>
+          <span class="roboto-upper panel-title">${game.i18n.localize("ROKUGAN.Intrigue.IntrigueDice")} (${data.die})</span>
+          <span class="panel-subtitle">${className} ${game.i18n.localize("ROKUGAN.Focus.Level")} ${data.level}</span>
+          <span class="panel-info">${game.i18n.localize("ROKUGAN.Intrigue.Flourishes")}: ${data.flourishes}</span>
+        </h3>
+        <div class="focus-pips-row">
+          ${pips}
+        </div>
+        <div class="focus-controls">
+          <button class="focus-btn focus-decrease" title="${game.i18n.localize("ROKUGAN.Intrigue.Spend")}">
+            <i class="fas fa-minus"></i>
+          </button>
+          <span class="focus-value">${data.current}</span>
+          <span class="focus-sep">/</span>
+          <span class="focus-max">${data.max}</span>
+          <button class="focus-btn focus-increase" title="${game.i18n.localize("ROKUGAN.Intrigue.Gain")}">
+            <i class="fas fa-plus"></i>
+          </button>
+          <button class="focus-btn intrigue-short" title="${game.i18n.localize("ROKUGAN.Intrigue.ShortRest")}">
+            <i class="fas fa-coffee"></i> ${game.i18n.localize("ROKUGAN.Intrigue.ShortRestShort")}
+          </button>
+          <button class="focus-btn intrigue-long" title="${game.i18n.localize("ROKUGAN.Intrigue.LongRest")}">
+            <i class="fas fa-bed"></i> ${game.i18n.localize("ROKUGAN.Intrigue.LongRestShort")}
+          </button>
+        </div>
+        <div class="focus-encounter-note">
+          <i class="fas fa-info-circle"></i>
+          ${game.i18n.localize("ROKUGAN.Intrigue.RecoveryNote")}
         </div>
       </div>
     `;
@@ -430,6 +579,73 @@ export class RokuganResourcePanel {
           content: game.i18n.format("ROKUGAN.Focus.GainedOnTurnEnd", { total: newVal }),
           speaker: ChatMessage.getSpeaker({ actor }),
         });
+      });
+    }
+
+    if (type === "ninja") {
+      panel.find(".focus-pip").on("click", async (ev) => {
+        const data = RokuganResources.getNinjaData(actor);
+        const index = Number(ev.currentTarget.dataset.index);
+        const newVal = data.current === index + 1 ? index : index + 1;
+        await RokuganResources.setNinja(actor, newVal);
+        RokuganResourcePanel._refreshPanel(actor);
+      });
+
+      panel.find(".focus-decrease").on("click", async () => {
+        const data = RokuganResources.getNinjaData(actor);
+        await RokuganResources.setNinja(actor, data.current - 1);
+        RokuganResourcePanel._refreshPanel(actor);
+      });
+
+      panel.find(".focus-increase").on("click", async () => {
+        const data = RokuganResources.getNinjaData(actor);
+        await RokuganResources.setNinja(actor, data.current + 1);
+        RokuganResourcePanel._refreshPanel(actor);
+      });
+
+      // "Refresh" = prepare a full set of ninja tools (as after a long rest).
+      panel.find(".focus-reset").on("click", async () => {
+        const data = RokuganResources.getNinjaData(actor);
+        await RokuganResources.setNinja(actor, data.max);
+        RokuganResourcePanel._refreshPanel(actor);
+        ui.notifications.info(game.i18n.localize("ROKUGAN.Ninja.RefreshNotif"));
+      });
+    }
+
+    if (type === "intrigue") {
+      panel.find(".focus-pip").on("click", async (ev) => {
+        const data = RokuganResources.getIntrigueData(actor);
+        const index = Number(ev.currentTarget.dataset.index);
+        const newVal = data.current === index + 1 ? index : index + 1;
+        await RokuganResources.setIntrigue(actor, newVal);
+        RokuganResourcePanel._refreshPanel(actor);
+      });
+
+      panel.find(".focus-decrease").on("click", async () => {
+        const data = RokuganResources.getIntrigueData(actor);
+        await RokuganResources.setIntrigue(actor, data.current - 1);
+        RokuganResourcePanel._refreshPanel(actor);
+      });
+
+      panel.find(".focus-increase").on("click", async () => {
+        const data = RokuganResources.getIntrigueData(actor);
+        await RokuganResources.setIntrigue(actor, data.current + 1);
+        RokuganResourcePanel._refreshPanel(actor);
+      });
+
+      // Short rest: regain half of expended dice (rounded down).
+      panel.find(".intrigue-short").on("click", async () => {
+        const data = RokuganResources.getIntrigueData(actor);
+        const regained = Math.floor((data.max - data.current) / 2);
+        await RokuganResources.setIntrigue(actor, data.current + regained);
+        RokuganResourcePanel._refreshPanel(actor);
+      });
+
+      // Long rest: regain all intrigue dice.
+      panel.find(".intrigue-long").on("click", async () => {
+        const data = RokuganResources.getIntrigueData(actor);
+        await RokuganResources.setIntrigue(actor, data.max);
+        RokuganResourcePanel._refreshPanel(actor);
       });
     }
 
