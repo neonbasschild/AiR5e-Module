@@ -2120,7 +2120,7 @@
       "img": "modules/rokugan5e/icons/game-icons/brain.svg",
       "system": {
         "description": {
-          "value": "<p>Shinobi class feature (level 11).</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 81.</em></p>",
+          "value": "<p>Shinobi class feature (level 11).</p><p>You are in a constant state of alertness: increase your passive Perception by +5, you cannot be surprised, and you have advantage on Wisdom (Insight) checks to discern killing intent.</p><p><em>Full text: <em>Adventures in Rokugan</em>, p. 81.</em></p>",
           "chat": ""
         },
         "source": {
@@ -2142,7 +2142,28 @@
         },
         "advancement": []
       },
-      "effects": [],
+      "effects": [
+        {
+          "_id": "7b327a15e7d9c73e",
+          "name": "Vigilant Mind",
+          "img": "modules/rokugan5e/icons/game-icons/brain.svg",
+          "changes": [
+            {
+              "key": "system.skills.prc.passive",
+              "mode": 2,
+              "value": "5",
+              "priority": 20
+            }
+          ],
+          "disabled": false,
+          "transfer": true,
+          "description": "",
+          "origin": null,
+          "duration": {},
+          "statuses": [],
+          "flags": {}
+        }
+      ],
       "folder": "r6fa4c45f10ee205",
       "sort": 0,
       "flags": {},

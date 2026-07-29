@@ -33,7 +33,7 @@ export const ROKUGAN_TABLES = {
     16: { focusMax: 9,  techniques: 6 },
     17: { focusMax: 9,  techniques: 6 },
     18: { focusMax: 9,  techniques: 7 },
-    19: { focusMax: 10, techniques: 7 },
+    19: { focusMax: 9 , techniques: 7 },
     20: { focusMax: 10, techniques: 7 },
   },
 
@@ -60,7 +60,7 @@ export const ROKUGAN_TABLES = {
     16: { focusMax: 9,  techniques: 6 },
     17: { focusMax: 9,  techniques: 6 },
     18: { focusMax: 9,  techniques: 7 },
-    19: { focusMax: 10, techniques: 7 },
+    19: { focusMax: 9 , techniques: 7 },
     20: { focusMax: 10, techniques: 7 },
   },
 
